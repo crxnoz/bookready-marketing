@@ -30,12 +30,12 @@ python3 -m http.server 8000
 
 - `index.html` — all page content
 - `styles.css` — visual language (cream + sage palette, DM Serif Text
-  + Cookie + Roboto), matches the Marquee template collection
+  + Cookie + Roboto), matches the BookReady template collection
 - Add images to an `assets/` folder if needed; link with relative paths
 
 ## Brand language
 
-Same fonts + palette as the Marquee templates in the main BookReady
+Same fonts + palette as the BookReady templates in the main BookReady
 app, so the marketing site visually continues into the product:
 
 | Token  | Value      |
