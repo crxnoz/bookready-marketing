@@ -41,7 +41,7 @@ button { cursor: pointer; font: inherit; }
   border-bottom: 1px solid var(--border);
 }
 .br-nav__inner {
-  width: min(1180px, 100%);
+  width: min(1360px, 100%);
   margin: 0 auto;
   padding: 16px 20px;
   display: flex;
@@ -129,7 +129,7 @@ button { cursor: pointer; font: inherit; }
   padding: 96px 20px 64px;
 }
 .br-hero__inner {
-  width: min(1180px, 100%);
+  width: min(1360px, 100%);
   margin: 0 auto;
   max-width: 980px;
 }
@@ -178,7 +178,7 @@ button { cursor: pointer; font: inherit; }
   border-top: 1px solid var(--border);
 }
 .br-section__inner {
-  width: min(1180px, 100%);
+  width: min(1360px, 100%);
   margin: 0 auto;
 }
 .br-section__head {
@@ -486,7 +486,7 @@ button { cursor: pointer; font: inherit; }
   padding: 96px 20px;
 }
 .br-final-cta__inner {
-  width: min(1180px, 100%);
+  width: min(1360px, 100%);
   margin: 0 auto;
   max-width: 860px;
 }
@@ -512,7 +512,7 @@ button { cursor: pointer; font: inherit; }
   padding: 64px 20px 32px;
 }
 .br-footer__inner {
-  width: min(1180px, 100%);
+  width: min(1360px, 100%);
   margin: 0 auto;
 }
 .br-footer__grid {
