@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <!-- ─── Top nav ─── -->
+  <!-- ─── Top nav with full-width mega panels ─── -->
   <header class="br-nav" data-br-nav>
     <div class="br-nav__inner">
       <a class="br-nav__mark" href="/">BookReady</a>
@@ -25,104 +25,146 @@
 
         <ul class="br-nav__list" role="menubar">
 
-          <!-- Templates -->
-          <li class="br-nav__item br-nav__item--has-menu" role="none">
-            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-dd-templates" data-br-dropdown>
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-templates" data-br-trigger>
               Templates
               <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </button>
-            <div class="br-dropdown" id="br-dd-templates" role="menu" hidden>
-              <p class="br-dropdown__kicker">Browse the collection</p>
-              <a href="/templates" role="menuitem">
-                <span class="br-dropdown__title">All templates</span>
-                <span class="br-dropdown__sub">Every template in the BookReady collection</span>
-              </a>
-              <a href="/templates/categories" role="menuitem">
-                <span class="br-dropdown__title">By category</span>
-                <span class="br-dropdown__sub">Barber, spa, lash, nails, hair, solo</span>
-              </a>
-              <a href="/templates/new" role="menuitem">
-                <span class="br-dropdown__title">Newest releases</span>
-                <span class="br-dropdown__sub">Just-shipped designs from the team</span>
-              </a>
-            </div>
           </li>
 
-          <!-- Platform -->
-          <li class="br-nav__item br-nav__item--has-menu" role="none">
-            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-dd-platform" data-br-dropdown>
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-platform" data-br-trigger>
               Platform
               <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </button>
-            <div class="br-dropdown" id="br-dd-platform" role="menu" hidden>
-              <p class="br-dropdown__kicker">What BookReady is</p>
-              <a href="/platform/website-experience" role="menuitem">
-                <span class="br-dropdown__title">Website Experience</span>
-                <span class="br-dropdown__sub">Designed templates ready to launch</span>
-              </a>
-              <a href="/platform/booking-system" role="menuitem">
-                <span class="br-dropdown__title">Booking System</span>
-                <span class="br-dropdown__sub">Calendar, deposits, reminders, customer flow</span>
-              </a>
-              <a href="/platform/business-tools" role="menuitem">
-                <span class="br-dropdown__title">Business Tools</span>
-                <span class="br-dropdown__sub">Reviews, analytics, marketing, automations</span>
-              </a>
-            </div>
           </li>
 
-          <!-- Features -->
-          <li class="br-nav__item br-nav__item--has-menu" role="none">
-            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-dd-features" data-br-dropdown>
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-features" data-br-trigger>
               Features
               <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </button>
-            <div class="br-dropdown" id="br-dd-features" role="menu" hidden>
-              <p class="br-dropdown__kicker">What you actually do with it</p>
-              <a href="/features/client-experience" role="menuitem">
-                <span class="br-dropdown__title">Client Experience</span>
-                <span class="br-dropdown__sub">How clients book, pay, and come back</span>
-              </a>
-              <a href="/features/easy-management" role="menuitem">
-                <span class="br-dropdown__title">Easy Management</span>
-                <span class="br-dropdown__sub">Your day-to-day, made forgettable</span>
-              </a>
-              <a href="/features/growth" role="menuitem">
-                <span class="br-dropdown__title">Growth</span>
-                <span class="br-dropdown__sub">Marketing, retention, and the next 100 bookings</span>
-              </a>
-            </div>
           </li>
 
-          <!-- Resources -->
-          <li class="br-nav__item br-nav__item--has-menu" role="none">
-            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-dd-resources" data-br-dropdown>
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-resources" data-br-trigger>
               Resources
               <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </button>
-            <div class="br-dropdown" id="br-dd-resources" role="menu" hidden>
-              <p class="br-dropdown__kicker">Get smarter, get better</p>
-              <a href="/learn" role="menuitem">
-                <span class="br-dropdown__title">Learn</span>
-                <span class="br-dropdown__sub">Guides, blog, and how-tos</span>
-              </a>
-              <a href="/community" role="menuitem">
-                <span class="br-dropdown__title">Community</span>
-                <span class="br-dropdown__sub">Talk with other beauty entrepreneurs</span>
-              </a>
-              <a href="/updates" role="menuitem">
-                <span class="br-dropdown__title">Updates</span>
-                <span class="br-dropdown__sub">What we shipped this week</span>
-              </a>
-            </div>
           </li>
 
-          <!-- Pricing (no dropdown) -->
           <li class="br-nav__item" role="none">
             <a class="br-nav__link" href="/pricing" role="menuitem">Pricing</a>
           </li>
 
         </ul>
+
+        <!-- Mega panels live inside .br-nav__menu so the mobile drawer
+             contains them naturally. On desktop they break out of flex
+             flow via position:absolute and span the full viewport width
+             below the sticky nav. -->
+
+        <div class="br-megapanel br-megapanel--two" id="br-mega-templates" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Browse</p>
+              <a href="/templates" role="menuitem">All templates</a>
+              <a href="/templates/new" role="menuitem">Newest releases</a>
+              <a href="/templates/popular" role="menuitem">Most popular</a>
+            </div>
+            <div class="br-megapanel__col br-megapanel__col--split">
+              <p class="br-megapanel__kicker">By business type</p>
+              <a href="/templates/barber" role="menuitem">Barbershop &amp; Men&rsquo;s Grooming</a>
+              <a href="/templates/spa" role="menuitem">Spa &amp; Wellness</a>
+              <a href="/templates/lash" role="menuitem">Lash &amp; Brow Studios</a>
+              <a href="/templates/nails" role="menuitem">Nail Studios</a>
+              <a href="/templates/hair" role="menuitem">Hair Salons</a>
+              <a href="/templates/solo" role="menuitem">Solo Pros</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="br-megapanel" id="br-mega-platform" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Website Experience</p>
+              <a href="/platform/website/templates" role="menuitem">Designed templates</a>
+              <a href="/platform/website/domain" role="menuitem">Custom domain</a>
+              <a href="/platform/website/mobile" role="menuitem">Mobile-first</a>
+              <a href="/platform/website/sections" role="menuitem">Branded sections</a>
+              <a href="/platform/website/announcement" role="menuitem">Announcement bar</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Booking System</p>
+              <a href="/platform/booking/online" role="menuitem">Online booking</a>
+              <a href="/platform/booking/calendar" role="menuitem">Smart calendar</a>
+              <a href="/platform/booking/sync" role="menuitem">Calendar sync</a>
+              <a href="/platform/booking/recurring" role="menuitem">Recurring appointments</a>
+              <a href="/platform/booking/waitlist" role="menuitem">Waitlist</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Business Tools</p>
+              <a href="/platform/tools/payments" role="menuitem">Stripe payments + deposits</a>
+              <a href="/platform/tools/customers" role="menuitem">Customer accounts</a>
+              <a href="/platform/tools/notifications" role="menuitem">SMS + email reminders</a>
+              <a href="/platform/tools/marketing" role="menuitem">Marketing campaigns</a>
+              <a href="/platform/tools/analytics" role="menuitem">Analytics</a>
+              <a href="/platform/tools/reviews" role="menuitem">Reviews integration</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="br-megapanel" id="br-mega-features" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Client Experience</p>
+              <a href="/features/client/booking" role="menuitem">Mobile booking flow</a>
+              <a href="/features/client/dashboard" role="menuitem">Customer dashboard</a>
+              <a href="/features/client/payments" role="menuitem">Saved payment methods</a>
+              <a href="/features/client/reschedule" role="menuitem">Self-serve reschedule</a>
+              <a href="/features/client/reminders" role="menuitem">Automated reminders</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Easy Management</p>
+              <a href="/features/manage/dashboard" role="menuitem">One dashboard</a>
+              <a href="/features/manage/reschedule" role="menuitem">Quick reschedule</a>
+              <a href="/features/manage/staff" role="menuitem">Staff management</a>
+              <a href="/features/manage/hours" role="menuitem">Hours &amp; blocked dates</a>
+              <a href="/features/manage/customers" role="menuitem">Customer database</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Growth</p>
+              <a href="/features/growth/email" role="menuitem">Email campaigns</a>
+              <a href="/features/growth/sms" role="menuitem">SMS marketing</a>
+              <a href="/features/growth/reviews" role="menuitem">Reviews engine</a>
+              <a href="/features/growth/winback" role="menuitem">Win-back automations</a>
+              <a href="/features/growth/analytics" role="menuitem">Analytics</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="br-megapanel" id="br-mega-resources" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Learn</p>
+              <a href="/blog" role="menuitem">Blog</a>
+              <a href="/guides" role="menuitem">Guides</a>
+              <a href="/tutorials" role="menuitem">Video tutorials</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Community</p>
+              <a href="/customers" role="menuitem">Customer stories</a>
+              <a href="/community" role="menuitem">Discord</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Updates</p>
+              <a href="/changelog" role="menuitem">Changelog</a>
+              <a href="/roadmap" role="menuitem">Roadmap</a>
+              <a href="/newsletter" role="menuitem">Newsletter</a>
+              <a href="/migration" role="menuitem">Migration guide</a>
+            </div>
+          </div>
+        </div>
 
         <div class="br-nav__actions">
           <a class="br-nav__signin" href="https://app.bkrdy.me/login">Sign in</a>
@@ -420,7 +462,7 @@
 
     var hamburger = nav.querySelector('[data-br-hamburger]');
     var menu      = nav.querySelector('#br-nav-menu');
-    var triggers  = nav.querySelectorAll('[data-br-dropdown]');
+    var triggers  = nav.querySelectorAll('[data-br-trigger]');
 
     // ── Mobile hamburger ──────────────────────────────────────
     if (hamburger) {

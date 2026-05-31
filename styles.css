@@ -125,55 +125,77 @@ button { cursor: pointer; font: inherit; }
 .br-nav__trigger[aria-expanded="true"] { background: rgba(18,18,18,0.05); }
 .br-nav__trigger[aria-expanded="true"] .br-nav__chev { transform: rotate(180deg); }
 
-/* ── Dropdown panel ── */
-.br-dropdown {
+/* ── Mega panel (full-width below nav) ──
+   Position absolute, anchored to .br-nav (which is position:sticky
+   and therefore the nearest positioned ancestor). left:0/right:0
+   spans the full viewport width. The inner container caps at the
+   nav's 1360px max-width and centers. */
+.br-megapanel {
   position: absolute;
-  top: calc(100% + 12px);
+  top: 100%;
   left: 0;
-  min-width: 320px;
+  right: 0;
+  width: 100%;
   background: var(--card);
-  border: 1px solid var(--border);
-  padding: 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  box-shadow: 0 24px 48px rgba(18,18,18,0.10), 0 4px 12px rgba(18,18,18,0.06);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 20px 48px rgba(18,18,18,0.06);
   z-index: 40;
 }
-.br-dropdown[hidden] { display: none; }
-.br-dropdown__kicker {
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--muted);
-  margin: 0 0 10px;
-  padding: 0 10px;
+.br-megapanel[hidden] { display: none; }
+.br-megapanel__inner {
+  width: min(1360px, 100%);
+  margin: 0 auto;
+  padding: 40px 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 56px;
 }
-.br-dropdown a {
+/* Templates panel is 2-col: Browse (narrow) + By business type (wide) */
+.br-megapanel--two .br-megapanel__inner {
+  grid-template-columns: 1fr 2fr;
+}
+.br-megapanel__col {
   display: flex;
   flex-direction: column;
-  gap: 2px;
-  padding: 10px 12px;
-  text-decoration: none;
-  border-left: 2px solid transparent;
-  transition: background .12s ease, border-color .12s ease;
 }
-.br-dropdown a:hover {
-  background: var(--bg);
-  border-left-color: var(--accent);
-}
-.br-dropdown__title {
-  font-size: 14px;
+.br-megapanel__kicker {
+  font-size: 11px;
   font-weight: 800;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+.br-megapanel__col a {
+  display: block;
+  padding: 12px 0;
+  font-size: 14px;
+  font-weight: 700;
   letter-spacing: -0.01em;
   color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(18,18,18,0.06);
+  transition: color .12s ease, padding-left .12s ease;
 }
-.br-dropdown__sub {
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--muted);
-  line-height: 1.45;
+.br-megapanel__col a:hover {
+  color: var(--accent);
+  padding-left: 6px;
+}
+.br-megapanel__col a:last-child {
+  border-bottom: none;
+}
+/* The wide "By business type" col on Templates uses 2 sub-columns
+   so 6 items render side-by-side instead of as one tall list. */
+.br-megapanel__col--split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 36px;
+}
+.br-megapanel__col--split .br-megapanel__kicker {
+  grid-column: 1 / -1;
 }
 
 /* ── Right-side actions ── */
@@ -260,25 +282,40 @@ button { cursor: pointer; font: inherit; }
   .br-nav__link:hover { background: transparent; }
   .br-nav__trigger[aria-expanded="true"] { background: transparent; }
 
-  /* Dropdowns become inline accordion sections on mobile */
-  .br-dropdown {
+  /* Mega panels flatten into inline accordion sections inside the
+     mobile drawer — all columns stack vertically as a single list. */
+  .br-megapanel {
     position: static;
     width: 100%;
-    min-width: 0;
-    margin: 0 0 14px;
-    padding: 10px 0 4px;
     background: transparent;
     border: none;
     box-shadow: none;
+    margin: 0 0 16px;
   }
-  .br-dropdown__kicker { padding: 0 4px 6px; }
-  .br-dropdown a {
-    padding: 12px 14px;
+  .br-megapanel__inner,
+  .br-megapanel--two .br-megapanel__inner {
+    padding: 16px 0 0;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .br-megapanel__col,
+  .br-megapanel__col--split {
+    display: flex !important;
+    flex-direction: column !important;
     background: var(--card);
     border: 1px solid var(--border);
-    border-left-width: 2px;
-    margin-bottom: 6px;
+    padding: 16px;
   }
+  .br-megapanel__kicker {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+  }
+  .br-megapanel__col a {
+    padding: 12px 4px;
+    border-bottom: 1px solid rgba(18,18,18,0.06);
+  }
+  .br-megapanel__col a:hover { padding-left: 4px; }
 
   .br-nav__actions {
     flex-direction: column;
