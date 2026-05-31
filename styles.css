@@ -125,24 +125,48 @@ button { cursor: pointer; font: inherit; }
 .br-nav__trigger[aria-expanded="true"] { background: rgba(18,18,18,0.05); }
 .br-nav__trigger[aria-expanded="true"] .br-nav__chev { transform: rotate(180deg); }
 
-/* ── Mega panel (full-width below nav) ──
-   Position absolute, anchored to .br-nav (which is position:sticky
-   and therefore the nearest positioned ancestor). left:0/right:0
-   spans the full viewport width. The inner container caps at the
-   nav's 1360px max-width and centers. */
+/* ── Mega panel (constrained card below nav, fades+slides in) ──
+   Position absolute anchored to .br-nav (which is position:sticky).
+   Centered horizontally via left:0 right:0 margin:auto + a max-width
+   so it floats as a card instead of spanning the viewport. Animates
+   in with opacity + translateY; visibility delays out so the element
+   stays interactive until the fade completes. */
 .br-megapanel {
   position: absolute;
-  top: 100%;
+  top: calc(100% + 6px);
   left: 0;
   right: 0;
-  width: 100%;
+  margin: 0 auto;
+  width: min(1280px, calc(100% - 48px));
   background: var(--card);
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-  box-shadow: 0 20px 48px rgba(18,18,18,0.06);
+  border: 1px solid var(--border);
+  box-shadow: 0 18px 40px rgba(18,18,18,0.10), 0 4px 10px rgba(18,18,18,0.04);
   z-index: 40;
+
+  /* default = closed */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  pointer-events: none;
+  transition:
+    opacity 180ms ease-out,
+    transform 180ms ease-out,
+    visibility 0s linear 180ms;
 }
-.br-megapanel[hidden] { display: none; }
+.br-megapanel.is-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+  transition:
+    opacity 180ms ease-out,
+    transform 180ms ease-out,
+    visibility 0s linear 0s;
+}
+/* `hidden` is now just a SSR initial-state hint; the .is-open class
+   drives all show/hide so transitions actually run. We override it
+   when the panel is open so display:none doesn't kill the animation. */
+.br-megapanel[hidden]:not(.is-open) { display: block; }
 .br-megapanel__inner {
   width: min(1360px, 100%);
   margin: 0 auto;
@@ -283,15 +307,25 @@ button { cursor: pointer; font: inherit; }
   .br-nav__trigger[aria-expanded="true"] { background: transparent; }
 
   /* Mega panels flatten into inline accordion sections inside the
-     mobile drawer — all columns stack vertically as a single list. */
+     mobile drawer. Animation is dropped on mobile — drawer is already
+     an animated container; nested fades feel laggy on touch. */
   .br-megapanel {
     position: static;
     width: 100%;
+    max-width: none;
     background: transparent;
     border: none;
     box-shadow: none;
     margin: 0 0 16px;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    pointer-events: auto;
+    transition: none;
+    display: none;
   }
+  .br-megapanel.is-open { display: block; }
+  .br-megapanel[hidden]:not(.is-open) { display: none; }
   .br-megapanel__inner,
   .br-megapanel--two .br-megapanel__inner {
     padding: 16px 0 0;
