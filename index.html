@@ -13,15 +13,122 @@
 <body>
 
   <!-- ─── Top nav ─── -->
-  <header class="br-nav">
+  <header class="br-nav" data-br-nav>
     <div class="br-nav__inner">
       <a class="br-nav__mark" href="/">BookReady</a>
-      <nav class="br-nav__links">
-        <a href="#templates">Templates</a>
-        <a href="#features">Features</a>
-        <a href="#pricing">Pricing</a>
-        <a href="https://app.bkrdy.me/login">Sign in</a>
-        <a class="br-nav__cta" href="https://app.bkrdy.me/register">Start free</a>
+
+      <button class="br-nav__hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="br-nav-menu" data-br-hamburger>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="br-nav__menu" id="br-nav-menu" aria-label="Primary">
+
+        <ul class="br-nav__list" role="menubar">
+
+          <!-- Templates -->
+          <li class="br-nav__item br-nav__item--has-menu" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-dd-templates" data-br-dropdown>
+              Templates
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="br-dropdown" id="br-dd-templates" role="menu" hidden>
+              <p class="br-dropdown__kicker">Browse the collection</p>
+              <a href="/templates" role="menuitem">
+                <span class="br-dropdown__title">All templates</span>
+                <span class="br-dropdown__sub">Every template in the BookReady collection</span>
+              </a>
+              <a href="/templates/categories" role="menuitem">
+                <span class="br-dropdown__title">By category</span>
+                <span class="br-dropdown__sub">Barber, spa, lash, nails, hair, solo</span>
+              </a>
+              <a href="/templates/new" role="menuitem">
+                <span class="br-dropdown__title">Newest releases</span>
+                <span class="br-dropdown__sub">Just-shipped designs from the team</span>
+              </a>
+            </div>
+          </li>
+
+          <!-- Platform -->
+          <li class="br-nav__item br-nav__item--has-menu" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-dd-platform" data-br-dropdown>
+              Platform
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="br-dropdown" id="br-dd-platform" role="menu" hidden>
+              <p class="br-dropdown__kicker">What BookReady is</p>
+              <a href="/platform/website-experience" role="menuitem">
+                <span class="br-dropdown__title">Website Experience</span>
+                <span class="br-dropdown__sub">Designed templates ready to launch</span>
+              </a>
+              <a href="/platform/booking-system" role="menuitem">
+                <span class="br-dropdown__title">Booking System</span>
+                <span class="br-dropdown__sub">Calendar, deposits, reminders, customer flow</span>
+              </a>
+              <a href="/platform/business-tools" role="menuitem">
+                <span class="br-dropdown__title">Business Tools</span>
+                <span class="br-dropdown__sub">Reviews, analytics, marketing, automations</span>
+              </a>
+            </div>
+          </li>
+
+          <!-- Features -->
+          <li class="br-nav__item br-nav__item--has-menu" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-dd-features" data-br-dropdown>
+              Features
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="br-dropdown" id="br-dd-features" role="menu" hidden>
+              <p class="br-dropdown__kicker">What you actually do with it</p>
+              <a href="/features/client-experience" role="menuitem">
+                <span class="br-dropdown__title">Client Experience</span>
+                <span class="br-dropdown__sub">How clients book, pay, and come back</span>
+              </a>
+              <a href="/features/easy-management" role="menuitem">
+                <span class="br-dropdown__title">Easy Management</span>
+                <span class="br-dropdown__sub">Your day-to-day, made forgettable</span>
+              </a>
+              <a href="/features/growth" role="menuitem">
+                <span class="br-dropdown__title">Growth</span>
+                <span class="br-dropdown__sub">Marketing, retention, and the next 100 bookings</span>
+              </a>
+            </div>
+          </li>
+
+          <!-- Resources -->
+          <li class="br-nav__item br-nav__item--has-menu" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-dd-resources" data-br-dropdown>
+              Resources
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="br-dropdown" id="br-dd-resources" role="menu" hidden>
+              <p class="br-dropdown__kicker">Get smarter, get better</p>
+              <a href="/learn" role="menuitem">
+                <span class="br-dropdown__title">Learn</span>
+                <span class="br-dropdown__sub">Guides, blog, and how-tos</span>
+              </a>
+              <a href="/community" role="menuitem">
+                <span class="br-dropdown__title">Community</span>
+                <span class="br-dropdown__sub">Talk with other beauty entrepreneurs</span>
+              </a>
+              <a href="/updates" role="menuitem">
+                <span class="br-dropdown__title">Updates</span>
+                <span class="br-dropdown__sub">What we shipped this week</span>
+              </a>
+            </div>
+          </li>
+
+          <!-- Pricing (no dropdown) -->
+          <li class="br-nav__item" role="none">
+            <a class="br-nav__link" href="/pricing" role="menuitem">Pricing</a>
+          </li>
+
+        </ul>
+
+        <div class="br-nav__actions">
+          <a class="br-nav__signin" href="https://app.bkrdy.me/login">Sign in</a>
+          <a class="br-nav__cta" href="https://app.bkrdy.me/register">Start free</a>
+        </div>
+
       </nav>
     </div>
   </header>
@@ -304,6 +411,70 @@
       </p>
     </div>
   </footer>
+
+  <!-- ─── Nav behavior (vanilla JS, no deps) ─── -->
+  <script>
+  (function () {
+    var nav = document.querySelector('[data-br-nav]');
+    if (!nav) return;
+
+    var hamburger = nav.querySelector('[data-br-hamburger]');
+    var menu      = nav.querySelector('#br-nav-menu');
+    var triggers  = nav.querySelectorAll('[data-br-dropdown]');
+
+    // ── Mobile hamburger ──────────────────────────────────────
+    if (hamburger) {
+      hamburger.addEventListener('click', function () {
+        var open = nav.classList.toggle('is-open');
+        hamburger.setAttribute('aria-expanded', open ? 'true' : 'false');
+        hamburger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+        document.body.style.overflow = open ? 'hidden' : '';
+      });
+    }
+
+    // ── Desktop + mobile dropdowns ────────────────────────────
+    function closeAll(except) {
+      triggers.forEach(function (t) {
+        if (t === except) return;
+        var id = t.getAttribute('aria-controls');
+        var dd = document.getElementById(id);
+        t.setAttribute('aria-expanded', 'false');
+        if (dd) dd.hidden = true;
+      });
+    }
+
+    triggers.forEach(function (trigger) {
+      var id = trigger.getAttribute('aria-controls');
+      var dd = document.getElementById(id);
+      if (!dd) return;
+
+      trigger.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var isOpen = trigger.getAttribute('aria-expanded') === 'true';
+        closeAll(trigger);
+        trigger.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+        dd.hidden = isOpen;
+      });
+    });
+
+    // Close dropdowns on outside click (desktop) — leave mobile-menu open.
+    document.addEventListener('click', function (e) {
+      if (!nav.contains(e.target)) closeAll();
+    });
+
+    // Escape closes everything.
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Escape') return;
+      closeAll();
+      if (nav.classList.contains('is-open')) {
+        nav.classList.remove('is-open');
+        hamburger.setAttribute('aria-expanded', 'false');
+        hamburger.setAttribute('aria-label', 'Open menu');
+        document.body.style.overflow = '';
+      }
+    });
+  })();
+  </script>
 
 </body>
 </html>
