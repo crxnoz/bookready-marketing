@@ -3,255 +3,306 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>BookReady — Beautiful booking sites for boutique beauty businesses</title>
+  <title>BookReady — Beautiful booking websites for beauty brands</title>
   <meta name="description" content="BookReady gives boutique salons, barbers, lash techs, and spas a real brand site with booking built in. Pick a Marquee template, plug in your services, and you're live." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=DM+Mono:wght@400;500&family=Molle:ital@1&family=DM+Serif+Text:ital@0;1&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- ── Top nav ── -->
-  <header class="nav">
-    <a class="nav-mark" href="/">BookReady</a>
-    <nav class="nav-links">
-      <a href="#templates">Templates</a>
-      <a href="#pricing">Pricing</a>
-      <a href="https://app.bkrdy.me/login">Sign in</a>
-      <a class="nav-cta" href="https://app.bkrdy.me/register">Start free</a>
-    </nav>
+  <!-- ─── Top nav ─── -->
+  <header class="br-nav">
+    <div class="br-nav__inner">
+      <a class="br-nav__mark" href="/">BookReady</a>
+      <nav class="br-nav__links">
+        <a href="#templates">Templates</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="https://app.bkrdy.me/login">Sign in</a>
+        <a class="br-nav__cta" href="https://app.bkrdy.me/register">Start free</a>
+      </nav>
+    </div>
   </header>
 
-  <!-- ── Hero ── -->
-  <section class="hero">
-    <p class="hero-eyebrow">For boutique salons, barbers, lash &amp; nail techs, spas</p>
-    <h1 class="hero-title">
-      A booking site that
-      <em>actually looks like</em>
-      your brand.
-    </h1>
-    <p class="hero-sub">
-      Most booking software gives you a generic page with your logo slapped on top.
-      BookReady gives you a real, designed site — picked from our
-      <strong>Marquee</strong> template collection — with bookings, payments, and
-      reminders built in.
-    </p>
-    <div class="hero-ctas">
-      <a class="btn btn-primary" href="https://app.bkrdy.me/register">Start your 14-day trial</a>
-      <a class="btn btn-ghost" href="#templates">See the templates</a>
-    </div>
-    <p class="hero-fine">No card required for the first 7 days · Cancel anytime · Keep your domain</p>
-  </section>
-
-  <!-- ── Marquee templates strip ── -->
-  <section id="templates" class="templates">
-    <header class="section-head">
-      <span class="section-kicker">The Marquee Collection</span>
-      <h2 class="section-title">Three brands. Pick the one that&rsquo;s already you.</h2>
-      <p class="section-sub">
-        Every template is a complete brand system — typography, color, layout,
-        booking flow, customer dashboard. Switch between them anytime.
+  <!-- ─── Hero ─── -->
+  <section class="br-hero">
+    <div class="br-hero__inner">
+      <div class="br-hero__eyebrow">For beauty brands</div>
+      <h1 class="br-hero__title">
+        Beautiful booking websites built for the way your brand actually looks.
+      </h1>
+      <p class="br-hero__intro">
+        Most booking software hands you a generic page with your logo dropped on top. BookReady gives you a real, designed website &mdash; picked from our Marquee template collection &mdash; with bookings, payments, and reminders built in.
       </p>
-    </header>
-
-    <div class="tpl-grid">
-      <article class="tpl-card tpl-fade">
-        <div class="tpl-preview">The Fade Room</div>
-        <h3 class="tpl-name">The Fade Room</h3>
-        <p class="tpl-tag">Bold · barbershop · after-hours energy</p>
-        <p class="tpl-desc">
-          Dark, confident, masculine. Built for barbers, modern men&rsquo;s
-          grooming, and shops with a strong identity.
-        </p>
-      </article>
-
-      <article class="tpl-card tpl-lush">
-        <div class="tpl-preview">Lush Studio</div>
-        <h3 class="tpl-name">Lush Studio</h3>
-        <p class="tpl-tag">Soft · spa · editorial calm</p>
-        <p class="tpl-desc">
-          Cream, sage, generous white space. Built for spas, facialists, lash
-          techs, and any brand that sells calm.
-        </p>
-      </article>
-
-      <article class="tpl-card tpl-velvet">
-        <div class="tpl-preview">Velvet Theory</div>
-        <h3 class="tpl-name">Velvet Theory <span class="tpl-soon">Coming soon</span></h3>
-        <p class="tpl-tag">Luxe · sensual · jewel tones</p>
-        <p class="tpl-desc">
-          Rich, brooding, editorial. Built for lash bars, beauty boutiques,
-          and brands with serious aesthetics.
-        </p>
-      </article>
+      <div class="br-hero__actions">
+        <a href="https://app.bkrdy.me/register" class="br-button">Start your 14-day trial</a>
+        <a href="#templates" class="br-text-link">Browse templates</a>
+      </div>
     </div>
   </section>
 
-  <!-- ── Features strip ── -->
-  <section class="features">
-    <div class="feature">
-      <h3>Designed, not generic</h3>
-      <p>Each template is a real brand system — not a Wix theme. Custom typography, real color palettes, real polish.</p>
-    </div>
-    <div class="feature">
-      <h3>Bookings + payments built in</h3>
-      <p>Stripe-powered deposits and full payments. No transaction fees on top of Stripe. What you collect is what you keep.</p>
-    </div>
-    <div class="feature">
-      <h3>SMS &amp; email reminders</h3>
-      <p>10DLC-registered SMS and email confirmations included. Drop your no-show rate without lifting a finger.</p>
-    </div>
-    <div class="feature">
-      <h3>Customer accounts</h3>
-      <p>Your customers get their own dashboard to reschedule, cancel, and rebook. No more 11 PM text threads.</p>
+  <!-- ─── Templates ─── -->
+  <section id="templates" class="br-section">
+    <div class="br-section__inner">
+
+      <div class="br-section__head">
+        <p class="br-kicker">The Marquee Collection</p>
+        <h2 class="br-section__title">
+          Three brands. Pick the one that&rsquo;s already you.
+        </h2>
+        <p class="br-section__intro">
+          Every template is a complete brand system &mdash; typography, color, layout, booking flow, customer dashboard. Switch between them anytime; your bookings and customers stay put.
+        </p>
+      </div>
+
+      <div class="br-template-grid">
+
+        <article class="br-template-card">
+          <div class="br-template-card__preview br-template-card__preview--fade">
+            <span>The Fade Room</span>
+          </div>
+          <p class="br-template-card__label">Bold &middot; Barbershop</p>
+          <h3>The Fade Room</h3>
+          <p class="br-template-card__text">
+            Dark, confident, after-hours energy. Built for barbers, men&rsquo;s grooming, and shops with a strong identity.
+          </p>
+        </article>
+
+        <article class="br-template-card">
+          <div class="br-template-card__preview br-template-card__preview--lush">
+            <span>Lush Studio</span>
+          </div>
+          <p class="br-template-card__label">Soft &middot; Spa &amp; Wellness</p>
+          <h3>Lush Studio</h3>
+          <p class="br-template-card__text">
+            Cream, sage, editorial calm. Built for spas, facialists, lash techs, and brands that sell calm above all.
+          </p>
+        </article>
+
+        <article class="br-template-card">
+          <div class="br-template-card__preview br-template-card__preview--velvet">
+            <span>Velvet Theory</span>
+          </div>
+          <p class="br-template-card__label">Luxe &middot; Beauty Boutique</p>
+          <h3>Velvet Theory <span class="br-soon">Coming soon</span></h3>
+          <p class="br-template-card__text">
+            Rich, brooding, jewel-toned. Built for lash bars, beauty boutiques, and brands with serious aesthetics.
+          </p>
+        </article>
+
+      </div>
     </div>
   </section>
 
-  <!-- ── Pricing ── -->
-  <section id="pricing" class="pricing">
-    <header class="section-head">
-      <span class="section-kicker">Pricing</span>
-      <h2 class="section-title">Simple plans. <em>Real</em> value.</h2>
-      <p class="section-sub">
-        Every plan includes every Marquee template, custom domain, Stripe deposits,
-        unlimited bookings, and customer accounts. The only thing that changes
-        between tiers is team size and SMS volume.
+  <!-- ─── Pricing ─── -->
+  <section id="pricing" class="br-section br-section--bordered">
+    <div class="br-section__inner">
+
+      <div class="br-section__head">
+        <p class="br-kicker">Pricing</p>
+        <h2 class="br-section__title">
+          Simple pricing for beauty brands ready to look professional online.
+        </h2>
+        <p class="br-section__intro">
+          Every plan includes the full Marquee template collection, Stripe deposits, customer accounts, unlimited bookings, email confirmations, and reminders. Pick the team size and SMS volume that fits.
+        </p>
+      </div>
+
+      <div class="br-pricing-grid" aria-label="BookReady plans">
+
+        <article class="br-plan">
+          <p class="br-plan__label">Solo</p>
+          <h3>Start solo</h3>
+          <div class="br-plan__price">$19<span>/mo</span></div>
+          <p class="br-plan__sms">300 SMS / month included</p>
+          <p class="br-plan__text">
+            Best for solo barbers, lash artists, nail techs, and one-chair beauty entrepreneurs.
+          </p>
+          <ul class="br-plan__list">
+            <li>1 staff member</li>
+            <li>All Marquee templates</li>
+            <li>BookReady subdomain</li>
+            <li>Stripe deposits + payments</li>
+            <li>Email confirmations + reminders</li>
+            <li>Customer accounts &amp; dashboards</li>
+          </ul>
+          <a href="https://app.bkrdy.me/register?plan=solo" class="br-button br-plan__button">Choose Solo</a>
+        </article>
+
+        <article class="br-plan br-plan--featured">
+          <div class="br-plan__badge">Most Popular</div>
+          <p class="br-plan__label">Studio</p>
+          <h3>Grow as a team</h3>
+          <div class="br-plan__price">$49<span>/mo</span></div>
+          <p class="br-plan__sms">1,200 SMS / month included</p>
+          <p class="br-plan__text">
+            Best for 2&ndash;5 chair salons that want a polished website and the marketing tools to fill it.
+          </p>
+          <ul class="br-plan__list">
+            <li>Up to 5 staff members</li>
+            <li>Everything in Solo, plus:</li>
+            <li>Custom domain (yourbrand.com)</li>
+            <li>Email marketing campaigns</li>
+            <li>Google Reviews import</li>
+            <li>Calendar sync (Google + iCal)</li>
+            <li>Remove BookReady footer badge</li>
+          </ul>
+          <a href="https://app.bkrdy.me/register?plan=studio" class="br-button br-plan__button">Choose Studio</a>
+        </article>
+
+        <article class="br-plan">
+          <p class="br-plan__label">Salon</p>
+          <h3>Scale your brand</h3>
+          <div class="br-plan__price">$99<span>/mo</span></div>
+          <p class="br-plan__sms">3,000 SMS / month included</p>
+          <p class="br-plan__text">
+            Best for multi-chair, multi-location operators ready to run a serious beauty business.
+          </p>
+          <ul class="br-plan__list">
+            <li>Unlimited staff members</li>
+            <li>Multi-location support</li>
+            <li>Everything in Studio, plus:</li>
+            <li>Priority support (24h)</li>
+            <li>API access</li>
+            <li>White-label customer emails</li>
+          </ul>
+          <a href="https://app.bkrdy.me/register?plan=salon" class="br-button br-plan__button">Choose Salon</a>
+        </article>
+
+      </div>
+
+      <p class="br-plan-foot">
+        Need more SMS? Every plan has 2&times; and 3&times; SMS options for $5&ndash;$50 more / month, or buy a 500-pack for $10 anytime. OTPs and security codes never count against your quota.
       </p>
-    </header>
-
-    <div class="price-grid">
-
-      <article class="price-card">
-        <header class="price-head">
-          <h3>Solo</h3>
-          <p class="price-for">Solo barbers, lash &amp; nail techs, single-chair pros</p>
-        </header>
-        <p class="price-amount">$19<span>/mo</span></p>
-        <p class="price-sms">300 SMS / month included</p>
-        <ul class="price-list">
-          <li>1 staff member</li>
-          <li>All Marquee templates</li>
-          <li>BookReady subdomain</li>
-          <li>Stripe deposits + payments</li>
-          <li>Email confirmations + reminders</li>
-          <li>Customer accounts</li>
-        </ul>
-        <a class="btn btn-ghost" href="https://app.bkrdy.me/register?plan=solo">Start with Solo</a>
-      </article>
-
-      <article class="price-card price-card-featured">
-        <span class="price-badge">Most popular</span>
-        <header class="price-head">
-          <h3>Studio</h3>
-          <p class="price-for">2&ndash;5 chair salons, growing teams</p>
-        </header>
-        <p class="price-amount">$49<span>/mo</span></p>
-        <p class="price-sms">1,200 SMS / month included</p>
-        <ul class="price-list">
-          <li>Up to 5 staff members</li>
-          <li>Everything in Solo, plus:</li>
-          <li>Custom domain (yourbrand.com)</li>
-          <li>Email marketing blasts</li>
-          <li>Google Reviews import</li>
-          <li>Calendar sync (Google + iCal)</li>
-          <li>Remove BookReady footer badge</li>
-        </ul>
-        <a class="btn btn-primary" href="https://app.bkrdy.me/register?plan=studio">Start with Studio</a>
-      </article>
-
-      <article class="price-card">
-        <header class="price-head">
-          <h3>Salon</h3>
-          <p class="price-for">Multi-chair, multi-location, established</p>
-        </header>
-        <p class="price-amount">$99<span>/mo</span></p>
-        <p class="price-sms">3,000 SMS / month included</p>
-        <ul class="price-list">
-          <li>Unlimited staff members</li>
-          <li>Multi-location support</li>
-          <li>Everything in Studio, plus:</li>
-          <li>Priority support (24h)</li>
-          <li>API access</li>
-          <li>White-label customer emails</li>
-        </ul>
-        <a class="btn btn-ghost" href="https://app.bkrdy.me/register?plan=salon">Start with Salon</a>
-      </article>
 
     </div>
-
-    <p class="price-foot">
-      Need more SMS? Every plan has 2&times; and 3&times; SMS options for
-      $5&ndash;$50 more / month. Or buy a 500-pack for $10 anytime.
-      Sending OTPs and security codes? Always on us &mdash; never counts
-      against your quota.
-    </p>
   </section>
 
-  <!-- ── FAQ ── -->
-  <section class="faq">
-    <h2 class="faq-title">Frequently asked</h2>
+  <!-- ─── Everything included ─── -->
+  <section id="features" class="br-section br-section--bordered">
+    <div class="br-section__inner">
 
-    <details class="faq-item">
-      <summary>What happens after the 14-day trial?</summary>
-      <p>You pick a plan and your card is charged. If you don&rsquo;t want to continue, you can cancel from your dashboard and the site stays live for 30 days while you export your data or migrate.</p>
-    </details>
+      <div class="br-included">
+        <div class="br-included__head">
+          <p class="br-kicker">Included with BookReady</p>
+          <h2 class="br-section__title">
+            Everything you need to launch a beauty booking website that looks the part.
+          </h2>
+        </div>
 
-    <details class="faq-item">
-      <summary>Can I bring my own domain?</summary>
-      <p>Yes &mdash; on Studio and Salon plans. Solo gets a clean BookReady subdomain like <em>yourname.bkrdy.me</em>; Studio and Salon let you point a custom domain.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary>What about transaction fees?</summary>
-      <p>BookReady doesn&rsquo;t take any. You pay Stripe&rsquo;s standard rate (2.9% + 30&cent; in the US) and that&rsquo;s it. The deposits and full payments your customers make go straight to your Stripe account.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary>Can I switch templates after I sign up?</summary>
-      <p>Anytime. Switching templates keeps your business info, services, bookings, customers, staff, hours, and policies. Only the look changes.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary>What if I run out of SMS in a month?</summary>
-      <p>You&rsquo;ll get a heads-up email at 80% used. On Studio and Salon, additional SMS are auto-billed at $0.025 each (with a hard cap you set). On Solo, you can buy a top-up pack or upgrade to Studio &mdash; whichever costs less.</p>
-    </details>
-
-    <details class="faq-item">
-      <summary>Is BookReady built for the US?</summary>
-      <p>Right now &mdash; yes. SMS is 10DLC US-only, payments are Stripe US, and the booking flow assumes US business hours. International expansion is on the roadmap but not live yet.</p>
-    </details>
-  </section>
-
-  <!-- ── Final CTA ── -->
-  <section class="final-cta">
-    <h2>Your booking site should look like your brand.</h2>
-    <p>Pick a Marquee template, plug in your services, and go live in under 20 minutes.</p>
-    <a class="btn btn-primary btn-large" href="https://app.bkrdy.me/register">Start your 14-day trial</a>
-  </section>
-
-  <!-- ── Footer ── -->
-  <footer class="footer">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <p class="footer-mark">BookReady</p>
-        <p class="footer-tag">Soft, brand-led booking for boutique beauty.</p>
+        <div class="br-included__grid">
+          <span>Marquee templates</span>
+          <span>Online booking</span>
+          <span>Service pages</span>
+          <span>Staff &amp; agents</span>
+          <span>Stripe payments &amp; deposits</span>
+          <span>Customer dashboards</span>
+          <span>Policies &amp; FAQs</span>
+          <span>Galleries &amp; before/after</span>
+          <span>Announcements</span>
+          <span>Branded sections</span>
+          <span>Mobile-first design</span>
+          <span>Business analytics</span>
+          <span>Email confirmations &amp; reminders</span>
+          <span>Reschedule &amp; cancel flows</span>
+          <span>Custom domain ready</span>
+          <span>Reviews &amp; testimonials</span>
+        </div>
       </div>
-      <div class="footer-col">
-        <p class="footer-label">Product</p>
-        <a href="#templates">Templates</a>
-        <a href="#pricing">Pricing</a>
-        <a href="https://app.bkrdy.me/register">Start free</a>
+
+    </div>
+  </section>
+
+  <!-- ─── FAQ ─── -->
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+
+      <div class="br-section__head">
+        <p class="br-kicker">Questions</p>
+        <h2 class="br-section__title">
+          The short answers.
+        </h2>
       </div>
-      <div class="footer-col">
-        <p class="footer-label">Company</p>
-        <a href="mailto:hello@bkrdy.me">Contact</a>
-        <a href="https://app.bkrdy.me/privacy">Privacy</a>
-        <a href="https://app.bkrdy.me/terms">Terms</a>
-        <a href="https://app.bkrdy.me/cookies">Cookies</a>
+
+      <div class="br-faq">
+
+        <details class="br-faq__item">
+          <summary>What happens after the 14-day trial?</summary>
+          <p>You pick a plan and your card is charged. If you don&rsquo;t want to continue, you can cancel from your dashboard and your site stays live for 30 days while you export your data.</p>
+        </details>
+
+        <details class="br-faq__item">
+          <summary>Can I bring my own domain?</summary>
+          <p>Yes &mdash; on Studio and Salon plans. Solo gets a clean BookReady subdomain like <em>yourname.bkrdy.me</em>. Studio and Salon let you point a custom domain.</p>
+        </details>
+
+        <details class="br-faq__item">
+          <summary>What about transaction fees?</summary>
+          <p>BookReady doesn&rsquo;t take any. You pay Stripe&rsquo;s standard rate (2.9% + 30&cent; in the US) and that&rsquo;s it. Deposits and full payments go straight to your Stripe account.</p>
+        </details>
+
+        <details class="br-faq__item">
+          <summary>Can I switch templates after I sign up?</summary>
+          <p>Anytime. Switching keeps your business info, services, bookings, customers, staff, hours, and policies. Only the look changes.</p>
+        </details>
+
+        <details class="br-faq__item">
+          <summary>What if I run out of SMS in a month?</summary>
+          <p>You&rsquo;ll get an email at 80% used. On Studio and Salon, additional messages are auto-billed at $0.025 each (with a hard cap you set). On Solo, you can buy a top-up pack or upgrade &mdash; whichever costs less.</p>
+        </details>
+
+        <details class="br-faq__item">
+          <summary>Is BookReady built for the US?</summary>
+          <p>Right now &mdash; yes. SMS is 10DLC US-only, payments are Stripe US, and the booking flow assumes US business hours. International expansion is on the roadmap.</p>
+        </details>
+
       </div>
     </div>
-    <p class="footer-bottom">&copy; 2026 BookReady. Made for the small beauty brands quietly building real businesses.</p>
+  </section>
+
+  <!-- ─── Final CTA ─── -->
+  <section class="br-final-cta">
+    <div class="br-final-cta__inner">
+      <p class="br-kicker br-kicker--inverse">Ready when you are</p>
+      <h2 class="br-final-cta__title">
+        Your booking website should look like your brand.
+      </h2>
+      <p class="br-final-cta__text">
+        Pick a Marquee template, plug in your services, and go live in under 20 minutes.
+      </p>
+      <a href="https://app.bkrdy.me/register" class="br-button br-button--inverse">Start your 14-day trial</a>
+    </div>
+  </section>
+
+  <!-- ─── Footer ─── -->
+  <footer class="br-footer">
+    <div class="br-footer__inner">
+      <div class="br-footer__grid">
+        <div class="br-footer__brand">
+          <p class="br-footer__mark">BookReady</p>
+          <p class="br-footer__tag">Beautiful booking websites for beauty brands.</p>
+        </div>
+        <div class="br-footer__col">
+          <p class="br-footer__label">Product</p>
+          <a href="#templates">Templates</a>
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="https://app.bkrdy.me/register">Start free</a>
+        </div>
+        <div class="br-footer__col">
+          <p class="br-footer__label">Company</p>
+          <a href="mailto:hello@bkrdy.me">Contact</a>
+          <a href="https://app.bkrdy.me/privacy">Privacy</a>
+          <a href="https://app.bkrdy.me/terms">Terms</a>
+          <a href="https://app.bkrdy.me/cookies">Cookies</a>
+        </div>
+      </div>
+      <p class="br-footer__bottom">
+        &copy; 2026 BookReady. Made for the small beauty brands quietly building real businesses.
+      </p>
+    </div>
   </footer>
 
 </body>
