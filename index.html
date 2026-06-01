@@ -643,59 +643,81 @@
 
       <div class="br-pricing-grid" aria-label="BookReady plans">
 
-        <article class="br-plan">
+        <article class="br-plan" data-plan="solo" data-base-m="24" data-base-a="19" data-sms-base="400">
           <p class="br-plan__label">Solo</p>
           <h3>One person</h3>
-          <div class="br-plan__price br-price-m">$24<span>/mo</span></div>
-          <div class="br-plan__price br-price-a">$19<span>/mo</span></div>
-          <p class="br-plan__period br-period-m">billed monthly</p>
-          <p class="br-plan__period br-period-a">billed annually &middot; save $60</p>
-          <p class="br-plan__sms">200 SMS / month included</p>
+          <div class="br-plan__price br-price-m">$<span data-price-m>24</span><span>/mo</span></div>
+          <div class="br-plan__price br-price-a">$<span data-price-a>19</span><span>/mo</span></div>
+          <p class="br-plan__period br-period-m" data-period-m>billed monthly</p>
+          <p class="br-plan__period br-period-a" data-period-a>billed annually &middot; save $60</p>
+
+          <div class="br-sms-toggle" role="group" aria-label="SMS amount">
+            <button type="button" class="br-sms-toggle__btn is-active" data-sms-mult="1">1&times;</button>
+            <button type="button" class="br-sms-toggle__btn" data-sms-mult="2">2&times;</button>
+            <button type="button" class="br-sms-toggle__btn" data-sms-mult="3">3&times;</button>
+          </div>
+          <p class="br-plan__sms"><strong data-sms-amount>400</strong> SMS / month</p>
+
           <p class="br-plan__text">
             One calendar. For solo barbers, lash artists, nail techs, and facialists running their own chair.
           </p>
           <ul class="br-plan__list">
             <li>1 staff account</li>
-            <li>3 starter templates</li>
-            <li>Stripe deposits + payments</li>
-            <li>Customer accounts &amp; reminders</li>
-            <li>yourname.bkrdy.me subdomain</li>
+            <li>Full template library</li>
+            <li>Custom forms &amp; intake</li>
+            <li>Remove BookReady branding</li>
+            <li>Email marketing <span class="br-plan__soon">coming soon</span></li>
           </ul>
           <a href="https://app.bkrdy.me/register?plan=solo" class="br-button br-plan__button">Choose Solo</a>
         </article>
 
-        <article class="br-plan br-plan--featured">
+        <article class="br-plan br-plan--featured" data-plan="studio" data-base-m="49" data-base-a="39" data-sms-base="800">
           <div class="br-plan__badge">Most Popular</div>
           <p class="br-plan__label">Studio</p>
           <h3>Small team</h3>
-          <div class="br-plan__price br-price-m">$49<span>/mo</span></div>
-          <div class="br-plan__price br-price-a">$39<span>/mo</span></div>
-          <p class="br-plan__period br-period-m">billed monthly</p>
-          <p class="br-plan__period br-period-a">billed annually &middot; save $120</p>
-          <p class="br-plan__sms">800 SMS / month included</p>
+          <div class="br-plan__price br-price-m">$<span data-price-m>49</span><span>/mo</span></div>
+          <div class="br-plan__price br-price-a">$<span data-price-a>39</span><span>/mo</span></div>
+          <p class="br-plan__period br-period-m" data-period-m>billed monthly</p>
+          <p class="br-plan__period br-period-a" data-period-a>billed annually &middot; save $120</p>
+
+          <div class="br-sms-toggle" role="group" aria-label="SMS amount">
+            <button type="button" class="br-sms-toggle__btn is-active" data-sms-mult="1">1&times;</button>
+            <button type="button" class="br-sms-toggle__btn" data-sms-mult="2">2&times;</button>
+            <button type="button" class="br-sms-toggle__btn" data-sms-mult="3">3&times;</button>
+          </div>
+          <p class="br-plan__sms"><strong data-sms-amount>800</strong> SMS / month</p>
+
           <p class="br-plan__text">
-            For small studios and solo pros who want a brand. Custom domain, full template library, and BookReady branding removed from your site.
+            For small studios with two to five staff. Same full feature set as Solo, more team seats, more SMS.
           </p>
           <ul class="br-plan__list">
             <li>Up to 5 staff accounts</li>
-            <li>Your own custom domain</li>
             <li>Full template library</li>
+            <li>Custom forms &amp; intake</li>
             <li>Remove BookReady branding</li>
-            <li>Custom forms + basic email marketing</li>
+            <li>Email marketing <span class="br-plan__soon">coming soon</span></li>
           </ul>
           <a href="https://app.bkrdy.me/register?plan=studio" class="br-button br-plan__button">Choose Studio</a>
         </article>
 
-        <article class="br-plan">
+        <article class="br-plan br-plan--soon" data-plan="salon" data-base-m="99" data-base-a="79" data-sms-base="2000">
+          <div class="br-plan__badge br-plan__badge--soon">Coming Soon</div>
           <p class="br-plan__label">Salon</p>
           <h3>Full house</h3>
-          <div class="br-plan__price br-price-m">$99<span>/mo</span></div>
-          <div class="br-plan__price br-price-a">$79<span>/mo</span></div>
-          <p class="br-plan__period br-period-m">billed monthly</p>
-          <p class="br-plan__period br-period-a">billed annually &middot; save $240</p>
-          <p class="br-plan__sms">2,000 SMS / month included</p>
+          <div class="br-plan__price br-price-m">$<span data-price-m>99</span><span>/mo</span></div>
+          <div class="br-plan__price br-price-a">$<span data-price-a>79</span><span>/mo</span></div>
+          <p class="br-plan__period br-period-m" data-period-m>billed monthly</p>
+          <p class="br-plan__period br-period-a" data-period-a>billed annually &middot; save $240</p>
+
+          <div class="br-sms-toggle" role="group" aria-label="SMS amount">
+            <button type="button" class="br-sms-toggle__btn is-active" data-sms-mult="1">1&times;</button>
+            <button type="button" class="br-sms-toggle__btn" data-sms-mult="2">2&times;</button>
+            <button type="button" class="br-sms-toggle__btn" data-sms-mult="3">3&times;</button>
+          </div>
+          <p class="br-plan__sms"><strong data-sms-amount>2,000</strong> SMS / month</p>
+
           <p class="br-plan__text">
-            For salons with 5 to 25 staff, multiple locations, or both. Real enterprise features: API, multi-location, and notifications sent from your domain.
+            For multi-location salons and teams of 5 to 25. Multi-location, API access, white-label notifications, dedicated onboarding.
           </p>
           <ul class="br-plan__list">
             <li>Up to 25 staff accounts</li>
@@ -704,7 +726,15 @@
             <li>API access + advanced reporting</li>
             <li>Dedicated onboarding + VIP support</li>
           </ul>
-          <a href="https://app.bkrdy.me/register?plan=salon" class="br-button br-plan__button">Choose Salon</a>
+
+          <div class="br-plan__waitlist" data-salon-waitlist>
+            <p class="br-plan__waitlist-label">Get early access</p>
+            <div class="br-plan__waitlist-form" data-waitlist-form>
+              <input type="email" class="br-plan__waitlist-input" placeholder="your@email.com" aria-label="Your email" autocomplete="email" data-waitlist-email />
+              <button type="button" class="br-button br-plan__button" data-waitlist-submit>Join the waitlist</button>
+            </div>
+            <p class="br-plan__waitlist-success" data-waitlist-success hidden>You&rsquo;re on the list. We&rsquo;ll be in touch.</p>
+          </div>
         </article>
 
       </div>
@@ -721,9 +751,51 @@
         <span class="br-risk-row__item">Free migration</span>
       </div>
 
-      <p class="br-plan-foot">
-        Need more texts? Add an SMS boost to any plan: <strong>+500 for $5</strong>, <strong>+1,500 for $12</strong>, or <strong>+3,000 for $20</strong> a month. Appointment confirmations and verification codes don&rsquo;t count toward your quota.
-      </p>
+      <div class="br-sms-calc" data-sms-calc>
+        <div class="br-sms-calc__head">
+          <p class="br-kicker">SMS calculator</p>
+          <h3 class="br-sms-calc__title">Don&rsquo;t know how many texts you&rsquo;ll need?</h3>
+          <p class="br-sms-calc__sub">Plug in your numbers. We&rsquo;ll point you at the right plan.</p>
+        </div>
+
+        <div class="br-sms-calc__body">
+
+          <div class="br-sms-calc__inputs">
+            <label class="br-sms-calc__field">
+              <span>Working days per month</span>
+              <input type="number" min="1" max="31" value="22" inputmode="numeric" data-calc-days />
+            </label>
+            <label class="br-sms-calc__field">
+              <span>Average bookings per day</span>
+              <input type="number" min="0" max="200" value="6" inputmode="numeric" data-calc-bookings />
+            </label>
+
+            <fieldset class="br-sms-calc__notifs">
+              <legend>Send a text for</legend>
+              <label class="br-sms-calc__check">
+                <input type="checkbox" checked data-calc-confirm />
+                <span><strong>Booking confirmations</strong> &middot; 1 per booking</span>
+              </label>
+              <label class="br-sms-calc__check">
+                <input type="checkbox" checked data-calc-remind />
+                <span><strong>Reminders</strong> &middot; 1 per booking, sent 24h before</span>
+              </label>
+              <label class="br-sms-calc__check">
+                <input type="checkbox" data-calc-cancel />
+                <span><strong>Cancel + reschedule alerts</strong> &middot; ~0.2 per booking</span>
+              </label>
+            </fieldset>
+          </div>
+
+          <div class="br-sms-calc__output">
+            <p class="br-sms-calc__label">Estimated SMS / month</p>
+            <p class="br-sms-calc__total">~<strong data-calc-total>264</strong></p>
+            <p class="br-sms-calc__rec" data-calc-rec>Solo at 1&times; covers you</p>
+            <p class="br-sms-calc__fine">Confirmations and verification codes don&rsquo;t count toward your quota.</p>
+          </div>
+
+        </div>
+      </div>
 
     </div>
   </section>
@@ -1032,29 +1104,159 @@
     </div>
   </div>
 
-  <!-- ─── Annual billing toggle ─── -->
+  <!-- ─── Pricing: billing toggle + per-plan SMS multiplier + Salon waitlist ─── -->
   <script>
   (function () {
     var section = document.getElementById('pricing');
-    var btns    = document.querySelectorAll('[data-billing-btn]');
-    if (!section || !btns.length) return;
+    if (!section) return;
 
-    btns.forEach(function (btn) {
+    // ── SMS uplift table: same flat add-on across plans (1x = base, 2x = +$5, 3x = +$10)
+    var UPLIFT = { 1: 0, 2: 5, 3: 10 };
+
+    function fmt(n) { return n >= 1000 ? n.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,') : String(n); }
+
+    function refreshPlan(plan) {
+      var mult     = parseInt(plan.getAttribute('data-sms-mult') || '1', 10);
+      var smsBase  = parseInt(plan.getAttribute('data-sms-base'), 10);
+      var baseM    = parseInt(plan.getAttribute('data-base-m'), 10);
+      var baseA    = parseInt(plan.getAttribute('data-base-a'), 10);
+      var uplift   = UPLIFT[mult] || 0;
+
+      var smsEl   = plan.querySelector('[data-sms-amount]');
+      var priceM  = plan.querySelector('[data-price-m]');
+      var priceA  = plan.querySelector('[data-price-a]');
+      if (smsEl)  smsEl.textContent  = fmt(smsBase * mult);
+      if (priceM) priceM.textContent = (baseM + uplift);
+      if (priceA) priceA.textContent = (baseA + uplift);
+
+      // Update CTA href params (billing + sms multiplier) — Salon has no CTA, waitlist instead
+      var billing = section.getAttribute('data-billing');
+      var planKey = plan.getAttribute('data-plan');
+      var cta = plan.querySelector('a.br-plan__button');
+      if (cta) {
+        var params = ['plan=' + planKey];
+        if (billing === 'annual') params.push('billing=annual');
+        if (mult > 1)             params.push('sms=' + mult + 'x');
+        cta.href = 'https://app.bkrdy.me/register?' + params.join('&');
+      }
+    }
+
+    // ── Billing toggle (monthly/annual) ──────────────────────────────
+    var billingBtns = section.querySelectorAll('[data-billing-btn]');
+    billingBtns.forEach(function (btn) {
       btn.addEventListener('click', function () {
         var billing = btn.getAttribute('data-billing-btn');
         section.setAttribute('data-billing', billing);
-        btns.forEach(function (b) {
+        billingBtns.forEach(function (b) {
           b.classList.toggle('is-active', b.getAttribute('data-billing-btn') === billing);
         });
-        // Update plan CTA hrefs to include billing=annual for tracking
-        ['solo', 'studio', 'salon'].forEach(function (plan) {
-          var link = section.querySelector('a[href*="plan=' + plan + '"]');
-          if (!link) return;
-          var base = 'https://app.bkrdy.me/register?plan=' + plan;
-          link.href = billing === 'annual' ? base + '&billing=annual' : base;
+        section.querySelectorAll('.br-plan').forEach(refreshPlan);
+      });
+    });
+
+    // ── Per-plan SMS multiplier toggle ───────────────────────────────
+    section.querySelectorAll('.br-plan').forEach(function (plan) {
+      plan.setAttribute('data-sms-mult', '1');
+      var smsBtns = plan.querySelectorAll('[data-sms-mult]');
+      smsBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var mult = btn.getAttribute('data-sms-mult');
+          plan.setAttribute('data-sms-mult', mult);
+          smsBtns.forEach(function (b) {
+            b.classList.toggle('is-active', b.getAttribute('data-sms-mult') === mult);
+          });
+          refreshPlan(plan);
         });
       });
     });
+
+    // ── Salon waitlist ───────────────────────────────────────────────
+    var waitlist = section.querySelector('[data-salon-waitlist]');
+    if (waitlist) {
+      var input   = waitlist.querySelector('[data-waitlist-email]');
+      var submit  = waitlist.querySelector('[data-waitlist-submit]');
+      var form    = waitlist.querySelector('[data-waitlist-form]');
+      var success = waitlist.querySelector('[data-waitlist-success]');
+
+      if (input) input.addEventListener('input', function () { input.style.borderColor = ''; });
+      if (input) input.addEventListener('keydown', function (e) { if (e.key === 'Enter') submit.click(); });
+
+      submit && submit.addEventListener('click', function () {
+        var email = input ? input.value.trim() : '';
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          if (input) { input.style.borderColor = '#C0392B'; input.focus(); }
+          return;
+        }
+        submit.disabled = true;
+        submit.textContent = 'Adding you…';
+        fetch('https://api.bkrdy.me/api/v1/leads', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({ email: email, source: 'salon-waitlist' })
+        })
+        .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+        .then(function () {
+          if (form)    form.hidden    = true;
+          if (success) success.removeAttribute('hidden');
+        })
+        .catch(function () {
+          submit.disabled = false;
+          submit.textContent = 'Join the waitlist';
+          if (input) { input.style.borderColor = '#C0392B'; input.focus(); }
+        });
+      });
+    }
+
+    // ── SMS calculator ───────────────────────────────────────────────
+    var calc = section.querySelector('[data-sms-calc]');
+    if (calc) {
+      var inputs = {
+        days:     calc.querySelector('[data-calc-days]'),
+        bookings: calc.querySelector('[data-calc-bookings]'),
+        confirm:  calc.querySelector('[data-calc-confirm]'),
+        remind:   calc.querySelector('[data-calc-remind]'),
+        cancel:   calc.querySelector('[data-calc-cancel]')
+      };
+      var totalEl = calc.querySelector('[data-calc-total]');
+      var recEl   = calc.querySelector('[data-calc-rec]');
+
+      // Cheapest-fit recommendation table (ordered ascending by monthly cost)
+      // [smsCap, label, monthlyCost]
+      var TIERS = [
+        [400,  'Solo at 1× covers you',   24],
+        [800,  'Solo at 2× covers you',   29],
+        [1200, 'Solo at 3× covers you',   34],
+        [1600, 'Studio at 2× covers you', 54],
+        [2400, 'Studio at 3× covers you', 59]
+      ];
+      var OVER = 'Above 2,400 SMS. Salon is launching soon. Join the waitlist below.';
+
+      function recompute() {
+        var d = Math.max(0, parseInt(inputs.days.value, 10)     || 0);
+        var b = Math.max(0, parseInt(inputs.bookings.value, 10) || 0);
+        var perBooking = 0;
+        if (inputs.confirm.checked) perBooking += 1;
+        if (inputs.remind.checked)  perBooking += 1;
+        if (inputs.cancel.checked)  perBooking += 0.2;
+        var total = Math.round(d * b * perBooking);
+        if (totalEl) totalEl.textContent = fmt(total);
+
+        var picked = null;
+        for (var i = 0; i < TIERS.length; i++) {
+          if (total <= TIERS[i][0]) { picked = TIERS[i][1]; break; }
+        }
+        if (!picked) picked = OVER;
+        if (recEl) recEl.textContent = picked;
+      }
+
+      Object.keys(inputs).forEach(function (k) {
+        var el = inputs[k];
+        if (!el) return;
+        el.addEventListener('input',  recompute);
+        el.addEventListener('change', recompute);
+      });
+      recompute();
+    }
   })();
   </script>
 

@@ -1236,6 +1236,250 @@ button { cursor: pointer; font: inherit; }
   width: 100%;
   margin-top: auto;
 }
+
+/* Per-plan SMS multiplier toggle (inside card, above SMS line) */
+.br-sms-toggle {
+  display: inline-flex;
+  margin-bottom: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  align-self: flex-start;
+}
+.br-plan--featured .br-sms-toggle { background: rgba(255,255,255,0.5); border-color: rgba(18,18,18,0.18); }
+.br-sms-toggle__btn {
+  padding: 6px 12px;
+  background: transparent;
+  border: none;
+  font-family: var(--font);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background .12s ease, color .12s ease;
+}
+.br-sms-toggle__btn + .br-sms-toggle__btn { border-left: 1px solid var(--border); }
+.br-plan--featured .br-sms-toggle__btn + .br-sms-toggle__btn { border-left-color: rgba(18,18,18,0.18); }
+.br-sms-toggle__btn:hover { color: var(--text); }
+.br-sms-toggle__btn.is-active { background: var(--text); color: var(--bg); }
+
+/* "Coming soon" tag inside feature bullet */
+.br-plan__soon {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px;
+  background: var(--accent);
+  color: var(--text);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+/* Salon Coming-Soon badge replaces "Most Popular" position */
+.br-plan__badge--soon {
+  background: var(--accent);
+  color: var(--text);
+}
+.br-plan--soon {
+  position: relative;
+}
+.br-plan--soon::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--bg);
+  opacity: 0.25;
+  pointer-events: none;
+}
+.br-plan--soon > * { position: relative; }
+
+/* Salon waitlist mini-form (replaces CTA button) */
+.br-plan__waitlist { margin-top: auto; }
+.br-plan__waitlist-label {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+.br-plan__waitlist-form { display: flex; flex-direction: column; gap: 8px; }
+.br-plan__waitlist-input {
+  width: 100%;
+  padding: 12px 14px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color .15s ease;
+}
+.br-plan__waitlist-input:focus { border-color: var(--text); }
+.br-plan__waitlist-success {
+  margin: 0;
+  padding: 12px 14px;
+  background: var(--accent);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 800;
+  text-align: center;
+}
+.br-plan__waitlist-success[hidden] { display: none; }
+
+/* ─── SMS calculator ─── */
+.br-sms-calc {
+  margin-top: 32px;
+  background: var(--card);
+  border: 1px solid var(--border);
+}
+.br-sms-calc__head {
+  padding: 28px 32px 24px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+.br-sms-calc__head .br-kicker { display: inline-flex; justify-content: center; }
+.br-sms-calc__title {
+  font-size: clamp(22px, 2.6vw, 30px);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  color: var(--text);
+  margin: 0 0 8px;
+}
+.br-sms-calc__sub {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+.br-sms-calc__body {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 820px) {
+  .br-sms-calc__body { grid-template-columns: 1.2fr 1fr; }
+}
+.br-sms-calc__inputs {
+  padding: 28px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid var(--border);
+}
+@media (min-width: 820px) {
+  .br-sms-calc__inputs { border-bottom: none; border-right: 1px solid var(--border); }
+}
+.br-sms-calc__field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.br-sms-calc__field > span {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.br-sms-calc__field input[type="number"] {
+  width: 100%;
+  padding: 12px 14px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 0;
+  transition: border-color .15s ease;
+}
+.br-sms-calc__field input[type="number"]:focus { border-color: var(--text); }
+.br-sms-calc__notifs {
+  border: none;
+  padding: 0;
+  margin: 4px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.br-sms-calc__notifs legend {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+  padding: 0;
+}
+.br-sms-calc__check {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.5;
+}
+.br-sms-calc__check input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 1px 0 0;
+  accent-color: var(--text);
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.br-sms-calc__check strong { font-weight: 800; letter-spacing: -0.01em; }
+
+.br-sms-calc__output {
+  padding: 28px 32px;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+.br-sms-calc__label {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
+}
+.br-sms-calc__total {
+  margin: 0;
+  font-size: clamp(44px, 6vw, 72px);
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  line-height: 0.95;
+  color: var(--text);
+}
+.br-sms-calc__total strong { font-weight: 800; }
+.br-sms-calc__rec {
+  margin: 4px 0 0;
+  padding: 12px 14px;
+  background: var(--accent);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  align-self: flex-start;
+}
+.br-sms-calc__fine {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.5;
+}
 .br-plan-foot {
   margin: 36px auto 0;
   text-align: center;
