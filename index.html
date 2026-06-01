@@ -386,21 +386,6 @@
                   <p class="br-vt__svc-desc">Classic and volume blended for a fuller look with more dimension.</p>
                   <div class="br-vt__svc-foot"><span class="br-vt__svc-meta">90 min</span><button type="button" class="br-vt__svc-pick">Pick &rarr;</button></div>
                 </div>
-                <div class="br-vt__svc-card" data-vt-svc data-svc-name="Volume Set">
-                  <div class="br-vt__svc-top"><h3 class="br-vt__svc-name">Volume Set</h3><span class="br-vt__svc-price">$165</span></div>
-                  <p class="br-vt__svc-desc">Full, dramatic volume using fan technique. Our most requested set.</p>
-                  <div class="br-vt__svc-foot"><span class="br-vt__svc-meta">120 min</span><button type="button" class="br-vt__svc-pick">Pick &rarr;</button></div>
-                </div>
-                <div class="br-vt__svc-card" data-vt-svc data-svc-name="Lash Lift &amp; Tint">
-                  <div class="br-vt__svc-top"><h3 class="br-vt__svc-name">Lash Lift &amp; Tint</h3><span class="br-vt__svc-price">$85</span></div>
-                  <p class="br-vt__svc-desc">Lift your natural lashes from the root for a wide-eyed effect. Tint included.</p>
-                  <div class="br-vt__svc-foot"><span class="br-vt__svc-meta">60 min</span><button type="button" class="br-vt__svc-pick">Pick &rarr;</button></div>
-                </div>
-                <div class="br-vt__svc-card" data-vt-svc data-svc-name="Infill">
-                  <div class="br-vt__svc-top"><h3 class="br-vt__svc-name">Infill</h3><span class="br-vt__svc-price">$75</span></div>
-                  <p class="br-vt__svc-desc">Maintain your set at 2&ndash;3 weeks. Requires at least 40% of previous set remaining.</p>
-                  <div class="br-vt__svc-foot"><span class="br-vt__svc-meta">60 min</span><button type="button" class="br-vt__svc-pick">Pick &rarr;</button></div>
-                </div>
               </div>
             </div>
 
@@ -481,9 +466,13 @@
               </div>
             </div>
 
-            <!-- Step 4: Marketing details + consent -->
+            <!-- Step 4: BookReady newsletter signup -->
             <div class="br-vt__panel" data-vt-panel="4" hidden>
-              <p class="br-vt__step-label">Your details</p>
+              <p class="br-vt__step-label">Before you book</p>
+              <div class="br-vt__newsletter-intro">
+                <p class="br-vt__newsletter-heading">This is a BookReady demo.</p>
+                <p class="br-vt__newsletter-sub">Get notified when new templates drop, plus an exclusive offer for early studios.</p>
+              </div>
               <div class="br-vt__form">
                 <div class="br-vt__field">
                   <label class="br-vt__field-label" for="vt-name">First name</label>
@@ -496,10 +485,10 @@
               </div>
               <label class="br-vt__consent-row">
                 <span class="br-vt__checkbox" data-vt-checkbox></span>
-                <span class="br-vt__consent-text">Send me booking reminders and occasional offers from Velvet Theory. Reply STOP anytime.</span>
+                <span class="br-vt__consent-text">Send me BookReady updates &mdash; new templates, features, and early offers. Unsubscribe anytime.</span>
               </label>
               <div class="br-vt__panel-foot">
-                <button type="button" class="br-vt__btn-primary" data-vt-submit>Book my appointment &rarr;</button>
+                <button type="button" class="br-vt__btn-primary" data-vt-submit>Get early access &rarr;</button>
                 <button type="button" class="br-vt__btn-ghost" data-vt-back="3">&larr; Back</button>
               </div>
             </div>
@@ -516,7 +505,7 @@
               </div>
               <div class="br-vt__cta-block">
                 <span class="br-vt__cta-kicker">Powered by BookReady</span>
-                <h3 class="br-vt__cta-heading">Want a site like this for your business?</h3>
+                <h3 class="br-vt__cta-heading">Want a site like this?</h3>
                 <p class="br-vt__cta-sub">Your brand, your template. Live in under 20 minutes.</p>
                 <a href="https://app.bkrdy.me/register" class="br-vt__cta-btn">Start your 14-day trial &rarr;</a>
               </div>
@@ -924,7 +913,7 @@
     var root = document.querySelector('[data-vt-booking]');
     if (!root) return;
 
-    var LABELS = ['', 'Service', 'Artist', 'Date & Time', 'Your Details', 'Confirmed'];
+    var LABELS = ['', 'Service', 'Artist', 'Date & Time', 'Newsletter', 'Confirmed'];
     var state  = { svc: '', staff: 'Maya Chen', date: 'Jun 4', time: '2:00 PM' };
 
     function progress(n) {
@@ -1042,7 +1031,7 @@
         if (emailInput) { emailInput.value = ''; emailInput.style.borderColor = ''; }
         if (nameInput)  nameInput.value = '';
         if (checkbox)   checkbox.classList.remove('is-checked');
-        if (submitBtn)  { submitBtn.disabled = false; submitBtn.textContent = 'Book my appointment →'; }
+        if (submitBtn)  { submitBtn.disabled = false; submitBtn.textContent = 'Get early access →'; }
         // reset calendar + slots to defaults
         root.querySelectorAll('[data-vt-cal]').forEach(function (b) { b.classList.remove('is-selected'); });
         var defaultDay = root.querySelector('[data-vt-cal="Jun 4"]');
