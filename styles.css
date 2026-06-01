@@ -421,7 +421,22 @@ button { cursor: pointer; font: inherit; }
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
   gap: 64px;
-  align-items: start;
+  align-items: center;
+}
+.br-hero__visual {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--card);
+  border: 1px solid var(--border);
+  box-shadow: 0 24px 60px rgba(18,18,18,0.10), 0 6px 16px rgba(18,18,18,0.06);
+  transform: rotate(1.5deg);
+}
+.br-hero__visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .br-hero__copy { min-width: 0; }
 .br-hero__eyebrow {
@@ -657,6 +672,77 @@ button { cursor: pointer; font: inherit; }
 @media (max-width: 900px) {
   .br-hero { padding: 56px 22px 48px; }
   .br-hero__inner { grid-template-columns: 1fr; gap: 40px; }
+  .br-hero__visual {
+    max-width: 460px;
+    margin: 0 auto;
+    transform: rotate(1deg);
+  }
+}
+
+/* ─── Live site iframe frame ─── */
+.br-site-frame {
+  width: 100%;
+  max-width: 400px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 56px rgba(18,18,18,0.10), 0 4px 14px rgba(18,18,18,0.05);
+}
+@media (max-width: 960px) {
+  .br-site-frame { max-width: none; }
+}
+.br-site-frame__bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: #F1EFEA;
+  border-bottom: 1px solid var(--border);
+}
+.br-site-frame__dots { display: inline-flex; gap: 6px; flex-shrink: 0; }
+.br-site-frame__dots i {
+  width: 9px; height: 9px;
+  background: rgba(18,18,18,0.18);
+  border-radius: 999px;
+}
+.br-site-frame__url {
+  flex: 1;
+  min-width: 0;
+  padding: 5px 10px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.br-site-frame__viewport {
+  height: 580px;
+  overflow: hidden;
+  position: relative;
+}
+.br-site-frame__iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+.br-site-frame__caption {
+  padding: 11px 14px;
+  margin: 0;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+  letter-spacing: 0.01em;
+}
+.br-site-frame__caption a {
+  color: var(--text);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* ─── Trust strip ─── */
