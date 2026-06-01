@@ -1176,37 +1176,89 @@ button { cursor: pointer; font: inherit; }
   padding: 0 20px;
 }
 
-/* ─── "Everything included" grid ─── */
-.br-included {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 48px;
+/* ─── "Everything included" — feature card grid ─── */
+.br-included__head {
+  max-width: 720px;
+  margin: 0 auto 56px;
+  text-align: center;
 }
-@media (min-width: 960px) {
-  .br-included { grid-template-columns: 0.9fr 1.1fr; gap: 56px; }
+.br-included__head .br-kicker {
+  display: inline-flex;
+  justify-content: center;
 }
-.br-included__head h2 {
-  font-size: clamp(30px, 4.6vw, 56px);
-  line-height: 1.0;
-  letter-spacing: -0.06em;
-  font-weight: 800;
-  margin: 0;
+.br-included__sub {
+  margin: 18px auto 0;
+  font-size: clamp(15px, 1.6vw, 17px);
+  color: var(--muted);
+  line-height: 1.6;
+  max-width: 580px;
 }
 .br-included__grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   border-top: 1px solid var(--border);
   border-left: 1px solid var(--border);
 }
-.br-included__grid span {
-  padding: 18px 16px;
+@media (min-width: 640px) {
+  .br-included__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 960px) {
+  .br-included__grid { grid-template-columns: repeat(4, 1fr); }
+}
+.br-included__item {
+  position: relative;
+  padding: 22px 20px;
   background: var(--card);
   border-right: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
+  cursor: default;
+  transition: background .2s ease, transform .2s ease;
+  overflow: hidden;
+}
+.br-included__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.br-included__item:hover {
+  background: var(--bg);
+}
+.br-included__item:hover::before {
+  transform: scaleX(1);
+}
+.br-included__name {
+  margin: 0 0 8px;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
   color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.br-included__name::before {
+  content: "→";
   font-size: 14px;
   font-weight: 800;
-  letter-spacing: -0.01em;
+  color: var(--accent);
+  transition: transform .2s ease;
+}
+.br-included__item:hover .br-included__name::before {
+  transform: translateX(3px);
+}
+.br-included__desc {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+  line-height: 1.55;
 }
 
 /* ─── FAQ ─── */
