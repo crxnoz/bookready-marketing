@@ -1187,6 +1187,89 @@ button { cursor: pointer; font: inherit; }
   padding: 0 20px;
 }
 
+/* ─── Feature marquee — moving showcase ─── */
+.br-section__head--center {
+  text-align: center;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.br-section__head--center .br-kicker {
+  display: inline-flex;
+  justify-content: center;
+}
+.br-section--marquee .br-section__inner { padding-bottom: 0; }
+
+.br-marquee {
+  margin-top: 56px;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 80px, #000 calc(100% - 80px), transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0, #000 80px, #000 calc(100% - 80px), transparent 100%);
+}
+.br-marquee__track {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+  animation: brMarquee 60s linear infinite;
+  will-change: transform;
+}
+.br-marquee:hover .br-marquee__track { animation-play-state: paused; }
+.br-marquee__card {
+  flex-shrink: 0;
+  width: 280px;
+  padding: 24px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: background .2s ease, transform .2s ease;
+}
+.br-marquee__card:hover { background: var(--bg); transform: translateY(-2px); }
+.br-marquee__icon {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  margin-bottom: 14px;
+  transition: background .25s ease, border-color .25s ease, transform .25s ease;
+}
+.br-marquee__icon svg { width: 18px; height: 18px; display: block; }
+.br-marquee__card:hover .br-marquee__icon {
+  background: var(--accent);
+  border-color: var(--accent);
+  transform: rotate(-3deg);
+}
+.br-marquee__card h3 {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin: 0 0 4px;
+}
+.br-marquee__card p {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+  line-height: 1.55;
+  margin: 0;
+}
+
+@keyframes brMarquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .br-marquee { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
+  .br-marquee__track { animation: none; }
+}
+
+
 /* ─── FAQ ─── */
 .br-faq {
   display: grid;
