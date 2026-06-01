@@ -27,7 +27,17 @@ body {
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01", "cv11";   /* single-storey 'a', slab '1' — editorial Inter */
 }
+
+/* Signature italic punchline used inside headlines */
+.br-italic {
+  font-style: italic;
+  font-weight: 300;
+  color: var(--muted);
+  letter-spacing: -0.02em;
+}
+
 img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
 button { cursor: pointer; font: inherit; }
@@ -387,11 +397,12 @@ button { cursor: pointer; font: inherit; }
   font-size: 15px;
   font-weight: 800;
   letter-spacing: 0.01em;
-  transition: background .15s ease, color .15s ease;
+  transition: background .15s ease, color .15s ease, transform .15s ease;
 }
 .br-button:hover {
   background: transparent;
   color: var(--text);
+  transform: translateY(-1px);
 }
 .br-button--inverse {
   background: var(--text);
