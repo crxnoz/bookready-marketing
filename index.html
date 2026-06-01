@@ -194,13 +194,55 @@
           No card required for the first 7 days &middot; Cancel anytime &middot; Keep your own domain
         </p>
       </div>
-      <div class="br-hero__visual" aria-hidden="true">
-        <img
-          src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1200&h=1400&fit=crop&q=80"
-          alt=""
-          loading="eager"
-          decoding="async"
-        />
+      <div class="br-hero__demo">
+
+        <div class="br-demo__controls">
+          <p class="br-demo__label">Try it live &mdash; type your name, pick your vibe</p>
+          <input
+            class="br-demo__name"
+            type="text"
+            value="Maverick &amp; Co."
+            maxlength="28"
+            autocomplete="off"
+            spellcheck="false"
+            aria-label="Your business name"
+            data-demo-name
+          />
+          <div class="br-demo__niches" role="group" aria-label="Business type">
+            <button type="button" class="br-demo__niche is-active" data-niche="barber" aria-pressed="true">Barber</button>
+            <button type="button" class="br-demo__niche" data-niche="spa" aria-pressed="false">Spa</button>
+            <button type="button" class="br-demo__niche" data-niche="lash" aria-pressed="false">Lash</button>
+            <button type="button" class="br-demo__niche" data-niche="nails" aria-pressed="false">Nails</button>
+            <button type="button" class="br-demo__niche" data-niche="solo" aria-pressed="false">Solo</button>
+          </div>
+        </div>
+
+        <div class="br-preview" data-preview>
+          <div class="br-preview__bar">
+            <span class="br-preview__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="br-preview__url" data-preview-url>maverick-co.bkrdy.me</span>
+          </div>
+          <div class="br-preview__screen" data-preview-screen>
+            <div class="br-preview__cover">
+              <span class="br-preview__kicker">Now booking</span>
+              <h3 class="br-preview__name" data-preview-name>Maverick &amp; Co.</h3>
+              <p class="br-preview__tagline" data-preview-tagline>Barbershop &amp; men&rsquo;s grooming</p>
+            </div>
+            <div class="br-preview__menu" data-preview-menu>
+              <div class="br-preview__row"><span class="br-preview__svc">Signature Cut</span><span class="br-preview__price">$45</span></div>
+              <div class="br-preview__row"><span class="br-preview__svc">Skin Fade</span><span class="br-preview__price">$40</span></div>
+              <div class="br-preview__row"><span class="br-preview__svc">Beard Sculpt</span><span class="br-preview__price">$25</span></div>
+              <div class="br-preview__row"><span class="br-preview__svc">Hot Towel Shave</span><span class="br-preview__price">$35</span></div>
+            </div>
+            <div class="br-preview__cta">Book appointment</div>
+          </div>
+          <p class="br-preview__tpl">Template: <strong data-preview-tpl>The Fade Room</strong></p>
+        </div>
+
+        <a class="br-demo__live" href="https://lusheststudio.bkrdy.me" target="_blank" rel="noopener">
+          These are real BookReady sites &mdash; see one live &#8599;
+        </a>
+
       </div>
     </div>
   </section>
@@ -266,7 +308,7 @@
             <span class="br-template-card__overlay">View template &rarr;</span>
           </a>
           <p class="br-template-card__label">Luxe &middot; Beauty Boutique</p>
-          <h3>Velvet Theory <span class="br-soon">Coming soon</span></h3>
+          <h3>Velvet Theory</h3>
           <p class="br-template-card__text">
             Rich, brooding, jewel-toned. Built for lash bars, beauty boutiques, and brands with serious aesthetics.
           </p>
@@ -327,8 +369,120 @@
     </div>
   </section>
 
+  <!-- ─── Demo booking flow ─── -->
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+      <div class="br-demoflow">
+
+        <div class="br-demoflow__copy">
+          <p class="br-kicker">Client experience</p>
+          <h2 class="br-section__title">Book in 3 taps. Reminders handle themselves.</h2>
+          <p class="br-section__intro">
+            Your clients book right from your site &mdash; no app, no login, no friction. Confirmation hits their inbox instantly. An SMS reminder fires 24 hours before, and your no-show rate drops in half.
+          </p>
+          <ul class="br-demoflow__bullets">
+            <li>No app needed &mdash; mobile web booking</li>
+            <li>Stripe deposit collected at booking</li>
+            <li>SMS + email reminders, automatically</li>
+            <li>Clients reschedule or cancel themselves</li>
+          </ul>
+        </div>
+
+        <div class="br-demoflow__right">
+          <div class="br-booking" data-booking>
+
+            <div class="br-booking__header">
+              <span class="br-booking__biz">Maverick &amp; Co.</span>
+              <div class="br-booking__steps-bar" aria-label="Step progress">
+                <span class="br-booking__pip is-active" data-pip="1"></span>
+                <span class="br-booking__pip" data-pip="2"></span>
+                <span class="br-booking__pip" data-pip="3"></span>
+              </div>
+            </div>
+
+            <!-- Step 1: pick service -->
+            <div class="br-booking__panel" data-panel="1">
+              <p class="br-booking__label">Choose a service</p>
+              <div class="br-booking__services">
+                <button type="button" class="br-booking__svc is-selected" data-svc="Signature Cut" data-price="$45" data-dur="45 min">
+                  <span class="br-booking__svc-name">Signature Cut</span>
+                  <span class="br-booking__svc-meta">45 min &middot; $45</span>
+                </button>
+                <button type="button" class="br-booking__svc" data-svc="Skin Fade" data-price="$40" data-dur="35 min">
+                  <span class="br-booking__svc-name">Skin Fade</span>
+                  <span class="br-booking__svc-meta">35 min &middot; $40</span>
+                </button>
+                <button type="button" class="br-booking__svc" data-svc="Beard Sculpt" data-price="$25" data-dur="20 min">
+                  <span class="br-booking__svc-name">Beard Sculpt</span>
+                  <span class="br-booking__svc-meta">20 min &middot; $25</span>
+                </button>
+                <button type="button" class="br-booking__svc" data-svc="Hot Towel Shave" data-price="$35" data-dur="30 min">
+                  <span class="br-booking__svc-name">Hot Towel Shave</span>
+                  <span class="br-booking__svc-meta">30 min &middot; $35</span>
+                </button>
+              </div>
+              <button type="button" class="br-button br-booking__next" data-next="2">Continue &rarr;</button>
+            </div>
+
+            <!-- Step 2: pick time -->
+            <div class="br-booking__panel" data-panel="2" hidden>
+              <p class="br-booking__label">Pick a time</p>
+              <div class="br-booking__days">
+                <button type="button" class="br-booking__day" data-day="Mon Jun 2">Mon</button>
+                <button type="button" class="br-booking__day" data-day="Tue Jun 3">Tue</button>
+                <button type="button" class="br-booking__day is-selected" data-day="Wed Jun 4">Wed</button>
+                <button type="button" class="br-booking__day" data-day="Thu Jun 5">Thu</button>
+                <button type="button" class="br-booking__day" data-day="Fri Jun 6">Fri</button>
+              </div>
+              <div class="br-booking__times">
+                <button type="button" class="br-booking__time" data-time="9:00 AM">9:00 AM</button>
+                <button type="button" class="br-booking__time" data-time="10:00 AM">10:00 AM</button>
+                <button type="button" class="br-booking__time" data-time="11:00 AM">11:00 AM</button>
+                <button type="button" class="br-booking__time is-selected" data-time="2:00 PM">2:00 PM</button>
+                <button type="button" class="br-booking__time" data-time="3:00 PM">3:00 PM</button>
+                <button type="button" class="br-booking__time" data-time="4:00 PM">4:00 PM</button>
+              </div>
+              <button type="button" class="br-button br-booking__next" data-next="3">Confirm booking &rarr;</button>
+            </div>
+
+            <!-- Step 3: confirmed + SMS animation -->
+            <div class="br-booking__panel br-booking__panel--confirm" data-panel="3" hidden>
+              <div class="br-booking__confirm">
+                <div class="br-booking__check">&#10003;</div>
+                <p class="br-booking__confirm-title">You&rsquo;re booked.</p>
+                <div class="br-booking__confirm-details">
+                  <span class="br-booking__confirm-svc" data-confirm-svc>Signature Cut &middot; $45</span>
+                  <span class="br-booking__confirm-time" data-confirm-time>Wed, Jun 4 &middot; 2:00 PM</span>
+                  <span class="br-booking__confirm-biz">Maverick &amp; Co.</span>
+                </div>
+              </div>
+
+              <div class="br-sms" data-sms aria-live="polite">
+                <div class="br-sms__device">
+                  <div class="br-sms__topbar">
+                    <span class="br-sms__app">Messages</span>
+                    <span class="br-sms__now">now</span>
+                  </div>
+                  <div class="br-sms__bubble">
+                    <p class="br-sms__from">Maverick &amp; Co.</p>
+                    <p class="br-sms__text" data-sms-text>Reminder: Your Signature Cut is tomorrow at 2:00 PM. Reply STOP to opt out.</p>
+                  </div>
+                </div>
+                <p class="br-sms__caption">Auto-reminder fires 24h before &mdash; no-shows drop ~50%</p>
+              </div>
+
+              <button type="button" class="br-booking__restart" data-restart>Try another service &rarr;</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <!-- ─── Pricing ─── -->
-  <section id="pricing" class="br-section br-section--bordered">
+  <section id="pricing" class="br-section br-section--bordered" data-billing="monthly">
     <div class="br-section__inner">
 
       <div class="br-section__head">
@@ -341,12 +495,20 @@
         </p>
       </div>
 
+      <div class="br-billing-toggle" data-billing-toggle>
+        <button type="button" class="br-billing-opt is-active" data-billing-btn="monthly">Monthly</button>
+        <button type="button" class="br-billing-opt" data-billing-btn="annual">Annual <span class="br-billing-badge">2 months free</span></button>
+      </div>
+
       <div class="br-pricing-grid" aria-label="BookReady plans">
 
         <article class="br-plan">
           <p class="br-plan__label">Solo</p>
           <h3>Start solo</h3>
-          <div class="br-plan__price">$19<span>/mo</span></div>
+          <div class="br-plan__price br-price-m">$19<span>/mo</span></div>
+          <div class="br-plan__price br-price-a">$190<span>/yr</span></div>
+          <p class="br-plan__period br-period-m">billed monthly</p>
+          <p class="br-plan__period br-period-a">$15.83/mo &middot; saves $38</p>
           <p class="br-plan__sms">300 SMS / month included</p>
           <p class="br-plan__text">
             Best for solo barbers, lash artists, nail techs, and one-chair beauty entrepreneurs.
@@ -364,7 +526,10 @@
           <div class="br-plan__badge">Most Popular</div>
           <p class="br-plan__label">Studio</p>
           <h3>Grow as a team</h3>
-          <div class="br-plan__price">$49<span>/mo</span></div>
+          <div class="br-plan__price br-price-m">$49<span>/mo</span></div>
+          <div class="br-plan__price br-price-a">$490<span>/yr</span></div>
+          <p class="br-plan__period br-period-m">billed monthly</p>
+          <p class="br-plan__period br-period-a">$40.83/mo &middot; saves $98</p>
           <p class="br-plan__sms">1,200 SMS / month included</p>
           <p class="br-plan__text">
             Best for 2&ndash;5 chair salons that want a polished website and the marketing tools to fill it.
@@ -381,7 +546,10 @@
         <article class="br-plan">
           <p class="br-plan__label">Salon</p>
           <h3>Scale your brand</h3>
-          <div class="br-plan__price">$99<span>/mo</span></div>
+          <div class="br-plan__price br-price-m">$99<span>/mo</span></div>
+          <div class="br-plan__price br-price-a">$990<span>/yr</span></div>
+          <p class="br-plan__period br-period-m">billed monthly</p>
+          <p class="br-plan__period br-period-a">$82.50/mo &middot; saves $198</p>
           <p class="br-plan__sms">3,000 SMS / month included</p>
           <p class="br-plan__text">
             Best for multi-chair, multi-location operators ready to run a serious beauty business.
@@ -395,6 +563,18 @@
           <a href="https://app.bkrdy.me/register?plan=salon" class="br-button br-plan__button">Choose Salon</a>
         </article>
 
+      </div>
+
+      <div class="br-risk-row" aria-label="Money-back reassurances">
+        <span class="br-risk-row__item">14-day trial</span>
+        <span class="br-risk-row__sep">&middot;</span>
+        <span class="br-risk-row__item">No card for 7 days</span>
+        <span class="br-risk-row__sep">&middot;</span>
+        <span class="br-risk-row__item">Cancel anytime</span>
+        <span class="br-risk-row__sep">&middot;</span>
+        <span class="br-risk-row__item">Keep your domain</span>
+        <span class="br-risk-row__sep">&middot;</span>
+        <span class="br-risk-row__item">Free migration</span>
       </div>
 
       <p class="br-plan-foot">
@@ -499,6 +679,47 @@
     </div>
   </section>
 
+  <!-- ─── Migration ─── -->
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+
+      <div class="br-migration__head">
+        <p class="br-kicker">Switching platforms?</p>
+        <h2 class="br-section__title">We move you for free. Same day.</h2>
+        <p class="br-section__intro">
+          Coming from Acuity, Square, Vagaro, or Booksy? We rebuild your services, import your client list, and get you live &mdash; free with any plan.
+        </p>
+        <p class="br-migration__note">
+          Stuck on StyleSeat? StyleSeat locks your client data in &mdash; there&rsquo;s no clean export. We know how to work around it. <a href="mailto:hello@bkrdy.me?subject=StyleSeat%20Migration">Email us</a> and we&rsquo;ll walk you through it before you even sign up.
+        </p>
+      </div>
+
+      <div class="br-migration__steps">
+        <div class="br-migration__step">
+          <span class="br-migration__num">01</span>
+          <h3>Sign up + pick your template</h3>
+          <p>Live on a real BookReady site in under 20 minutes. Then email us your export file.</p>
+        </div>
+        <div class="br-migration__step">
+          <span class="br-migration__num">02</span>
+          <h3>Send us your client export</h3>
+          <p>Every platform gives you a client CSV. Email it, or hop on a 15-min screen share and we&rsquo;ll pull it together.</p>
+        </div>
+        <div class="br-migration__step">
+          <span class="br-migration__num">03</span>
+          <h3>We do the work &mdash; you go live</h3>
+          <p>Services rebuilt, clients imported. Usually same day. Your clients won&rsquo;t notice a thing.</p>
+        </div>
+      </div>
+
+      <div class="br-migration__cta">
+        <a href="mailto:hello@bkrdy.me?subject=Free%20Migration%20Help" class="br-button">Book your free migration &rarr;</a>
+        <p class="br-migration__fine">Free with any BookReady plan &middot; Usually done same day</p>
+      </div>
+
+    </div>
+  </section>
+
   <!-- ─── FAQ ─── -->
   <section class="br-section br-section--bordered">
     <div class="br-section__inner">
@@ -588,6 +809,233 @@
       </p>
     </div>
   </footer>
+
+  <!-- ─── Exit-intent modal ─── -->
+  <div class="br-modal-overlay" id="br-exit-overlay" aria-modal="true" role="dialog" aria-label="Before you go" hidden>
+    <div class="br-modal">
+      <button class="br-modal__close" type="button" aria-label="Close" data-modal-close>&#215;</button>
+      <div class="br-modal__accent"></div>
+      <div class="br-modal__body">
+        <p class="br-kicker">Before you go</p>
+        <h2 class="br-modal__title">Get the template lookbook + a launch offer.</h2>
+        <p class="br-modal__text">
+          We&rsquo;ll send you a real look at all three BookReady templates &mdash; plus an exclusive discount for early studios. No spam. Unsubscribe anytime.
+        </p>
+        <div class="br-modal__form" data-modal-form>
+          <input
+            class="br-modal__input"
+            type="email"
+            placeholder="your@email.com"
+            autocomplete="email"
+            aria-label="Your email address"
+            data-modal-email
+          />
+          <button type="button" class="br-button br-modal__submit" data-modal-submit>Send it to me</button>
+        </div>
+        <p class="br-modal__success" data-modal-success hidden>
+          You&rsquo;re in &mdash; check your inbox shortly.
+        </p>
+        <p class="br-modal__fine">No spam &middot; Unsubscribe anytime &middot; Takes 5 seconds</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── Annual billing toggle ─── -->
+  <script>
+  (function () {
+    var section = document.getElementById('pricing');
+    var btns    = document.querySelectorAll('[data-billing-btn]');
+    if (!section || !btns.length) return;
+
+    btns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var billing = btn.getAttribute('data-billing-btn');
+        section.setAttribute('data-billing', billing);
+        btns.forEach(function (b) {
+          b.classList.toggle('is-active', b.getAttribute('data-billing-btn') === billing);
+        });
+        // Update plan CTA hrefs to include billing=annual for tracking
+        ['solo', 'studio', 'salon'].forEach(function (plan) {
+          var link = section.querySelector('a[href*="plan=' + plan + '"]');
+          if (!link) return;
+          var base = 'https://app.bkrdy.me/register?plan=' + plan;
+          link.href = billing === 'annual' ? base + '&billing=annual' : base;
+        });
+      });
+    });
+  })();
+  </script>
+
+  <!-- ─── Booking demo flow ─── -->
+  <script>
+  (function () {
+    var booking = document.querySelector('[data-booking]');
+    if (!booking) return;
+
+    var state = { svc: 'Signature Cut', price: '$45', day: 'Wed Jun 4', time: '2:00 PM' };
+    var smsTimer = null;
+
+    function showPanel(n) {
+      booking.querySelectorAll('[data-panel]').forEach(function (p) { p.hidden = true; });
+      var panel = booking.querySelector('[data-panel="' + n + '"]');
+      if (panel) panel.hidden = false;
+
+      booking.querySelectorAll('[data-pip]').forEach(function (pip) {
+        var num = parseInt(pip.getAttribute('data-pip'), 10);
+        pip.classList.toggle('is-done', num < n);
+        pip.classList.toggle('is-active', num === n);
+      });
+
+      if (n === 3) {
+        var svcEl  = booking.querySelector('[data-confirm-svc]');
+        var timeEl = booking.querySelector('[data-confirm-time]');
+        var txtEl  = booking.querySelector('[data-sms-text]');
+        var sms    = booking.querySelector('[data-sms]');
+        if (svcEl)  svcEl.textContent  = state.svc + ' · ' + state.price;
+        if (timeEl) timeEl.textContent = state.day + ' · ' + state.time;
+        if (txtEl)  txtEl.textContent  = 'Reminder: Your ' + state.svc + ' is tomorrow at ' + state.time + '. Reply STOP to opt out.';
+        if (sms) {
+          sms.classList.remove('is-visible');
+          if (smsTimer) clearTimeout(smsTimer);
+          smsTimer = setTimeout(function () { sms.classList.add('is-visible'); }, 1100);
+        }
+      }
+    }
+
+    booking.querySelectorAll('[data-svc]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        booking.querySelectorAll('[data-svc]').forEach(function (b) { b.classList.remove('is-selected'); });
+        btn.classList.add('is-selected');
+        state.svc   = btn.getAttribute('data-svc');
+        state.price = btn.getAttribute('data-price');
+      });
+    });
+
+    booking.querySelectorAll('[data-day]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        booking.querySelectorAll('[data-day]').forEach(function (b) { b.classList.remove('is-selected'); });
+        btn.classList.add('is-selected');
+        state.day = btn.getAttribute('data-day');
+      });
+    });
+
+    booking.querySelectorAll('[data-time]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        booking.querySelectorAll('[data-time]').forEach(function (b) { b.classList.remove('is-selected'); });
+        btn.classList.add('is-selected');
+        state.time = btn.getAttribute('data-time');
+      });
+    });
+
+    booking.querySelectorAll('[data-next]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        showPanel(parseInt(btn.getAttribute('data-next'), 10));
+      });
+    });
+
+    booking.querySelectorAll('[data-restart]').forEach(function (btn) {
+      btn.addEventListener('click', function () { showPanel(1); });
+    });
+  })();
+  </script>
+
+  <!-- ─── Exit-intent modal ─── -->
+  <script>
+  (function () {
+    var STORAGE_KEY = 'br_subscribed';
+    var SESSION_KEY = 'br_exit_shown';
+    var API_URL     = 'https://api.bkrdy.me/api/v1/leads';
+
+    if (localStorage.getItem(STORAGE_KEY) || sessionStorage.getItem(SESSION_KEY)) return;
+
+    var overlay  = document.getElementById('br-exit-overlay');
+    var form     = overlay ? overlay.querySelector('[data-modal-form]') : null;
+    var input    = overlay ? overlay.querySelector('[data-modal-email]') : null;
+    var submit   = overlay ? overlay.querySelector('[data-modal-submit]') : null;
+    var success  = overlay ? overlay.querySelector('[data-modal-success]') : null;
+    var closeBtn = overlay ? overlay.querySelector('[data-modal-close]') : null;
+    if (!overlay) return;
+
+    function openModal() {
+      if (sessionStorage.getItem(SESSION_KEY)) return;
+      sessionStorage.setItem(SESSION_KEY, '1');
+      overlay.removeAttribute('hidden');
+      // rAF so `hidden` removal paints before opacity transition fires
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () { overlay.classList.add('is-open'); });
+      });
+    }
+
+    function closeModal() {
+      overlay.classList.remove('is-open');
+      setTimeout(function () { overlay.setAttribute('hidden', ''); }, 280);
+    }
+
+    // Desktop: exit-intent — mouse leaves viewport through the top edge
+    var exitFired = false;
+    document.addEventListener('mouseleave', function (e) {
+      if (exitFired || e.clientY > 0) return;
+      exitFired = true;
+      openModal();
+    });
+
+    // Mobile / no-hover: fire after 45 s if still on page
+    var mobileTimer = null;
+    if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      mobileTimer = setTimeout(openModal, 45000);
+    }
+
+    // Close via button or overlay click
+    if (closeBtn) closeBtn.addEventListener('click', closeModal);
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay) closeModal();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && overlay.classList.contains('is-open')) closeModal();
+    });
+
+    // Submit
+    if (submit) {
+      submit.addEventListener('click', function () {
+        var email = input ? input.value.trim() : '';
+        if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          if (input) { input.focus(); input.style.borderColor = '#C0392B'; }
+          return;
+        }
+        submit.disabled = true;
+        submit.textContent = 'Sending…';
+
+        fetch(API_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({ email: email, source: 'exit-intent' })
+        })
+        .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+        .then(function () {
+          localStorage.setItem(STORAGE_KEY, '1');
+          if (form) form.hidden = true;
+          if (success) success.removeAttribute('hidden');
+          setTimeout(closeModal, 2800);
+        })
+        .catch(function () {
+          submit.disabled = false;
+          submit.textContent = 'Send it to me';
+          if (input) { input.focus(); input.style.borderColor = '#C0392B'; }
+        });
+      });
+    }
+
+    // Enter key submits
+    if (input) {
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') submit && submit.click();
+      });
+      input.addEventListener('input', function () {
+        input.style.borderColor = '';
+      });
+    }
+  })();
+  </script>
 
   <!-- ─── Nav behavior (vanilla JS, no deps) ─── -->
   <script>
@@ -695,6 +1143,120 @@
         document.body.style.overflow = '';
       }
     });
+  })();
+  </script>
+
+  <!-- ─── Interactive hero preview (vanilla JS, no deps) ─── -->
+  <script>
+  (function () {
+    var root = document.querySelector('[data-preview]');
+    if (!root) return;
+
+    var THEMES = {
+      barber: {
+        tpl: 'The Fade Room',
+        tagline: "Barbershop & men's grooming",
+        accent: '#C8A15A', accentText: '#161310',
+        screenBg: '#16140F', screenText: '#F4EFE7',
+        muted: 'rgba(244,239,231,0.55)', line: 'rgba(244,239,231,0.12)',
+        services: [['Signature Cut', '$45'], ['Skin Fade', '$40'], ['Beard Sculpt', '$25'], ['Hot Towel Shave', '$35']]
+      },
+      spa: {
+        tpl: 'Lush Studio',
+        tagline: 'Spa & wellness',
+        accent: '#7C8A6B', accentText: '#FBFAF6',
+        screenBg: '#FBF9F3', screenText: '#26261F',
+        muted: '#8C8877', line: 'rgba(18,18,18,0.10)',
+        services: [['Signature Facial', '$95'], ['Deep Tissue · 60m', '$110'], ['Body Glow Scrub', '$85'], ['Aromatherapy', '$70']]
+      },
+      lash: {
+        tpl: 'Velvet Theory',
+        tagline: 'Lash & beauty boutique',
+        accent: '#C77DA6', accentText: '#1E1422',
+        screenBg: '#1E1422', screenText: '#F3E9F0',
+        muted: 'rgba(243,233,240,0.55)', line: 'rgba(243,233,240,0.12)',
+        services: [['Classic Full Set', '$120'], ['Hybrid Set', '$145'], ['Volume Set', '$165'], ['Lash Lift & Tint', '$85']]
+      },
+      nails: {
+        tpl: 'Lush Studio',
+        tagline: 'Nail studio',
+        accent: '#E1846B', accentText: '#FFF8F5',
+        screenBg: '#FFF8F5', screenText: '#2A2320',
+        muted: '#9C8E88', line: 'rgba(18,18,18,0.10)',
+        services: [['Gel Manicure', '$45'], ['Builder Gel', '$60'], ['Luxe Pedicure', '$65'], ['Nail Art Set', '$75']]
+      },
+      solo: {
+        tpl: 'Your brand',
+        tagline: 'Solo pro',
+        accent: '#E8C7DA', accentText: '#121212',
+        screenBg: '#FFFFFF', screenText: '#121212',
+        muted: '#6B7280', line: 'rgba(18,18,18,0.10)',
+        services: [['Signature Service', '$80'], ['Express Session', '$45'], ['Premium Package', '$140'], ['Add-on Treatment', '$30']]
+      }
+    };
+
+    var screenEl = root.querySelector('[data-preview-screen]');
+    var nameEl   = root.querySelector('[data-preview-name]');
+    var tagEl    = root.querySelector('[data-preview-tagline]');
+    var menuEl   = root.querySelector('[data-preview-menu]');
+    var tplEl    = root.querySelector('[data-preview-tpl]');
+    var urlEl    = root.querySelector('[data-preview-url]');
+    var input    = document.querySelector('[data-demo-name]');
+    var niches   = document.querySelectorAll('[data-niche]');
+
+    function slugify(s) {
+      return (s || '')
+        .normalize('NFD').replace(/[^\x00-\x7f]/g, '')
+        .toLowerCase().trim()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '') || 'your-studio';
+    }
+    function bizName() {
+      var v = input ? input.value.trim() : '';
+      return v || 'Your Studio';
+    }
+    function applyName() {
+      var n = bizName();
+      nameEl.textContent = n;
+      urlEl.textContent = slugify(n) + '.bkrdy.me';
+    }
+    function render(key) {
+      var t = THEMES[key];
+      if (!t) return;
+      screenEl.style.setProperty('--pv-accent', t.accent);
+      screenEl.style.setProperty('--pv-accent-text', t.accentText);
+      screenEl.style.setProperty('--pv-screen-bg', t.screenBg);
+      screenEl.style.setProperty('--pv-screen-text', t.screenText);
+      screenEl.style.setProperty('--pv-muted', t.muted);
+      screenEl.style.setProperty('--pv-line', t.line);
+      tagEl.textContent = t.tagline;
+      tplEl.textContent = t.tpl;
+      menuEl.innerHTML = t.services.map(function (s) {
+        return '<div class="br-preview__row"><span class="br-preview__svc">' +
+          s[0] + '</span><span class="br-preview__price">' + s[1] + '</span></div>';
+      }).join('');
+      applyName();
+    }
+
+    niches.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        niches.forEach(function (b) {
+          b.classList.remove('is-active');
+          b.setAttribute('aria-pressed', 'false');
+        });
+        btn.classList.add('is-active');
+        btn.setAttribute('aria-pressed', 'true');
+        screenEl.classList.add('is-swapping');
+        setTimeout(function () {
+          render(btn.getAttribute('data-niche'));
+          screenEl.classList.remove('is-swapping');
+        }, 120);
+      });
+    });
+
+    if (input) input.addEventListener('input', applyName);
+
+    render('barber');
   })();
   </script>
 
