@@ -3,12 +3,107 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>BookReady — Beautiful booking websites for beauty brands</title>
+  <title>Booking websites for salons, barbers, lash, and spa | BookReady</title>
   <meta name="description" content="BookReady gives barbers, lash artists, nail techs, and spas a real designed website with booking built in. Pick a template, add your services, and you're live in under 20 minutes." />
+  <link rel="canonical" href="https://mybookready.com/" />
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mybookready.com/" />
+  <meta property="og:site_name" content="BookReady" />
+  <meta property="og:title" content="Booking websites for salons, barbers, lash, and spa" />
+  <meta property="og:description" content="A real designed website with booking built in. Pick a template, add your services, go live in under 20 minutes." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=630&fit=crop&q=80" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Booking websites for salons, barbers, lash, and spa" />
+  <meta name="twitter:description" content="A real designed website with booking built in. Pick a template, add your services, go live in under 20 minutes." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=630&fit=crop&q=80" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured data: the product itself -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "BookReady",
+    "url": "https://mybookready.com/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Booking websites for salons, barbers, lash artists, nail techs, and spas. Pick a designed template, add your services, go live in under 20 minutes.",
+    "offers": [
+      {"@type": "Offer", "name": "Solo",   "price": "19", "priceCurrency": "USD", "availability": "https://schema.org/InStock"},
+      {"@type": "Offer", "name": "Studio", "price": "49", "priceCurrency": "USD", "availability": "https://schema.org/InStock"},
+      {"@type": "Offer", "name": "Salon",  "price": "99", "priceCurrency": "USD", "availability": "https://schema.org/InStock"}
+    ],
+    "publisher": { "@type": "Organization", "name": "BookReady", "url": "https://mybookready.com/" }
+  }
+  </script>
+
+  <!-- Structured data: FAQ (mirrors the on-page FAQ section verbatim) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What happens after the 14-day trial?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You pick a plan and your card is charged. If you don't want to continue, you can cancel from your dashboard and your site stays live for 30 days while you export your data."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I bring my own domain?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, on Studio and Salon plans. Solo gets a clean BookReady subdomain like yourname.bkrdy.me. Studio and Salon let you point a custom domain."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What about transaction fees?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BookReady doesn't take any. You pay Stripe's standard rate (2.9% + 30¢ in the US) and that's it. Deposits and full payments go straight to your Stripe account."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I switch templates after I sign up?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Anytime. Switching keeps your business info, services, bookings, customers, staff, hours, and policies. Only the look changes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if I run out of SMS in a month?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You'll get an email at 80% used. On Studio and Salon, additional messages are auto-billed at $0.025 each (with a hard cap you set). On Solo, you can buy a top-up pack or upgrade, whichever costs less."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is BookReady built for the US?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Right now, yes. SMS is 10DLC US-only, payments are Stripe US, and the booking flow assumes US business hours. International expansion is on the roadmap."
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -230,7 +325,7 @@
           Three templates. Pick the one that fits.
         </h2>
         <p class="br-section__intro">
-          Each one is designed around a specific kind of business &mdash; the colors, layout, and feel are already there. Add your info and it&rsquo;s yours. Switch anytime. Your services, clients, and bookings don&rsquo;t move.
+          Each one is designed around a specific kind of business. The colors, layout, and feel are already there. Add your info and it&rsquo;s yours. Switch anytime. Your services, clients, and bookings don&rsquo;t move.
         </p>
       </div>
 
@@ -238,7 +333,7 @@
 
         <article class="br-template-card">
           <a href="/templates/fade-room" class="br-template-card__preview">
-            <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=1000&fit=crop&q=80" alt="The Fade Room template — barbershop interior" loading="lazy" decoding="async" />
+            <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=1000&fit=crop&q=80" alt="The Fade Room template, barbershop interior" loading="lazy" decoding="async" />
             <span class="br-template-card__overlay">View template &rarr;</span>
           </a>
           <p class="br-template-card__label">Bold &middot; Barbershop</p>
@@ -250,7 +345,7 @@
 
         <article class="br-template-card">
           <a href="/templates/lush-studio" class="br-template-card__preview">
-            <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&h=1000&fit=crop&q=80" alt="Lush Studio template — calm spa interior" loading="lazy" decoding="async" />
+            <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&h=1000&fit=crop&q=80" alt="Lush Studio template, calm spa interior" loading="lazy" decoding="async" />
             <span class="br-template-card__overlay">View template &rarr;</span>
           </a>
           <p class="br-template-card__label">Soft &middot; Spa &amp; Wellness</p>
@@ -262,7 +357,7 @@
 
         <article class="br-template-card">
           <a href="/templates/velvet-theory" class="br-template-card__preview">
-            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=1000&fit=crop&q=80" alt="Velvet Theory template — luxe beauty studio" loading="lazy" decoding="async" />
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=1000&fit=crop&q=80" alt="Velvet Theory template, luxe beauty studio" loading="lazy" decoding="async" />
             <span class="br-template-card__overlay">View template &rarr;</span>
           </a>
           <p class="br-template-card__label">Luxe &middot; Beauty Boutique</p>
@@ -302,7 +397,7 @@
             <span class="br-step__num">01</span>
           </div>
           <h3>Pick a template</h3>
-          <p>Three templates, each built around a different kind of business. Pick yours. You can switch anytime &mdash; your bookings, clients, and services stay put.</p>
+          <p>Three templates, each built around a different kind of business. Pick yours. You can switch anytime. Your bookings, clients, and services stay put.</p>
         </article>
 
         <article class="br-step">
@@ -311,7 +406,7 @@
             <span class="br-step__num">02</span>
           </div>
           <h3>Add your services</h3>
-          <p>Add your services, hours, staff, and policies in the editor. Connect Stripe and you can take deposits before the appointment &mdash; takes about five minutes.</p>
+          <p>Add your services, hours, staff, and policies in the editor. Connect Stripe and you can take deposits before the appointment. Takes about five minutes.</p>
         </article>
 
         <article class="br-step">
@@ -336,11 +431,11 @@
           <p class="br-kicker">Client experience</p>
           <h2 class="br-section__title">What your clients see when they book.</h2>
           <p class="br-section__intro">
-            Clients book from their phone in a few taps &mdash; no app, no account. They pick a service, choose a time, pay a deposit, and get a confirmation. A reminder goes out automatically 24 hours before.
+            Clients book from their phone in a few taps. No app, no account. They pick a service, choose a time, pay a deposit, and get a confirmation. A reminder goes out automatically 24 hours before.
           </p>
           <ul class="br-demoflow__bullets">
-            <li>Books from any phone &mdash; no app download</li>
-            <li>Deposit paid at booking &mdash; clients who&rsquo;ve paid show up</li>
+            <li>Books from any phone. No app download.</li>
+            <li>Deposit paid at booking. Clients who&rsquo;ve paid show up.</li>
             <li>Confirmation sent instantly, reminder 24 hours before</li>
             <li>Self-serve reschedule and cancel within your policy</li>
           </ul>
@@ -485,7 +580,7 @@
               </div>
               <label class="br-vt__consent-row">
                 <span class="br-vt__checkbox" data-vt-checkbox></span>
-                <span class="br-vt__consent-text">Send me BookReady updates &mdash; new templates, features, and early offers. Unsubscribe anytime.</span>
+                <span class="br-vt__consent-text">Send me BookReady updates. New templates, features, and early offers. Unsubscribe anytime.</span>
               </label>
               <div class="br-vt__panel-foot">
                 <button type="button" class="br-vt__btn-primary" data-vt-submit>Get early access &rarr;</button>
@@ -644,7 +739,7 @@
         <div class="br-marquee__card">
           <span class="br-marquee__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></span>
           <h3>Three designed templates</h3>
-          <p>Editorial, spa, luxe. Switch any time &mdash; your data stays put.</p>
+          <p>Editorial, spa, luxe. Switch any time. Your data stays put.</p>
         </div>
 
         <div class="br-marquee__card">
@@ -674,7 +769,7 @@
         <div class="br-marquee__card">
           <span class="br-marquee__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 014-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg></span>
           <h3>Self-serve reschedule</h3>
-          <p>Clients move appointments themselves &mdash; within your rules.</p>
+          <p>Clients move appointments themselves, within your rules.</p>
         </div>
 
         <div class="br-marquee__card">
@@ -704,7 +799,7 @@
         <div class="br-marquee__card">
           <span class="br-marquee__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 11-5.8-1.6"/></svg></span>
           <h3>Announcement bar</h3>
-          <p>Promos, holiday hours, last-minute openings &mdash; one toggle.</p>
+          <p>Promos, holiday hours, last-minute openings. One toggle.</p>
         </div>
 
         <div class="br-marquee__card">
@@ -732,7 +827,7 @@
 
         <article class="br-testimonial">
           <p class="br-testimonial__quote">
-            &ldquo;I tried every booking platform out there. BookReady is the first one that looks like mine &mdash; not like a form someone built in 2015.&rdquo;
+            &ldquo;I tried every booking platform out there. BookReady is the first one that looks like mine. Not like a form someone built in 2015.&rdquo;
           </p>
           <div class="br-testimonial__author">
             <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&h=120&fit=crop&q=80" alt="" loading="lazy" decoding="async" />
@@ -781,10 +876,10 @@
         <p class="br-kicker">Switching platforms?</p>
         <h2 class="br-section__title">We move you for free. Same day.</h2>
         <p class="br-section__intro">
-          Coming from Acuity, Square, Vagaro, or Booksy? We rebuild your services, import your client list, and get you live &mdash; free with any plan.
+          Coming from Acuity, Square, Vagaro, or Booksy? We rebuild your services, import your client list, and get you live. Free with any plan.
         </p>
         <p class="br-migration__note">
-          Stuck on StyleSeat? StyleSeat locks your client data in &mdash; there&rsquo;s no clean export. We know how to work around it. <a href="mailto:hello@bkrdy.me?subject=StyleSeat%20Migration">Email us</a> and we&rsquo;ll walk you through it before you even sign up.
+          Stuck on StyleSeat? StyleSeat locks your client data in. There&rsquo;s no clean export. We know how to work around it. <a href="mailto:hello@bkrdy.me?subject=StyleSeat%20Migration">Email us</a> and we&rsquo;ll walk you through it before you even sign up.
         </p>
       </div>
 
@@ -801,7 +896,7 @@
         </div>
         <div class="br-migration__step">
           <span class="br-migration__num">03</span>
-          <h3>We do the work &mdash; you go live</h3>
+          <h3>We do the work. You go live.</h3>
           <p>Services rebuilt, clients imported. Usually same day. Your clients won&rsquo;t notice a thing.</p>
         </div>
       </div>
@@ -834,7 +929,7 @@
 
         <details class="br-faq__item">
           <summary>Can I bring my own domain?</summary>
-          <p>Yes &mdash; on Studio and Salon plans. Solo gets a clean BookReady subdomain like <em>yourname.bkrdy.me</em>. Studio and Salon let you point a custom domain.</p>
+          <p>Yes, on Studio and Salon plans. Solo gets a clean BookReady subdomain like <em>yourname.bkrdy.me</em>. Studio and Salon let you point a custom domain.</p>
         </details>
 
         <details class="br-faq__item">
@@ -849,12 +944,12 @@
 
         <details class="br-faq__item">
           <summary>What if I run out of SMS in a month?</summary>
-          <p>You&rsquo;ll get an email at 80% used. On Studio and Salon, additional messages are auto-billed at $0.025 each (with a hard cap you set). On Solo, you can buy a top-up pack or upgrade &mdash; whichever costs less.</p>
+          <p>You&rsquo;ll get an email at 80% used. On Studio and Salon, additional messages are auto-billed at $0.025 each (with a hard cap you set). On Solo, you can buy a top-up pack or upgrade, whichever costs less.</p>
         </details>
 
         <details class="br-faq__item">
           <summary>Is BookReady built for the US?</summary>
-          <p>Right now &mdash; yes. SMS is 10DLC US-only, payments are Stripe US, and the booking flow assumes US business hours. International expansion is on the roadmap.</p>
+          <p>Right now, yes. SMS is 10DLC US-only, payments are Stripe US, and the booking flow assumes US business hours. International expansion is on the roadmap.</p>
         </details>
 
       </div>
@@ -926,7 +1021,7 @@
           <button type="button" class="br-button br-modal__submit" data-modal-submit>Send it to me</button>
         </div>
         <p class="br-modal__success" data-modal-success hidden>
-          You&rsquo;re in &mdash; check your inbox shortly.
+          You&rsquo;re in. Check your inbox shortly.
         </p>
         <p class="br-modal__fine">No spam &middot; Unsubscribe anytime &middot; Takes 5 seconds</p>
       </div>
