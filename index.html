@@ -671,7 +671,7 @@
           <a href="https://app.bkrdy.me/register?plan=solo" class="br-button br-plan__button">Choose Solo</a>
         </article>
 
-        <article class="br-plan br-plan--featured" data-plan="studio" data-base-m="49" data-base-a="39" data-sms-base="800">
+        <article class="br-plan br-plan--featured" data-plan="studio" data-base-m="49" data-base-a="39" data-sms-base="1400">
           <div class="br-plan__badge">Most Popular</div>
           <p class="br-plan__label">Studio</p>
           <h3>Small team</h3>
@@ -685,7 +685,7 @@
             <button type="button" class="br-sms-toggle__btn" data-sms-mult="2">2&times;</button>
             <button type="button" class="br-sms-toggle__btn" data-sms-mult="3">3&times;</button>
           </div>
-          <p class="br-plan__sms"><strong data-sms-amount>800</strong> SMS / month</p>
+          <p class="br-plan__sms"><strong data-sms-amount>1,400</strong> SMS / month</p>
 
           <p class="br-plan__text">
             For small studios with two to five staff. Same full feature set as Solo, more team seats, more SMS.
@@ -761,13 +761,19 @@
         <div class="br-sms-calc__body">
 
           <div class="br-sms-calc__inputs">
+            <div class="br-sms-calc__row">
+              <label class="br-sms-calc__field">
+                <span>Working days / month</span>
+                <input type="number" min="1" max="31" value="22" inputmode="numeric" data-calc-days />
+              </label>
+              <label class="br-sms-calc__field">
+                <span>Staff / chairs</span>
+                <input type="number" min="1" max="50" value="1" inputmode="numeric" data-calc-staff />
+              </label>
+            </div>
             <label class="br-sms-calc__field">
-              <span>Working days per month</span>
-              <input type="number" min="1" max="31" value="22" inputmode="numeric" data-calc-days />
-            </label>
-            <label class="br-sms-calc__field">
-              <span>Average bookings per day</span>
-              <input type="number" min="0" max="200" value="6" inputmode="numeric" data-calc-bookings />
+              <span>Avg bookings per staff per day</span>
+              <input type="number" min="0" max="50" value="6" inputmode="numeric" data-calc-bookings />
             </label>
 
             <fieldset class="br-sms-calc__notifs">
@@ -1056,8 +1062,9 @@
         </div>
         <div class="br-footer__col">
           <p class="br-footer__label">Product</p>
-          <a href="#templates">Templates</a>
-          <a href="#pricing">Pricing</a>
+          <a href="/templates">Templates</a>
+          <a href="/pricing">Pricing</a>
+          <a href="/migration">Migration</a>
           <a href="https://app.bkrdy.me/register">Start free</a>
         </div>
         <div class="br-footer__col">
@@ -1104,299 +1111,11 @@
     </div>
   </div>
 
-  <!-- ─── Pricing: billing toggle + per-plan SMS multiplier + Salon waitlist ─── -->
-  <script>
-  (function () {
-    var section = document.getElementById('pricing');
-    if (!section) return;
+  <!-- ─── Pricing: billing toggle + SMS multiplier + waitlist + calculator (shared) ─── -->
+  <script src="/pricing.js"></script>
 
-    // ── SMS uplift table: same flat add-on across plans (1x = base, 2x = +$5, 3x = +$10)
-    var UPLIFT = { 1: 0, 2: 5, 3: 10 };
-
-    function fmt(n) { return n >= 1000 ? n.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,') : String(n); }
-
-    function refreshPlan(plan) {
-      var mult     = parseInt(plan.getAttribute('data-sms-mult') || '1', 10);
-      var smsBase  = parseInt(plan.getAttribute('data-sms-base'), 10);
-      var baseM    = parseInt(plan.getAttribute('data-base-m'), 10);
-      var baseA    = parseInt(plan.getAttribute('data-base-a'), 10);
-      var uplift   = UPLIFT[mult] || 0;
-
-      var smsEl   = plan.querySelector('[data-sms-amount]');
-      var priceM  = plan.querySelector('[data-price-m]');
-      var priceA  = plan.querySelector('[data-price-a]');
-      if (smsEl)  smsEl.textContent  = fmt(smsBase * mult);
-      if (priceM) priceM.textContent = (baseM + uplift);
-      if (priceA) priceA.textContent = (baseA + uplift);
-
-      // Update CTA href params (billing + sms multiplier) — Salon has no CTA, waitlist instead
-      var billing = section.getAttribute('data-billing');
-      var planKey = plan.getAttribute('data-plan');
-      var cta = plan.querySelector('a.br-plan__button');
-      if (cta) {
-        var params = ['plan=' + planKey];
-        if (billing === 'annual') params.push('billing=annual');
-        if (mult > 1)             params.push('sms=' + mult + 'x');
-        cta.href = 'https://app.bkrdy.me/register?' + params.join('&');
-      }
-    }
-
-    // ── Billing toggle (monthly/annual) ──────────────────────────────
-    var billingBtns = section.querySelectorAll('[data-billing-btn]');
-    billingBtns.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var billing = btn.getAttribute('data-billing-btn');
-        section.setAttribute('data-billing', billing);
-        billingBtns.forEach(function (b) {
-          b.classList.toggle('is-active', b.getAttribute('data-billing-btn') === billing);
-        });
-        section.querySelectorAll('.br-plan').forEach(refreshPlan);
-      });
-    });
-
-    // ── Per-plan SMS multiplier toggle ───────────────────────────────
-    section.querySelectorAll('.br-plan').forEach(function (plan) {
-      plan.setAttribute('data-sms-mult', '1');
-      var smsBtns = plan.querySelectorAll('[data-sms-mult]');
-      smsBtns.forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          var mult = btn.getAttribute('data-sms-mult');
-          plan.setAttribute('data-sms-mult', mult);
-          smsBtns.forEach(function (b) {
-            b.classList.toggle('is-active', b.getAttribute('data-sms-mult') === mult);
-          });
-          refreshPlan(plan);
-        });
-      });
-    });
-
-    // ── Salon waitlist ───────────────────────────────────────────────
-    var waitlist = section.querySelector('[data-salon-waitlist]');
-    if (waitlist) {
-      var input   = waitlist.querySelector('[data-waitlist-email]');
-      var submit  = waitlist.querySelector('[data-waitlist-submit]');
-      var form    = waitlist.querySelector('[data-waitlist-form]');
-      var success = waitlist.querySelector('[data-waitlist-success]');
-
-      if (input) input.addEventListener('input', function () { input.style.borderColor = ''; });
-      if (input) input.addEventListener('keydown', function (e) { if (e.key === 'Enter') submit.click(); });
-
-      submit && submit.addEventListener('click', function () {
-        var email = input ? input.value.trim() : '';
-        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-          if (input) { input.style.borderColor = '#C0392B'; input.focus(); }
-          return;
-        }
-        submit.disabled = true;
-        submit.textContent = 'Adding you…';
-        fetch('https://api.bkrdy.me/api/v1/leads', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-          body: JSON.stringify({ email: email, source: 'salon-waitlist' })
-        })
-        .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
-        .then(function () {
-          if (form)    form.hidden    = true;
-          if (success) success.removeAttribute('hidden');
-        })
-        .catch(function () {
-          submit.disabled = false;
-          submit.textContent = 'Join the waitlist';
-          if (input) { input.style.borderColor = '#C0392B'; input.focus(); }
-        });
-      });
-    }
-
-    // ── SMS calculator ───────────────────────────────────────────────
-    var calc = section.querySelector('[data-sms-calc]');
-    if (calc) {
-      var inputs = {
-        days:     calc.querySelector('[data-calc-days]'),
-        bookings: calc.querySelector('[data-calc-bookings]'),
-        confirm:  calc.querySelector('[data-calc-confirm]'),
-        remind:   calc.querySelector('[data-calc-remind]'),
-        cancel:   calc.querySelector('[data-calc-cancel]')
-      };
-      var totalEl = calc.querySelector('[data-calc-total]');
-      var recEl   = calc.querySelector('[data-calc-rec]');
-
-      // Cheapest-fit recommendation table (ordered ascending by monthly cost)
-      // [smsCap, label, monthlyCost]
-      var TIERS = [
-        [400,  'Solo at 1× covers you',   24],
-        [800,  'Solo at 2× covers you',   29],
-        [1200, 'Solo at 3× covers you',   34],
-        [1600, 'Studio at 2× covers you', 54],
-        [2400, 'Studio at 3× covers you', 59]
-      ];
-      var OVER = 'Above 2,400 SMS. Salon is launching soon. Join the waitlist below.';
-
-      function recompute() {
-        var d = Math.max(0, parseInt(inputs.days.value, 10)     || 0);
-        var b = Math.max(0, parseInt(inputs.bookings.value, 10) || 0);
-        var perBooking = 0;
-        if (inputs.confirm.checked) perBooking += 1;
-        if (inputs.remind.checked)  perBooking += 1;
-        if (inputs.cancel.checked)  perBooking += 0.2;
-        var total = Math.round(d * b * perBooking);
-        if (totalEl) totalEl.textContent = fmt(total);
-
-        var picked = null;
-        for (var i = 0; i < TIERS.length; i++) {
-          if (total <= TIERS[i][0]) { picked = TIERS[i][1]; break; }
-        }
-        if (!picked) picked = OVER;
-        if (recEl) recEl.textContent = picked;
-      }
-
-      Object.keys(inputs).forEach(function (k) {
-        var el = inputs[k];
-        if (!el) return;
-        el.addEventListener('input',  recompute);
-        el.addEventListener('change', recompute);
-      });
-      recompute();
-    }
-  })();
-  </script>
-
-  <!-- ─── Velvet Theory booking demo ─── -->
-  <script>
-  (function () {
-    var root = document.querySelector('[data-vt-booking]');
-    if (!root) return;
-
-    var LABELS = ['', 'Service', 'Artist', 'Date & Time', 'Newsletter', 'Confirmed'];
-    var state  = { svc: '', staff: 'Maya Chen', date: 'Jun 4', time: '2:00 PM' };
-
-    function progress(n) {
-      root.querySelectorAll('[data-vt-node]').forEach(function (node) {
-        var num = parseInt(node.getAttribute('data-vt-node'), 10);
-        node.classList.toggle('is-active', num === n);
-        node.classList.toggle('is-done',   num <  n);
-      });
-      root.querySelectorAll('[data-vt-line]').forEach(function (line) {
-        line.classList.toggle('is-done', parseInt(line.getAttribute('data-vt-line'), 10) < n);
-      });
-      var cap = root.querySelector('[data-vt-caption]');
-      if (cap) cap.textContent = 'Step ' + n + ' of 5 · ' + LABELS[n];
-    }
-
-    function show(n) {
-      root.querySelectorAll('[data-vt-panel]').forEach(function (p) { p.hidden = true; });
-      var panel = root.querySelector('[data-vt-panel="' + n + '"]');
-      if (panel) panel.hidden = false;
-      progress(n);
-      if (n === 5) {
-        var sEl  = root.querySelector('[data-vt-confirm-svc]');
-        var tEl  = root.querySelector('[data-vt-confirm-time]');
-        var stEl = root.querySelector('[data-vt-confirm-staff]');
-        if (sEl)  sEl.textContent  = state.svc;
-        if (tEl)  tEl.textContent  = state.date + ' · ' + state.time;
-        if (stEl) stEl.textContent = state.staff;
-      }
-    }
-
-    // Step 1 — click anywhere on card advances
-    root.querySelectorAll('[data-vt-svc]').forEach(function (card) {
-      card.addEventListener('click', function () {
-        root.querySelectorAll('[data-vt-svc]').forEach(function (c) { c.classList.remove('is-selected'); });
-        card.classList.add('is-selected');
-        state.svc = card.getAttribute('data-svc-name');
-        show(2);
-      });
-    });
-
-    // Step 2 — staff
-    root.querySelectorAll('[data-vt-staff]').forEach(function (card) {
-      card.addEventListener('click', function () {
-        root.querySelectorAll('[data-vt-staff]').forEach(function (c) { c.classList.remove('is-selected'); });
-        card.classList.add('is-selected');
-        state.staff = card.getAttribute('data-vt-staff');
-      });
-    });
-
-    // Step 3 — calendar date
-    root.querySelectorAll('[data-vt-cal]').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        root.querySelectorAll('[data-vt-cal]').forEach(function (b) { b.classList.remove('is-selected'); });
-        btn.classList.add('is-selected');
-        state.date = btn.getAttribute('data-vt-cal');
-      });
-    });
-
-    // Step 3 — time slots
-    root.querySelectorAll('[data-vt-time]').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        root.querySelectorAll('[data-vt-time]').forEach(function (b) { b.classList.remove('is-selected'); });
-        btn.classList.add('is-selected');
-        state.time = btn.getAttribute('data-vt-time');
-      });
-    });
-
-    // Next / back buttons
-    root.querySelectorAll('[data-vt-next]').forEach(function (btn) {
-      btn.addEventListener('click', function () { show(parseInt(btn.getAttribute('data-vt-next'), 10)); });
-    });
-    root.querySelectorAll('[data-vt-back]').forEach(function (btn) {
-      btn.addEventListener('click', function () { show(parseInt(btn.getAttribute('data-vt-back'), 10)); });
-    });
-
-    // Checkbox
-    var checkbox   = root.querySelector('[data-vt-checkbox]');
-    var emailInput = root.querySelector('[data-vt-email]');
-    var nameInput  = root.querySelector('[data-vt-name]');
-    var submitBtn  = root.querySelector('[data-vt-submit]');
-
-    if (checkbox) checkbox.addEventListener('click', function () { checkbox.classList.toggle('is-checked'); });
-    if (emailInput) emailInput.addEventListener('input', function () { emailInput.style.borderColor = ''; });
-
-    // Step 4 submit
-    if (submitBtn) {
-      submitBtn.addEventListener('click', function () {
-        var email = emailInput ? emailInput.value.trim() : '';
-        var valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-        if (email && !valid) {
-          if (emailInput) { emailInput.style.borderColor = '#C9A876'; emailInput.focus(); }
-          return;
-        }
-        submitBtn.disabled = true;
-        submitBtn.textContent = 'Booking…';
-        var done = function () { show(5); };
-        if (valid) {
-          fetch('https://api.bkrdy.me/api/v1/leads', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-            body: JSON.stringify({ email: email, source: 'booking-demo-vt' })
-          }).catch(function () {}).finally(done);
-        } else { done(); }
-      });
-    }
-
-    // Restart
-    root.querySelectorAll('[data-vt-restart]').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        root.querySelectorAll('[data-vt-svc]').forEach(function (c) { c.classList.remove('is-selected'); });
-        root.querySelectorAll('[data-vt-staff]').forEach(function (c) { c.classList.remove('is-selected'); });
-        var first = root.querySelector('[data-vt-staff]');
-        if (first) first.classList.add('is-selected');
-        state = { svc: '', staff: 'Maya Chen', date: 'Jun 4', time: '2:00 PM' };
-        if (emailInput) { emailInput.value = ''; emailInput.style.borderColor = ''; }
-        if (nameInput)  nameInput.value = '';
-        if (checkbox)   checkbox.classList.remove('is-checked');
-        if (submitBtn)  { submitBtn.disabled = false; submitBtn.textContent = 'Get early access →'; }
-        // reset calendar + slots to defaults
-        root.querySelectorAll('[data-vt-cal]').forEach(function (b) { b.classList.remove('is-selected'); });
-        var defaultDay = root.querySelector('[data-vt-cal="Jun 4"]');
-        if (defaultDay) defaultDay.classList.add('is-selected');
-        root.querySelectorAll('[data-vt-time]').forEach(function (b) { b.classList.remove('is-selected'); });
-        var defaultTime = root.querySelector('[data-vt-time="2:00 PM"]');
-        if (defaultTime) defaultTime.classList.add('is-selected');
-        show(1);
-      });
-    });
-  })();
-  </script>
+  <!-- ─── Velvet Theory booking demo (shared) ─── -->
+  <script src="/vt-demo.js"></script>
 
   <!-- ─── Exit-intent modal ─── -->
   <script>
@@ -1511,114 +1230,8 @@
   })();
   </script>
 
-  <!-- ─── Nav behavior (vanilla JS, no deps) ─── -->
-  <script>
-  (function () {
-    var nav = document.querySelector('[data-br-nav]');
-    if (!nav) return;
-
-    var hamburger = nav.querySelector('[data-br-hamburger]');
-    var triggers  = nav.querySelectorAll('[data-br-trigger]');
-    var hoverable = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
-    var closeTimer = null;
-
-    function isDesktop() { return window.innerWidth > 960; }
-    function panelFor(trigger) {
-      return document.getElementById(trigger.getAttribute('aria-controls'));
-    }
-    function openPanel(trigger) {
-      var p = panelFor(trigger);
-      if (!p) return;
-      trigger.setAttribute('aria-expanded', 'true');
-      p.classList.add('is-open');
-      p.removeAttribute('hidden');
-    }
-    function closePanel(trigger) {
-      var p = panelFor(trigger);
-      if (!p) return;
-      trigger.setAttribute('aria-expanded', 'false');
-      p.classList.remove('is-open');
-    }
-    function closeAll(except) {
-      triggers.forEach(function (t) { if (t !== except) closePanel(t); });
-    }
-    function cancelClose() {
-      if (closeTimer) { clearTimeout(closeTimer); closeTimer = null; }
-    }
-    function scheduleCloseAll(delay) {
-      cancelClose();
-      closeTimer = setTimeout(function () { closeAll(); }, delay || 180);
-    }
-
-    // ── Mobile hamburger ──────────────────────────────────────
-    if (hamburger) {
-      hamburger.addEventListener('click', function () {
-        var open = nav.classList.toggle('is-open');
-        hamburger.setAttribute('aria-expanded', open ? 'true' : 'false');
-        hamburger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
-        document.body.style.overflow = open ? 'hidden' : '';
-        if (!open) closeAll();
-      });
-    }
-
-    // ── Click — works on touch, keyboard, and desktop fallback ──
-    triggers.forEach(function (trigger) {
-      trigger.addEventListener('click', function (e) {
-        e.stopPropagation();
-        cancelClose();
-        var isOpen = trigger.getAttribute('aria-expanded') === 'true';
-        closeAll(trigger);
-        if (isOpen) closePanel(trigger);
-        else openPanel(trigger);
-      });
-    });
-
-    // ── Hover (desktop only, hover-capable pointers) ──
-    if (hoverable) {
-      triggers.forEach(function (trigger) {
-        var p = panelFor(trigger);
-        if (!p) return;
-
-        trigger.addEventListener('mouseenter', function () {
-          if (!isDesktop()) return;
-          cancelClose();
-          closeAll(trigger);
-          openPanel(trigger);
-        });
-        trigger.addEventListener('mouseleave', function () {
-          if (!isDesktop()) return;
-          scheduleCloseAll(180);
-        });
-        p.addEventListener('mouseenter', function () {
-          if (!isDesktop()) return;
-          cancelClose();
-        });
-        p.addEventListener('mouseleave', function () {
-          if (!isDesktop()) return;
-          scheduleCloseAll(180);
-        });
-      });
-    }
-
-    // ── Outside click closes (desktop only — mobile drawer has its own state) ──
-    document.addEventListener('click', function (e) {
-      if (nav.contains(e.target)) return;
-      closeAll();
-    });
-
-    // ── Escape closes everything ──
-    document.addEventListener('keydown', function (e) {
-      if (e.key !== 'Escape') return;
-      closeAll();
-      if (nav.classList.contains('is-open')) {
-        nav.classList.remove('is-open');
-        hamburger.setAttribute('aria-expanded', 'false');
-        hamburger.setAttribute('aria-label', 'Open menu');
-        document.body.style.overflow = '';
-      }
-    });
-  })();
-  </script>
+  <!-- ─── Nav behavior (shared, vanilla JS, no deps) ─── -->
+  <script src="/nav.js"></script>
 
 
 </body>

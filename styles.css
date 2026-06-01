@@ -1375,10 +1375,16 @@ button { cursor: pointer; font: inherit; }
 @media (min-width: 820px) {
   .br-sms-calc__inputs { border-bottom: none; border-right: 1px solid var(--border); }
 }
+.br-sms-calc__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
 .br-sms-calc__field {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-width: 0;
 }
 .br-sms-calc__field > span {
   font-size: 11px;
