@@ -917,6 +917,21 @@ button { cursor: pointer; font: inherit; }
   border-radius: 999px; /* portraits look better round; nothing else is round here */
   flex-shrink: 0;
 }
+.br-testimonial__avatar {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  border-radius: 999px;
+}
 .br-testimonial__author > div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .br-testimonial__name {
   margin: 0;
