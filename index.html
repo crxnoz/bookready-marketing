@@ -7,7 +7,7 @@
   <meta name="description" content="BookReady gives barbers, lash artists, nail techs, and spas a real designed website with booking built in. Pick a template, add your services, and you're live in under 20 minutes." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -167,6 +167,7 @@
         </div>
 
         <div class="br-nav__actions">
+          <a class="br-nav__signin" href="https://app.bkrdy.me/login">Sign in</a>
           <a class="br-nav__cta" href="https://app.bkrdy.me/register">Start free</a>
         </div>
 
@@ -349,85 +350,141 @@
 
           <div class="br-vt" data-vt-booking>
 
+            <div class="br-vt__announce">Open today &middot; Walk-ins welcome between appointments</div>
+
             <div class="br-vt__header">
               <span class="br-vt__biz">Velvet Theory</span>
-              <div class="br-vt__pips" aria-label="Step progress">
-                <span class="br-vt__pip is-active" data-vt-pip="1"></span>
-                <span class="br-vt__pip" data-vt-pip="2"></span>
-                <span class="br-vt__pip" data-vt-pip="3"></span>
-                <span class="br-vt__pip" data-vt-pip="4"></span>
-                <span class="br-vt__pip" data-vt-pip="5"></span>
+              <span class="br-vt__biz-sub">Lash &amp; Beauty Boutique</span>
+            </div>
+
+            <div class="br-vt__progress">
+              <div class="br-vt__progress-track">
+                <div class="br-vt__step-node is-active" data-vt-node="1">1</div>
+                <div class="br-vt__step-line" data-vt-line="1"></div>
+                <div class="br-vt__step-node" data-vt-node="2">2</div>
+                <div class="br-vt__step-line" data-vt-line="2"></div>
+                <div class="br-vt__step-node" data-vt-node="3">3</div>
+                <div class="br-vt__step-line" data-vt-line="3"></div>
+                <div class="br-vt__step-node" data-vt-node="4">4</div>
+                <div class="br-vt__step-line" data-vt-line="4"></div>
+                <div class="br-vt__step-node" data-vt-node="5">5</div>
               </div>
+              <p class="br-vt__progress-caption" data-vt-caption>Step 1 of 5 &middot; Service</p>
             </div>
 
             <!-- Step 1: Service -->
             <div class="br-vt__panel" data-vt-panel="1">
-              <p class="br-vt__label">Choose your service</p>
-              <div class="br-vt__svc-row" data-vt-svc data-svc-name="Classic Lash Set" data-svc-price="$120" data-svc-dur="90 min">
-                <div class="br-vt__svc-left"><span class="br-vt__svc-name">Classic Lash Set</span><span class="br-vt__svc-dur">90 min</span></div>
-                <span class="br-vt__svc-price">$120</span>
-              </div>
-              <div class="br-vt__svc-row" data-vt-svc data-svc-name="Hybrid Set" data-svc-price="$145" data-svc-dur="90 min">
-                <div class="br-vt__svc-left"><span class="br-vt__svc-name">Hybrid Set</span><span class="br-vt__svc-dur">90 min</span></div>
-                <span class="br-vt__svc-price">$145</span>
-              </div>
-              <div class="br-vt__svc-row" data-vt-svc data-svc-name="Volume Set" data-svc-price="$165" data-svc-dur="120 min">
-                <div class="br-vt__svc-left"><span class="br-vt__svc-name">Volume Set</span><span class="br-vt__svc-dur">120 min</span></div>
-                <span class="br-vt__svc-price">$165</span>
-              </div>
-              <div class="br-vt__svc-row" data-vt-svc data-svc-name="Lash Lift &amp; Tint" data-svc-price="$85" data-svc-dur="60 min">
-                <div class="br-vt__svc-left"><span class="br-vt__svc-name">Lash Lift &amp; Tint</span><span class="br-vt__svc-dur">60 min</span></div>
-                <span class="br-vt__svc-price">$85</span>
-              </div>
-              <div class="br-vt__svc-row" data-vt-svc data-svc-name="Infill" data-svc-price="$75" data-svc-dur="60 min">
-                <div class="br-vt__svc-left"><span class="br-vt__svc-name">Infill</span><span class="br-vt__svc-dur">60 min</span></div>
-                <span class="br-vt__svc-price">$75</span>
+              <p class="br-vt__step-label">Choose a service</p>
+              <div class="br-vt__svc-list">
+                <div class="br-vt__svc-card" data-vt-svc data-svc-name="Classic Lash Set">
+                  <div class="br-vt__svc-top"><h3 class="br-vt__svc-name">Classic Lash Set</h3><span class="br-vt__svc-price">$120</span></div>
+                  <p class="br-vt__svc-desc">A full set of classic extensions for a natural, lengthened look. Best for first-time clients.</p>
+                  <div class="br-vt__svc-foot"><span class="br-vt__svc-meta">90 min</span><button type="button" class="br-vt__svc-pick">Pick &rarr;</button></div>
+                </div>
+                <div class="br-vt__svc-card" data-vt-svc data-svc-name="Hybrid Set">
+                  <div class="br-vt__svc-top"><h3 class="br-vt__svc-name">Hybrid Set</h3><span class="br-vt__svc-price">$145</span></div>
+                  <p class="br-vt__svc-desc">Classic and volume blended for a fuller look with more dimension.</p>
+                  <div class="br-vt__svc-foot"><span class="br-vt__svc-meta">90 min</span><button type="button" class="br-vt__svc-pick">Pick &rarr;</button></div>
+                </div>
+                <div class="br-vt__svc-card" data-vt-svc data-svc-name="Volume Set">
+                  <div class="br-vt__svc-top"><h3 class="br-vt__svc-name">Volume Set</h3><span class="br-vt__svc-price">$165</span></div>
+                  <p class="br-vt__svc-desc">Full, dramatic volume using fan technique. Our most requested set.</p>
+                  <div class="br-vt__svc-foot"><span class="br-vt__svc-meta">120 min</span><button type="button" class="br-vt__svc-pick">Pick &rarr;</button></div>
+                </div>
+                <div class="br-vt__svc-card" data-vt-svc data-svc-name="Lash Lift &amp; Tint">
+                  <div class="br-vt__svc-top"><h3 class="br-vt__svc-name">Lash Lift &amp; Tint</h3><span class="br-vt__svc-price">$85</span></div>
+                  <p class="br-vt__svc-desc">Lift your natural lashes from the root for a wide-eyed effect. Tint included.</p>
+                  <div class="br-vt__svc-foot"><span class="br-vt__svc-meta">60 min</span><button type="button" class="br-vt__svc-pick">Pick &rarr;</button></div>
+                </div>
+                <div class="br-vt__svc-card" data-vt-svc data-svc-name="Infill">
+                  <div class="br-vt__svc-top"><h3 class="br-vt__svc-name">Infill</h3><span class="br-vt__svc-price">$75</span></div>
+                  <p class="br-vt__svc-desc">Maintain your set at 2&ndash;3 weeks. Requires at least 40% of previous set remaining.</p>
+                  <div class="br-vt__svc-foot"><span class="br-vt__svc-meta">60 min</span><button type="button" class="br-vt__svc-pick">Pick &rarr;</button></div>
+                </div>
               </div>
             </div>
 
             <!-- Step 2: Staff -->
             <div class="br-vt__panel" data-vt-panel="2" hidden>
-              <p class="br-vt__label">Your artist</p>
-              <div class="br-vt__staff-row is-selected" data-vt-staff="Maya Chen">
-                <span class="br-vt__staff-radio"></span>
-                <div><p class="br-vt__staff-name">Maya Chen</p><p class="br-vt__staff-role">Lead Artist</p></div>
+              <p class="br-vt__step-label">Your artist</p>
+              <div class="br-vt__staff-list">
+                <div class="br-vt__staff-card is-selected" data-vt-staff="Maya Chen">
+                  <span class="br-vt__staff-radio"></span>
+                  <div><p class="br-vt__staff-name">Maya Chen</p><p class="br-vt__staff-role">Lead Artist &middot; 5 years</p></div>
+                </div>
+                <div class="br-vt__staff-card" data-vt-staff="Jade Kim">
+                  <span class="br-vt__staff-radio"></span>
+                  <div><p class="br-vt__staff-name">Jade Kim</p><p class="br-vt__staff-role">Senior Lash Tech &middot; 3 years</p></div>
+                </div>
               </div>
-              <div class="br-vt__staff-row" data-vt-staff="Jade Kim">
-                <span class="br-vt__staff-radio"></span>
-                <div><p class="br-vt__staff-name">Jade Kim</p><p class="br-vt__staff-role">Senior Lash Tech</p></div>
-              </div>
-              <div class="br-vt__foot">
-                <button type="button" class="br-vt__btn" data-vt-next="3">Continue &rarr;</button>
+              <div class="br-vt__panel-foot">
+                <button type="button" class="br-vt__btn-primary" data-vt-next="3">Continue &rarr;</button>
+                <button type="button" class="br-vt__btn-ghost" data-vt-back="1">&larr; Back</button>
               </div>
             </div>
 
             <!-- Step 3: Date + time -->
             <div class="br-vt__panel" data-vt-panel="3" hidden>
-              <p class="br-vt__label">Pick a time</p>
-              <div class="br-vt__dates">
-                <button type="button" class="br-vt__date" data-vt-date="Mon Jun 2"><span class="br-vt__date-label">Mon</span><span class="br-vt__date-num">2</span></button>
-                <button type="button" class="br-vt__date" data-vt-date="Tue Jun 3"><span class="br-vt__date-label">Tue</span><span class="br-vt__date-num">3</span></button>
-                <button type="button" class="br-vt__date is-selected" data-vt-date="Wed Jun 4"><span class="br-vt__date-label">Wed</span><span class="br-vt__date-num">4</span></button>
-                <button type="button" class="br-vt__date" data-vt-date="Thu Jun 5"><span class="br-vt__date-label">Thu</span><span class="br-vt__date-num">5</span></button>
-                <button type="button" class="br-vt__date" data-vt-date="Fri Jun 6"><span class="br-vt__date-label">Fri</span><span class="br-vt__date-num">6</span></button>
+              <p class="br-vt__step-label">Pick a time</p>
+
+              <div class="br-vt__calendar">
+                <div class="br-vt__cal-header"><span class="br-vt__cal-month">June 2026</span></div>
+                <div class="br-vt__cal-dow"><span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span></div>
+                <div class="br-vt__cal-grid">
+                  <div class="br-vt__cal-empty"></div>
+                  <div class="br-vt__cal-day br-vt__cal-day--unavail">1</div>
+                  <div class="br-vt__cal-day br-vt__cal-day--unavail">2</div>
+                  <div class="br-vt__cal-day br-vt__cal-day--unavail">3</div>
+                  <button type="button" class="br-vt__cal-day is-selected" data-vt-cal="Jun 4">4</button>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 5">5</button>
+                  <div class="br-vt__cal-day br-vt__cal-day--unavail">6</div>
+                  <div class="br-vt__cal-day br-vt__cal-day--unavail">7</div>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 8">8</button>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 9">9</button>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 10">10</button>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 11">11</button>
+                  <div class="br-vt__cal-day br-vt__cal-day--unavail">12</div>
+                  <div class="br-vt__cal-day br-vt__cal-day--unavail">13</div>
+                  <div class="br-vt__cal-day br-vt__cal-day--unavail">14</div>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 15">15</button>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 16">16</button>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 17">17</button>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 18">18</button>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 19">19</button>
+                  <div class="br-vt__cal-day br-vt__cal-day--unavail">20</div>
+                  <div class="br-vt__cal-day br-vt__cal-day--unavail">21</div>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 22">22</button>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 23">23</button>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 24">24</button>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 25">25</button>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 26">26</button>
+                  <div class="br-vt__cal-day br-vt__cal-day--unavail">27</div>
+                  <div class="br-vt__cal-day br-vt__cal-day--unavail">28</div>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 29">29</button>
+                  <button type="button" class="br-vt__cal-day" data-vt-cal="Jun 30">30</button>
+                  <div class="br-vt__cal-empty"></div><div class="br-vt__cal-empty"></div><div class="br-vt__cal-empty"></div><div class="br-vt__cal-empty"></div>
+                </div>
               </div>
-              <div class="br-vt__times">
-                <button type="button" class="br-vt__time br-vt__time--unavail" disabled>10:00 AM</button>
-                <button type="button" class="br-vt__time" data-vt-time="11:00 AM">11:00 AM</button>
-                <button type="button" class="br-vt__time" data-vt-time="12:30 PM">12:30 PM</button>
-                <button type="button" class="br-vt__time is-selected" data-vt-time="2:00 PM">2:00 PM</button>
-                <button type="button" class="br-vt__time" data-vt-time="3:30 PM">3:30 PM</button>
-                <button type="button" class="br-vt__time" data-vt-time="5:00 PM">5:00 PM</button>
+
+              <div class="br-vt__slots">
+                <button type="button" class="br-vt__slot br-vt__slot--unavail" disabled>10:00 AM</button>
+                <button type="button" class="br-vt__slot" data-vt-time="11:00 AM">11:00 AM</button>
+                <button type="button" class="br-vt__slot" data-vt-time="12:30 PM">12:30 PM</button>
+                <button type="button" class="br-vt__slot is-selected" data-vt-time="2:00 PM">2:00 PM</button>
+                <button type="button" class="br-vt__slot" data-vt-time="3:30 PM">3:30 PM</button>
+                <button type="button" class="br-vt__slot" data-vt-time="5:00 PM">5:00 PM</button>
               </div>
-              <div class="br-vt__foot">
-                <button type="button" class="br-vt__btn" data-vt-next="4">Continue &rarr;</button>
+
+              <div class="br-vt__panel-foot">
+                <button type="button" class="br-vt__btn-primary" data-vt-next="4">Continue &rarr;</button>
+                <button type="button" class="br-vt__btn-ghost" data-vt-back="2">&larr; Back</button>
               </div>
             </div>
 
             <!-- Step 4: Marketing details + consent -->
             <div class="br-vt__panel" data-vt-panel="4" hidden>
-              <p class="br-vt__label">Almost there</p>
-              <div class="br-vt__fields">
+              <p class="br-vt__step-label">Your details</p>
+              <div class="br-vt__form">
                 <div class="br-vt__field">
                   <label class="br-vt__field-label" for="vt-name">First name</label>
                   <input id="vt-name" type="text" class="br-vt__input" placeholder="Your name" autocomplete="given-name" data-vt-name />
@@ -441,20 +498,21 @@
                 <span class="br-vt__checkbox" data-vt-checkbox></span>
                 <span class="br-vt__consent-text">Send me booking reminders and occasional offers from Velvet Theory. Reply STOP anytime.</span>
               </label>
-              <div class="br-vt__foot">
-                <button type="button" class="br-vt__btn" data-vt-submit>Book my appointment &rarr;</button>
+              <div class="br-vt__panel-foot">
+                <button type="button" class="br-vt__btn-primary" data-vt-submit>Book my appointment &rarr;</button>
+                <button type="button" class="br-vt__btn-ghost" data-vt-back="3">&larr; Back</button>
               </div>
             </div>
 
             <!-- Step 5: Confirmed + BookReady CTA -->
             <div class="br-vt__panel" data-vt-panel="5" hidden>
               <div class="br-vt__confirm">
-                <div class="br-vt__confirm-check">&#10003;</div>
-                <p class="br-vt__confirm-title">You&rsquo;re booked.</p>
-                <span class="br-vt__confirm-detail" data-vt-confirm-svc>Classic Lash Set</span>
-                <span class="br-vt__confirm-detail" data-vt-confirm-time>Wed Jun 4 &middot; 2:00 PM</span>
-                <span class="br-vt__confirm-detail">with <span data-vt-confirm-staff>Maya Chen</span></span>
-                <span class="br-vt__confirm-detail br-vt__confirm-biz">Velvet Theory</span>
+                <p class="br-vt__confirm-eyebrow">Confirmed &middot; Velvet Theory</p>
+                <h3 class="br-vt__confirm-title" data-vt-confirm-svc>Classic Lash Set</h3>
+                <div class="br-vt__confirm-details">
+                  <span class="br-vt__confirm-row" data-vt-confirm-time>Jun 4 &middot; 2:00 PM</span>
+                  <span class="br-vt__confirm-row">with <span data-vt-confirm-staff>Maya Chen</span></span>
+                </div>
               </div>
               <div class="br-vt__cta-block">
                 <span class="br-vt__cta-kicker">Powered by BookReady</span>
@@ -462,7 +520,7 @@
                 <p class="br-vt__cta-sub">Your brand, your template. Live in under 20 minutes.</p>
                 <a href="https://app.bkrdy.me/register" class="br-vt__cta-btn">Start your 14-day trial &rarr;</a>
               </div>
-              <button type="button" class="br-vt__restart" data-vt-restart>Book another appointment &rarr;</button>
+              <button type="button" class="br-vt__restart-link" data-vt-restart>Start over &rarr;</button>
             </div>
 
           </div>
@@ -866,60 +924,66 @@
     var root = document.querySelector('[data-vt-booking]');
     if (!root) return;
 
-    var state = { svc: '', staff: 'Maya Chen', date: 'Wed Jun 4', time: '2:00 PM' };
+    var LABELS = ['', 'Service', 'Artist', 'Date & Time', 'Your Details', 'Confirmed'];
+    var state  = { svc: '', staff: 'Maya Chen', date: 'Jun 4', time: '2:00 PM' };
 
-    function pips(n) {
-      root.querySelectorAll('[data-vt-pip]').forEach(function (p) {
-        var num = parseInt(p.getAttribute('data-vt-pip'), 10);
-        p.classList.toggle('is-done',   num < n);
-        p.classList.toggle('is-active', num === n);
-        p.classList.remove('is-done');
-        if (num < n) p.classList.add('is-done');
+    function progress(n) {
+      root.querySelectorAll('[data-vt-node]').forEach(function (node) {
+        var num = parseInt(node.getAttribute('data-vt-node'), 10);
+        node.classList.toggle('is-active', num === n);
+        node.classList.toggle('is-done',   num <  n);
       });
+      root.querySelectorAll('[data-vt-line]').forEach(function (line) {
+        line.classList.toggle('is-done', parseInt(line.getAttribute('data-vt-line'), 10) < n);
+      });
+      var cap = root.querySelector('[data-vt-caption]');
+      if (cap) cap.textContent = 'Step ' + n + ' of 5 · ' + LABELS[n];
     }
 
     function show(n) {
       root.querySelectorAll('[data-vt-panel]').forEach(function (p) { p.hidden = true; });
       var panel = root.querySelector('[data-vt-panel="' + n + '"]');
       if (panel) panel.hidden = false;
-      pips(n);
+      progress(n);
       if (n === 5) {
-        var s = root.querySelector('[data-vt-confirm-svc]');
-        var t = root.querySelector('[data-vt-confirm-time]');
-        var a = root.querySelector('[data-vt-confirm-staff]');
-        if (s) s.textContent = state.svc;
-        if (t) t.textContent = state.date + ' · ' + state.time;
-        if (a) a.textContent = state.staff;
+        var sEl  = root.querySelector('[data-vt-confirm-svc]');
+        var tEl  = root.querySelector('[data-vt-confirm-time]');
+        var stEl = root.querySelector('[data-vt-confirm-staff]');
+        if (sEl)  sEl.textContent  = state.svc;
+        if (tEl)  tEl.textContent  = state.date + ' · ' + state.time;
+        if (stEl) stEl.textContent = state.staff;
       }
     }
 
-    // Step 1 — click service row advances immediately
-    root.querySelectorAll('[data-vt-svc]').forEach(function (row) {
-      row.addEventListener('click', function () {
-        root.querySelectorAll('[data-vt-svc]').forEach(function (r) { r.classList.remove('is-selected'); });
-        row.classList.add('is-selected');
-        state.svc = row.getAttribute('data-svc-name');
+    // Step 1 — click anywhere on card advances
+    root.querySelectorAll('[data-vt-svc]').forEach(function (card) {
+      card.addEventListener('click', function () {
+        root.querySelectorAll('[data-vt-svc]').forEach(function (c) { c.classList.remove('is-selected'); });
+        card.classList.add('is-selected');
+        state.svc = card.getAttribute('data-svc-name');
         show(2);
       });
     });
 
-    // Step 2 — staff radio
-    root.querySelectorAll('[data-vt-staff]').forEach(function (row) {
-      row.addEventListener('click', function () {
-        root.querySelectorAll('[data-vt-staff]').forEach(function (r) { r.classList.remove('is-selected'); });
-        row.classList.add('is-selected');
-        state.staff = row.getAttribute('data-vt-staff');
+    // Step 2 — staff
+    root.querySelectorAll('[data-vt-staff]').forEach(function (card) {
+      card.addEventListener('click', function () {
+        root.querySelectorAll('[data-vt-staff]').forEach(function (c) { c.classList.remove('is-selected'); });
+        card.classList.add('is-selected');
+        state.staff = card.getAttribute('data-vt-staff');
       });
     });
 
-    // Step 3 — date + time
-    root.querySelectorAll('[data-vt-date]').forEach(function (btn) {
+    // Step 3 — calendar date
+    root.querySelectorAll('[data-vt-cal]').forEach(function (btn) {
       btn.addEventListener('click', function () {
-        root.querySelectorAll('[data-vt-date]').forEach(function (b) { b.classList.remove('is-selected'); });
+        root.querySelectorAll('[data-vt-cal]').forEach(function (b) { b.classList.remove('is-selected'); });
         btn.classList.add('is-selected');
-        state.date = btn.getAttribute('data-vt-date');
+        state.date = btn.getAttribute('data-vt-cal');
       });
     });
+
+    // Step 3 — time slots
     root.querySelectorAll('[data-vt-time]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         root.querySelectorAll('[data-vt-time]').forEach(function (b) { b.classList.remove('is-selected'); });
@@ -928,31 +992,30 @@
       });
     });
 
-    // Generic next buttons (steps 2 → 3)
+    // Next / back buttons
     root.querySelectorAll('[data-vt-next]').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        show(parseInt(btn.getAttribute('data-vt-next'), 10));
-      });
+      btn.addEventListener('click', function () { show(parseInt(btn.getAttribute('data-vt-next'), 10)); });
+    });
+    root.querySelectorAll('[data-vt-back]').forEach(function (btn) {
+      btn.addEventListener('click', function () { show(parseInt(btn.getAttribute('data-vt-back'), 10)); });
     });
 
-    // Consent checkbox toggle
-    var checkbox = root.querySelector('[data-vt-checkbox]');
-    if (checkbox) {
-      checkbox.addEventListener('click', function () { checkbox.classList.toggle('is-checked'); });
-    }
-
-    // Step 4 submit — capture lead then advance
-    var submitBtn  = root.querySelector('[data-vt-submit]');
+    // Checkbox
+    var checkbox   = root.querySelector('[data-vt-checkbox]');
     var emailInput = root.querySelector('[data-vt-email]');
-    if (emailInput) {
-      emailInput.addEventListener('input', function () { emailInput.style.borderColor = ''; });
-    }
+    var nameInput  = root.querySelector('[data-vt-name]');
+    var submitBtn  = root.querySelector('[data-vt-submit]');
+
+    if (checkbox) checkbox.addEventListener('click', function () { checkbox.classList.toggle('is-checked'); });
+    if (emailInput) emailInput.addEventListener('input', function () { emailInput.style.borderColor = ''; });
+
+    // Step 4 submit
     if (submitBtn) {
       submitBtn.addEventListener('click', function () {
         var email = emailInput ? emailInput.value.trim() : '';
         var valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
         if (email && !valid) {
-          if (emailInput) emailInput.style.borderColor = '#C77DA6';
+          if (emailInput) { emailInput.style.borderColor = '#C9A876'; emailInput.focus(); }
           return;
         }
         submitBtn.disabled = true;
@@ -964,25 +1027,29 @@
             headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
             body: JSON.stringify({ email: email, source: 'booking-demo-vt' })
           }).catch(function () {}).finally(done);
-        } else {
-          done();
-        }
+        } else { done(); }
       });
     }
 
     // Restart
     root.querySelectorAll('[data-vt-restart]').forEach(function (btn) {
       btn.addEventListener('click', function () {
-        root.querySelectorAll('[data-vt-svc]').forEach(function (r) { r.classList.remove('is-selected'); });
-        var firstStaff = root.querySelector('[data-vt-staff]');
-        root.querySelectorAll('[data-vt-staff]').forEach(function (r) { r.classList.remove('is-selected'); });
-        if (firstStaff) firstStaff.classList.add('is-selected');
-        state.staff = 'Maya Chen'; state.date = 'Wed Jun 4'; state.time = '2:00 PM'; state.svc = '';
+        root.querySelectorAll('[data-vt-svc]').forEach(function (c) { c.classList.remove('is-selected'); });
+        root.querySelectorAll('[data-vt-staff]').forEach(function (c) { c.classList.remove('is-selected'); });
+        var first = root.querySelector('[data-vt-staff]');
+        if (first) first.classList.add('is-selected');
+        state = { svc: '', staff: 'Maya Chen', date: 'Jun 4', time: '2:00 PM' };
         if (emailInput) { emailInput.value = ''; emailInput.style.borderColor = ''; }
-        var nameInput = root.querySelector('[data-vt-name]');
-        if (nameInput) nameInput.value = '';
-        if (checkbox) checkbox.classList.remove('is-checked');
-        if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = 'Book my appointment →'; }
+        if (nameInput)  nameInput.value = '';
+        if (checkbox)   checkbox.classList.remove('is-checked');
+        if (submitBtn)  { submitBtn.disabled = false; submitBtn.textContent = 'Book my appointment →'; }
+        // reset calendar + slots to defaults
+        root.querySelectorAll('[data-vt-cal]').forEach(function (b) { b.classList.remove('is-selected'); });
+        var defaultDay = root.querySelector('[data-vt-cal="Jun 4"]');
+        if (defaultDay) defaultDay.classList.add('is-selected');
+        root.querySelectorAll('[data-vt-time]').forEach(function (b) { b.classList.remove('is-selected'); });
+        var defaultTime = root.querySelector('[data-vt-time="2:00 PM"]');
+        if (defaultTime) defaultTime.classList.add('is-selected');
         show(1);
       });
     });
