@@ -1254,23 +1254,34 @@ button { cursor: pointer; font: inherit; }
   gap: 18px;
 }
 .br-included__list li {
-  position: relative;
-  padding-left: 26px;
-  transition: padding-left .2s ease;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
 }
-.br-included__list li::before {
-  content: "→";
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 14px;
-  font-weight: 800;
-  color: var(--accent);
-  line-height: 1.4;
-  transition: transform .2s ease;
+.br-included__icon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  transition: background .25s ease, border-color .25s ease, color .25s ease, transform .25s ease;
 }
-.br-included__list li:hover { padding-left: 30px; }
-.br-included__list li:hover::before { transform: translateX(2px); }
+.br-included__icon svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+.br-included__list li:hover .br-included__icon {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--text);
+  transform: translateY(-2px) rotate(-3deg);
+}
+.br-included__list li > div { flex: 1; min-width: 0; }
 .br-included__list li strong {
   display: block;
   font-size: 15px;
@@ -1278,6 +1289,7 @@ button { cursor: pointer; font: inherit; }
   letter-spacing: -0.015em;
   color: var(--text);
   margin-bottom: 4px;
+  transition: color .2s ease;
 }
 .br-included__list li span {
   display: block;
@@ -1293,6 +1305,49 @@ button { cursor: pointer; font: inherit; }
   background: var(--accent);
   padding: 0 5px;
   letter-spacing: 0.01em;
+}
+
+/* Scroll-triggered fade-up animation — groups + items */
+.br-included__group {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity .7s cubic-bezier(0.22, 1, 0.36, 1), transform .7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.br-included__groups.is-visible .br-included__group {
+  opacity: 1;
+  transform: none;
+}
+.br-included__groups.is-visible .br-included__group:nth-child(2) { transition-delay: 120ms; }
+.br-included__groups.is-visible .br-included__group:nth-child(3) { transition-delay: 240ms; }
+.br-included__list li {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity .5s ease, transform .5s ease, padding-left .2s ease;
+}
+.br-included__groups.is-visible .br-included__group:nth-child(1) li { animation: inclFade .5s ease forwards; }
+.br-included__groups.is-visible .br-included__group:nth-child(2) li { animation: inclFade .5s ease forwards; animation-delay: 120ms; }
+.br-included__groups.is-visible .br-included__group:nth-child(3) li { animation: inclFade .5s ease forwards; animation-delay: 240ms; }
+.br-included__groups.is-visible .br-included__list li:nth-child(1) { animation-delay: 200ms; }
+.br-included__groups.is-visible .br-included__list li:nth-child(2) { animation-delay: 260ms; }
+.br-included__groups.is-visible .br-included__list li:nth-child(3) { animation-delay: 320ms; }
+.br-included__groups.is-visible .br-included__list li:nth-child(4) { animation-delay: 380ms; }
+.br-included__groups.is-visible .br-included__list li:nth-child(5) { animation-delay: 440ms; }
+.br-included__groups.is-visible .br-included__group:nth-child(2) .br-included__list li:nth-child(1) { animation-delay: 320ms; }
+.br-included__groups.is-visible .br-included__group:nth-child(2) .br-included__list li:nth-child(2) { animation-delay: 380ms; }
+.br-included__groups.is-visible .br-included__group:nth-child(2) .br-included__list li:nth-child(3) { animation-delay: 440ms; }
+.br-included__groups.is-visible .br-included__group:nth-child(2) .br-included__list li:nth-child(4) { animation-delay: 500ms; }
+.br-included__groups.is-visible .br-included__group:nth-child(3) .br-included__list li:nth-child(1) { animation-delay: 440ms; }
+.br-included__groups.is-visible .br-included__group:nth-child(3) .br-included__list li:nth-child(2) { animation-delay: 500ms; }
+.br-included__groups.is-visible .br-included__group:nth-child(3) .br-included__list li:nth-child(3) { animation-delay: 560ms; }
+.br-included__groups.is-visible .br-included__group:nth-child(3) .br-included__list li:nth-child(4) { animation-delay: 620ms; }
+.br-included__groups.is-visible .br-included__group:nth-child(3) .br-included__list li:nth-child(5) { animation-delay: 680ms; }
+@keyframes inclFade {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .br-included__group,
+  .br-included__list li { opacity: 1; transform: none; transition: none; animation: none; }
 }
 
 /* ─── FAQ ─── */
