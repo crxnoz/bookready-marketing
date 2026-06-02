@@ -2614,3 +2614,137 @@ button { cursor: pointer; font: inherit; }
   .br-step:hover,
   .br-testimonial:hover { transform: none; }
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   Rich mega-menus — icon + title + description on each item,
+   plus a featured template tile in the Templates panel.
+   Selectors nested under .br-megapanel__col to win specificity over
+   the existing bare-link rules above.
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Each menu item is now a small icon + title + one-line description */
+.br-megapanel__col .br-megalink {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 11px 0;
+  border-bottom: 1px solid rgba(18,18,18,0.06);
+  color: var(--text);
+  text-decoration: none;
+  transition: padding-left .14s ease;
+}
+.br-megapanel__col .br-megalink:hover {
+  padding-left: 6px;
+  color: var(--text);
+}
+.br-megapanel__col .br-megalink:last-child { border-bottom: none; }
+
+.br-megalink__icon {
+  width: 34px; height: 34px;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  transition: background .15s ease, border-color .15s ease, transform .2s ease;
+}
+.br-megalink__icon svg { width: 16px; height: 16px; display: block; }
+.br-megalink:hover .br-megalink__icon {
+  background: var(--accent);
+  border-color: var(--accent);
+  transform: rotate(-3deg);
+}
+.br-megalink__body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  flex: 1;
+}
+.br-megalink__title {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  line-height: 1.25;
+}
+.br-megalink__desc {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+/* Templates panel: 3 columns with a featured tile in column 3 */
+.br-megapanel--templates .br-megapanel__inner {
+  grid-template-columns: 0.85fr 1.25fr 0.9fr;
+}
+
+/* Featured tile */
+.br-megafeat {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--border);
+  text-decoration: none;
+  color: var(--text);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.br-megafeat:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 22px 46px rgba(18,18,18,0.13);
+  border-color: rgba(18,18,18,0.22);
+}
+.br-megafeat__img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.br-megafeat__copy { padding: 14px 16px 16px; }
+.br-megafeat__label {
+  display: block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.br-megafeat__name {
+  font-family: 'Fraunces', 'Cormorant Garamond', Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin: 0 0 8px;
+  color: var(--text);
+}
+.br-megafeat__cta {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Mobile: drawer flattens panels — megalink keeps its row layout,
+   featured tile becomes a full-width block. */
+@media (max-width: 960px) {
+  .br-megapanel--templates .br-megapanel__inner { grid-template-columns: 1fr; }
+  .br-megapanel__col .br-megalink {
+    padding: 12px 4px;
+  }
+  .br-megapanel__col .br-megalink:hover { padding-left: 4px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .br-megapanel__col .br-megalink,
+  .br-megalink__icon,
+  .br-megafeat { transition: none; }
+  .br-megalink:hover .br-megalink__icon { transform: none; }
+  .br-megafeat:hover { transform: none; }
+}
