@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pricing — flat-rate booking websites, 0% transaction fees | BookReady</title>
+  <meta name="description" content="Simple, flat-rate pricing for BookReady. Online booking, Stripe deposits, and unlimited appointments on every plan. No transaction fees, ever. Plans from $19/mo billed annually." />
+  <link rel="canonical" href="https://mybookready.com/pricing/" />
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mybookready.com/pricing/" />
+  <meta property="og:site_name" content="BookReady" />
+  <meta property="og:title" content="BookReady pricing — flat rate, 0% transaction fees" />
+  <meta property="og:description" content="Online booking, Stripe deposits, and unlimited appointments on every plan. No transaction fees, ever." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=630&fit=crop&q=80" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BookReady pricing — flat rate, 0% transaction fees" />
+  <meta name="twitter:description" content="Online booking, Stripe deposits, and unlimited appointments on every plan. No transaction fees, ever." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=630&fit=crop&q=80" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/pages.css" />
+
+  <!-- Structured data: breadcrumb + priced offers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mybookready.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://mybookready.com/pricing/"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "BookReady",
+    "description": "Booking websites for salons, barbers, lash artists, nail techs, and spas. Online booking, Stripe deposits, and unlimited appointments on every plan.",
+    "brand": {"@type": "Brand", "name": "BookReady"},
+    "offers": [
+      {"@type": "Offer", "name": "Solo",   "price": "19", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://mybookready.com/pricing/"},
+      {"@type": "Offer", "name": "Studio", "price": "39", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://mybookready.com/pricing/"},
+      {"@type": "Offer", "name": "Salon",  "price": "79", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder", "url": "https://mybookready.com/pricing/"}
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ─── Top nav with full-width mega panels ─── -->
+  <header class="br-nav" data-br-nav>
+    <div class="br-nav__inner">
+      <a class="br-nav__mark" href="/">BookReady</a>
+
+      <button class="br-nav__hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="br-nav-menu" data-br-hamburger>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="br-nav__menu" id="br-nav-menu" aria-label="Primary">
+
+        <ul class="br-nav__list" role="menubar">
+
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-templates" data-br-trigger>
+              Templates
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </li>
+
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-platform" data-br-trigger>
+              Platform
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </li>
+
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-features" data-br-trigger>
+              Features
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </li>
+
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-resources" data-br-trigger>
+              Resources
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </li>
+
+          <li class="br-nav__item" role="none">
+            <a class="br-nav__link" href="/pricing" role="menuitem" aria-current="page">Pricing</a>
+          </li>
+
+        </ul>
+
+        <div class="br-megapanel br-megapanel--two" id="br-mega-templates" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Browse</p>
+              <a href="/templates" role="menuitem">All templates</a>
+              <a href="/templates/new" role="menuitem">Newest releases</a>
+              <a href="/templates/popular" role="menuitem">Most popular</a>
+            </div>
+            <div class="br-megapanel__col br-megapanel__col--split">
+              <p class="br-megapanel__kicker">By business type</p>
+              <a href="/templates/barber" role="menuitem">Barbershop &amp; Men&rsquo;s Grooming</a>
+              <a href="/templates/spa" role="menuitem">Spa &amp; Wellness</a>
+              <a href="/templates/lash" role="menuitem">Lash &amp; Brow Studios</a>
+              <a href="/templates/nails" role="menuitem">Nail Studios</a>
+              <a href="/templates/hair" role="menuitem">Hair Salons</a>
+              <a href="/templates/solo" role="menuitem">Solo Pros</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="br-megapanel" id="br-mega-platform" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Website Experience</p>
+              <a href="/platform/website/templates" role="menuitem">Designed templates</a>
+              <a href="/platform/website/domain" role="menuitem">Custom domain</a>
+              <a href="/platform/website/mobile" role="menuitem">Mobile-first</a>
+              <a href="/platform/website/sections" role="menuitem">Branded sections</a>
+              <a href="/platform/website/announcement" role="menuitem">Announcement bar</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Booking System</p>
+              <a href="/platform/booking/online" role="menuitem">Online booking</a>
+              <a href="/platform/booking/calendar" role="menuitem">Smart calendar</a>
+              <a href="/platform/booking/sync" role="menuitem">Calendar sync</a>
+              <a href="/platform/booking/recurring" role="menuitem">Recurring appointments</a>
+              <a href="/platform/booking/waitlist" role="menuitem">Waitlist</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Business Tools</p>
+              <a href="/platform/tools/payments" role="menuitem">Stripe payments + deposits</a>
+              <a href="/platform/tools/customers" role="menuitem">Customer accounts</a>
+              <a href="/platform/tools/notifications" role="menuitem">SMS + email reminders</a>
+              <a href="/platform/tools/marketing" role="menuitem">Marketing campaigns</a>
+              <a href="/platform/tools/analytics" role="menuitem">Analytics</a>
+              <a href="/platform/tools/reviews" role="menuitem">Reviews integration</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="br-megapanel" id="br-mega-features" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Client Experience</p>
+              <a href="/features/client/booking" role="menuitem">Mobile booking flow</a>
+              <a href="/features/client/dashboard" role="menuitem">Customer dashboard</a>
+              <a href="/features/client/payments" role="menuitem">Saved payment methods</a>
+              <a href="/features/client/reschedule" role="menuitem">Self-serve reschedule</a>
+              <a href="/features/client/reminders" role="menuitem">Automated reminders</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Easy Management</p>
+              <a href="/features/manage/dashboard" role="menuitem">One dashboard</a>
+              <a href="/features/manage/reschedule" role="menuitem">Quick reschedule</a>
+              <a href="/features/manage/staff" role="menuitem">Staff management</a>
+              <a href="/features/manage/hours" role="menuitem">Hours &amp; blocked dates</a>
+              <a href="/features/manage/customers" role="menuitem">Customer database</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Growth</p>
+              <a href="/features/growth/email" role="menuitem">Email campaigns</a>
+              <a href="/features/growth/sms" role="menuitem">SMS marketing</a>
+              <a href="/features/growth/reviews" role="menuitem">Reviews engine</a>
+              <a href="/features/growth/winback" role="menuitem">Win-back automations</a>
+              <a href="/features/growth/analytics" role="menuitem">Analytics</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="br-megapanel" id="br-mega-resources" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Learn</p>
+              <a href="/blog" role="menuitem">Blog</a>
+              <a href="/guides" role="menuitem">Guides</a>
+              <a href="/tutorials" role="menuitem">Video tutorials</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Community</p>
+              <a href="/customers" role="menuitem">Customer stories</a>
+              <a href="/community" role="menuitem">Discord</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Updates</p>
+              <a href="/changelog" role="menuitem">Changelog</a>
+              <a href="/roadmap" role="menuitem">Roadmap</a>
+              <a href="/newsletter" role="menuitem">Newsletter</a>
+              <a href="/migration" role="menuitem">Migration guide</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="br-nav__actions">
+          <a class="br-nav__signin" href="https://app.bkrdy.me/login">Sign in</a>
+          <a class="br-nav__cta" href="https://app.bkrdy.me/register">Start free</a>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+
+  <!-- ─── Breadcrumb ─── -->
+  <nav class="br-crumbs" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="br-crumbs__sep" aria-hidden="true">/</span>
+    <span class="br-crumbs__current" aria-current="page">Pricing</span>
+  </nav>
+
+  <!-- ─── Page header ─── -->
+  <section class="br-pagehead">
+    <div class="br-pagehead__inner">
+      <p class="br-kicker">Pricing</p>
+      <h1 class="br-pagehead__title">Flat rate. <span class="br-italic">No cuts. No transaction fees.</span></h1>
+      <p class="br-pagehead__intro">
+        Online booking, Stripe deposits, and unlimited appointments come standard on every plan. The plan you pick comes down to your team size, whether you want your own domain, and how many texts you send each month.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── Pricing grid + SMS calculator (bound by pricing.js via #pricing) ─── -->
+  <section id="pricing" class="br-section" data-billing="monthly">
+    <div class="br-section__inner">
+
+      <div class="br-billing-toggle" data-billing-toggle>
+        <button type="button" class="br-billing-opt is-active" data-billing-btn="monthly">Monthly</button>
+        <button type="button" class="br-billing-opt" data-billing-btn="annual">Annual <span class="br-billing-badge">2 months free</span></button>
+      </div>
+
+      <div class="br-pricing-grid" aria-label="BookReady plans">
+
+        <article class="br-plan" data-plan="solo" data-base-m="24" data-base-a="19" data-sms-base="400">
+          <p class="br-plan__label">Solo</p>
+          <h3>One person</h3>
+          <div class="br-plan__price br-price-m">$<span data-price-m>24</span><span>/mo</span></div>
+          <div class="br-plan__price br-price-a">$<span data-price-a>19</span><span>/mo</span></div>
+          <p class="br-plan__period br-period-m" data-period-m>billed monthly</p>
+          <p class="br-plan__period br-period-a" data-period-a>billed annually &middot; save $60</p>
+
+          <div class="br-sms-toggle" role="group" aria-label="SMS amount">
+            <button type="button" class="br-sms-toggle__btn is-active" data-sms-mult="1">1&times;</button>
+            <button type="button" class="br-sms-toggle__btn" data-sms-mult="2">2&times;</button>
+            <button type="button" class="br-sms-toggle__btn" data-sms-mult="3">3&times;</button>
+          </div>
+          <p class="br-plan__sms"><strong data-sms-amount>400</strong> SMS / month</p>
+
+          <p class="br-plan__text">
+            One calendar. For solo barbers, lash artists, nail techs, and facialists running their own chair.
+          </p>
+          <ul class="br-plan__list">
+            <li>1 staff account</li>
+            <li>Full template library</li>
+            <li>Custom forms &amp; intake</li>
+            <li>Remove BookReady branding</li>
+            <li>Email marketing <span class="br-plan__soon">coming soon</span></li>
+          </ul>
+          <a href="https://app.bkrdy.me/register?plan=solo" class="br-button br-plan__button">Choose Solo</a>
+        </article>
+
+        <article class="br-plan br-plan--featured" data-plan="studio" data-base-m="49" data-base-a="39" data-sms-base="800">
+          <div class="br-plan__badge">Most Popular</div>
+          <p class="br-plan__label">Studio</p>
+          <h3>Small team</h3>
+          <div class="br-plan__price br-price-m">$<span data-price-m>49</span><span>/mo</span></div>
+          <div class="br-plan__price br-price-a">$<span data-price-a>39</span><span>/mo</span></div>
+          <p class="br-plan__period br-period-m" data-period-m>billed monthly</p>
+          <p class="br-plan__period br-period-a" data-period-a>billed annually &middot; save $120</p>
+
+          <div class="br-sms-toggle" role="group" aria-label="SMS amount">
+            <button type="button" class="br-sms-toggle__btn is-active" data-sms-mult="1">1&times;</button>
+            <button type="button" class="br-sms-toggle__btn" data-sms-mult="2">2&times;</button>
+            <button type="button" class="br-sms-toggle__btn" data-sms-mult="3">3&times;</button>
+          </div>
+          <p class="br-plan__sms"><strong data-sms-amount>800</strong> SMS / month</p>
+
+          <p class="br-plan__text">
+            For small studios with two to five staff. Same full feature set as Solo, more team seats, more SMS.
+          </p>
+          <ul class="br-plan__list">
+            <li>Up to 5 staff accounts</li>
+            <li>Full template library</li>
+            <li>Custom forms &amp; intake</li>
+            <li>Remove BookReady branding</li>
+            <li>Email marketing <span class="br-plan__soon">coming soon</span></li>
+          </ul>
+          <a href="https://app.bkrdy.me/register?plan=studio" class="br-button br-plan__button">Choose Studio</a>
+        </article>
+
+        <article class="br-plan br-plan--soon" data-plan="salon" data-base-m="99" data-base-a="79" data-sms-base="2000">
+          <div class="br-plan__badge br-plan__badge--soon">Coming Soon</div>
+          <p class="br-plan__label">Salon</p>
+          <h3>Full house</h3>
+          <div class="br-plan__price br-price-m">$<span data-price-m>99</span><span>/mo</span></div>
+          <div class="br-plan__price br-price-a">$<span data-price-a>79</span><span>/mo</span></div>
+          <p class="br-plan__period br-period-m" data-period-m>billed monthly</p>
+          <p class="br-plan__period br-period-a" data-period-a>billed annually &middot; save $240</p>
+
+          <div class="br-sms-toggle" role="group" aria-label="SMS amount">
+            <button type="button" class="br-sms-toggle__btn is-active" data-sms-mult="1">1&times;</button>
+            <button type="button" class="br-sms-toggle__btn" data-sms-mult="2">2&times;</button>
+            <button type="button" class="br-sms-toggle__btn" data-sms-mult="3">3&times;</button>
+          </div>
+          <p class="br-plan__sms"><strong data-sms-amount>2,000</strong> SMS / month</p>
+
+          <p class="br-plan__text">
+            For multi-location salons and teams of 5 to 25. Multi-location, API access, white-label notifications, dedicated onboarding.
+          </p>
+          <ul class="br-plan__list">
+            <li>Up to 25 staff accounts</li>
+            <li>Multi-location support</li>
+            <li>White-label notifications</li>
+            <li>API access + advanced reporting</li>
+            <li>Dedicated onboarding + VIP support</li>
+          </ul>
+
+          <div class="br-plan__waitlist" data-salon-waitlist>
+            <p class="br-plan__waitlist-label">Get early access</p>
+            <div class="br-plan__waitlist-form" data-waitlist-form>
+              <input type="email" class="br-plan__waitlist-input" placeholder="your@email.com" aria-label="Your email" autocomplete="email" data-waitlist-email />
+              <button type="button" class="br-button br-plan__button" data-waitlist-submit>Join the waitlist</button>
+            </div>
+            <p class="br-plan__waitlist-success" data-waitlist-success hidden>You&rsquo;re on the list. We&rsquo;ll be in touch.</p>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="br-risk-row" aria-label="Money-back reassurances">
+        <span class="br-risk-row__item">14-day trial</span>
+        <span class="br-risk-row__sep">&middot;</span>
+        <span class="br-risk-row__item">No card for 7 days</span>
+        <span class="br-risk-row__sep">&middot;</span>
+        <span class="br-risk-row__item">Cancel anytime</span>
+        <span class="br-risk-row__sep">&middot;</span>
+        <span class="br-risk-row__item">Keep your domain</span>
+        <span class="br-risk-row__sep">&middot;</span>
+        <span class="br-risk-row__item">Free migration</span>
+      </div>
+
+      <div class="br-sms-calc" data-sms-calc>
+        <div class="br-sms-calc__head">
+          <p class="br-kicker">SMS calculator</p>
+          <h3 class="br-sms-calc__title">Don&rsquo;t know how many texts you&rsquo;ll need?</h3>
+          <p class="br-sms-calc__sub">Plug in your numbers. We&rsquo;ll point you at the right plan.</p>
+        </div>
+
+        <div class="br-sms-calc__body">
+
+          <div class="br-sms-calc__inputs">
+            <div class="br-sms-calc__row">
+              <label class="br-sms-calc__field">
+                <span>Working days / month</span>
+                <input type="number" min="1" max="31" value="22" inputmode="numeric" data-calc-days />
+              </label>
+              <label class="br-sms-calc__field">
+                <span>Staff / chairs</span>
+                <input type="number" min="1" max="50" value="1" inputmode="numeric" data-calc-staff />
+              </label>
+            </div>
+            <label class="br-sms-calc__field">
+              <span>Avg bookings per staff per day</span>
+              <input type="number" min="0" max="50" value="6" inputmode="numeric" data-calc-bookings />
+            </label>
+
+            <fieldset class="br-sms-calc__notifs">
+              <legend>Send a text for</legend>
+              <label class="br-sms-calc__check">
+                <input type="checkbox" checked data-calc-confirm />
+                <span><strong>Booking confirmations</strong> &middot; 1 per booking</span>
+              </label>
+              <label class="br-sms-calc__check">
+                <input type="checkbox" checked data-calc-remind />
+                <span><strong>Reminders</strong> &middot; 1 per booking, sent 24h before</span>
+              </label>
+              <label class="br-sms-calc__check">
+                <input type="checkbox" data-calc-cancel />
+                <span><strong>Cancel + reschedule alerts</strong> &middot; ~0.2 per booking</span>
+              </label>
+            </fieldset>
+          </div>
+
+          <div class="br-sms-calc__output">
+            <p class="br-sms-calc__label">Estimated SMS / month</p>
+            <p class="br-sms-calc__total">~<strong data-calc-total>264</strong></p>
+            <p class="br-sms-calc__rec" data-calc-rec>Solo at 1&times; covers you</p>
+            <p class="br-sms-calc__fine">Confirmations and verification codes don&rsquo;t count toward your quota.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── What's included on every plan ─── -->
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">On every plan</p>
+        <h2 class="br-section__title">The whole product. <span class="br-italic">Not a starter tier.</span></h2>
+        <p class="br-section__intro">
+          We don&rsquo;t gate the booking engine behind a higher plan. Solo gets the same designed templates, deposits, and reminders as everyone else. Bigger plans just add seats, SMS, and your own domain.
+        </p>
+      </div>
+
+      <div class="br-feats">
+        <div class="br-feat">
+          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></span>
+          <h3>Designed templates</h3>
+          <p>The full template library on every plan. Switch any time, your data stays put.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></span>
+          <h3>0% transaction fees</h3>
+          <p>We never take a cut. You pay Stripe&rsquo;s standard rate and keep the rest.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 01-3.4 0"/></svg></span>
+          <h3>Deposits + reminders</h3>
+          <p>Collect deposits upfront and send SMS + email reminders 24h before.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+          <h3>Unlimited appointments</h3>
+          <p>No booking caps, ever. Take as many appointments as your calendar can hold.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg></span>
+          <h3>Custom domain</h3>
+          <p>Point yourname.com on Studio and Salon. Solo gets a clean bkrdy.me subdomain.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></span>
+          <h3>Free migration</h3>
+          <p>Coming from Acuity, Square, Vagaro, or Booksy? We move you over, usually same day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Pricing FAQ ─── -->
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Questions</p>
+        <h2 class="br-section__title">Pricing, answered.</h2>
+      </div>
+
+      <div class="br-faq">
+        <details class="br-faq__item">
+          <summary>What happens after the 14-day trial?</summary>
+          <p>You pick a plan and your card is charged. If you don&rsquo;t want to continue, you can cancel from your dashboard and your site stays live for 30 days while you export your data.</p>
+        </details>
+        <details class="br-faq__item">
+          <summary>What about transaction fees?</summary>
+          <p>BookReady doesn&rsquo;t take any. You pay Stripe&rsquo;s standard rate (2.9% + 30&cent; in the US) and that&rsquo;s it. Deposits and full payments go straight to your Stripe account.</p>
+        </details>
+        <details class="br-faq__item">
+          <summary>What&rsquo;s the difference between monthly and annual?</summary>
+          <p>Annual billing is the same plan at roughly two months free &mdash; Solo drops to $19/mo, Studio to $39/mo. You&rsquo;re billed once a year and can switch back to monthly whenever.</p>
+        </details>
+        <details class="br-faq__item">
+          <summary>What if I run out of SMS in a month?</summary>
+          <p>You&rsquo;ll get an email at 80% used. On Studio and Salon, additional messages are auto-billed at $0.025 each (with a hard cap you set). On Solo, you can buy a top-up pack or upgrade, whichever costs less.</p>
+        </details>
+        <details class="br-faq__item">
+          <summary>Can I change plans later?</summary>
+          <p>Any time, in both directions. Upgrades are prorated and take effect immediately. Downgrades apply at your next billing date. Your site, services, and clients stay exactly as they are.</p>
+        </details>
+        <details class="br-faq__item">
+          <summary>Is BookReady built for the US?</summary>
+          <p>Right now, yes. SMS is 10DLC US-only, payments are Stripe US, and the booking flow assumes US business hours. International expansion is on the roadmap.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Final CTA ─── -->
+  <section class="br-final-cta">
+    <div class="br-final-cta__inner">
+      <p class="br-kicker br-kicker--inverse">No pressure</p>
+      <h2 class="br-final-cta__title">
+        Start free. <span class="br-italic">Add a card when you&rsquo;re ready.</span>
+      </h2>
+      <p class="br-final-cta__text">
+        14 days to build your site and take real bookings. No card for the first 7 days. Cancel any time.
+      </p>
+      <a href="https://app.bkrdy.me/register" class="br-button br-button--inverse">Start your 14-day trial</a>
+    </div>
+  </section>
+
+  <!-- ─── Footer ─── -->
+  <footer class="br-footer">
+    <div class="br-footer__inner">
+      <div class="br-footer__grid">
+        <div class="br-footer__brand">
+          <p class="br-footer__mark">BookReady</p>
+          <p class="br-footer__tag">Beautiful booking websites for beauty brands.</p>
+        </div>
+        <div class="br-footer__col">
+          <p class="br-footer__label">Product</p>
+          <a href="/templates">Templates</a>
+          <a href="/pricing">Pricing</a>
+          <a href="/migration">Migration</a>
+          <a href="https://app.bkrdy.me/register">Start free</a>
+        </div>
+        <div class="br-footer__col">
+          <p class="br-footer__label">Company</p>
+          <a href="mailto:hello@bkrdy.me">Contact</a>
+          <a href="https://app.bkrdy.me/privacy">Privacy</a>
+          <a href="https://app.bkrdy.me/terms">Terms</a>
+          <a href="https://app.bkrdy.me/cookies">Cookies</a>
+        </div>
+      </div>
+      <p class="br-footer__bottom">
+        &copy; 2026 BookReady. Made for the small beauty brands quietly building real businesses.
+      </p>
+    </div>
+  </footer>
+
+  <script src="/nav.js"></script>
+  <script src="/pricing.js"></script>
+
+</body>
+</html>

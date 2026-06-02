@@ -158,8 +158,12 @@ button { cursor: pointer; font: inherit; }
   visibility: hidden;
   transform: translateY(-8px);
   pointer-events: none;
+  /* opacity is intentionally NOT transitioned. A backgrounded/throttled tab
+     pauses transitions, which would otherwise leave an opened panel stuck at
+     opacity:0 (the dropdown looks dead). Instant opacity guarantees the open
+     panel is visible immediately; the transform slide is pure polish and
+     degrades gracefully if it doesn't run. */
   transition:
-    opacity 180ms ease-out,
     transform 180ms ease-out,
     visibility 0s linear 180ms;
 }
@@ -169,7 +173,6 @@ button { cursor: pointer; font: inherit; }
   transform: translateY(0);
   pointer-events: auto;
   transition:
-    opacity 180ms ease-out,
     transform 180ms ease-out,
     visibility 0s linear 0s;
 }
@@ -1176,14 +1179,14 @@ button { cursor: pointer; font: inherit; }
   margin: 0 0 22px;
 }
 .br-plan__price {
-  font-size: clamp(56px, 6vw, 76px);
-  line-height: 0.95;
+  font-size: clamp(68px, 7.2vw, 100px);
+  line-height: 0.92;
   letter-spacing: -0.07em;
   font-weight: 800;
   margin: 0 0 14px;
 }
 .br-plan__price span {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: -0.02em;
   color: var(--muted);

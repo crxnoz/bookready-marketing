@@ -28,25 +28,39 @@ python3 -m http.server 8000
 
 ## Editing
 
-- `index.html` — all page content
-- `styles.css` — visual language (cream + sage palette, DM Serif Text
-  + Cookie + Roboto), matches the BookReady template collection
-- Add images to an `assets/` folder if needed; link with relative paths
+Pages are plain static HTML. Each route is a folder with its own
+`index.html` so the extensionless nav links resolve on Hostinger
+(`/pricing` → `/pricing/index.html`).
+
+- `index.html` — homepage
+- `pricing/`, `templates/`, `templates/<name>/`, `migration/` — sub-pages
+- `styles.css` — the shared visual language (loaded on every page)
+- `pages.css` — extra components used only by the sub-pages
+  (breadcrumb, page header, template-detail hero, palette swatches,
+  spec grid, comparison table). Keeps the homepage CSS untouched.
+- Shared scripts (loaded with `<script src>`, no build step):
+  - `nav.js` — sticky nav + mega-panel + mobile drawer (every page)
+  - `pricing.js` — pricing toggles + SMS calculator (home + `/pricing`)
+  - `vt-demo.js` — Velvet Theory booking demo (home + that template page)
+- The nav + footer markup is duplicated inline on each page (no
+  includes without a build step) — keep them in sync across files.
+- Add images to an `assets/` folder if needed; link with relative paths.
 
 ## Brand language
 
-Same fonts + palette as the BookReady templates in the main BookReady
-app, so the marketing site visually continues into the product:
+Sharp, modern, editorial: cream + soft-pink accent, hairline grid
+borders, 0px radius everywhere.
 
 | Token  | Value      |
 |--------|------------|
-| bg     | `#F6F3EE`  |
-| text   | `#0E1111`  |
+| bg     | `#F8F6F2`  |
+| card   | `#FFFFFF`  |
+| text   | `#121212`  |
 | muted  | `#6B7280`  |
-| accent | `#7FAF9A`  |
+| accent | `#E8C7DA`  |
 
-Fonts (loaded from Google Fonts): DM Serif Text, Cookie, Molle (used
-sparingly), Roboto, DM Mono.
+Fonts (loaded from Google Fonts): **Fraunces** (serif display / italic
+punchlines) and **Inter** 400–800 (everything else).
 
 ## Deploy
 

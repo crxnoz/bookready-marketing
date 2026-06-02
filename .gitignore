@@ -4,3 +4,6 @@ Thumbs.db
 .idea/
 *.log
 node_modules/
+
+# Local-only dev tooling (preview server + launch config) — must never deploy
+.claude/
