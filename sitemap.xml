@@ -51,4 +51,19 @@
   <url><loc>https://mybookready.com/platform/tools/marketing/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://mybookready.com/platform/tools/analytics/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://mybookready.com/platform/tools/reviews/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/features/client/booking/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mybookready.com/features/client/dashboard/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/features/client/payments/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/features/client/reschedule/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/features/client/reminders/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/features/manage/dashboard/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/features/manage/reschedule/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/features/manage/staff/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/features/manage/hours/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/features/manage/customers/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/features/growth/reviews/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/features/growth/analytics/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/features/growth/email/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mybookready.com/features/growth/sms/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mybookready.com/features/growth/winback/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
 </urlset>
