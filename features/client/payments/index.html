@@ -195,8 +195,8 @@
     <span class="br-crumbs__current" aria-current="page">Saved payment methods</span>
   </nav>
 
-  <section class="br-pagehead">
-    <div class="br-pagehead__inner">
+  <section class="br-pagehero">
+    <div class="br-pagehero__meta">
       <p class="br-kicker">Client Experience</p>
       <h1 class="br-pagehead__title">Card on file. <span class="br-italic">Checkout in a tap.</span></h1>
       <p class="br-pagehead__intro">Clients can securely save a card &mdash; held by Stripe, never by us &mdash; so their next deposit or booking is one tap instead of a card-entry form.</p>
@@ -204,6 +204,9 @@
         <a href="https://app.bkrdy.me/register" class="br-button">Start your 14-day trial</a>
         <a href="/platform/tools/payments" class="br-text-link">See it in the platform &rarr;</a>
       </div>
+    </div>
+    <div class="br-pagehero__visual">
+      <img class="br-pagehero__shot" src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1000&h=750&fit=crop&q=80" alt="" loading="eager" decoding="async" />
     </div>
   </section>
 
@@ -229,6 +232,35 @@
           <h3>Frictionless rebooking</h3>
           <p>A saved card turns &ldquo;I&rsquo;ll book later&rdquo; into a booking right now.</p>
         </div>
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></span>
+          <h3>They stay in control</h3>
+          <p>Clients manage their own saved cards and can remove one any time.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></span>
+          <h3>Optional, never forced</h3>
+          <p>Saving a card is a convenience, not a requirement, to book.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="10" r="3"/><path d="M6.5 19a6 6 0 0111 0"/></svg></span>
+          <h3>Tied to their account</h3>
+          <p>The saved card lives in their dashboard, ready for next time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Good to know</p>
+        <h2 class="br-section__title">Payment questions.</h2>
+      </div>
+      <div class="br-faq">
+        <details class="br-faq__item"><summary>Where is the card stored?</summary><p>With Stripe, a certified payment processor &mdash; never on your site or ours. We only ever reference a secure token.</p></details>
+        <details class="br-faq__item"><summary>Do clients have to save a card?</summary><p>No. It&rsquo;s a convenience for returning clients; anyone can book without saving one.</p></details>
+        <details class="br-faq__item"><summary>Can they remove a saved card?</summary><p>Any time, from their own dashboard. They stay in control of their payment details.</p></details>
       </div>
     </div>
   </section>
@@ -238,7 +270,16 @@
       <div class="br-section__head">
         <p class="br-kicker">Why it matters</p>
         <h2 class="br-section__title">Friction is where bookings die.</h2>
-        <p class="br-section__intro">Every extra field is a chance to abandon. A saved card removes the last one between a client and a confirmed appointment.</p>
+      </div>
+      <div class="br-prose">
+        <p>Every extra field at checkout is a chance for a client to stall &mdash; especially digging out a card on a phone, one-handed, on the go.</p>
+        <p>A saved card removes that last bit of friction. The next deposit is a single tap, which is the difference between &ldquo;I&rsquo;ll do it later&rdquo; and an appointment on your calendar now.</p>
+        <ul class="br-checklist">
+          <li>Cards secured by Stripe</li>
+          <li>One-tap deposits next time</li>
+          <li>Clients manage their own cards</li>
+          <li>Optional, never required</li>
+        </ul>
       </div>
     </div>
   </section>

@@ -399,3 +399,125 @@
   line-height: 1.05;
   margin: 0;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   Rich feature/platform pages — split hero + UI mockups + prose
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ─── Split hero: copy on one side, a UI mockup on the other ─── */
+.br-pagehero {
+  width: min(1360px, 100%);
+  margin: 0 auto;
+  padding: 40px 20px 8px;
+  display: grid;
+  grid-template-columns: 1.06fr 0.94fr;
+  gap: 56px;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .br-pagehero { grid-template-columns: 1fr; gap: 36px; padding-top: 24px; }
+}
+.br-pagehero__meta { min-width: 0; }
+.br-pagehero__visual { min-width: 0; display: flex; justify-content: center; }
+
+/* ─── Hero image ───
+   Placeholder photo for now; swap the <img src> for brand images later.
+   Sized to sit opposite the hero copy in .br-pagehero. */
+.br-pagehero__shot {
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--border);
+  box-shadow: 0 28px 64px rgba(18,18,18,0.12), 0 8px 20px rgba(18,18,18,0.06);
+}
+
+/* ─── Prose + checklist (fleshed-out value sections) ─── */
+.br-prose { max-width: 760px; }
+.br-prose p {
+  color: var(--muted);
+  font-size: clamp(16px, 1.8vw, 19px);
+  line-height: 1.65;
+  margin: 0 0 16px;
+}
+.br-prose p strong { color: var(--text); font-weight: 700; }
+.br-checklist {
+  list-style: none;
+  margin: 24px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+@media (min-width: 640px) { .br-checklist { grid-template-columns: 1fr 1fr; } }
+.br-checklist li {
+  position: relative;
+  padding-left: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.45;
+}
+.br-checklist li::before {
+  content: "\2713";
+  position: absolute; left: 0; top: 1px;
+  width: 19px; height: 19px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--accent); color: var(--text);
+  font-size: 11px; font-weight: 800;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   Content-aware spotlight blocks (pages drop in 1–2 that fit)
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ─── Stat / proof band ─── */
+.br-statband {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+}
+@media (min-width: 720px) { .br-statband { grid-template-columns: repeat(3, 1fr); } }
+.br-stat {
+  background: var(--card);
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 30px 26px;
+}
+.br-stat__num {
+  font-size: clamp(38px, 5vw, 54px);
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  color: var(--text);
+  margin: 0 0 10px;
+}
+.br-stat__label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted);
+  line-height: 1.45;
+  margin: 0;
+}
+
+/* ─── Coming-soon roadmap ─── */
+.br-roadmap {
+  border: 1px solid var(--border);
+  background: var(--card);
+}
+.br-roadmap__row {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 18px 22px;
+  border-bottom: 1px solid var(--border);
+}
+.br-roadmap__row:last-child { border-bottom: none; }
+.br-roadmap__label { font-size: 15px; font-weight: 700; letter-spacing: -0.01em; color: var(--text); }
+.br-roadmap__status {
+  flex-shrink: 0;
+  font-size: 11px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 6px 11px; background: var(--bg); color: var(--muted);
+}
+.br-roadmap__status--build { background: var(--accent); color: var(--text); }
