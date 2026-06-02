@@ -570,3 +570,57 @@
 }
 .br-signup__success[hidden] { display: none; }
 .br-signup__fine { margin: 12px 0 0; font-size: 12px; font-weight: 700; letter-spacing: 0.03em; color: var(--muted); }
+
+/* ═══════════════════════════════════════════════════════════════
+   Depth & motion (added) — sub-page cards, a dark stat-band moment,
+   and depth on the hero image.
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Feature / card grids read as elevated blocks */
+.br-feats,
+.br-specs,
+.br-from {
+  box-shadow: 0 14px 34px rgba(18,18,18,0.05);
+}
+
+/* Cards (incl. related-link cards) rise on hover */
+.br-feat,
+.br-from__card,
+.br-migration__step {
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.br-feat:hover,
+.br-from__card:hover,
+.br-migration__step:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 22px 46px rgba(18,18,18,0.13);
+  position: relative;
+  z-index: 2;
+}
+a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
+@media (prefers-reduced-motion: reduce) {
+  .br-feat, .br-from__card, .br-migration__step { transition: none; }
+  .br-feat:hover, .br-from__card:hover, .br-migration__step:hover { transform: none; }
+}
+
+/* Dark "moment": stat bands invert to near-black with a pink number pop */
+.br-statband {
+  background: #14110D;
+  border-top-color: rgba(245,239,230,0.16);
+  border-left-color: rgba(245,239,230,0.16);
+}
+.br-statband .br-stat {
+  background: transparent;
+  border-right-color: rgba(245,239,230,0.12);
+  border-bottom-color: rgba(245,239,230,0.12);
+}
+.br-statband .br-stat__num { color: var(--accent); }
+.br-statband .br-stat__label { color: rgba(244,239,231,0.62); }
+
+/* Hero image gains depth: a slight tilt + layered shadow */
+.br-pagehero__shot {
+  transform: rotate(-1.4deg);
+  box-shadow: 0 36px 70px rgba(18,18,18,0.18), 0 12px 26px rgba(18,18,18,0.10);
+}
+@media (max-width: 900px) { .br-pagehero__shot { transform: rotate(-0.8deg); } }
+@media (prefers-reduced-motion: reduce) { .br-pagehero__shot { transform: none; } }

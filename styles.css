@@ -2570,3 +2570,47 @@ button { cursor: pointer; font: inherit; }
   }
   .br-plan { min-height: auto; padding: 28px 22px; }
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   Depth & motion (added) — elevation, hover-lift, nav scroll shadow.
+   Keeps the 0px-radius / hairline identity; adds dimension within it.
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Sticky nav lifts off the page once scrolled */
+.br-nav { transition: box-shadow .2s ease; }
+.br-nav.is-scrolled { box-shadow: 0 6px 22px rgba(18,18,18,0.08); }
+
+/* Hairline grids read as elevated blocks */
+.br-template-grid,
+.br-steps,
+.br-pricing-grid,
+.br-testimonials {
+  box-shadow: 0 14px 34px rgba(18,18,18,0.05);
+}
+
+/* Cards rise on hover (z-index so the shadow sits over neighbours) */
+.br-template-card,
+.br-plan,
+.br-step,
+.br-testimonial {
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.br-template-card:hover,
+.br-plan:hover,
+.br-step:hover,
+.br-testimonial:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 22px 46px rgba(18,18,18,0.13);
+  position: relative;
+  z-index: 2;
+}
+@media (prefers-reduced-motion: reduce) {
+  .br-template-card,
+  .br-plan,
+  .br-step,
+  .br-testimonial { transition: none; }
+  .br-template-card:hover,
+  .br-plan:hover,
+  .br-step:hover,
+  .br-testimonial:hover { transform: none; }
+}

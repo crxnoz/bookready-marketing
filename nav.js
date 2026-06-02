@@ -109,3 +109,15 @@
     }
   });
 })();
+
+/* ─── Sticky-nav elevation on scroll ───
+   Adds a soft shadow under the nav once the page is scrolled, so it
+   reads as layered above the content instead of painted on. Only
+   toggles a class — never hides anything. */
+(function () {
+  var nav = document.querySelector('[data-br-nav]');
+  if (!nav) return;
+  function onScroll() { nav.classList.toggle('is-scrolled', window.scrollY > 8); }
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+})();
