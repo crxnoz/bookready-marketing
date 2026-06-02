@@ -121,3 +121,29 @@
   onScroll();
   window.addEventListener('scroll', onScroll, { passive: true });
 })();
+
+/* ─── Scroll-reveal: gentle fade-up for sections entering view ───
+   Only elements *below* the initial viewport get the reveal class, so
+   above-the-fold content never flashes opacity 0. Skips entirely when
+   IntersectionObserver isn't available or reduced-motion is on. */
+(function () {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (!('IntersectionObserver' in window)) return;
+  var els = document.querySelectorAll('.br-section, .br-pagehero, .br-tpl-hero, .br-final-cta');
+  if (!els.length) return;
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('is-visible');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+  els.forEach(function (el) {
+    var r = el.getBoundingClientRect();
+    // Already in (or above) the viewport at load — leave it visible.
+    if (r.top < window.innerHeight - 40) return;
+    el.classList.add('br-reveal');
+    io.observe(el);
+  });
+})();

@@ -32,8 +32,9 @@ body {
 
 /* Signature italic punchline used inside headlines */
 .br-italic {
+  font-family: 'Fraunces', 'Cormorant Garamond', Georgia, serif;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--muted);
   letter-spacing: -0.02em;
 }
@@ -2747,4 +2748,31 @@ button { cursor: pointer; font: inherit; }
   .br-megafeat { transition: none; }
   .br-megalink:hover .br-megalink__icon { transform: none; }
   .br-megafeat:hover { transform: none; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   Section rhythm — a white "prose" section between the cream
+   blocks, giving long-form text its own visual register.
+   ═══════════════════════════════════════════════════════════════ */
+.br-section--white { background: #FFFFFF; }
+
+/* ═══════════════════════════════════════════════════════════════
+   Scroll-reveal — gentle fade-up for sections entering the
+   viewport. Class is applied by nav.js ONLY to elements below the
+   initial viewport, so above-fold content never flashes.
+   ═══════════════════════════════════════════════════════════════ */
+/* Hide is intentionally instant (no transition on .br-reveal). The
+   reveal animation is defined on .is-visible, so when nav.js adds the
+   reveal class to an already-rendered element the opacity snaps to 0
+   immediately instead of fading 1→0 (which would freeze in throttled
+   tabs and leave the section stuck mid-fade). */
+.br-reveal {
+  opacity: 0;
+  transform: translateY(14px);
+}
+.br-reveal.is-visible {
+  opacity: 1;
+  transform: none;
+  transition: opacity .55s ease-out, transform .55s ease-out;
+  will-change: opacity, transform;
 }
