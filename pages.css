@@ -521,3 +521,52 @@
   padding: 6px 11px; background: var(--bg); color: var(--muted);
 }
 .br-roadmap__status--build { background: var(--accent); color: var(--text); }
+
+/* ═══════════════════════════════════════════════════════════════
+   Resources pages — changelog timeline + signup form
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ─── Changelog ─── */
+.br-log { border-top: 1px solid var(--border); }
+.br-log__entry {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--border);
+}
+@media (max-width: 700px) { .br-log__entry { grid-template-columns: 1fr; gap: 12px; } }
+.br-log__date { font-size: 13px; font-weight: 800; letter-spacing: 0.02em; color: var(--text); margin: 0 0 8px; }
+.br-log__tag {
+  display: inline-block;
+  font-size: 10px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 4px 9px; background: var(--accent); color: var(--text);
+}
+.br-log__title { font-size: 19px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 10px; color: var(--text); }
+.br-log__list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 7px; }
+.br-log__list li { position: relative; padding-left: 20px; font-size: 14px; font-weight: 500; color: var(--muted); line-height: 1.55; }
+.br-log__list li::before { content: "\2014"; position: absolute; left: 0; color: var(--text); font-weight: 800; }
+
+/* ─── Signup form (newsletter / notify) ─── */
+.br-signup { max-width: 520px; }
+.br-signup--center { margin-left: auto; margin-right: auto; text-align: center; }
+.br-signup__form { display: flex; gap: 10px; }
+@media (max-width: 540px) { .br-signup__form { flex-direction: column; } }
+.br-signup__input {
+  flex: 1; min-width: 0;
+  padding: 14px 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: var(--font); font-size: 15px; font-weight: 500;
+  outline: none;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.br-signup__input:focus { border-color: var(--text); box-shadow: inset 0 0 0 1px var(--text); }
+.br-signup__form .br-button { flex-shrink: 0; }
+.br-signup__success {
+  font-size: 15px; font-weight: 800; color: var(--text);
+  margin: 0; padding: 14px 16px; background: var(--accent); text-align: center;
+}
+.br-signup__success[hidden] { display: none; }
+.br-signup__fine { margin: 12px 0 0; font-size: 12px; font-weight: 700; letter-spacing: 0.03em; color: var(--muted); }

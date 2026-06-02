@@ -66,4 +66,12 @@
   <url><loc>https://mybookready.com/features/growth/email/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://mybookready.com/features/growth/sms/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://mybookready.com/features/growth/winback/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mybookready.com/customers/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/changelog/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/roadmap/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/newsletter/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mybookready.com/community/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mybookready.com/blog/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mybookready.com/guides/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mybookready.com/tutorials/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
 </urlset>
