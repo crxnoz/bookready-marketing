@@ -5,8 +5,13 @@
   var section = document.getElementById('pricing');
   if (!section) return;
 
-  // ── SMS uplift table: same flat add-on across plans (1x = base, 2x = +$5, 3x = +$10)
-  var UPLIFT = { 1: 0, 2: 5, 3: 10 };
+  // ── SMS uplift rate: $0.0075 per additional SMS gives ~47% gross
+  // margin at $0.004 carrier cost. Scales per plan automatically
+  // (Solo 2x = +$3, Studio 2x = +$6, Salon 2x = +$15). MUST stay in
+  // lockstep with api/config/plans.php per_sms_uplift_dollars; if you
+  // tweak this, re-run `php artisan stripe:create-products` to update
+  // the Stripe price catalog.
+  var PER_SMS_UPLIFT = 0.0075;
 
   function fmt(n) { return n >= 1000 ? n.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,') : String(n); }
 
@@ -15,14 +20,18 @@
     var smsBase  = parseInt(plan.getAttribute('data-sms-base'), 10);
     var baseM    = parseInt(plan.getAttribute('data-base-m'), 10);
     var baseA    = parseInt(plan.getAttribute('data-base-a'), 10);
-    var uplift   = UPLIFT[mult] || 0;
+    // Per-plan uplift = added SMS × $0.0075. Annual base + monthly
+    // uplift × 12 / 12 = baseA + monthly-uplift (already per-month).
+    // All current plan/mult pairings land on integer dollars.
+    var extraSms      = (mult - 1) * smsBase;
+    var upliftMonthly = Math.round(extraSms * PER_SMS_UPLIFT);
 
     var smsEl   = plan.querySelector('[data-sms-amount]');
     var priceM  = plan.querySelector('[data-price-m]');
     var priceA  = plan.querySelector('[data-price-a]');
     if (smsEl)  smsEl.textContent  = fmt(smsBase * mult);
-    if (priceM) priceM.textContent = (baseM + uplift);
-    if (priceA) priceA.textContent = (baseA + uplift);
+    if (priceM) priceM.textContent = (baseM + upliftMonthly);
+    if (priceA) priceA.textContent = (baseA + upliftMonthly);
 
     // Update CTA href params (billing + sms multiplier) — Salon has no CTA, waitlist instead
     var billing = section.getAttribute('data-billing');
