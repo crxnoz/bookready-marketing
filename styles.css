@@ -1179,11 +1179,28 @@ button { cursor: pointer; font: inherit; }
   margin: 0 0 22px;
 }
 .br-plan__price {
-  font-size: clamp(68px, 7.2vw, 100px);
+  /* This sizes the "$" (a bare text node). Kept smaller than the number
+     so the price reads number-first. */
+  font-size: clamp(30px, 3.4vw, 44px);
   line-height: 0.92;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.04em;
   font-weight: 800;
   margin: 0 0 14px;
+}
+/* The number lives in a span for the live-price JS, so without this rule
+   it would inherit the small, muted ".br-plan__price span" treatment meant
+   for the "/mo" suffix. Make it the big, full-strength focal point. */
+.br-plan__price [data-price-m],
+.br-plan__price [data-price-a] {
+  font-size: clamp(58px, 7vw, 92px);
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  color: var(--text);
+  margin-left: 2px;
+}
+.br-plan--featured .br-plan__price [data-price-m],
+.br-plan--featured .br-plan__price [data-price-a] {
+  color: var(--text);
 }
 .br-plan__price span {
   font-size: 20px;
