@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Templates, designed booking websites for beauty studios | BookReady</title>
-  <meta name="description" content="Browse BookReady templates. Each one is designed around a specific kind of business, barbershop, spa, lash, beauty boutique, with booking built in. Pick one, add your services, go live in under 20 minutes." />
+  <title>Designed booking website templates | BookReady</title>
+  <meta name="description" content="Browse BookReady templates, each designed around a kind of business (barbershop, spa, lash, beauty boutique) with booking built in. Live in 20 minutes." />
   <link rel="canonical" href="https://mybookready.com/templates/" />
 
   <!-- OpenGraph -->
@@ -94,17 +94,17 @@
             <div class="br-megapanel__col">
               <p class="br-megapanel__kicker">Browse</p>
               <a href="/templates" role="menuitem">All templates</a>
-              <a href="/templates/new" role="menuitem">Newest releases</a>
-              <a href="/templates/popular" role="menuitem">Most popular</a>
+              <a href="/templates" role="menuitem">Newest releases</a>
+              <a href="/templates" role="menuitem">Most popular</a>
             </div>
             <div class="br-megapanel__col br-megapanel__col--split">
               <p class="br-megapanel__kicker">By business type</p>
-              <a href="/templates/barber" role="menuitem">Barbershop &amp; Men&rsquo;s Grooming</a>
-              <a href="/templates/spa" role="menuitem">Spa &amp; Wellness</a>
-              <a href="/templates/lash" role="menuitem">Lash &amp; Brow Studios</a>
-              <a href="/templates/nails" role="menuitem">Nail Studios</a>
-              <a href="/templates/hair" role="menuitem">Hair Salons</a>
-              <a href="/templates/solo" role="menuitem">Solo Pros</a>
+              <a href="/templates#barber" role="menuitem">Barbershop &amp; Men&rsquo;s Grooming</a>
+              <a href="/templates#spa" role="menuitem">Spa &amp; Wellness</a>
+              <a href="/templates#lash" role="menuitem">Lash &amp; Brow Studios</a>
+              <a href="/templates#nails" role="menuitem">Nail Studios</a>
+              <a href="/templates#hair" role="menuitem">Hair Salons</a>
+              <a href="/templates#solo" role="menuitem">Solo Pros</a>
             </div>
           </div>
         </div>
@@ -413,6 +413,13 @@
         });
       });
     });
+    function applyHash() {
+      var h = (location.hash || '').replace('#', '');
+      var chip = h ? bar.querySelector('[data-cat="' + h + '"]') : null;
+      if (chip) chip.click();
+    }
+    applyHash();
+    window.addEventListener('hashchange', applyHash);
   })();
   </script>
 
