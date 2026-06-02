@@ -35,4 +35,20 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url><loc>https://mybookready.com/platform/website/templates/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/platform/website/domain/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/platform/website/mobile/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/platform/website/sections/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/platform/website/announcement/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/platform/booking/online/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mybookready.com/platform/booking/calendar/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/platform/booking/sync/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/platform/booking/recurring/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/platform/booking/waitlist/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/platform/tools/payments/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mybookready.com/platform/tools/customers/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/platform/tools/notifications/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://mybookready.com/platform/tools/marketing/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mybookready.com/platform/tools/analytics/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mybookready.com/platform/tools/reviews/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

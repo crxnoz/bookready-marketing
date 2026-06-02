@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Announcement bar for promos & hours | BookReady</title>
+  <meta name="description" content="Post promos, holiday hours, or last-minute openings across the top of your booking site with a single toggle &mdash; no page editing." />
+  <link rel="canonical" href="https://mybookready.com/platform/website/announcement/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mybookready.com/platform/website/announcement/" />
+  <meta property="og:site_name" content="BookReady" />
+  <meta property="og:title" content="Announcement bar for promos & hours" />
+  <meta property="og:description" content="Post promos, holiday hours, or last-minute openings across the top of your booking site with a single toggle &mdash; no page editing." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=630&fit=crop&q=80" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Announcement bar for promos & hours" />
+  <meta name="twitter:description" content="Post promos, holiday hours, or last-minute openings across the top of your booking site with a single toggle &mdash; no page editing." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&h=630&fit=crop&q=80" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/pages.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mybookready.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Platform"},
+      {"@type": "ListItem", "position": 3, "name": "Announcement bar", "item": "https://mybookready.com/platform/website/announcement/"}
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <header class="br-nav" data-br-nav>
+    <div class="br-nav__inner">
+      <a class="br-nav__mark" href="/">BookReady</a>
+      <button class="br-nav__hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="br-nav-menu" data-br-hamburger>
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="br-nav__menu" id="br-nav-menu" aria-label="Primary">
+        <ul class="br-nav__list" role="menubar">
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-templates" data-br-trigger>
+              Templates
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </li>
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-platform" data-br-trigger aria-current="page">
+              Platform
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </li>
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-features" data-br-trigger>
+              Features
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </li>
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-resources" data-br-trigger>
+              Resources
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </li>
+          <li class="br-nav__item" role="none">
+            <a class="br-nav__link" href="/pricing" role="menuitem">Pricing</a>
+          </li>
+        </ul>
+
+        <div class="br-megapanel br-megapanel--two" id="br-mega-templates" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Browse</p>
+              <a href="/templates" role="menuitem">All templates</a>
+              <a href="/templates/new" role="menuitem">Newest releases</a>
+              <a href="/templates/popular" role="menuitem">Most popular</a>
+            </div>
+            <div class="br-megapanel__col br-megapanel__col--split">
+              <p class="br-megapanel__kicker">By business type</p>
+              <a href="/templates/barber" role="menuitem">Barbershop &amp; Men&rsquo;s Grooming</a>
+              <a href="/templates/spa" role="menuitem">Spa &amp; Wellness</a>
+              <a href="/templates/lash" role="menuitem">Lash &amp; Brow Studios</a>
+              <a href="/templates/nails" role="menuitem">Nail Studios</a>
+              <a href="/templates/hair" role="menuitem">Hair Salons</a>
+              <a href="/templates/solo" role="menuitem">Solo Pros</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="br-megapanel" id="br-mega-platform" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Website Experience</p>
+              <a href="/platform/website/templates" role="menuitem">Designed templates</a>
+              <a href="/platform/website/domain" role="menuitem">Custom domain</a>
+              <a href="/platform/website/mobile" role="menuitem">Mobile-first</a>
+              <a href="/platform/website/sections" role="menuitem">Branded sections</a>
+              <a href="/platform/website/announcement" role="menuitem">Announcement bar</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Booking System</p>
+              <a href="/platform/booking/online" role="menuitem">Online booking</a>
+              <a href="/platform/booking/calendar" role="menuitem">Smart calendar</a>
+              <a href="/platform/booking/sync" role="menuitem">Calendar sync</a>
+              <a href="/platform/booking/recurring" role="menuitem">Recurring appointments</a>
+              <a href="/platform/booking/waitlist" role="menuitem">Waitlist</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Business Tools</p>
+              <a href="/platform/tools/payments" role="menuitem">Stripe payments + deposits</a>
+              <a href="/platform/tools/customers" role="menuitem">Customer accounts</a>
+              <a href="/platform/tools/notifications" role="menuitem">SMS + email reminders</a>
+              <a href="/platform/tools/marketing" role="menuitem">Marketing campaigns</a>
+              <a href="/platform/tools/analytics" role="menuitem">Analytics</a>
+              <a href="/platform/tools/reviews" role="menuitem">Reviews integration</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="br-megapanel" id="br-mega-features" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Client Experience</p>
+              <a href="/features/client/booking" role="menuitem">Mobile booking flow</a>
+              <a href="/features/client/dashboard" role="menuitem">Customer dashboard</a>
+              <a href="/features/client/payments" role="menuitem">Saved payment methods</a>
+              <a href="/features/client/reschedule" role="menuitem">Self-serve reschedule</a>
+              <a href="/features/client/reminders" role="menuitem">Automated reminders</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Easy Management</p>
+              <a href="/features/manage/dashboard" role="menuitem">One dashboard</a>
+              <a href="/features/manage/reschedule" role="menuitem">Quick reschedule</a>
+              <a href="/features/manage/staff" role="menuitem">Staff management</a>
+              <a href="/features/manage/hours" role="menuitem">Hours &amp; blocked dates</a>
+              <a href="/features/manage/customers" role="menuitem">Customer database</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Growth</p>
+              <a href="/features/growth/email" role="menuitem">Email campaigns</a>
+              <a href="/features/growth/sms" role="menuitem">SMS marketing</a>
+              <a href="/features/growth/reviews" role="menuitem">Reviews engine</a>
+              <a href="/features/growth/winback" role="menuitem">Win-back automations</a>
+              <a href="/features/growth/analytics" role="menuitem">Analytics</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="br-megapanel" id="br-mega-resources" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Learn</p>
+              <a href="/blog" role="menuitem">Blog</a>
+              <a href="/guides" role="menuitem">Guides</a>
+              <a href="/tutorials" role="menuitem">Video tutorials</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Community</p>
+              <a href="/customers" role="menuitem">Customer stories</a>
+              <a href="/community" role="menuitem">Discord</a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Updates</p>
+              <a href="/changelog" role="menuitem">Changelog</a>
+              <a href="/roadmap" role="menuitem">Roadmap</a>
+              <a href="/newsletter" role="menuitem">Newsletter</a>
+              <a href="/migration" role="menuitem">Migration guide</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="br-nav__actions">
+          <a class="br-nav__signin" href="https://app.bkrdy.me/login">Sign in</a>
+          <a class="br-nav__cta" href="https://app.bkrdy.me/register">Start free</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="br-crumbs" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="br-crumbs__sep" aria-hidden="true">/</span>
+    <span class="br-crumbs__current">Platform</span>
+    <span class="br-crumbs__sep" aria-hidden="true">/</span>
+    <span class="br-crumbs__current" aria-current="page">Announcement bar</span>
+  </nav>
+
+  <section class="br-pagehead">
+    <div class="br-pagehead__inner">
+      <p class="br-kicker">Website Experience</p>
+      <h1 class="br-pagehead__title">One bar. <span class="br-italic">Every update.</span></h1>
+      <p class="br-pagehead__intro">Post promos, holiday hours, or last-minute openings across the top of your site with a single toggle &mdash; no editing pages, no dev.</p>
+      <div class="br-pagehead__actions">
+        <a href="https://app.bkrdy.me/register" class="br-button">Start your 14-day trial</a>
+        <a href="/pricing" class="br-text-link">See pricing &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="br-section">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">What you get</p>
+        <h2 class="br-section__title">The fastest update you&rsquo;ll make.</h2>
+      </div>
+      <div class="br-feats">
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 11-5.8-1.6"/></svg></span>
+          <h3>Say it once</h3>
+          <p>Type your message, flip it on. It shows on every page until you turn it off.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+          <h3>Holiday hours</h3>
+          <p>Tell clients you&rsquo;re closed or on short hours before they try to book.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 01-3.4 0"/></svg></span>
+          <h3>Fill the gap</h3>
+          <p>Had a cancellation? Announce a same-day opening and let it get snapped up.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Why it matters</p>
+        <h2 class="br-section__title">Seconds, not a redesign.</h2>
+        <p class="br-section__intro">When something changes, toggle a message on. No dev, no redesign, no waiting &mdash; your clients see it immediately.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+      <div class="br-related__head">
+        <h2>More of the platform</h2>
+        <a href="/pricing" class="br-text-link">See all plans &rarr;</a>
+      </div>
+      <div class="br-feats">
+        <a class="br-feat" href="/platform/website/templates">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></span>
+          <h3>Designed templates &rarr;</h3>
+          <p>Finished sites, not blank canvases.</p>
+        </a>
+        <a class="br-feat" href="/platform/website/domain">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg></span>
+          <h3>Custom domain &rarr;</h3>
+          <p>Your own domain, or a clean one free.</p>
+        </a>
+        <a class="br-feat" href="/platform/website/mobile">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
+          <h3>Mobile-first &rarr;</h3>
+          <p>Designed for the phone first.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="br-final-cta">
+    <div class="br-final-cta__inner">
+      <p class="br-kicker br-kicker--inverse">Website Experience</p>
+      <h2 class="br-final-cta__title">Keep clients in the loop.</h2>
+      <p class="br-final-cta__text">Start free and post your first announcement in seconds.</p>
+      <a href="https://app.bkrdy.me/register" class="br-button br-button--inverse">Start your 14-day trial</a>
+    </div>
+  </section>
+
+  <footer class="br-footer">
+    <div class="br-footer__inner">
+      <div class="br-footer__grid">
+        <div class="br-footer__brand">
+          <p class="br-footer__mark">BookReady</p>
+          <p class="br-footer__tag">Beautiful booking websites for beauty brands.</p>
+        </div>
+        <div class="br-footer__col">
+          <p class="br-footer__label">Product</p>
+          <a href="/templates">Templates</a>
+          <a href="/pricing">Pricing</a>
+          <a href="/migration">Migration</a>
+          <a href="https://app.bkrdy.me/register">Start free</a>
+        </div>
+        <div class="br-footer__col">
+          <p class="br-footer__label">Company</p>
+          <a href="mailto:hello@bkrdy.me">Contact</a>
+          <a href="https://app.bkrdy.me/privacy">Privacy</a>
+          <a href="https://app.bkrdy.me/terms">Terms</a>
+          <a href="https://app.bkrdy.me/cookies">Cookies</a>
+        </div>
+      </div>
+      <p class="br-footer__bottom">
+        &copy; 2026 BookReady. Made for the small beauty brands quietly building real businesses.
+      </p>
+    </div>
+  </footer>
+
+  <script src="/nav.js"></script>
+
+</body>
+</html>
