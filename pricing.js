@@ -5,13 +5,13 @@
   var section = document.getElementById('pricing');
   if (!section) return;
 
-  // ── SMS uplift rate: $0.0075 per additional SMS gives ~47% gross
-  // margin at $0.004 carrier cost. Scales per plan automatically
-  // (Solo 2x = +$3, Studio 2x = +$6, Salon 2x = +$15). MUST stay in
-  // lockstep with api/config/plans.php per_sms_uplift_dollars; if you
-  // tweak this, re-run `php artisan stripe:create-products` to update
-  // the Stripe price catalog.
-  var PER_SMS_UPLIFT = 0.0075;
+  // ── SMS uplift rate: $0.01 per additional SMS — a gentle launch price
+  // (~17% gross margin at the ~$0.0083 Twilio send cost; still above
+  // cost). Scales per plan automatically (Solo 2x = +$4, Studio 2x = +$8,
+  // Salon 2x = +$20). MUST stay in lockstep with api/config/plans.php
+  // per_sms_uplift_dollars; if you tweak this, re-run
+  // `php artisan stripe:create-products` to update the Stripe catalog.
+  var PER_SMS_UPLIFT = 0.01;
 
   function fmt(n) { return n >= 1000 ? n.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,') : String(n); }
 
