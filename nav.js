@@ -2,6 +2,59 @@
    Drives the sticky nav: mega-panel open/close (click + desktop hover),
    the mobile hamburger drawer, outside-click and Escape to close.
    Shared across every page — the markup must include [data-br-nav]. */
+
+/* ─── #156: Marketing → signup intent passthrough ───
+   When a visitor lands on a template detail page (/templates/{slug}/)
+   stash the slug in sessionStorage so later pages (pricing, homepage)
+   can append &template=… to the Start CTA. Marketing slugs are mapped
+   to the backend canonical form here (the only normalization layer):
+
+      fade-room       -> thefaderoom
+      lush-studio     -> lushstudio
+      velvet-theory   -> velvettheory
+      blackline       -> blackline
+      opaline         -> opaline
+
+   Also rewrites every link with href starting with app.bkrdy.me/register
+   on the current page to include the intent — covers the mega-nav
+   "Start free" CTA + footer + any other static CTAs without each page
+   needing per-link hardcoding.
+*/
+(function () {
+  // Map any marketing-slug form to the backend canonical that the
+  // /register validator accepts. Returns null when the URL isn't a
+  // template detail page.
+  function templateFromPath() {
+    var m = (location.pathname || '').match(/^\/templates\/([a-z0-9-]+)\//);
+    if (!m) return null;
+    var slug = m[1];
+    var map = {
+      'fade-room':     'thefaderoom',
+      'lush-studio':   'lushstudio',
+      'velvet-theory': 'velvettheory',
+    };
+    return map[slug] || slug;
+  }
+  try {
+    var found = templateFromPath();
+    if (found) sessionStorage.setItem('br_last_template', found);
+  } catch (_) { /* sessionStorage disabled, no-op */ }
+
+  // Rewrite static /register links on the page to include the
+  // last-known template (if any). Doesn't touch links that already
+  // carry &template=… (e.g. the template-detail page's own CTAs).
+  try {
+    var lastTpl = sessionStorage.getItem('br_last_template');
+    if (lastTpl) {
+      document.querySelectorAll('a[href*="app.bkrdy.me/register"]').forEach(function (a) {
+        var h = a.getAttribute('href');
+        if (!h || /[?&]template=/.test(h)) return;
+        a.setAttribute('href', h + (h.indexOf('?') === -1 ? '?' : '&') + 'template=' + encodeURIComponent(lastTpl));
+      });
+    }
+  } catch (_) { /* sessionStorage / DOM unavailable, no-op */ }
+})();
+
 (function () {
   var nav = document.querySelector('[data-br-nav]');
   if (!nav) return;

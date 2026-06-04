@@ -33,7 +33,11 @@
     if (priceM) priceM.textContent = (baseM + upliftMonthly);
     if (priceA) priceA.textContent = (baseA + upliftMonthly);
 
-    // Update CTA href params (billing + sms multiplier) — Salon has no CTA, waitlist instead
+    // Update CTA href params (billing + sms multiplier + template).
+    // Salon has no CTA, waitlist instead. #156 — template comes from
+    // sessionStorage.br_last_template (set by nav.js when the visitor
+    // browsed a /templates/{slug}/ page). If unset, omit — the app's
+    // /checkout/trial defaults to thefaderoom.
     var billing = section.getAttribute('data-billing');
     var planKey = plan.getAttribute('data-plan');
     var cta = plan.querySelector('a.br-plan__button');
@@ -41,6 +45,10 @@
       var params = ['plan=' + planKey];
       if (billing === 'annual') params.push('billing=annual');
       if (mult > 1)             params.push('sms=' + mult + 'x');
+      try {
+        var lastTpl = sessionStorage.getItem('br_last_template');
+        if (lastTpl) params.push('template=' + encodeURIComponent(lastTpl));
+      } catch (_) { /* sessionStorage disabled, no-op */ }
       cta.href = 'https://app.bkrdy.me/register?' + params.join('&');
     }
   }
