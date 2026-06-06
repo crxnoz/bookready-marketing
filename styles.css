@@ -334,15 +334,23 @@ button { cursor: pointer; font: inherit; }
     margin-left: -20px;
   }
 
-  /* Inside the open drawer, the (desktop) Log-in button becomes inline-flex
-     so its text needs justify-content:center to actually center. Match
-     Start-free's 52px height/full-width so the two read as a pair. */
+  /* Drawer Log-in: plain text, no border, no chrome. Centered + same
+     height as Start-free so they read as a stacked pair. Hierarchy:
+     Start-free is the only filled CTA in the drawer; Log-in is just
+     text below it. */
   .br-nav__signin {
     width: 100%;
     justify-content: center;
     padding: 14px;
     min-height: 52px;
     font-size: 15px;
+    border: none;
+    background: transparent;
+  }
+  .br-nav__signin:hover {
+    background: transparent;
+    color: var(--text);
+    transform: none;
   }
 
   .br-nav__menu {
@@ -440,7 +448,7 @@ button { cursor: pointer; font: inherit; }
   .br-nav__actions {
     flex-direction: column;
     align-items: stretch;
-    gap: 12px;
+    gap: 4px;
     margin-top: 28px;
     padding-top: 24px;
     border-top: 1px solid var(--border);
