@@ -308,31 +308,41 @@ button { cursor: pointer; font: inherit; }
 @media (max-width: 960px) {
   .br-nav__inner { padding: 12px 18px; }
 
-  /* Quick Sign-in button sits between the logo and the hamburger so it's
-     a single tap for returning users — no drawer-open required. */
+  /* Quick Log-in mobile link sits between the logo and the hamburger so
+     it's a single tap for returning users. Plain text, no chrome, generous
+     touch target via padding + height. */
   .br-nav__signin-mobile {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     height: 40px;
-    padding: 0 14px;
+    padding: 0 6px;
     margin-left: auto;
-    background: var(--text);
-    color: var(--bg);
-    font-size: 13px;
-    font-weight: 800;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    border: 1px solid var(--text);
-    transition: background .15s ease, color .15s ease;
-  }
-  .br-nav__signin-mobile:active {
-    background: transparent;
     color: var(--text);
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    transition: opacity .15s ease;
   }
+  .br-nav__signin-mobile:active { opacity: 0.55; }
+  /* Negative margin compensates for the .br-nav__inner flex gap (24px) so
+     the Log-in text and the hamburger sit visually close instead of pushed
+     apart by the parent's default spacing rule. */
   .br-nav__hamburger {
     display: flex;
-    margin-left: 8px;
+    margin-left: -20px;
+  }
+
+  /* Inside the open drawer, the (desktop) Log-in button becomes inline-flex
+     so its text needs justify-content:center to actually center. Match
+     Start-free's 52px height/full-width so the two read as a pair. */
+  .br-nav__signin {
+    width: 100%;
+    justify-content: center;
+    padding: 14px;
+    min-height: 52px;
+    font-size: 15px;
   }
 
   .br-nav__menu {
@@ -435,11 +445,8 @@ button { cursor: pointer; font: inherit; }
     padding-top: 24px;
     border-top: 1px solid var(--border);
   }
-  .br-nav__signin {
-    text-align: center;
-    padding: 14px;
-    border: 1px solid var(--border);
-  }
+  /* .br-nav__signin (drawer Log-in) — overrides moved to the earlier mobile
+     block (above) so width/justify/min-height land in one place. */
   .br-nav__cta {
     width: 100%;
     justify-content: center;
