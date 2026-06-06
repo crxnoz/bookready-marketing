@@ -86,11 +86,36 @@ button { cursor: pointer; font: inherit; }
   display: block;
   width: 18px; height: 2px;
   background: var(--text);
-  transition: transform .2s ease, opacity .2s ease;
+  /* Close direction (default state): rotate back first, then spread out.
+     Using individual `translate` + `rotate` properties lets us stage them
+     so the bars never form the brief "asterisk" that happens when
+     translate and rotate interpolate together. */
+  transition:
+    rotate .18s ease,
+    translate .18s ease .18s,
+    opacity .12s ease .04s;
 }
-.br-nav.is-open .br-nav__hamburger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-.br-nav.is-open .br-nav__hamburger span:nth-child(2) { opacity: 0; }
-.br-nav.is-open .br-nav__hamburger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+.br-nav.is-open .br-nav__hamburger span {
+  /* Open direction: collapse to center first, then rotate to form the X */
+  transition:
+    translate .18s ease,
+    rotate .18s ease .18s,
+    opacity .12s ease;
+}
+.br-nav.is-open .br-nav__hamburger span:nth-child(1) {
+  translate: 0 7px;
+  rotate: 45deg;
+}
+.br-nav.is-open .br-nav__hamburger span:nth-child(2) {
+  opacity: 0;
+}
+.br-nav.is-open .br-nav__hamburger span:nth-child(3) {
+  translate: 0 -7px;
+  rotate: -45deg;
+}
+
+/* Mobile-only quick Sign-in button sitting to the left of the hamburger */
+.br-nav__signin-mobile { display: none; }
 
 /* ── Menu container ── */
 .br-nav__menu {
@@ -282,7 +307,33 @@ button { cursor: pointer; font: inherit; }
 /* ── Mobile breakpoint ── */
 @media (max-width: 960px) {
   .br-nav__inner { padding: 12px 18px; }
-  .br-nav__hamburger { display: flex; }
+
+  /* Quick Sign-in button sits between the logo and the hamburger so it's
+     a single tap for returning users — no drawer-open required. */
+  .br-nav__signin-mobile {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 14px;
+    margin-left: auto;
+    background: var(--text);
+    color: var(--bg);
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    border: 1px solid var(--text);
+    transition: background .15s ease, color .15s ease;
+  }
+  .br-nav__signin-mobile:active {
+    background: transparent;
+    color: var(--text);
+  }
+  .br-nav__hamburger {
+    display: flex;
+    margin-left: 8px;
+  }
 
   .br-nav__menu {
     position: fixed;
