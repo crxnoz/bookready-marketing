@@ -492,6 +492,13 @@ a.br-template-card:hover .br-template-card__overlay {
   margin: 0;
   max-width: 520px;
 }
+.br-tpl-intro__cta {
+  align-self: flex-start;
+  margin-top: 4px;
+}
+@media (max-width: 540px) {
+  .br-tpl-intro__cta { align-self: stretch; text-align: center; justify-content: center; }
+}
 
 /* ─── Color groups (Base canvas, Highlight, etc.) ─── */
 .br-cgroup {
