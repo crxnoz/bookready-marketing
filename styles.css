@@ -1461,6 +1461,16 @@ button { cursor: pointer; font: inherit; }
   .br-template-next .br-button { width: 100%; }
 }
 
+/* Centered "View all templates" CTA below the homepage template grid */
+.br-template-viewmore {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+@media (max-width: 720px) {
+  .br-template-viewmore .br-button { width: 100%; text-align: center; justify-content: center; }
+}
+
 /* ─── Pricing ─── */
 .br-pricing-grid {
   display: grid;
