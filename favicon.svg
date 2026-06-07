@@ -1,5 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="BookReady">
-  <rect width="32" height="32" fill="#121212"/>
-  <text x="16" y="23" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#F8F6F2" text-anchor="middle">B</text>
-  <rect x="0" y="28.5" width="32" height="3.5" fill="#E8C7DA"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="BookReady">
+  <rect width="512" height="512" fill="#121212"/>
+  <path transform="translate(140 106) scale(2.0379)" fill="#F8F6F2" d="M101.18,63.83c20.06-13.78,10.57-41.01,10.57-41.01C102.41-.3,77.67,0,77.67,0h-39.13v36.4H0v110.81h57.98s.04,0,.1,0h.65v-.02c5.38-.23,38.12-3.03,38.12-37.13s-36.9-36.58-38.79-36.6V19h19.6c6.89,0,18.11,5.72,18.16,17.4s-10.39,17.33-10.39,17.33c0,0-4.03,1.49-7.03,1.67,0,0,3.41,30.8,35.57,54.93v-25.2s-12.01-15.06-12.81-21.31ZM58.07,92.13s19.53.32,19.53,17.93-18.27,18.13-19.54,18.15H19.53V55.4h19.01v55.4h19.53v-19.01.33Z"/>
 </svg>
