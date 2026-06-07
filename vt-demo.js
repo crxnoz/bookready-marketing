@@ -1,6 +1,6 @@
 /* ─── Velvet Theory booking demo ───
    Self-contained 5-step booking walkthrough scoped to [data-vt-booking].
-   Shared by the homepage demo and the /templates/velvet-theory page. */
+   Shared by the homepage demo and the /templates/velvettheory page. */
 (function () {
   var root = document.querySelector('[data-vt-booking]');
   if (!root) return;
