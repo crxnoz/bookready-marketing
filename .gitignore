@@ -7,3 +7,6 @@ node_modules/
 
 # Local-only dev tooling (preview server + launch config) — must never deploy
 .claude/
+
+# Scratch dir for one-off generators / experiments — never deploy
+.scratch/
