@@ -517,7 +517,7 @@ button { cursor: pointer; font: inherit; }
 }
 .br-hero__visual {
   width: 100%;
-  aspect-ratio: 1200 / 1180;
+  aspect-ratio: 1600 / 686;
   overflow: hidden;
   background: var(--card);
   border: 1px solid var(--border);
