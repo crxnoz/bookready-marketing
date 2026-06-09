@@ -7,7 +7,7 @@
       "url": "string, full URL path with leading and trailing slash",
       "type": "blog | guide | pillar | listicle | comparison",
       "cluster": "string, content cluster name",
-      "metaTitle": "string, ≤60 chars",
+      "metaTitle": "string, <=60 chars",
       "metaDescription": "string, 140-160 chars",
       "h1": "string, page H1",
       "italicTagline": "string, italic phrase that follows H1",
@@ -28,5 +28,1537 @@
       "failureReason": "string, optional, reason if status=failed"
     }
   },
-  "articles": []
+  "articles": [
+    {
+      "slug": "vagaro-alternative",
+      "url": "/compare/vagaro-alternative/",
+      "type": "comparison",
+      "cluster": "migration",
+      "metaTitle": "Vagaro Alternative for Salons and Spas | BookReady",
+      "metaDescription": "Looking for a Vagaro alternative? BookReady gives you a designed website, 0% transaction fees, and free same-day migration. See how they compare in 2026.",
+      "h1": "The Vagaro alternative built for studios that care how they look",
+      "italicTagline": "A real designed site, 0% fees, and a migration we do for you.",
+      "primaryKeyword": "vagaro alternative",
+      "secondaryKeywords": [
+        "vagaro vs bookready",
+        "vagaro competitors",
+        "vagaro pricing alternative",
+        "switch from vagaro",
+        "vagaro replacement"
+      ],
+      "estVolume": "400-900",
+      "intent": "BOFU",
+      "intro": "180-220 word intro on Vagaro: feature-dense and reliable but the public-facing booking page is dated. Most owners don't leave for bugs, they leave because their brand deserves more than a stock blue calendar. Cover fee math (Vagaro markup vs BookReady 0% on top of Stripe). Set up structure: feature comparison, pricing math, design honesty, migration logistics, who should stay. Close with free same-day migration line. Confident, no slogans, no em-dashes, no fluff.",
+      "sections": [
+        {
+          "kicker": "TL;DR",
+          "title": "The 60-second read on Vagaro vs BookReady",
+          "directives": "Bulleted summary (5-6 bullets): (1) Vagaro best for POS hardware, retail inventory, Pay Desk, (2) BookReady best for designed website with editorial templates and 0% transaction markup, (3) pricing, (4) fee structure, (5) migration. Then 80-100 words framing. Link /pricing/. 150-180 words."
+        },
+        {
+          "kicker": "Side by side",
+          "title": "Feature comparison: Vagaro vs BookReady",
+          "directives": "Comparison table: Designed templates (Vagaro limited / BookReady 7 editorial), Custom domain (both), Online booking, Deposits + no-show fees, Group classes (Vagaro stronger), Memberships (Vagaro stronger), Retail inventory (Vagaro stronger), POS hardware (Vagaro stronger), Staff calendars (both), Booth-renter mode (BookReady cleaner on Studio), Free migration (BookReady only), Transaction fee markup (Vagaro yes / BookReady 0%). 120 words honest commentary. Link /templates/. 280-320 words."
+        },
+        {
+          "kicker": "The money",
+          "title": "Pricing math: what each platform actually costs per year",
+          "directives": "Three scenarios: (1) $4K/mo solo Vagaro vs BookReady Solo $24/mo, (2) $10K/mo two-chair Vagaro vs Studio $49/mo, (3) $25K/mo five-chair Vagaro vs Salon $99/mo. Show annual savings per row. Link /pricing/. 220-260 words."
+        },
+        {
+          "kicker": "Design honesty",
+          "title": "Where Vagaro falls short: the website your clients see",
+          "directives": "Direct. Vagaro's strength is back office not storefront. Describe public booking page on phone (functional generic dated typography). Contrast 7 templates (The Fade Room, Lush Studio, Velvet Theory, Blackline, Opaline, Petale, Bottega). Beauty business sells aesthetic, site is the aesthetic. Link /templates/ and /platform/website/templates/. 200-240 words."
+        },
+        {
+          "kicker": "Migration",
+          "title": "What it takes to move off Vagaro",
+          "directives": "Step-by-step: (1) start BookReady trial no card 7 days, (2) export Vagaro client CSV, (3) BookReady runs import, services and hours included, (4) pick template, (5) connect Stripe, (6) flip Instagram bio link, (7) cancel Vagaro after bookings moved. Same-day for most. Link /migration/. 180-220 words."
+        },
+        {
+          "kicker": "Honest",
+          "title": "When you should stay on Vagaro",
+          "directives": "Counterintuitive trust-builder. Stay on Vagaro if: (1) run group fitness or class memberships, (2) depend on Vagaro Pay Desk hardware, (3) operate heavy retail inventory with barcode SKUs, (4) need Vagaro Marketplace for client acquisition more than designed site. Honest. 150-180 words."
+        },
+        {
+          "kicker": "Who switches",
+          "title": "Who actually moves from Vagaro to BookReady",
+          "directives": "4 archetypes: (1) solo barber wanting Fade Room or Blackline look, (2) lash studio owner tired of generic widget, (3) two-chair nail studio rebranding editorial, (4) spa owner wanting Opaline quiet on Instagram and Google. For each, name plan and template. Link /for-barbers/, /for-lash-artists/, /for-spas/. 200-240 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can BookReady actually import my full Vagaro client list?",
+          "answerHint": "Yes. Export CSV from Vagaro, our team runs import free, you keep every name, email, phone. 30-50 words."
+        },
+        {
+          "q": "Will my Vagaro booking link break the day I switch?",
+          "answerHint": "No. Build BookReady site first, keep Vagaro running, swap Instagram bio link when ready. Cancel Vagaro after. 30-50 words."
+        },
+        {
+          "q": "Does BookReady have a POS like Vagaro Pay Desk?",
+          "answerHint": "No dedicated POS hardware. Stripe in browser with Stripe tap-to-pay on iPhone or Stripe Reader. If cash drawer setup required, Vagaro stronger. Honest. 40-60 words."
+        },
+        {
+          "q": "How do transaction fees compare?",
+          "answerHint": "Vagaro stacks markup on Stripe. BookReady 0% on top of Stripe (about 2.9% + 30 cents). On $10K/mo that's $200-300/mo back. 40-60 words."
+        },
+        {
+          "q": "Can I run booth renters like Vagaro?",
+          "answerHint": "Yes on Studio at $49/mo. Each renter own services, calendar, Stripe payout, sees only own clients. 30-50 words."
+        },
+        {
+          "q": "What about memberships and packages?",
+          "answerHint": "Packages and prepaid credits on Studio. Full recurring memberships with auto-renewal on roadmap. Stay on Vagaro if memberships core. 40-60 words."
+        },
+        {
+          "q": "Do I lose reviews when migrating from Vagaro?",
+          "answerHint": "Reviews stay in Vagaro. BookReady runs review collection through Google and your site after switch, new reviews start fresh on assets you own. 40-60 words."
+        },
+        {
+          "q": "How long does full migration take?",
+          "answerHint": "Most shops same-day. Larger salons 5+ staff and 1000+ clients take 1-2 days. We handle services, hours, staff, client list. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/pricing/",
+        "/migration/",
+        "/templates/",
+        "/for-barbers/",
+        "/for-lash-artists/",
+        "/for-spas/"
+      ],
+      "recommendedFeaturedTemplate": "velvettheory",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
+      "status": "pending"
+    },
+    {
+      "slug": "styleseat-alternative",
+      "url": "/compare/styleseat-alternative/",
+      "type": "comparison",
+      "cluster": "migration",
+      "metaTitle": "StyleSeat Alternative for Independent Pros | BookReady",
+      "metaDescription": "Tired of StyleSeat's new-client booking fees? BookReady gives you a designed site, your own domain, and 0% transaction fees. See the honest comparison.",
+      "h1": "The StyleSeat alternative that lets you own your clients",
+      "italicTagline": "Your domain. Your bookings. No new-client fees.",
+      "primaryKeyword": "styleseat alternative",
+      "secondaryKeywords": [
+        "styleseat vs bookready",
+        "styleseat fees",
+        "styleseat new client fee",
+        "alternatives to styleseat",
+        "leave styleseat"
+      ],
+      "estVolume": "200-500",
+      "intent": "BOFU",
+      "intro": "180-220 word intro naming the real reason pros leave StyleSeat: the new-client booking fee. StyleSeat charges per-booking for clients it considers new (often $1-10), compounds for pros doing acquisition. Acknowledge what StyleSeat is good at (marketplace can drive new bookings if starting cold), frame trade: marketplace exposure vs owning your funnel. Preview: pricing math, design comparison, what changes when you own domain, migration playbook. No em-dashes. Confident voice.",
+      "sections": [
+        {
+          "kicker": "TL;DR",
+          "title": "StyleSeat vs BookReady in one minute",
+          "directives": "Bulleted summary: (1) StyleSeat is marketplace plus calendar, BookReady is designed website plus calendar, (2) StyleSeat charges new-client fees per booking, BookReady charges 0%, (3) StyleSeat owns the URL clients book on, BookReady puts you on your own domain, (4) pricing comparison, (5) migration is free same-day. Then 80 words prose. Link /pricing/. 150-180 words."
+        },
+        {
+          "kicker": "The fees",
+          "title": "How StyleSeat's new-client fee actually works (and what it costs you)",
+          "directives": "Walk through fee structure carefully. Per-booking fee on new clients, how StyleSeat defines new, how it compounds when marketing on Instagram. Two scenarios: (1) barber 20 new clients/mo on $50 services, (2) hair stylist 8 new clients/mo on $180 services. Show annual fee cost. Compare to BookReady flat plan + 0% transaction. Link /pricing/. 240-280 words."
+        },
+        {
+          "kicker": "Ownership",
+          "title": "Marketplace traffic vs owning your funnel",
+          "directives": "Clear position. StyleSeat marketplace useful for first 6 months of new shop. After, marketplace dependency keeps you renting an audience instead of building one. Make case for owning URL, SEO, email list, brand. Reference how Instagram bio links work and why clean custom domain reads more credible than styleseat.com URL. Link /platform/website/domain/. 220-260 words."
+        },
+        {
+          "kicker": "Design",
+          "title": "What your StyleSeat page looks like vs a BookReady site",
+          "directives": "Honest. StyleSeat's pro pages functional but template-thin: header, photo grid, services, calendar. No editorial site behind. Contrast BookReady's 7 templates (name them: The Fade Room, Lush Studio, Velvet Theory, Blackline, Opaline, Petale, Bottega) shipping full marketing site with sections, gallery, about, testimonials, FAQ, booking, on your domain. Link /templates/ and /platform/website/templates/. 220-260 words."
+        },
+        {
+          "kicker": "Pricing math",
+          "title": "Two-year cost comparison for an independent pro",
+          "directives": "Representative scenario: solo hair stylist $7,500/mo bookings, 12 new clients/mo at $5 StyleSeat fee. Compare 24 months of StyleSeat (subscription + new client fees + processing markup) vs 24 months of BookReady Solo $24/mo with 0% fees. Show cumulative gap. Add second scenario: barber at $4,500/mo, 18 new clients/mo. Link /pricing/. 220-260 words."
+        },
+        {
+          "kicker": "Migration",
+          "title": "How to migrate from StyleSeat without losing bookings",
+          "directives": "Step-by-step: (1) start BookReady trial, (2) export StyleSeat client list (CSV export of clients, note appointment history harder to extract), (3) BookReady handles import, (4) build new site, (5) move Instagram bio link, (6) keep StyleSeat live 2-4 weeks while existing recurring clients update, (7) cancel. Link /migration/. 200-240 words."
+        },
+        {
+          "kicker": "Stay or go",
+          "title": "When you should stay on StyleSeat",
+          "directives": "Counterintuitive trust-builder. Stay on StyleSeat if: (1) brand new with zero existing client base, marketplace seeds first 30 clients, (2) actively use StyleSeat's Promote feature and it's paying off, (3) no Instagram presence to host bio link. Honest. 150-180 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How much does StyleSeat actually charge per new client?",
+          "answerHint": "Fee varies by plan and history, typically $1-10 per new client booking. Compounds quickly during marketing pushes. 30-50 words."
+        },
+        {
+          "q": "Will I lose my StyleSeat reviews if I move?",
+          "answerHint": "Reviews on StyleSeat stay there. We help collect new reviews on Google and BookReady site, both of which you own. 30-50 words."
+        },
+        {
+          "q": "Can I export my client list from StyleSeat?",
+          "answerHint": "Yes, StyleSeat allows CSV export of contacts. Past appointment history harder to extract. We import contact list during migration. 30-50 words."
+        },
+        {
+          "q": "Will my existing recurring clients still find me?",
+          "answerHint": "Yes. Keep StyleSeat live 2-4 weeks while you message your client list and update Instagram bio. Most regulars switch within first month. 30-50 words."
+        },
+        {
+          "q": "Does BookReady have a marketplace like StyleSeat?",
+          "answerHint": "No. BookReady is intentionally not a marketplace. We help you build assets you own (site, domain, SEO, list). Stay on StyleSeat if marketplace is your acquisition channel. 40-60 words."
+        },
+        {
+          "q": "What about deposits and cancellation fees?",
+          "answerHint": "Built in on all BookReady plans. Set deposit amount or percentage per service, configure no-show fees, all charged through Stripe to your bank. 30-50 words."
+        },
+        {
+          "q": "How long does the migration take?",
+          "answerHint": "Most independent pros fully migrated within a day. We handle client import, you build the site, we both flip the bio link when ready. 30-50 words."
+        },
+        {
+          "q": "Can I keep both running during the trial?",
+          "answerHint": "Yes. BookReady offers 14 days free (no card for first 7), so you can keep StyleSeat live while you build, test, and migrate clients. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/pricing/",
+        "/migration/",
+        "/templates/",
+        "/platform/website/domain/",
+        "/for-barbers/",
+        "/for-solo-pros/"
+      ],
+      "recommendedFeaturedTemplate": "thefaderoom",
+      "recommendedRelatedIndustry": "solo-pros",
+      "ctaPlan": "Solo",
+      "ctaIndustry": "solo-pros",
+      "status": "pending"
+    },
+    {
+      "slug": "best-acuity-alternatives-for-salons",
+      "url": "/blog/best-acuity-alternatives-for-salons/",
+      "type": "listicle",
+      "cluster": "migration",
+      "metaTitle": "Best Acuity Alternatives for Salons in 2026 | BookReady",
+      "metaDescription": "We tested 6 Acuity alternatives built for salons. BookReady, GlossGenius, Fresha, Vagaro, Square, and Booksy. Honest comparison, real prices.",
+      "h1": "The best Acuity alternatives for salons in 2026",
+      "italicTagline": "Six platforms tested with the salon owner's eye, not the spreadsheet.",
+      "primaryKeyword": "best acuity alternatives",
+      "secondaryKeywords": [
+        "acuity alternatives for salons",
+        "acuity scheduling competitors",
+        "salon scheduling software",
+        "acuity replacement",
+        "leaving acuity scheduling"
+      ],
+      "estVolume": "200-500",
+      "intent": "BOFU",
+      "intro": "180-220 word intro. Acuity is great scheduling engine for consultants and coaches, clumsy fit for salons. Reason is design. Acuity's booking flow built for one-on-one knowledge work, not for multi-staff beauty businesses with services, deposits, gallery, editorial brand. Name 6 alternatives (BookReady, GlossGenius, Fresha, Vagaro, Square Appointments, Booksy), ranked by best fit for actual salon not raw feature count. Preview: each platform gets TL;DR, strength, weakness, verdict.",
+      "sections": [
+        {
+          "kicker": "Why leave",
+          "title": "Why salons outgrow Acuity",
+          "directives": "Honest read. Acuity excellent at: time slots, intake forms, packages for coaching, calendar sync. Weak at: visual brand, multi-stylist scheduling that respects salon room availability, deposit flows that feel native, beauty-industry templates, marketplace exposure. Most salon owners don't realize until 6 months in that their site looks like a therapist's intake page. Link /platform/website/templates/. 180-220 words."
+        },
+        {
+          "kicker": "Pick 1",
+          "title": "BookReady, best for design-led salons",
+          "directives": "Lead with BookReady. State case plainly: 7 editorial templates, 0% transaction fees, free same-day migration, $24-99/mo. Best for owners who treat brand like the product. Walk through one specific template (Petale or Velvet Theory) for visual proof. Weakness: no full POS hardware, no marketplace. Link /templates/ and /pricing/. 220-260 words."
+        },
+        {
+          "kicker": "Pick 2",
+          "title": "GlossGenius, best for solo stylists who want POS",
+          "directives": "Honest profile. Strength: solid POS, tipping flow, designed (though limited) templates, beauty-native. Weakness: 2.6% transaction fee on top of processing, design templates getting tired, mobile app is primary surface. Pricing: $24-48/mo. Best for solo pros who do a lot of in-person checkout and tipping. Link /compare/glossgenius-alternative/. 180-220 words."
+        },
+        {
+          "kicker": "Pick 3",
+          "title": "Fresha, best for high-volume salons that want free",
+          "directives": "Strength: free subscription, marketplace traffic, multi-location support. Weakness: revenue model built on optional New Client Fee (20% of first visit) and card processing markup, website is template-thin, your data lives in their marketplace. Best for high-volume salons that prioritize zero monthly cost over owning funnel. Link /compare/fresha-alternative/. 180-220 words."
+        },
+        {
+          "kicker": "Pick 4",
+          "title": "Vagaro, best for inventory-heavy spas",
+          "directives": "Strength: deep features for retail, classes, memberships, Pay Desk hardware. Weakness: public booking page looks dated, transaction markup, modal-heavy interface. Pricing: $30+/mo per user. Best for spas and salons with serious retail and class operations. Link /compare/vagaro-alternative/. 180-220 words."
+        },
+        {
+          "kicker": "Pick 5",
+          "title": "Square Appointments, best for square-loyal owners",
+          "directives": "Strength: free for solo on Square, integrates with Square POS hardware. Weakness: design utilitarian, branding controls limited, processing fee higher than direct Stripe. Best for owners already running Square POS. Link /compare/square-appointments-alternative/. 160-200 words."
+        },
+        {
+          "kicker": "Pick 6",
+          "title": "Booksy, best for marketplace acquisition",
+          "directives": "Strength: large marketplace, especially strong for barbers in urban markets, push notifications drive rebookings. Weakness: marketplace branding overshadows yours, fees compound, public page generic. Best for shops in cities with active Booksy users hunting for talent. Link /compare/booksy-alternative/. 160-200 words."
+        },
+        {
+          "kicker": "Verdict",
+          "title": "How to actually pick the right alternative",
+          "directives": "Decision framework. Three questions: (1) Do I sell aesthetic? (BookReady, GlossGenius), (2) Do I need marketplace traffic right now? (Fresha, Booksy), (3) Do I run heavy retail or in-person POS? (Vagaro, Square). State BookReady opinion: most salons open 12+ months should own their site. Link /pricing/. 200-240 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Why is Acuity not great for salons specifically?",
+          "answerHint": "Built for one-on-one bookings (coaching, therapy, consulting). Salon-specific features like deposits, multi-stylist scheduling, beauty branding are bolted on or missing. 40-60 words."
+        },
+        {
+          "q": "Can I migrate my Acuity client list?",
+          "answerHint": "Yes. Acuity exports clients as CSV. BookReady runs import for free. See dedicated migration guide. 30-50 words."
+        },
+        {
+          "q": "Which alternative has the lowest fees?",
+          "answerHint": "BookReady has 0% transaction fees on top of Stripe's standard. Most others stack markup. Fresha appears free but charges new-client and processing fees that add up. 40-60 words."
+        },
+        {
+          "q": "Does any alternative have a marketplace like Acuity does not?",
+          "answerHint": "Fresha and Booksy do. BookReady, GlossGenius, Vagaro, Square do not. Marketplaces help new shops, hurt established brands long-term. 30-50 words."
+        },
+        {
+          "q": "Which is best for a one-person salon?",
+          "answerHint": "BookReady Solo ($24/mo) or GlossGenius if you need in-person POS. BookReady wins on design and zero fees, GlossGenius wins on tap-to-pay flow. 30-50 words."
+        },
+        {
+          "q": "Which is best for a 5-chair salon?",
+          "answerHint": "BookReady Salon ($99/mo) or Vagaro if you have heavy retail. BookReady gives designed multi-stylist site, Vagaro gives feature depth. 30-50 words."
+        },
+        {
+          "q": "Will I lose SEO if I switch from Acuity?",
+          "answerHint": "Your Acuity scheduling subdomain has near-zero SEO equity for salon searches. Moving to your own domain on BookReady is usually a net gain. 40-60 words."
+        },
+        {
+          "q": "How fast can I switch?",
+          "answerHint": "Most salons live on BookReady within 24-48 hours. Same-day for solo pros. We handle services, hours, staff, client import. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/pricing/",
+        "/migration/",
+        "/templates/",
+        "/compare/glossgenius-alternative/",
+        "/compare/fresha-alternative/",
+        "/compare/square-appointments-alternative/",
+        "/compare/booksy-alternative/"
+      ],
+      "recommendedFeaturedTemplate": "petale",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Salon",
+      "ctaIndustry": "salons",
+      "status": "pending"
+    },
+    {
+      "slug": "export-clients-from-acuity",
+      "url": "/guides/export-clients-from-acuity/",
+      "type": "guide",
+      "cluster": "migration",
+      "metaTitle": "How to Export Your Client List From Acuity | BookReady",
+      "metaDescription": "Step-by-step guide to exporting your client list from Acuity Scheduling as a CSV, with notes on appointment history, intake forms, and what to do next.",
+      "h1": "How to export your client list from Acuity Scheduling",
+      "italicTagline": "Five clicks, one CSV, and the data that is actually yours.",
+      "primaryKeyword": "export client list from acuity",
+      "secondaryKeywords": [
+        "export acuity clients",
+        "acuity csv export",
+        "download acuity client list",
+        "acuity data export",
+        "leaving acuity scheduling"
+      ],
+      "estVolume": "100-300",
+      "intent": "BOFU",
+      "intro": "150-200 word intro. Your client list belongs to you, not your scheduling platform, and Acuity makes this straightforward (with catches). Preview: walk through exact UI path to export, what Acuity does and does not include, how to handle appointment history (messier), what to do with file. Mention this guide is part of BookReady migration series and BookReady runs the import for free if switching. No em-dashes, friendly direct.",
+      "sections": [
+        {
+          "kicker": "Why export",
+          "title": "Why you should download your client list even if you are staying",
+          "directives": "Make case for exporting regardless of migration plans: (1) data ownership and backup hygiene, (2) being able to run a one-off email campaign outside Acuity, (3) protecting yourself if your account ever gets locked or auto-suspended. Reference that Acuity is owned by Squarespace now, which means roadmap and policy can shift without warning. 140-170 words."
+        },
+        {
+          "kicker": "Step 1",
+          "title": "Log in and find the Clients tab",
+          "directives": "Walk through exact navigation: log into acuityscheduling.com, click Clients in left nav (different from Contacts in Squarespace). Mention what version of UI most users will see in 2026 (unified Squarespace login or legacy Acuity login). Note must be on admin account, not staff seat. 120-150 words."
+        },
+        {
+          "kicker": "Step 2",
+          "title": "Export the full client CSV",
+          "directives": "Step-by-step: click Import/Export button (top right of Clients tab), choose Export client list, select CSV format, choose All clients (or filter by date), click Download. Note export includes: name, email, phone, notes, total appointments, total revenue. Does NOT include intake form responses by default. Estimated delivery: under a minute for most accounts. 160-200 words."
+        },
+        {
+          "kicker": "Step 3",
+          "title": "Export intake forms and appointment history (the harder part)",
+          "directives": "Honest. Acuity does not let you export appointment history as cleanly as client list. Three options: (1) export appointment reports as CSV by date range from Reports section, (2) for intake form responses, must export per form from Customize Appearance > Intake Forms section, (3) for high-volume export, contact Acuity support for full data dump on request. Set realistic time: 30-60 minutes for clean export. 200-240 words."
+        },
+        {
+          "kicker": "Step 4",
+          "title": "Clean your CSV before importing anywhere",
+          "directives": "Practical cleanup checklist: (1) open CSV in Google Sheets or Excel, (2) delete duplicate rows (same email, multiple entries), (3) verify email column is actually emails (not 'no email on file'), (4) standardize phone format if you can, (5) flag VIP clients in new column for tagging on next platform. Mention BookReady runs cleanup for you during migration. 180-220 words."
+        },
+        {
+          "kicker": "Step 5",
+          "title": "What to do next: import into a new platform or keep as backup",
+          "directives": "Two paths. Path A: importing into BookReady. Send CSV during migration, we run import same-day, free. Path B: keeping as backup. Save file to two places (cloud drive plus local), tag with date, set calendar reminder to re-export every 90 days. Link /migration/. 160-200 words."
+        },
+        {
+          "kicker": "Heads up",
+          "title": "Things Acuity will not export, and what to do about them",
+          "directives": "Honest list: (1) reviews collected on Acuity stay on Acuity, (2) automated email content stays in their templates, (3) custom intake forms must be exported separately as noted, (4) integrations (Zapier, Zoom, etc.) need to be reconnected on new platform, (5) recurring appointments do not transfer with future dates. Tell reader to screenshot anything they want to remember. 180-220 words."
+        },
+        {
+          "kicker": "Next step",
+          "title": "Ready to migrate? Here is what happens next",
+          "directives": "Short, practical close. Start BookReady trial, send CSV, we handle import. Most migrations finish in a day. Trial is 14 days, no card for first 7. Link /migration/, /pricing/, /compare/acuity-alternative/. 120-160 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Does Acuity charge to export my client list?",
+          "answerHint": "No. Export included on every Acuity plan, including legacy free tier. 30-50 words."
+        },
+        {
+          "q": "Can I export past appointment history?",
+          "answerHint": "Yes, through Reports tab as date-range CSV. Less clean than client list, but workable. For full history dump, ask Acuity support. 40-60 words."
+        },
+        {
+          "q": "Does the export include intake form answers?",
+          "answerHint": "Not in main client CSV. Intake responses must be exported per form from Customize Appearance section. 30-50 words."
+        },
+        {
+          "q": "Will exporting my data cancel my Acuity subscription?",
+          "answerHint": "No. Export does not affect subscription. Cancel separately when ready, after verifying export. 30-50 words."
+        },
+        {
+          "q": "Can BookReady import the Acuity CSV directly?",
+          "answerHint": "Yes. Send it during free migration and we run import. Most setups live same-day. 30-50 words."
+        },
+        {
+          "q": "What if my CSV is missing emails or phones?",
+          "answerHint": "Common with older Acuity accounts. Clean in Sheets or Excel first, then send. We import whatever you have. 30-50 words."
+        },
+        {
+          "q": "Do automated reminder emails transfer?",
+          "answerHint": "No. Reminder templates and automations stay in Acuity. BookReady ships own reminder system you set up in dashboard. 40-60 words."
+        },
+        {
+          "q": "How often should I export as a backup?",
+          "answerHint": "Quarterly minimum. Monthly if doing active marketing. Treat client list like your phone backup: boring, automatic, non-negotiable. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/migration/",
+        "/pricing/",
+        "/compare/acuity-alternative/",
+        "/platform/tools/customers/",
+        "/for-solo-pros/"
+      ],
+      "recommendedFeaturedTemplate": "opaline",
+      "recommendedRelatedIndustry": "solo-pros",
+      "ctaPlan": "Solo",
+      "ctaIndustry": "solo-pros",
+      "status": "pending"
+    },
+    {
+      "slug": "migrate-from-vagaro",
+      "url": "/guides/migrate-from-vagaro/",
+      "type": "guide",
+      "cluster": "migration",
+      "metaTitle": "How to Migrate From Vagaro to BookReady | BookReady",
+      "metaDescription": "A practical, step-by-step guide to migrating your salon, spa, or barbershop off Vagaro without losing bookings, clients, or sleep. Free same-day import.",
+      "h1": "How to migrate from Vagaro without losing a single booking",
+      "italicTagline": "Seven steps, one weekend, zero downtime.",
+      "primaryKeyword": "migrate from vagaro",
+      "secondaryKeywords": [
+        "leave vagaro",
+        "switch from vagaro",
+        "vagaro export clients",
+        "vagaro to bookready",
+        "cancel vagaro"
+      ],
+      "estVolume": "100-200",
+      "intent": "BOFU",
+      "intro": "180-220 word intro. Most owners don't switch off Vagaro because they think it will break their business. State plainly: done right, migration is invisible to clients and takes a single weekend. Set up seven-step playbook (export, import, build, connect, soft launch, hard switch, cancel). Promise BookReady handles heaviest lifts (services, hours, staff, client list) for free. Mention you can keep Vagaro running in parallel for as long as you want during trial. Calm, practical.",
+      "sections": [
+        {
+          "kicker": "Before you start",
+          "title": "What to do the week before you migrate",
+          "directives": "Prep checklist: (1) screenshot Vagaro service menu, hours, pricing, (2) note custom forms or intake questions, (3) screenshot Vagaro reports for last 90 days (cannot access post-cancel), (4) make list of integrations to reconnect (Stripe, Google Calendar, Zoom if video consults), (5) tell team. Set 90-minute block on calendar for actual build. 180-220 words."
+        },
+        {
+          "kicker": "Step 1",
+          "title": "Export your client list from Vagaro",
+          "directives": "Walk through UI: log into Vagaro, go to Reports > Customers > Customer List, set date range to All Time, click Export, choose CSV. File includes name, email, phone, last visit, total spent. Vagaro does NOT export appointment history as cleanly. 150-180 words."
+        },
+        {
+          "kicker": "Step 2",
+          "title": "Start your BookReady trial and send us the file",
+          "directives": "Go to mybookready.com, start trial (no card for first 7 days). Once in dashboard, there's Migration tab. Upload CSV there, or email to migration@mybookready.com. Team runs import same-day for most accounts. We rebuild service menu and hours from your screenshots. 160-200 words."
+        },
+        {
+          "kicker": "Step 3",
+          "title": "Pick a template and customize copy",
+          "directives": "Fun step. Walk through template library (name all 7: The Fade Room, Lush Studio, Velvet Theory, Blackline, Opaline, Petale, Bottega). Help reader pick by mood, not industry alone. Tell them spend 45-60 minutes on copy and gallery photos. Link /templates/. 200-240 words."
+        },
+        {
+          "kicker": "Step 4",
+          "title": "Connect Stripe for payments and tipping",
+          "directives": "Walk through Stripe connection flow inside BookReady: Settings > Payments, click Connect with Stripe, sign in or create account, BookReady's app auto-configures payout, tipping, deposit flow. Note Stripe's standard processing fee (about 2.9% + 30 cents) and BookReady's 0% markup. Link /platform/tools/payments/. 160-200 words."
+        },
+        {
+          "kicker": "Step 5",
+          "title": "Soft launch: tell your clients privately",
+          "directives": "Soft launch. Send quiet email or DM to top 20 clients with new booking link. Run them through flow. Fix anything weird. Don't change Vagaro link yet. BookReady reminders, deposits, confirmations fire on new platform from now on for those bookings. Link /platform/tools/notifications/. 180-220 words."
+        },
+        {
+          "kicker": "Step 6",
+          "title": "Hard switch: update your Instagram bio and Google profile",
+          "directives": "Actual cutover. Update Instagram bio link, Google Business Profile (appointment URL field), other places your link lives (Yelp, Linktree, business cards online listings). Recommend doing on quiet morning, not busy Friday. Link /guides/add-booking-link-to-instagram-bio/. 180-220 words."
+        },
+        {
+          "kicker": "Step 7",
+          "title": "Cancel Vagaro on your own timing",
+          "directives": "Don't rush. Keep Vagaro running for 2-4 weeks while regulars find new flow. Walk through Vagaro cancellation path (Settings > Account > Cancel Subscription). Vagaro will offer retention discount, decline politely. Download one final report dump before canceling. 160-200 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How long does the full migration actually take?",
+          "answerHint": "Most shops functionally migrated in 24-48 hours. We import same-day, you build site that evening, soft launch next morning. 30-50 words."
+        },
+        {
+          "q": "Will I lose bookings during the switch?",
+          "answerHint": "No, if you keep Vagaro live for 2-4 weeks during transition. Existing recurring clients update at next visit. 30-50 words."
+        },
+        {
+          "q": "Does BookReady import my staff calendars?",
+          "answerHint": "Yes on Studio and Salon plans. Each staff member gets own calendar, services, Stripe payout if needed. 30-50 words."
+        },
+        {
+          "q": "What happens to my Vagaro reviews?",
+          "answerHint": "Reviews stay on Vagaro. We help collect new ones on Google and BookReady site. 30-50 words."
+        },
+        {
+          "q": "Can I keep my custom domain?",
+          "answerHint": "Yes. If you already have domain pointed at Vagaro, we walk through DNS so it points to BookReady. Solo plan includes free bkrdy.me subdomain if you don't have one. 40-60 words."
+        },
+        {
+          "q": "Do I need to cancel Vagaro before I start BookReady?",
+          "answerHint": "No, and you shouldn't. Run both in parallel during trial. Cancel only after moving bio link and verifying bookings are landing. 30-50 words."
+        },
+        {
+          "q": "Will I be billed twice during the switch?",
+          "answerHint": "BookReady offers 14 days free (no card for 7), so you have buffer to overlap with Vagaro at no extra cost. 30-50 words."
+        },
+        {
+          "q": "What about Vagaro memberships and packages?",
+          "answerHint": "Packages and prepaid credits supported on BookReady Studio. Full recurring memberships on roadmap. If memberships core, plan around that. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/migration/",
+        "/pricing/",
+        "/compare/vagaro-alternative/",
+        "/templates/",
+        "/platform/tools/payments/",
+        "/platform/tools/notifications/"
+      ],
+      "recommendedFeaturedTemplate": "lushstudio",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
+      "status": "pending"
+    },
+    {
+      "slug": "reducing-no-shows",
+      "url": "/guides/reducing-no-shows/",
+      "type": "guide",
+      "cluster": "appointment-management",
+      "metaTitle": "How to Reduce No-Shows in Your Salon | BookReady",
+      "metaDescription": "Cut your no-show rate in half in 30 days. Deposits, reminders, cancellation rules, and the policies that actually hold. From BookReady.",
+      "h1": "How to reduce no-shows in your salon",
+      "italicTagline": "Deposits, reminders, and policies that actually hold.",
+      "primaryKeyword": "how to reduce no-shows",
+      "secondaryKeywords": [
+        "no-show rate",
+        "salon deposit policy",
+        "appointment reminder strategy",
+        "no-show fee",
+        "reduce salon no shows"
+      ],
+      "estVolume": "500-1100",
+      "intent": "MOFU",
+      "intro": "200-240 word intro. Open with math: at 15% no-show rate on $7,500/mo booked salon, you're losing $13,500/year to empty chairs (work it out plainly). Tell reader fixable, system below cuts most shops to single-digit no-show rates within 30 days. Preview seven sections (measure, deposits, reminders, confirmations, cancellation policy, awkward conversation, edge cases). Make clear not about being mean to clients, about respecting your time and theirs. Experienced, opinionated, kind.",
+      "sections": [
+        {
+          "kicker": "Diagnose",
+          "title": "First, measure your current no-show rate",
+          "directives": "Tell writer to: (1) explain how to calculate rate (no-shows / total bookings × 100), (2) cite realistic industry baselines (15-25% solo barbers in cold markets, 8-15% booked salons, 20-30% lash studios with new clients), (3) recommend tracking weekly in BookReady analytics or spreadsheet, (4) link /platform/tools/analytics/. State you cannot fix what you do not measure. 140-180 words."
+        },
+        {
+          "kicker": "The big lever",
+          "title": "Require a deposit on every new-client booking",
+          "directives": "Single highest-leverage move. Cover: (1) why deposits work (skin in the game changes behavior), (2) recommended amount (15-30% of service, or flat $25-50 depending on price point), (3) returning-client exemption logic (don't deposit regulars who never no-showed), (4) how to set up in BookReady (Services > [service] > Deposit). Link /platform/tools/payments/ and /guides/deposit-best-practices/. 220-260 words."
+        },
+        {
+          "kicker": "The system",
+          "title": "Build a 3-touch reminder sequence",
+          "directives": "Specify cadence: (1) confirmation immediately on booking, (2) SMS reminder 48 hours out asking 'still good for [day]?', (3) day-of text 4 hours before with address. 2-touch reduces no-shows about 20%, 3-touch reduces 40-60%. Cover right tone (warm, brief, easy to reply to). Link /platform/tools/notifications/ and /features/client/reminders/. 200-240 words."
+        },
+        {
+          "kicker": "Reciprocity",
+          "title": "The reply-required confirmation that changes everything",
+          "directives": "Make case for requiring reply on 48-hour reminder. Most shops send reminders, few require confirmation. Explain act of typing 'yes' creates commitment device that meaningfully reduces no-shows. Walk through setup in BookReady (notification settings, reply tracking). Address pushback ('clients hate that') with counter: they hate being charged $50 more, one-tap reply prevents that. 200-240 words."
+        },
+        {
+          "kicker": "Policy",
+          "title": "Write a cancellation policy that actually holds",
+          "directives": "Three rules: (1) 24-hour cancellation window for full refund of deposit, (2) inside 24 hours forfeit deposit, (3) no-show is 100% of service charged to card on file. Policy must be visible at booking, in confirmation, in reminder, or it doesn't hold. Link /guides/cancellation-policy-template/ and /guides/no-show-fee-policy/. 220-260 words."
+        },
+        {
+          "kicker": "Human",
+          "title": "The script for the awkward 'you owe a no-show fee' conversation",
+          "directives": "Practical scripts. Three scenarios: (1) first-time offender ('the system charged $X for missed appointment, want to rebook?'), (2) repeat offender ('we love having you, but we're moving you to deposit-required going forward'), (3) genuinely sympathetic case (sickness, family emergency). Give actual SMS and email language for each. Warm, firm, professional. 240-280 words."
+        },
+        {
+          "kicker": "Edge cases",
+          "title": "Handling chronic late clients, weather, and group bookings",
+          "directives": "Specific policy edge cases: (1) chronic late (move to first-slot-of-day only), (2) weather (one-time exemption per client per year), (3) group/wedding (require 50% deposit, separate contract), (4) gift cards (deposit comes off card balance). Practical, opinionated. 200-240 words."
+        },
+        {
+          "kicker": "Audit",
+          "title": "What to check at the end of 30 days",
+          "directives": "Tell them recalculate rate after 30 days. If dropped, double down. If didn't, policy not visible enough or deposit too small. Walk through quick audit checklist. Link /platform/tools/analytics/. 160-200 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Will requiring deposits scare off new clients?",
+          "answerHint": "Acknowledge fear is real but cite math: small percent drop in new-client conversions more than offset by no-show reduction. Reference returning-client exemption. 40-60 words."
+        },
+        {
+          "q": "What is a 'normal' no-show rate for salons?",
+          "answerHint": "8-15% for booked salons, 15-25% for solo barbers in cold markets, 20-30% for lash studios with high new-client mix. Aim for under 5%. 30-50 words."
+        },
+        {
+          "q": "Should I charge a no-show fee even for first-time offenders?",
+          "answerHint": "Yes, if policy is clear at booking. First time is most important to enforce because it sets expectations for everyone watching. 40-60 words."
+        },
+        {
+          "q": "How much should the deposit be?",
+          "answerHint": "15-30% of service price, or flat $25-50 depending on price point. Enough to sting, not enough to feel hostile. 30-50 words."
+        },
+        {
+          "q": "Can I exempt my regulars from deposits?",
+          "answerHint": "Yes, and you should. Returning clients who never no-showed shouldn't be treated like strangers. Use BookReady's client tags to exempt them. 40-60 words."
+        },
+        {
+          "q": "What about clients who book by DM?",
+          "answerHint": "Send them booking link. DM booking has highest no-show rate of any channel because no commitment device. Move them to the site. 40-60 words."
+        },
+        {
+          "q": "How do I handle a no-show charge dispute?",
+          "answerHint": "Show cancellation policy visible at booking, reminder they received, time they confirmed. Stripe disputes lean on documentation. 40-60 words."
+        },
+        {
+          "q": "Should I require credit card just to hold slot, without charging?",
+          "answerHint": "Card-on-file with charge-on-no-show is middle path some studios prefer. Lower friction than upfront deposit, less protection than charging now. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/payments/",
+        "/platform/tools/notifications/",
+        "/platform/tools/analytics/",
+        "/features/client/reminders/",
+        "/guides/deposit-best-practices/",
+        "/guides/cancellation-policy-template/"
+      ],
+      "recommendedFeaturedTemplate": "thefaderoom",
+      "recommendedRelatedIndustry": "barbers",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
+      "status": "pending"
+    },
+    {
+      "slug": "cancellation-policy-template",
+      "url": "/guides/cancellation-policy-template/",
+      "type": "guide",
+      "cluster": "appointment-management",
+      "metaTitle": "Salon Cancellation Policy Template (Copy and Paste) | BookReady",
+      "metaDescription": "A salon cancellation policy template you can copy, paste, and customize in 5 minutes. Includes deposit rules, no-show fees, and the legal-ish boilerplate.",
+      "h1": "The salon cancellation policy template that actually holds up",
+      "italicTagline": "Copy, paste, edit two fields, paste at checkout.",
+      "primaryKeyword": "salon cancellation policy template",
+      "secondaryKeywords": [
+        "cancellation policy salon",
+        "salon no-show policy template",
+        "spa cancellation policy",
+        "appointment cancellation policy",
+        "salon late policy"
+      ],
+      "estVolume": "400-900",
+      "intent": "MOFU",
+      "intro": "180-220 word intro naming problem most owners face: wrote cancellation policy on Post-it three years ago, lives nowhere, clients never seen it. Policy only works if visible at booking, in confirmation, in reminder. Promise: (1) copy-paste template, (2) variables to edit, (3) where to paste inside BookReady, (4) human script when enforcing. Practical, no legal-ese, no fluff.",
+      "sections": [
+        {
+          "kicker": "The template",
+          "title": "The copy-paste cancellation policy",
+          "directives": "Provide actual template inside code block or styled callout. 8-12 sentences plain English, covering: deposit amount, 24-hour window, late arrival grace (10 min), no-show charge (100% of service), how client agrees by booking. Use [BRACKETED FIELDS] for customization (deposit amount, business name, contact). Warm, firm, professional. No legal jargon. 220-260 words including template."
+        },
+        {
+          "kicker": "Customize",
+          "title": "The five variables you actually need to set",
+          "directives": "Walk through each variable: (1) deposit percent or amount (20-30% or flat $25-50), (2) cancellation window (24h standard, 48h for high-end), (3) late grace (10 min standard), (4) no-show charge (100% standard), (5) refund handling (back to original payment method within 5-7 days). For each, give BookReady opinion and alternative. 220-260 words."
+        },
+        {
+          "kicker": "Where",
+          "title": "The three places this policy must live",
+          "directives": "Practical placement: (1) on booking page itself before client confirms (BookReady Settings > Policies), (2) inside confirmation email and SMS (templates editable in BookReady), (3) on reminder 48 hours out. If doesn't appear in all three, cannot enforce. Link /platform/tools/notifications/. 200-240 words."
+        },
+        {
+          "kicker": "Specialty",
+          "title": "Specialty variants: bridal, color, lash, group, men's quick cuts",
+          "directives": "Four specialty templates: (1) bridal (50% deposit, 14-day cancellation), (2) color services over 3 hours (40% deposit, 48-hour cancellation), (3) lash full sets (30% deposit, strict 24h), (4) group/event bookings (50% deposit, 7-day, separate contract). For each, give one-paragraph variant. 280-320 words."
+        },
+        {
+          "kicker": "Enforcement",
+          "title": "The script for actually charging a no-show fee",
+          "directives": "Word-for-word scripts. Cover: (1) SMS 30 minutes after missed appointment ('we missed you today, the $X no-show fee will charge to your card on file as per our policy. Reply HERE if you'd like to rebook'), (2) email follow-up, (3) rare 'we're waiving this one' message. Kind, firm, brief. 240-280 words."
+        },
+        {
+          "kicker": "Disputes",
+          "title": "What to do if a client disputes the charge",
+          "directives": "Practical playbook: (1) gather documentation (policy visible at booking, confirmation email, reminder), (2) respond to Stripe dispute within 7 days, (3) upload screenshots, (4) usually win because documentation clean. Documentation is everything. Link /platform/tools/payments/. 200-240 words."
+        },
+        {
+          "kicker": "Gray area",
+          "title": "When to waive a no-show fee (and how)",
+          "directives": "Honest. Waive when: (1) genuine emergency with proof (hospital, family crisis), (2) first-time client and system unclear, (3) you genuinely messed up time. Don't waive when: (1) 'something came up', (2) repeat offender, (3) tried to reschedule 10 min before appointment. Give language for both. 200-240 words."
+        },
+        {
+          "kicker": "Set up",
+          "title": "How to paste this into BookReady in 5 minutes",
+          "directives": "Step-by-step inside BookReady: Settings > Policies > Cancellation Policy, paste, edit variables, save. Then Settings > Notifications > Confirmation Email, paste link to policy. Same for SMS reminder. Total time: 5 minutes. Link /platform/tools/notifications/ and /platform/tools/payments/. 160-200 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Do I have to charge a no-show fee every time?",
+          "answerHint": "If policy says you do, yes, with rare exceptions. Inconsistent enforcement kills cancellation policies. 40-60 words."
+        },
+        {
+          "q": "Is a cancellation policy legally enforceable?",
+          "answerHint": "Yes, as long as client agreed by booking through flow that showed policy. Stripe disputes lean on documentation. 30-50 words."
+        },
+        {
+          "q": "What is a reasonable cancellation window for a salon?",
+          "answerHint": "24 hours for standard services, 48 hours for color and long appointments, 7-14 days for bridal or group bookings. 30-50 words."
+        },
+        {
+          "q": "Should I charge 50% or 100% for a no-show?",
+          "answerHint": "100% is standard and recommended. Chair is empty, loss is 100%. 50% feels like discount on bad behavior. 30-50 words."
+        },
+        {
+          "q": "Can I exempt regulars from the policy?",
+          "answerHint": "Yes. Use BookReady client tags to exempt deposit requirements for clients who never no-showed. Policy still exists, just don't enforce on regulars. 40-60 words."
+        },
+        {
+          "q": "What if the client never saw my old policy?",
+          "answerHint": "Then it doesn't exist legally. Update booking flow to display before confirmation, then enforce only on bookings made after update. 40-60 words."
+        },
+        {
+          "q": "How do I word the late-arrival rule?",
+          "answerHint": "10-minute grace period, after which slot may be shortened or rescheduled at stylist's discretion. Clear, not cruel. 30-50 words."
+        },
+        {
+          "q": "Does BookReady auto-charge no-show fees?",
+          "answerHint": "Yes on Studio and Salon plans. Card on file gets charged automatically based on policy you configure. Solo plan supports deposits but charges no-show fees manually. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/payments/",
+        "/platform/tools/notifications/",
+        "/guides/no-show-fee-policy/",
+        "/guides/deposit-best-practices/",
+        "/guides/reducing-no-shows/",
+        "/for-salons/"
+      ],
+      "recommendedFeaturedTemplate": "petale",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
+      "status": "pending"
+    },
+    {
+      "slug": "deposit-best-practices",
+      "url": "/guides/deposit-best-practices/",
+      "type": "guide",
+      "cluster": "appointment-management",
+      "metaTitle": "Salon Deposit Policy: Best Practices for 2026 | BookReady",
+      "metaDescription": "How to set deposits that protect your time without scaring off clients. Amounts, exemptions, refund rules, and the scripts that close the conversation.",
+      "h1": "Salon deposit policy best practices",
+      "italicTagline": "Charge enough to matter. Refund clearly. Exempt your regulars.",
+      "primaryKeyword": "salon deposit policy",
+      "secondaryKeywords": [
+        "deposit best practices salon",
+        "how much deposit to require",
+        "salon booking deposit",
+        "non-refundable deposit salon",
+        "deposit for appointment"
+      ],
+      "estVolume": "300-700",
+      "intent": "MOFU",
+      "intro": "200-240 word intro. Name the tension: deposits feel transactional, beauty is relational. But unprotected slots cost real money. BookReady opinion: deposits work when small enough to feel reasonable, large enough to sting if forfeited, waived for clients who have earned trust. Preview guide (amount, refund rules, exemptions, technical setup, edge cases, scripts). Experienced, calm, not preachy.",
+      "sections": [
+        {
+          "kicker": "Why",
+          "title": "Why deposits exist (and why most policies fail)",
+          "directives": "Make case for deposits as commitment device, not punishment. Cite that deposit-required bookings show 60-80% lower no-show rates in BookReady customer data. Then explain why most policies fail: (1) deposit too small to matter ($5), (2) refund rules confusing, (3) regulars treated like strangers, (4) policy invisible at booking. 200-240 words."
+        },
+        {
+          "kicker": "Amount",
+          "title": "How much deposit to actually require",
+          "directives": "Specific recommendations by service price tier: (1) under $50 service, flat $20 deposit, (2) $50-150 service, 25% deposit, (3) $150-400 service, 30% deposit, (4) over $400 (bridal, color correction), 50% deposit. Explain logic for each tier and why proportional matters more than flat. Link /guides/how-much-deposit-to-charge/. 240-280 words."
+        },
+        {
+          "kicker": "Refunds",
+          "title": "Refund rules that are clear in plain English",
+          "directives": "Three-rule structure: (1) cancel 24+ hours out, full refund within 5-7 days, (2) cancel inside 24 hours, deposit forfeit but client can rebook within 30 days and use as credit, (3) no-show, deposit forfeit, no rebook credit. Middle rule (credit toward rebook) softens edge without losing protection. 220-260 words."
+        },
+        {
+          "kicker": "Exemptions",
+          "title": "Who should be exempt from deposits",
+          "directives": "Practical exemption list: (1) returning clients completed 3+ visits without no-show, (2) clients you've known personally for years, (3) clients on recurring 4-week schedule. Walk through how to tag clients in BookReady to auto-exempt. Link /platform/tools/customers/. 200-240 words."
+        },
+        {
+          "kicker": "Set up",
+          "title": "How to set up deposits per service in BookReady",
+          "directives": "Step-by-step inside dashboard: Services > [Service] > Deposit > set percent or flat amount > save. Then Settings > Policies > paste deposit rules into cancellation policy field. Then Notifications > confirm deposit amount appears in confirmation email and reminder. Link /platform/tools/payments/. 160-200 words."
+        },
+        {
+          "kicker": "Scripts",
+          "title": "Scripts for the deposit conversation",
+          "directives": "Three scripts: (1) new-client SMS reply when asking 'why a deposit?' ('Our booking system holds your slot with small deposit that comes off your service total. Standard for new bookings, helps reserve your time'), (2) refund explainer when client cancels in window ('All set, your $X is on its way back, should land in 5-7 days'), (3) awkward forfeit explainer ('Per the policy you saw at booking, the deposit doesn't refund inside 24 hours, but we'd love to apply it to your next visit within 30 days'). 280-320 words."
+        },
+        {
+          "kicker": "Edge cases",
+          "title": "Bridal, group bookings, gift cards, and rebooks",
+          "directives": "Specific guidance: (1) bridal trial plus wedding day = 50% deposit per appointment, locked 14 days out, (2) group/event bookings = 50% deposit, separate contract, (3) gift cards = deposit can be taken from card balance with permission, (4) rebooks with stored credit = full credit applies, no additional deposit. 220-260 words."
+        },
+        {
+          "kicker": "Measure",
+          "title": "How to know if your deposit policy is working",
+          "directives": "Three metrics to track in BookReady analytics: (1) booking conversion rate before/after introducing deposits (small dip normal, 10-15% too much), (2) no-show rate (should drop 50-70% within 30 days), (3) refund rate (over 5% means cancellation window may be too tight). Link /platform/tools/analytics/. 180-220 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Are deposits legal in every state?",
+          "answerHint": "Yes, with clear policy disclosed at booking. Some states have stricter refund disclosure rules. Display policy before checkout, you're covered. 40-60 words."
+        },
+        {
+          "q": "What if a client refuses to pay a deposit?",
+          "answerHint": "That client is not your client. Polite decline. Clients who push back on deposits are statistically the ones who no-show. 40-60 words."
+        },
+        {
+          "q": "Should deposits be refundable or non-refundable?",
+          "answerHint": "Refundable inside cancellation window, non-refundable outside. Hybrid is fairer and converts better than blanket non-refundable. 30-50 words."
+        },
+        {
+          "q": "How do I exempt my regulars from deposits?",
+          "answerHint": "Use BookReady client tags. Mark clients as 'Trusted' and deposit prompt is bypassed at booking. 30-50 words."
+        },
+        {
+          "q": "What happens to the deposit if I cancel on the client?",
+          "answerHint": "Full refund within 5-7 days, automatic in BookReady. Optionally offer 10-15% off rebook as goodwill. 30-50 words."
+        },
+        {
+          "q": "Can I charge a flat deposit instead of a percentage?",
+          "answerHint": "Yes, and for services under $50 makes more sense. Above $50, percentage scales better with risk. 30-50 words."
+        },
+        {
+          "q": "Does the deposit come off the final price?",
+          "answerHint": "Yes. Deposit is prepayment toward service, not extra charge. BookReady applies automatically at checkout. 30-50 words."
+        },
+        {
+          "q": "What if the client wants to switch services after deposit?",
+          "answerHint": "Apply deposit to new service if equal or higher price. If lower, refund difference within 5-7 days. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/payments/",
+        "/platform/tools/customers/",
+        "/platform/tools/analytics/",
+        "/guides/how-much-deposit-to-charge/",
+        "/guides/cancellation-policy-template/",
+        "/guides/reducing-no-shows/"
+      ],
+      "recommendedFeaturedTemplate": "velvettheory",
+      "recommendedRelatedIndustry": "lash-artists",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
+      "status": "pending"
+    },
+    {
+      "slug": "how-much-deposit-to-charge",
+      "url": "/guides/how-much-deposit-to-charge/",
+      "type": "guide",
+      "cluster": "appointment-management",
+      "metaTitle": "How Much Deposit to Charge for a Salon Appointment | BookReady",
+      "metaDescription": "A pricing-tier breakdown of how much deposit to require for salon, spa, lash, and bridal bookings. Includes the math behind the recommended amounts.",
+      "h1": "How much deposit to charge for a salon appointment",
+      "italicTagline": "By service price, by industry, by how protective you actually need to be.",
+      "primaryKeyword": "how much deposit to charge",
+      "secondaryKeywords": [
+        "salon deposit amount",
+        "how much to charge for deposit",
+        "appointment deposit amount",
+        "lash deposit amount",
+        "bridal deposit amount"
+      ],
+      "estVolume": "200-500",
+      "intent": "MOFU",
+      "intro": "180-220 word intro. Most owners know they should take deposit, fewer know how much. BookReady opinion: right number is smallest amount that meaningfully changes client behavior. Too small, no commitment device. Too large, lose the booking. Preview: quick-answer table, then deep dives by service category (barber, hair color, lash, nails, spa, bridal). Practical, decisive.",
+      "sections": [
+        {
+          "kicker": "Quick answer",
+          "title": "The cheat sheet by service price",
+          "directives": "Lead with clean table: (1) services under $50, flat $20 deposit, (2) $50-100, 20% deposit, (3) $100-200, 25% deposit, (4) $200-400, 30% deposit, (5) $400+ (color correction, bridal trials), 50% deposit. Then 100 words explaining why proportional beats flat above $50. Link /guides/deposit-best-practices/. 180-220 words."
+        },
+        {
+          "kicker": "Barber",
+          "title": "Barbershop deposits: $15-25 flat usually wins",
+          "directives": "For $35-60 cut, $15-20 flat deposit enough commitment without feeling steep. Explain why barbershops can run lower deposits than salons (shorter services, faster slot recovery, easier walk-in fill). Exception: barbers who do lengthy color or premium $150+ services should treat like salon services. Link /for-barbers/. 200-240 words."
+        },
+        {
+          "kicker": "Hair color",
+          "title": "Color services: 25-30%, full color correction 50%",
+          "directives": "Color is high-risk because appointment is long and products are pre-mixed (you lose product cost on no-shows). Recommend 25-30% for standard balayage/highlights ($150-300 services), 50% for color correction ($400+, 4-6 hour appointments). Color correction without deposit is financial trap. 220-260 words."
+        },
+        {
+          "kicker": "Lash",
+          "title": "Lash appointments: 30% for full sets, 20% for fills",
+          "directives": "Lash full sets ($150-300) high cancellation risk because clients often first-time, anxious, shopping around. 30% deposit. Fills ($75-150) for existing regulars: 20% or none if tagged as trusted. Address lash-specific norm of 'lash bombs' (clients booking with multiple artists, picking who fits best). Deposits are cure. Link /for-lash-artists/. 220-260 words."
+        },
+        {
+          "kicker": "Nails",
+          "title": "Nail services: 20% standard, flat $15 for quick services",
+          "directives": "Nail services range widely. Manicures under $50: flat $15. Acrylic full sets and gel extensions $80-150: 20%. Long appointments with intricate art: 30%. Address that nail no-show rates run higher in some markets because services are more discretionary. Link /for-nail-techs/. 200-240 words."
+        },
+        {
+          "kicker": "Spa",
+          "title": "Spa deposits: 30% on facials and bodywork",
+          "directives": "Spas have longest average appointment times and most preparation (rooms turned, products pre-set). Recommend 30% deposit on facials, massage, body treatments. 50% on multi-hour packages. Spa clients tolerate higher deposits because appointment feels more 'reserved'. Link /for-spas/. 200-240 words."
+        },
+        {
+          "kicker": "Bridal",
+          "title": "Bridal: 50% deposit minimum, 14-day cancellation window",
+          "directives": "Bridal is its own category. Recommend 50% non-refundable deposit per appointment (trial plus wedding day), 14-day cancellation window, separate written contract for parties of 4+. How to handle wedding date changes (transfer deposit to new date, no refund). Link /for-salons/. 240-280 words."
+        },
+        {
+          "kicker": "Test it",
+          "title": "How to test whether your deposit amount is right",
+          "directives": "Practical experiment. Set deposit, run 30 days, measure: (1) booking conversion (should not drop more than 10%), (2) no-show rate (should drop 50%+), (3) deposit forfeit rate (should be under 3%). If conversion dropped too much, deposit too high. If no-show didn't move, deposit too low. Link /platform/tools/analytics/. 200-240 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is a flat deposit or percentage better?",
+          "answerHint": "Flat for services under $50, percentage above. Percentage scales risk and feels fairer for high-ticket services. 30-50 words."
+        },
+        {
+          "q": "Should the deposit be non-refundable?",
+          "answerHint": "Refundable inside cancellation window, non-refundable outside it. Hybrid converts better than blanket non-refundable. 30-50 words."
+        },
+        {
+          "q": "How much do most salons actually charge?",
+          "answerHint": "Most charge 20-30% across services. Bridal and color correction trend toward 50%. Quick barber services trend toward $15-25 flat. 30-50 words."
+        },
+        {
+          "q": "Can deposits be applied to product purchases?",
+          "answerHint": "Yes, in BookReady deposit is credited toward final service total, including any add-on retail rung up at checkout. 30-50 words."
+        },
+        {
+          "q": "What if the service price changes after booking?",
+          "answerHint": "Deposit applies as-is to new total. If service is cheaper, refund difference at checkout. If more, collect balance. 30-50 words."
+        },
+        {
+          "q": "Should I take a deposit on returning clients?",
+          "answerHint": "Usually no, if they have 3+ visits and zero no-shows. Tag them as Trusted in BookReady to skip deposit prompt. 40-60 words."
+        },
+        {
+          "q": "How much for a group booking like a wedding party?",
+          "answerHint": "50% deposit, locked 14 days out, separate written contract. Group bookings carry highest cancellation risk and highest opportunity cost. 30-50 words."
+        },
+        {
+          "q": "What if the client never had to pay a deposit before?",
+          "answerHint": "Explain it warmly in booking confirmation. Most clients accept once they understand it's standard and amount is reasonable. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/payments/",
+        "/platform/tools/analytics/",
+        "/guides/deposit-best-practices/",
+        "/guides/cancellation-policy-template/",
+        "/for-lash-artists/",
+        "/for-spas/"
+      ],
+      "recommendedFeaturedTemplate": "lushstudio",
+      "recommendedRelatedIndustry": "lash-artists",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "lash-artists",
+      "status": "pending"
+    },
+    {
+      "slug": "no-show-fee-policy",
+      "url": "/guides/no-show-fee-policy/",
+      "type": "guide",
+      "cluster": "appointment-management",
+      "metaTitle": "No-Show Fee Policy: How to Write One That Holds | BookReady",
+      "metaDescription": "How to write and enforce a no-show fee policy that protects your time without alienating clients. Templates, scripts, and the documentation that wins disputes.",
+      "h1": "How to write a no-show fee policy that actually works",
+      "italicTagline": "Visible at booking. Confirmed in reminders. Charged without drama.",
+      "primaryKeyword": "no-show fee policy",
+      "secondaryKeywords": [
+        "no-show charge salon",
+        "missed appointment fee",
+        "no-show policy template",
+        "charge for no-show",
+        "enforce no-show fee"
+      ],
+      "estVolume": "300-600",
+      "intent": "MOFU",
+      "intro": "200-240 word intro distinguishing no-show fee policy from cancellation policy. Cancellation policies cover when clients tell you they cannot make it. No-show policies cover when they say nothing and just don't show up. Math is different (slot recovery impossible), documentation requirement higher, enforcement harder. Preview: write the policy, make it visible, set up auto-charge, handle disputes. Experienced, no-nonsense.",
+      "sections": [
+        {
+          "kicker": "The rule",
+          "title": "What makes a no-show fee enforceable",
+          "directives": "Three legal-ish requirements: (1) policy must be visible at booking before client confirms, (2) client must take action (clicking 'Confirm' counts as agreement to disclosed terms), (3) amount must be reasonable in proportion to service. Stripe disputes lean heavily on disclosure documentation. Link /platform/tools/payments/. 220-260 words."
+        },
+        {
+          "kicker": "Amount",
+          "title": "How much to charge for a no-show",
+          "directives": "Recommend 100% of service price for standard no-show. Make case: slot is gone, cannot rebook, loss is total. Address milder alternatives (50% or flat fee) and why they signal weakness. Bridal/group bookings should be 100% plus product loss. Link /guides/cancellation-policy-template/. 200-240 words."
+        },
+        {
+          "kicker": "Template",
+          "title": "The exact no-show fee policy language to use",
+          "directives": "Provide template language inside callout block. 4-6 sentences: 'If you do not arrive within [X] minutes of your appointment time without notice, the full cost of the service will be charged to the card on file. Repeat no-shows may be required to prepay for future bookings.' Include [BRACKETED FIELDS] for customization. 200-240 words including template."
+        },
+        {
+          "kicker": "Visibility",
+          "title": "The three places this policy must appear",
+          "directives": "Same structure as cancellation policy: (1) on booking page before confirmation, (2) in confirmation email and SMS, (3) in 48-hour reminder. Walk through setup in BookReady. If invisible in any of three, disputes get harder. Link /platform/tools/notifications/. 200-240 words."
+        },
+        {
+          "kicker": "Charge",
+          "title": "How to auto-charge a no-show in BookReady",
+          "directives": "Walk through technical setup. Settings > Payments > Card on File required at booking (Studio/Salon plans). Settings > Policies > No-Show Fee > set amount, set timing (charges 1 hour after missed appointment by default). Solo plan supports deposits but charges no-show fees manually. Link /platform/tools/payments/. 200-240 words."
+        },
+        {
+          "kicker": "The message",
+          "title": "The SMS script that goes out after a no-show",
+          "directives": "Exact script. 'Hi [name], we missed you at your [X:XX] appointment today. As per the booking policy, the $[X] no-show fee will be charged to the card on file. Reply if you'd like to rebook with a fresh slot.' Factual, warm, brief. How to handle response. 200-240 words."
+        },
+        {
+          "kicker": "Disputes",
+          "title": "Winning Stripe disputes on no-show charges",
+          "directives": "Practical playbook. When dispute comes in: (1) Stripe gives 7 days to respond, (2) upload screenshots of policy at booking, confirmation email, reminder, booking timeline, (3) Stripe rules within 60-75 days. Most clean documentation wins. Cite that 75-85% of well-documented disputes resolved in your favor. 220-260 words."
+        },
+        {
+          "kicker": "Repeat",
+          "title": "Handling repeat offenders without burning the relationship",
+          "directives": "Three-strike system: (1) first no-show, charge and offer rebook, (2) second no-show, charge plus require deposit on all future bookings, (3) third no-show, decline future bookings or require full prepayment. SMS language for 'we need to require deposits going forward' conversation. Warm but firm. 220-260 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can a client refuse to pay a no-show fee?",
+          "answerHint": "They can dispute charge with bank, but if documentation is clean, dispute usually resolves in your favor. 40-60 words."
+        },
+        {
+          "q": "Should the no-show fee be 100% of the service?",
+          "answerHint": "Yes. Chair was empty, loss was total. Lesser amounts signal policy is negotiable. 30-50 words."
+        },
+        {
+          "q": "What if the client never gave a card at booking?",
+          "answerHint": "Then you cannot auto-charge. Require card on file for all bookings (BookReady Studio and Salon plans). Solo plan allows deposits only. 40-60 words."
+        },
+        {
+          "q": "What is the grace period before someone counts as a no-show?",
+          "answerHint": "Standard is 15 minutes for short services, 20-30 minutes for long ones. State explicitly in policy. 30-50 words."
+        },
+        {
+          "q": "Can I waive a no-show fee?",
+          "answerHint": "Yes, for genuine emergencies with brief context. Don't waive for 'something came up' or vague reasons. Inconsistent waiving breaks the policy. 40-60 words."
+        },
+        {
+          "q": "Does BookReady automatically charge the fee?",
+          "answerHint": "Yes on Studio and Salon plans. Configure amount and timing in Settings > Policies. Solo plan charges manually from dashboard. 40-60 words."
+        },
+        {
+          "q": "What if a client says they texted to cancel?",
+          "answerHint": "Texts to a personal number don't count if policy requires cancellation through booking system. State that explicitly in policy. 40-60 words."
+        },
+        {
+          "q": "Are no-show fees taxable income?",
+          "answerHint": "Yes in most jurisdictions. Treat as service revenue in bookkeeping. Talk to accountant for state-specific rules. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/payments/",
+        "/platform/tools/notifications/",
+        "/guides/cancellation-policy-template/",
+        "/guides/reducing-no-shows/",
+        "/guides/deposit-best-practices/",
+        "/for-salons/"
+      ],
+      "recommendedFeaturedTemplate": "blackline",
+      "recommendedRelatedIndustry": "barbers",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "barbers",
+      "status": "pending"
+    },
+    {
+      "slug": "add-booking-link-to-instagram-bio",
+      "url": "/guides/add-booking-link-to-instagram-bio/",
+      "type": "guide",
+      "cluster": "booking-websites",
+      "metaTitle": "How to Add Your Booking Link to Instagram Bio | BookReady",
+      "metaDescription": "Step-by-step guide to adding your booking link to Instagram bio, with tips for Linktree vs single link, the right CTA copy, and the metrics to track after.",
+      "h1": "How to add your booking link to Instagram bio (and make it work)",
+      "italicTagline": "One link. The right tap. A booking that lands.",
+      "primaryKeyword": "add booking link to instagram bio",
+      "secondaryKeywords": [
+        "instagram bio booking link",
+        "link in bio salon",
+        "instagram booking link",
+        "best link in bio for salons",
+        "salon instagram link"
+      ],
+      "estVolume": "300-600",
+      "intent": "MOFU",
+      "intro": "180-220 word intro. Frame stakes. Instagram is where 60-80% of beauty discovery happens, bio link is one place to convert discovery into booking. Most pros either (1) leave blank, (2) link to Linktree adding tap and losing 30-40% of clicks, (3) link to clumsy Booksy or Vagaro URL that doesn't look like their brand. BookReady opinion: one tap, your own domain, clean conversion. Preview guide. Clear, practical.",
+      "sections": [
+        {
+          "kicker": "Why",
+          "title": "Why your Instagram bio link is the single most important link you own",
+          "directives": "Make case with data. For beauty businesses, bio link drives 40-60% of all new bookings. Every Instagram post, story, reel funnels here. Describe what most bio links look like (Linktree with 8 options, or generic platform URL) and why that costs bookings. Link /platform/website/domain/. 200-240 words."
+        },
+        {
+          "kicker": "One link",
+          "title": "Why one direct link beats a Linktree page",
+          "directives": "Clear position. Linktree adds a tap. Every tap loses 30-40% of users. If goal is bookings, one link to booking site converts better than menu. Address counter-argument ('but I have portfolio, services, story...'): your homepage handles all with sections. Visitor is one scroll from each. Link /platform/website/sections/. 220-260 words."
+        },
+        {
+          "kicker": "Step 1",
+          "title": "Get your BookReady link ready",
+          "directives": "Walk through BookReady side: log in, copy custom domain (yourstudio.com) or bkrdy.me subdomain. bkrdy.me links work fine but real domain on $12/yr registration is upgrade. Link /platform/website/domain/. 160-200 words."
+        },
+        {
+          "kicker": "Step 2",
+          "title": "Update your Instagram bio in 3 taps",
+          "directives": "Walk through Instagram UI: tap profile, tap Edit Profile, tap Website, paste link, tap done. Show format that displays best (no https://, ends in .com or subdomain). Instagram allows multiple links now, recommend keeping it to one for clarity. 160-200 words."
+        },
+        {
+          "kicker": "Step 3",
+          "title": "Write the bio copy that gets the tap",
+          "directives": "Practical copywriting. 5 example bio formats: (1) editorial 'Booking now. Link below.', (2) warm 'Walk-ins welcome. Book ahead below.', (3) operational 'Brooklyn. Sat-Wed. Tap to book.', (4) niche 'Color specialist. Bridal taken privately. Book the rest below.', (5) cold 'Booking: [link]'. Explain when each works. 240-280 words."
+        },
+        {
+          "kicker": "Story tap",
+          "title": "Adding 'Book' link stickers to Instagram Stories",
+          "directives": "Walk through how to add Link sticker on Stories, paste booking URL, customize sticker text (recommend 'BOOK', 'TAP TO BOOK', or 'BOOK NOW'). Stories outperform bio link in volume but bio link converts better per tap. 200-240 words."
+        },
+        {
+          "kicker": "Profile",
+          "title": "Set up Instagram Professional Dashboard and tracking",
+          "directives": "Practical tracking. Make sure profile is Business or Creator account. Open Insights, track bio link taps weekly. 'Bio link tap rate' is leading indicator of booking volume. BookReady analytics catches bookings landed, Instagram catches taps that didn't convert (gap teaches you something). Link /platform/tools/analytics/. 220-260 words."
+        },
+        {
+          "kicker": "Linktree",
+          "title": "When a Linktree-style page actually makes sense",
+          "directives": "Honest. Linktree makes sense if: (1) sell digital products as well as services, (2) run podcast or YouTube channel needing equal weight with booking, (3) multi-stylist salon and each stylist has own booking link. In those cases, consider BookReady's homepage with section anchors, which handles all without third-party redirect. 200-240 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Should I use my BookReady link directly or a Linktree?",
+          "answerHint": "Use BookReady directly. Linktree adds tap and loses 30-40% of clicks. One direct link converts higher. 30-50 words."
+        },
+        {
+          "q": "Can I use a bkrdy.me subdomain instead of a custom domain?",
+          "answerHint": "Yes, and works fine. Custom domain is $12/yr and reads more credible, but bkrdy.me is functional out of the gate. 30-50 words."
+        },
+        {
+          "q": "How do I track how many people tap my bio link?",
+          "answerHint": "Instagram Insights for taps (Profile > Insights > Bio Link Taps). BookReady analytics for actual bookings landed. Gap is what to optimize. 40-60 words."
+        },
+        {
+          "q": "Can I have multiple links in Instagram bio now?",
+          "answerHint": "Yes, Instagram allows up to 5. But for beauty businesses, one booking link converts better than menu. Pick highest-leverage action. 30-50 words."
+        },
+        {
+          "q": "What if Instagram says my link is suspicious?",
+          "answerHint": "Rare with BookReady custom domains. If happens, use bkrdy.me subdomain temporarily and contact our support to flag it. 40-60 words."
+        },
+        {
+          "q": "How often should I update the bio link?",
+          "answerHint": "Once, when you set it up. Then quarterly check that it still loads fast and looks right on mobile. 30-50 words."
+        },
+        {
+          "q": "Can I add a different link per Story?",
+          "answerHint": "Yes, Story Link stickers can point to specific pages on your site (service page, promo). Useful for limited-time offers. 30-50 words."
+        },
+        {
+          "q": "What if my booking link is too long?",
+          "answerHint": "Use custom domain or short bkrdy.me subdomain. Avoid third-party URL shorteners, which can flag as spam on Instagram. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/website/domain/",
+        "/platform/website/sections/",
+        "/platform/tools/analytics/",
+        "/blog/website-vs-instagram-booking/",
+        "/for-solo-pros/",
+        "/for-lash-artists/"
+      ],
+      "recommendedFeaturedTemplate": "lushstudio",
+      "recommendedRelatedIndustry": "lash-artists",
+      "ctaPlan": "Solo",
+      "ctaIndustry": "solo-pros",
+      "status": "pending"
+    },
+    {
+      "slug": "best-website-builders-for-salons",
+      "url": "/blog/best-website-builders-for-salons/",
+      "type": "listicle",
+      "cluster": "booking-websites",
+      "metaTitle": "Best Website Builders for Salons in 2026 | BookReady",
+      "metaDescription": "We compared 6 website builders for salons. BookReady, Squarespace, Wix, Shopify, Showit, and GlossGenius. Honest take on design, booking, and fees.",
+      "h1": "The best website builders for salons in 2026",
+      "italicTagline": "Six builders compared with the salon owner's eye, not the spreadsheet.",
+      "primaryKeyword": "best website builder for salons",
+      "secondaryKeywords": [
+        "salon website builder",
+        "best website for hair salon",
+        "salon website platform",
+        "website builder for beauty business",
+        "salon site builder"
+      ],
+      "estVolume": "200-500",
+      "intent": "TOFU",
+      "intro": "200-240 word intro naming unique problem salons have with general-purpose website builders. Squarespace and Wix can make beautiful site, but don't handle deposits, multi-stylist scheduling, no-show fees, or beauty-specific UX patterns. Beauty platforms (GlossGenius, Vagaro) handle booking but ship template-thin sites. Reader probably came here looking for one tool that does both. Compares 6 builders on three axes: design, booking, total cost of ownership. Practical, opinionated.",
+      "sections": [
+        {
+          "kicker": "Why this matters",
+          "title": "Why salon websites are different from regular websites",
+          "directives": "Make case. Salon site needs: (1) live booking not contact form, (2) deposits and no-show enforcement, (3) per-stylist or per-room scheduling, (4) gallery that loads fast on mobile, (5) policy disclosure in booking flow, (6) reminder system tied to confirmed bookings. General-purpose builder gives you (1) and (4), bolt on rest with plugins that break. 220-260 words."
+        },
+        {
+          "kicker": "Pick 1",
+          "title": "BookReady, best for salons that want one tool",
+          "directives": "Lead. Editorial templates (name all 7), booking built in, 0% transaction fees, $24-99/mo. Best for salon owners who want site and calendar to be one thing. Weakness: no general-purpose blog or e-commerce, designed specifically for service businesses. Link /templates/ and /pricing/. 220-260 words."
+        },
+        {
+          "kicker": "Pick 2",
+          "title": "Squarespace, best for blog-heavy beauty brands",
+          "directives": "Strength: gorgeous typography, robust CMS, blog and email built in (Squarespace owns Acuity for booking). Weakness: Acuity scheduling feels bolted on, designed for consultants more than salons, fees stack. Pricing: $16-65/mo plus Acuity $20-49/mo. Best for salons that are also content creators or sell digital products. 200-240 words."
+        },
+        {
+          "kicker": "Pick 3",
+          "title": "Wix, best for owners who want maximum customization",
+          "directives": "Strength: drag-and-drop flexibility, large template library, low entry cost. Weakness: bookings via Wix Bookings are functional but template-thin, sites can become slow with too many widgets, mobile editing is awkward. Pricing: $17-159/mo. Best for owners who want to tinker. 180-220 words."
+        },
+        {
+          "kicker": "Pick 4",
+          "title": "Shopify, best for retail-heavy salons",
+          "directives": "Honest take. Shopify excellent for retail (haircare product sales, gift cards), poor for booking (requires third-party apps like BookThatApp). If retail is 30%+ of revenue, consider Shopify primary plus booking platform. Pricing: $29-299/mo plus app costs. 200-240 words."
+        },
+        {
+          "kicker": "Pick 5",
+          "title": "Showit, best for designers who want pixel control",
+          "directives": "Niche pick. Strength: total design freedom, drag-and-drop with no grid restrictions, popular with high-end wedding and bridal brands. Weakness: no native booking, requires Honeybook or 17hats for client management, learning curve. Pricing: $19-34/mo. Best for designer-led brands. 180-220 words."
+        },
+        {
+          "kicker": "Pick 6",
+          "title": "GlossGenius, best for solo stylists who want simple",
+          "directives": "Strength: beauty-native, designed templates (limited), good mobile app, in-person POS. Weakness: 2.6% transaction markup, design library getting tired, mobile app is primary surface. Pricing: $24-48/mo. Best for solos who do most work on the phone. Link /compare/glossgenius-alternative/. 200-240 words."
+        },
+        {
+          "kicker": "Verdict",
+          "title": "How to actually pick the right builder for your salon",
+          "directives": "Decision framework. Ask: (1) Does my salon revenue depend on retail? (Shopify), (2) Am I also a content creator? (Squarespace), (3) Am I a designer who wants pixel control? (Showit), (4) Do I want site and booking to be one tool I do not have to integrate? (BookReady). Link /pricing/. 220-260 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can I use Squarespace for both website and booking?",
+          "answerHint": "Yes through Acuity (owned by Squarespace). Integration is functional but feels like two products. Purpose-built booking platform usually feels more native. 40-60 words."
+        },
+        {
+          "q": "Is Wix Bookings good enough for a salon?",
+          "answerHint": "For solo pro, maybe. For multi-stylist salon, it gets clunky. No native deposits and limited reminder flows. 30-50 words."
+        },
+        {
+          "q": "Can I run BookReady plus a separate Shopify store?",
+          "answerHint": "Yes, many do. Link Shopify store from BookReady navigation, run retail on Shopify, booking on BookReady. 30-50 words."
+        },
+        {
+          "q": "Which builder has the best mobile experience?",
+          "answerHint": "BookReady and GlossGenius lead for mobile booking flow. Squarespace is best for mobile content reading. 30-50 words."
+        },
+        {
+          "q": "Do I need a developer to build a salon website?",
+          "answerHint": "No, on any of these platforms. BookReady ships templates that are launch-ready with copy and gallery swaps only. 30-50 words."
+        },
+        {
+          "q": "Which is fastest to launch?",
+          "answerHint": "BookReady, under 20 minutes for working booking site. Squarespace and Wix take few hours to build custom design. 30-50 words."
+        },
+        {
+          "q": "Do general-purpose builders handle deposits?",
+          "answerHint": "Squarespace via Acuity and Wix via Wix Bookings both support deposits, but UX is less integrated than beauty-native platforms. 40-60 words."
+        },
+        {
+          "q": "How much does a salon website actually cost per year?",
+          "answerHint": "BookReady: $288-1188/yr all-in. Squarespace + Acuity: $432-1368/yr plus fees. Wix: $204-1908/yr. Showit: $228-408/yr plus add-ons. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/pricing/",
+        "/templates/",
+        "/platform/website/templates/",
+        "/compare/glossgenius-alternative/",
+        "/compare/acuity-alternative/",
+        "/for-salons/"
+      ],
+      "recommendedFeaturedTemplate": "petale",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Salon",
+      "ctaIndustry": "salons",
+      "status": "pending"
+    },
+    {
+      "slug": "website-vs-instagram-booking",
+      "url": "/blog/website-vs-instagram-booking/",
+      "type": "blog",
+      "cluster": "booking-websites",
+      "metaTitle": "Instagram DM Booking vs Website Booking: Which Wins? | BookReady",
+      "metaDescription": "We compared Instagram DM booking against a real booking website for solo beauty pros. The data, the math, and the case for owning your funnel.",
+      "h1": "Instagram DM booking vs a real website: which actually wins?",
+      "italicTagline": "One feels personal. The other scales. Here is the honest tradeoff.",
+      "primaryKeyword": "instagram dm booking vs website",
+      "secondaryKeywords": [
+        "booking through instagram dm",
+        "instagram vs website booking",
+        "should i book through dm",
+        "booking website vs social media",
+        "instagram only booking"
+      ],
+      "estVolume": "50-150",
+      "intent": "TOFU",
+      "intro": "200-240 word intro meeting reader where they are. Most solo beauty pros book through Instagram DM, works fine when 30 clients you know by name. Then cross 100, start sleeping less, start losing track of who paid deposit, who confirmed Wednesday, who is supposed to be Thursday. BookReady opinion: DM booking fine for first year, dangerous after. Preview: honest case for each, math, migration story. Respectful of where reader is, not preachy.",
+      "sections": [
+        {
+          "kicker": "The case for",
+          "title": "Why DM booking actually works (and why beginners love it)",
+          "directives": "Honest. DM booking has real strengths: (1) zero friction for client, (2) feels personal and relationship-driven, (3) can charge whatever you want without listed prices, (4) zero monthly cost, (5) easy to negotiate or accommodate. Acknowledge that for first 30-60 clients, this is right choice. 220-260 words."
+        },
+        {
+          "kicker": "The breaking point",
+          "title": "When DM booking actually starts costing you money",
+          "directives": "Walk through breaking point. At 80-100 active clients, DM booking starts failing: (1) clients DM at midnight, you reply at 8am, slot taken, (2) double-book because no system of record, (3) deposits are awkward to collect ('Venmo me $30'), (4) clients can't see availability so they ask 'what's open Saturday?' 30 times a week. Each costs minutes and bookings. 240-280 words."
+        },
+        {
+          "kicker": "Math",
+          "title": "The actual hours per week you spend on DM booking",
+          "directives": "Math exercise. Solo pro at 100 active clients receives 40-60 booking DMs per week. Average reply time per DM with back-and-forth: 4-7 minutes. That's 3-7 hours per week on DM booking alone. Hourly rate equivalent at $100/hr: $300-700/week. Suddenly the $24/mo website is cheapest thing you buy. 220-260 words."
+        },
+        {
+          "kicker": "Conversion",
+          "title": "Why a website converts higher than DM at scale",
+          "directives": "Website shows: (1) availability in real time, (2) services with photos and prices, (3) deposits handled in checkout, (4) confirmation auto-sent. DM requires client to wait, negotiate, send deposit on different app, trust they have right time. Website conversion on traffic from Instagram bio link: 25-35%. DM conversion (DMs that turn into actual booked appointments): 50-70% but at 6x time cost. 240-280 words."
+        },
+        {
+          "kicker": "The hybrid",
+          "title": "The hybrid model: DM for VIPs, website for everyone else",
+          "directives": "Practical middle path. Keep DM for: (1) your 20 closest regulars basically friends, (2) inquiries about custom services not on menu, (3) genuinely unique consultations. Send everyone else to booking link. Most pros find this saves 80% of DM time while preserving relationships that matter. 220-260 words."
+        },
+        {
+          "kicker": "Ownership",
+          "title": "What you own with DMs vs what you own with a website",
+          "directives": "Real talk. If Instagram suspends your account tomorrow (it happens randomly), you lose your DM history, client contacts, booking history. If you also have website on own domain with own client list exported, none of that matters. Website is asset, DM is rented infrastructure. Link /platform/tools/customers/. 220-260 words."
+        },
+        {
+          "kicker": "Switching",
+          "title": "How to move from DM booking to a website without losing the personal feel",
+          "directives": "Practical migration. (1) Tell top clients personally before launching ('hey, putting booking link out, easier on both of us'), (2) keep brand voice on site warm and human, not corporate, (3) reply to DMs that come in with friendly 'this is also bookable here: [link]'. Most clients prefer link once they try it once. 220-260 words."
+        },
+        {
+          "kicker": "Verdict",
+          "title": "When you should keep DM-only (and when to switch)",
+          "directives": "Honest verdict. Stay DM-only if: (1) under 40 active clients, (2) revenue under $2,000/mo, (3) you genuinely enjoy back-and-forth. Switch if: (1) over 60 clients, (2) revenue over $3,000/mo, (3) DM volume eating evenings, (4) you have ever double-booked. Link /guides/add-booking-link-to-instagram-bio/. 200-240 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Will I lose the personal feel if I switch to a website?",
+          "answerHint": "Only if you let website voice get corporate. Most pros keep DM for VIPs and route rest to site, getting both. 40-60 words."
+        },
+        {
+          "q": "How long does it take to set up a booking website?",
+          "answerHint": "Under 20 minutes on BookReady. Pick template, swap in copy and photos, connect Stripe, go live. 30-50 words."
+        },
+        {
+          "q": "Can I still take DM bookings if I have a website?",
+          "answerHint": "Of course. Many pros run hybrid. Website handles bulk, DM handles VIPs and exceptions. 30-50 words."
+        },
+        {
+          "q": "Won't my clients find it weird if I send them a link?",
+          "answerHint": "After first time, most clients prefer link. Faster for them too and removes awkward Venmo-for-deposit step. 30-50 words."
+        },
+        {
+          "q": "How do I take deposits through Instagram DM?",
+          "answerHint": "Most pros use Venmo, Zelle, or Cash App, which is awkward and untrackable. Booking site handles deposits in booking flow. 40-60 words."
+        },
+        {
+          "q": "What if Instagram is where all my clients find me?",
+          "answerHint": "Keep Instagram for discovery. Bio link points to booking site. Discovery on social, conversion on your site. 30-50 words."
+        },
+        {
+          "q": "Is it worth $24/mo for a website if I am just starting?",
+          "answerHint": "If revenue under $2,000/mo, probably not yet. Above that, time savings alone pay for it 10x over. 30-50 words."
+        },
+        {
+          "q": "What do I do with the existing DM booking threads?",
+          "answerHint": "Keep them. Continue conversation, shift booking action to site. Reply with link the next time they ask for appointment. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/guides/add-booking-link-to-instagram-bio/",
+        "/platform/tools/customers/",
+        "/pricing/",
+        "/for-solo-pros/",
+        "/for-lash-artists/",
+        "/templates/"
+      ],
+      "recommendedFeaturedTemplate": "lushstudio",
+      "recommendedRelatedIndustry": "solo-pros",
+      "ctaPlan": "Solo",
+      "ctaIndustry": "solo-pros",
+      "status": "pending"
+    },
+    {
+      "slug": "growing-a-salon",
+      "url": "/guides/growing-a-salon/",
+      "type": "guide",
+      "cluster": "beauty-business-growth",
+      "metaTitle": "How to Grow a Hair Salon in 2026 | BookReady",
+      "metaDescription": "A practical, no-fluff guide to growing a hair salon. Hiring, pricing, retention, brand, and the operational systems that scale from one chair to five.",
+      "h1": "How to grow a hair salon, from one chair to five",
+      "italicTagline": "Systems first. Brand second. Hiring third. Marketing fourth.",
+      "primaryKeyword": "how to grow a hair salon",
+      "secondaryKeywords": [
+        "grow a salon business",
+        "salon growth strategy",
+        "expanding a hair salon",
+        "how to scale a salon",
+        "salon business growth"
+      ],
+      "estVolume": "400-900",
+      "intent": "TOFU",
+      "intro": "220-260 word intro naming truth. Most salon growth advice online is marketing fluff ('post on TikTok!') or corporate strategy that doesn't fit 1-5 chair business. Actual playbook is boring: better systems, better hiring, better pricing, better retention. Fancy stuff (brand, marketing, expansion) only works on top of those four foundations. This guide goes in order. Skip a step, build on sand. Experienced, honest, not preachy.",
+      "sections": [
+        {
+          "kicker": "Foundation",
+          "title": "Why systems beat strategy at every stage of salon growth",
+          "directives": "BookReady opinion. Salon owner with 95% confirmed booking rate, 5% no-show rate, 70% rebook rate will out-grow owner with twice the marketing budget. Systems compound. Marketing is leaky water until bucket is fixed. Preview four foundations: booking system, deposits/no-show policy, retention flow, pricing. Link /platform/. 220-260 words."
+        },
+        {
+          "kicker": "System 1",
+          "title": "Build a booking system that respects your time",
+          "directives": "Practical recommendations. Real booking platform with: (1) availability shown live, (2) deposits collected upfront, (3) automated confirmations and reminders, (4) cancellation policy disclosed at booking, (5) client list owned by you. Single change adds 4-6 hours per week back to owner. Link /platform/tools/notifications/ and /platform/tools/payments/. 220-260 words."
+        },
+        {
+          "kicker": "System 2",
+          "title": "Pricing the salon (and raising prices without losing clients)",
+          "directives": "Strategic advice on pricing. (1) audit current pricing against local market every 12 months, (2) raise prices in 8-12% increments not 20% jumps, (3) raise on new clients first, give existing clients 60 days notice, (4) tier services by skill level (junior, senior, master). Reference that most salons underprice by 15-30%. 240-280 words."
+        },
+        {
+          "kicker": "System 3",
+          "title": "Retention math: keep more clients before chasing new ones",
+          "directives": "Hard truth. Acquiring new salon client costs $30-80 in marketing. Keeping existing one costs roughly $0. Yet most salons spend on acquisition and lose 30% of clients every 12 months. Three retention levers: (1) rebook at checkout (industry best practice), (2) automated 4-week re-engagement, (3) personal text from stylist at 8 weeks if no rebook. Link /features/growth/winback/. 240-280 words."
+        },
+        {
+          "kicker": "Hiring",
+          "title": "When to hire your first stylist (and how to structure it)",
+          "directives": "Practical milestones. Hire when: (1) turning away clients 2+ times per week, (2) working over 50 hours/week consistently, (3) have 8-12 weeks of booked-out runway. Three structures: (1) booth rental (lowest risk, lowest control), (2) commission (medium risk, medium control), (3) hourly + commission (highest control, highest overhead). BookReady opinion: start with booth rental, transition to commission when you can afford to. 280-320 words."
+        },
+        {
+          "kicker": "Brand",
+          "title": "When brand actually starts driving growth",
+          "directives": "Honest take. Brand starts mattering past 2-3 stylists. Before that, you are the brand. (1) designed website on your own domain is single biggest brand lever for under $300/yr, (2) consistent Instagram aesthetic compounds slowly but reliably, (3) salon's physical interior matters less than photos of it online. Link /templates/ and /platform/website/templates/. 240-280 words."
+        },
+        {
+          "kicker": "Expansion",
+          "title": "Multi-location salon: when to consider it, when to wait",
+          "directives": "Reality check. Second location works when: (1) first location runs profitably without you for 90 days straight, (2) you have deputy who can manage operations, (3) you have $80,000-150,000 in capital reserves. Most second locations fail because first is not yet self-sustaining. 220-260 words."
+        },
+        {
+          "kicker": "Marketing",
+          "title": "Marketing channels that actually work for salons (and the ones that do not)",
+          "directives": "Practical channels. Works: (1) Instagram organic with consistent reels (most efficient), (2) Google Business Profile with reviews, (3) referral program for existing clients, (4) local partnerships. Doesn't work for most salons: (1) Facebook ads (high CAC for service businesses), (2) influencer 'collabs' that cost more in services than they bring back, (3) Yelp ads. Link /features/growth/reviews/ and /features/growth/email/. 280-320 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How much revenue should I have before hiring my first stylist?",
+          "answerHint": "Aim for $8,000-12,000/mo solo before adding a chair. Need to know demand is real and recurring, not seasonal. 40-60 words."
+        },
+        {
+          "q": "How often should I raise prices?",
+          "answerHint": "Audit every 12 months, raise in 8-12% increments. Avoid 20%+ jumps which break client trust. Give 60 days notice to existing clients. 40-60 words."
+        },
+        {
+          "q": "Is booth rental or commission better?",
+          "answerHint": "Booth rental is lower risk and easier to start. Commission gives you more control of brand and standards. Most salons start with booth and grow into commission. 40-60 words."
+        },
+        {
+          "q": "What is a healthy retention rate for a hair salon?",
+          "answerHint": "70-80% annual client retention is solid. Above 85% is exceptional and usually means you have system right. Below 60% means there is a leak. 40-60 words."
+        },
+        {
+          "q": "How long until a second location is profitable?",
+          "answerHint": "Most second locations take 8-14 months to break even. Plan for 12-month runway minimum and have capital reserves through that period. 40-60 words."
+        },
+        {
+          "q": "Should I focus on Instagram or Google for new clients?",
+          "answerHint": "Both, in that order. Instagram drives discovery (especially for color and lash), Google captures local search intent. Run both, prioritize whichever your local market favors. 40-60 words."
+        },
+        {
+          "q": "How do I keep my best stylists from leaving?",
+          "answerHint": "Pay above market, give them visibility on website, build their personal brand, run the salon like a place they would recommend to a friend. 40-60 words."
+        },
+        {
+          "q": "What is the single biggest growth lever for a 1-chair salon?",
+          "answerHint": "Retention systems. Auto-rebook at checkout plus 4-week reminder is worth more than any Instagram campaign for small salons. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/",
+        "/platform/tools/notifications/",
+        "/platform/tools/payments/",
+        "/features/growth/winback/",
+        "/features/growth/reviews/",
+        "/templates/",
+        "/for-salons/"
+      ],
+      "recommendedFeaturedTemplate": "petale",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Salon",
+      "ctaIndustry": "salons",
+      "status": "pending"
+    }
+  ]
 }
