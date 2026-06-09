@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /content/
+Disallow: /ROADMAP.md
 
 Sitemap: https://mybookready.com/sitemap.xml

@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "version": 1,
+    "documentation": "content/scheduled-prompt.md and content/style.md",
+    "schema": {
+      "slug": "string, URL-safe identifier",
+      "url": "string, full URL path with leading and trailing slash",
+      "type": "blog | guide | pillar | listicle | comparison",
+      "cluster": "string, content cluster name",
+      "metaTitle": "string, ≤60 chars",
+      "metaDescription": "string, 140-160 chars",
+      "h1": "string, page H1",
+      "italicTagline": "string, italic phrase that follows H1",
+      "primaryKeyword": "string, target search query",
+      "secondaryKeywords": "array of strings",
+      "estVolume": "string, e.g. '500-1100'",
+      "intent": "TOFU | MOFU | BOFU",
+      "intro": "string, 150-250 word intro paragraph instructions",
+      "sections": "array of {kicker, title, directives}",
+      "faqs": "array of {q, answerHint}",
+      "internalLinks": "array of existing URLs",
+      "recommendedFeaturedTemplate": "string, template slug",
+      "recommendedRelatedIndustry": "string, niche slug",
+      "ctaPlan": "string, plan name (Solo/Studio/Salon)",
+      "ctaIndustry": "string, industry slug for ?industry= param",
+      "status": "pending | in-progress | shipped | failed",
+      "shippedAt": "string, ISO date when status flipped to shipped",
+      "failureReason": "string, optional, reason if status=failed"
+    }
+  },
+  "articles": []
+}
