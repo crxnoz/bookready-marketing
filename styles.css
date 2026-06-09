@@ -2981,23 +2981,6 @@ button { cursor: pointer; font: inherit; }
 }
 .br-megapanel__col .br-megalink:last-child { border-bottom: none; }
 
-.br-megalink__icon {
-  width: 34px; height: 34px;
-  flex-shrink: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  color: var(--text);
-  transition: background .15s ease, border-color .15s ease, transform .2s ease;
-}
-.br-megalink__icon svg { width: 16px; height: 16px; display: block; }
-.br-megalink:hover .br-megalink__icon {
-  background: var(--accent);
-  border-color: var(--accent);
-  transform: rotate(-3deg);
-}
 .br-megalink__body {
   display: flex;
   flex-direction: column;
@@ -3019,9 +3002,29 @@ button { cursor: pointer; font: inherit; }
   line-height: 1.4;
 }
 
+/* Coming-soon megalink: dimmed, non-interactive, with an inline pill */
+.br-megalink--coming { cursor: default; opacity: 0.55; pointer-events: none; }
+.br-megalink__tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 2px 7px;
+  background: var(--accent);
+  color: var(--text);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  border-radius: 999px;
+}
+
 /* Templates panel: 3 columns with a featured tile in column 3 */
 .br-megapanel--templates .br-megapanel__inner {
   grid-template-columns: 0.85fr 1.25fr 0.9fr;
+}
+/* Industries panel: 2 trade columns + 1 featured tile */
+.br-megapanel--industries .br-megapanel__inner {
+  grid-template-columns: 1fr 1fr 0.9fr;
 }
 
 /* Featured tile */
@@ -3073,10 +3076,18 @@ button { cursor: pointer; font: inherit; }
   text-underline-offset: 4px;
 }
 
+/* Platform panel: 4 outcome columns */
+.br-megapanel[id="br-mega-platform"] .br-megapanel__inner {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
 /* Mobile: drawer flattens panels — megalink keeps its row layout,
    featured tile becomes a full-width block. */
 @media (max-width: 960px) {
-  .br-megapanel--templates .br-megapanel__inner { grid-template-columns: 1fr; }
+  .br-megapanel--templates .br-megapanel__inner,
+  .br-megapanel--industries .br-megapanel__inner,
+  .br-megapanel[id="br-mega-platform"] .br-megapanel__inner { grid-template-columns: 1fr; gap: 18px; }
   .br-megapanel__col .br-megalink {
     padding: 12px 4px;
   }
@@ -3085,9 +3096,7 @@ button { cursor: pointer; font: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
   .br-megapanel__col .br-megalink,
-  .br-megalink__icon,
   .br-megafeat { transition: none; }
-  .br-megalink:hover .br-megalink__icon { transform: none; }
   .br-megafeat:hover { transform: none; }
 }
 
