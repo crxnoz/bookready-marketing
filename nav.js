@@ -1,3 +1,22 @@
+/* ─── Google Analytics 4 (every page) ───
+   Loaded here instead of pasted into each .html so adding a new page
+   to the marketing site is one less thing to remember. dataLayer +
+   first config call run synchronously so they're queued before the
+   async gtag.js script finishes loading — that's the standard pattern.
+   Property: G-4PJSQ6MR9F (mybookready.com). */
+(function () {
+  if (window.dataLayer) return; // guard against double-injection on hot reloads
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=G-4PJSQ6MR9F';
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', 'G-4PJSQ6MR9F');
+})();
+
 /* ─── Nav behavior (vanilla JS, no deps) ───
    Drives the sticky nav: mega-panel open/close (click + desktop hover),
    the mobile hamburger drawer, outside-click and Escape to close.
