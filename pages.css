@@ -1018,7 +1018,7 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
 .br-article__hero figure { margin: 0 auto; max-width: 720px; }
 .br-article__hero img {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 3 / 2;
   object-fit: cover;
   display: block;
   background: var(--card);
