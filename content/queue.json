@@ -132,7 +132,8 @@
       "recommendedRelatedIndustry": "salons",
       "ctaPlan": "Studio",
       "ctaIndustry": "salons",
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-06-15"
     },
     {
       "slug": "styleseat-alternative",
@@ -237,7 +238,8 @@
       "recommendedRelatedIndustry": "solo-pros",
       "ctaPlan": "Solo",
       "ctaIndustry": "solo-pros",
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-06-15"
     },
     {
       "slug": "best-acuity-alternatives-for-salons",
