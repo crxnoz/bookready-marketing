@@ -23,6 +23,8 @@ Read `content/style.md` carefully. Every article must follow it:
 
 For pattern guidance, read `/blog/best-booking-websites-for-barbers-in-2026/index.html`. Follow the same HTML structure (head, breadcrumb, pagehead, sections, FAQ, final CTA, footer). Copy the NAV and FOOTER blocks verbatim.
 
+**The `<body>` tag must be `<body class="br-article">`.** This enables the blog reading layout in `pages.css` (centered measure, dark body copy, paragraph rhythm, hero/figure slots). Without it the article reverts to the flat section-stack look.
+
 ## Step 4: Read each queue entry and write the article
 
 For each of the 2 articles:
