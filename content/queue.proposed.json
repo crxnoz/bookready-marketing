@@ -1,0 +1,563 @@
+{
+  "_meta": {
+    "documentation": "Staging file for keyword-research proposals. Generated from content/research/dataset-*.json + live SERP validation, following content/keyword-research-prompt.md. Review each entry, set \"approved\": true on the keepers (or delete the rest), then run: node content/keyword-research.mjs promote. Approved entries are appended to queue.json as status=pending; the research block is kept as provenance.",
+    "generatedAt": "2026-06-15",
+    "provider": "dataforseo (real Google volume + keyword difficulty) + manual SERP validation"
+  },
+  "articles": [
+    {
+      "approved": true,
+      "slug": "salon-booking-software-comparison",
+      "url": "/blog/salon-booking-software-comparison/",
+      "type": "listicle",
+      "cluster": "comparison",
+      "metaTitle": "Salon Booking Software Compared (2026) | BookReady",
+      "metaDescription": "An honest comparison of salon booking software in 2026: BookReady, Fresha, Vagaro, GlossGenius, Square, and Booksy. Real fees, real tradeoffs, no fluff.",
+      "h1": "Salon booking software, compared honestly",
+      "italicTagline": "Six platforms, real fee math, and who each one is actually for.",
+      "primaryKeyword": "salon booking software",
+      "secondaryKeywords": [
+        "salon booking software comparison",
+        "best salon booking software",
+        "salon booking app",
+        "salon scheduling software",
+        "salon booking system"
+      ],
+      "estVolume": "720/mo",
+      "intent": "MOFU",
+      "intro": "200-240 word intro. The honest angle: most salon-software comparisons are written by the platforms themselves (note that Zenoti, Booksy, and Square all rank for this term with their own roundups) or by directories paid per lead. Promise an independent read: the criteria that actually matter for a beauty business (storefront design, fee structure, deposits, multi-staff, migration), then six platforms scored against them, then a clear who-should-pick-what. Name the real tension early: feature count is easy to compare, but the public booking page your clients see is what sells, and that is where most platforms are weak. No em-dashes, no superlatives, confident.",
+      "sections": [
+        {
+          "kicker": "Quick verdict",
+          "title": "The 60-second answer",
+          "directives": "Bulleted verdict (6 bullets): best for design-led owners (BookReady), best free tier (Fresha, with fee caveat), best for retail/POS (Vagaro), best solo POS (GlossGenius), best Square-loyal (Square Appointments), best marketplace (Booksy). Then 80 words framing. Link /pricing/. 150-180 words."
+        },
+        {
+          "kicker": "What to compare",
+          "title": "The five criteria that actually matter for a salon",
+          "directives": "Explain the scoring lens, not generic feature lists: (1) the public storefront and template quality, (2) true cost including transaction markup and per-staff fees, (3) deposits and no-show protection, (4) multi-staff and booth-renter handling, (5) how hard it is to leave (data ownership, migration). Argue feature-count is a trap. Link /platform/website/templates/ and /platform/tools/payments/. 200-240 words."
+        },
+        {
+          "kicker": "Side by side",
+          "title": "The six platforms, scored",
+          "directives": "Comparison table (.br-compare): rows = the five criteria + monthly price + transaction markup; columns = BookReady, Fresha, Vagaro, GlossGenius, Square, Booksy. Then 120 words honest commentary on the spread. Be fair: cite Fresha's strength (free, marketplace) and weakness (new-client fee). Link /compare/fresha-alternative/ and /compare/vagaro-alternative/. 280-320 words."
+        },
+        {
+          "kicker": "The money",
+          "title": "What each one actually costs once fees are counted",
+          "directives": "Fee math for a two-chair salon at $10K/mo: subscription + per-staff add-ons + transaction markup, annualized. Show BookReady Studio $49/mo + 0% markup vs the stacked-fee competitors. Be specific with real fee structures (per-staff fees on Booksy, new-client fees on Fresha). Link /pricing/. 220-260 words."
+        },
+        {
+          "kicker": "Design honesty",
+          "title": "The part most comparisons skip: the page your clients see",
+          "directives": "Make the storefront case. Most platforms ship a functional but generic booking widget. Contrast BookReady's seven editorial templates (The Fade Room, Lush Studio, Velvet Theory, Blackline, Opaline, Petale, Bottega). A beauty business sells aesthetic, and the site is the aesthetic. Link /templates/. 200-240 words."
+        },
+        {
+          "kicker": "How to choose",
+          "title": "A three-question decision framework",
+          "directives": "Three questions: (1) do you sell a look (design-led: BookReady, GlossGenius)? (2) do you need marketplace traffic right now (Fresha, Booksy)? (3) do you run heavy retail or in-person POS (Vagaro, Square)? State the BookReady opinion plainly: salons open 12+ months should own their site. Link /pricing/. 180-220 words."
+        },
+        {
+          "kicker": "Honest",
+          "title": "When BookReady is the wrong pick",
+          "directives": "Trust-builder. Choose elsewhere if: you need barcode retail inventory and POS hardware (Vagaro), you depend on marketplace discovery to fill a brand-new chair (Fresha, Booksy), or you run group-class memberships as core revenue. Honest. 150-180 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is the best salon booking software in 2026?",
+          "answerHint": "It depends on whether you sell design, need a marketplace, or run heavy retail. BookReady wins on storefront design and 0% fees, Vagaro on retail, Fresha on free marketplace. 40-60 words."
+        },
+        {
+          "q": "What is the difference between a salon booking app and salon booking software?",
+          "answerHint": "Mostly marketing. An app emphasizes the phone experience, software the back office. What matters is the booking page clients see and the fees you pay. 40-60 words."
+        },
+        {
+          "q": "Which salon software has the lowest transaction fees?",
+          "answerHint": "BookReady charges 0% on top of Stripe's standard rate (about 2.9% + 30 cents). Most others stack a markup or per-booking fee. 30-50 words."
+        },
+        {
+          "q": "Is free salon booking software actually free?",
+          "answerHint": "Rarely. Free tiers usually recover cost through new-client fees, processing markup, or marketplace commissions. Read the fee page, not the headline. 40-60 words."
+        },
+        {
+          "q": "Can I move my client list between platforms?",
+          "answerHint": "Most platforms export a client CSV. BookReady runs the import for free during migration, usually same-day. 30-50 words."
+        },
+        {
+          "q": "Which is best for a multi-stylist salon?",
+          "answerHint": "BookReady Salon ($99/mo) for a designed multi-staff site, or Vagaro if you have serious retail. Both handle staff calendars and payouts. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/pricing/",
+        "/templates/",
+        "/migration/",
+        "/compare/fresha-alternative/",
+        "/compare/vagaro-alternative/",
+        "/platform/tools/payments/"
+      ],
+      "recommendedFeaturedTemplate": "velvettheory",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
+      "research": {
+        "source": "dataforseo + manual-serp",
+        "demandSignal": 100,
+        "volume": 720,
+        "difficulty": 29,
+        "cpc": null,
+        "relatedTargets": [
+          {"keyword": "salon booking app", "volume": 590, "difficulty": 23},
+          {"keyword": "salon management software", "volume": 1600, "difficulty": 46}
+        ],
+        "competitionLevel": "medium",
+        "serpNotes": "Head term 720/mo at kd29 (winnable with depth). 'salon booking app' is a near-twin at 590/mo, kd23 (easier), so target both in one page. SERP is competitor-authored roundups (Zenoti, Booksy, Square) and directories (Capterra); no strong independent honest comparison ranks, which is the opening. 'salon management software' (1600/mo, kd46) is the harder pillar to build toward later.",
+        "opportunity": "Best volume-to-effort in the run for a commercial term. Captures category-shoppers before they pick a competitor and funnels to the seven existing /compare/ pages. Adjacent to queued best-website-builders-for-salons: keep distinct (booking software vs website builder), cross-link, do not duplicate.",
+        "validatedAt": "2026-06-15",
+        "sources": [
+          "https://www.zenoti.com/thecheckin/best-salon-booking-software",
+          "https://thesalonbusiness.com/best-salon-software/",
+          "https://www.capterra.com/salon-software/"
+        ]
+      }
+    },
+    {
+      "approved": true,
+      "slug": "booksy-pricing",
+      "url": "/blog/booksy-pricing/",
+      "type": "blog",
+      "cluster": "migration",
+      "metaTitle": "Booksy Pricing 2026: Fees, Add-ons, Verdict | BookReady",
+      "metaDescription": "Booksy pricing explained for 2026: the monthly fee, per-staff add-ons, processing costs, and whether it is free or worth it, plus when to switch.",
+      "h1": "Booksy pricing, fees, and whether it is worth it",
+      "italicTagline": "What you actually pay, and when the marketplace stops being worth renting.",
+      "primaryKeyword": "booksy pricing",
+      "secondaryKeywords": [
+        "is booksy free",
+        "do you have to pay for booksy",
+        "is booksy worth it",
+        "is booksy safe",
+        "booksy fees"
+      ],
+      "estVolume": "260/mo",
+      "intent": "MOFU",
+      "intro": "180-220 word intro. Answer the money question fast: Booksy is not free for pros, the base is around $29.99/mo plus roughly $20 per extra staff member plus card processing. Then frame the real decision as a stage question, not a good/bad question: worth it for a new solo pro who needs the marketplace to get found, harder to justify as you add chairs. Acknowledge what Booksy does well (easy to use, strong barber marketplace, polished client app). Preview: full fee breakdown, is it free, the marketplace tradeoff, who it fits, who outgrows it, the alternative. No em-dashes, fair, confident.",
+      "sections": [
+        {
+          "kicker": "The number",
+          "title": "What Booksy actually costs in 2026",
+          "directives": "Lead with the cost stack: base subscription around $29.99/mo, roughly $20 per additional staff member, plus card processing, plus paid promotion features (Boost). Show the monthly total for solo, two-chair, and three-chair. Be specific and fair. Link /pricing/. 220-260 words."
+        },
+        {
+          "kicker": "Is it free",
+          "title": "Is Booksy free? (The honest answer)",
+          "directives": "Directly answer the common search. The client app is free; for professionals it is not. Explain the free-trial vs paid distinction. This section targets 'is booksy free' and 'do you have to pay for booksy'. 150-180 words."
+        },
+        {
+          "kicker": "The tradeoff",
+          "title": "The marketplace is the point, and the catch",
+          "directives": "Explain the core tradeoff: Booksy's marketplace can send new clients, real value when you are cold. But you are renting an audience and competing with every other local pro on their domain, not building your own. Make the own-your-funnel case. Link /platform/website/domain/. 200-240 words."
+        },
+        {
+          "kicker": "Worth it?",
+          "title": "Is Booksy worth it for your stage?",
+          "directives": "Targets 'is booksy worth it' (low volume but very high commercial intent, cpc ~$14.55). Worth it for brand-new pros with no following and barbers in dense Booksy markets. Questionable for established multi-chair shops paying per-staff fees on clients they already own. 180-220 words."
+        },
+        {
+          "kicker": "Safe + legit",
+          "title": "Is Booksy safe and legit?",
+          "directives": "Short trust section targeting 'is booksy safe'. Yes, Booksy is a legitimate, widely used platform with secure payments. Note the real friction owners report is the admin experience, not safety. Keep it fair. 120-160 words."
+        },
+        {
+          "kicker": "The alternative",
+          "title": "What to use once you own your clients",
+          "directives": "Make the BookReady case briefly and fairly: a designed site on your own domain, 0% transaction markup, free same-day migration, $24-99/mo. Best for pros past the cold-start stage. Name a barber-friendly template (The Fade Room or Blackline). Link /templates/ and /compare/booksy-alternative/. 200-240 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How much does Booksy cost per month?",
+          "answerHint": "Roughly $29.99/mo for the base, plus about $20 per additional staff member, plus card processing. Cost scales with team size. 30-50 words."
+        },
+        {
+          "q": "Is Booksy free?",
+          "answerHint": "Not for professionals. The client app is free, but pros pay a monthly subscription plus per-staff fees and processing. 30-50 words."
+        },
+        {
+          "q": "Is Booksy worth it for a barbershop?",
+          "answerHint": "For a new shop in a busy market, the marketplace can be worth it. For an established multi-chair shop, the per-staff fees often outweigh the benefit. 40-60 words."
+        },
+        {
+          "q": "Is Booksy safe to use?",
+          "answerHint": "Yes. Booksy is a legitimate, widely used platform with secure payment processing. The common complaint is the admin experience, not safety. 40-60 words."
+        },
+        {
+          "q": "Does Booksy take a commission?",
+          "answerHint": "Booksy charges subscription and per-staff fees plus processing, and promotional features (Boost) carry extra cost. Read the current fee page before committing. 40-60 words."
+        },
+        {
+          "q": "What is the best alternative to Booksy?",
+          "answerHint": "If you want a designed site on your own domain with 0% transaction markup, see our Booksy alternative breakdown. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/compare/booksy-alternative/",
+        "/pricing/",
+        "/templates/",
+        "/platform/website/domain/",
+        "/for-barbers/",
+        "/migration/"
+      ],
+      "recommendedFeaturedTemplate": "thefaderoom",
+      "recommendedRelatedIndustry": "barbers",
+      "ctaPlan": "Solo",
+      "ctaIndustry": "barbers",
+      "research": {
+        "source": "dataforseo + manual-serp",
+        "demandSignal": 54,
+        "volume": 260,
+        "difficulty": 0,
+        "cpc": 10.54,
+        "relatedTargets": [
+          {"keyword": "is booksy free", "volume": 210, "difficulty": 0},
+          {"keyword": "is booksy worth it", "volume": 20, "difficulty": null, "cpc": 14.55},
+          {"keyword": "is booksy safe", "volume": 50, "difficulty": 0}
+        ],
+        "competitionLevel": "low",
+        "serpNotes": "Refocused from the earlier 'is booksy worth it' angle: 'booksy pricing' is 260/mo at kd0 with $10.54 cpc, the strongest term in the cluster. Folds in is-booksy-free (210/mo, kd0), is-booksy-safe (50/mo, kd0), and the high-intent is-booksy-worth-it ($14.55 cpc). SERP is reviews + Booksy's own pages; competitor GlossGenius already ranks a 'booksy price' post, proof it converts.",
+        "opportunity": "Low difficulty, real volume, high commercial intent. Captures Booksy-evaluators and funnels to the existing /compare/booksy-alternative/ page. Pair with the separate 'what is booksy' TOFU page below to own the full Booksy SERP.",
+        "validatedAt": "2026-06-15",
+        "sources": [
+          "https://glossgenius.com/blog/booksy-price",
+          "https://www.capterra.com/p/142741/Booksy/reviews/",
+          "https://dailytrust.com/booksy-biz-review-pros-cons-and-key-features/"
+        ]
+      }
+    },
+    {
+      "approved": false,
+      "slug": "what-is-booksy",
+      "url": "/blog/what-is-booksy/",
+      "type": "blog",
+      "cluster": "migration",
+      "metaTitle": "What Is Booksy and How Does It Work? | BookReady",
+      "metaDescription": "What is Booksy, how does it work, and is it legit? A plain explainer of the booking app and marketplace for clients and beauty pros, plus alternatives.",
+      "h1": "What is Booksy, and how does it work?",
+      "italicTagline": "The booking app, the marketplace, and what it means for your business.",
+      "primaryKeyword": "what is booksy",
+      "secondaryKeywords": [
+        "how does booksy work",
+        "is booksy legit",
+        "what is booksy used for",
+        "booksy app explained",
+        "booksy for business"
+      ],
+      "estVolume": "1300/mo",
+      "intent": "TOFU",
+      "intro": "200-240 word intro. Plain explainer for the biggest term in the cluster. Define Booksy in the first two sentences: a booking app and marketplace where clients find and book local beauty and grooming pros, and where pros manage their calendar, payments, and reminders. Then set up the two-sided story (client side vs pro side). Note this is top-of-funnel, so keep it genuinely helpful and neutral, then point pros toward the deeper pricing and alternative reads. No em-dashes, clear, neutral-but-useful.",
+      "sections": [
+        {
+          "kicker": "Definition",
+          "title": "Booksy in one paragraph",
+          "directives": "Crisp definition: a marketplace plus booking software, strongest for barbers and beauty pros, with a client app for discovery and a Biz app for managing appointments, payments, and reminders. 140-170 words."
+        },
+        {
+          "kicker": "Client side",
+          "title": "How Booksy works if you are booking an appointment",
+          "directives": "Walk the client flow: search by service or location, see pros and reviews, book and pay, get reminders. Neutral and helpful. 160-200 words."
+        },
+        {
+          "kicker": "Pro side",
+          "title": "How Booksy works if you are a beauty or grooming pro",
+          "directives": "Walk the pro flow: profile in the marketplace, calendar, payments, reminders, paid Boost promotion. Note it is a paid subscription for pros. Link /blog/booksy-pricing/. 180-220 words."
+        },
+        {
+          "kicker": "Legit?",
+          "title": "Is Booksy legit and safe?",
+          "directives": "Targets 'is booksy legit'. Yes, it is an established, widely used platform with secure payments. Brief and fair. 120-150 words."
+        },
+        {
+          "kicker": "Tradeoff",
+          "title": "What Booksy means for your brand",
+          "directives": "Gentle TOFU framing of the marketplace tradeoff: great for getting found, but you are building on rented land. Tee up the own-your-site idea without hard selling. Link /platform/website/domain/. 160-200 words."
+        },
+        {
+          "kicker": "Alternatives",
+          "title": "Booksy alternatives if you want your own site",
+          "directives": "Brief, fair pointer to alternatives for pros who want a designed site they own. Link /compare/booksy-alternative/ and /templates/. 150-180 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is Booksy used for?",
+          "answerHint": "Booking beauty and grooming appointments. Clients find and book local pros, pros manage calendar, payments, and reminders. 30-50 words."
+        },
+        {
+          "q": "How does Booksy work for clients?",
+          "answerHint": "Search by service or location, browse pros and reviews, book and pay in the app, and get automatic reminders. 30-50 words."
+        },
+        {
+          "q": "Is Booksy free for clients?",
+          "answerHint": "Yes, the client app is free to download and book with. Professionals pay a subscription. See our Booksy pricing breakdown. 30-50 words."
+        },
+        {
+          "q": "Is Booksy legit?",
+          "answerHint": "Yes. Booksy is an established, widely used booking platform with secure payment processing. 30-50 words."
+        },
+        {
+          "q": "Is Booksy worth it for professionals?",
+          "answerHint": "It depends on your stage. Great for getting found when new, less cost-effective as you add staff. See our pricing and worth-it breakdown. 40-60 words."
+        },
+        {
+          "q": "What are the alternatives to Booksy?",
+          "answerHint": "If you want a designed site on your own domain instead of a marketplace listing, see our Booksy alternative page. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/compare/booksy-alternative/",
+        "/blog/booksy-pricing/",
+        "/templates/",
+        "/platform/website/domain/",
+        "/for-barbers/",
+        "/pricing/"
+      ],
+      "recommendedFeaturedTemplate": "blackline",
+      "recommendedRelatedIndustry": "barbers",
+      "ctaPlan": "Solo",
+      "ctaIndustry": "barbers",
+      "research": {
+        "source": "dataforseo + manual-serp",
+        "demandSignal": 43,
+        "volume": 1300,
+        "difficulty": 31,
+        "cpc": null,
+        "competitionLevel": "medium",
+        "serpNotes": "Biggest term in the run at 1300/mo, kd31. SERP mixes Booksy's own pages, app stores, and review sites. A neutral, genuinely-helpful explainer can rank and acts as a top-of-funnel net. kd31 is moderate, so build this AFTER the kd0 wins (booksy-pricing, salon cancellation policy).",
+        "opportunity": "Top-of-funnel volume that funnels down to /blog/booksy-pricing/ and /compare/booksy-alternative/. Together those three pages let BookReady own the Booksy SERP from awareness to switch. Tier: build second, after the easy kd0 wins.",
+        "validatedAt": "2026-06-15",
+        "sources": [
+          "https://biz.booksy.com/en-us/blog/is-booksy-legit-and-safe-to-use-read-reliable-reviews",
+          "https://www.capterra.com/p/142741/Booksy/reviews/"
+        ]
+      }
+    },
+    {
+      "approved": false,
+      "slug": "can-salons-charge-for-missed-appointments",
+      "url": "/blog/can-salons-charge-for-missed-appointments/",
+      "type": "blog",
+      "cluster": "appointment-management",
+      "metaTitle": "Can a Salon Charge for a Missed Appointment? | BookReady",
+      "metaDescription": "Yes, salons can charge for missed appointments, within limits. The rules, fair amounts, and how to set a no-show policy that actually holds up. From BookReady.",
+      "h1": "Can a salon charge for a missed appointment?",
+      "italicTagline": "Short answer: yes, with conditions. Here is how to do it right.",
+      "primaryKeyword": "can a hair salon charge you for a missed appointment",
+      "secondaryKeywords": [
+        "salon missed appointment fee",
+        "can salons charge for no shows",
+        "salon cancellation fee rules",
+        "is a no-show fee legal",
+        "charge for missed hair appointment"
+      ],
+      "estVolume": "20/mo",
+      "intent": "MOFU",
+      "intro": "180-220 word intro. Answer the question in the first two sentences (yes, salons can charge for missed appointments, as long as the policy was disclosed and the fee is reasonable). Then frame why it gets confusing: the fee has to be communicated up front and cannot exceed the service value. This piece is written for owners deciding how to set a defensible policy, but it answers the client-side question honestly too, which is what builds trust and rankings. Preview: the rules, fair amounts, card-on-file vs deposit, making it enforceable, the human script. No em-dashes, plain, authoritative.",
+      "sections": [
+        {
+          "kicker": "Short answer",
+          "title": "Yes, but only under two conditions",
+          "directives": "State the two conditions plainly: (1) the policy was disclosed before booking, (2) the fee is reasonable relative to the service (cannot charge $300 for a $200 service). Note that the vast majority of stylists do charge no-show fees. Set expectation that 'reasonable + disclosed' is the whole game. 150-180 words."
+        },
+        {
+          "kicker": "The limits",
+          "title": "What the law actually allows",
+          "directives": "Explain without pretending to be legal advice: businesses can charge cancellation and no-show fees, but they are limited to a reasonable amount and require prior disclosure. Typical fair range: 30-50% for late cancellation with notice, up to 100% for a true no-show with no notice. Recommend the reader confirm local rules. Be careful and honest. 200-240 words."
+        },
+        {
+          "kicker": "Fair amount",
+          "title": "How much to charge so it holds and does not feel hostile",
+          "directives": "Give concrete guidance by scenario: late cancel inside the window (forfeit deposit or 50%), full no-show (100% of service or the card on file), chronic offender (move to deposit-required). Tie to deposit best practices. Link /guides/deposit-best-practices/ and /guides/no-show-fee-policy/. 200-240 words."
+        },
+        {
+          "kicker": "Mechanics",
+          "title": "Card on file vs deposit: how the charge actually happens",
+          "directives": "Explain the two mechanisms: an upfront deposit at booking, or a card-on-file charged after a no-show. Tradeoffs (deposit = stronger protection, card-on-file = lower booking friction). Walk through how BookReady handles both through Stripe. Link /platform/tools/payments/. 180-220 words."
+        },
+        {
+          "kicker": "Make it stick",
+          "title": "The policy only holds if it is visible in three places",
+          "directives": "The enforceability rule: the policy must appear at booking (before confirm), in the confirmation, and in the reminder. If it is not in all three, a disputed charge is hard to win. Link /guides/cancellation-policy-template/ and /platform/tools/notifications/. 180-220 words."
+        },
+        {
+          "kicker": "The human part",
+          "title": "What to say when you charge the fee",
+          "directives": "Provide short SMS scripts for: first-time offender (warm, offer rebook), repeat offender (move to deposit-required), genuine emergency (waive gracefully). Kind, firm, brief. 200-240 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can a salon legally charge me for a no-show?",
+          "answerHint": "Yes, if the policy was disclosed before you booked and the fee is reasonable. It generally cannot exceed the price of the service. 40-60 words."
+        },
+        {
+          "q": "How much can a salon charge for a missed appointment?",
+          "answerHint": "Commonly 30-50% for a late cancellation with notice, up to 100% of the service for a true no-show. The fee must be reasonable and disclosed. 40-60 words."
+        },
+        {
+          "q": "Can a salon charge my card without telling me?",
+          "answerHint": "Not fairly. The policy must be visible before you book. A charge tied to a clearly disclosed policy is enforceable, a surprise charge usually is not. 40-60 words."
+        },
+        {
+          "q": "What if I had a real emergency?",
+          "answerHint": "Most salons waive the fee for genuine emergencies. Reach out, explain, and offer to rebook. Good owners value the relationship over one fee. 40-60 words."
+        },
+        {
+          "q": "How do salons enforce no-show fees?",
+          "answerHint": "Usually with a deposit at booking or a card on file charged after the no-show, both through a processor like Stripe. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/payments/",
+        "/platform/tools/notifications/",
+        "/guides/no-show-fee-policy/",
+        "/guides/deposit-best-practices/",
+        "/guides/cancellation-policy-template/",
+        "/for-salons/"
+      ],
+      "recommendedFeaturedTemplate": "opaline",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
+      "research": {
+        "source": "dataforseo + manual-serp",
+        "demandSignal": 32,
+        "volume": 20,
+        "difficulty": 0,
+        "cpc": null,
+        "competitionLevel": "low",
+        "serpNotes": "Low volume (20/mo) but kd0, and the SERP is thin (Quora, YouTube, small blogs, competitor StyleSeat). Adjacent variants (salon missed appointment fee, salon cancellation fee) returned no Google Ads volume, so this is support content, not a pillar.",
+        "opportunity": "Easy-to-rank support page that strengthens the appointment-management cluster and funnels to the queued no-show-fee, deposit, and cancellation-policy guides. Tier: low priority by volume, but near-free to win. Note: the broader 'salon cancellation policy' (210/mo, kd0) is the bigger easy win in this space, consider re-targeting the queued cancellation-policy-template entry to it.",
+        "validatedAt": "2026-06-15",
+        "sources": [
+          "https://www.findlaw.com/consumer/consumer-transactions/can-businesses-charge-appointment-deposits-and-cancellation-fees.html",
+          "https://glamstartups.com/can-a-hair-salon-charge-you-for-a-missed-appointment/",
+          "https://www.styleseat.com/blog/should-i-charge-for-no-shows-and-late-cancellation/"
+        ]
+      }
+    },
+    {
+      "approved": true,
+      "slug": "appointment-reminder-templates",
+      "url": "/guides/appointment-reminder-templates/",
+      "type": "guide",
+      "cluster": "appointment-management",
+      "metaTitle": "Salon Appointment Reminder Templates | BookReady",
+      "metaDescription": "Copy-and-paste salon appointment reminder templates for SMS and email that cut no-shows. A 3-touch cadence, real wording, and how to automate it.",
+      "h1": "Salon appointment reminder templates that cut no-shows",
+      "italicTagline": "Copy, paste, customize. SMS and email, for every kind of client.",
+      "primaryKeyword": "appointment reminder template",
+      "secondaryKeywords": [
+        "salon appointment reminder",
+        "appointment reminder text",
+        "appointment reminder email template",
+        "hair appointment reminder message",
+        "spa appointment reminder template"
+      ],
+      "estVolume": "720/mo",
+      "intent": "MOFU",
+      "intro": "200-240 word intro. Owners search for reminder wording because the reminder is the cheapest no-show insurance they have. Promise a real toolkit: a 3-touch cadence, copy-paste SMS and email templates for every scenario, and the tone rules that make clients actually reply. Note the templates are useful on any platform, then show how BookReady automates the whole sequence so you never copy-paste again. Cite that a good reminder sequence cuts no-shows meaningfully. No em-dashes, practical, warm.",
+      "sections": [
+        {
+          "kicker": "Why it works",
+          "title": "Why reminders are your cheapest no-show insurance",
+          "directives": "Make the case with specifics: a 2-touch sequence cuts no-shows roughly 20%, a 3-touch with a reply request 40-60%. Frame reminders as respect for both calendars, not nagging. Link /guides/reducing-no-shows/. 160-200 words."
+        },
+        {
+          "kicker": "The cadence",
+          "title": "The 3-touch reminder sequence to copy",
+          "directives": "Specify the cadence: (1) confirmation immediately on booking, (2) reminder 48 hours out with a reply request, (3) day-of text 4 hours before with address and parking. Explain the why of each touch. Link /platform/tools/notifications/. 180-220 words."
+        },
+        {
+          "kicker": "SMS templates",
+          "title": "Copy-paste SMS reminder templates",
+          "directives": "Provide 5-6 real SMS templates in styled callouts with [BRACKETED] merge fields: booking confirmation, 48-hour reply-required, day-of, running-late-from-salon, and a warm win-back for a missed slot. Keep each short and on-brand. 240-280 words including templates."
+        },
+        {
+          "kicker": "Email templates",
+          "title": "Copy-paste email reminder templates",
+          "directives": "Provide 3 email templates: confirmation, 48-hour reminder with prep notes (e.g. arrive with clean hair), and a post-visit rebook nudge. Slightly longer and warmer than SMS. 220-260 words including templates."
+        },
+        {
+          "kicker": "Tone",
+          "title": "The wording rules that make clients reply",
+          "directives": "Practical tone guidance: match your brand voice, keep it one thumb-tap to confirm, name the stylist, never sound automated. Address the reply-required tactic and the pushback ('clients hate that') with the counter (one tap beats a surprise fee). 180-220 words."
+        },
+        {
+          "kicker": "Automate",
+          "title": "How to send these automatically in BookReady",
+          "directives": "Show the payoff: instead of copy-pasting, set the sequence once in BookReady and it fires on every booking with merge fields filled. Walk through Notifications setup briefly. Link /platform/tools/notifications/ and /features/client/reminders/. 180-220 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "When should I send appointment reminders?",
+          "answerHint": "A confirmation at booking, a reminder 48 hours out, and a day-of text about 4 hours before. That 3-touch cadence cuts no-shows most. 40-60 words."
+        },
+        {
+          "q": "Should appointment reminders be text or email?",
+          "answerHint": "Both. Text gets opened fast and is best for the 48-hour and day-of nudges; email is better for confirmations and prep notes. 40-60 words."
+        },
+        {
+          "q": "What should a salon reminder text say?",
+          "answerHint": "Name the client and stylist, the date and time, and make it one tap to confirm or reschedule. Keep it short and on-brand. 40-60 words."
+        },
+        {
+          "q": "Do reminder messages actually reduce no-shows?",
+          "answerHint": "Yes. A 2-touch sequence cuts no-shows around 20%, a 3-touch with a reply request 40-60%. 30-50 words."
+        },
+        {
+          "q": "Can I personalize reminders for each client?",
+          "answerHint": "Yes. Merge fields fill in the name, stylist, service, and time automatically, so every message reads personal without manual work. 40-60 words."
+        },
+        {
+          "q": "How do I automate these instead of copy-pasting?",
+          "answerHint": "Set the sequence once in BookReady's notification settings and it fires on every booking with details filled in. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/notifications/",
+        "/features/client/reminders/",
+        "/guides/reducing-no-shows/",
+        "/guides/cancellation-policy-template/",
+        "/pricing/",
+        "/for-salons/"
+      ],
+      "recommendedFeaturedTemplate": "lushstudio",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
+      "research": {
+        "source": "dataforseo + manual-serp",
+        "demandSignal": 58,
+        "volume": 720,
+        "difficulty": 0,
+        "cpc": null,
+        "relatedTargets": [
+          {"keyword": "appointment reminder text", "volume": 480, "difficulty": 25},
+          {"keyword": "appointment reminder email template", "volume": 210, "difficulty": 0},
+          {"keyword": "appointment reminder email", "volume": 170, "difficulty": 0}
+        ],
+        "competitionLevel": "low",
+        "serpNotes": "Primary term 720/mo at kd0. SERP is template listicles (Apptoto, HeyGoldie, Zolmi) and competitor GlossGenius ranks here, which proves the format converts for this audience. Sibling terms (appointment reminder text 480/mo kd25, email template 210/mo kd0) let one page cover the cluster.",
+        "opportunity": "Content magnet at kd0: salon owners searching reminder wording are exactly who BookReady's automated reminders serve. Funnels to /platform/tools/notifications/ and /features/client/reminders/. Strengthens the appointment-management cluster alongside reducing-no-shows and cancellation-policy.",
+        "validatedAt": "2026-06-15",
+        "sources": [
+          "https://www.apptoto.com/best-practices/87-appointment-reminder-samples-to-send-your-clients",
+          "https://glossgenius.com/blog/appointment-reminder-message",
+          "https://zolmi.com/salon-reminder-template"
+        ]
+      }
+    }
+  ]
+}

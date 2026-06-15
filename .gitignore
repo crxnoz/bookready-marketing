@@ -10,3 +10,11 @@ node_modules/
 
 # Scratch dir for one-off generators / experiments — never deploy
 .scratch/
+
+# Keyword-research intermediates (datasets, audits, API cache) — regenerable, never deploy.
+# The reviewable artifact (content/queue.proposed.json) lives outside this dir and IS tracked.
+content/research/
+
+# Secrets (DataForSEO etc.) — never commit. Use .env.example as the template.
+.env
+.env.local
