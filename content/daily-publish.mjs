@@ -117,7 +117,11 @@ function rebuildHub(path, name, description, q) {
   const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
   const cards = articles.map((a) => {
-    const img = a.featuredImage || '/images/templates/tfr-cover.webp';
+    // Prefer the article's own generated hero image as the card cover; fall
+    // back to an explicit featuredImage, then the default template cover.
+    const heroRel = `images/blog/${a.slug}.webp`;
+    const img = a.featuredImage
+      || (existsSync(resolve(ROOT, heroRel)) ? `/${heroRel}` : '/images/templates/tfr-cover.webp');
     return `        <a class="br-template-card" href="${a.url}">
           <span class="br-template-card__preview">
             <img src="${img}" alt="${esc(a.h1 || a.metaTitle)}" loading="lazy" decoding="async" />
