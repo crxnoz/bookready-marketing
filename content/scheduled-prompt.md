@@ -44,7 +44,24 @@ For each of the 2 articles:
    - Article (with author=Organization, datePublished=today, image)
    - FAQPage (every Q&A from the article)
 
-## Step 5: Finalize
+## Step 5: Generate and wire hero images
+
+After the article files are written, generate an on-brand hero image for each
+and inject it. The scene is derived automatically from each article's queue
+entry (industry + cluster), so there is no per-article setup.
+
+```bash
+node content/generate-images.mjs gen <slug 1> <slug 2>
+node content/generate-images.mjs wire <slug 1> <slug 2>
+```
+
+- Run this BEFORE finalize so the hub rebuild (step 6) picks up the new covers.
+- Scoped to /blog and /guides articles; /compare and other page types are skipped.
+- If `OPENAI_API_KEY` is not set, generation is skipped gracefully and the
+  article still ships (the hub falls back to the default cover).
+- Heroes are cached and people-free by art direction; re-running never re-bills.
+
+## Step 6: Finalize
 
 ```bash
 node content/daily-publish.mjs --finalize
@@ -55,7 +72,7 @@ This automatically:
 - Adds their URLs to sitemap.xml
 - Rebuilds /blog/ and /guides/ hub pages to list shipped articles
 
-## Step 6: Commit and push
+## Step 7: Commit and push
 
 ```bash
 git add -A
