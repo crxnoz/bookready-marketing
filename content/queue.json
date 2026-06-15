@@ -618,7 +618,8 @@
           "https://www.capterra.com/salon-software/"
         ]
       },
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-06-15"
     },
     {
       "slug": "best-acuity-alternatives-for-salons",
