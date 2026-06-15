@@ -366,7 +366,8 @@
           "https://dailytrust.com/booksy-biz-review-pros-cons-and-key-features/"
         ]
       },
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-06-15"
     },
     {
       "slug": "appointment-reminder-templates",
@@ -491,7 +492,8 @@
           "https://zolmi.com/salon-reminder-template"
         ]
       },
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-06-15"
     },
     {
       "slug": "salon-booking-software-comparison",
@@ -1938,6 +1940,18 @@
       "ctaPlan": "Salon",
       "ctaIndustry": "salons",
       "status": "pending"
+    },
+    {
+      "slug": "best-booking-websites-for-barbers-in-2026",
+      "url": "/blog/best-booking-websites-for-barbers-in-2026/",
+      "type": "listicle",
+      "cluster": "comparison",
+      "metaTitle": "Best Booking Websites for Barbers in 2026 | BookReady",
+      "metaDescription": "We tested 6 booking websites for barbers. BookReady, Squire, TheCut, Booksy, GlossGenius, and Setmore. Here is how they actually compare.",
+      "h1": "Best booking websites for barbers in 2026",
+      "primaryKeyword": "best booking websites for barbers",
+      "status": "shipped",
+      "shippedAt": "2026-06-08"
     }
   ]
 }
