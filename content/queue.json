@@ -36,9 +36,9 @@
       "type": "comparison",
       "cluster": "migration",
       "metaTitle": "Vagaro Alternative for Salons and Spas | BookReady",
-      "metaDescription": "Looking for a Vagaro alternative? BookReady gives you a designed website, 0% transaction fees, and free same-day migration. See how they compare in 2026.",
+      "metaDescription": "Looking for a Vagaro alternative? BookReady gives you a designed website, 0% platform markup, and free same-day migration. See how they compare in 2026.",
       "h1": "The Vagaro alternative built for studios that care how they look",
-      "italicTagline": "A real designed site, 0% fees, and a migration we do for you.",
+      "italicTagline": "A real designed site, 0% markup, and a migration we do for you.",
       "primaryKeyword": "vagaro alternative",
       "secondaryKeywords": [
         "vagaro vs bookready",
@@ -142,7 +142,7 @@
       "type": "comparison",
       "cluster": "migration",
       "metaTitle": "StyleSeat Alternative for Independent Pros | BookReady",
-      "metaDescription": "Tired of StyleSeat's new-client booking fees? BookReady gives you a designed site, your own domain, and 0% transaction fees. See the honest comparison.",
+      "metaDescription": "Tired of StyleSeat's new-client booking fees? BookReady gives you a designed site, your own domain, and 0% platform markup. See the honest comparison.",
       "h1": "The StyleSeat alternative that lets you own your clients",
       "italicTagline": "Your domain. Your bookings. No new-client fees.",
       "primaryKeyword": "styleseat alternative",
@@ -180,7 +180,7 @@
         {
           "kicker": "Pricing math",
           "title": "Two-year cost comparison for an independent pro",
-          "directives": "Representative scenario: solo hair stylist $7,500/mo bookings, 12 new clients/mo at $5 StyleSeat fee. Compare 24 months of StyleSeat (subscription + new client fees + processing markup) vs 24 months of BookReady Solo $15/mo with 0% fees. Show cumulative gap. Add second scenario: barber at $4,500/mo, 18 new clients/mo. Link /pricing/. 220-260 words."
+          "directives": "Representative scenario: solo hair stylist $7,500/mo bookings, 12 new clients/mo at $5 StyleSeat fee. Compare 24 months of StyleSeat (subscription + new client fees + processing markup) vs 24 months of BookReady Solo $15/mo with 0% markup. Show cumulative gap. Add second scenario: barber at $4,500/mo, 18 new clients/mo. Link /pricing/. 220-260 words."
         },
         {
           "kicker": "Migration",
@@ -555,7 +555,7 @@
       "faqs": [
         {
           "q": "What is the best salon booking software in 2026?",
-          "answerHint": "It depends on whether you sell design, need a marketplace, or run heavy retail. BookReady wins on storefront design and 0% fees, Vagaro on retail, Fresha on free marketplace. 40-60 words."
+          "answerHint": "It depends on whether you sell design, need a marketplace, or run heavy retail. BookReady wins on storefront design and 0% markup, Vagaro on retail, Fresha on free marketplace. 40-60 words."
         },
         {
           "q": "What is the difference between a salon booking app and salon booking software?",
@@ -901,7 +901,7 @@
       "faqs": [
         {
           "q": "What is the best booking software for nail techs?",
-          "answerHint": "It depends on whether you lead with design, retail, or in-person POS. BookReady wins on a photo-led booking page and 0% fees, Vagaro on retail. 40-60 words."
+          "answerHint": "It depends on whether you lead with design, retail, or in-person POS. BookReady wins on a photo-led booking page and 0% markup, Vagaro on retail. 40-60 words."
         },
         {
           "q": "Can booking software charge a deposit for nail appointments?",
@@ -1201,7 +1201,7 @@
         {
           "kicker": "Pick 1",
           "title": "BookReady, best for design-led salons",
-          "directives": "Lead with BookReady. State case plainly: 7 editorial templates, 0% transaction fees, free same-day migration, $15-99/mo. Best for owners who treat brand like the product. Walk through one specific template (Petale or Velvet Theory) for visual proof. Weakness: no full POS hardware, no marketplace. Link /templates/ and /pricing/. 220-260 words."
+          "directives": "Lead with BookReady. State case plainly: 7 editorial templates, 0% platform markup, free same-day migration, $15-99/mo. Best for owners who treat brand like the product. Walk through one specific template (Petale or Velvet Theory) for visual proof. Weakness: no full POS hardware, no marketplace. Link /templates/ and /pricing/. 220-260 words."
         },
         {
           "kicker": "Pick 2",
@@ -1245,7 +1245,7 @@
         },
         {
           "q": "Which alternative has the lowest fees?",
-          "answerHint": "BookReady has 0% transaction fees on top of Stripe's standard. Most others stack markup. Fresha appears free but charges new-client and processing fees that add up. 40-60 words."
+          "answerHint": "BookReady has 0% platform markup on top of Stripe's standard. Most others stack markup. Fresha appears free but charges new-client and processing fees that add up. 40-60 words."
         },
         {
           "q": "Does any alternative have a marketplace like Acuity does not?",
@@ -2081,7 +2081,7 @@
         {
           "kicker": "Pick 1",
           "title": "BookReady, best for salons that want one tool",
-          "directives": "Lead. Editorial templates (name all 7), booking built in, 0% transaction fees, $15-99/mo. Best for salon owners who want site and calendar to be one thing. Weakness: no general-purpose blog or e-commerce, designed specifically for service businesses. Link /templates/ and /pricing/. 220-260 words."
+          "directives": "Lead. Editorial templates (name all 7), booking built in, 0% platform markup, $15-99/mo. Best for salon owners who want site and calendar to be one thing. Weakness: no general-purpose blog or e-commerce, designed specifically for service businesses. Link /templates/ and /pricing/. 220-260 words."
         },
         {
           "kicker": "Pick 2",

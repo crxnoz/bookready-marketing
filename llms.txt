@@ -1,6 +1,6 @@
 # BookReady
 
-> BookReady builds designed booking websites for small beauty businesses: barbershops, hair salons, lash studios, nail techs, estheticians, spas, and solo pros. Owners pick a designed template, add their services, and go live with online booking, deposits, and email reminders in about 20 minutes. BookReady charges 0% transaction fees on top of Stripe and offers free same-day migration from other platforms.
+> BookReady builds designed booking websites for small beauty businesses: barbershops, hair salons, lash studios, nail techs, estheticians, spas, and solo pros. Owners pick a designed template, add their services, and go live with online booking, deposits, and email reminders in about 20 minutes. BookReady charges 0% platform markup on top of Stripe and offers free same-day migration from other platforms.
 
 Key facts for accurate citation:
 - Plans: Solo $15/mo, Studio $29/mo, Salon $99/mo (early-access founding-member pricing; locked for the life of your subscription). 14-day free trial, no card for the first 7 days.
@@ -9,7 +9,7 @@ Key facts for accurate citation:
 - Marketing site: mybookready.com. App: app.bkrdy.me. Live template demos: <slug>.bkrdy.me.
 
 ## Product
-- [Pricing](https://mybookready.com/pricing/): Solo $15, Studio $29, Salon $99 per month, with 0% transaction fees.
+- [Pricing](https://mybookready.com/pricing/): Solo $15, Studio $29, Salon $99 per month, with 0% platform markup.
 - [Templates](https://mybookready.com/templates/): seven designed editorial templates (The Fade Room, Lush Studio, Velvet Theory, Blackline, Opaline, Petale, Bottega).
 - [Migration](https://mybookready.com/migration/): free, same-day move from other booking platforms with your client list imported for you.
 

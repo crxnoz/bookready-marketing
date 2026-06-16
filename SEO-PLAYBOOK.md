@@ -61,7 +61,7 @@ links pointing at you. Work this list top to bottom.
 **Directory / roundup inclusion:**
 > Subject: BookReady for your [salon booking software] roundup
 > Hi [name], I run BookReady, a designed booking-website builder for beauty
-> businesses (0% transaction fees, free same-day migration). Your [article] is
+> businesses (0% platform markup, free same-day migration). Your [article] is
 > the best honest comparison I've found. Would you consider adding us? Happy to
 > send a one-paragraph blurb, screenshots, and a free account to test. Thanks for
 > the great resource. [link]
@@ -96,9 +96,8 @@ it a step in onboarding.
 - **Done:** Organization schema with logo + `sameAs` (Instagram
   @bkrdy.me). Add more socials (TikTok, LinkedIn, YouTube) to the `sameAs`
   array in `index.html` as you create them, each is a small brand signal.
-- **Quick win still open:** the homepage has no `og:image`, so link previews
-  when mybookready.com is shared have no thumbnail. Add a 1200x630 social image
-  and an `og:image` meta tag.
+- **Done:** the homepage `og:image` is set to the site hero
+  (`images/hero/hero.webp`), so shared links to mybookready.com show a thumbnail.
 - **Ongoing in code:** keep publishing (the engine handles it), keep clusters
   tight, refresh winning pages, and target featured snippets on high-intent
   queries.
@@ -121,7 +120,7 @@ Getting cited by ChatGPT, Claude, Perplexity, and Google AI Overviews is the new
 frontier. The mechanics differ from blue-link SEO.
 
 **Done in-repo:**
-- `llms.txt` at the root: a clean, factual map of BookReady (pricing, 0% fees,
+- `llms.txt` at the root: a clean, factual map of BookReady (pricing, 0% markup,
   niches, comparisons) so assistants describe and cite you accurately.
 - `robots.txt` explicitly welcomes AI crawlers (GPTBot, ClaudeBot,
   PerplexityBot) and does not block Google-Extended, so you are eligible for AI
