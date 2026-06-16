@@ -945,6 +945,34 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
 @media (max-width: 900px) { .br-pagehero__shot { transform: rotate(-0.8deg); } }
 @media (prefers-reduced-motion: reduce) { .br-pagehero__shot { transform: none; } }
 
+/* ─── Image placeholder (swap for a real <img> when ready) ─── */
+.br-imgph {
+  width: min(1360px, 100%);
+  margin: 8px auto 0;
+  padding: 0 20px;
+}
+.br-imgph__frame {
+  max-width: 960px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background:
+    repeating-linear-gradient(45deg, rgba(232,199,218,0.10) 0 14px, transparent 14px 28px),
+    linear-gradient(135deg, var(--card), var(--bg));
+  border: 1px dashed rgba(18,18,18,0.22);
+  color: var(--muted);
+}
+.br-imgph__label {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.br-imgph__hint { font-size: 12px; font-weight: 600; color: rgba(18,18,18,0.4); }
+
 /* ═══════════════════════════════════════════════════════════════
    Blog / guide reading layout  (set class="br-article" on <body>)
    Turns the section-stack into a centered, readable editorial column:
