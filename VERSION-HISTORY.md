@@ -74,10 +74,11 @@ grew a full content and SEO engine.
 
 ## What's next
 
-These are in motion (see [/roadmap/](https://mybookready.com/roadmap/) for the
-live view):
+A phased journey (see [/roadmap/](https://mybookready.com/roadmap/) for the full view):
 
-- **In build:** email campaigns, SMS marketing
-- **Up next:** win-back automations
-- **Planned:** more templates (nails, hair, solo pros), multi-location and team tools
-- **Exploring:** going international, API and white-label
+- **Phase 1 — Business essentials (in build):** group and recurring bookings, packages, gift cards, Reviews 2.0, SMS + calendar integrations, email and SMS campaigns, SEO tools.
+- **Phase 2 — Revenue growth:** memberships, loyalty, referrals, commerce, Availability 2.0.
+- **Phase 3 — Mobile ecosystem:** iOS and Android business apps.
+- **Phase 4 — Discovery network:** a customer-facing discovery and rewards layer.
+- **Phase 5 — Business growth platform:** marketing suite, analytics, AI features, deeper integrations.
+- **Phases 6 to 7 — Community and Marketplace:** the long-term vision.
