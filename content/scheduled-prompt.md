@@ -65,7 +65,12 @@ node content/generate-images.mjs wire <slug 1> <slug 2>
 
 ```bash
 node content/daily-publish.mjs --finalize
+node content/gen-related-guides.mjs
 ```
+
+`gen-related-guides.mjs` injects a "Guides for <niche>" links section into each
+`/for-<niche>/` industry page, pointing to shipped articles tagged with that
+industry. This keeps the internal-linking cluster current as new posts ship.
 
 This automatically:
 - Marks the 2 articles as `status="shipped"` in the queue
