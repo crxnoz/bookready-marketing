@@ -18,23 +18,6 @@ update rolls it forward on its own, with no separate version to bump.
   switching platforms).
 
 ## 2026.05
-- Velvet Theory template. Powers the live booking demo on the homepage.
-
-## 2026.04
-- SMS calculator to estimate texts before picking a plan.
-- Annual billing, at roughly two months free.
-
-## 2026.03
-- Lush Studio template.
-
-## 2026.02
-- Free same-day migration from other booking platforms.
-
-## 2026.01
-- The Fade Room template.
-
-## 2025.12
-- SMS and email appointment reminders.
-
-## 2025.11
-- Stripe deposits with 0% transaction fees.
+- **Soft launch.** The first three designed templates went live: The Fade Room
+  (barbershops), Velvet Theory (lash and beauty), and Lush Studio (spas and
+  estheticians). Booking, deposits, and reminders built in from day one.

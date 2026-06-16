@@ -39,36 +39,15 @@ grew a full content and SEO engine.
 
 ## 2026.05
 **Product**
-- Velvet Theory template. A deep, jewel-toned look that powers the live booking
-  demo on the homepage.
+- Soft launch. The first three designed templates went live: The Fade Room
+  (barbershops), Velvet Theory (lash and beauty), and Lush Studio (spas and
+  estheticians), with booking, deposits, and reminders built in.
 
 **Site**
-- The BookReady marketing site went live (May 31). Image-rich homepage with an
+- The BookReady marketing site went live (May 31): image-rich homepage with an
   interactive booking demo, full mega-menu navigation, capability-gated pricing
   with annual billing and an SMS calculator, and the Platform and Features
   sections (31 pages).
-
-## 2026.04
-- SMS calculator to estimate texts before picking a plan.
-- Annual billing, at roughly two months free.
-
-## 2026.03
-- Lush Studio template.
-
-## 2026.02
-- Free same-day migration from other booking platforms.
-
-## 2026.01
-- The Fade Room template.
-
-## 2025.12
-- SMS and email appointment reminders.
-
-## 2025.11
-- Stripe deposits with 0% transaction fees.
-
-## 2025.10
-- BookReady early access. The beginning.
 
 ---
 
