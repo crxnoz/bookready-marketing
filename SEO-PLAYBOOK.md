@@ -93,9 +93,12 @@ it a step in onboarding.
   cluster (industry pages now link down to their niche guides via
   `content/gen-related-guides.mjs`, articles link up to the industry/money
   pages); the autonomous daily publisher targeting low-kd terms first.
-- **Quick win waiting on you:** add `sameAs` (your real social profile URLs:
-  Instagram, TikTok, LinkedIn, etc.) and a logo to the Organization schema for a
-  stronger brand/knowledge-panel signal. Send me the URLs and I will wire it.
+- **Done:** Organization schema with logo + `sameAs` (Instagram
+  @bkrdy.me). Add more socials (TikTok, LinkedIn, YouTube) to the `sameAs`
+  array in `index.html` as you create them, each is a small brand signal.
+- **Quick win still open:** the homepage has no `og:image`, so link previews
+  when mybookready.com is shared have no thumbnail. Add a 1200x630 social image
+  and an `og:image` meta tag.
 - **Ongoing in code:** keep publishing (the engine handles it), keep clusters
   tight, refresh winning pages, and target featured snippets on high-intent
   queries.
