@@ -1,7 +1,18 @@
 ErrorDocument 404 /404.html
 
-# Force trailing slash on directory URLs (consolidates link equity to one canonical form)
 RewriteEngine On
+
+# Legacy URLs (pre-restructure) -> current equivalents. Preserves any link
+# equity and clears the GSC "Not found (404)" reports. The /wp-admin and
+# /wp-content 404s are bot probes and are correctly left as 404.
+RewriteRule ^booking-system/calendar-sync/?$ /platform/booking/sync/ [R=301,L]
+RewriteRule ^booking-system/client-dashboard/?$ /features/client/dashboard/ [R=301,L]
+RewriteRule ^booking-system/?$ /platform/booking/online/ [R=301,L]
+RewriteRule ^template/?$ /templates/ [R=301,L]
+RewriteRule ^features/personalized-branding/?$ /platform/website/sections/ [R=301,L]
+RewriteRule ^features/easy-editing/?$ /platform/website/templates/ [R=301,L]
+
+# Force trailing slash on directory URLs (consolidates link equity to one canonical form)
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_URI} !(.*)/$
 RewriteRule ^(.*)$ /$1/ [R=301,L]
