@@ -67,14 +67,14 @@
           {
             "@type": "Offer",
             "name": "Solo",
-            "price": "24",
+            "price": "15",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
           {
             "@type": "Offer",
             "name": "Studio",
-            "price": "49",
+            "price": "29",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
@@ -159,10 +159,10 @@
           },
           {
             "@type": "Question",
-            "name": "What if I run out of SMS in a month?",
+            "name": "Will these prices go up?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You'll get an email at 80% used. On Studio and Salon, additional messages are auto-billed at $0.025 each (with a hard cap you set). On Solo, you can buy a top-up pack or upgrade, whichever costs less."
+              "text": "These are early-access founding-member prices. Lock in your rate now and it stays put for as long as your subscription stays active, even as we add features and raise prices for new customers."
             }
           },
           {
@@ -170,7 +170,7 @@
             "name": "Is BookReady built for the US?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Right now, yes. SMS is 10DLC US-only, payments are Stripe US, and the booking flow assumes US business hours. International expansion is on the roadmap."
+              "text": "Right now, yes. Payments are Stripe US and the booking flow assumes US business hours. International expansion is on the roadmap."
             }
           }
         ]
@@ -1425,8 +1425,7 @@
           <p class="br-section__intro">
             Online booking, Stripe deposits, and unlimited appointments come
             standard on every plan. The plan you pick comes down to your team
-            size, whether you want your own domain, and how many texts you send
-            each month.
+            size and whether you want your own domain.
           </p>
         </div>
 
@@ -1447,55 +1446,35 @@
           </button>
         </div>
 
+        <p class="br-founder-note">
+          <strong>Founding-member pricing.</strong> Lock in this rate for life.
+          Early-access prices rise as we add features, but your rate stays put
+          for as long as you&rsquo;re subscribed.
+        </p>
+
         <div class="br-pricing-grid" aria-label="BookReady plans">
           <article
             class="br-plan"
             data-plan="solo"
-            data-base-m="24"
-            data-base-a="19"
-            data-sms-base="400"
+            data-base-m="15"
+            data-base-a="12.50"
           >
             <p class="br-plan__label">Solo</p>
             <h3>One person</h3>
             <div class="br-plan__price br-price-m">
-              $<span data-price-m>24</span><span>/mo</span>
+              $<span data-price-m>15</span><span>/mo</span>
             </div>
             <div class="br-plan__price br-price-a">
-              $<span data-price-a>19</span><span>/mo</span>
+              $<span data-price-a>12.50</span><span>/mo</span>
             </div>
             <p class="br-plan__period br-period-m" data-period-m>
               billed monthly
             </p>
             <p class="br-plan__period br-period-a" data-period-a>
-              billed annually &middot; save $60
+              billed annually ($150/yr) &middot; save $30
             </p>
 
-            <div class="br-sms-toggle" role="group" aria-label="SMS amount">
-              <button
-                type="button"
-                class="br-sms-toggle__btn is-active"
-                data-sms-mult="1"
-              >
-                1&times;
-              </button>
-              <button
-                type="button"
-                class="br-sms-toggle__btn"
-                data-sms-mult="2"
-              >
-                2&times;
-              </button>
-              <button
-                type="button"
-                class="br-sms-toggle__btn"
-                data-sms-mult="3"
-              >
-                3&times;
-              </button>
-            </div>
-            <p class="br-plan__sms">
-              <strong data-sms-amount>400</strong> SMS / month
-            </p>
+            <p class="br-plan__sms">SMS texting &middot; coming soon</p>
 
             <p class="br-plan__text">
               One calendar. For solo barbers, lash artists, nail techs, and
@@ -1520,56 +1499,30 @@
           <article
             class="br-plan br-plan--featured"
             data-plan="studio"
-            data-base-m="49"
-            data-base-a="39"
-            data-sms-base="1400"
+            data-base-m="29"
+            data-base-a="24"
           >
             <div class="br-plan__badge">Most Popular</div>
             <p class="br-plan__label">Studio</p>
             <h3>Small team</h3>
             <div class="br-plan__price br-price-m">
-              $<span data-price-m>49</span><span>/mo</span>
+              $<span data-price-m>29</span><span>/mo</span>
             </div>
             <div class="br-plan__price br-price-a">
-              $<span data-price-a>39</span><span>/mo</span>
+              $<span data-price-a>24</span><span>/mo</span>
             </div>
             <p class="br-plan__period br-period-m" data-period-m>
               billed monthly
             </p>
             <p class="br-plan__period br-period-a" data-period-a>
-              billed annually &middot; save $120
+              billed annually ($290/yr) &middot; save $58
             </p>
 
-            <div class="br-sms-toggle" role="group" aria-label="SMS amount">
-              <button
-                type="button"
-                class="br-sms-toggle__btn is-active"
-                data-sms-mult="1"
-              >
-                1&times;
-              </button>
-              <button
-                type="button"
-                class="br-sms-toggle__btn"
-                data-sms-mult="2"
-              >
-                2&times;
-              </button>
-              <button
-                type="button"
-                class="br-sms-toggle__btn"
-                data-sms-mult="3"
-              >
-                3&times;
-              </button>
-            </div>
-            <p class="br-plan__sms">
-              <strong data-sms-amount>1,400</strong> SMS / month
-            </p>
+            <p class="br-plan__sms">SMS texting &middot; coming soon</p>
 
             <p class="br-plan__text">
               For small studios with two to five staff. Same full feature set as
-              Solo, more team seats, more SMS.
+              Solo, just with more team seats.
             </p>
             <ul class="br-plan__list">
               <li>Up to 5 staff accounts</li>
@@ -1592,7 +1545,6 @@
             data-plan="salon"
             data-base-m="99"
             data-base-a="79"
-            data-sms-base="2000"
           >
             <div class="br-plan__badge br-plan__badge--soon">Coming Soon</div>
             <p class="br-plan__label">Salon</p>
@@ -1607,35 +1559,10 @@
               billed monthly
             </p>
             <p class="br-plan__period br-period-a" data-period-a>
-              billed annually &middot; save $240
+              billed annually ($948/yr) &middot; save $240
             </p>
 
-            <div class="br-sms-toggle" role="group" aria-label="SMS amount">
-              <button
-                type="button"
-                class="br-sms-toggle__btn is-active"
-                data-sms-mult="1"
-              >
-                1&times;
-              </button>
-              <button
-                type="button"
-                class="br-sms-toggle__btn"
-                data-sms-mult="2"
-              >
-                2&times;
-              </button>
-              <button
-                type="button"
-                class="br-sms-toggle__btn"
-                data-sms-mult="3"
-              >
-                3&times;
-              </button>
-            </div>
-            <p class="br-plan__sms">
-              <strong data-sms-amount>2,000</strong> SMS / month
-            </p>
+            <p class="br-plan__sms">SMS texting &middot; coming soon</p>
 
             <p class="br-plan__text">
               For multi-location salons and teams of 5 to 25. Multi-location,
@@ -1687,96 +1614,7 @@
           <span class="br-risk-row__item">Free migration</span>
         </div>
 
-        <div class="br-sms-calc" data-sms-calc>
-          <div class="br-sms-calc__head">
-            <p class="br-kicker">SMS calculator</p>
-            <h3 class="br-sms-calc__title">
-              Don&rsquo;t know how many texts you&rsquo;ll need?
-            </h3>
-            <p class="br-sms-calc__sub">
-              Plug in your numbers. We&rsquo;ll point you at the right plan.
-            </p>
-          </div>
-
-          <div class="br-sms-calc__body">
-            <div class="br-sms-calc__inputs">
-              <div class="br-sms-calc__row">
-                <label class="br-sms-calc__field">
-                  <span>Working days / month</span>
-                  <input
-                    type="number"
-                    min="1"
-                    max="31"
-                    value="22"
-                    inputmode="numeric"
-                    data-calc-days
-                  />
-                </label>
-                <label class="br-sms-calc__field">
-                  <span>Staff / chairs</span>
-                  <input
-                    type="number"
-                    min="1"
-                    max="50"
-                    value="1"
-                    inputmode="numeric"
-                    data-calc-staff
-                  />
-                </label>
-              </div>
-              <label class="br-sms-calc__field">
-                <span>Avg bookings per staff per day</span>
-                <input
-                  type="number"
-                  min="0"
-                  max="50"
-                  value="6"
-                  inputmode="numeric"
-                  data-calc-bookings
-                />
-              </label>
-
-              <fieldset class="br-sms-calc__notifs">
-                <legend>Send a text for</legend>
-                <label class="br-sms-calc__check">
-                  <input type="checkbox" checked data-calc-confirm />
-                  <span
-                    ><strong>Booking confirmations</strong> &middot; 1 per
-                    booking</span
-                  >
-                </label>
-                <label class="br-sms-calc__check">
-                  <input type="checkbox" checked data-calc-remind />
-                  <span
-                    ><strong>Reminders</strong> &middot; 1 per booking, sent 24h
-                    before</span
-                  >
-                </label>
-                <label class="br-sms-calc__check">
-                  <input type="checkbox" data-calc-cancel />
-                  <span
-                    ><strong>Cancel + reschedule alerts</strong> &middot; ~0.2
-                    per booking</span
-                  >
-                </label>
-              </fieldset>
-            </div>
-
-            <div class="br-sms-calc__output">
-              <p class="br-sms-calc__label">Estimated SMS / month</p>
-              <p class="br-sms-calc__total">
-                ~<strong data-calc-total>264</strong>
-              </p>
-              <p class="br-sms-calc__rec" data-calc-rec>
-                Solo at 1&times; covers you
-              </p>
-              <p class="br-sms-calc__fine">
-                Confirmations and verification codes don&rsquo;t count toward
-                your quota.
-              </p>
-            </div>
-          </div>
-        </div>
+        <!-- SMS calculator removed: SMS texting is not live yet (coming soon, free at launch). -->
       </div>
     </section>
 
@@ -1849,7 +1687,7 @@
                 <path d="M13.7 21a2 2 0 01-3.4 0" /></svg
             ></span>
             <h3>Auto reminders</h3>
-            <p>SMS + email, 24h before. No-shows cut roughly in half.</p>
+            <p>Email reminders 24h before, SMS coming soon. No-shows cut roughly in half.</p>
           </div>
 
           <div class="br-marquee__card">
@@ -2234,21 +2072,21 @@
           </details>
 
           <details class="br-faq__item">
-            <summary>What if I run out of SMS in a month?</summary>
+            <summary>Will these prices go up?</summary>
             <p>
-              You&rsquo;ll get an email at 80% used. On Studio and Salon,
-              additional messages are auto-billed at $0.025 each (with a hard
-              cap you set). On Solo, you can buy a top-up pack or upgrade,
-              whichever costs less.
+              These are early-access founding-member prices. Lock in your rate
+              now and it stays put for as long as your subscription stays
+              active, even as we add features and raise prices for new
+              customers.
             </p>
           </details>
 
           <details class="br-faq__item">
             <summary>Is BookReady built for the US?</summary>
             <p>
-              Right now, yes. SMS is 10DLC US-only, payments are Stripe US, and
-              the booking flow assumes US business hours. International
-              expansion is on the roadmap.
+              Right now, yes. Payments are Stripe US and the booking flow
+              assumes US business hours. International expansion is on the
+              roadmap.
             </p>
           </details>
         </div>

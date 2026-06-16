@@ -64,7 +64,7 @@
         {
           "kicker": "The money",
           "title": "Pricing math: what each platform actually costs per year",
-          "directives": "Three scenarios: (1) $4K/mo solo Vagaro vs BookReady Solo $24/mo, (2) $10K/mo two-chair Vagaro vs Studio $49/mo, (3) $25K/mo five-chair Vagaro vs Salon $99/mo. Show annual savings per row. Link /pricing/. 220-260 words."
+          "directives": "Three scenarios: (1) $4K/mo solo Vagaro vs BookReady Solo $15/mo, (2) $10K/mo two-chair Vagaro vs Studio $29/mo, (3) $25K/mo five-chair Vagaro vs Salon $99/mo. Show annual savings per row. Link /pricing/. 220-260 words."
         },
         {
           "kicker": "Design honesty",
@@ -106,7 +106,7 @@
         },
         {
           "q": "Can I run booth renters like Vagaro?",
-          "answerHint": "Yes on Studio at $49/mo. Each renter own services, calendar, Stripe payout, sees only own clients. 30-50 words."
+          "answerHint": "Yes on Studio at $29/mo. Each renter own services, calendar, Stripe payout, sees only own clients. 30-50 words."
         },
         {
           "q": "What about memberships and packages?",
@@ -180,7 +180,7 @@
         {
           "kicker": "Pricing math",
           "title": "Two-year cost comparison for an independent pro",
-          "directives": "Representative scenario: solo hair stylist $7,500/mo bookings, 12 new clients/mo at $5 StyleSeat fee. Compare 24 months of StyleSeat (subscription + new client fees + processing markup) vs 24 months of BookReady Solo $24/mo with 0% fees. Show cumulative gap. Add second scenario: barber at $4,500/mo, 18 new clients/mo. Link /pricing/. 220-260 words."
+          "directives": "Representative scenario: solo hair stylist $7,500/mo bookings, 12 new clients/mo at $5 StyleSeat fee. Compare 24 months of StyleSeat (subscription + new client fees + processing markup) vs 24 months of BookReady Solo $15/mo with 0% fees. Show cumulative gap. Add second scenario: barber at $4,500/mo, 18 new clients/mo. Link /pricing/. 220-260 words."
         },
         {
           "kicker": "Migration",
@@ -291,7 +291,7 @@
         {
           "kicker": "The alternative",
           "title": "What to use once you own your clients",
-          "directives": "Make the BookReady case briefly and fairly: a designed site on your own domain, 0% transaction markup, free same-day migration, $24-99/mo. Best for pros past the cold-start stage. Name a barber-friendly template (The Fade Room or Blackline). Link /templates/ and /compare/booksy-alternative/. 200-240 words."
+          "directives": "Make the BookReady case briefly and fairly: a designed site on your own domain, 0% transaction markup, free same-day migration, $15-99/mo. Best for pros past the cold-start stage. Name a barber-friendly template (The Fade Room or Blackline). Link /templates/ and /compare/booksy-alternative/. 200-240 words."
         }
       ],
       "faqs": [
@@ -534,7 +534,7 @@
         {
           "kicker": "The money",
           "title": "What each one actually costs once fees are counted",
-          "directives": "Fee math for a two-chair salon at $10K/mo: subscription + per-staff add-ons + transaction markup, annualized. Show BookReady Studio $49/mo + 0% markup vs the stacked-fee competitors. Be specific with real fee structures (per-staff fees on Booksy, new-client fees on Fresha). Link /pricing/. 220-260 words."
+          "directives": "Fee math for a two-chair salon at $10K/mo: subscription + per-staff add-ons + transaction markup, annualized. Show BookReady Studio $29/mo + 0% markup vs the stacked-fee competitors. Be specific with real fee structures (per-staff fees on Booksy, new-client fees on Fresha). Link /pricing/. 220-260 words."
         },
         {
           "kicker": "Design honesty",
@@ -799,7 +799,7 @@
         },
         {
           "q": "How much does a booking website cost?",
-          "answerHint": "A designed template with booking runs about $24-99 a month all in. A custom build with a developer plus plugins can run hundreds a month. 40-60 words."
+          "answerHint": "A designed template with booking runs about $15-99 a month all in. A custom build with a developer plus plugins can run hundreds a month. 40-60 words."
         },
         {
           "q": "Can I use my own domain?",
@@ -848,7 +848,8 @@
         "opportunity": "Core BookReady theme. The how-to intent funnels straight to templates: the answer to how to make a booking website is a designed template with booking built in. Fold salon website builder into the queued best-builders piece as a secondary.",
         "validatedAt": "2026-06-16"
       },
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-06-16"
     },
     {
       "slug": "nail-salon-booking-software",
@@ -955,7 +956,8 @@
         "opportunity": "The niche booking piece. Low volume but right audience and low difficulty, and it reinforces the nail-tech industry page.",
         "validatedAt": "2026-06-16"
       },
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-06-16"
     },
     {
       "slug": "eyelash-extension-prices",
@@ -1199,7 +1201,7 @@
         {
           "kicker": "Pick 1",
           "title": "BookReady, best for design-led salons",
-          "directives": "Lead with BookReady. State case plainly: 7 editorial templates, 0% transaction fees, free same-day migration, $24-99/mo. Best for owners who treat brand like the product. Walk through one specific template (Petale or Velvet Theory) for visual proof. Weakness: no full POS hardware, no marketplace. Link /templates/ and /pricing/. 220-260 words."
+          "directives": "Lead with BookReady. State case plainly: 7 editorial templates, 0% transaction fees, free same-day migration, $15-99/mo. Best for owners who treat brand like the product. Walk through one specific template (Petale or Velvet Theory) for visual proof. Weakness: no full POS hardware, no marketplace. Link /templates/ and /pricing/. 220-260 words."
         },
         {
           "kicker": "Pick 2",
@@ -1251,7 +1253,7 @@
         },
         {
           "q": "Which is best for a one-person salon?",
-          "answerHint": "BookReady Solo ($24/mo) or GlossGenius if you need in-person POS. BookReady wins on design and zero fees, GlossGenius wins on tap-to-pay flow. 30-50 words."
+          "answerHint": "BookReady Solo ($15/mo) or GlossGenius if you need in-person POS. BookReady wins on design and zero fees, GlossGenius wins on tap-to-pay flow. 30-50 words."
         },
         {
           "q": "Which is best for a 5-chair salon?",
@@ -2079,7 +2081,7 @@
         {
           "kicker": "Pick 1",
           "title": "BookReady, best for salons that want one tool",
-          "directives": "Lead. Editorial templates (name all 7), booking built in, 0% transaction fees, $24-99/mo. Best for salon owners who want site and calendar to be one thing. Weakness: no general-purpose blog or e-commerce, designed specifically for service businesses. Link /templates/ and /pricing/. 220-260 words."
+          "directives": "Lead. Editorial templates (name all 7), booking built in, 0% transaction fees, $15-99/mo. Best for salon owners who want site and calendar to be one thing. Weakness: no general-purpose blog or e-commerce, designed specifically for service businesses. Link /templates/ and /pricing/. 220-260 words."
         },
         {
           "kicker": "Pick 2",
@@ -2143,7 +2145,7 @@
         },
         {
           "q": "How much does a salon website actually cost per year?",
-          "answerHint": "BookReady: $288-1188/yr all-in. Squarespace + Acuity: $432-1368/yr plus fees. Wix: $204-1908/yr. Showit: $228-408/yr plus add-ons. 40-60 words."
+          "answerHint": "BookReady: $180-1188/yr all-in. Squarespace + Acuity: $432-1368/yr plus fees. Wix: $204-1908/yr. Showit: $228-408/yr plus add-ons. 40-60 words."
         }
       ],
       "internalLinks": [
@@ -2415,7 +2417,7 @@
         {
           "kicker": "Math",
           "title": "The actual hours per week you spend on DM booking",
-          "directives": "Math exercise. Solo pro at 100 active clients receives 40-60 booking DMs per week. Average reply time per DM with back-and-forth: 4-7 minutes. That's 3-7 hours per week on DM booking alone. Hourly rate equivalent at $100/hr: $300-700/week. Suddenly the $24/mo website is cheapest thing you buy. 220-260 words."
+          "directives": "Math exercise. Solo pro at 100 active clients receives 40-60 booking DMs per week. Average reply time per DM with back-and-forth: 4-7 minutes. That's 3-7 hours per week on DM booking alone. Hourly rate equivalent at $100/hr: $300-700/week. Suddenly the $15/mo website is cheapest thing you buy. 220-260 words."
         },
         {
           "kicker": "Conversion",
@@ -2469,7 +2471,7 @@
           "answerHint": "Keep Instagram for discovery. Bio link points to booking site. Discovery on social, conversion on your site. 30-50 words."
         },
         {
-          "q": "Is it worth $24/mo for a website if I am just starting?",
+          "q": "Is it worth $15/mo for a website if I am just starting?",
           "answerHint": "If revenue under $2,000/mo, probably not yet. Above that, time savings alone pay for it 10x over. 30-50 words."
         },
         {

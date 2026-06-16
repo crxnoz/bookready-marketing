@@ -45,7 +45,7 @@
         {
           "kicker": "The money",
           "title": "What each one actually costs once fees are counted",
-          "directives": "Fee math for a two-chair salon at $10K/mo: subscription + per-staff add-ons + transaction markup, annualized. Show BookReady Studio $49/mo + 0% markup vs the stacked-fee competitors. Be specific with real fee structures (per-staff fees on Booksy, new-client fees on Fresha). Link /pricing/. 220-260 words."
+          "directives": "Fee math for a two-chair salon at $10K/mo: subscription + per-staff add-ons + transaction markup, annualized. Show BookReady Studio $29/mo + 0% markup vs the stacked-fee competitors. Be specific with real fee structures (per-staff fees on Booksy, new-client fees on Fresha). Link /pricing/. 220-260 words."
         },
         {
           "kicker": "Design honesty",
@@ -180,7 +180,7 @@
         {
           "kicker": "The alternative",
           "title": "What to use once you own your clients",
-          "directives": "Make the BookReady case briefly and fairly: a designed site on your own domain, 0% transaction markup, free same-day migration, $24-99/mo. Best for pros past the cold-start stage. Name a barber-friendly template (The Fade Room or Blackline). Link /templates/ and /compare/booksy-alternative/. 200-240 words."
+          "directives": "Make the BookReady case briefly and fairly: a designed site on your own domain, 0% transaction markup, free same-day migration, $15-99/mo. Best for pros past the cold-start stage. Name a barber-friendly template (The Fade Room or Blackline). Link /templates/ and /compare/booksy-alternative/. 200-240 words."
         }
       ],
       "faqs": [
@@ -1078,7 +1078,7 @@
         },
         {
           "q": "How much does a booking website cost?",
-          "answerHint": "A designed template with booking runs about $24-99 a month all in. A custom build with a developer plus plugins can run hundreds a month. 40-60 words."
+          "answerHint": "A designed template with booking runs about $15-99 a month all in. A custom build with a developer plus plugins can run hundreds a month. 40-60 words."
         },
         {
           "q": "Can I use my own domain?",

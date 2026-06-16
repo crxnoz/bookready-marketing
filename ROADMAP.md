@@ -58,7 +58,7 @@ Closes the "Coming soon" badge in the Industries mega-nav. Highest-search-volume
 
 - **Target keyword**: "makeup artist booking website" (~100-200/mo), "MUA portfolio website" (~150-300/mo), "bridal makeup booking site" (~100-200/mo)
 - **Templates to feature**: Velvet Theory (editorial), Opaline (quiet luxury), Petale (bridal/romantic)
-- **Recommended plan**: Solo ($24/mo) — most MUAs are solo or 1-2 team
+- **Recommended plan**: Solo ($15/mo) — most MUAs are solo or 1-2 team
 - **Effort**: ~4 hr (1,200-word page following the established industry-page template)
 - **Wire-up**: remove "Soon" tag from nav, add `/for-makeup-artists/` to footer, sitemap entry, update related-strip on Velvet Theory + Opaline + Petale pages
 
@@ -66,7 +66,7 @@ Closes the "Coming soon" badge in the Industries mega-nav. Highest-search-volume
 
 Vagaro has the highest unwon comparison-page search volume per the competitor analysis. "Vagaro alternative" = 400-900/mo.
 
-- **Per-competitor angle**: Vagaro is the multi-service salon/spa giant. BookReady wins on price ($24 vs $25-$199+/mo + their per-booking fees), designed templates, and beauty-specific focus.
+- **Per-competitor angle**: Vagaro is the multi-service salon/spa giant. BookReady wins on price ($15 vs $25-$199+/mo + their per-booking fees), designed templates, and beauty-specific focus.
 - **Where Vagaro wins**: multi-location, deep loyalty + gift cards, full POS, inventory.
 - **Effort**: ~3 hr (follows the established comparison-page template)
 - **Wire-up**: sibling-strip update on existing 5 comparison pages, footer Switching col, nav Resources/Switching col, sitemap

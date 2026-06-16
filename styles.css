@@ -2407,6 +2407,20 @@ button { cursor: pointer; font: inherit; }
 [data-billing="monthly"] .br-period-a { display: none; }
 [data-billing="annual"] .br-price-m,
 [data-billing="annual"] .br-period-m { display: none; }
+
+/* Founding-member pricing note — sits between the billing toggle and the grid */
+.br-founder-note {
+  max-width: 640px;
+  margin: 0 auto 30px;
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--accent);
+  border: 1px solid var(--border);
+}
+.br-founder-note strong { font-weight: 800; }
 .br-plan__period {
   font-size: 12px;
   font-weight: 700;
