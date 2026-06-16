@@ -85,6 +85,20 @@ Co-Authored-By: Claude Daily Publisher <noreply@anthropic.com>"
 git push origin main
 ```
 
+## Step 8: Email the daily digest
+
+After the push, email the daily blog update (today's live post plus the rest of
+the month's lineup):
+
+```bash
+node content/notify-email.mjs
+```
+
+- Sends via Resend to `NOTIFY_EMAIL`. If `RESEND_API_KEY` or `NOTIFY_EMAIL` is
+  not set, it skips gracefully and the run still succeeds.
+- Run it last, after the push, so the post and its hero image are live when the
+  email links to them.
+
 ## Quality gates (fail-stop conditions)
 
 If any of these fail for an article, do NOT publish it. Instead, mark the queue entry `status="failed"` with `failureReason`, and skip:
