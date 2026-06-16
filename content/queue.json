@@ -1953,6 +1953,542 @@
       "primaryKeyword": "best booking websites for barbers",
       "status": "shipped",
       "shippedAt": "2026-06-08"
+    },
+    {
+      "slug": "nail-tech-price-list",
+      "url": "/guides/nail-tech-price-list/",
+      "type": "guide",
+      "cluster": "pricing",
+      "metaTitle": "Nail Tech Price List + Free Template | BookReady",
+      "metaDescription": "A free nail tech price list template, real 2026 price ranges by service, and how to set deposits and upcharges that protect your time. From BookReady.",
+      "h1": "The nail tech price list, done right",
+      "italicTagline": "A free template, real price ranges, and how to set yours.",
+      "primaryKeyword": "nail tech price list",
+      "secondaryKeywords": [
+        "nail tech price list template",
+        "nail salon price list",
+        "nail technician prices",
+        "how much to charge for nails",
+        "nail service pricing"
+      ],
+      "estVolume": "110/mo",
+      "intent": "MOFU",
+      "intro": "180-220 word intro for nail techs and new nail salon owners building or refreshing their price menu. Promise a copy-and-paste structure, real 2026 ranges, and the upcharge and deposit logic that keeps the menu profitable. Note that a clear price list is also what your booking page needs, and that BookReady turns the menu into a live booking flow. No em-dashes, practical and friendly.",
+      "sections": [
+        {
+          "kicker": "The template",
+          "title": "The copy-and-paste nail price list",
+          "directives": "Give a structured template covering core services (manicure, gel, dip, full set acrylic, fill, pedicure) with placeholder price fields and a notes column. Present in a styled list or callout. 180-220 words including the template."
+        },
+        {
+          "kicker": "Set your prices",
+          "title": "How to price each service in 2026",
+          "directives": "Give real ranges by service and tier (budget, mid, premium markets) and explain how to position. Cite that pricing should reflect time plus product plus skill, not just match the salon down the street. 200-240 words."
+        },
+        {
+          "kicker": "Upcharges",
+          "title": "Add-ons and upcharges that add up",
+          "directives": "List the profitable add-ons (nail art per nail, length, removal, repairs, French) and how to price them as line items, not freebies. 180-220 words."
+        },
+        {
+          "kicker": "Deposits",
+          "title": "Put a deposit on the menu",
+          "directives": "Make the case for a deposit on full sets and long services to cut no-shows, and how to show it on the price list. Link /platform/tools/payments/. 160-200 words."
+        },
+        {
+          "kicker": "Go live",
+          "title": "Turn your price list into a booking page",
+          "directives": "Show the payoff: each menu item becomes a bookable service with its price and deposit, on your own site. Link /for-nail-techs/ and /templates/. 160-200 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How much should a nail tech charge in 2026?",
+          "answerHint": "It depends on market and service. A gel manicure commonly runs $40-65, a full acrylic set $55-90. Price for your time, product, and skill, not just the shop next door. 40-60 words."
+        },
+        {
+          "q": "Should I charge separately for nail art?",
+          "answerHint": "Yes. Price art per nail or by complexity as a line item. Free art quietly eats your most profitable time. 30-50 words."
+        },
+        {
+          "q": "Do I need a deposit for nail appointments?",
+          "answerHint": "For full sets and long services, yes. A deposit cuts no-shows sharply and is easy to show on your price list and booking page. 40-60 words."
+        },
+        {
+          "q": "How do I raise my prices without losing clients?",
+          "answerHint": "Give notice, raise in small steps, and lead with the value (sanitation, skill, time). Most regulars stay. 40-60 words."
+        },
+        {
+          "q": "Where should my price list live?",
+          "answerHint": "On your booking page, so the price and deposit are attached to each service a client books, not buried in a PDF. 30-50 words."
+        },
+        {
+          "q": "Can BookReady show prices and take deposits per service?",
+          "answerHint": "Yes. Each service carries its own price and optional deposit, charged through Stripe at booking. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/for-nail-techs/",
+        "/platform/tools/payments/",
+        "/pricing/",
+        "/platform/tools/customers/",
+        "/templates/"
+      ],
+      "recommendedFeaturedTemplate": "petale",
+      "recommendedRelatedIndustry": "nail-techs",
+      "ctaPlan": "Solo",
+      "ctaIndustry": "nail-techs",
+      "research": {
+        "source": "dataforseo",
+        "volume": 110,
+        "difficulty": 0,
+        "relatedTargets": [
+          {
+            "keyword": "nail tech price list template",
+            "volume": 50,
+            "difficulty": 0
+          },
+          {
+            "keyword": "nail technician prices",
+            "volume": 170,
+            "difficulty": 1
+          }
+        ],
+        "competitionLevel": "low",
+        "serpNotes": "kd0 owner-intent term. SERP is template sites and salon blogs, no strong booking-software brand owns it. A free template plus a real pricing guide can rank and funnel nail techs to BookReady.",
+        "opportunity": "High-convert owner content: the searcher is building a service menu, which is exactly what BookReady sets up. Pairs with the niche booking piece to build the /for-nail-techs/ cluster.",
+        "validatedAt": "2026-06-16"
+      },
+      "status": "pending"
+    },
+    {
+      "slug": "eyelash-extension-prices",
+      "url": "/blog/eyelash-extension-prices/",
+      "type": "blog",
+      "cluster": "pricing",
+      "metaTitle": "Eyelash Extension Prices: 2026 Guide | BookReady",
+      "metaDescription": "What eyelash extensions cost in 2026: full sets, fills, and by type (classic, hybrid, volume). Plus how lash artists set prices that hold. From BookReady.",
+      "h1": "Eyelash extension prices, explained",
+      "italicTagline": "What full sets and fills really cost, and how artists set them.",
+      "primaryKeyword": "eyelash extension prices",
+      "secondaryKeywords": [
+        "eyelash extension pricing",
+        "eyelash extension price list",
+        "how much do eyelash extensions cost",
+        "lash fill prices",
+        "eyelash extension cost"
+      ],
+      "estVolume": "5400/mo",
+      "intent": "TOFU",
+      "intro": "200-240 word intro that serves two readers honestly: clients researching what lash extensions cost, and new lash artists deciding what to charge. Give the ranges up front, explain why they vary, then transition to the artist side. No em-dashes, clear and useful, not salesy.",
+      "sections": [
+        {
+          "kicker": "The ranges",
+          "title": "What eyelash extensions cost in 2026",
+          "directives": "Give real price ranges: full sets $100-300+ and fills $50-120, varying by type and market. Present a clear at-a-glance by-type breakdown. 200-240 words."
+        },
+        {
+          "kicker": "By type",
+          "title": "Classic, hybrid, volume, and mega volume",
+          "directives": "Explain the four common set types, the time and skill each takes, and why the price climbs. Use a short comparison table. 200-240 words."
+        },
+        {
+          "kicker": "Fills vs sets",
+          "title": "Why fills cost less than a new set",
+          "directives": "Explain the fill cycle (every 2-3 weeks), why a fill is cheaper, and what happens if you wait too long. 160-200 words."
+        },
+        {
+          "kicker": "For artists",
+          "title": "How lash artists actually set prices",
+          "directives": "Switch to the artist reader: price for time plus product plus skill plus overhead, position by market, and review yearly. Practical. 200-240 words."
+        },
+        {
+          "kicker": "Run the business",
+          "title": "Pricing is half the job, booking is the other half",
+          "directives": "For new and growing lash artists: a clear price list plus deposits and a designed booking page protect your time and your brand. Link /for-lash-artists/ and /platform/tools/payments/. 180-220 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How much do eyelash extensions cost?",
+          "answerHint": "A full set commonly runs $100-300+ and fills $50-120, depending on the type (classic to mega volume) and your local market. 40-60 words."
+        },
+        {
+          "q": "Why are volume lashes more expensive?",
+          "answerHint": "They take more time and skill: the artist hand-makes fans of multiple fine lashes per natural lash. More work, higher price. 40-60 words."
+        },
+        {
+          "q": "How often do I need fills?",
+          "answerHint": "Every 2-3 weeks for most people. Wait too long and you may need a new full set instead of a fill. 30-50 words."
+        },
+        {
+          "q": "How should a lash artist price a full set?",
+          "answerHint": "Cover your time, product, skill, and overhead, then position for your market. Do not just match the studio down the street. 40-60 words."
+        },
+        {
+          "q": "Should lash artists require a deposit?",
+          "answerHint": "Yes. Full sets are long appointments, so a deposit protects against no-shows and is easy to show at booking. 40-60 words."
+        },
+        {
+          "q": "What is the easiest way to take lash bookings and deposits?",
+          "answerHint": "A designed booking page where each service carries its price and deposit, charged through Stripe. BookReady sets this up in about 20 minutes. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/for-lash-artists/",
+        "/templates/",
+        "/platform/tools/payments/",
+        "/pricing/"
+      ],
+      "recommendedFeaturedTemplate": "velvettheory",
+      "recommendedRelatedIndustry": "lash-artists",
+      "ctaPlan": "Solo",
+      "ctaIndustry": "lash-artists",
+      "research": {
+        "source": "dataforseo",
+        "volume": 5400,
+        "difficulty": 0,
+        "relatedTargets": [
+          {
+            "keyword": "eyelash extension price list",
+            "volume": 140,
+            "difficulty": 0
+          },
+          {
+            "keyword": "eyelash extension prices near me",
+            "volume": 590,
+            "difficulty": 0
+          }
+        ],
+        "competitionLevel": "low",
+        "serpNotes": "Huge 5400/mo at kd0. Intent is mostly client-side (people pricing a service), so treat this as an authority and top-of-funnel play, not a direct conversion piece. The artist-facing half captures new lash pros deciding what to charge.",
+        "opportunity": "Authority lift for a young domain plus a real new-lash-artist funnel. Dual-intent: be honest that most readers are clients. Funnels the artist slice to /for-lash-artists/.",
+        "validatedAt": "2026-06-16"
+      },
+      "status": "pending"
+    },
+    {
+      "slug": "waxing-prices",
+      "url": "/blog/waxing-prices/",
+      "type": "blog",
+      "cluster": "pricing",
+      "metaTitle": "Waxing Prices: 2026 Guide + Price List | BookReady",
+      "metaDescription": "What waxing costs in 2026 by service, from brows to Brazilian, plus how estheticians build a wax price list that protects their time. From BookReady.",
+      "h1": "Waxing prices, by service",
+      "italicTagline": "Real price ranges, and how to set your own.",
+      "primaryKeyword": "waxing prices",
+      "secondaryKeywords": [
+        "how much does waxing cost",
+        "waxing prices list",
+        "brazilian wax price",
+        "eyebrow wax price",
+        "waxing service prices"
+      ],
+      "estVolume": "880/mo",
+      "intent": "TOFU",
+      "intro": "200-240 word intro serving clients pricing a wax and estheticians building a menu. Give ranges up front, then the menu-building side. No em-dashes, clear and practical.",
+      "sections": [
+        {
+          "kicker": "The ranges",
+          "title": "What waxing costs by service in 2026",
+          "directives": "Give real ranges by area (brows, lip, underarm, full leg, Brazilian, back) in a clear table. 200-240 words."
+        },
+        {
+          "kicker": "What drives price",
+          "title": "Why the same wax costs more in some places",
+          "directives": "Explain the factors: area and time, hard vs soft wax, market, and experience. 160-200 words."
+        },
+        {
+          "kicker": "Build the menu",
+          "title": "How to build a wax price list that holds",
+          "directives": "For estheticians: bundle logic, package pricing for regulars, and clear single-service prices. 200-240 words."
+        },
+        {
+          "kicker": "Protect your time",
+          "title": "Deposits and late policies for waxing",
+          "directives": "Short appointments mean no-shows hurt. Cover light deposits or card-on-file and a clear late policy. Link /platform/tools/payments/. 160-200 words."
+        },
+        {
+          "kicker": "Take bookings",
+          "title": "Put your menu on a booking page",
+          "directives": "Each service with its price and policy, on your own site. Link /for-estheticians/ and /templates/. 160-200 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How much does waxing cost?",
+          "answerHint": "It ranges by area: brows around $12-25, a Brazilian around $45-90, full legs around $50-90, depending on your market. 40-60 words."
+        },
+        {
+          "q": "Why is a Brazilian wax more expensive?",
+          "answerHint": "It is a sensitive, detailed area that takes more time and skill, so it sits at the higher end of the menu. 40-60 words."
+        },
+        {
+          "q": "Should estheticians offer waxing packages?",
+          "answerHint": "Yes, for regulars. A prepaid package of recurring services smooths income and rewards loyalty. 40-60 words."
+        },
+        {
+          "q": "Do I need deposits for waxing if appointments are short?",
+          "answerHint": "A light deposit or card on file still helps, since short slots are easy to no-show and quick to lose. 40-60 words."
+        },
+        {
+          "q": "How often should clients book waxing?",
+          "answerHint": "Every 3-5 weeks for most areas, which makes recurring bookings and reminders worth setting up. 30-50 words."
+        },
+        {
+          "q": "What is the easiest way to take waxing bookings?",
+          "answerHint": "A booking page where each service shows its price and policy, charged through Stripe. BookReady sets it up fast. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/for-estheticians/",
+        "/platform/tools/payments/",
+        "/platform/tools/notifications/",
+        "/pricing/",
+        "/templates/"
+      ],
+      "recommendedFeaturedTemplate": "opaline",
+      "recommendedRelatedIndustry": "estheticians",
+      "ctaPlan": "Solo",
+      "ctaIndustry": "estheticians",
+      "research": {
+        "source": "dataforseo",
+        "volume": 880,
+        "difficulty": 0,
+        "relatedTargets": [
+          {
+            "keyword": "waxing prices list",
+            "volume": 210,
+            "difficulty": 0
+          },
+          {
+            "keyword": "waxing prices near me",
+            "volume": 320,
+            "difficulty": 13
+          }
+        ],
+        "competitionLevel": "low",
+        "serpNotes": "880/mo at kd0, mixed client and owner intent. Authority and top-of-funnel value, with an esthetician-facing half that funnels new waxers to BookReady.",
+        "opportunity": "Covers the wax niche the user asked about. Dual-intent, so weight expectations toward authority over direct conversion. Funnels to /for-estheticians/.",
+        "validatedAt": "2026-06-16"
+      },
+      "status": "pending"
+    },
+    {
+      "slug": "nail-salon-booking-software",
+      "url": "/blog/nail-salon-booking-software/",
+      "type": "listicle",
+      "cluster": "comparison",
+      "metaTitle": "Nail Salon Booking Software, Compared 2026 | BookReady",
+      "metaDescription": "The best booking software for nail salons in 2026, judged on deposits, add-on upcharges, and the booking page clients see. An honest comparison.",
+      "h1": "Booking software for nail salons, compared",
+      "italicTagline": "The features that matter for a nail business, honestly.",
+      "primaryKeyword": "nail salon booking software",
+      "secondaryKeywords": [
+        "nail salon booking app",
+        "nail salon booking system",
+        "nail tech apps",
+        "nail salon scheduling software",
+        "booking app for nail techs"
+      ],
+      "estVolume": "140/mo",
+      "intent": "MOFU",
+      "intro": "180-220 word intro on what a nail business actually needs from booking software: deposits that cut no-shows, per-service upcharges for art and length, and a booking page that looks like the work. Preview an honest comparison. No em-dashes.",
+      "sections": [
+        {
+          "kicker": "What matters",
+          "title": "What nail techs actually need",
+          "directives": "Five criteria: deposits, add-on and art upcharges per service, photo-led booking page, per-tech calendars, and low transaction fees. Link /platform/tools/payments/. 200-240 words."
+        },
+        {
+          "kicker": "Side by side",
+          "title": "The contenders, briefly",
+          "directives": "Honest one-liners on BookReady, GlossGenius, Vagaro, and a free option, with who each fits. Use a short table. Link /compare/glossgenius-alternative/. 220-260 words."
+        },
+        {
+          "kicker": "The page",
+          "title": "Your booking page is your portfolio",
+          "directives": "Make the design case: nail work is visual, so the booking page should show it, not hide it behind a generic form. Link /templates/. 180-220 words."
+        },
+        {
+          "kicker": "The money",
+          "title": "Deposits and upcharges, where the margin is",
+          "directives": "Show how deposits plus per-line upcharges (art, length, removal) protect time and lift revenue. 180-220 words."
+        },
+        {
+          "kicker": "How to choose",
+          "title": "Picking the right one",
+          "directives": "Short framework: design-led (BookReady), heavy retail or POS (Vagaro), in-person checkout (GlossGenius). Link /for-nail-techs/ and /pricing/. 160-200 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is the best booking software for nail techs?",
+          "answerHint": "It depends on whether you lead with design, retail, or in-person POS. BookReady wins on a photo-led booking page and 0% fees, Vagaro on retail. 40-60 words."
+        },
+        {
+          "q": "Can booking software charge a deposit for nail appointments?",
+          "answerHint": "Good ones can. BookReady charges a per-service deposit through Stripe at booking, which cuts no-shows on full sets. 40-60 words."
+        },
+        {
+          "q": "How do I charge for nail art in my booking software?",
+          "answerHint": "Add art, length, and removal as priced add-ons or services so they are line items, not freebies. 40-60 words."
+        },
+        {
+          "q": "Is there free nail salon booking software?",
+          "answerHint": "Some platforms have free tiers, but they usually recover the cost through transaction fees. Read the fee page. 40-60 words."
+        },
+        {
+          "q": "Do I need a separate website and booking tool?",
+          "answerHint": "No. BookReady is a designed website with booking built in, so clients book on your own site, not a generic widget. 40-60 words."
+        },
+        {
+          "q": "Which is best for a multi-tech nail salon?",
+          "answerHint": "BookReady on Studio or Salon for per-tech calendars and payouts, or Vagaro if you run heavy retail. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/for-nail-techs/",
+        "/pricing/",
+        "/templates/",
+        "/platform/tools/payments/",
+        "/compare/glossgenius-alternative/"
+      ],
+      "recommendedFeaturedTemplate": "petale",
+      "recommendedRelatedIndustry": "nail-techs",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "nail-techs",
+      "research": {
+        "source": "dataforseo",
+        "volume": 140,
+        "difficulty": 8,
+        "relatedTargets": [
+          {
+            "keyword": "nail salon booking app",
+            "volume": 70,
+            "difficulty": 0
+          },
+          {
+            "keyword": "nail salon booking software",
+            "volume": 40,
+            "difficulty": 5
+          }
+        ],
+        "competitionLevel": "low",
+        "serpNotes": "Cluster of low-kd nail booking terms (40-140/mo). Owner-intent, achievable for a young site. Pairs with the nail price list to own the /for-nail-techs/ cluster.",
+        "opportunity": "The niche booking piece. Low volume but right audience and low difficulty, and it reinforces the nail-tech industry page.",
+        "validatedAt": "2026-06-16"
+      },
+      "status": "pending"
+    },
+    {
+      "slug": "how-to-make-a-booking-website",
+      "url": "/guides/how-to-make-a-booking-website/",
+      "type": "guide",
+      "cluster": "website",
+      "metaTitle": "How to Make a Booking Website (No Code) | BookReady",
+      "metaDescription": "How to make a booking website for your salon without a developer: the three real options, a step-by-step with a designed template, and what to avoid.",
+      "h1": "How to make a booking website for your salon",
+      "italicTagline": "No developer, no plugins, live in an afternoon.",
+      "primaryKeyword": "how to make a booking website",
+      "secondaryKeywords": [
+        "how to create a booking website",
+        "salon website builder",
+        "booking website for salons",
+        "website with online booking",
+        "make an appointment website"
+      ],
+      "estVolume": "260/mo",
+      "intent": "MOFU",
+      "intro": "200-240 word intro for a beauty owner who wants a website that takes bookings, not a separate site and calendar duct-taped together. Promise the three real ways to do it, an honest take on each, and a step-by-step with the fastest one. No em-dashes, practical.",
+      "sections": [
+        {
+          "kicker": "Three ways",
+          "title": "The three ways to build a booking website",
+          "directives": "Compare honestly: (1) a DIY site builder plus a booking plugin, (2) WordPress plus a booking plugin, (3) a designed template with booking built in. Note the time, cost, and maintenance of each. Link /platform/website/templates/. 220-260 words."
+        },
+        {
+          "kicker": "Why it matters",
+          "title": "Why a beauty business needs a real site, not just a calendar",
+          "directives": "Make the case: a booking link on Instagram is not a website. Your own designed site builds trust and gets found on Google. Link /platform/website/domain/. 180-220 words."
+        },
+        {
+          "kicker": "Step by step",
+          "title": "The fastest path: a designed template",
+          "directives": "Walk through it: pick a template, add services and prices, connect payments, connect a domain, go live. Link /templates/ and /platform/website/mobile/. 220-260 words."
+        },
+        {
+          "kicker": "Domain + payments",
+          "title": "Connecting your domain and taking deposits",
+          "directives": "Cover pointing a custom domain and connecting Stripe for deposits at booking. Link /platform/tools/payments/. 180-220 words."
+        },
+        {
+          "kicker": "Avoid",
+          "title": "Common mistakes to avoid",
+          "directives": "List the traps: a separate site and booking tool, no deposits, slow on mobile, hiding prices, a generic widget that does not match the brand. 180-220 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How do I make a booking website without a developer?",
+          "answerHint": "Use a designed template with booking built in. You add services and prices, connect payments and a domain, and go live, usually in an afternoon. 40-60 words."
+        },
+        {
+          "q": "Is a booking link the same as a booking website?",
+          "answerHint": "No. A link drops clients onto a generic form. A booking website is your own branded site, found on Google, with booking inside it. 40-60 words."
+        },
+        {
+          "q": "How much does a booking website cost?",
+          "answerHint": "A designed template with booking runs about $24-99 a month all in. A custom build with a developer plus plugins can run hundreds a month. 40-60 words."
+        },
+        {
+          "q": "Can I use my own domain?",
+          "answerHint": "Yes. Point your domain at the site, or use a free clean subdomain to start. 30-50 words."
+        },
+        {
+          "q": "Can the website take deposits?",
+          "answerHint": "Yes. Each service can carry a deposit charged through Stripe at booking, which cuts no-shows. 30-50 words."
+        },
+        {
+          "q": "How long does it take to build?",
+          "answerHint": "With a designed template, most owners are live in about 20 minutes to an afternoon, depending on photos and copy. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/templates/",
+        "/platform/website/templates/",
+        "/platform/website/domain/",
+        "/platform/website/mobile/",
+        "/platform/tools/payments/",
+        "/pricing/",
+        "/for-salons/"
+      ],
+      "recommendedFeaturedTemplate": "velvettheory",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
+      "research": {
+        "source": "dataforseo",
+        "volume": 260,
+        "difficulty": 21,
+        "relatedTargets": [
+          {
+            "keyword": "how to create a booking website",
+            "volume": 140,
+            "difficulty": 12
+          },
+          {
+            "keyword": "salon website builder",
+            "volume": 110,
+            "difficulty": 9
+          }
+        ],
+        "competitionLevel": "medium",
+        "serpNotes": "260/mo at kd21, achievable. The high-value adjacent term salon website builder is 110/mo at kd9 with a $135 cpc, very strong commercial intent. Keep distinct from the queued best-website-builders-for-salons (that is a builder listicle, this is a how-to).",
+        "opportunity": "Core BookReady theme. The how-to intent funnels straight to templates: the answer to how to make a booking website is a designed template with booking built in. Fold salon website builder into the queued best-builders piece as a secondary.",
+        "validatedAt": "2026-06-16"
+      },
+      "status": "pending"
     }
   ]
 }
