@@ -115,6 +115,35 @@ it a step in onboarding.
 
 ---
 
+## 6. AI / answer-engine visibility (GEO / AEO)
+
+Getting cited by ChatGPT, Claude, Perplexity, and Google AI Overviews is the new
+frontier. The mechanics differ from blue-link SEO.
+
+**Done in-repo:**
+- `llms.txt` at the root: a clean, factual map of BookReady (pricing, 0% fees,
+  niches, comparisons) so assistants describe and cite you accurately.
+- `robots.txt` explicitly welcomes AI crawlers (GPTBot, ClaudeBot,
+  PerplexityBot) and does not block Google-Extended, so you are eligible for AI
+  Overviews.
+- The content engine already writes the formats AI loves to cite: honest
+  comparisons, "X vs Y", clear definitions, and FAQ/Q&A (with FAQPage schema).
+
+**Off-site (the real lever):** AI assistants synthesize answers from the sources
+they trust most: Reddit threads, "best X" listicles, G2/Capterra, Wikipedia,
+and YouTube. So **getting mentioned in those places is how you get cited by AI.**
+This overlaps heavily with the backlink work in section 2: a listing on G2, an
+inclusion in a "best salon booking software" roundup, or an active Reddit
+presence in r/Nailtechs, r/Barber, r/lashextensions doubles as AI visibility.
+
+**Track it:** once a month, ask ChatGPT and Perplexity questions your buyers ask
+("best booking website for nail techs", "Booksy alternative", "how do I take a
+deposit for lash appointments") and note whether and how BookReady appears.
+Where you are missing, that is a signal to get mentioned in the sources that
+answer surfaced from.
+
+---
+
 ## Weekly cadence (15-30 min)
 
 - Publishing runs automatically (the daily publisher).

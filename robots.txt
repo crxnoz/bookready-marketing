@@ -3,4 +3,9 @@ Allow: /
 Disallow: /content/
 Disallow: /ROADMAP.md
 
+# AI assistants and answer engines (ChatGPT, Claude, Perplexity, Google AI
+# Overviews, etc.) are welcome to read and cite BookReady. We do not block
+# GPTBot, ClaudeBot, PerplexityBot, or Google-Extended.
+# Structured overview for LLMs: https://mybookready.com/llms.txt
+
 Sitemap: https://mybookready.com/sitemap.xml
