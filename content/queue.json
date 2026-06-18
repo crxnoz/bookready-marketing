@@ -1063,7 +1063,8 @@
         "opportunity": "Authority lift for a young domain plus a real new-lash-artist funnel. Dual-intent: be honest that most readers are clients. Funnels the artist slice to /for-lash-artists/.",
         "validatedAt": "2026-06-16"
       },
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-06-18"
     },
     {
       "slug": "waxing-prices",
@@ -1170,7 +1171,8 @@
         "opportunity": "Covers the wax niche the user asked about. Dual-intent, so weight expectations toward authority over direct conversion. Funnels to /for-estheticians/.",
         "validatedAt": "2026-06-16"
       },
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-06-18"
     },
     {
       "slug": "best-acuity-alternatives-for-salons",
