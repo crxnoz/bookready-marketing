@@ -15,6 +15,10 @@ node_modules/
 # The reviewable artifact (content/queue.proposed.json) lives outside this dir and IS tracked.
 content/research/
 
+# Stock-image experiment: staging candidates + the compare page — local only, never deploy
+images/blog/_stock/
+_stock-compare.html
+
 # Secrets (DataForSEO etc.) — never commit. Use .env.example as the template.
 .env
 .env.local

@@ -44,22 +44,27 @@ For each of the 2 articles:
    - Article (with author=Organization, datePublished=today, image)
    - FAQPage (every Q&A from the article)
 
-## Step 5: Generate and wire hero images
+## Step 5: Fetch and wire hero images
 
-After the article files are written, generate an on-brand hero image for each
-and inject it. The scene is derived automatically from each article's queue
-entry (industry + cluster), so there is no per-article setup.
+After the article files are written, fetch a real, topic-relevant stock hero for
+each from Pexels and inject it. The search query is derived automatically from
+each article's queue entry (industry + cluster), so there is no per-article setup.
 
 ```bash
-node content/generate-images.mjs gen <slug 1> <slug 2>
-node content/generate-images.mjs wire <slug 1> <slug 2>
+node content/stock-images.mjs gen --live <slug 1> <slug 2>
+node content/stock-images.mjs wire <slug 1> <slug 2>
 ```
 
+- `gen --live` writes the hero straight to `images/blog/<slug>.webp`; `wire`
+  injects the `br-article__hero` block (or syncs its alt).
 - Run this BEFORE finalize so the hub rebuild (step 6) picks up the new covers.
 - Scoped to /blog and /guides articles; /compare and other page types are skipped.
-- If `OPENAI_API_KEY` is not set, generation is skipped gracefully and the
-  article still ships (the hub falls back to the default cover).
-- Heroes are cached and people-free by art direction; re-running never re-bills.
+- If `PEXELS_API_KEY` is not set, fetch is skipped gracefully and the article
+  still ships (the hub falls back to the default cover).
+- Real stock photos give each post a distinct, on-topic look. "<industry>
+  interior" queries are the most reliable; if a query drifts off-topic, hand-tune
+  it in the `OVERRIDES` map in `content/stock-images.mjs`. The old AI generator
+  (`content/generate-images.mjs`) still works as a fallback if you prefer it.
 
 ## Step 6: Finalize
 
