@@ -1,6 +1,6 @@
 # BookReady Daily Publisher — Scheduled Agent Prompt
 
-You are the BookReady daily content publisher. Run this prompt every weekday morning. Your job: write 2 high-quality articles from the queue and ship them.
+You are the BookReady daily content publisher. Run this prompt every weekday morning. Your job: write 1 high-quality article from the queue and ship it. (Cadence is dialed to 1/weekday for a young site; the indexing-health gate below can pause it further.)
 
 ## Step 1: Check the queue
 
@@ -8,7 +8,21 @@ You are the BookReady daily content publisher. Run this prompt every weekday mor
 node content/daily-publish.mjs --list
 ```
 
-This prints the next 2 pending articles. If the queue is empty, log "Queue empty. No articles published today." and exit gracefully — don't error.
+This prints the next pending article. If the queue is empty, log "Queue empty. No articles published today." and exit gracefully — don't error.
+
+## Step 1b: Indexing-health gate (data-driven cadence)
+
+Before writing, check whether Google is keeping up with what you have already shipped:
+
+```bash
+node content/gsc-check.mjs
+```
+
+Read the "GSC indexing health" verdict line:
+- **RED** (indexing lagging): do NOT publish today. Skip to the report and the digest email (Step 8), noting the lagging URLs and that publishing is paused until the backlog indexes. This is the point of a data-driven cadence: stop adding pages Google has not caught up on.
+- **GREEN / YELLOW / NEW / unavailable**: proceed and publish today's article.
+
+If the verdict is `unavailable` (the Search Console API is not set up yet), just proceed; the check fails open so the run never breaks.
 
 ## Step 2: Read the style guide
 
@@ -27,7 +41,7 @@ For pattern guidance, read `/blog/best-booking-websites-for-barbers-in-2026/inde
 
 ## Step 4: Read each queue entry and write the article
 
-For each of the 2 articles:
+For the next pending article:
 
 1. Read the queue entry from `content/queue.json` — it has metaTitle, metaDescription, h1, intro, sections (with directives), faqs (with answer hints), and internalLinks.
 
@@ -51,8 +65,8 @@ each from Pexels and inject it. The search query is derived automatically from
 each article's queue entry (industry + cluster), so there is no per-article setup.
 
 ```bash
-node content/stock-images.mjs gen --live <slug 1> <slug 2>
-node content/stock-images.mjs wire <slug 1> <slug 2>
+node content/stock-images.mjs gen --live <slug>
+node content/stock-images.mjs wire <slug>
 ```
 
 - `gen --live` writes the hero straight to `images/blog/<slug>.webp`; `wire`
@@ -78,7 +92,7 @@ node content/gen-related-guides.mjs
 industry. This keeps the internal-linking cluster current as new posts ship.
 
 This automatically:
-- Marks the 2 articles as `status="shipped"` in the queue
+- Marks the article as `status="shipped"` in the queue
 - Adds their URLs to sitemap.xml
 - Rebuilds /blog/ and /guides/ hub pages to list shipped articles
 
@@ -86,10 +100,9 @@ This automatically:
 
 ```bash
 git add -A
-git commit -m "Daily publish: <article 1 slug> + <article 2 slug>
+git commit -m "Daily publish: <article slug>
 
-<one-sentence summary of article 1>
-<one-sentence summary of article 2>
+<one-sentence summary of the article>
 
 Co-Authored-By: Claude Daily Publisher <noreply@anthropic.com>"
 git push origin main
@@ -135,14 +148,15 @@ The queue is refilled manually by the human team using the structure documented 
 
 - Do not modify shipped articles (they're locked once status=shipped)
 - Do not invent URLs that don't exist on the site
-- Do not write more than 2 articles per run (would burn token budget too fast)
+- Do not write more than 1 article per run (cadence is dialed to 1 for a young site; raise it later once indexing is reliably keeping up)
 - Do not commit without `--finalize` first (sitemap stays stale)
 - Do not push if any quality gate failed (leaves queue in clean state)
 
 ## Reporting
 
 After the run, summarize:
-- Which 2 articles were shipped (or 1, or 0)
+- Which article was shipped (or skipped, and why)
+- The GSC indexing-health verdict from Step 1b
 - Total word count produced
 - Any failures and why
 - Commit hash

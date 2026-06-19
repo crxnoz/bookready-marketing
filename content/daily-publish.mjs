@@ -15,6 +15,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
 const QUEUE_PATH = resolve(ROOT, 'content', 'queue.json');
 const SITEMAP_PATH = resolve(ROOT, 'sitemap.xml');
+const PER_RUN = 1; // articles per run. Dialed from 2 to 1 for a young site; raise once indexing proves reliable (see content/gsc-check.mjs).
 
 function loadQueue() {
   if (!existsSync(QUEUE_PATH)) {
@@ -39,7 +40,7 @@ function articleExists(article) {
 // ─── --list mode ───
 if (process.argv.includes('--list')) {
   const q = loadQueue();
-  const next = nextPending(q, 2);
+  const next = nextPending(q, PER_RUN);
   if (next.length === 0) {
     console.log('Queue empty. Refill content/queue.json.');
     process.exit(0);
@@ -57,7 +58,7 @@ if (process.argv.includes('--finalize')) {
   const today = new Date().toISOString().slice(0, 10);
 
   // Check the next-2-pending and see which actually have HTML files now.
-  const candidates = nextPending(q, 2);
+  const candidates = nextPending(q, PER_RUN);
   let shipped = 0, missing = 0;
   for (const a of candidates) {
     if (articleExists(a)) {
@@ -200,7 +201,7 @@ ${cards}
       <div class="br-template-next" style="margin-top: 40px;">
         <div class="br-template-next__copy">
           <p class="br-kicker">More coming</p>
-          <h3 class="br-template-next__title">Two new articles every weekday.</h3>
+          <h3 class="br-template-next__title">A new article every weekday.</h3>
           <p class="br-template-next__text">Working through the full content roadmap: industry deep-dives, platform comparisons, deposit math, no-show systems, growth playbooks. New every business day.</p>
         </div>
         <a href="/newsletter/" class="br-button">Subscribe</a>

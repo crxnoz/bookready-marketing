@@ -19,6 +19,10 @@ content/research/
 images/blog/_stock/
 _stock-compare.html
 
+# Google service-account key for content/gsc-check.mjs — never commit
+.gsc-service-account.json
+*-service-account.json
+
 # Secrets (DataForSEO etc.) — never commit. Use .env.example as the template.
 .env
 .env.local
