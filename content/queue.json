@@ -1504,7 +1504,8 @@
       "recommendedRelatedIndustry": "barbers",
       "ctaPlan": "Studio",
       "ctaIndustry": "salons",
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-06-19"
     },
     {
       "slug": "cancellation-policy-template",
