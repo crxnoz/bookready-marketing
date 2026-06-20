@@ -15,6 +15,11 @@
   // #156 — template comes from sessionStorage.br_last_template (set by nav.js
   // when the visitor browsed a /templates/{slug}/ page). If unset, omit — the
   // app's /checkout/trial defaults to thefaderoom. Salon has no CTA (waitlist).
+  // The persona pages add data-ref="<persona>" so the toggle preserves
+  // their attribution across monthly/annual flips. Homepage + /pricing
+  // omit the attr and stay clean.
+  var pricingRef = section.getAttribute('data-ref');
+
   function syncCtas() {
     var billing = section.getAttribute('data-billing');
     section.querySelectorAll('.br-plan').forEach(function (plan) {
@@ -26,6 +31,7 @@
         var lastTpl = sessionStorage.getItem('br_last_template');
         if (lastTpl) params.push('template=' + encodeURIComponent(lastTpl));
       } catch (_) { /* sessionStorage disabled, no-op */ }
+      if (pricingRef) params.push('ref=' + encodeURIComponent(pricingRef));
       cta.href = 'https://app.bkrdy.me/register?' + params.join('&');
     });
   }

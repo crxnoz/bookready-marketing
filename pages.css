@@ -1084,3 +1084,223 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
 .br-article .br-compare { font-size: 13.5px; }
 .br-article .br-compare th,
 .br-article .br-compare td { padding: 13px 14px; }
+
+/* ═══════════════════════════════════════════════════════════════
+   Persona-page upgrades (idea-stack for paid TikTok/Reels traffic)
+   — embedded demo proof, horizontal demo strip, mobile sticky CTA.
+   Used by every /for-* page. Styled to match the existing pages.css
+   rhythm: 0px radius, hairline borders, accent pink, Fraunces+Inter.
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ─── Ghost (outline) button — used as the secondary demo CTA ─── */
+.br-button--ghost {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--text);
+}
+.br-button--ghost:hover {
+  background: var(--text);
+  color: var(--bg);
+}
+
+/* ─── Embedded demo proof — phone-frame screenshot + 2 CTAs ───
+   Left: a 320px-wide phone frame holding the mapped template's
+   cover image. Right: copy + "Visit live site" + "Start with this
+   template" buttons. Stacks on mobile with the phone centered. */
+.br-demo-proof {
+  display: grid;
+  grid-template-columns: minmax(0, 320px) 1fr;
+  gap: 56px;
+  align-items: center;
+  margin-top: 24px;
+}
+@media (max-width: 820px) {
+  .br-demo-proof {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    justify-items: center;
+    text-align: center;
+  }
+}
+.br-demo-proof__phone {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 320 / 640;
+  background: var(--text);
+  padding: 12px;
+  border: 1px solid var(--text);
+  box-shadow: 0 30px 60px -20px rgba(0,0,0,0.35);
+  overflow: hidden;
+}
+.br-demo-proof__phone::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 84px;
+  height: 4px;
+  background: rgba(255,255,255,0.18);
+  z-index: 1;
+}
+.br-demo-proof__shot {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  background: var(--bg);
+}
+.br-demo-proof__copy {
+  min-width: 0;
+}
+.br-demo-proof__kicker {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 12px;
+}
+.br-demo-proof__title {
+  font-family: 'Fraunces', 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(28px, 3.4vw, 40px);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin: 0 0 14px;
+}
+.br-demo-proof__sub {
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 24px;
+  max-width: 480px;
+}
+@media (max-width: 820px) {
+  .br-demo-proof__sub { margin-left: auto; margin-right: auto; }
+}
+.br-demo-proof__actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+@media (max-width: 540px) {
+  .br-demo-proof__actions {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+  .br-demo-proof__actions .br-button { width: 100%; }
+}
+
+/* ─── Demo strip — horizontal swipe of the other example sites ───
+   Below the focused demo. Shows the other live BKRDY example sites
+   so a visitor can see breadth. Horizontal scroll on mobile (snaps),
+   wraps to a row on desktop. Each card opens the live subdomain. */
+.br-demo-strip {
+  margin-top: 56px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(18,18,18,0.10);
+}
+.br-demo-strip__label {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 16px;
+}
+.br-demo-strip__row {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 -20px;
+  padding: 4px 20px 18px;
+  scrollbar-width: thin;
+}
+.br-demo-strip__card {
+  flex: 0 0 220px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--text);
+  background: #FFFFFF;
+  border: 1px solid rgba(18,18,18,0.10);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.br-demo-strip__card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 32px -12px rgba(0,0,0,0.18);
+}
+.br-demo-strip__card img {
+  display: block;
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+.br-demo-strip__card-body {
+  padding: 12px 14px 14px;
+}
+.br-demo-strip__card-name {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: -0.005em;
+  margin: 0 0 2px;
+}
+.br-demo-strip__card-mood {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* ─── Mobile sticky bottom CTA ───
+   Mobile-only fixed bar pinned to the bottom. Hidden until the
+   visitor scrolls past the hero (handled in sticky.js). Hides on
+   scroll-down so it never blocks content the user is reading. */
+.br-mobile-cta { display: none; }
+@media (max-width: 720px) {
+  .br-mobile-cta {
+    display: flex;
+    position: fixed;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    z-index: 90;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    padding: 13px 18px;
+    background: var(--text);
+    color: #FFFFFF;
+    border: 1px solid var(--text);
+    text-decoration: none;
+    box-shadow: 0 18px 36px -12px rgba(0,0,0,0.45);
+    transition: transform .25s ease, opacity .2s ease;
+  }
+  .br-mobile-cta__main {
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+  }
+  .br-mobile-cta__sub {
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 0.02em;
+  }
+  .br-mobile-cta.is-hidden {
+    transform: translateY(140%);
+    opacity: 0;
+    pointer-events: none;
+  }
+  /* Keep the footer from being permanently covered by the bar. */
+  body.has-mobile-cta { padding-bottom: 88px; }
+}
