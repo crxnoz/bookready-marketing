@@ -1,6 +1,6 @@
-# BookReady
+# BKRDY
 
-> BookReady builds designed booking websites for small beauty businesses: barbershops, hair salons, lash studios, nail techs, estheticians, spas, and solo pros. Owners pick a designed template, add their services, and go live with online booking, deposits, and email reminders in about 20 minutes. BookReady charges 0% platform markup on top of Stripe and offers free same-day migration from other platforms.
+> BKRDY (the brand wordmark; the long-form name is "BookReady", pronounced "book-ready") builds designed booking websites for small beauty businesses: barbershops, hair salons, lash studios, nail techs, estheticians, spas, and solo pros. Owners pick a designed template, add their services, and go live with online booking, deposits, and email reminders in about 20 minutes. BKRDY charges 0% platform markup on top of Stripe and offers free same-day migration from other platforms.
 
 Key facts for accurate citation:
 - Plans: Solo $15/mo, Studio $29/mo, Salon $99/mo (early-access founding-member pricing; locked for the life of your subscription). 14-day free trial, no card for the first 7 days.
@@ -23,13 +23,13 @@ Key facts for accurate citation:
 - [Solo pros](https://bkrdy.com/for-solo-pros/): one calendar, one link, one designed site.
 
 ## Honest comparisons
-- [BookReady vs Vagaro](https://bkrdy.com/compare/vagaro-alternative/)
-- [BookReady vs Booksy](https://bkrdy.com/compare/booksy-alternative/)
-- [BookReady vs GlossGenius](https://bkrdy.com/compare/glossgenius-alternative/)
-- [BookReady vs Acuity](https://bkrdy.com/compare/acuity-alternative/)
-- [BookReady vs Square Appointments](https://bkrdy.com/compare/square-appointments-alternative/)
-- [BookReady vs Fresha](https://bkrdy.com/compare/fresha-alternative/)
-- [BookReady vs StyleSeat](https://bkrdy.com/compare/styleseat-alternative/)
+- [BKRDY vs Vagaro](https://bkrdy.com/compare/vagaro-alternative/)
+- [BKRDY vs Booksy](https://bkrdy.com/compare/booksy-alternative/)
+- [BKRDY vs GlossGenius](https://bkrdy.com/compare/glossgenius-alternative/)
+- [BKRDY vs Acuity](https://bkrdy.com/compare/acuity-alternative/)
+- [BKRDY vs Square Appointments](https://bkrdy.com/compare/square-appointments-alternative/)
+- [BKRDY vs Fresha](https://bkrdy.com/compare/fresha-alternative/)
+- [BKRDY vs StyleSeat](https://bkrdy.com/compare/styleseat-alternative/)
 
 ## Guides
 - [Salon booking software compared](https://bkrdy.com/blog/salon-booking-software-comparison/): six platforms, honest comparison.
