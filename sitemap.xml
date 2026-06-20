@@ -1,126 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mybookready.com/</loc><lastmod>2026-06-08</lastmod>
+    <loc>https://bkrdy.com/</loc><lastmod>2026-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mybookready.com/pricing/</loc><lastmod>2026-06-07</lastmod>
+    <loc>https://bkrdy.com/pricing/</loc><lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mybookready.com/templates/</loc><lastmod>2026-06-08</lastmod>
+    <loc>https://bkrdy.com/templates/</loc><lastmod>2026-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mybookready.com/templates/velvettheory/</loc><lastmod>2026-06-08</lastmod>
+    <loc>https://bkrdy.com/templates/velvettheory/</loc><lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mybookready.com/templates/thefaderoom/</loc><lastmod>2026-06-08</lastmod>
+    <loc>https://bkrdy.com/templates/thefaderoom/</loc><lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mybookready.com/templates/lushstudio/</loc><lastmod>2026-06-08</lastmod>
+    <loc>https://bkrdy.com/templates/lushstudio/</loc><lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mybookready.com/templates/blackline/</loc><lastmod>2026-06-08</lastmod>
+    <loc>https://bkrdy.com/templates/blackline/</loc><lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mybookready.com/templates/opaline/</loc><lastmod>2026-06-08</lastmod>
+    <loc>https://bkrdy.com/templates/opaline/</loc><lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mybookready.com/templates/petale/</loc><lastmod>2026-06-08</lastmod>
+    <loc>https://bkrdy.com/templates/petale/</loc><lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mybookready.com/templates/bottega/</loc><lastmod>2026-06-08</lastmod>
+    <loc>https://bkrdy.com/templates/bottega/</loc><lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mybookready.com/migration/</loc><lastmod>2026-06-07</lastmod>
+    <loc>https://bkrdy.com/migration/</loc><lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url><loc>https://mybookready.com/platform/website/templates/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/platform/website/domain/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/platform/website/mobile/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/platform/website/sections/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/platform/website/announcement/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/platform/booking/online/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/platform/booking/calendar/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/platform/booking/sync/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/platform/booking/recurring/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/platform/booking/waitlist/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/platform/tools/payments/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/platform/tools/customers/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/platform/tools/notifications/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/platform/tools/marketing/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://mybookready.com/platform/tools/analytics/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/platform/tools/reviews/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/features/client/booking/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/features/client/dashboard/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/features/client/payments/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/features/client/reschedule/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/features/client/reminders/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/features/manage/dashboard/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/features/manage/reschedule/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/features/manage/staff/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/features/manage/hours/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/features/manage/customers/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/features/growth/reviews/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/features/growth/analytics/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/features/growth/email/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://mybookready.com/features/growth/sms/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://mybookready.com/features/growth/winback/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://mybookready.com/customers/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/changelog/</loc><lastmod>2026-06-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/roadmap/</loc><lastmod>2026-06-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://mybookready.com/newsletter/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://mybookready.com/community/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://mybookready.com/about/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/contact/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/platform/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/features/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/for-barbers/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mybookready.com/for-lash-artists/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mybookready.com/for-nail-techs/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mybookready.com/for-estheticians/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mybookready.com/for-spas/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mybookready.com/for-solo-pros/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mybookready.com/for-salons/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mybookready.com/compare/glossgenius-alternative/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mybookready.com/compare/acuity-alternative/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mybookready.com/compare/fresha-alternative/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mybookready.com/compare/square-appointments-alternative/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mybookready.com/compare/booksy-alternative/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mybookready.com/blog/</loc><lastmod>2026-06-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/blog/best-booking-websites-for-barbers-in-2026/</loc><lastmod>2026-06-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://mybookready.com/compare/vagaro-alternative/</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/compare/styleseat-alternative/</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/blog/booksy-pricing/</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/guides/appointment-reminder-templates/</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/blog/salon-booking-software-comparison/</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/guides/nail-tech-price-list/</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/welcome/</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://mybookready.com/guides/how-to-make-a-booking-website/</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/blog/nail-salon-booking-software/</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/blog/eyelash-extension-prices/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/blog/waxing-prices/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/blog/best-acuity-alternatives-for-salons/</loc><lastmod>2026-06-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/guides/export-clients-from-acuity/</loc><lastmod>2026-06-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://mybookready.com/guides/reducing-no-shows/</loc><lastmod>2026-06-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/platform/website/templates/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/platform/website/domain/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/platform/website/mobile/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/platform/website/sections/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/platform/website/announcement/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/platform/booking/online/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/platform/booking/calendar/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/platform/booking/sync/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/platform/booking/recurring/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/platform/booking/waitlist/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/platform/tools/payments/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/platform/tools/customers/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/platform/tools/notifications/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/platform/tools/marketing/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://bkrdy.com/platform/tools/analytics/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/platform/tools/reviews/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/features/client/booking/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/features/client/dashboard/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/features/client/payments/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/features/client/reschedule/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/features/client/reminders/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/features/manage/dashboard/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/features/manage/reschedule/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/features/manage/staff/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/features/manage/hours/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/features/manage/customers/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/features/growth/reviews/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/features/growth/analytics/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/features/growth/email/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://bkrdy.com/features/growth/sms/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://bkrdy.com/features/growth/winback/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://bkrdy.com/customers/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/changelog/</loc><lastmod>2026-06-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/roadmap/</loc><lastmod>2026-06-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/newsletter/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://bkrdy.com/community/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://bkrdy.com/about/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/contact/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/platform/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/features/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/for-barbers/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkrdy.com/for-lash-artists/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkrdy.com/for-nail-techs/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkrdy.com/for-estheticians/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkrdy.com/for-spas/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkrdy.com/for-solo-pros/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkrdy.com/for-salons/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkrdy.com/compare/glossgenius-alternative/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkrdy.com/compare/acuity-alternative/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkrdy.com/compare/fresha-alternative/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkrdy.com/compare/square-appointments-alternative/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkrdy.com/compare/booksy-alternative/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkrdy.com/blog/</loc><lastmod>2026-06-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/blog/best-booking-websites-for-barbers-in-2026/</loc><lastmod>2026-06-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://bkrdy.com/compare/vagaro-alternative/</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/compare/styleseat-alternative/</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/blog/booksy-pricing/</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/guides/appointment-reminder-templates/</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/blog/salon-booking-software-comparison/</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/guides/nail-tech-price-list/</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/welcome/</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://bkrdy.com/guides/how-to-make-a-booking-website/</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/blog/nail-salon-booking-software/</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/blog/eyelash-extension-prices/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/blog/waxing-prices/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/blog/best-acuity-alternatives-for-salons/</loc><lastmod>2026-06-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/guides/export-clients-from-acuity/</loc><lastmod>2026-06-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://bkrdy.com/guides/reducing-no-shows/</loc><lastmod>2026-06-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

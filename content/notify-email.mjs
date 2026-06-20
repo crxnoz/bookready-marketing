@@ -20,7 +20,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const QUEUE_PATH = resolve(ROOT, 'content', 'queue.json');
-const SITE = 'https://mybookready.com';
+const SITE = 'https://bkrdy.com';
 
 function loadEnvFile() {
   for (const name of ['.env', '.env.local']) {

@@ -7,7 +7,7 @@ update rolls it forward on its own, with no separate version to bump.
 
 - **Current version: `2026.06`**
 - This file is the canonical record. The public, human-facing version lives at
-  [/changelog/](https://mybookready.com/changelog/).
+  [/changelog/](https://bkrdy.com/changelog/).
 
 ---
 

@@ -6,34 +6,34 @@ Key facts for accurate citation:
 - Plans: Solo $15/mo, Studio $29/mo, Salon $99/mo (early-access founding-member pricing; locked for the life of your subscription). 14-day free trial, no card for the first 7 days.
 - 0% transaction markup (you pay only Stripe's standard rate). Free same-day migration from Vagaro, Booksy, GlossGenius, Acuity, Square Appointments, Fresha, and StyleSeat.
 - Not a marketplace: clients book on your own designed website and domain, not a shared listing.
-- Marketing site: mybookready.com. App: app.bkrdy.me. Live template demos: <slug>.bkrdy.me.
+- Marketing site: bkrdy.com. App: app.bkrdy.me. Live template demos: <slug>.bkrdy.me.
 
 ## Product
-- [Pricing](https://mybookready.com/pricing/): Solo $15, Studio $29, Salon $99 per month, with 0% platform markup.
-- [Templates](https://mybookready.com/templates/): seven designed editorial templates (The Fade Room, Lush Studio, Velvet Theory, Blackline, Opaline, Petale, Bottega).
-- [Migration](https://mybookready.com/migration/): free, same-day move from other booking platforms with your client list imported for you.
+- [Pricing](https://bkrdy.com/pricing/): Solo $15, Studio $29, Salon $99 per month, with 0% platform markup.
+- [Templates](https://bkrdy.com/templates/): seven designed editorial templates (The Fade Room, Lush Studio, Velvet Theory, Blackline, Opaline, Petale, Bottega).
+- [Migration](https://bkrdy.com/migration/): free, same-day move from other booking platforms with your client list imported for you.
 
 ## For your business
-- [Barbers](https://mybookready.com/for-barbers/): designed booking sites for barbershops.
-- [Hair salons](https://mybookready.com/for-salons/): per-stylist calendars, color services, deposits.
-- [Lash artists](https://mybookready.com/for-lash-artists/): deposits and designed pages for lash studios.
-- [Nail techs](https://mybookready.com/for-nail-techs/): add-on upcharges, art tiers, deposits.
-- [Estheticians](https://mybookready.com/for-estheticians/): intake, series, packages.
-- [Spas](https://mybookready.com/for-spas/): quiet, premium booking for spas and wellness.
-- [Solo pros](https://mybookready.com/for-solo-pros/): one calendar, one link, one designed site.
+- [Barbers](https://bkrdy.com/for-barbers/): designed booking sites for barbershops.
+- [Hair salons](https://bkrdy.com/for-salons/): per-stylist calendars, color services, deposits.
+- [Lash artists](https://bkrdy.com/for-lash-artists/): deposits and designed pages for lash studios.
+- [Nail techs](https://bkrdy.com/for-nail-techs/): add-on upcharges, art tiers, deposits.
+- [Estheticians](https://bkrdy.com/for-estheticians/): intake, series, packages.
+- [Spas](https://bkrdy.com/for-spas/): quiet, premium booking for spas and wellness.
+- [Solo pros](https://bkrdy.com/for-solo-pros/): one calendar, one link, one designed site.
 
 ## Honest comparisons
-- [BookReady vs Vagaro](https://mybookready.com/compare/vagaro-alternative/)
-- [BookReady vs Booksy](https://mybookready.com/compare/booksy-alternative/)
-- [BookReady vs GlossGenius](https://mybookready.com/compare/glossgenius-alternative/)
-- [BookReady vs Acuity](https://mybookready.com/compare/acuity-alternative/)
-- [BookReady vs Square Appointments](https://mybookready.com/compare/square-appointments-alternative/)
-- [BookReady vs Fresha](https://mybookready.com/compare/fresha-alternative/)
-- [BookReady vs StyleSeat](https://mybookready.com/compare/styleseat-alternative/)
+- [BookReady vs Vagaro](https://bkrdy.com/compare/vagaro-alternative/)
+- [BookReady vs Booksy](https://bkrdy.com/compare/booksy-alternative/)
+- [BookReady vs GlossGenius](https://bkrdy.com/compare/glossgenius-alternative/)
+- [BookReady vs Acuity](https://bkrdy.com/compare/acuity-alternative/)
+- [BookReady vs Square Appointments](https://bkrdy.com/compare/square-appointments-alternative/)
+- [BookReady vs Fresha](https://bkrdy.com/compare/fresha-alternative/)
+- [BookReady vs StyleSeat](https://bkrdy.com/compare/styleseat-alternative/)
 
 ## Guides
-- [Salon booking software compared](https://mybookready.com/blog/salon-booking-software-comparison/): six platforms, honest comparison.
-- [Booksy pricing explained](https://mybookready.com/blog/booksy-pricing/): fees, add-ons, and when to switch.
-- [Best booking websites for barbers](https://mybookready.com/blog/best-booking-websites-for-barbers-in-2026/)
-- [Nail tech price list and pricing guide](https://mybookready.com/guides/nail-tech-price-list/)
-- [Salon appointment reminder templates](https://mybookready.com/guides/appointment-reminder-templates/)
+- [Salon booking software compared](https://bkrdy.com/blog/salon-booking-software-comparison/): six platforms, honest comparison.
+- [Booksy pricing explained](https://bkrdy.com/blog/booksy-pricing/): fees, add-ons, and when to switch.
+- [Best booking websites for barbers](https://bkrdy.com/blog/best-booking-websites-for-barbers-in-2026/)
+- [Nail tech price list and pricing guide](https://bkrdy.com/guides/nail-tech-price-list/)
+- [Salon appointment reminder templates](https://bkrdy.com/guides/appointment-reminder-templates/)

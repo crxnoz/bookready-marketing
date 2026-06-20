@@ -6,12 +6,12 @@ a `.PATCH` suffix for extra updates inside a month (for example `2026.06.1`).
 
 This is the comprehensive reference, drawn from the product changelog and the
 marketing-site commit history. For the short public list, see
-[CHANGELOG.md](CHANGELOG.md) and [/changelog/](https://mybookready.com/changelog/).
-For what is coming, see [/roadmap/](https://mybookready.com/roadmap/).
+[CHANGELOG.md](CHANGELOG.md) and [/changelog/](https://bkrdy.com/changelog/).
+For what is coming, see [/roadmap/](https://bkrdy.com/roadmap/).
 
 Two tracks run in parallel:
 - **Product** — the BookReady app owners use (booking, payments, templates).
-- **Site** — mybookready.com, the marketing site, launched May 31, 2026.
+- **Site** — bkrdy.com, the marketing site, launched May 31, 2026.
 
 ---
 
@@ -53,7 +53,7 @@ grew a full content and SEO engine.
 
 ## What's next
 
-A phased journey (see [/roadmap/](https://mybookready.com/roadmap/) for the full view):
+A phased journey (see [/roadmap/](https://bkrdy.com/roadmap/) for the full view):
 
 - **Phase 1 — Business essentials (in build):** group and recurring bookings, packages, gift cards, Reviews 2.0, SMS + calendar integrations, email and SMS campaigns, SEO tools.
 - **Phase 2 — Revenue growth:** memberships, loyalty, referrals, commerce, Availability 2.0.

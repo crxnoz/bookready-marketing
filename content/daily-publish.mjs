@@ -78,7 +78,7 @@ if (process.argv.includes('--finalize')) {
   let sm = readFileSync(SITEMAP_PATH, 'utf8');
   let added = 0;
   for (const a of q.articles.filter((x) => x.status === 'shipped')) {
-    const loc = `https://mybookready.com${a.url}`;
+    const loc = `https://bkrdy.com${a.url}`;
     if (sm.includes(loc)) continue;
     const priority = a.type === 'pillar' ? '0.8' : '0.7';
     const entry = `  <url><loc>${loc}</loc><lastmod>${a.shippedAt || today}</lastmod><changefreq>monthly</changefreq><priority>${priority}</priority></url>\n`;
@@ -141,21 +141,21 @@ function rebuildHub(path, name, description, q) {
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>${name} | BookReady</title>
   <meta name="description" content="${esc(description)}" />
-  <link rel="canonical" href="https://mybookready.com${path}" />
+  <link rel="canonical" href="https://bkrdy.com${path}" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://mybookready.com${path}" />
+  <meta property="og:url" content="https://bkrdy.com${path}" />
   <meta property="og:site_name" content="BookReady" />
   <meta property="og:title" content="BookReady ${name}" />
   <meta property="og:description" content="${esc(description)}" />
-  <meta property="og:image" content="https://mybookready.com/images/hero/hero.webp" />
+  <meta property="og:image" content="https://bkrdy.com/images/hero/hero.webp" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="BookReady ${name}" />
   <meta name="twitter:description" content="${esc(description)}" />
-  <meta name="twitter:image" content="https://mybookready.com/images/hero/hero.webp" />
+  <meta name="twitter:image" content="https://bkrdy.com/images/hero/hero.webp" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -168,8 +168,8 @@ function rebuildHub(path, name, description, q) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mybookready.com/"},
-      {"@type": "ListItem", "position": 2, "name": "${name}", "item": "https://mybookready.com${path}"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bkrdy.com/"},
+      {"@type": "ListItem", "position": 2, "name": "${name}", "item": "https://bkrdy.com${path}"}
     ]
   }
   </script>

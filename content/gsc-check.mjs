@@ -13,7 +13,7 @@
 //      permissions, add the service account's client_email as a user.
 //   4. Save the JSON key somewhere local + gitignored, then in .env set:
 //        GSC_SA_KEY_FILE=./.gsc-service-account.json
-//        GSC_SITE_URL=https://mybookready.com/        (or sc-domain:mybookready.com)
+//        GSC_SITE_URL=https://bkrdy.com/        (or sc-domain:bkrdy.com)
 //
 // ── Commands ──
 //   node content/gsc-check.mjs check     validate auth + property access
@@ -116,7 +116,7 @@ async function report() {
     return;
   }
   const mature = shippedEditorial().filter((a) => daysSince(a.shippedAt) >= 10); // give 10 days to index
-  const lagging = mature.filter((a) => !seen.has(norm(`https://mybookready.com${a.url}`)));
+  const lagging = mature.filter((a) => !seen.has(norm(`https://bkrdy.com${a.url}`)));
   const pct = mature.length ? Math.round((lagging.length / mature.length) * 100) : 0;
   const verdict = mature.length === 0 ? 'NEW (not enough mature posts to judge yet)'
     : pct <= 20 ? 'GREEN (indexing healthy)'

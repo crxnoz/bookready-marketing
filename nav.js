@@ -3,7 +3,7 @@
    to the marketing site is one less thing to remember. dataLayer +
    first config call run synchronously so they're queued before the
    async gtag.js script finishes loading — that's the standard pattern.
-   Property: G-4PJSQ6MR9F (mybookready.com). */
+   Property: G-4PJSQ6MR9F (bkrdy.com). */
 (function () {
   if (window.dataLayer) return; // guard against double-injection on hot reloads
   var s = document.createElement('script');

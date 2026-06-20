@@ -1,6 +1,6 @@
 # BookReady SEO Playbook
 
-A living plan for ranking mybookready.com. The marketing site's technical
+A living plan for ranking bkrdy.com. The marketing site's technical
 foundation is already strong (rich schema, sitemap, robots.txt, fast static
 HTML, an autonomous content engine). For a young domain, the two levers that
 actually decide rank are **indexation** and **authority (backlinks)**. This doc
@@ -12,10 +12,10 @@ is mostly the off-site work that no amount of code can replace.
 
 Without this, Google finds pages slowly and you are blind to what ranks.
 
-1. Go to search.google.com/search-console, add a property for `mybookready.com`
+1. Go to search.google.com/search-console, add a property for `bkrdy.com`
    (use the Domain property and verify via DNS on Hostinger, or the URL-prefix
    property and verify with the HTML meta tag).
-2. Submit the sitemap: `https://mybookready.com/sitemap.xml`.
+2. Submit the sitemap: `https://bkrdy.com/sitemap.xml`.
 3. Use URL Inspection on your priority pages (homepage, `/pricing/`,
    `/templates/`, the `/for-<niche>/` pages, and each new article) and click
    **Request indexing** so they get crawled fast.
@@ -39,7 +39,7 @@ links pointing at you. Work this list top to bottom.
 - **Product Hunt launch** — one strong launch is a durable backlink plus a
   traffic spike. Prep assets, schedule a launch day.
 - **Your own network (free, instant):** make every `*.bkrdy.me` template demo
-  subdomain and the `app.bkrdy.me` app link back to `mybookready.com` (footer or
+  subdomain and the `app.bkrdy.me` app link back to `bkrdy.com` (footer or
   "Made with BookReady" credit). Internal network links are easy authority.
 - **Business profiles:** Crunchbase, LinkedIn company page, a Google Business
   Profile if you have any physical or service-area presence.
@@ -97,7 +97,7 @@ it a step in onboarding.
   @bkrdy.me). Add more socials (TikTok, LinkedIn, YouTube) to the `sameAs`
   array in `index.html` as you create them, each is a small brand signal.
 - **Done:** the homepage `og:image` is set to the site hero
-  (`images/hero/hero.webp`), so shared links to mybookready.com show a thumbnail.
+  (`images/hero/hero.webp`), so shared links to bkrdy.com show a thumbnail.
 - **Ongoing in code:** keep publishing (the engine handles it), keep clusters
   tight, refresh winning pages, and target featured snippets on high-intent
   queries.
