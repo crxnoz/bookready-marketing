@@ -2,6 +2,16 @@ ErrorDocument 404 /404.html
 
 RewriteEngine On
 
+# ─── Canonical host: mybookready.com → bkrdy.com (permanent 301) ───
+# The BKRDY rebrand (2026-06-20) makes bkrdy.com the canonical marketing
+# domain. mybookready.com stays registered forever and 301s here so the
+# legacy index + any backlinks transfer cleanly (GSC Change of Address filed
+# separately). Host-conditional so it ONLY fires for the old host — bkrdy.com
+# requests fall through untouched, so there's no redirect loop even while both
+# domains share one document root via the Hostinger parked-domain alias.
+RewriteCond %{HTTP_HOST} ^(www\.)?mybookready\.com$ [NC]
+RewriteRule ^(.*)$ https://bkrdy.com/$1 [R=301,L]
+
 # Legacy URLs (pre-restructure) -> current equivalents. Preserves any link
 # equity and clears the GSC "Not found (404)" reports. The /wp-admin and
 # /wp-content 404s are bot probes and are correctly left as 404.
