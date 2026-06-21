@@ -1665,3 +1665,18 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
   object-fit: contain;
   display: block;
 }
+
+
+/* ─── Template detail: intro CTA pair (primary + ghost demo link) ─── */
+.br-tpl-intro__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-self: flex-start;
+  margin-top: 4px;
+}
+.br-tpl-intro__actions .br-tpl-intro__cta { margin-top: 0; align-self: auto; }
+@media (max-width: 720px) {
+  .br-tpl-intro__actions { align-self: stretch; flex-direction: column; }
+  .br-tpl-intro__actions .br-button { justify-content: center; text-align: center; }
+}
