@@ -54,6 +54,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" /></noscript>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="pages.css" />
 
     <!-- Structured data: the product itself -->
     <script type="application/ld+json">
@@ -392,11 +393,11 @@
             artists, nail techs, and spas with a brand to show.
           </p>
           <div class="br-hero__actions">
-            <a href="https://app.bkrdy.me/register" class="br-button"
-              >Start your 30-day trial</a
+            <a href="#templates" class="br-button"
+              >Browse Templates</a
             >
-            <a href="#templates" class="br-text-link"
-              >Browse templates &rarr;</a
+            <a href="https://app.bkrdy.me/register?ref=home-hero" class="br-text-link"
+              >Start 30-day free trial &rarr;</a
             >
           </div>
           <p class="br-hero__fine">
@@ -517,6 +518,104 @@
             </p>
           </div>
           <a href="/templates/" class="br-button">Browse all templates</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Industry routing: pick your trade, jump to the page built for it ─── -->
+    <section class="br-section">
+      <div class="br-section__inner">
+        <div class="br-section__head">
+          <p class="br-kicker">What kind of business?</p>
+          <h2 class="br-section__title">
+            Built for your <span class="br-italic">specific work.</span>
+          </h2>
+          <p class="br-section__intro">
+            Per-chair calendars for barbers. Service-with-add-ons for nail techs.
+            Hour-plus deposits for estheticians. Multi-room packages for spas.
+            Pick your trade and we&rsquo;ll show you the matching template.
+          </p>
+        </div>
+        <div class="br-industry-grid">
+          <a class="br-industry-card" href="/for-barbers/">
+            <span class="br-industry-card__label">For</span>
+            <span class="br-industry-card__name">Barbers</span>
+            <span class="br-industry-card__mood">Per-chair, walk-in friendly</span>
+          </a>
+          <a class="br-industry-card" href="/for-lash-artists/">
+            <span class="br-industry-card__label">For</span>
+            <span class="br-industry-card__name">Lash artists</span>
+            <span class="br-industry-card__mood">Sets, fills, refills</span>
+          </a>
+          <a class="br-industry-card" href="/for-nail-techs/">
+            <span class="br-industry-card__label">For</span>
+            <span class="br-industry-card__name">Nail techs</span>
+            <span class="br-industry-card__mood">Add-ons, art tiers</span>
+          </a>
+          <a class="br-industry-card" href="/for-estheticians/">
+            <span class="br-industry-card__label">For</span>
+            <span class="br-industry-card__name">Estheticians</span>
+            <span class="br-industry-card__mood">Intake, series, packages</span>
+          </a>
+          <a class="br-industry-card" href="/for-salons/">
+            <span class="br-industry-card__label">For</span>
+            <span class="br-industry-card__name">Hair salons</span>
+            <span class="br-industry-card__mood">Per-stylist, color by duration</span>
+          </a>
+          <a class="br-industry-card" href="/for-spas/">
+            <span class="br-industry-card__label">For</span>
+            <span class="br-industry-card__name">Spas</span>
+            <span class="br-industry-card__mood">Packages, per-room calendars</span>
+          </a>
+          <a class="br-industry-card" href="/for-solo-pros/">
+            <span class="br-industry-card__label">For</span>
+            <span class="br-industry-card__name">Solo pros</span>
+            <span class="br-industry-card__mood">One link, one calendar</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── "Just a booking link" vs "Your BKRDY site" comparison ─── -->
+    <section class="br-section br-section--bordered">
+      <div class="br-section__inner">
+        <div class="br-section__head">
+          <p class="br-kicker">Why a real site</p>
+          <h2 class="br-section__title">
+            Your booking link <span class="br-italic">can&rsquo;t do this.</span>
+          </h2>
+          <p class="br-section__intro">
+            A booking link is a row of buttons on a beige page. Your BKRDY site
+            is the whole experience &mdash; the work, the deposits, the customer
+            hub, all under your name and on your domain.
+          </p>
+        </div>
+        <div class="br-vs">
+          <div class="br-vs__col br-vs__col--cold">
+            <p class="br-vs__label">Just a booking link</p>
+            <ul class="br-vs__list">
+              <li>Generic logo on a generic page</li>
+              <li>Your services in a bullet list</li>
+              <li>No photos of your actual work</li>
+              <li>Their domain, their branding on confirmation emails</li>
+              <li>No customer history, no deposits, no policies</li>
+              <li>A drop-down that says &ldquo;book&rdquo;</li>
+            </ul>
+          </div>
+          <div class="br-vs__col br-vs__col--warm">
+            <p class="br-vs__label">Your BKRDY site</p>
+            <ul class="br-vs__list">
+              <li><strong>A real designed website</strong> built around your brand</li>
+              <li>Gallery and service menu that show the work first</li>
+              <li><strong>Deposits that hold</strong> &mdash; Stripe direct to your account</li>
+              <li>Your domain, your name on every confirmation</li>
+              <li>Customer hub: history, notes, reminders, win-backs</li>
+              <li>One link for Instagram bio, business cards, everything</li>
+            </ul>
+          </div>
+        </div>
+        <div class="br-vs__cta">
+          <a class="br-button" href="#templates">Browse Templates</a>
         </div>
       </div>
     </section>
@@ -1857,19 +1956,20 @@
     <!-- ─── Final CTA ─── -->
     <section class="br-final-cta">
       <div class="br-final-cta__inner">
-        <p class="br-kicker br-kicker--inverse">No pressure</p>
+        <p class="br-kicker br-kicker--inverse">Your turn</p>
         <h2 class="br-final-cta__title">
-          Your booking website should look like your brand.
-          <span class="br-italic">Not like everyone else&rsquo;s.</span>
+          Pick your template.
+          <span class="br-italic">Go live tonight.</span>
         </h2>
         <p class="br-final-cta__text">
-          Pick a template, add your services, and you&rsquo;re live. Most people
-          finish in under 20 minutes.
+          Browse the library, click the one that fits your room, and your site
+          is wired up before you finish your coffee. 30-day free trial,
+          cancel anytime.
         </p>
         <a
-          href="https://app.bkrdy.me/register"
+          href="#templates"
           class="br-button br-button--inverse"
-          >Start your 30-day trial</a
+          >Browse Templates</a
         >
       </div>
     </section>
@@ -2154,7 +2254,14 @@
       })();
     </script>
 
+    <!-- Sticky "Pick your template" CTA — slides in after hero scroll -->
+    <a class="br-sticky-tpl" href="#templates" aria-label="Browse BKRDY templates">
+      <span class="br-sticky-tpl__cta">Pick your <strong>template</strong> <span class="br-sticky-tpl__price">from $13/mo &rarr;</span></span>
+      <button class="br-sticky-tpl__dismiss" type="button" aria-label="Dismiss">&times;</button>
+    </a>
+
     <!-- ─── Nav behavior (shared, vanilla JS, no deps) ─── -->
     <script src="/nav.js"></script>
+    <script src="/tpl-sticky.js" defer></script>
   </body>
 </html>
