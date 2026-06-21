@@ -426,9 +426,7 @@ a.br-template-card:hover .br-template-card__overlay {
   object-fit: cover;
   display: block;
 }
-@media (max-width: 720px) {
-  .br-tpl-cover__frame { aspect-ratio: 4 / 3; }
-}
+@media (max-width: 720px) { .br-tpl-cover__frame { aspect-ratio: 16 / 9; } }
 
 /* ─── Template detail: title block under the cover ─── */
 .br-tpl-intro {
