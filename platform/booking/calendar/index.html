@@ -28,6 +28,7 @@
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" /></noscript>
   <link rel="stylesheet" href="/styles.css" />
   <link rel="stylesheet" href="/pages.css" />
+  <link rel="stylesheet" href="/mockups.css" />
 
   <script type="application/ld+json">
   {
@@ -260,7 +261,30 @@
       </div>
     </div>
     <div class="br-pagehero__visual">
-      <img class="br-pagehero__shot" src="https://bkrdy.com/images/og/og-image.jpg" alt="" loading="eager" decoding="async" />
+      <div class="bk-mock bk-mock--hero" role="img" aria-label="The BKRDY booking calendar showing a color-coded week with capacity, requests and waitlist layers">
+        <div class="bk-mock__bar"><div class="bk-mock__bar-l"><p class="bk-ey">Bookings</p></div><div class="bk-seg"><span>Day</span><span class="is-on">Week</span></div></div>
+        <div style="display:flex;flex-wrap:wrap;gap:6px;padding:10px 16px;border-bottom:1px solid rgba(18,18,18,0.08);">
+          <span class="bk-pill bk-pill--dark">Appointments</span><span class="bk-pill bk-pill--dark">Capacity</span><span class="bk-pill bk-pill--ghost">Requests</span><span class="bk-pill bk-pill--ghost">Waitlist</span>
+        </div>
+        <div class="bk-cal__grid">
+          <div class="bk-cal__h"><p class="bk-cal__dow">Mon</p><p class="bk-cal__num">16</p><p class="bk-cal__cap">3/6</p></div>
+          <div class="bk-cal__h"><p class="bk-cal__dow">Tue</p><p class="bk-cal__num">17</p><p class="bk-cal__cap">5/6</p></div>
+          <div class="bk-cal__h"><p class="bk-cal__dow">Wed</p><p class="bk-cal__num">18</p><p class="bk-cal__cap" style="color:#8A5A00;">closed</p></div>
+          <div class="bk-cal__h is-today"><p class="bk-cal__dow">Thu</p><p class="bk-cal__num">19</p><p class="bk-cal__cap">6/6</p></div>
+          <div class="bk-cal__h"><p class="bk-cal__dow">Fri</p><p class="bk-cal__num">20</p><p class="bk-cal__cap">4/6</p></div>
+          <div class="bk-cal__h"><p class="bk-cal__dow">Sat</p><p class="bk-cal__num">21</p><p class="bk-cal__cap">2/6</p></div>
+          <div class="bk-cal__h"><p class="bk-cal__dow">Sun</p><p class="bk-cal__num" style="color:#B8AFA6;">22</p></div>
+        </div>
+        <div class="bk-cal__body">
+          <div class="bk-cal__col"><div class="bk-evt bk-evt--teal"><p>9:30 Maya</p></div><div class="bk-evt bk-evt--purple"><p>1:00 Jo</p></div></div>
+          <div class="bk-cal__col"><div class="bk-evt bk-evt--teal"><p>10:00 Sam</p></div><div class="bk-evt bk-evt--amber"><p>11:30 Pat</p></div><div class="bk-evt bk-evt--ghost"><p>Req · Priya</p></div></div>
+          <div class="bk-cal__col bk-cal__col--off"></div>
+          <div class="bk-cal__col"><div class="bk-evt bk-evt--teal"><p>9:00 Nina</p></div><div class="bk-evt bk-evt--teal"><p>11:00 Theo</p></div><div class="bk-evt bk-evt--ink"><p>2:30 Mia</p></div><p class="bk-cal__sb">1 standby</p></div>
+          <div class="bk-cal__col"><div class="bk-evt bk-evt--purple"><p>10:30 Lee</p></div><div class="bk-evt bk-evt--pink"><p>3:30 +$15</p></div></div>
+          <div class="bk-cal__col"><div class="bk-evt bk-evt--teal"><p>12:00 Ada</p></div></div>
+          <div class="bk-cal__col"></div>
+        </div>
+      </div>
     </div>
   </section>
 

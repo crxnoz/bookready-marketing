@@ -28,6 +28,7 @@
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" /></noscript>
   <link rel="stylesheet" href="/styles.css" />
   <link rel="stylesheet" href="/pages.css" />
+  <link rel="stylesheet" href="/mockups.css" />
 
   <script type="application/ld+json">
   {
@@ -260,7 +261,17 @@
       </div>
     </div>
     <div class="br-pagehero__visual">
-      <img class="br-pagehero__shot" src="https://bkrdy.com/images/og/og-image.jpg" alt="" loading="eager" decoding="async" />
+      <div class="bk-mock bk-mock--hero" role="img" aria-label="The BKRDY customer list with VIP, balance-due and lapsed tags, searchable and filterable into views">
+        <div class="bk-mock__bar"><div class="bk-mock__bar-l"><p class="bk-ey">Customers</p></div><span class="bk-pill bk-pill--dark">Add customer</span></div>
+        <div class="bk-stats" style="grid-template-columns:repeat(4,1fr);">
+          <div class="bk-stat"><p>Total</p><p>248</p></div><div class="bk-stat"><p>VIP</p><p>19</p></div><div class="bk-stat"><p>Balance due</p><p>4</p></div><div class="bk-stat"><p>Inactive</p><p>31</p></div>
+        </div>
+        <div class="bk-search">Search by name, email, or phone&hellip;</div>
+        <div class="bk-filterbar"><span class="bk-pill bk-pill--dark">All</span><span class="bk-pill bk-pill--ghost">VIP</span><span class="bk-pill bk-pill--ghost">Balance due</span><span class="bk-pill bk-pill--ghost">No-show risk</span></div>
+        <div class="bk-row"><div class="bk-av" style="background:#EFE6DC;color:#6B4F3A;">SK</div><div class="bk-row__main"><div class="bk-chips"><span class="bk-row__t">Sarah Kim</span><span class="bk-tag bk-tag--ink">VIP</span><span class="bk-tag bk-tag--pink">Balayage</span></div><p class="bk-row__s">12 visits &middot; $1,840 spent</p></div><svg class="bk-chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M3 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="bk-row"><div class="bk-av" style="background:#E1F5EE;color:#0F6E56;">TM</div><div class="bk-row__main"><div class="bk-chips"><span class="bk-row__t">Theo Marsh</span><span class="bk-tag bk-tag--purple">New</span><span class="bk-tag bk-tag--teal">Referral</span></div><p class="bk-row__s">1 visit &middot; upcoming Thu</p></div><svg class="bk-chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M3 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="bk-row"><div class="bk-av" style="background:#FAEEDA;color:#854F0B;">AP</div><div class="bk-row__main"><div class="bk-chips"><span class="bk-row__t">Ada Park</span><span class="bk-tag bk-tag--gray">Lapsed</span><span class="bk-tag bk-tag--pink">$45 due</span></div><p class="bk-row__s">Last seen 4 months ago</p></div><svg class="bk-chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M3 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </div>
     </div>
   </section>
 
