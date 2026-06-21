@@ -22,6 +22,10 @@ RewriteRule ^template/?$ /templates/ [R=301,L]
 RewriteRule ^features/personalized-branding/?$ /platform/website/sections/ [R=301,L]
 RewriteRule ^features/easy-editing/?$ /platform/website/templates/ [R=301,L]
 
+# /customers/ removed (page held fabricated testimonials before any real customers existed).
+# Redirect to /templates/ — closest intent match for a visitor who clicked an old link.
+RewriteRule ^customers/?$ /templates/ [R=301,L]
+
 # Force trailing slash on directory URLs (consolidates link equity to one canonical form)
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_URI} !(.*)/$
