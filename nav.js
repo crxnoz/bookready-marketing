@@ -219,3 +219,44 @@
     io.observe(el);
   });
 })();
+
+/* ─── GA4 marketing-funnel events ───
+   page_view is already auto-tracked by the gtag config at the top of this
+   file. These add the conversion signals the funnel actually needs:
+
+     cta_clicked     — any click on a "Get started / Start free" CTA
+                       (any link whose href targets /register). Params:
+                       { location: <page path>, button_text }. Lets you see
+                       landing→click per page (e.g. /for-barbers vs /pricing).
+     template_viewed — fires on load of a /templates/{slug}/ detail page.
+                       Params: { template_name }. One report ranks which
+                       templates get looked at, instead of reading paths.
+     pricing_viewed  — fires on load of /pricing/.
+
+   These match the shared AnalyticsEvents registry in the app repo
+   (web/lib/analytics/events.ts) so both properties speak the same vocab.
+   gtag() is defined synchronously by the config block above, so events
+   queue in dataLayer even before gtag.js finishes loading. Never throws. */
+(function () {
+  function track(name, params) {
+    try { if (window.gtag) window.gtag('event', name, params || {}); } catch (_) {}
+  }
+
+  var path = (location.pathname || '/').toLowerCase().replace(/\/+$/, '') || '/';
+
+  // Page-load signals.
+  var tpl = path.match(/^\/templates\/([a-z0-9-]+)$/);
+  if (tpl) track('template_viewed', { template_name: tpl[1] });
+  if (path === '/pricing') track('pricing_viewed', {});
+
+  // Delegated CTA click — capture-phase so it still fires before the
+  // navigation unloads the page. Matches any register-bound link.
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    if (!/\/register(\b|\?|$)/.test(href)) return;
+    var text = (a.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 60) || 'Get started';
+    track('cta_clicked', { location: path, button_text: text });
+  }, true);
+})();
