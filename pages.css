@@ -1259,3 +1259,160 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
   margin: 0;
 }
 
+/* ═══════════════════════════════════════════════════════════════
+   Persona hero v2 — captivating-for-ads pass.
+   - .br-offer:        clickable founding-pricing ribbon above nav
+   - .br-hero-poster:  half-view visual + tight copy + scroll hint
+   - .br-pop:          highlighter-marker treatment on key words
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ─── Offer ribbon (above nav, full-width, clickable) ─── */
+.br-offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  padding: 10px 20px;
+  background: var(--text);
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: var(--font);
+  font-size: 13px;
+  letter-spacing: 0.005em;
+  text-align: center;
+  transition: background .15s ease;
+}
+.br-offer:hover { background: #000; }
+.br-offer__tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 9px;
+  background: var(--accent);
+  color: var(--text);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.br-offer__body { font-weight: 500; color: rgba(255,255,255,0.92); }
+.br-offer__plan {
+  color: rgba(255,255,255,0.55);
+  font-weight: 500;
+  margin-right: 2px;
+}
+.br-offer__strong { font-weight: 800; color: #FFFFFF; }
+.br-offer__cta {
+  font-weight: 800;
+  color: var(--accent);
+  letter-spacing: 0.01em;
+}
+@media (max-width: 540px) {
+  .br-offer { font-size: 12px; padding: 9px 14px; gap: 6px 10px; }
+  .br-offer__plan { display: none; }   /* leave $15 · $29 · locked for life */
+}
+
+/* ─── Highlighter-marker accent for key words ─── */
+.br-pop {
+  position: relative;
+  font-weight: 800;
+  background: linear-gradient(180deg, transparent 0%, transparent 58%, var(--accent) 58%, var(--accent) 92%, transparent 92%);
+  padding: 0 2px;
+  white-space: nowrap;
+}
+
+/* ─── Hero poster — half-view visual + compact copy + scroll cue ─── */
+.br-hero-poster {
+  width: 100%;
+  padding: 20px 20px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.br-hero-poster__visual {
+  position: relative;
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  max-height: 56vh;
+  background: var(--text);
+  border: 1px solid var(--text);
+  overflow: hidden;
+}
+.br-hero-poster__shot {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.br-hero-poster__copy {
+  width: min(1360px, 100%);
+  margin: 0 auto;
+  max-width: 920px;
+  padding: 28px 0 4px;
+}
+.br-hero-poster__title {
+  font-size: clamp(34px, 5.4vw, 64px);
+  line-height: 1.0;
+  letter-spacing: -0.05em;
+  font-weight: 800;
+  margin: 14px 0 18px;
+  color: var(--text);
+}
+.br-hero-poster__title-sub {
+  display: inline-block;
+  font-weight: 300;
+}
+.br-hero-poster__sub {
+  color: var(--text);
+  font-size: clamp(16px, 1.9vw, 20px);
+  line-height: 1.55;
+  margin: 0 0 24px;
+  max-width: 760px;
+  font-weight: 500;
+}
+.br-hero-poster__actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px 18px;
+  margin: 0 0 14px;
+}
+.br-hero-poster__trust {
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+.br-hero-poster__scroll {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px auto 0;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(18,18,18,0.18);
+  background: transparent;
+  color: var(--text);
+  text-decoration: none;
+  animation: brHeroScroll 1.8s ease-in-out infinite;
+}
+.br-hero-poster__scroll:hover { background: var(--text); color: var(--bg); }
+@keyframes brHeroScroll {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(4px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .br-hero-poster__scroll { animation: none; }
+}
+@media (max-width: 540px) {
+  .br-hero-poster { padding: 14px 16px 28px; }
+  .br-hero-poster__visual {
+    aspect-ratio: 4 / 5;          /* taller on mobile, fills more of the fold */
+    max-height: 52vh;
+  }
+  .br-hero-poster__actions { width: 100%; }
+  .br-hero-poster__actions .br-button { width: 100%; }
+}
