@@ -277,7 +277,13 @@
   <!-- ─── Cover image ─── -->
   <section class="br-tpl-cover">
     <div class="br-tpl-cover__frame">
-      <img src="/images/templates/chroma-cover.jpg" alt="Chroma template cover" loading="eager" decoding="async" />
+      <div class="br-tpl-prev" style="aspect-ratio:16/9; display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden; padding:0; background:#F8F4FF;">
+        <span style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:55%; aspect-ratio:1/1; background:conic-gradient(from 0deg,#C9B8FF,#B5F5E8,#FFD1E8,#FFE08A,#C9B8FF); filter:blur(60px); opacity:0.55; border-radius:50%;"></span>
+        <span style="position:relative; text-align:center;">
+          <span style="display:block; font:700 clamp(13px,1.4vw,20px)/1 'IBM Plex Mono',monospace; letter-spacing:0.32em; color:#8A6FB8; text-transform:uppercase; margin-bottom:22px;">✦ Chroma Studio ✦</span>
+          <span style="display:block; font:800 clamp(72px,12vw,180px)/0.92 'Bricolage Grotesque',sans-serif; letter-spacing:-0.025em; background:linear-gradient(90deg,#C9B8FF,#B5F5E8,#FFD1E8,#FFE08A,#C9B8FF); background-size:200% 100%; -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:transparent; animation:br-tpl-shim 5s ease-in-out infinite; filter:drop-shadow(0 4px 14px rgba(248,244,255,0.95));">chroma</span>
+        </span>
+      </div>
     </div>
   </section>
 
@@ -348,6 +354,17 @@
         <p class="br-kicker">Built for the brand</p>
         <h2 class="br-section__title">A Chroma template that reads its mood without effort</h2>
         <p class="br-section__intro">Chroma is a Y2K iridescent storefront — conic-gradient orb diffused behind the wordmark, holographic foil on the headlines, chrome bubble pills on every CTA. Built for businesses whose finish is the product: colorists, chrome-nail artists, gloss treatments, glass-skin facialists.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Phone showcase (portrait 4:5 mockup) ─── -->
+  <section class="br-tpl-showcase">
+    <div class="br-tpl-showcase__inner">
+      <p class="br-kicker">On a phone</p>
+      <h2 class="br-tpl-showcase__title">See it where your clients see it.</h2>
+      <div class="br-tpl-showcase__frame">
+        <img src="/images/templates/chroma-cover.jpg" alt="Chroma template on a phone" loading="lazy" decoding="async" />
       </div>
     </div>
   </section>

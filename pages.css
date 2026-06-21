@@ -1621,3 +1621,47 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
   display: flex;
   justify-content: center;
 }
+
+
+/* ─── Template detail: animated-card cover keyframes
+       (Bleeker marquee + Chroma shimmer reuse these). ─── */
+@keyframes br-tpl-mq   { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes br-tpl-shim { 0%, 100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
+
+/* ─── Template detail: phone-showcase section
+       Shows the portrait 4:5 mockup at its native ratio. ─── */
+.br-tpl-showcase {
+  width: 100%;
+  padding: clamp(48px, 6vw, 96px) 20px;
+  background: var(--surface-soft, #F7F4EF);
+  border-top: 1px solid rgba(18, 18, 18, 0.06);
+  border-bottom: 1px solid rgba(18, 18, 18, 0.06);
+}
+.br-tpl-showcase__inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+.br-tpl-showcase__title {
+  margin: 16px 0 0;
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(32px, 4.6vw, 56px);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  color: var(--ink, #121212);
+}
+.br-tpl-showcase__frame {
+  max-width: 480px;
+  margin: clamp(32px, 4vw, 56px) auto 0;
+  aspect-ratio: 4 / 5;
+  display: block;
+  background: rgba(18, 18, 18, 0.04);
+  border: 1px solid rgba(18, 18, 18, 0.06);
+}
+.br-tpl-showcase__frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}

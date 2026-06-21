@@ -276,9 +276,15 @@
 
   <!-- ─── Cover image (placeholder until preview shot lands) ─── -->
   <section class="br-tpl-cover">
-    <div class="br-tpl-cover__frame" style="background:#FAFAFA;aspect-ratio:1200/675;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:48px 24px;border-bottom:1px solid #ECECEC;">
-      <p style="margin:0;font-family:'Inter',sans-serif;font-weight:300;font-size:clamp(64px,10vw,144px);color:#1C1C1E;line-height:1;letter-spacing:-2px;">Clarity</p>
-      <p style="margin:24px 0 0;font-family:'Inter',sans-serif;font-size:12px;letter-spacing:6px;text-transform:uppercase;color:#9EAD9C;font-weight:500;">Preview coming soon</p>
+    <div class="br-tpl-cover__frame">
+      <div class="br-tpl-prev" style="aspect-ratio:16/9; display:flex; align-items:center; justify-content:flex-end; padding-right:8%; position:relative; overflow:hidden; background:#FFFFFF;">
+        <span style="position:absolute; top:50%; left:14%; width:30%; height:1px; background:#9EAD9C;"></span>
+        <span style="position:absolute; top:50%; left:44%; width:14px; height:14px; background:#9EAD9C; border-radius:50%; transform:translateY(-50%);"></span>
+        <span style="position:relative; text-align:right;">
+          <span style="display:block; font:500 clamp(13px,1.4vw,20px)/1 'Inter',sans-serif; letter-spacing:0.46em; color:#9EAD9C; text-transform:uppercase; margin-bottom:22px;">Clinical Aesthetics</span>
+          <span style="display:block; font:500 clamp(52px,7.5vw,108px)/0.95 'Inter',sans-serif; color:#2A2D2A; letter-spacing:-0.025em;">Clarity<br>Aesthetics</span>
+        </span>
+      </div>
     </div>
   </section>
 
@@ -380,6 +386,17 @@
         <p class="br-kicker">Built for clinical luxury</p>
         <h2 class="br-section__title">A medspa-ready home, photo-light by design.</h2>
         <p class="br-section__intro">Clarity runs off-white with a muted sage default and Inter throughout. Type-led, photo-light, generous whitespace. Built for medspas, fine-line and micro-tattoo studios, premium nail and lash artists who want to read luxury and clinical without being cold.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Phone showcase (portrait 4:5 mockup) ─── -->
+  <section class="br-tpl-showcase">
+    <div class="br-tpl-showcase__inner">
+      <p class="br-kicker">On a phone</p>
+      <h2 class="br-tpl-showcase__title">See it where your clients see it.</h2>
+      <div class="br-tpl-showcase__frame">
+        <img src="/images/templates/clarity-cover.jpg" alt="Clarity template on a phone" loading="lazy" decoding="async" />
       </div>
     </div>
   </section>
