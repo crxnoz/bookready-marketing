@@ -5,24 +5,21 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Pricing, flat rate | BKRDY</title>
-  <meta name="description" content="Flat-rate pricing for BKRDY. Online booking, Stripe deposits, and unlimited appointments on every plan. No BKRDY markup. You pay only Stripe's standard rate." />
-  <link rel="canonical" href="https://bkrdy.com/pricing/" />
+  <title>After-hours &amp; squeeze-in slots with premium pricing | BKRDY</title>
+  <meta name="description" content="Open past your closing hours, or squeeze a client into a full day. Charge a premium, collect the deposit at booking, all built into the calendar." />
+  <link rel="canonical" href="https://bkrdy.com/platform/booking/after-hours/" />
 
-  <!-- OpenGraph -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bkrdy.com/pricing/" />
+  <meta property="og:url" content="https://bkrdy.com/platform/booking/after-hours/" />
   <meta property="og:site_name" content="BKRDY" />
-  <meta property="og:title" content="BKRDY pricing, flat rate" />
-  <meta property="og:description" content="Online booking, Stripe deposits, and unlimited appointments on every plan. No BKRDY markup. You pay only Stripe's standard rate." />
+  <meta property="og:title" content="After-hours &amp; squeeze-in slots" />
+  <meta property="og:description" content="When you&rsquo;re full, clients join a waitlist. The moment a slot opens, they&rsquo;re notified automatically, so late cancellations fill themselves." />
   <meta property="og:image" content="https://bkrdy.com/images/hero/hero.webp" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="BKRDY pricing, flat rate" />
-  <meta name="twitter:description" content="Online booking, Stripe deposits, and unlimited appointments on every plan. No BKRDY markup. You pay only Stripe's standard rate." />
+  <meta name="twitter:title" content="Booking waitlist that fills cancellations" />
+  <meta name="twitter:description" content="When you&rsquo;re full, clients join a waitlist. The moment a slot opens, they&rsquo;re notified automatically, so late cancellations fill themselves." />
   <meta name="twitter:image" content="https://bkrdy.com/images/hero/hero.webp" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,28 +29,14 @@
   <link rel="stylesheet" href="/styles.css" />
   <link rel="stylesheet" href="/pages.css" />
 
-  <!-- Structured data: breadcrumb + priced offers -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bkrdy.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://bkrdy.com/pricing/"}
-    ]
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "BKRDY",
-    "description": "Booking websites for salons, barbers, lash artists, nail techs, and spas. Online booking, Stripe deposits, and unlimited appointments on every plan.",
-    "brand": {"@type": "Brand", "name": "BKRDY"},
-    "offers": [
-      {"@type": "Offer", "name": "Solo",   "price": "15", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://bkrdy.com/pricing/"},
-      {"@type": "Offer", "name": "Studio", "price": "29", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://bkrdy.com/pricing/"},
-      {"@type": "Offer", "name": "Salon",  "price": "99", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://bkrdy.com/pricing/"}
+      {"@type": "ListItem", "position": 2, "name": "Platform", "item": "https://bkrdy.com/platform/"},
+      {"@type": "ListItem", "position": 3, "name": "After hours", "item": "https://bkrdy.com/platform/booking/after-hours/"}
     ]
   }
   </script>
@@ -279,7 +262,7 @@
                   <span class="br-megalink__desc">Custom intake per service</span>
                 </span>
               </a>
-              <a class="br-megalink" href="/platform/booking/waitlist/" role="menuitem">
+              <a class="br-megalink" href="/platform/booking/after-hours/" role="menuitem">
                 <span class="br-megalink__body">
                   <span class="br-megalink__title">Waitlist</span>
                   <span class="br-megalink__desc">Cancellations fill themselves</span>
@@ -375,240 +358,174 @@
     </div>
   </header>
 
-  <!-- ─── Breadcrumb ─── -->
   <nav class="br-crumbs" aria-label="Breadcrumb">
     <a href="/">Home</a>
     <span class="br-crumbs__sep" aria-hidden="true">/</span>
-    <span class="br-crumbs__current" aria-current="page">Pricing</span>
+    <span class="br-crumbs__current">Platform</span>
+    <span class="br-crumbs__sep" aria-hidden="true">/</span>
+    <span class="br-crumbs__current" aria-current="page">After hours</span>
   </nav>
 
-  <!-- ─── Page header ─── -->
-  <section class="br-pagehead">
-    <div class="br-pagehead__inner">
-      <p class="br-kicker">Pricing</p>
-      <h1 class="br-pagehead__title">Flat rate. <span class="br-italic">No cuts. No markup.</span></h1>
-      <p class="br-pagehead__intro">
-        Online booking, Stripe deposits, and unlimited appointments come standard on every plan. The plan you pick comes down to your team size and whether you want your own domain.
-      </p>
-    </div>
-  </section>
-
-  <!-- ─── Pricing grid (billing toggle bound by pricing.js via #pricing) ─── -->
-  <section id="pricing" class="br-section" data-billing="monthly">
-    <div class="br-section__inner">
-
-      <div class="br-billing-toggle" data-billing-toggle>
-        <button type="button" class="br-billing-opt is-active" data-billing-btn="monthly">Monthly</button>
-        <button type="button" class="br-billing-opt" data-billing-btn="annual">Annual <span class="br-billing-badge">2 months free</span></button>
+  <section class="br-pagehero">
+    <div class="br-pagehero__meta">
+      <p class="br-kicker">Booking System</p>
+      <h1 class="br-pagehead__title">Stay open <span class="br-italic">on your terms.</span></h1>
+      <p class="br-pagehead__intro">Offer slots past your closing hours, or squeeze a client into a fully-booked day. Charge a premium, collect the deposit at booking. The calendar handles the rest.</p>
+      <div class="br-pagehead__actions">
+        <a href="https://app.bkrdy.me/register" class="br-button">Start your 30-day trial</a>
+        <a href="/pricing/" class="br-text-link">See pricing &rarr;</a>
       </div>
+    </div>
+    <div class="br-pagehero__visual">
+      <div class="br-ah-mock" aria-label="Sample after-hours appointment with premium pricing">
+        <div class="br-ah-mock__head">
+          <p class="br-ah-mock__service">After hours &middot; 9:00 PM</p>
+          <p class="br-ah-mock__meta">Saturday &middot; Lash Fill, 45 min</p>
+        </div>
 
-      <p class="br-founder-note"><strong>Founding-member pricing.</strong> Lock in this rate for life. Early-access prices rise as we add features, but your rate stays put for as long as you&rsquo;re subscribed.</p>
-
-      <div class="br-pricing-grid" aria-label="BookReady plans">
-
-        <article class="br-plan" data-plan="solo" data-base-m="15" data-base-a="12.50">
-          <p class="br-plan__label">Solo</p>
-          <h3>One person</h3>
-          <div class="br-plan__price br-price-m">$<span data-price-m>15</span><span>/mo</span></div>
-          <div class="br-plan__price br-price-a">$<span data-price-a>12.50</span><span>/mo</span></div>
-          <p class="br-plan__period br-period-m" data-period-m>billed monthly</p>
-          <p class="br-plan__period br-period-a" data-period-a>billed annually ($150/yr) &middot; save $30</p>
-
-          <p class="br-plan__sms">SMS texting &middot; coming soon</p>
-
-          <p class="br-plan__text">
-            One calendar. For solo barbers, lash artists, nail techs, and facialists running their own chair.
-          </p>
-          <ul class="br-plan__list">
-            <li>1 staff account</li>
-            <li>Full template library</li>
-            <li>Custom forms &amp; intake</li>
-            <li>Remove BookReady branding</li>
-            <li>Email marketing <span class="br-plan__soon">coming soon</span></li>
-          </ul>
-          <a href="https://app.bkrdy.me/register?plan=solo" class="br-button br-plan__button">Choose Solo</a>
-        </article>
-
-        <article class="br-plan br-plan--featured" data-plan="studio" data-base-m="29" data-base-a="24">
-          <div class="br-plan__badge">Most Popular</div>
-          <p class="br-plan__label">Studio</p>
-          <h3>Small team</h3>
-          <div class="br-plan__price br-price-m">$<span data-price-m>29</span><span>/mo</span></div>
-          <div class="br-plan__price br-price-a">$<span data-price-a>24</span><span>/mo</span></div>
-          <p class="br-plan__period br-period-m" data-period-m>billed monthly</p>
-          <p class="br-plan__period br-period-a" data-period-a>billed annually ($290/yr) &middot; save $58</p>
-
-          <p class="br-plan__sms">SMS texting &middot; coming soon</p>
-
-          <p class="br-plan__text">
-            For small studios with two to five staff. Same full feature set as Solo, just with more team seats.
-          </p>
-          <ul class="br-plan__list">
-            <li>Up to 5 staff accounts</li>
-            <li>Full template library</li>
-            <li>Custom forms &amp; intake</li>
-            <li>Remove BookReady branding</li>
-            <li>Email marketing <span class="br-plan__soon">coming soon</span></li>
-          </ul>
-          <a href="https://app.bkrdy.me/register?plan=studio" class="br-button br-plan__button">Choose Studio</a>
-        </article>
-
-        <article class="br-plan br-plan--soon" data-plan="salon" data-base-m="99" data-base-a="79">
-          <div class="br-plan__badge br-plan__badge--soon">Coming Soon</div>
-          <p class="br-plan__label">Salon</p>
-          <h3>Full house</h3>
-          <div class="br-plan__price br-price-m">$<span data-price-m>99</span><span>/mo</span></div>
-          <div class="br-plan__price br-price-a">$<span data-price-a>79</span><span>/mo</span></div>
-          <p class="br-plan__period br-period-m" data-period-m>billed monthly</p>
-          <p class="br-plan__period br-period-a" data-period-a>billed annually ($948/yr) &middot; save $240</p>
-
-          <p class="br-plan__sms">SMS texting &middot; coming soon</p>
-
-          <p class="br-plan__text">
-            For multi-location salons and teams of 5 to 25. Multi-location, API access, white-label notifications, dedicated onboarding.
-          </p>
-          <ul class="br-plan__list">
-            <li>Up to 25 staff accounts</li>
-            <li>Multi-location support</li>
-            <li>White-label notifications</li>
-            <li>API access + advanced reporting</li>
-            <li>Dedicated onboarding + VIP support</li>
-          </ul>
-
-          <div class="br-plan__waitlist" data-salon-waitlist>
-            <p class="br-plan__waitlist-label">Get early access</p>
-            <div class="br-plan__waitlist-form" data-waitlist-form>
-              <input type="email" class="br-plan__waitlist-input" placeholder="your@email.com" aria-label="Your email" autocomplete="email" data-waitlist-email />
-              <button type="button" class="br-button br-plan__button" data-waitlist-submit>Join the waitlist</button>
-            </div>
-            <p class="br-plan__waitlist-success" data-waitlist-success hidden>You&rsquo;re on the list. We&rsquo;ll be in touch.</p>
+        <div class="br-ah-mock__rows">
+          <div class="br-ah-mock__row">
+            <span class="br-ah-mock__label">Lash Fill</span>
+            <span class="br-ah-mock__amt">$90</span>
           </div>
-        </article>
+          <div class="br-ah-mock__row">
+            <span class="br-ah-mock__label">After-hours fee</span>
+            <span class="br-ah-mock__amt br-ah-mock__amt--accent">+$45</span>
+          </div>
+          <div class="br-ah-mock__row br-ah-mock__row--total">
+            <span class="br-ah-mock__label">Total</span>
+            <span class="br-ah-mock__amt"><strong>$135</strong></span>
+          </div>
+        </div>
 
+        <div class="br-ah-mock__deposit">
+          $30 deposit due now &middot; balance at the chair
+        </div>
+
+        <div class="br-ah-mock__cta">Reserve this slot &rarr;</div>
       </div>
-
-      <div class="br-risk-row" aria-label="Money-back reassurances">
-        <span class="br-risk-row__item">30-day trial</span>
-        <span class="br-risk-row__sep">&middot;</span>
-        <span class="br-risk-row__item">Cancel anytime</span>
-        <span class="br-risk-row__sep">&middot;</span>
-        <span class="br-risk-row__item">Keep your domain</span>
-        <span class="br-risk-row__sep">&middot;</span>
-        <span class="br-risk-row__item">Free migration</span>
-      </div>
-
-      <!-- SMS calculator removed: SMS texting is not live yet (coming soon, free at launch). -->
-
     </div>
   </section>
 
-  <!-- ─── What's included on every plan ─── -->
-  <section class="br-section br-section--bordered">
+  <section class="br-section">
     <div class="br-section__inner">
       <div class="br-section__head">
-        <p class="br-kicker">On every plan</p>
-        <h2 class="br-section__title">The whole product. <span class="br-italic">Not a starter tier.</span></h2>
-        <p class="br-section__intro">
-          We don&rsquo;t gate the booking engine behind a higher plan. Solo gets the same designed templates, deposits, and reminders as everyone else. Bigger plans just add seats and your own domain.
-        </p>
+        <p class="br-kicker">What you get</p>
+        <h2 class="br-section__title">Two ways to capture demand beyond your hours.</h2>
       </div>
-
       <div class="br-feats">
         <div class="br-feat">
-          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></span>
-          <h3>Designed templates</h3>
-          <p>The full template library on every plan. Switch any time, your data stays put.</p>
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/></svg></span>
+          <h3>After-hours slots</h3>
+          <p>Open select evenings or early mornings past your normal close. Each one carries the premium you set.</p>
         </div>
         <div class="br-feat">
-          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></span>
-          <h3>Direct Stripe payouts</h3>
-          <p>Deposits and payments go straight to your own Stripe account.</p>
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 01-3.4 0"/></svg></span>
+          <h3>Squeeze-in requests</h3>
+          <p>On a fully-booked day a client can request a squeeze-in. You approve, the system charges the premium, calendar adjusts.</p>
         </div>
         <div class="br-feat">
-          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 01-3.4 0"/></svg></span>
-          <h3>Deposits + reminders</h3>
-          <p>Collect deposits upfront and send email reminders 24h before. SMS reminders coming soon.</p>
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></span>
+          <h3>Premium pricing</h3>
+          <p>Flat fee or percentage uplift, your call. The premium adds to the service total automatically.</p>
         </div>
         <div class="br-feat">
-          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
-          <h3>Unlimited appointments</h3>
-          <p>No booking caps, ever. Take as many appointments as your calendar can hold.</p>
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M9 16l2 2 4-4"/></svg></span>
+          <h3>Deposit at booking</h3>
+          <p>Stripe deposit collected the moment the slot is claimed. No deposit, no slot.</p>
         </div>
         <div class="br-feat">
-          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg></span>
-          <h3>Custom domain</h3>
-          <p>Point yourname.com on Studio and Salon. Solo gets a clean bkrdy.me subdomain.</p>
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="10" r="3"/><path d="M6.5 19a6 6 0 0111 0"/></svg></span>
+          <h3>You stay in control</h3>
+          <p>Pick which days you allow after-hours. Approve every squeeze-in or auto-approve regulars.</p>
         </div>
         <div class="br-feat">
-          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></span>
-          <h3>Free migration</h3>
-          <p>Coming from Acuity, Square, Vagaro, or Booksy? We move you over, usually same day.</p>
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
+          <h3>One unified calendar</h3>
+          <p>After-hours and squeeze-in slots show up in the same calendar as your regular bookings. No separate tooling.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ─── Pricing FAQ ─── -->
   <section class="br-section br-section--bordered">
     <div class="br-section__inner">
       <div class="br-section__head">
-        <p class="br-kicker">Questions</p>
-        <h2 class="br-section__title">Pricing, answered.</h2>
+        <p class="br-kicker">Why it matters</p>
+        <h2 class="br-section__title">Premium time, paid for properly.</h2>
       </div>
-
-      <div class="br-faq">
-        <details class="br-faq__item">
-          <summary>What happens after the 30-day trial?</summary>
-          <p>You pick a plan and your card is charged. If you don&rsquo;t want to continue, you can cancel from your dashboard and your site stays live for 30 days while you export your data.</p>
-        </details>
-        <details class="br-faq__item">
-          <summary>What about transaction fees?</summary>
-          <p>BookReady doesn&rsquo;t take any. You pay Stripe&rsquo;s standard rate (2.9% + 30&cent; in the US) and that&rsquo;s it. Deposits and full payments go straight to your Stripe account.</p>
-        </details>
-        <details class="br-faq__item">
-          <summary>What&rsquo;s the difference between monthly and annual?</summary>
-          <p>Annual billing is the same plan at two months free: Solo drops to $12.50/mo, Studio to $24/mo. You&rsquo;re billed once a year and can switch back to monthly whenever.</p>
-        </details>
-        <details class="br-faq__item">
-          <summary>Will these prices go up?</summary>
-          <p>These are early-access founding-member prices. Lock in your rate now and it stays put for as long as your subscription stays active, even as we add features and raise prices for new customers.</p>
-        </details>
-        <details class="br-faq__item">
-          <summary>Can I change plans later?</summary>
-          <p>Any time, in both directions. Upgrades are prorated and take effect immediately. Downgrades apply at your next billing date. Your site, services, and clients stay exactly as they are.</p>
-        </details>
-        <details class="br-faq__item">
-          <summary>Is BookReady built for the US?</summary>
-          <p>Right now, yes. Payments are Stripe US and the booking flow assumes US business hours. International expansion is on the roadmap.</p>
-        </details>
+      <div class="br-statband">
+        <div class="br-stat"><p class="br-stat__num">+25-50%</p><p class="br-stat__label">typical premium owners charge for after-hours slots</p></div>
+        <div class="br-stat"><p class="br-stat__num">Owner picks</p><p class="br-stat__label">which days are eligible, which clients can request</p></div>
+        <div class="br-stat"><p class="br-stat__num">$$</p><p class="br-stat__label">extra revenue from hours you used to leave on the table</p></div>
       </div>
     </div>
   </section>
-  <!-- ─── Switching tile ─── -->
+
   <section class="br-section br-section--bordered">
     <div class="br-section__inner">
-      <div class="br-template-next">
-        <div class="br-template-next__copy">
-          <p class="br-kicker">Switching from another platform?</p>
-          <h3 class="br-template-next__title">We move you over. Free, same day.</h3>
-          <p class="br-template-next__text">Coming from GlossGenius, Acuity, Square, Fresha, Booksy, or Vagaro. We rebuild your services, hours, staff, and client list. Free, included on every plan. You keep everything that matters.</p>
-        </div>
-        <a href="/migration/" class="br-button">See how migration works</a>
+      <div class="br-section__head">
+        <p class="br-kicker">How it works</p>
+        <h2 class="br-section__title">From request to booked.</h2>
+      </div>
+      <div class="br-migration__steps">
+        <div class="br-migration__step"><span class="br-migration__num">01</span><h3>Set your rules</h3><p>Pick after-hours days, premium fee, who can request squeeze-ins. Done in the calendar settings.</p></div>
+        <div class="br-migration__step"><span class="br-migration__num">02</span><h3>Client requests or books</h3><p>They pick an after-hours slot, or request a squeeze-in on a full day. Premium shown upfront.</p></div>
+        <div class="br-migration__step"><span class="br-migration__num">03</span><h3>You approve, deposit charges</h3><p>For squeeze-ins, one tap to approve. After-hours slots auto-confirm. Stripe handles the deposit.</p></div>
       </div>
     </div>
   </section>
 
+  <section class="br-section br-section--bordered br-section--white">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Why it matters</p>
+        <h2 class="br-section__title">Your time, your pricing.</h2>
+      </div>
+      <div class="br-prose">
+        <p>A bride needs you Sunday morning before the ceremony. A regular needs a fill the night before her flight. The old answer was a phone call and a side-deal Venmo. The new answer is a slot, a premium, and a deposit, all in the booking flow.</p>
+        <p>You decide which days are eligible, what the premium is, and which clients are pre-approved for squeeze-ins. Everything else is automatic.</p>
+        <ul class="br-checklist">
+          <li>Owner picks eligible days and rules</li>
+          <li>Premium fee shown to the client upfront</li>
+          <li>Deposit collected at booking</li>
+          <li>Slots land in the same calendar as regular bookings</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-  <!-- ─── Final CTA ─── -->
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+      <div class="br-related__head">
+        <h2>More of the platform</h2>
+        <a href="/pricing/" class="br-text-link">See all plans &rarr;</a>
+      </div>
+      <div class="br-feats">
+        <a class="br-feat" href="/platform/booking/online/">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M9 16l2 2 4-4"/></svg></span>
+          <h3>Online booking &rarr;</h3>
+          <p>24/7 booking, no app needed.</p>
+        </a>
+        <a class="br-feat" href="/platform/booking/calendar/">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+          <h3>Smart calendar &rarr;</h3>
+          <p>Hours, buffers, and blocks that run themselves.</p>
+        </a>
+        <a class="br-feat" href="/platform/booking/sync/">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg></span>
+          <h3>Calendar sync &rarr;</h3>
+          <p>One source of truth for your time.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <section class="br-final-cta">
     <div class="br-final-cta__inner">
-      <p class="br-kicker br-kicker--inverse">No pressure</p>
-      <h2 class="br-final-cta__title">
-        Start free. <span class="br-italic">Add a card when you&rsquo;re ready.</span>
-      </h2>
-      <p class="br-final-cta__text">
-        30 days to build your site and take real bookings. No card for the first 7 days. Cancel any time.
-      </p>
+      <p class="br-kicker br-kicker--inverse">After hours &amp; squeeze-ins</p>
+      <h2 class="br-final-cta__title">Never sit on an empty slot.</h2>
+      <p class="br-final-cta__text">Start free and let your waitlist keep the calendar full.</p>
       <a href="https://app.bkrdy.me/register" class="br-button br-button--inverse">Start your 30-day trial</a>
     </div>
   </section>
@@ -692,7 +609,6 @@
   </footer>
 
   <script src="/nav.js"></script>
-  <script src="/pricing.js?v=20260616"></script>
 
 </body>
 </html>

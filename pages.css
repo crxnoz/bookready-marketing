@@ -2031,3 +2031,76 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
   color: var(--ink, #121212);
   font-weight: 600;
 }
+
+/* ─── After-hours page: pricing-breakdown mockup
+       Replaces the pagehero <img> on platform/booking/after-hours/.
+       Shows the service price, the after-hours premium, and the total,
+       so the value story is legible in one card. */
+.br-ah-mock {
+  width: 100%;
+  max-width: 460px;
+  background: #ffffff;
+  border: 1px solid rgba(18, 18, 18, 0.10);
+  padding: 22px 22px 18px;
+  box-shadow: 0 36px 70px rgba(18,18,18,0.18), 0 12px 26px rgba(18,18,18,0.10);
+  transform: rotate(-0.6deg);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--ink, #121212);
+}
+@media (prefers-reduced-motion: reduce) { .br-ah-mock { transform: none; } }
+@media (max-width: 900px) { .br-ah-mock { transform: rotate(-0.3deg); max-width: 420px; } }
+
+.br-ah-mock__head {
+  border-bottom: 1px solid rgba(18, 18, 18, 0.08);
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+}
+.br-ah-mock__service {
+  margin: 0; font-size: 15px; font-weight: 600;
+  letter-spacing: -0.01em; color: var(--ink, #121212);
+}
+.br-ah-mock__meta {
+  margin: 3px 0 0; font-size: 11px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--muted, #6b6b6b);
+}
+
+.br-ah-mock__rows { display: grid; gap: 0; }
+.br-ah-mock__row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 10px 0;
+  border-top: 1px solid rgba(18, 18, 18, 0.06);
+  font-size: 14px;
+}
+.br-ah-mock__row:first-child { border-top: 0; padding-top: 4px; }
+.br-ah-mock__row--total {
+  border-top: 1px solid rgba(18, 18, 18, 0.20);
+  padding-top: 14px; margin-top: 4px;
+  font-size: 15px;
+}
+.br-ah-mock__label { color: var(--ink, #121212); }
+.br-ah-mock__amt {
+  color: var(--ink, #121212);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+.br-ah-mock__amt strong { font-weight: 700; font-size: 17px; }
+.br-ah-mock__amt--accent { color: var(--ink, #121212); font-weight: 600; }
+
+.br-ah-mock__deposit {
+  margin: 14px 0 16px;
+  padding: 9px 12px;
+  background: rgba(18, 18, 18, 0.05);
+  font-size: 12px; line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: var(--muted, #6b6b6b);
+  text-align: center;
+}
+
+.br-ah-mock__cta {
+  display: block; padding: 12px 14px;
+  background: var(--ink, #121212); color: #fff;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.10em; text-transform: uppercase;
+  text-align: center;
+}
