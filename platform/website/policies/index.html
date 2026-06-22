@@ -5,21 +5,21 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Automated reminders for clients | BKRDY</title>
-  <meta name="description" content="Clients get an instant confirmation and a 24-hour reminder by email, each with a reschedule link, so they show up, or move the slot in time." />
-  <link rel="canonical" href="https://bkrdy.com/features/client/reminders/" />
+  <title>Policies section , cancellation, deposit, no-show, guests | BKRDY</title>
+  <meta name="description" content="Clear expectations, set once, shown at every booking. Cancellation, deposits, late arrivals, no-shows, guests, the whole fine print." />
+  <link rel="canonical" href="https://bkrdy.com/platform/website/policies/" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bkrdy.com/features/client/reminders/" />
+  <meta property="og:url" content="https://bkrdy.com/platform/website/policies/" />
   <meta property="og:site_name" content="BKRDY" />
-  <meta property="og:title" content="Automated reminders for clients" />
-  <meta property="og:description" content="Clients get an instant confirmation and a 24-hour reminder by email, each with a reschedule link, so they show up, or move the slot in time." />
+  <meta property="og:title" content="Policies section" />
+  <meta property="og:description" content="When you&rsquo;re full, clients join a waitlist. The moment a slot opens, they&rsquo;re notified automatically, so late cancellations fill themselves." />
   <meta property="og:image" content="https://bkrdy.com/images/hero/hero.webp" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Automated reminders for clients" />
-  <meta name="twitter:description" content="Clients get an instant confirmation and a 24-hour reminder by email, each with a reschedule link, so they show up, or move the slot in time." />
+  <meta name="twitter:title" content="Booking waitlist that fills cancellations" />
+  <meta name="twitter:description" content="When you&rsquo;re full, clients join a waitlist. The moment a slot opens, they&rsquo;re notified automatically, so late cancellations fill themselves." />
   <meta name="twitter:image" content="https://bkrdy.com/images/hero/hero.webp" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,8 +35,8 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bkrdy.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Features", "item": "https://bkrdy.com/features/"},
-      {"@type": "ListItem", "position": 3, "name": "Automated reminders", "item": "https://bkrdy.com/features/client/reminders/"}
+      {"@type": "ListItem", "position": 2, "name": "Platform", "item": "https://bkrdy.com/platform/"},
+      {"@type": "ListItem", "position": 3, "name": "Policies", "item": "https://bkrdy.com/platform/website/policies/"}
     ]
   }
   </script>
@@ -262,7 +262,7 @@
                   <span class="br-megalink__desc">Custom intake per service</span>
                 </span>
               </a>
-              <a class="br-megalink" href="/platform/booking/waitlist/" role="menuitem">
+              <a class="br-megalink" href="/platform/website/policies/" role="menuitem">
                 <span class="br-megalink__body">
                   <span class="br-megalink__title">Waitlist</span>
                   <span class="br-megalink__desc">Cancellations fill themselves</span>
@@ -361,23 +361,50 @@
   <nav class="br-crumbs" aria-label="Breadcrumb">
     <a href="/">Home</a>
     <span class="br-crumbs__sep" aria-hidden="true">/</span>
-    <span class="br-crumbs__current">Features</span>
+    <span class="br-crumbs__current">Platform</span>
     <span class="br-crumbs__sep" aria-hidden="true">/</span>
-    <span class="br-crumbs__current" aria-current="page">Automated reminders</span>
+    <span class="br-crumbs__current" aria-current="page">Policies</span>
   </nav>
 
   <section class="br-pagehero">
     <div class="br-pagehero__meta">
-      <p class="br-kicker">Client Experience</p>
-      <h1 class="br-pagehead__title">A reminder they <span class="br-italic">actually read.</span></h1>
-      <p class="br-pagehead__intro">The moment a client books, they get a confirmation. The day before, they get a friendly reminder, by email (SMS text reminders coming soon), with a one-tap link to reschedule if they need to. It all runs on its own, so you stop chasing people and they stop forgetting.</p>
+      <p class="br-kicker">Booking System</p>
+      <h1 class="br-pagehead__title">Set expectations <span class="br-italic">before the chair.</span></h1>
+      <p class="br-pagehead__intro">A policies section every client agrees to at booking. Cancellation windows, deposit terms, late arrivals, no-shows, guest policies. Edit once, applied to every booking.</p>
       <div class="br-pagehead__actions">
         <a href="https://app.bkrdy.me/register" class="br-button">Start your 30-day trial</a>
-        <a href="/platform/tools/notifications/" class="br-text-link">See it in the platform &rarr;</a>
+        <a href="/pricing/" class="br-text-link">See pricing &rarr;</a>
       </div>
     </div>
     <div class="br-pagehero__visual">
-      <img class="br-pagehero__shot" src="https://bkrdy.com/images/og/og-image.jpg" alt="" loading="eager" decoding="async" />
+      <div class="br-po-mock" aria-label="Sample policies section with collapsible entries">
+        <div class="br-po-mock__head">
+          <p class="br-po-mock__title">The fine print</p>
+        </div>
+        <ul class="br-po-mock__list">
+          <li class="br-po-mock__row">
+            <span class="br-po-mock__label">Cancellation</span>
+            <span class="br-po-mock__sign">+</span>
+          </li>
+          <li class="br-po-mock__row">
+            <span class="br-po-mock__label">Late arrival</span>
+            <span class="br-po-mock__sign">+</span>
+          </li>
+          <li class="br-po-mock__row br-po-mock__row--open">
+            <span class="br-po-mock__label">Deposit</span>
+            <span class="br-po-mock__sign">&minus;</span>
+            <p class="br-po-mock__body">25% deposit collected at booking, applied to your total. Non-refundable within 48 hours of the appointment.</p>
+          </li>
+          <li class="br-po-mock__row">
+            <span class="br-po-mock__label">No-show</span>
+            <span class="br-po-mock__sign">+</span>
+          </li>
+          <li class="br-po-mock__row">
+            <span class="br-po-mock__label">Guests</span>
+            <span class="br-po-mock__sign">+</span>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
 
@@ -385,38 +412,38 @@
     <div class="br-section__inner">
       <div class="br-section__head">
         <p class="br-kicker">What you get</p>
-        <h2 class="br-section__title">From your client&rsquo;s side.</h2>
+        <h2 class="br-section__title">What clients agree to, in writing.</h2>
       </div>
       <div class="br-feats">
         <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/></svg></span>
+          <h3>Cancellation window</h3>
+          <p>Set the hours notice you need. Outside the window, the deposit holds.</p>
+        </div>
+        <div class="br-feat">
           <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 01-3.4 0"/></svg></span>
-          <h3>Confirmation + reminder</h3>
-          <p>An instant confirmation the moment they book, then a reminder 24 hours before. Both automatic, set it up once and never think about it again.</p>
-        </div>
-        <div class="br-feat">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
-          <h3>Email reminders (SMS soon)</h3>
-          <p>Reminders go out by email today, with the full details and a receipt. SMS text reminders are coming soon, included free when they launch.</p>
-        </div>
-        <div class="br-feat">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 014-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg></span>
-          <h3>One-tap reschedule</h3>
-          <p>Every confirmation and reminder carries a reschedule link. A client who can&rsquo;t make it moves the slot themselves, within your policy, instead of ghosting.</p>
+          <h3>Late arrival</h3>
+          <p>Spell out how late counts as a no-show. Reduces awkward day-of conversations.</p>
         </div>
         <div class="br-feat">
           <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></span>
-          <h3>Deposit details included</h3>
-          <p>Confirmations note the deposit they&rsquo;ve paid and anything due at the appointment, so clients arrive knowing exactly where they stand.</p>
+          <h3>Deposit terms</h3>
+          <p>Percent or dollar amount, refundable rules, all enforced at booking.</p>
         </div>
         <div class="br-feat">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></span>
-          <h3>Built to actually deliver</h3>
-          <p>Reminders go out under your studio&rsquo;s name so they land in the inbox instead of getting filtered as spam. SMS text reminders are coming soon.</p>
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M9 16l2 2 4-4"/></svg></span>
+          <h3>No-show policy</h3>
+          <p>What happens if they don&rsquo;t show. Charge, ban, or warn, your call.</p>
         </div>
         <div class="br-feat">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-          <h3>From your studio&rsquo;s name</h3>
-          <p>Messages go out under your studio&rsquo;s name, so clients recognize them, trust the link, and don&rsquo;t mistake them for spam.</p>
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="10" r="3"/><path d="M6.5 19a6 6 0 0111 0"/></svg></span>
+          <h3>Guest policy</h3>
+          <p>Are they allowed to bring someone? You decide, the site shows it.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
+          <h3>Custom groups</h3>
+          <p>Add your own policies. Allergies, pet hair, dress code, whatever your room needs.</p>
         </div>
       </div>
     </div>
@@ -424,23 +451,29 @@
 
   <section class="br-section br-section--bordered">
     <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Why it matters</p>
+        <h2 class="br-section__title">A reasonable hand to play.</h2>
+      </div>
       <div class="br-statband">
-        <div class="br-stat"><p class="br-stat__num">~50%</p><p class="br-stat__label">Fewer no-shows, reported by our early studios</p></div>
-        <div class="br-stat"><p class="br-stat__num">24h</p><p class="br-stat__label">Reminder sent before every appointment</p></div>
-        <div class="br-stat"><p class="br-stat__num">100%</p><p class="br-stat__label">Automatic email reminders &middot; SMS soon</p></div>
+        <div class="br-stat"><p class="br-stat__num">Set once</p><p class="br-stat__label">edit in your dashboard, applies to every booking</p></div>
+        <div class="br-stat"><p class="br-stat__num">Agreed at booking</p><p class="br-stat__label">clients tap "I agree" before the slot is locked</p></div>
+        <div class="br-stat"><p class="br-stat__num">Shown on the site</p><p class="br-stat__label">public policies page, no PDF, no email attachment</p></div>
       </div>
     </div>
   </section>
 
   <section class="br-section br-section--bordered">
     <div class="br-section__inner">
-      <blockquote class="br-quote">
-        <p class="br-quote__text">&ldquo;My clients book themselves in, deposits clear instantly, and I cut my no-shows in half with the reminders. Whole thing took me a Saturday to set up.&rdquo;</p>
-        <div class="br-quote__author">
-          <span class="br-quote__avatar" aria-hidden="true">F</span>
-          <div><p class="br-quote__name">The Fade Room</p><p class="br-quote__role">Early access &middot; Atlanta, GA</p></div>
-        </div>
-      </blockquote>
+      <div class="br-section__head">
+        <p class="br-kicker">How it works</p>
+        <h2 class="br-section__title">From draft to enforced.</h2>
+      </div>
+      <div class="br-migration__steps">
+        <div class="br-migration__step"><span class="br-migration__num">01</span><h3>Write or pick a starter</h3><p>BKRDY ships with industry-standard defaults for each policy. Edit to fit your room.</p></div>
+        <div class="br-migration__step"><span class="br-migration__num">02</span><h3>Toggle which ones publish</h3><p>Show only the policies that apply to your business. Hide the rest.</p></div>
+        <div class="br-migration__step"><span class="br-migration__num">03</span><h3>Required at booking</h3><p>Clients agree to your policies before the deposit charges. Saved to the appointment.</p></div>
+      </div>
     </div>
   </section>
 
@@ -448,16 +481,16 @@
     <div class="br-section__inner">
       <div class="br-section__head">
         <p class="br-kicker">Why it matters</p>
-        <h2 class="br-section__title">No-shows cut <span class="br-italic">roughly in half.</span></h2>
+        <h2 class="br-section__title">A clear hand, written down.</h2>
       </div>
       <div class="br-prose">
-        <p>For a small studio, a no-show isn&rsquo;t a small thing. It&rsquo;s an empty chair you can&rsquo;t refill on short notice and an hour you&rsquo;ll never bill, and on a busy week, a couple of them is real money gone. Most of the time it isn&rsquo;t a flake, either; it&rsquo;s someone who genuinely forgot.</p>
-        <p>A confirmation the moment they book and a friendly nudge the day before fixes most of that. And because every message carries a one-tap reschedule link, the client who truly can&rsquo;t make it <strong>moves the slot instead of vanishing</strong>, which means you can still fill it.</p>
+        <p>Disagreements at the chair are almost always disagreements that should have happened at booking. A clear policies section moves the conversation upstream.</p>
+        <p>BKRDY ships with sensible defaults for cancellation, late arrival, deposit, no-show, and guest policies. Edit each one to fit your room. Add custom groups for anything specific.</p>
         <ul class="br-checklist">
-          <li>Confirmation sent the instant they book</li>
-          <li>Email reminder 24 hours before (SMS coming soon)</li>
-          <li>One-tap reschedule keeps the slot fillable</li>
-          <li>Fully automatic, nothing for you to send</li>
+          <li>Cancellation, late, deposit, no-show, guest defaults</li>
+          <li>Edit each one to fit your room</li>
+          <li>Required acceptance at booking</li>
+          <li>Custom groups for anything specific</li>
         </ul>
       </div>
     </div>
@@ -466,24 +499,24 @@
   <section class="br-section br-section--bordered">
     <div class="br-section__inner">
       <div class="br-related__head">
-        <h2>More in Client Experience</h2>
+        <h2>More of the platform</h2>
         <a href="/pricing/" class="br-text-link">See all plans &rarr;</a>
       </div>
       <div class="br-feats">
-        <a class="br-feat" href="/features/client/booking/">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
-          <h3>Mobile booking flow &rarr;</h3>
-          <p>A few taps, from their phone.</p>
+        <a class="br-feat" href="/platform/booking/online/">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M9 16l2 2 4-4"/></svg></span>
+          <h3>Online booking &rarr;</h3>
+          <p>24/7 booking, no app needed.</p>
         </a>
-        <a class="br-feat" href="/features/client/dashboard/">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="10" r="3"/><path d="M6.5 19a6 6 0 0111 0"/></svg></span>
-          <h3>Customer dashboard &rarr;</h3>
-          <p>Their appointments, all in one place.</p>
+        <a class="br-feat" href="/platform/booking/calendar/">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+          <h3>Smart calendar &rarr;</h3>
+          <p>Hours, buffers, and blocks that run themselves.</p>
         </a>
-        <a class="br-feat" href="/features/client/payments/">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></span>
-          <h3>Saved payment methods &rarr;</h3>
-          <p>Card on file, checkout in a tap.</p>
+        <a class="br-feat" href="/platform/booking/sync/">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg></span>
+          <h3>Calendar sync &rarr;</h3>
+          <p>One source of truth for your time.</p>
         </a>
       </div>
     </div>
@@ -491,9 +524,9 @@
 
   <section class="br-final-cta">
     <div class="br-final-cta__inner">
-      <p class="br-kicker br-kicker--inverse">Client Experience</p>
-      <h2 class="br-final-cta__title">Keep clients in the loop.</h2>
-      <p class="br-final-cta__text">Start free and reminders send themselves for every booking.</p>
+      <p class="br-kicker br-kicker--inverse">Policies</p>
+      <h2 class="br-final-cta__title">Never sit on an empty slot.</h2>
+      <p class="br-final-cta__text">Start free and let your waitlist keep the calendar full.</p>
       <a href="https://app.bkrdy.me/register" class="br-button br-button--inverse">Start your 30-day trial</a>
     </div>
   </section>
