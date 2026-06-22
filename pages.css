@@ -1848,320 +1848,201 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
   .br-howto-faq__item summary h3 { font-size: 16px; }
 }
 
-/* ─── Booking-forms page: sample form mockup
-       Replaces the pagehero <img> on platform/booking/booking-forms/
-       with a credible-looking intake-form preview. Same -1.4deg shot
-       rotation toned down so the form still reads as a flat preview. */
-.br-bf-mock {
+/* ─── App-style mockup cards
+   Restyled to mirror the actual BKRDY editor: flat (no rotation),
+   subtle shadow, cream surface tokens, eyebrow header typography.
+   Used across: br-bf-mock (booking forms), br-wl-mock (waitlist),
+   br-ah-mock (after-hours time picker), br-pm-mock (payments),
+   br-rv-mock (reviews), br-sf-mock (staff), br-cp-mock (coupons),
+   br-in-mock (introduction CTA), br-gl-mock (gallery),
+   br-po-mock (policies). */
+
+.br-bf-mock, .br-wl-mock, .br-ah-mock,
+.br-pm-mock, .br-rv-mock, .br-sf-mock, .br-cp-mock,
+.br-in-mock, .br-gl-mock, .br-po-mock {
   width: 100%;
-  max-width: 460px;
+  max-width: 480px;
   background: #ffffff;
-  border: 1px solid rgba(18, 18, 18, 0.10);
+  border: 1px solid rgba(18, 18, 18, 0.12);
   padding: 22px 22px 20px;
-  box-shadow: 0 36px 70px rgba(18,18,18,0.18), 0 12px 26px rgba(18,18,18,0.10);
-  transform: rotate(-0.6deg);
+  box-shadow: 0 10px 28px rgba(18,18,18,0.06), 0 2px 6px rgba(18,18,18,0.04);
+  transform: none;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  color: var(--ink, #121212);
+  color: #121212;
 }
-@media (prefers-reduced-motion: reduce) { .br-bf-mock { transform: none; } }
-@media (max-width: 900px) { .br-bf-mock { transform: rotate(-0.3deg); max-width: 420px; } }
+@media (max-width: 900px) {
+  .br-bf-mock, .br-wl-mock, .br-ah-mock,
+  .br-pm-mock, .br-rv-mock, .br-sf-mock, .br-cp-mock,
+  .br-in-mock, .br-gl-mock, .br-po-mock { max-width: 440px; }
+}
 
-.br-bf-mock__head {
+/* Shared eyebrow header — matches the editor's text-eyebrow utility:
+   10px, 0.18em tracking, bold, uppercase, muted-text. */
+.br-bf-mock__head, .br-wl-mock__head, .br-ah-mock__head,
+.br-pm-mock__head, .br-rv-mock__head, .br-sf-mock__head, .br-cp-mock__head,
+.br-gl-mock__head, .br-po-mock__head {
   border-bottom: 1px solid rgba(18, 18, 18, 0.08);
-  padding-bottom: 14px;
-  margin-bottom: 18px;
-}
-.br-bf-mock__service {
-  margin: 0; font-size: 15px; font-weight: 600;
-  letter-spacing: -0.01em; color: var(--ink, #121212);
-}
-.br-bf-mock__meta {
-  margin: 3px 0 0; font-size: 11px; font-weight: 500;
-  letter-spacing: 0.06em; text-transform: uppercase;
-  color: var(--muted, #6b6b6b);
+  padding-bottom: 14px; margin-bottom: 16px;
+  display: flex; justify-content: space-between; align-items: baseline;
+  gap: 12px;
 }
 
+.br-bf-mock__service, .br-wl-mock__slot, .br-ah-mock__service,
+.br-pm-mock__title, .br-rv-mock__title, .br-sf-mock__title, .br-cp-mock__title,
+.br-gl-mock__title, .br-po-mock__title {
+  margin: 0; font-size: 10px; font-weight: 700;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: #6B7280;
+  line-height: 1.4;
+}
+.br-bf-mock__meta, .br-wl-mock__meta, .br-ah-mock__meta,
+.br-pm-mock__meta, .br-rv-mock__meta, .br-sf-mock__meta, .br-cp-mock__meta,
+.br-gl-mock__meta {
+  margin: 0; font-size: 10px; font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #B0A99F;
+}
+
+/* ── Booking forms ── */
 .br-bf-mock__field { margin-bottom: 14px; }
 .br-bf-mock__field:last-of-type { margin-bottom: 18px; }
-
 .br-bf-mock__label {
-  display: block; margin: 0 0 7px;
-  font-size: 12px; font-weight: 600;
-  letter-spacing: 0.01em; color: var(--ink, #121212);
+  display: block; margin: 0 0 8px;
+  font-size: 11px; font-weight: 600;
+  color: #121212;
 }
 .br-bf-mock__req {
   display: inline-block; margin-left: 6px;
   font-size: 9px; font-weight: 700;
   letter-spacing: 0.10em; text-transform: uppercase;
-  color: var(--muted, #6b6b6b);
-  background: rgba(18, 18, 18, 0.06);
-  padding: 2px 5px; vertical-align: middle;
+  color: #8A5A00;
+  background: #FFF8E6;
+  padding: 2px 5px; vertical-align: 1px;
 }
-
-/* file-upload row */
-.br-bf-mock__upload {
-  display: flex; gap: 8px;
-}
+.br-bf-mock__upload { display: flex; gap: 8px; }
 .br-bf-mock__thumb {
-  display: inline-block; width: 54px; height: 54px;
+  display: inline-block; width: 56px; height: 56px;
   border: 1px solid rgba(18, 18, 18, 0.08);
-  background-color: rgba(18, 18, 18, 0.04);
+  background-color: #F8F6F2;
 }
 .br-bf-mock__thumb--add {
   display: inline-flex; align-items: center; justify-content: center;
-  font: 400 20px/1 'Inter', sans-serif;
-  color: var(--muted, #6b6b6b);
-  background: rgba(18, 18, 18, 0.02);
+  font: 400 22px/1 'Inter', sans-serif; color: #B0A99F;
+  background: #F8F6F2;
   border: 1px dashed rgba(18, 18, 18, 0.20);
 }
-
-/* text input + textarea (rendered as static <div>s for the mockup) */
-.br-bf-mock__input,
-.br-bf-mock__textarea {
-  padding: 9px 11px;
-  border: 1px solid rgba(18, 18, 18, 0.14);
-  background: #fff;
-  font-size: 13px; line-height: 1.4;
-  color: var(--ink, #121212);
+.br-bf-mock__input, .br-bf-mock__textarea {
+  padding: 10px 12px;
+  border: 1px solid rgba(18, 18, 18, 0.20);
+  background: #ffffff;
+  font-size: 13px; line-height: 1.4; color: #121212;
 }
-.br-bf-mock__textarea { min-height: 52px; }
-
-/* pill selector */
+.br-bf-mock__textarea { min-height: 54px; }
 .br-bf-mock__pills { display: flex; flex-wrap: wrap; gap: 6px; }
 .br-bf-mock__pill {
   display: inline-block; padding: 7px 14px;
-  border: 1px solid rgba(18, 18, 18, 0.14);
-  background: #fff; color: var(--ink, #121212);
+  border: 1px solid rgba(18, 18, 18, 0.20);
+  background: #ffffff; color: #121212;
   font-size: 12px; font-weight: 600;
   letter-spacing: 0.02em;
 }
 .br-bf-mock__pill--on {
-  background: var(--ink, #121212); color: #fff;
-  border-color: var(--ink, #121212);
+  background: #121212; color: #ffffff;
+  border-color: #121212;
 }
-
-/* CTA */
 .br-bf-mock__cta {
   display: block; padding: 12px 14px;
-  background: var(--ink, #121212); color: #fff;
-  font-size: 12px; font-weight: 600;
-  letter-spacing: 0.10em; text-transform: uppercase;
+  background: #121212; color: #ffffff;
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 0.14em; text-transform: uppercase;
   text-align: center;
 }
 
-/* ─── Waitlist page: activity-feed mockup
-       Replaces the pagehero <img> on platform/booking/waitlist/ with
-       a credible activity log showing a cancellation getting backfilled. */
-.br-wl-mock {
-  width: 100%;
-  max-width: 460px;
-  background: #ffffff;
-  border: 1px solid rgba(18, 18, 18, 0.10);
-  padding: 22px 22px 18px;
-  box-shadow: 0 36px 70px rgba(18,18,18,0.18), 0 12px 26px rgba(18,18,18,0.10);
-  transform: rotate(-0.6deg);
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  color: var(--ink, #121212);
-}
-@media (prefers-reduced-motion: reduce) { .br-wl-mock { transform: none; } }
-@media (max-width: 900px) { .br-wl-mock { transform: rotate(-0.3deg); max-width: 420px; } }
-
-.br-wl-mock__head {
-  border-bottom: 1px solid rgba(18, 18, 18, 0.08);
-  padding-bottom: 14px;
-  margin-bottom: 16px;
-}
-.br-wl-mock__slot {
-  margin: 0; font-size: 15px; font-weight: 600;
-  letter-spacing: -0.01em; color: var(--ink, #121212);
-}
-.br-wl-mock__meta {
-  margin: 3px 0 0; font-size: 11px; font-weight: 500;
-  letter-spacing: 0.06em; text-transform: uppercase;
-  color: var(--muted, #6b6b6b);
-}
-
-.br-wl-mock__log {
-  list-style: none; padding: 0; margin: 0;
-  display: grid; gap: 0;
-}
+/* ── Waitlist activity log ── */
+.br-wl-mock__log { list-style: none; padding: 0; margin: 0; display: grid; gap: 0; }
 .br-wl-mock__row {
   display: grid;
-  grid-template-columns: 64px 22px 1fr;
-  align-items: center;
-  gap: 8px;
+  grid-template-columns: 70px 22px 1fr;
+  gap: 10px; align-items: center;
   padding: 12px 0;
   border-top: 1px solid rgba(18, 18, 18, 0.06);
   font-size: 13px; line-height: 1.4;
 }
-.br-wl-mock__row:first-child { border-top: 0; padding-top: 6px; }
+.br-wl-mock__row:first-child { border-top: 0; padding-top: 4px; }
 .br-wl-mock__row--hot {
-  background: rgba(18, 18, 18, 0.03);
+  background: #E8E4FF;
   margin: 0 -22px; padding: 12px 22px;
-  border-top-color: rgba(18, 18, 18, 0.10);
+  border-top: 1px solid rgba(18, 18, 18, 0.10);
 }
 .br-wl-mock__time {
-  font-size: 11px; font-weight: 600;
-  letter-spacing: 0.04em; color: var(--muted, #6b6b6b);
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 0.10em; text-transform: uppercase;
+  color: #6B7280;
   font-variant-numeric: tabular-nums;
 }
 .br-wl-mock__dot {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 18px; height: 18px;
-  font-size: 11px;
+  width: 20px; height: 20px;
 }
-.br-wl-mock__dot--done {
-  color: var(--muted, #6b6b6b);
-}
-.br-wl-mock__dot--hot {
-  color: var(--ink, #121212);
-  font-size: 16px;
-}
-.br-wl-mock__text { color: var(--ink, #121212); }
+.br-wl-mock__dot--done { color: #0F6F3D; font-size: 14px; }
+.br-wl-mock__dot--hot  { color: #121212; font-size: 16px; }
+.br-wl-mock__text { color: #121212; }
 .br-wl-mock__text strong { font-weight: 600; }
-
 .br-wl-mock__foot {
-  margin-top: 14px; padding-top: 14px;
+  margin-top: 14px; padding-top: 12px;
   border-top: 1px solid rgba(18, 18, 18, 0.08);
-  font-size: 12px; font-weight: 500;
-  letter-spacing: 0.01em; text-align: center;
-  color: var(--muted, #6b6b6b);
+  font-size: 11px; font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #6B7280; text-align: center;
 }
-.br-wl-mock__foot strong {
-  color: var(--ink, #121212);
-  font-weight: 600;
-}
+.br-wl-mock__foot strong { color: #121212; font-weight: 700; }
 
-/* ─── After-hours page: time-slot picker mockup
-       Replaces the pagehero <img> on platform/booking/after-hours/.
-       Mirrors the actual booking flow's pill styling so visitors see
-       exactly what their clients will see — regular pills (white),
-       after-hours (dark + dashed), squeeze-in (lavender + dashed). */
-.br-ah-mock {
-  width: 100%;
-  max-width: 460px;
-  background: #ffffff;
-  border: 1px solid rgba(18, 18, 18, 0.10);
-  padding: 22px 22px 20px;
-  box-shadow: 0 36px 70px rgba(18,18,18,0.18), 0 12px 26px rgba(18,18,18,0.10);
-  transform: rotate(-0.6deg);
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  color: var(--ink, #121212);
-}
-@media (prefers-reduced-motion: reduce) { .br-ah-mock { transform: none; } }
-@media (max-width: 900px) { .br-ah-mock { transform: rotate(-0.3deg); max-width: 420px; } }
-
-.br-ah-mock__head {
-  border-bottom: 1px solid rgba(18, 18, 18, 0.08);
-  padding-bottom: 12px; margin-bottom: 14px;
-}
-.br-ah-mock__service {
-  margin: 0; font-size: 15px; font-weight: 600;
-  letter-spacing: -0.01em; color: var(--ink, #121212);
-}
-.br-ah-mock__meta {
-  margin: 3px 0 0; font-size: 11px; font-weight: 500;
-  letter-spacing: 0.06em; text-transform: uppercase;
-  color: var(--muted, #6b6b6b);
-}
-
-/* Legend — small swatches above the pill grid */
+/* ── After-hours time-slot picker ── */
 .br-ah-mock__legend {
   display: flex; flex-wrap: wrap; gap: 6px 14px;
   margin-bottom: 18px;
 }
 .br-ah-mock__legend-item {
-  display: inline-flex; align-items: center; gap: 5px;
+  display: inline-flex; align-items: center; gap: 6px;
   font-size: 10px; font-weight: 500;
-  letter-spacing: 0.05em; color: var(--muted, #6b6b6b);
+  letter-spacing: 0.04em; color: #6B7280;
 }
 .br-ah-mock__swatch {
-  display: inline-block; width: 11px; height: 11px;
-  border: 1px solid rgba(18,18,18,0.16);
+  display: inline-block; width: 12px; height: 12px;
+  border: 1px solid rgba(18, 18, 18, 0.20);
 }
-.br-ah-mock__swatch--ah {
-  background: #16131a; border: 1px dashed #16131a;
-}
+.br-ah-mock__swatch--ah { background: #16131a; border: 1px dashed #16131a; }
 .br-ah-mock__swatch--sq {
   background: rgba(155,118,201,0.18);
   border: 1px dashed rgba(155,118,201,0.55);
 }
-.br-ah-mock__plus {
-  font-weight: 600; color: var(--ink, #121212);
-  margin-left: 3px;
-}
-
-/* Time-of-day section eyebrow */
+.br-ah-mock__plus { font-weight: 600; color: #121212; margin-left: 3px; }
 .br-ah-mock__group { margin-bottom: 14px; }
 .br-ah-mock__group:last-child { margin-bottom: 0; }
 .br-ah-mock__group-label {
   margin: 0 0 8px; font-size: 10px; font-weight: 700;
-  letter-spacing: 0.14em; text-transform: uppercase;
-  color: var(--muted, #6b6b6b);
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: #6B7280;
 }
-
-/* Pill grid — auto-fill to mirror the real booking flow */
 .br-ah-mock__pills {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 7px;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px;
 }
 .br-ah-mock__pill {
-  border: 1px solid rgba(18,18,18,0.16);
+  border: 1px solid rgba(18, 18, 18, 0.20);
   background: #ffffff;
   border-radius: 999px;
   padding: 9px 8px;
   font-size: 12px; font-weight: 500;
-  letter-spacing: 0.01em;
-  color: var(--ink, #121212);
-  text-align: center;
+  color: #121212; text-align: center;
   font-variant-numeric: tabular-nums;
 }
 .br-ah-mock__pill--ah {
-  background: #16131a;
-  border: 1px dashed #16131a;
-  color: #ffffff;
+  background: #16131a; border: 1px dashed #16131a; color: #ffffff;
 }
 .br-ah-mock__pill--sq {
   background: rgba(155,118,201,0.18);
   border: 1px dashed rgba(155,118,201,0.55);
-  color: var(--ink, #121212);
-}
-
-/* ─── Phase 1 Manage column mockups ─────────────────────────────────
-   Shared base — same rotated white card pattern as br-bf-mock and
-   br-wl-mock so the family stays visually consistent. */
-.br-pm-mock, .br-rv-mock, .br-sf-mock, .br-cp-mock {
-  width: 100%;
-  max-width: 460px;
-  background: #ffffff;
-  border: 1px solid rgba(18, 18, 18, 0.10);
-  padding: 22px 22px 18px;
-  box-shadow: 0 36px 70px rgba(18,18,18,0.18), 0 12px 26px rgba(18,18,18,0.10);
-  transform: rotate(-0.6deg);
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  color: var(--ink, #121212);
-}
-@media (prefers-reduced-motion: reduce) {
-  .br-pm-mock, .br-rv-mock, .br-sf-mock, .br-cp-mock { transform: none; }
-}
-@media (max-width: 900px) {
-  .br-pm-mock, .br-rv-mock, .br-sf-mock, .br-cp-mock { transform: rotate(-0.3deg); max-width: 420px; }
-}
-
-/* shared head pattern */
-.br-pm-mock__head, .br-rv-mock__head, .br-sf-mock__head, .br-cp-mock__head {
-  border-bottom: 1px solid rgba(18, 18, 18, 0.08);
-  padding-bottom: 12px; margin-bottom: 14px;
-}
-.br-pm-mock__title, .br-rv-mock__title, .br-sf-mock__title, .br-cp-mock__title {
-  margin: 0; font-size: 15px; font-weight: 600;
-  letter-spacing: -0.01em; color: var(--ink, #121212);
-}
-.br-pm-mock__meta, .br-rv-mock__meta, .br-sf-mock__meta, .br-cp-mock__meta {
-  margin: 3px 0 0; font-size: 11px; font-weight: 500;
-  letter-spacing: 0.06em; text-transform: uppercase;
-  color: var(--muted, #6b6b6b);
+  color: #121212;
 }
 
 /* ── Payments feed ── */
@@ -2170,41 +2051,38 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
   display: grid;
   grid-template-columns: 70px 1fr auto;
   gap: 10px; align-items: center;
-  padding: 10px 0;
+  padding: 11px 0;
   border-top: 1px solid rgba(18, 18, 18, 0.06);
 }
 .br-pm-mock__row:first-child { border-top: 0; padding-top: 4px; }
 .br-pm-mock__time {
-  font-size: 10px; font-weight: 600;
-  letter-spacing: 0.06em; color: var(--muted, #6b6b6b);
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 0.10em; text-transform: uppercase;
+  color: #6B7280;
   font-variant-numeric: tabular-nums;
 }
 .br-pm-mock__body { min-width: 0; }
-.br-pm-mock__line {
-  margin: 0; font-size: 13px; line-height: 1.3;
-  color: var(--ink, #121212);
-}
+.br-pm-mock__line { margin: 0; font-size: 13px; line-height: 1.3; color: #121212; }
 .br-pm-mock__line strong { font-weight: 600; }
-.br-pm-mock__sub {
-  margin: 2px 0 0; font-size: 11px;
-  color: var(--muted, #6b6b6b);
-}
+.br-pm-mock__sub { margin: 2px 0 0; font-size: 11px; color: #6B7280; }
 .br-pm-mock__amt {
-  font-size: 13px; font-weight: 600;
-  letter-spacing: 0.01em;
+  font-size: 13px; font-weight: 700;
   font-variant-numeric: tabular-nums;
-  color: var(--ink, #121212);
+  color: #121212;
 }
-.br-pm-mock__amt--in { color: #0f6e56; }
+.br-pm-mock__amt--in {
+  color: #0F6F3D;
+  background: #EAF3EE;
+  padding: 4px 8px;
+}
 .br-pm-mock__foot {
   display: flex; justify-content: space-between; align-items: baseline;
   margin-top: 14px; padding-top: 12px;
-  border-top: 1px solid rgba(18, 18, 18, 0.10);
-  font-size: 12px; color: var(--muted, #6b6b6b);
+  border-top: 1px solid rgba(18, 18, 18, 0.08);
+  font-size: 11px; color: #6B7280;
+  letter-spacing: 0.04em;
 }
-.br-pm-mock__foot strong {
-  color: var(--ink, #121212); font-weight: 600;
-}
+.br-pm-mock__foot strong { color: #121212; font-weight: 700; }
 
 /* ── Reviews moderation queue ── */
 .br-rv-mock__card {
@@ -2213,34 +2091,23 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
 }
 .br-rv-mock__card:first-of-type { border-top: 0; padding-top: 4px; }
 .br-rv-mock__line {
-  display: flex; align-items: center; gap: 10px;
-  margin-bottom: 6px;
+  display: flex; align-items: center; gap: 10px; margin-bottom: 8px;
 }
-.br-rv-mock__stars {
-  font-size: 13px; letter-spacing: 0.04em;
-  color: #c9a24a;
-}
-.br-rv-mock__author {
-  font-size: 12px; font-weight: 600;
-  color: var(--ink, #121212);
-}
+.br-rv-mock__stars { font-size: 13px; letter-spacing: 0.06em; color: #C98A14; }
+.br-rv-mock__author { font-size: 11px; font-weight: 700; color: #121212; letter-spacing: 0.04em; }
 .br-rv-mock__quote {
-  margin: 0 0 10px; font-size: 13px; line-height: 1.5;
-  color: var(--ink, #121212);
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 300; font-style: italic;
+  margin: 0 0 12px; font-size: 13px; line-height: 1.55; color: #121212;
 }
 .br-rv-mock__actions { display: flex; gap: 8px; }
 .br-rv-mock__btn {
   display: inline-block; padding: 7px 14px;
-  border: 1px solid rgba(18,18,18,0.16);
-  background: #fff; color: var(--ink, #121212);
-  font-size: 11px; font-weight: 600;
-  letter-spacing: 0.08em; text-transform: uppercase;
+  border: 1px solid rgba(18,18,18,0.20);
+  background: #ffffff; color: #121212;
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 0.14em; text-transform: uppercase;
 }
 .br-rv-mock__btn--primary {
-  background: var(--ink, #121212); color: #fff;
-  border-color: var(--ink, #121212);
+  background: #121212; color: #ffffff; border-color: #121212;
 }
 
 /* ── Staff roster ── */
@@ -2256,47 +2123,36 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
 .br-sf-mock__av {
   display: inline-flex; align-items: center; justify-content: center;
   width: 36px; height: 36px;
-  border-radius: 999px;
-  font: 600 13px/1 'Inter', sans-serif;
+  font: 700 13px/1 'Inter', sans-serif;
   color: #ffffff;
   letter-spacing: 0.02em;
 }
 .br-sf-mock__body { min-width: 0; }
-.br-sf-mock__name {
-  margin: 0; font-size: 13px; font-weight: 600;
-  color: var(--ink, #121212);
-}
-.br-sf-mock__role {
-  margin: 2px 0 0; font-size: 11px;
-  color: var(--muted, #6b6b6b);
-}
+.br-sf-mock__name { margin: 0; font-size: 13px; font-weight: 600; color: #121212; }
+.br-sf-mock__role { margin: 2px 0 0; font-size: 11px; color: #6B7280; }
 .br-sf-mock__sched {
   text-align: right;
-  display: flex; flex-direction: column; gap: 3px;
+  display: flex; flex-direction: column; gap: 4px; align-items: flex-end;
 }
 .br-sf-mock__hours {
-  font-size: 11px; font-weight: 500;
-  color: var(--ink, #121212);
+  font-size: 11px; font-weight: 500; color: #121212;
   font-variant-numeric: tabular-nums;
 }
 .br-sf-mock__badge {
   display: inline-block;
   font-size: 9px; font-weight: 700;
   letter-spacing: 0.10em; text-transform: uppercase;
-  padding: 2px 6px;
-  background: rgba(18, 18, 18, 0.06);
-  color: var(--muted, #6b6b6b);
-  margin-left: auto;
+  padding: 3px 7px;
+  background: #EAF3EE; color: #0F6F3D;
 }
 .br-sf-mock__badge--full {
-  background: rgba(155,118,201,0.18);
-  color: rgba(80,55,140,1);
+  background: #E8E4FF; color: #4F3D8C;
 }
 .br-sf-mock__foot {
   margin-top: 14px; padding-top: 12px;
-  border-top: 1px solid rgba(18, 18, 18, 0.10);
-  font-size: 12px; font-weight: 500;
-  color: var(--muted, #6b6b6b);
+  border-top: 1px solid rgba(18, 18, 18, 0.08);
+  font-size: 11px; font-weight: 600; letter-spacing: 0.04em;
+  color: #6B7280;
 }
 
 /* ── Coupons list ── */
@@ -2311,105 +2167,68 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
 .br-cp-mock__body { min-width: 0; }
 .br-cp-mock__code {
   margin: 0; font: 700 14px/1.1 'Inter', sans-serif;
-  letter-spacing: 0.08em;
-  color: var(--ink, #121212);
+  letter-spacing: 0.10em;
+  color: #121212;
+  background: #E8C7DA;
+  padding: 5px 9px;
+  display: inline-block;
 }
-.br-cp-mock__sub {
-  margin: 3px 0 0; font-size: 11px;
-  color: var(--muted, #6b6b6b);
-}
+.br-cp-mock__sub { margin: 6px 0 0; font-size: 11px; color: #6B7280; }
 .br-cp-mock__stats {
   display: flex; flex-direction: column;
-  align-items: flex-end; gap: 2px;
+  align-items: flex-end; gap: 3px;
   text-align: right;
 }
 .br-cp-mock__usage {
-  font-size: 11px; font-weight: 600;
-  letter-spacing: 0.04em;
-  color: var(--ink, #121212);
+  font-size: 11px; font-weight: 700; letter-spacing: 0.04em;
+  color: #121212;
   font-variant-numeric: tabular-nums;
 }
 .br-cp-mock__until {
-  font-size: 10px; font-weight: 500;
-  color: var(--muted, #6b6b6b);
+  font-size: 10px; font-weight: 500; color: #6B7280;
   letter-spacing: 0.04em;
 }
 .br-cp-mock__foot {
   margin-top: 14px; padding-top: 12px;
-  border-top: 1px solid rgba(18, 18, 18, 0.10);
-  font-size: 12px; font-weight: 500;
-  color: var(--muted, #6b6b6b);
+  border-top: 1px solid rgba(18, 18, 18, 0.08);
+  font-size: 11px; font-weight: 600; letter-spacing: 0.04em;
+  color: #6B7280;
 }
 
-/* ─── Phase 2 Brand column mockups ─────────────────────────────────
-   Same rotated white card base as the Manage column mockups. */
-.br-in-mock, .br-gl-mock, .br-po-mock {
-  width: 100%;
-  max-width: 460px;
-  background: #ffffff;
-  border: 1px solid rgba(18, 18, 18, 0.10);
-  padding: 24px 22px 22px;
-  box-shadow: 0 36px 70px rgba(18,18,18,0.18), 0 12px 26px rgba(18,18,18,0.10);
-  transform: rotate(-0.6deg);
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  color: var(--ink, #121212);
-}
-@media (prefers-reduced-motion: reduce) {
-  .br-in-mock, .br-gl-mock, .br-po-mock { transform: none; }
-}
-@media (max-width: 900px) {
-  .br-in-mock, .br-gl-mock, .br-po-mock { transform: rotate(-0.3deg); max-width: 420px; }
-}
-
-/* ── Introduction (welcome-CTA card) ── */
-.br-in-mock { text-align: center; }
+/* ── Introduction (welcome CTA card) ── */
+.br-in-mock { text-align: center; padding: 32px 28px 28px; }
 .br-in-mock__eyebrow {
-  margin: 0 0 16px; font-size: 10px; font-weight: 600;
-  letter-spacing: 0.18em; text-transform: uppercase;
-  color: var(--muted, #6b6b6b);
+  margin: 0 0 18px; font-size: 10px; font-weight: 700;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: #6B7280;
 }
 .br-in-mock__heading {
   margin: 0 0 14px;
-  font: 400 32px/1.05 'Fraunces', Georgia, serif;
+  font: 400 36px/1.05 'Fraunces', Georgia, serif;
   letter-spacing: -0.01em;
-  color: var(--ink, #121212);
+  color: #121212;
 }
 .br-in-mock__body {
   margin: 0 auto 14px; max-width: 36ch;
-  font-size: 13px; line-height: 1.55;
-  font-family: 'Fraunces', Georgia, serif;
-  font-style: italic; font-weight: 300;
-  color: var(--ink, #121212);
+  font-size: 14px; line-height: 1.6;
+  color: #121212;
 }
 .br-in-mock__signature {
   margin: 0 0 22px;
-  font-size: 11px; font-weight: 500;
-  letter-spacing: 0.04em;
-  color: var(--muted, #6b6b6b);
-  font-family: 'Fraunces', Georgia, serif; font-style: italic;
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #6B7280;
+  text-transform: uppercase;
 }
 .br-in-mock__cta {
   display: inline-block;
-  padding: 11px 22px;
-  background: var(--ink, #121212); color: #fff;
-  font-size: 11px; font-weight: 600;
-  letter-spacing: 0.12em; text-transform: uppercase;
+  padding: 12px 22px;
+  background: #121212; color: #ffffff;
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 0.14em; text-transform: uppercase;
 }
 
-/* ── Gallery (image grid) ── */
-.br-gl-mock__head {
-  border-bottom: 1px solid rgba(18, 18, 18, 0.08);
-  padding-bottom: 12px; margin-bottom: 14px;
-}
-.br-gl-mock__title {
-  margin: 0; font-size: 15px; font-weight: 600;
-  letter-spacing: -0.01em; color: var(--ink, #121212);
-}
-.br-gl-mock__meta {
-  margin: 3px 0 0; font-size: 11px; font-weight: 500;
-  letter-spacing: 0.06em; text-transform: uppercase;
-  color: var(--muted, #6b6b6b);
-}
+/* ── Gallery (real images) ── */
 .br-gl-mock__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -2418,48 +2237,41 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
 .br-gl-mock__tile {
   display: block;
   aspect-ratio: 1 / 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border: 1px solid rgba(18, 18, 18, 0.06);
+  background: #F8F6F2;
 }
 
-/* ── Policies (collapsible card) ── */
-.br-po-mock__head {
-  border-bottom: 1px solid rgba(18, 18, 18, 0.08);
-  padding-bottom: 12px; margin-bottom: 4px;
-}
-.br-po-mock__title {
-  margin: 0; font-size: 15px; font-weight: 600;
-  letter-spacing: -0.01em; color: var(--ink, #121212);
-}
+/* ── Policies (collapsible) ── */
 .br-po-mock__list { list-style: none; padding: 0; margin: 0; }
 .br-po-mock__row {
   display: grid;
-  grid-template-columns: 1fr 20px;
+  grid-template-columns: 1fr 24px;
   gap: 12px; align-items: center;
-  padding: 14px 0;
+  padding: 16px 0;
   border-top: 1px solid rgba(18, 18, 18, 0.06);
   font-size: 13px;
 }
 .br-po-mock__row:first-child { border-top: 0; }
-.br-po-mock__label {
-  font-weight: 500; color: var(--ink, #121212);
-}
+.br-po-mock__label { font-weight: 600; color: #121212; }
 .br-po-mock__sign {
-  font: 400 18px/1 'Fraunces', Georgia, serif;
-  color: var(--muted, #6b6b6b);
-  text-align: center;
+  font: 400 20px/1 'Inter', sans-serif;
+  color: #B0A99F; text-align: center;
 }
 .br-po-mock__row--open {
-  grid-template-columns: 1fr 20px;
+  grid-template-columns: 1fr 24px;
   grid-template-areas:
     "label sign"
     "body  body";
-  background: rgba(18, 18, 18, 0.025);
-  margin: 0 -22px; padding: 14px 22px;
+  background: #F8F6F2;
+  margin: 0 -22px; padding: 16px 22px;
 }
 .br-po-mock__row--open .br-po-mock__label { grid-area: label; }
 .br-po-mock__row--open .br-po-mock__sign  { grid-area: sign; }
 .br-po-mock__body {
   grid-area: body;
-  margin: 8px 0 0; font-size: 12px; line-height: 1.55;
-  color: var(--muted, #6b6b6b);
+  margin: 10px 0 0; font-size: 12px; line-height: 1.6;
+  color: #6B7280;
 }
