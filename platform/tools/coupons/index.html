@@ -5,21 +5,21 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Customer dashboard for your clients | BKRDY</title>
-  <meta name="description" content="Clients get their own dashboard, upcoming appointments, past visits, and one-tap rebooking, so they manage bookings without messaging you." />
-  <link rel="canonical" href="https://bkrdy.com/features/client/dashboard/" />
+  <title>Coupons &amp; promo codes for your booking site | BKRDY</title>
+  <meta name="description" content="Promo codes that apply at booking. Cap them, set expiries, restrict to services or first-time clients, and watch usage in real time." />
+  <link rel="canonical" href="https://bkrdy.com/platform/tools/coupons/" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bkrdy.com/features/client/dashboard/" />
+  <meta property="og:url" content="https://bkrdy.com/platform/tools/coupons/" />
   <meta property="og:site_name" content="BKRDY" />
-  <meta property="og:title" content="Customer dashboard for your clients" />
-  <meta property="og:description" content="Clients get their own dashboard, upcoming appointments, past visits, and one-tap rebooking, so they manage bookings without messaging you." />
+  <meta property="og:title" content="Coupons &amp; promo codes" />
+  <meta property="og:description" content="When you&rsquo;re full, clients join a waitlist. The moment a slot opens, they&rsquo;re notified automatically, so late cancellations fill themselves." />
   <meta property="og:image" content="https://bkrdy.com/images/hero/hero.webp" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Customer dashboard for your clients" />
-  <meta name="twitter:description" content="Clients get their own dashboard, upcoming appointments, past visits, and one-tap rebooking, so they manage bookings without messaging you." />
+  <meta name="twitter:title" content="Booking waitlist that fills cancellations" />
+  <meta name="twitter:description" content="When you&rsquo;re full, clients join a waitlist. The moment a slot opens, they&rsquo;re notified automatically, so late cancellations fill themselves." />
   <meta name="twitter:image" content="https://bkrdy.com/images/hero/hero.webp" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,8 +35,8 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bkrdy.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Features", "item": "https://bkrdy.com/features/"},
-      {"@type": "ListItem", "position": 3, "name": "Customer dashboard", "item": "https://bkrdy.com/features/client/dashboard/"}
+      {"@type": "ListItem", "position": 2, "name": "Platform", "item": "https://bkrdy.com/platform/"},
+      {"@type": "ListItem", "position": 3, "name": "Coupons", "item": "https://bkrdy.com/platform/tools/coupons/"}
     ]
   }
   </script>
@@ -262,7 +262,7 @@
                   <span class="br-megalink__desc">Custom intake per service</span>
                 </span>
               </a>
-              <a class="br-megalink" href="/platform/booking/waitlist/" role="menuitem">
+              <a class="br-megalink" href="/platform/tools/coupons/" role="menuitem">
                 <span class="br-megalink__body">
                   <span class="br-megalink__title">Waitlist</span>
                   <span class="br-megalink__desc">Cancellations fill themselves</span>
@@ -361,23 +361,53 @@
   <nav class="br-crumbs" aria-label="Breadcrumb">
     <a href="/">Home</a>
     <span class="br-crumbs__sep" aria-hidden="true">/</span>
-    <span class="br-crumbs__current">Features</span>
+    <span class="br-crumbs__current">Platform</span>
     <span class="br-crumbs__sep" aria-hidden="true">/</span>
-    <span class="br-crumbs__current" aria-current="page">Customer dashboard</span>
+    <span class="br-crumbs__current" aria-current="page">Coupons</span>
   </nav>
 
   <section class="br-pagehero">
     <div class="br-pagehero__meta">
-      <p class="br-kicker">Client Experience</p>
-      <h1 class="br-pagehead__title">Their bookings, <span class="br-italic">in one place.</span></h1>
-      <p class="br-pagehead__intro">Every client gets a simple dashboard with their upcoming appointments, history, and a one-tap rebook, so they self-serve instead of texting you.</p>
+      <p class="br-kicker">Booking System</p>
+      <h1 class="br-pagehead__title">Promo codes <span class="br-italic">that actually convert.</span></h1>
+      <p class="br-pagehead__intro">Coupons applied at booking. Cap the number of uses, restrict to services or first-time clients, expire when you&rsquo;re done. The discount is shown the moment the code lands.</p>
       <div class="br-pagehead__actions">
         <a href="https://app.bkrdy.me/register" class="br-button">Start your 30-day trial</a>
-        <a href="/platform/tools/customers/" class="br-text-link">See it in the platform &rarr;</a>
+        <a href="/pricing/" class="br-text-link">See pricing &rarr;</a>
       </div>
     </div>
     <div class="br-pagehero__visual">
-      <img class="br-pagehero__shot" src="https://bkrdy.com/images/og/og-image.jpg" alt="" loading="eager" decoding="async" />
+      <div class="br-cp-mock" aria-label="Sample coupons list with two active codes">
+        <div class="br-cp-mock__head">
+          <p class="br-cp-mock__title">Coupons</p>
+          <p class="br-cp-mock__meta">2 active &middot; 3 expired</p>
+        </div>
+
+        <ul class="br-cp-mock__list">
+          <li class="br-cp-mock__row">
+            <div class="br-cp-mock__body">
+              <p class="br-cp-mock__code">FRIEND10</p>
+              <p class="br-cp-mock__sub">10% off &middot; Lash services</p>
+            </div>
+            <div class="br-cp-mock__stats">
+              <span class="br-cp-mock__usage">12 of 50</span>
+              <span class="br-cp-mock__until">until Jun 30</span>
+            </div>
+          </li>
+          <li class="br-cp-mock__row">
+            <div class="br-cp-mock__body">
+              <p class="br-cp-mock__code">WELCOME20</p>
+              <p class="br-cp-mock__sub">$20 off &middot; First visit only</p>
+            </div>
+            <div class="br-cp-mock__stats">
+              <span class="br-cp-mock__usage">7 redemptions</span>
+              <span class="br-cp-mock__until">no expiry</span>
+            </div>
+          </li>
+        </ul>
+
+        <div class="br-cp-mock__foot">+ New code</div>
+      </div>
     </div>
   </section>
 
@@ -385,38 +415,38 @@
     <div class="br-section__inner">
       <div class="br-section__head">
         <p class="br-kicker">What you get</p>
-        <h2 class="br-section__title">Self-service, for them.</h2>
+        <h2 class="br-section__title">A code, with rules.</h2>
       </div>
       <div class="br-feats">
         <div class="br-feat">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
-          <h3>Upcoming at a glance</h3>
-          <p>Clients see what&rsquo;s booked and when, with the details and your address.</p>
-        </div>
-        <div class="br-feat">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 014-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg></span>
-          <h3>Rebook in a tap</h3>
-          <p>Loved last time? They book the same service again without starting over.</p>
-        </div>
-        <div class="br-feat">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="10" r="3"/><path d="M6.5 19a6 6 0 0111 0"/></svg></span>
-          <h3>Their details, current</h3>
-          <p>Clients keep their own contact info and preferences up to date.</p>
-        </div>
-        <div class="br-feat">
           <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/></svg></span>
-          <h3>History in one place</h3>
-          <p>Past visits and services are right there, so they remember what they had.</p>
+          <h3>Percent or dollar</h3>
+          <p>10% off, $20 off, free service add-on. The math runs at booking, the client sees the total update live.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 01-3.4 0"/></svg></span>
+          <h3>Usage caps</h3>
+          <p>Set a max number of redemptions per code, or per client. Stops the &ldquo;everyone screenshot it on TikTok&rdquo; problem.</p>
         </div>
         <div class="br-feat">
           <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></span>
-          <h3>Receipts on hand</h3>
-          <p>Deposits and payments are logged, so there&rsquo;s never a &ldquo;what did I pay?&rdquo;</p>
+          <h3>Expiry dates</h3>
+          <p>Run a Mother&rsquo;s Day promo with a hard cutoff. The code stops working the moment the window closes.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M9 16l2 2 4-4"/></svg></span>
+          <h3>Service restrictions</h3>
+          <p>Lash-only codes, color-only codes, first-visit-only codes. The booking flow enforces it for you.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="10" r="3"/><path d="M6.5 19a6 6 0 0111 0"/></svg></span>
+          <h3>Live usage stats</h3>
+          <p>See exactly how many times each code redeemed, and the revenue tied to it.</p>
         </div>
         <div class="br-feat">
           <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
-          <h3>No app to install</h3>
-          <p>It opens in the browser from the same link they booked with.</p>
+          <h3>One-tap copy</h3>
+          <p>Copy the code from the dashboard, paste into your IG caption, done.</p>
         </div>
       </div>
     </div>
@@ -424,13 +454,29 @@
 
   <section class="br-section br-section--bordered">
     <div class="br-section__inner">
-      <blockquote class="br-quote">
-        <p class="br-quote__text">&ldquo;After switching, clients started screenshotting my site to send to friends. Picked up around 30 regulars in the first two months.&rdquo;</p>
-        <div class="br-quote__author">
-          <span class="br-quote__avatar" aria-hidden="true">C</span>
-          <div><p class="br-quote__name">Carrera Lash</p><p class="br-quote__role">Early access &middot; Queens, NY</p></div>
-        </div>
-      </blockquote>
+      <div class="br-section__head">
+        <p class="br-kicker">Why it matters</p>
+        <h2 class="br-section__title">A discount with guardrails.</h2>
+      </div>
+      <div class="br-statband">
+        <div class="br-stat"><p class="br-stat__num">% or $</p><p class="br-stat__label">discount type, applied at booking before the deposit charge</p></div>
+        <div class="br-stat"><p class="br-stat__num">Cap it</p><p class="br-stat__label">per code, per client, per service. You decide who gets it.</p></div>
+        <div class="br-stat"><p class="br-stat__num">Tracked</p><p class="br-stat__label">redemption count and revenue per code, in real time</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">How it works</p>
+        <h2 class="br-section__title">From code to checkout.</h2>
+      </div>
+      <div class="br-migration__steps">
+        <div class="br-migration__step"><span class="br-migration__num">01</span><h3>Create the code</h3><p>Pick percent or dollar off, cap the uses, set the dates. Pin to specific services if you want.</p></div>
+        <div class="br-migration__step"><span class="br-migration__num">02</span><h3>Share the code</h3><p>Drop it in your IG caption, story, or email. Clients type it into the booking flow.</p></div>
+        <div class="br-migration__step"><span class="br-migration__num">03</span><h3>Track the revenue</h3><p>Each redemption shows up on the dashboard with the linked booking and the discount applied.</p></div>
+      </div>
     </div>
   </section>
 
@@ -438,16 +484,16 @@
     <div class="br-section__inner">
       <div class="br-section__head">
         <p class="br-kicker">Why it matters</p>
-        <h2 class="br-section__title">Fewer &ldquo;what time was I again?&rdquo; texts.</h2>
+        <h2 class="br-section__title">Promotions that don&rsquo;t spiral.</h2>
       </div>
       <div class="br-prose">
-        <p>Every &ldquo;when&rsquo;s my appointment?&rdquo; and &ldquo;can I move it?&rdquo; text is a small interruption to your day, and there are a lot of them.</p>
-        <p>When clients have their own dashboard, they answer those questions themselves: see the booking, rebook the usual, update a detail. Your phone gets quieter and nothing slips through.</p>
+        <p>A code without a cap is a recipe for regret. A 20% promo shared with one regular ends up in a group chat by Friday and on TikTok by Saturday.</p>
+        <p>BKRDY coupons land with the limits attached. Maximum redemptions, expiry date, allowed services, and first-time-only flags. You set the rules, the booking flow enforces them.</p>
         <ul class="br-checklist">
-          <li>Upcoming + past in one place</li>
-          <li>One-tap rebooking</li>
-          <li>Clients update their own details</li>
-          <li>Opens in the browser, no app</li>
+          <li>Percent or dollar discount</li>
+          <li>Caps per code and per client</li>
+          <li>Expiry dates and service restrictions</li>
+          <li>Real-time usage stats</li>
         </ul>
       </div>
     </div>
@@ -456,24 +502,24 @@
   <section class="br-section br-section--bordered">
     <div class="br-section__inner">
       <div class="br-related__head">
-        <h2>More in Client Experience</h2>
+        <h2>More of the platform</h2>
         <a href="/pricing/" class="br-text-link">See all plans &rarr;</a>
       </div>
       <div class="br-feats">
-        <a class="br-feat" href="/features/client/booking/">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
-          <h3>Mobile booking flow &rarr;</h3>
-          <p>A few taps, from their phone.</p>
+        <a class="br-feat" href="/platform/booking/online/">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M9 16l2 2 4-4"/></svg></span>
+          <h3>Online booking &rarr;</h3>
+          <p>24/7 booking, no app needed.</p>
         </a>
-        <a class="br-feat" href="/features/client/payments/">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></span>
-          <h3>Saved payment methods &rarr;</h3>
-          <p>Card on file, checkout in a tap.</p>
+        <a class="br-feat" href="/platform/booking/calendar/">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+          <h3>Smart calendar &rarr;</h3>
+          <p>Hours, buffers, and blocks that run themselves.</p>
         </a>
-        <a class="br-feat" href="/features/client/reschedule/">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 014-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg></span>
-          <h3>Self-serve reschedule &rarr;</h3>
-          <p>Clients move their own appointments.</p>
+        <a class="br-feat" href="/platform/booking/sync/">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg></span>
+          <h3>Calendar sync &rarr;</h3>
+          <p>One source of truth for your time.</p>
         </a>
       </div>
     </div>
@@ -481,9 +527,9 @@
 
   <section class="br-final-cta">
     <div class="br-final-cta__inner">
-      <p class="br-kicker br-kicker--inverse">Client Experience</p>
-      <h2 class="br-final-cta__title">Give clients a home base.</h2>
-      <p class="br-final-cta__text">Start free and every client gets a dashboard automatically.</p>
+      <p class="br-kicker br-kicker--inverse">Coupons</p>
+      <h2 class="br-final-cta__title">Never sit on an empty slot.</h2>
+      <p class="br-final-cta__text">Start free and let your waitlist keep the calendar full.</p>
       <a href="https://app.bkrdy.me/register" class="br-button br-button--inverse">Start your 30-day trial</a>
     </div>
   </section>
