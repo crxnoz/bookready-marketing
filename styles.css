@@ -511,17 +511,18 @@ button { cursor: pointer; font: inherit; }
   width: min(1360px, 100%);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
+  grid-template-columns: 1.2fr 0.8fr;   /* visual narrower to keep the square from dominating */
   gap: 64px;
   align-items: center;
 }
 .br-hero__visual {
   width: 100%;
-  aspect-ratio: 1600 / 686;
+  max-width: 460px;
+  aspect-ratio: 1 / 1;                  /* square — matches new hero image */
+  justify-self: end;
   overflow: hidden;
   background: var(--card);
   border: 1px solid var(--border);
-  box-shadow: 0 24px 60px rgba(18,18,18,0.10), 0 6px 16px rgba(18,18,18,0.06);
   transform: rotate(3deg);
   box-shadow: 0 48px 96px rgba(18,18,18,0.22), 0 16px 36px rgba(18,18,18,0.14), 0 4px 10px rgba(18,18,18,0.08);
 }
