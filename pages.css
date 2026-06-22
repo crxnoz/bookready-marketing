@@ -1948,3 +1948,86 @@ a.br-feat:hover { border-color: rgba(18,18,18,0.24); }
   letter-spacing: 0.10em; text-transform: uppercase;
   text-align: center;
 }
+
+/* ─── Waitlist page: activity-feed mockup
+       Replaces the pagehero <img> on platform/booking/waitlist/ with
+       a credible activity log showing a cancellation getting backfilled. */
+.br-wl-mock {
+  width: 100%;
+  max-width: 460px;
+  background: #ffffff;
+  border: 1px solid rgba(18, 18, 18, 0.10);
+  padding: 22px 22px 18px;
+  box-shadow: 0 36px 70px rgba(18,18,18,0.18), 0 12px 26px rgba(18,18,18,0.10);
+  transform: rotate(-0.6deg);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--ink, #121212);
+}
+@media (prefers-reduced-motion: reduce) { .br-wl-mock { transform: none; } }
+@media (max-width: 900px) { .br-wl-mock { transform: rotate(-0.3deg); max-width: 420px; } }
+
+.br-wl-mock__head {
+  border-bottom: 1px solid rgba(18, 18, 18, 0.08);
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+}
+.br-wl-mock__slot {
+  margin: 0; font-size: 15px; font-weight: 600;
+  letter-spacing: -0.01em; color: var(--ink, #121212);
+}
+.br-wl-mock__meta {
+  margin: 3px 0 0; font-size: 11px; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--muted, #6b6b6b);
+}
+
+.br-wl-mock__log {
+  list-style: none; padding: 0; margin: 0;
+  display: grid; gap: 0;
+}
+.br-wl-mock__row {
+  display: grid;
+  grid-template-columns: 64px 22px 1fr;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 0;
+  border-top: 1px solid rgba(18, 18, 18, 0.06);
+  font-size: 13px; line-height: 1.4;
+}
+.br-wl-mock__row:first-child { border-top: 0; padding-top: 6px; }
+.br-wl-mock__row--hot {
+  background: rgba(18, 18, 18, 0.03);
+  margin: 0 -22px; padding: 12px 22px;
+  border-top-color: rgba(18, 18, 18, 0.10);
+}
+.br-wl-mock__time {
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.04em; color: var(--muted, #6b6b6b);
+  font-variant-numeric: tabular-nums;
+}
+.br-wl-mock__dot {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 18px; height: 18px;
+  font-size: 11px;
+}
+.br-wl-mock__dot--done {
+  color: var(--muted, #6b6b6b);
+}
+.br-wl-mock__dot--hot {
+  color: var(--ink, #121212);
+  font-size: 16px;
+}
+.br-wl-mock__text { color: var(--ink, #121212); }
+.br-wl-mock__text strong { font-weight: 600; }
+
+.br-wl-mock__foot {
+  margin-top: 14px; padding-top: 14px;
+  border-top: 1px solid rgba(18, 18, 18, 0.08);
+  font-size: 12px; font-weight: 500;
+  letter-spacing: 0.01em; text-align: center;
+  color: var(--muted, #6b6b6b);
+}
+.br-wl-mock__foot strong {
+  color: var(--ink, #121212);
+  font-weight: 600;
+}
