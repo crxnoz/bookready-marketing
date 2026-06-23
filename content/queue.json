@@ -27,7 +27,9 @@
       "shippedAt": "string, ISO date when status flipped to shipped",
       "failureReason": "string, optional, reason if status=failed",
       "research": "object, optional provenance from content/keyword-research.mjs: {source, demandSignal, volume, difficulty, competitionLevel, serpNotes, opportunity, validatedAt, sources[]}. Replaces guessed estVolume with real signal once a DataForSEO key is set."
-    }
+    },
+    "lastBatchAdded": "2026-06-23",
+    "totalArticles": 35
   },
   "articles": [
     {
@@ -2497,6 +2499,1326 @@
       "recommendedRelatedIndustry": "solo-pros",
       "ctaPlan": "Solo",
       "ctaIndustry": "solo-pros",
+      "status": "pending"
+    },
+    {
+      "slug": "best-booking-software-for-spas",
+      "url": "/blog/best-booking-software-for-spas/",
+      "type": "listicle",
+      "cluster": "comparison",
+      "metaTitle": "Best Booking Software for Spas (2026) | BookReady",
+      "metaDescription": "An honest look at the best booking software for spas in 2026: BookReady, Mindbody, Vagaro, Boulevard, Fresha, and GlossGenius. Real fees, real tradeoffs.",
+      "h1": "The best booking software for spas, compared honestly",
+      "italicTagline": "Six platforms, real fee math, and which one fits the room you actually run.",
+      "primaryKeyword": "best booking software for spas",
+      "secondaryKeywords": [
+        "spa booking software",
+        "spa scheduling software",
+        "best spa software",
+        "day spa booking system",
+        "spa appointment software"
+      ],
+      "estVolume": "300-700",
+      "intent": "MOFU",
+      "intro": "200-240 word intro. Name the tension: a spa sells calm and a sense of arrival, but most booking software was built for high-volume hair chairs, so the page a client sees feels like a clinic intake form. Make the BookReady opinion early: feature count is easy to compare, but the public booking page and the way deposits and intake forms feel are what protect a spa's margin and brand. Note honestly that the big names (Mindbody, Boulevard) are genuinely strong for medspas and multi-room operations, and that this piece will not pretend BookReady wins for everyone. Preview the structure: the five criteria that matter for a spa (storefront design, true cost including transaction markup, deposits and intake, multi-room and multi-staff handling, how hard it is to leave), then six platforms scored against them, then a clear who-should-pick-what. Link /for-spas/ in the first 200 words. No em-dashes, no superlatives, calm and confident. End by previewing the comparison table.",
+      "sections": [
+        {
+          "kicker": "Quick verdict",
+          "title": "The 60-second answer",
+          "directives": "Bulleted verdict (6 bullets), one platform each: best for design-led day spas and solo estheticians (BookReady), best for large medspas and wellness centers (Mindbody), best for retail and POS hardware (Vagaro), best for high-end multi-location front desk (Boulevard), best free marketplace tier with a fee caveat (Fresha), best solo in-person checkout (GlossGenius). Then 80-100 words framing the spread: most spas overbuy on back-office features they never use and underweight the page clients actually see. State the BookReady pick is for spas that sell an aesthetic and want 0% platform markup on top of Stripe. Link /pricing/. 150-180 words."
+        },
+        {
+          "kicker": "What to compare",
+          "title": "The five criteria that actually matter for a spa",
+          "directives": "Explain the scoring lens instead of a generic feature dump: (1) the public storefront and template quality, because a spa is selling a feeling before a service, (2) true cost including transaction markup and per-staff fees, not just the sticker price, (3) deposits and intake forms, since spa services run long and rooms get reserved, (4) multi-room and multi-staff handling for spas with several treatment rooms, (5) how hard it is to leave, meaning data ownership and migration. Argue that feature-count is a trap: Mindbody has hundreds of features a three-room day spa will never touch. Link /platform/website/templates/ and /platform/tools/payments/. 200-240 words."
+        },
+        {
+          "kicker": "Side by side",
+          "title": "The six platforms, scored",
+          "directives": "Comparison table (.br-compare): rows = the five criteria plus monthly price plus transaction markup; columns = BookReady, Mindbody, Vagaro, Boulevard, Fresha, GlossGenius. Be specific and fair in the cells: Mindbody strong on classes/memberships but heavy and expensive (often $129+/mo), Boulevard premium front-desk built for multi-location (enterprise pricing), Vagaro best on retail/POS hardware, Fresha free with a new-client booking fee caveat, GlossGenius clean solo POS at around $24-48/mo, BookReady $29/mo Studio with 0% platform markup and editorial templates. Never write 0% fees or 0% transaction fees: BookReady is 0% platform markup, Stripe still charges about 2.9% + 30 cents. Then 120 words of honest commentary on the spread. Link /compare/fresha-alternative/ and /compare/glossgenius-alternative/. 280-320 words."
+        },
+        {
+          "kicker": "The money",
+          "title": "What each one actually costs once fees are counted",
+          "directives": "Fee math for a representative two-room day spa at $14K/mo: subscription plus per-staff add-ons plus transaction markup, annualized. Show BookReady Studio at $29/mo with 0% platform markup (Stripe pass-through only) against the stacked-fee picture on Mindbody (higher base plus add-ons) and Boulevard (premium tier). Put a real dollar gap on the year. Be specific: a 1% markup on $14K/mo is roughly $140/mo, about $1,680/yr, before subscription. Note Fresha's free tier recovers cost through the new-client fee. Link /pricing/. 220-260 words."
+        },
+        {
+          "kicker": "Design honesty",
+          "title": "The part most comparisons skip: the page your clients see",
+          "directives": "Make the storefront case directly. Most spa platforms ship a functional but clinical booking widget that undercuts the calm a spa is trying to sell. Contrast BookReady's editorial templates and name Opaline specifically as the quiet, light, spa-leaning look, alongside Petale and Bottega for softer and warmer rooms. A spa is selling an aesthetic, and the site is the first treatment a client experiences. Explain that a full marketing site (sections, gallery, about, intake, booking) on the spa's own domain reads more credible than a marketplace URL. Link /templates/ and /platform/website/templates/. 200-240 words."
+        },
+        {
+          "kicker": "Deposits + intake",
+          "title": "Deposits and intake forms: where spas leak money",
+          "directives": "Spa-specific operational case. Spa services run 60-120 minutes, rooms get turned and products pre-set, so a no-show costs more than a missed haircut. Recommend a 30% deposit on facials and bodywork, 50% on multi-hour packages, and intake forms (allergies, contraindications, skin history) collected at booking so the room is ready. Show how deposits plus intake reduce both no-shows and day-of friction. Cross-link the facial pricing guide for setting the service prices those deposits sit on. Link /platform/tools/payments/ and /guides/facial-pricing-guide/. 200-240 words."
+        },
+        {
+          "kicker": "How to choose",
+          "title": "A three-question decision framework",
+          "directives": "Three questions: (1) do you sell a feeling and a look (design-led: BookReady, Boulevard at the high end)? (2) do you run group wellness classes or large membership programs as core revenue (Mindbody)? (3) do you run heavy retail or need in-person POS hardware (Vagaro, GlossGenius)? State the BookReady opinion plainly: a single-location day spa or solo esthetician open 12+ months is paying for complexity they do not use and should own a designed site instead. Link /for-spas/ and /pricing/. 180-220 words."
+        },
+        {
+          "kicker": "Honest",
+          "title": "When BookReady is the wrong pick for a spa",
+          "directives": "Trust-builder, the required they-are-better-if angle. Choose elsewhere if: you run a medspa with injectables, charting, and medical compliance needs (Mindbody or a medical-specific EHR), you operate four or more locations needing a heavy front-desk and reporting layer (Boulevard), you run class-based wellness memberships as your main revenue (Mindbody), or you depend on barcode retail inventory and POS hardware (Vagaro). Be genuinely honest, name the competitor each time. 150-180 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is the best booking software for a small day spa in 2026?",
+          "answerHint": "For a single-location day spa that sells a calm aesthetic, BookReady on Studio ($29/mo) wins on storefront design and 0% platform markup. Mindbody fits larger class-based or medspa operations. 40-60 words."
+        },
+        {
+          "q": "How do spa booking platforms compare on transaction fees?",
+          "answerHint": "BookReady charges 0% platform markup on top of Stripe's standard rate (about 2.9% + 30 cents). Most others stack a markup or per-booking fee on top. 30-50 words."
+        },
+        {
+          "q": "Is Mindbody worth it for a spa?",
+          "answerHint": "For a large wellness center with classes and memberships, often yes. For a two or three room day spa, the $129+/mo base and feature weight are usually more than you need. 40-60 words."
+        },
+        {
+          "q": "Can spa booking software collect intake forms before the appointment?",
+          "answerHint": "Good ones can. BookReady attaches a booking form to each service so allergies, contraindications, and skin history arrive before the client does. 40-60 words."
+        },
+        {
+          "q": "How much deposit should a spa take?",
+          "answerHint": "Around 30% on facials and bodywork, 50% on multi-hour packages. Spa rooms get reserved and products pre-set, so the no-show cost is real. 40-60 words."
+        },
+        {
+          "q": "Is free spa booking software actually free?",
+          "answerHint": "Rarely. Free tiers like Fresha usually recover the cost through a new-client booking fee or processing markup. Read the fee page, not the headline. 40-60 words."
+        },
+        {
+          "q": "Which platform is best for a spa with multiple treatment rooms?",
+          "answerHint": "BookReady on Studio or Salon handles per-staff calendars and payouts for a designed multi-room site. Boulevard fits high-end multi-location operations with a heavier front desk. 40-60 words."
+        },
+        {
+          "q": "Can I move my spa client list off my current platform?",
+          "answerHint": "Most platforms export a client CSV. BookReady runs the import for free during migration, usually same-day, so you keep every name, email, and phone. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/for-spas/",
+        "/pricing/",
+        "/templates/",
+        "/platform/tools/payments/",
+        "/compare/fresha-alternative/",
+        "/guides/facial-pricing-guide/"
+      ],
+      "recommendedFeaturedTemplate": "opaline",
+      "recommendedRelatedIndustry": "spas",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "spas",
+      "status": "pending"
+    },
+    {
+      "slug": "how-to-get-more-salon-reviews",
+      "url": "/guides/how-to-get-more-salon-reviews/",
+      "type": "guide",
+      "cluster": "growth",
+      "metaTitle": "How to Get More Salon Reviews (2026 Guide) | BookReady",
+      "metaDescription": "Get more salon reviews without begging. The right moment to ask, how to automate it, where reviews matter most, and why volume and recency beat a perfect 5.0.",
+      "h1": "How to get more salon reviews (without feeling pushy)",
+      "italicTagline": "Ask at the right moment, automate the rest, and let recency do the work.",
+      "primaryKeyword": "how to get more salon reviews",
+      "secondaryKeywords": [
+        "how to get reviews for salon",
+        "get more google reviews salon",
+        "ask clients for reviews",
+        "salon review strategy",
+        "increase salon reviews"
+      ],
+      "estVolume": "200-500",
+      "intent": "MOFU",
+      "intro": "200-240 word intro for a salon, barber, or studio owner who knows reviews matter but feels awkward asking. Name the real problem: only about 5-10% of happy clients leave a review unprompted, so a great chair full of regulars can still have a thin, stale review profile. BookReady opinion: reviews are not luck, they are a system. The owners winning on Google are not better at their craft, they ask at the right moment and automate the follow-through. Promise the guide: the exact moment to ask (right after a great service, at checkout while the client is still glowing), how to automate the ask so you never have to remember, where reviews actually move the needle (Google vs Instagram vs your own site), and why volume plus recency beat a frozen perfect 5.0. Mention BookReady's reviews feature naturally: verified, owner-moderated, collected automatically after each visit. No em-dashes. Warm, practical, a little opinionated, no marketing-speak.",
+      "sections": [
+        {
+          "kicker": "The gap",
+          "title": "Why your happiest clients never leave a review",
+          "directives": "Open with the core stat: roughly 5-10% of satisfied clients leave a review without being asked, while unhappy clients are far more motivated to post. So an unprompted review profile skews negative and thin relative to how good the work actually is. Explain the silent-majority problem: your regulars love you, they just never think to say so publicly. Make the case that the fix is not better service, it is a deliberate ask. Set up the rest of the guide. Link /features/growth/reviews/. 200-240 words."
+        },
+        {
+          "kicker": "Timing",
+          "title": "The single best moment to ask for a review",
+          "directives": "Be specific and opinionated: the window is the 10 minutes right after a great service, at checkout, while the client is still looking in the mirror and feeling good. That emotional peak is when they will actually follow through. Contrast with bad timing: a generic ask three days later when the glow has faded converts far worse. Give the in-person version (hand them the phone or send the link before they leave) and the just-after version (an automated message within an hour or two). Note the one exception: never ask a client who seemed even slightly unhappy, fix it first. Link /guides/ask-for-reviews-templates/. 200-240 words."
+        },
+        {
+          "kicker": "Automate",
+          "title": "Automating the ask so you never have to remember",
+          "directives": "Make the payoff case: relying on memory means you ask maybe one client in ten on a busy day. The fix is a trigger that fires after every completed appointment without you lifting a finger. Walk through how BookReady's reviews feature does this: when an appointment is marked complete, a verified review request goes out automatically to that client (email at launch, the timing tuned to the post-visit window). Emphasize verified (only real clients who actually booked can leave one) and owner-moderated (you control what publishes). Note SMS review requests are coming soon, do not present them as live. Link /platform/tools/reviews/ and /platform/tools/notifications/. 200-240 words."
+        },
+        {
+          "kicker": "Where",
+          "title": "Google vs Instagram vs reviews on your own site",
+          "directives": "Honest breakdown of the three surfaces. Google: highest intent, what new clients searching '[city] balayage' actually see, the one to prioritize for discovery. Instagram: great social proof and saves, but comments and tags disappear down the feed and do not help you rank. Your own site (BookReady verified reviews): you own them, they cannot vanish if a platform changes its rules, and they sit right next to the booking button where they close the sale. Give the opinion: send most clients to Google, mirror your best verified reviews on your own booking page, treat Instagram love as a bonus not a strategy. Link /platform/tools/reviews/ and /platform/website/gallery/. 200-240 words."
+        },
+        {
+          "kicker": "Volume",
+          "title": "Why volume and recency beat a perfect 5.0",
+          "directives": "Counterintuitive, opinionated section. A salon with 120 reviews at 4.8 outsells one with 12 reviews at a perfect 5.0, and a flawless 5.0 with the newest review from 14 months ago reads as dead or fake. Explain that buyers trust the shape of the profile: lots of reviews, recent dates, a believable spread. Argue that chasing a spotless average makes owners afraid to ask, which is exactly backwards. The goal is a steady drip of recent, honest reviews. Tie back to automation: a request after every visit keeps the most recent review days old, not years. Link /features/growth/reviews/. 180-220 words."
+        },
+        {
+          "kicker": "The script",
+          "title": "How to ask out loud without the cringe",
+          "directives": "Practical in-person guidance for the owner who hates asking. Give the mindset shift: you are not begging, you are giving a happy client an easy way to help. Provide a short spoken script ('If you loved it, a quick Google review really helps other people find me, I'll text you the link before you go'). Cover tone: casual, specific, one ask, no guilt. Address the team angle: train front desk and stylists to make the ask part of checkout, not an afterthought. Point to the full copy-paste templates piece. Link /guides/ask-for-reviews-templates/. 180-220 words."
+        },
+        {
+          "kicker": "Keep it clean",
+          "title": "Moderating reviews and handling the occasional bad one",
+          "directives": "Cover the owner's fear of opening the floodgates. Explain BookReady reviews are owner-moderated: you see each verified review and decide what publishes to your booking page, so a one-off bad day does not blindside your storefront (note: moderation is curation of your own-site display, you do not edit the words, and Google reviews live on Google). Make the point that a few less-than-perfect reviews actually build trust. For genuinely negative ones, point to the calm response framework in the dedicated guide. Link /guides/responding-to-negative-reviews/ and /platform/tools/reviews/. 180-220 words."
+        },
+        {
+          "kicker": "Make it pay",
+          "title": "Turning reviews into bookings, not just badges",
+          "directives": "Close the loop: reviews are only worth collecting if they drive bookings. Show how to put them to work: feature verified reviews on your booking page next to the book button, reference recent reviews in win-back and email campaigns, and let fresh social proof lift conversion on cold traffic from Google and Instagram. Mention Studio plan fits a growing salon running reviews plus marketing. Link /platform/tools/marketing/, /features/growth/email/ and /pricing/. 180-220 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How do I get clients to actually leave a review?",
+          "answerHint": "Ask at the moment they are happiest, right after the service at checkout, and make it one tap. An automated request after every visit beats relying on memory. 40-60 words."
+        },
+        {
+          "q": "What percentage of happy clients leave a review on their own?",
+          "answerHint": "Only about 5-10% unprompted. A direct, well-timed ask lifts that several times over, which is why automating the request matters. 30-50 words."
+        },
+        {
+          "q": "Should I ask for Google reviews or reviews on my own site?",
+          "answerHint": "Both. Google drives discovery for new clients searching locally. Verified reviews on your BookReady site sit next to the booking button and close the sale. Mirror your best ones in both places. 40-60 words."
+        },
+        {
+          "q": "Is it bad to have a perfect 5.0 rating?",
+          "answerHint": "A flawless 5.0 with few or stale reviews can read as fake or dead. Volume and recent dates build more trust than a spotless average. Keep a steady drip of fresh reviews. 40-60 words."
+        },
+        {
+          "q": "When is the best time to ask for a review?",
+          "answerHint": "Right after a great service, at checkout, while the client is still glowing. An automated message within an hour or two captures the same emotional peak. 40-60 words."
+        },
+        {
+          "q": "Can BookReady collect reviews automatically?",
+          "answerHint": "Yes. When an appointment is marked complete, BookReady sends a verified review request to that client automatically, so you never have to remember to ask. 30-50 words."
+        },
+        {
+          "q": "Are BookReady reviews verified?",
+          "answerHint": "Yes. Only real clients who actually booked and completed an appointment can leave one, and reviews are owner-moderated so you control what publishes to your page. 40-60 words."
+        },
+        {
+          "q": "Should I offer a discount for leaving a review?",
+          "answerHint": "Avoid paying for reviews. Google prohibits incentivized reviews and it erodes trust. Just ask at the right moment and make it effortless. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/reviews/",
+        "/features/growth/reviews/",
+        "/guides/ask-for-reviews-templates/",
+        "/guides/responding-to-negative-reviews/",
+        "/for-salons/",
+        "/pricing/"
+      ],
+      "recommendedFeaturedTemplate": "petale",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
+      "status": "pending"
+    },
+    {
+      "slug": "client-retention-strategies",
+      "url": "/guides/client-retention-strategies/",
+      "type": "guide",
+      "cluster": "growth",
+      "metaTitle": "Client Retention Strategies for Salons 2026 | BookReady",
+      "metaDescription": "Why keeping a client beats finding one, the rebook-at-checkout habit, the 6-week touch cadence, and the retention metrics that actually predict revenue.",
+      "h1": "Client retention strategies that keep your chair full",
+      "italicTagline": "Retention is cheaper than acquisition. Here is how to build it on purpose.",
+      "primaryKeyword": "client retention strategies",
+      "secondaryKeywords": [
+        "salon client retention",
+        "how to retain salon clients",
+        "client retention rate salon",
+        "improve client retention",
+        "salon loyalty ideas"
+      ],
+      "estVolume": "300-700",
+      "intent": "MOFU",
+      "intro": "200-240 word intro for salon and studio owners who pour money into ads and Instagram but watch clients drift after one or two visits. Name the core truth up front: acquiring a new client costs roughly 5 to 7 times what it costs to keep an existing one, and a returning client books more, spends more on add-ons, and refers more. Frame the BookReady opinion: retention is not a vibe, it is a system you set up once and let run, built on three pillars (rebook before they leave, touch them on a cadence, and track the repeat-visit rate so you know what is actually working). Acknowledge the honest tension: personal touches feel impossible to scale when you are doing hair all day, so the goal is to automate the mechanical parts (reminders, winback, tags) and save your energy for the human parts. Preview the guide: the acquisition-vs-retention math, rebooking at checkout, loyalty and membership thinking, the 6-week touch cadence, the personal touches that scale, and the metrics to watch. Link /for-salons/ in the first 200 words. Calm, specific, not preachy, no em-dashes.",
+      "sections": [
+        {
+          "kicker": "The math",
+          "title": "Why retention beats acquisition (the real numbers)",
+          "directives": "Make the financial case concretely. A new client costs 5 to 7 times more to acquire than keeping an existing one costs, and lifting retention 5% can raise profit 25 to 95% depending on the source. Work a simple example: a $60 service client who comes 8 times a year is worth $480 annually, and a 12-month relationship beats one $60 first visit you paid $40 in ads to win. Returning clients also book add-ons more readily and refer friends. Argue that most owners over-index on top-of-funnel (ads, reels) and under-invest in the back half. Link /platform/tools/analytics/. 200-240 words."
+        },
+        {
+          "kicker": "Rebook now",
+          "title": "Book the next appointment before they leave the chair",
+          "directives": "Single highest-leverage retention move. Explain why booking the next visit while the client is still in front of you converts far better than hoping they rebook from home (they get busy, they forget, a competitor's promo lands). Give the at-checkout habit: while you ring them up, say the line, open the calendar, lock the slot. Note that clients who rebook on the spot have dramatically higher return rates than those who leave open-ended. Cross-link the dedicated guide /guides/how-to-rebook-clients/ for scripts and intervals. Mention BookReady recurring bookings for clients on a fixed schedule. Link /platform/booking/recurring/. 200-240 words."
+        },
+        {
+          "kicker": "Loyalty",
+          "title": "Loyalty and membership thinking (without a points app)",
+          "directives": "Reframe loyalty away from gimmicky punch cards toward predictable revenue. Cover three models: (1) a simple prepaid package (buy 5 visits, get the 6th at a discount) that locks in commitment, (2) a monthly membership for high-frequency services like lash fills or blowouts that smooths cash flow, (3) a referral reward that turns happy regulars into acquisition. Be honest about the tradeoff: memberships only work if the client genuinely visits often enough to use them, otherwise it breeds resentment. Note BookReady supports packages and prepaid credits. Link /platform/tools/marketing/. 200-240 words."
+        },
+        {
+          "kicker": "Cadence",
+          "title": "The 6-week touch cadence that keeps you top of mind",
+          "directives": "Give a concrete contact rhythm so clients never go cold. Lay out the cadence: confirmation and reminder around each visit, then a check-in touch roughly 6 weeks out timed to when the service wears off (color grows out, lashes thin, nails chip), then a winback message if they pass their usual interval. Explain the why: the gap between visits is exactly when a competitor can capture them, so a well-timed nudge reclaims the slot. Stress that the interval should match the service, not a generic monthly blast. Note BookReady can fire reminders and winback automatically. Link /features/client/reminders/. 180-220 words."
+        },
+        {
+          "kicker": "Track it",
+          "title": "Track repeat-visit rate (the metric that predicts revenue)",
+          "directives": "Teach the one number most owners never look at: repeat-visit rate, the share of clients who book a second appointment within a defined window (say 6 to 8 weeks). Explain how to read it: under 30% means a leaky funnel, 40 to 50% is healthy for most studios, above 60% is excellent. Contrast it with vanity metrics like follower count. Walk through checking it in BookReady analytics, plus average visits per client per year and time-between-visits. Argue that what you measure, you improve. Link /platform/tools/analytics/ and /features/growth/analytics/. 200-240 words."
+        },
+        {
+          "kicker": "Personal at scale",
+          "title": "Personal touches that scale without burning you out",
+          "directives": "Solve the scaling tension. List touches that feel personal but run on rails: a saved note on each client (kids' names, the formula, how they take their coffee) surfaced before the appointment, a happy-birthday message, a we-saved-your-formula text. Use BookReady customer tags and notes so any team member can pick up the relationship. Be honest: do not fake intimacy, automate the memory and reminders so your in-person attention is genuine. Link /platform/tools/customers/ and /features/manage/customers/. 200-240 words."
+        },
+        {
+          "kicker": "Win them back",
+          "title": "Catch clients before they fully lapse",
+          "directives": "Position winback as the safety net of retention: even a great cadence loses some clients, and the cheapest re-acquisition is reactivating someone who already knows you. Explain the early-warning idea: a client who is two weeks past their normal interval is a soft lapse, far easier to recover than someone gone 90 days. Describe a light, warm nudge before they disappear. Cross-link the deeper guide /guides/win-back-lapsed-clients/ and BookReady's winback feature. Link /features/growth/winback/. 180-220 words."
+        },
+        {
+          "kicker": "Put it together",
+          "title": "Your retention system on one page",
+          "directives": "Synthesize the whole guide into a runnable checklist: (1) rebook at checkout every time, (2) set service-matched reminders and a 6-week touch, (3) offer a package or membership for high-frequency clients, (4) tag and note every client so attention scales, (5) watch repeat-visit rate monthly and adjust, (6) let winback catch the leaks. Frame it as set-once, run-forever. End by pointing to pricing as the place this all lives on one plan. Link /pricing/. 180-220 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is a good client retention rate for a salon?",
+          "answerHint": "A repeat-visit rate of 40 to 50% within 6 to 8 weeks is healthy, above 60% is excellent, and under 30% signals a leaky funnel worth fixing. 40-60 words."
+        },
+        {
+          "q": "Why is retaining a client cheaper than getting a new one?",
+          "answerHint": "Acquiring a new client costs roughly 5 to 7 times more than keeping one, and returning clients book more often, spend more on add-ons, and refer friends. 40-60 words."
+        },
+        {
+          "q": "What is the single most effective retention tactic?",
+          "answerHint": "Booking the next appointment at checkout while the client is still with you. It converts far better than hoping they rebook later from home. 30-50 words."
+        },
+        {
+          "q": "How often should I contact clients between visits?",
+          "answerHint": "Match the cadence to the service. A check-in touch around 6 weeks out, timed to when the service wears off, keeps you top of mind without nagging. 40-60 words."
+        },
+        {
+          "q": "Do loyalty programs actually work for small studios?",
+          "answerHint": "Prepaid packages and memberships work when the client genuinely visits often enough to use them. For low-frequency services they can backfire, so match the model to the visit rate. 40-60 words."
+        },
+        {
+          "q": "How do I keep things personal when I have hundreds of clients?",
+          "answerHint": "Automate the memory, not the relationship. Use client tags and saved notes so the formula, preferences, and details surface before each visit and any team member can pick up. 40-60 words."
+        },
+        {
+          "q": "Which retention metric should I watch first?",
+          "answerHint": "Repeat-visit rate, the share of clients who book again within 6 to 8 weeks. It predicts revenue better than follower count or one-off bookings. 30-50 words."
+        },
+        {
+          "q": "Can BookReady automate my retention follow-ups?",
+          "answerHint": "Yes. Reminders, the post-visit touch, and winback messages can fire automatically, with customer tags and notes keeping each relationship personal. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/customers/",
+        "/platform/tools/analytics/",
+        "/features/growth/winback/",
+        "/guides/how-to-rebook-clients/",
+        "/guides/win-back-lapsed-clients/",
+        "/for-salons/"
+      ],
+      "recommendedFeaturedTemplate": "petale",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
+      "status": "pending"
+    },
+    {
+      "slug": "instagram-marketing-for-salons",
+      "url": "/guides/instagram-marketing-for-salons/",
+      "type": "guide",
+      "cluster": "marketing",
+      "metaTitle": "Instagram Marketing for Salons: Turn Followers Into Bookings | BookReady",
+      "metaDescription": "Stop posting into the void. How to turn your salon Instagram into a real booking channel: the bio link flow, content that converts, and a posting cadence you can keep.",
+      "h1": "Instagram marketing for salons that actually books clients",
+      "italicTagline": "Followers are not revenue. The bio link, the right content, and a cadence you can keep are.",
+      "primaryKeyword": "instagram marketing for salons",
+      "secondaryKeywords": [
+        "salon instagram tips",
+        "how to get clients from instagram salon",
+        "instagram for hair salons",
+        "salon instagram content ideas",
+        "instagram booking link salon"
+      ],
+      "estVolume": "500-1000",
+      "intent": "TOFU",
+      "intro": "200-240 word intro. Name the trap: most salon owners treat Instagram as a popularity contest (chasing likes and followers) when the only metric that pays rent is booked appointments. BookReady opinion: Instagram is a booking funnel, not a portfolio. Three things decide whether it works: a bio link that goes straight to a real booking page (not a generic linktree or a DM), content that shows the transformation and the process rather than quotes and reposts, and a posting rhythm a busy owner can sustain without burning out. Preview the guide: the bio-link-to-booking flow, what content converts, posting cadence, Stories vs Reels vs grid, and using a designed booking site so the link looks like your brand. Set expectation that this is about consistency over virality. Confident, practical, slightly contrarian about vanity metrics. Link /for-salons/ in the first 200 words.",
+      "sections": [
+        {
+          "kicker": "Reframe",
+          "title": "Instagram is a booking funnel, not a portfolio",
+          "directives": "Reframe the whole channel. Argue that a salon account with 10,000 followers and no booking path is worth less than one with 800 followers and a clean tap-to-book flow. Define the funnel in three steps: someone sees a post, taps your profile, taps the bio link, books. Every post should serve one of those steps. Call out the common failure: gorgeous grids that dead-end because the bio link goes to a DM request or a phone number. Introduce BookReady idea that the bio link should land on a designed booking page that matches the brand. Link /for-salons/. 200-240 words."
+        },
+        {
+          "kicker": "The link",
+          "title": "The bio-link-to-booking flow (the part most salons get wrong)",
+          "directives": "Walk through the single most important fix. The Instagram bio gets exactly one link, so it must go to a page that lets people book in two taps, not a homepage or a contact form. Explain why a linktree-style list adds friction (an extra decision and an extra tap) versus a direct booking page. Show the BookReady flow: bio link to your booking site, client picks service and time, done, no DM tag required. Mention that a designed template makes the destination feel like your brand instead of a bare form, which raises trust at the exact moment someone decides to book. Cross-link the dedicated sibling guide /guides/add-booking-link-to-instagram-bio/ and link /platform/booking/online/. 220-260 words."
+        },
+        {
+          "kicker": "Content",
+          "title": "What content actually converts (and what just gets likes)",
+          "directives": "Opinionated breakdown of converting vs vanity content. Converts: before-and-afters (the single strongest format for beauty), process reels showing the transformation happening, real client results with the booking service named. Does not convert: motivational quote tiles, reposted memes, generic stock images. Give the why: people book when they can picture themselves in the result and trust the hand doing the work. Recommend that every converting post end with a plain call to action pointing at the bio link. Note that you can plan and caption these posts using the BookReady content maker so the whole loop stays in one place. Link /platform/tools/marketing/. 220-260 words."
+        },
+        {
+          "kicker": "Formats",
+          "title": "Stories vs Reels vs grid: what each is actually for",
+          "directives": "Assign a job to each format so the owner stops guessing. Reels: reach and discovery, this is where new clients find you, prioritize process and before-after reels with trending-but-not-cringe audio. Grid: the credibility check, when someone lands on your profile the top nine posts decide if they trust you, keep it consistent and result-forward. Stories: warmth and urgency, behind-the-scenes, last-minute openings, polls, and the day-to-day that builds relationship with existing followers. Give a simple rule: Reels to get found, grid to get trusted, Stories to stay top of mind. Mention promoting a last-minute opening in Stories and pairing it with a BookReady announcement on the booking site. Link /platform/website/announcement/. 220-260 words."
+        },
+        {
+          "kicker": "Cadence",
+          "title": "A posting cadence a busy owner can actually keep",
+          "directives": "Give a sustainable, specific schedule, not 'post daily.' Recommend 3 feed posts per week (at least 2 of them Reels) plus Stories on the days you work. Argue that 3 consistent posts beat 7 sporadic ones because the algorithm and clients both reward reliability. Address the real constraint: the owner is fully booked behind the chair. Solution preview: batch content during one shoot and schedule ahead, which links to the dedicated content guide. Stress that the cadence should survive a busy week, so set it at the floor you can hold even in your worst week. Cross-link /guides/content-ideas-for-beauty-businesses/. 200-240 words."
+        },
+        {
+          "kicker": "Brand",
+          "title": "Make the booking page look like your brand, not a form",
+          "directives": "Make the case that the destination matters as much as the post. When a client taps the bio link, a generic gray scheduling form breaks the spell that your beautiful grid just created. A designed booking site (consistent colors, your photos, your name) keeps the premium feeling intact and converts more taps into bookings. Reference BookReady designed templates and name petale as a fit for salons that lean soft and elegant. Explain that the booking page is the last impression before money changes hands, so it deserves the same care as the grid. Link /platform/website/templates/ and /platform/website/gallery/. 200-240 words."
+        },
+        {
+          "kicker": "Proof",
+          "title": "Use reviews and results as social proof inside the loop",
+          "directives": "Show how to feed proof back into the funnel. Recommend turning real client reviews into Story screenshots and occasional grid posts, and showcasing before-after galleries on the booking site so the proof is there at decision time. Explain the psychology: a stranger trusts other clients more than they trust your captions. Mention collecting reviews through BookReady so the flow of fresh proof is automatic rather than something you chase. Caution against fake or over-edited results because regulars notice and it erodes trust. Link /platform/tools/reviews/ and cross-link /guides/how-to-get-more-salon-reviews/. 200-240 words."
+        },
+        {
+          "kicker": "Measure",
+          "title": "How to know if Instagram is actually paying off",
+          "directives": "Tell the owner what to measure so they stop guessing. The only metric that matters is bookings attributed to the bio link, not follower count or likes. Practical method: watch booking volume from your booking-site traffic and note jumps after specific posts to learn what content drives action. Recommend reviewing this monthly, not daily, to avoid reacting to noise. Mention BookReady analytics for seeing booking trends and which periods convert. Give a benchmark mindset: if three months of consistent posting produces no new bookings, the problem is usually the bio-link destination or the content type, not the frequency. Link /platform/tools/analytics/. 180-220 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How often should a salon post on Instagram?",
+          "answerHint": "Three feed posts a week (mostly Reels) plus Stories on workdays. Consistency beats volume. Set the cadence at the level you can hold during your busiest week. 40-60 words."
+        },
+        {
+          "q": "What should go in a salon Instagram bio?",
+          "answerHint": "A clear name, what you do, location, and one link straight to a booking page. Skip the linktree maze; send people two taps from book. 40-60 words."
+        },
+        {
+          "q": "What content gets salons the most bookings?",
+          "answerHint": "Before-and-afters and process reels. People book when they can picture the result and trust the hand doing it. Quotes and reposts get likes, not appointments. 40-60 words."
+        },
+        {
+          "q": "Should I use Reels or regular posts?",
+          "answerHint": "Both, for different jobs. Reels get you discovered by new clients; the grid earns trust once they land on your profile. Lead with Reels for reach. 40-60 words."
+        },
+        {
+          "q": "How do I add a booking link to my Instagram bio?",
+          "answerHint": "Put your BookReady booking-site URL in the website field of your profile. It becomes a tappable link clients use to book in two taps. See the dedicated bio-link guide. 40-60 words."
+        },
+        {
+          "q": "Do I need a lot of followers to get clients?",
+          "answerHint": "No. A small account with a clean tap-to-book flow outbooks a big account that dead-ends in DMs. Booking path matters more than follower count. 40-60 words."
+        },
+        {
+          "q": "How do I find time to post when I'm fully booked?",
+          "answerHint": "Batch. Shoot a week of content in one session and schedule it ahead. Three planned posts beat seven scrambled ones. 30-50 words."
+        },
+        {
+          "q": "Should my booking page match my Instagram look?",
+          "answerHint": "Yes. A designed booking page keeps the premium feeling your grid created. A generic form breaks the spell right before someone books. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/marketing/",
+        "/platform/booking/online/",
+        "/platform/website/templates/",
+        "/guides/add-booking-link-to-instagram-bio/",
+        "/guides/content-ideas-for-beauty-businesses/",
+        "/for-salons/"
+      ],
+      "recommendedFeaturedTemplate": "petale",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
+      "status": "pending"
+    },
+    {
+      "slug": "booking-app-for-solo-beauty-pros",
+      "url": "/guides/booking-app-for-solo-beauty-pros/",
+      "type": "guide",
+      "cluster": "comparison",
+      "metaTitle": "Best Booking App for Solo Beauty Pros (2026) | BookReady",
+      "metaDescription": "How to pick a booking app as a solo beauty pro: the features that matter when it is just you, an honest look at the options, and what to skip paying for.",
+      "h1": "How to choose a booking app as a solo beauty pro",
+      "italicTagline": "When it is just you, most of what these apps sell is for somebody else.",
+      "primaryKeyword": "booking app for solo beauty pros",
+      "secondaryKeywords": [
+        "best booking app for solo beauty professionals",
+        "booking app for independent beauty pros",
+        "scheduling app for solo estheticians",
+        "self employed beauty booking app",
+        "booking software for one person salon"
+      ],
+      "estVolume": "150-400",
+      "intent": "MOFU",
+      "intro": "200-240 word intro. Name the tension: most booking apps are priced and built for teams, so a solo lash artist or esthetician pays for staff seats, multi-location reporting, and POS hardware she will never touch. The BookReady opinion stated early: when it is just you, the app should disappear into a clean booking page on your own domain, take a deposit, and remind clients, and that is most of the job. Be honest that a marketplace app like Fresha or Booksy can be worth it for the first few months when you are cold and need to be found, and that this guide is not going to pretend otherwise. Preview the structure: the five things a solo pro actually needs, the features to stop paying for, an honest look at the main options, the design case, the money math, and a short setup path. Link /for-solo-pros/ in the first 200 words. No em-dashes, practical, decisive, warm.",
+      "sections": [
+        {
+          "kicker": "What you need",
+          "title": "The five things a solo pro actually needs",
+          "directives": "Lay out the short list, with a sentence of why for each: (1) a clean booking page on your own domain that looks like your work, (2) a deposit on each service to cut no-shows, (3) automatic reminders so you are not texting clients by hand, (4) a client list you own and can export, (5) low fees, meaning no platform markup stacked on card processing. Argue that everything past this list is for shops with staff. Link /platform/booking/online/ and /platform/tools/payments/. 200-240 words."
+        },
+        {
+          "kicker": "Stop paying for",
+          "title": "The features you are overpaying for when it is just you",
+          "directives": "Direct and specific. Name what a solo pro does not need yet and is often paying for: per-staff seats, multi-location reporting, payroll and commission tracking, POS hardware bundles, advanced inventory, and class/membership engines. Explain that team-grade platforms (Mindbody, Vagaro) price these in even on lower tiers. The BookReady angle: a solo plan should cost like a solo business, around $15/mo, not $50+. Link /pricing/. 180-220 words."
+        },
+        {
+          "kicker": "The options",
+          "title": "The honest shortlist of apps for solo pros",
+          "directives": "Short comparison with who-each-fits, not a everything-is-great listicle. Cover, briefly and fairly: GlossGenius (clean solo app, in-person POS, around $24-48/mo, strong if you want card-reader checkout), Fresha (free base, marketplace can find you new clients, but charges a new-client booking fee), Booksy (marketplace plus per-staff pricing, good in dense barber markets), Square Appointments (fine if you already live in Square), and BookReady (designed site on your own domain, 0% platform markup on top of Stripe, Solo at $15/mo). Use a short table. Be clear that the marketplace apps rent you an audience while BookReady builds you one. Link /compare/glossgenius-alternative/. 240-280 words."
+        },
+        {
+          "kicker": "Design",
+          "title": "Your booking page is your storefront",
+          "directives": "Make the design case for a one-person business. When you are solo, the booking page is the entire brand experience, there is no front desk or signage to carry it. Most apps drop clients onto a generic widget that looks like everyone else's. Contrast BookReady's editorial templates and name Clarity specifically as the clean, uncluttered, solo-leaning look, with The Fade Room and Opaline as alternates depending on the vibe. A page that looks like your work justifies your prices. Link /templates/ and /platform/website/domain/. 200-240 words."
+        },
+        {
+          "kicker": "The money",
+          "title": "What these apps actually cost a solo pro per year",
+          "directives": "Money math for one person at $5,000/mo in bookings. Compare a year of: a team-grade app at roughly $40-50/mo plus a transaction markup, a marketplace app with new-client fees during a marketing push, and BookReady Solo at $15/mo with 0% platform markup (Stripe pass-through of about 2.9% + 30 cents only). Put a real annual gap on it: $15/mo is $180/yr, a $45/mo app is $540/yr, before any markup. Show how marketplace new-client fees can add hundreds in a growth month. Link /pricing/. 220-260 words."
+        },
+        {
+          "kicker": "Deposits + reminders",
+          "title": "The two settings that protect a solo calendar",
+          "directives": "Operational core for a one-person business: a solo pro feels every no-show directly, there is no second chair to absorb it. Walk through setting a per-service deposit (flat for services under $50, 20-30% above) and a reminder cadence (confirmation, a 48-hour nudge, a day-of message). Note these are exactly the templates and policy a solo pro can copy. Cross-link the reminder templates and reducing-no-shows guides. Link /features/client/reminders/ and /guides/reducing-no-shows/. 180-220 words."
+        },
+        {
+          "kicker": "Own your clients",
+          "title": "Why owning your client list matters more when you are solo",
+          "directives": "Make the ownership case. A marketplace controls the URL, the audience, and the rebooking prompts, so a solo pro who leaves can lose the funnel overnight. Building your own domain, email list, and reviews means the business is an asset you keep. Explain how to export a client list and start collecting reviews on assets you own. Link /platform/tools/customers/ and /features/growth/reviews/. 180-220 words."
+        },
+        {
+          "kicker": "Set up",
+          "title": "The fastest path to live as a solo pro",
+          "directives": "Step-by-step, kept tight: (1) pick a template (Clarity for clean, The Fade Room or Opaline for vibe), (2) add your services with prices and deposits, (3) connect Stripe, (4) point your domain or use the free subdomain to start, (5) turn on the reminder sequence, (6) put the link in your Instagram bio. Note most solo pros are live in an afternoon. Link /platform/website/templates/ and /pricing/. 160-200 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is the best booking app for a solo beauty pro?",
+          "answerHint": "It depends on whether you need to be found or you already have clients. BookReady Solo ($15/mo) wins for a designed page on your own domain and 0% platform markup. GlossGenius fits if you want in-person POS. 40-60 words."
+        },
+        {
+          "q": "Do I need to pay for staff features if it is just me?",
+          "answerHint": "No, and you should not. Team-grade apps price in per-staff seats and reporting you will not use. Look for a true solo plan, around $15/mo. 40-60 words."
+        },
+        {
+          "q": "Is a marketplace app like Fresha or Booksy worth it for a solo pro?",
+          "answerHint": "For the first few months when you are cold, the marketplace can find you clients. Once you have a following, you are renting an audience instead of owning one. 40-60 words."
+        },
+        {
+          "q": "Can a solo booking app take deposits?",
+          "answerHint": "Good ones can. BookReady charges a per-service deposit through Stripe at booking, which matters most when you are solo and feel every no-show directly. 40-60 words."
+        },
+        {
+          "q": "How much does a solo booking app cost?",
+          "answerHint": "Solo-friendly options run about $15-48/mo. BookReady Solo is $15/mo with 0% platform markup on top of Stripe's standard rate. 30-50 words."
+        },
+        {
+          "q": "Will I lose my clients if I switch booking apps?",
+          "answerHint": "No, if you own the list. Most apps export a client CSV, and BookReady runs the import for free during migration, usually same-day. 40-60 words."
+        },
+        {
+          "q": "Do I need my own website or just a booking link?",
+          "answerHint": "A link drops clients on a generic form. Your own designed site on your domain builds trust, gets found on Google, and looks like your work. 40-60 words."
+        },
+        {
+          "q": "How long does it take a solo pro to get set up?",
+          "answerHint": "Most solo pros are live in an afternoon: pick a template, add services and deposits, connect Stripe, point a domain, and drop the link in your bio. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/for-solo-pros/",
+        "/pricing/",
+        "/templates/",
+        "/platform/tools/payments/",
+        "/features/client/reminders/",
+        "/guides/reducing-no-shows/"
+      ],
+      "recommendedFeaturedTemplate": "clarity",
+      "recommendedRelatedIndustry": "solo-pros",
+      "ctaPlan": "Solo",
+      "ctaIndustry": "solo-pros",
+      "status": "pending"
+    },
+    {
+      "slug": "responding-to-negative-reviews",
+      "url": "/guides/responding-to-negative-reviews/",
+      "type": "guide",
+      "cluster": "growth",
+      "metaTitle": "How to Respond to Negative Salon Reviews | BookReady",
+      "metaDescription": "A calm framework for responding to negative salon reviews: acknowledge, take it offline, never argue in public. Plus what not to do and when to dispute a fake.",
+      "h1": "How to respond to a negative salon review",
+      "italicTagline": "Acknowledge, take it offline, and never argue in public.",
+      "primaryKeyword": "responding to negative reviews",
+      "secondaryKeywords": [
+        "how to respond to bad salon reviews",
+        "negative review response examples",
+        "respond to negative google review",
+        "handle bad reviews salon",
+        "reply to 1 star review"
+      ],
+      "estVolume": "300-700",
+      "intent": "MOFU",
+      "intro": "200-240 word intro for an owner who just got a one-star review and feels the heat rising. Name the instinct everyone has: to defend, explain, and prove the client wrong in public. Then name why that instinct is exactly wrong: future clients are not reading the review, they are reading your response, and a defensive reply does more damage than the original complaint. BookReady opinion: a bad review is not a verdict, it is an audition in front of every prospect who will ever read it. Handled well, a calm reply turns a one-star into a quiet win and makes your whole profile read as run by a real, fair human. Promise the guide: a simple response framework (acknowledge, take it offline, never argue publicly), the moves that quietly torch your reputation, how to turn a one-star into a rebooking, and the narrow cases where you should dispute a fake or defamatory review instead of replying. No em-dashes. Calm, experienced, steadying, not preachy.",
+      "sections": [
+        {
+          "kicker": "First",
+          "title": "Before you type anything: wait an hour",
+          "directives": "Set the tone. The single most damaging reviews responses are written in the first ten minutes while the owner is angry. Advise a cooling-off pause: read it, close the tab, come back in an hour. Reframe the review as a public document that future clients will judge you by, not a private fight. Make the point that the audience is never the reviewer, it is the next 200 people deciding whether to book. Note BookReady's owner-moderated, verified reviews mean reviews on your own site come from real clients (so you are rarely responding to a total stranger), but Google and other public reviews still need a steady hand. Link /platform/tools/reviews/. 180-220 words."
+        },
+        {
+          "kicker": "Framework",
+          "title": "The three-step response framework",
+          "directives": "Lay out the calm framework clearly. Step 1, acknowledge: thank them, name the specific issue without excuses, show you read it. Step 2, take it offline: invite them to a direct channel (a phone number or email) to make it right, so the back-and-forth leaves the public thread. Step 3, never argue publicly: do not relitigate facts, correct their version, or defend at length in the open. Give a short model reply that hits all three in three or four sentences. Explain why each step works on the silent audience of future clients. 220-260 words."
+        },
+        {
+          "kicker": "Don't",
+          "title": "What not to do (the moves that make it worse)",
+          "directives": "Direct list of mistakes, each with the why. (1) Arguing the facts in public, makes you look defensive even when you are right. (2) Getting personal or sarcastic, one screenshot and it follows you. (3) Sharing private appointment or health details to discredit them, can violate privacy and reads as cruel. (4) Copy-paste corporate apologies, sound hollow at scale. (5) Begging for the review to be taken down in the reply. (6) Going silent on a serious complaint, looks like you do not care. Keep it specific and a little blunt. 200-240 words."
+        },
+        {
+          "kicker": "The win",
+          "title": "Turning a one-star into a rebooking",
+          "directives": "Opinionated, hopeful section. A well-handled complaint often recovers the client and impresses onlookers more than a perfect record would. Walk the play: respond calmly in public, resolve generously in private (a redo, a partial refund, or a thoughtful fix), and when the client is happy again, it is fair to mention you would welcome an updated review (never demand it). Cite that many removed or upgraded reviews come from exactly this sequence. Tie to win-back: a recovered unhappy client is a retention story. Link /guides/win-back-lapsed-clients/ and /features/growth/winback/. 200-240 words."
+        },
+        {
+          "kicker": "Examples",
+          "title": "Response examples for the most common complaints",
+          "directives": "Provide 4 short copy-paste reply templates in callouts, each using the framework, with [BRACKETED] merge fields. (1) Service result complaint (color was not what they wanted). (2) Wait-time or running-late complaint. (3) Price or fee surprise. (4) A vague one-star with no detail. Keep each three to four sentences, warm, no excuses, always offering an offline next step. Note the templates work on Google, Yelp, or anywhere public. Link /guides/ask-for-reviews-templates/. 240-280 words."
+        },
+        {
+          "kicker": "Fakes",
+          "title": "When it is fake or defamatory, dispute instead of reply",
+          "directives": "Important nuance. Not every bad review deserves a response: some should be reported and removed. Explain the signs of a flaggable review: clearly never a client (wrong service, wrong city, mistaken business), a competitor or banned ex-employee, threats or extortion ('pay me or this stays'), slurs, or provably false defamatory claims. Walk the path: do not engage emotionally in public, report it through the platform with evidence, and if it is genuinely defamatory and damaging, that is a legal question. Note BookReady's own reviews are verified to real bookings, which prevents drive-by fakes on your booking page, but you cannot verify Google or Yelp the same way. Link /platform/tools/reviews/. 200-240 words."
+        },
+        {
+          "kicker": "Get ahead",
+          "title": "The best defense: more recent, honest reviews",
+          "directives": "Reframe defense as offense. One bad review stings most when it sits near the top of a thin profile. Bury it naturally by collecting a steady stream of fresh verified reviews so a single off day is one voice among many recent ones. Make the case that owners who ask after every visit rarely panic over a single one-star. Tie to the get-more-reviews playbook and automation. Link /guides/how-to-get-more-salon-reviews/ and /features/growth/reviews/. 180-220 words."
+        },
+        {
+          "kicker": "Protect it",
+          "title": "Building a reputation that survives a bad day",
+          "directives": "Close with the durable view. Reputation is a system: collect reviews automatically, moderate your own-site display, respond to the public ones with the same calm voice every time, and resolve problems before they ever reach a review. Mention Studio fits a salon running reviews plus marketing to keep the funnel full. Note how verified, owner-moderated reviews on your own booking page give you an asset you control even when public platforms change their rules. Link /platform/tools/reviews/ and /pricing/. 180-220 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Should I respond to every negative review?",
+          "answerHint": "Respond to genuine complaints calmly and publicly, since future clients judge your reply more than the review. Fake or defamatory ones should be reported and removed, not argued with. 40-60 words."
+        },
+        {
+          "q": "What should I say in response to a bad review?",
+          "answerHint": "Acknowledge the specific issue without excuses, thank them, and invite them to a direct channel to make it right. Keep it short and never argue the facts in public. 40-60 words."
+        },
+        {
+          "q": "How fast should I reply to a negative review?",
+          "answerHint": "Within a day or two, but never in the first angry ten minutes. Wait an hour, cool off, then respond to the silent audience of future clients, not the reviewer. 40-60 words."
+        },
+        {
+          "q": "Can I get a fake or defamatory review removed?",
+          "answerHint": "Often yes. Report reviews that are clearly not from a client, come from competitors or banned ex-staff, contain threats or slurs, or make provably false claims. Use the platform's flagging tools with evidence. 40-60 words."
+        },
+        {
+          "q": "Should I offer a refund to fix a bad review?",
+          "answerHint": "Sometimes. A redo or partial refund can recover the client and impress onlookers. Resolve generously in private, then it is fair to welcome an updated review without demanding one. 40-60 words."
+        },
+        {
+          "q": "What should I never do when responding to a bad review?",
+          "answerHint": "Never argue the facts publicly, get sarcastic, share private client details, or beg for removal in the reply. Each one makes you look worse to future clients. 40-60 words."
+        },
+        {
+          "q": "Do BookReady reviews protect me from fake reviews?",
+          "answerHint": "On your own booking page, yes. BookReady reviews are verified to real completed bookings and owner-moderated, so drive-by fakes cannot post there. Public sites like Google still need flagging. 40-60 words."
+        },
+        {
+          "q": "How do I stop one bad review from dominating my profile?",
+          "answerHint": "Collect a steady stream of recent, honest reviews so one off day is one voice among many. Automating the ask after every visit keeps your profile fresh. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/reviews/",
+        "/features/growth/reviews/",
+        "/guides/how-to-get-more-salon-reviews/",
+        "/guides/ask-for-reviews-templates/",
+        "/guides/win-back-lapsed-clients/",
+        "/for-salons/"
+      ],
+      "recommendedFeaturedTemplate": "lushstudio",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
+      "status": "pending"
+    },
+    {
+      "slug": "how-to-rebook-clients",
+      "url": "/guides/how-to-rebook-clients/",
+      "type": "guide",
+      "cluster": "appointment-management",
+      "metaTitle": "How to Rebook Clients: Scripts and Intervals | BookReady",
+      "metaDescription": "The highest-leverage move in beauty is booking the next appointment before the client leaves. Scripts, per-service rebook intervals, and how to automate it.",
+      "h1": "How to rebook clients before they leave the chair",
+      "italicTagline": "The next appointment is easiest to book when they are still in front of you.",
+      "primaryKeyword": "how to rebook clients",
+      "secondaryKeywords": [
+        "rebooking clients salon",
+        "salon rebooking rate",
+        "how to get clients to rebook",
+        "rebooking script salon",
+        "increase rebooking rate"
+      ],
+      "estVolume": "200-500",
+      "intent": "MOFU",
+      "intro": "200-240 word intro for lash artists, stylists, and studio owners who lose money not to bad work but to open-ended goodbyes. State the thesis plainly: the single highest-leverage move in a service business is booking the client's next appointment before they walk out, because the moment they leave with no future slot, you are competing with their busy life and every other studio's promo to win them back. Quantify it: studios that rebook at checkout routinely see return rates 20 to 40 points higher than those that let clients rebook later on their own. Frame the BookReady opinion: rebooking should be a habit, not a hope, and the mechanics (the calendar, the recurring slot, the reminder at the right interval) should make it effortless. Acknowledge the discomfort some pros feel asking, then reframe it as a service to the client who actually wants their spot held. Preview: why the chair is the moment, the exact scripts, recurring bookings for fixed-schedule clients, the right rebook interval per service, and how to automate the reminder so even open-ended clients come back. Link /for-lash-artists/ in the first 200 words. Practical, warm, decisive, no em-dashes.",
+      "sections": [
+        {
+          "kicker": "The moment",
+          "title": "Why the chair is the only moment that matters",
+          "directives": "Make the timing case. The client is happiest right after the service, sees the result, and trusts you most in that window, which is precisely when commitment is easiest. The instant they leave, friction wins: they get busy, the calendar fades, and the next time they think about you may be when the lashes have already fallen out. Cite that on-the-spot rebooking lifts return rates 20 to 40 points versus open-ended goodbyes. Argue that a polished checkout is part of the experience, not a hard sell. Link /platform/booking/calendar/. 200-240 words."
+        },
+        {
+          "kicker": "Scripts",
+          "title": "The exact words to use at checkout",
+          "directives": "Provide 4 to 5 short, natural rebooking scripts in styled callouts: (1) the default assumptive close ('Your fills will be ready in about three weeks. I have Thursday the 14th at 2, want me to lock it in?'), (2) the choice close ('Do mornings or afternoons work better for your next one?'), (3) the value frame for a client who hesitates ('My Saturdays book out two weeks ahead, so grabbing it now means you actually get the slot you want'), (4) the recurring offer ('You come every four weeks like clockwork, want me to just hold your standing Thursday so you never have to think about it?'), (5) the graceful out if they truly cannot commit ('No problem, I will text you when you are due so it does not slip'). Keep each on-brand and low-pressure. 240-280 words including scripts."
+        },
+        {
+          "kicker": "Recurring",
+          "title": "Standing appointments for your regulars",
+          "directives": "Explain recurring bookings as the ultimate rebooking tool for clients on a fixed rhythm (lash fills every 2 to 3 weeks, blowouts weekly, color every 4 to 6 weeks). A standing slot removes the decision entirely and protects your best hours for your most loyal clients. Walk through setting it up in BookReady so the series books forward automatically and the client gets reminders for each one. Be honest: recurring works for habitual clients, not occasional ones, so offer it selectively. Link /platform/booking/recurring/. 200-240 words."
+        },
+        {
+          "kicker": "Intervals",
+          "title": "The right rebook interval for every service",
+          "directives": "Give a concrete interval cheat-table so the rebook offer matches the biology of the service: lash fills every 2 to 3 weeks, brow wax or tint every 3 to 4 weeks, gel manicure every 2 to 3 weeks, acrylic fills every 2 to 3 weeks, men's cut every 3 to 4 weeks, women's cut every 6 to 8 weeks, root color every 4 to 6 weeks, balayage every 8 to 12 weeks, facials every 4 to 6 weeks. Explain that booking at the right interval keeps the result looking fresh, which is the real pitch. Note BookReady lets you set a default rebook interval per service. 220-260 words including the table."
+        },
+        {
+          "kicker": "Automate",
+          "title": "Automated rebooking reminders for clients who left open",
+          "directives": "Address the reality that not every client commits at checkout. Describe the automated reminder that fires at the service-matched interval ('Hi Maya, your lashes are due for a fill this week, here is the link to grab your spot'), turning a passive lapse into an active rebook. Explain timing it to the interval set on each service, not a generic blast. Walk through setting it in BookReady notifications. Link /platform/tools/notifications/ and /features/client/reminders/. 200-240 words."
+        },
+        {
+          "kicker": "Make it easy",
+          "title": "Make rebooking one tap on their phone",
+          "directives": "Cover the friction-removal side: even a willing client will not rebook if it takes a phone call during business hours. A self-serve online booking link in the reminder, the confirmation, and the Instagram bio lets them lock the next slot at 11pm from the couch. Stress that the easier you make it, the higher the rebook rate. Mention waitlist for fully booked slots so demand does not leak. Link /platform/booking/online/ and /platform/booking/waitlist/. 180-220 words."
+        },
+        {
+          "kicker": "Awkward",
+          "title": "Getting over the fear of asking",
+          "directives": "Tackle the emotional blocker directly. Many talented pros undercharge their own time by never asking for the rebook because it feels pushy. Reframe: you are not selling, you are saving the client the hassle of losing their preferred slot, and clients who love your work want to be asked. Give a confidence script and a mindset note. Be honest that a small number will decline, and that is fine, the automated reminder catches them. Link /features/client/reschedule/. 160-200 words."
+        },
+        {
+          "kicker": "Measure",
+          "title": "Track your rebooking rate and lift it",
+          "directives": "Teach measuring the rebooking rate: the share of completed appointments that leave with a next appointment booked. Give benchmarks: under 30% means you are mostly not asking, 50 to 70% is strong, above 70% is elite for a busy studio. Walk through finding it in BookReady analytics and watching it move as the team adopts the checkout habit. Tie it back to revenue: a 10-point lift in rebooking compounds fast. Link /platform/tools/analytics/ and /pricing/. 180-220 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "When is the best time to rebook a client?",
+          "answerHint": "At checkout, while the client is still with you and happiest with the result. Rebooking on the spot converts far better than hoping they book later from home. 40-60 words."
+        },
+        {
+          "q": "What should I say to get a client to rebook?",
+          "answerHint": "Use an assumptive close: name when they are due, offer a specific slot, and ask to lock it in. For regulars, offer a standing appointment so they never have to think about it. 40-60 words."
+        },
+        {
+          "q": "How far out should I rebook each service?",
+          "answerHint": "Match the interval to the service: lash fills every 2 to 3 weeks, root color every 4 to 6, women's cut every 6 to 8, balayage every 8 to 12. Book at the interval that keeps the result fresh. 40-60 words."
+        },
+        {
+          "q": "What is a good rebooking rate?",
+          "answerHint": "Under 30% means you are rarely asking, 50 to 70% is strong, and above 70% is elite for a busy studio. Track the share of visits that leave with a next appointment booked. 40-60 words."
+        },
+        {
+          "q": "How do recurring appointments help with rebooking?",
+          "answerHint": "A standing slot removes the decision for habitual clients. BookReady recurring bookings book the series forward automatically and remind the client before each one. 30-50 words."
+        },
+        {
+          "q": "What if a client will not commit at checkout?",
+          "answerHint": "Let an automated reminder fire at the service-matched interval with a one-tap booking link. It turns an open-ended goodbye into an easy rebook a few weeks later. 40-60 words."
+        },
+        {
+          "q": "Does asking to rebook feel too pushy?",
+          "answerHint": "Reframe it as saving the client their preferred slot. Clients who love your work want to be asked, and a low-pressure offer with an easy out rarely feels like a sell. 40-60 words."
+        },
+        {
+          "q": "Can clients rebook themselves without calling?",
+          "answerHint": "Yes. An online booking link in the reminder, confirmation, and Instagram bio lets clients lock their next slot anytime, which lifts rebooking rates. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/booking/recurring/",
+        "/platform/booking/online/",
+        "/platform/tools/notifications/",
+        "/features/client/reminders/",
+        "/guides/client-retention-strategies/",
+        "/for-lash-artists/"
+      ],
+      "recommendedFeaturedTemplate": "velvettheory",
+      "recommendedRelatedIndustry": "lash-artists",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "lash-artists",
+      "status": "pending"
+    },
+    {
+      "slug": "content-ideas-for-beauty-businesses",
+      "url": "/guides/content-ideas-for-beauty-businesses/",
+      "type": "guide",
+      "cluster": "marketing",
+      "metaTitle": "Content Ideas for Beauty Businesses: A Year of Posts | BookReady",
+      "metaDescription": "Never stare at a blank caption again. A category-by-category bank of post ideas plus a simple weekly plan a solo beauty pro can actually keep.",
+      "h1": "Content ideas for beauty businesses",
+      "italicTagline": "A bank of ideas, a weekly plan you can keep, and one shoot that becomes a week of posts.",
+      "primaryKeyword": "content ideas for beauty businesses",
+      "secondaryKeywords": [
+        "beauty business social media content",
+        "salon content ideas",
+        "instagram post ideas for estheticians",
+        "what to post beauty business",
+        "social media ideas for hair stylists"
+      ],
+      "estVolume": "400-900",
+      "intent": "TOFU",
+      "intro": "200-240 word intro. Name the real problem: solo beauty pros do not have a content problem, they have a time and decision problem. They run out of ideas at 9pm, post nothing, and the account goes quiet for two weeks. BookReady opinion: you do not need to be creative on demand, you need a bank of ideas and a repeatable plan so posting becomes a habit instead of a scramble. Preview the guide: six categories of post ideas with concrete examples, a one-page weekly plan a solo pro can keep, how to batch a week of content in one shoot, and how to repurpose a single session across formats. Note that BookReady's content maker helps plan and caption so the ideas turn into actual posts. Set expectation that this is a practical toolkit, not inspiration fluff. Warm, encouraging, but concrete. Link /for-solo-pros/ in the first 200 words.",
+      "sections": [
+        {
+          "kicker": "The bank",
+          "title": "Six categories that cover everything you'll ever post",
+          "directives": "Establish the framework: every good beauty post fits one of six buckets, so you never start from a blank page. List them with a one-line purpose each: (1) before-and-after (proof), (2) education (authority), (3) behind-the-scenes (relationship), (4) client features (social proof), (5) promos and offers (revenue), (6) FAQs (objection-handling). Explain that rotating these six keeps a feed varied without forcing creativity. Tell the reader the next sections give concrete prompts per category. Mention you can keep this rotation organized inside the BookReady content maker. Link /platform/tools/marketing/. 200-240 words."
+        },
+        {
+          "kicker": "Before-after",
+          "title": "Before-and-after ideas that do the heavy lifting",
+          "directives": "Give 8-10 concrete before-after prompts: a full color transformation, a brow shape reveal, a lash set from bare to full, a nail redesign, a same-day glow-up split screen, a 'six weeks later' retention shot, a healed-vs-fresh comparison, a messy-to-polished process reel. For each, note the angle (caption names the service so people can book it). Stress good lighting and a clean before shot because the contrast is the whole point. Recommend ending each with a call to book via the bio link. Cross-link /guides/instagram-marketing-for-salons/. 200-240 words."
+        },
+        {
+          "kicker": "Education",
+          "title": "Education posts that make you the obvious expert",
+          "directives": "Provide 8-10 education prompts that position the pro as the authority: how to make a color last longer, how to prep skin before a facial, the difference between two services clients confuse, aftercare in three steps, what a service actually includes, a myth you want to bust, how to know which service is right for you. Argue education posts build trust that converts later even if they do not book today. Note that turning a common client question into a post does double duty as an FAQ. Link /for-solo-pros/. 200-240 words."
+        },
+        {
+          "kicker": "BTS + clients",
+          "title": "Behind-the-scenes and client features that build relationship",
+          "directives": "Cover two categories together. Behind-the-scenes prompts: your morning setup, restocking, a day-in-the-life reel, your music or candle of choice, a blooper. These humanize the brand and earn loyalty. Client-feature prompts: a happy regular (with permission), a first-timer's reaction, a quote-style testimonial over a result photo, a milestone (100th client). Explain that real reviews make the strongest client features and you can collect them through BookReady so you always have fresh material. Caution to always get client permission before posting faces. Link /platform/tools/reviews/. 200-240 words."
+        },
+        {
+          "kicker": "Promos + FAQ",
+          "title": "Promo and FAQ posts that drive the booking action",
+          "directives": "Cover the two revenue-and-objection categories. Promo prompts: a slow-day offer, a first-visit deal, a seasonal package, a referral reward, a last-minute opening. Stress promos should be occasional so they keep their punch, and that BookReady coupons and announcements make them easy to run and redeem. FAQ prompts: do you take walk-ins, how far ahead to book, what to do before an appointment, your cancellation policy, how deposits work. Explain FAQ posts quietly remove the reasons people hesitate. Link /platform/tools/coupons/ and cross-link /guides/salon-promotion-ideas/. 220-260 words."
+        },
+        {
+          "kicker": "The plan",
+          "title": "A weekly content plan a solo pro can actually keep",
+          "directives": "Give a concrete, simple weekly template that maps to the six categories: three posts a week. Example: Monday a before-after, Wednesday an education or FAQ post, Friday a behind-the-scenes or client feature, with a promo slotted in maybe once every two weeks. Stress that the plan is deliberately small so it survives a packed week. Recommend picking fixed posting days so it becomes a routine, not a decision. Mention scheduling captions ahead inside BookReady so the week is done before it starts. Cross-link /guides/instagram-marketing-for-salons/. 200-240 words."
+        },
+        {
+          "kicker": "Batch",
+          "title": "Batch one shoot into a whole week of content",
+          "directives": "Teach the batching workflow that makes the plan sustainable. In one focused session (30-45 minutes), capture: a before-after of one client, a short process reel, two or three detail shots, and a quick talking-to-camera clip. That single session becomes Monday's reel, Wednesday's carousel, and Friday's Story. Give practical tips: shoot in consistent light, keep a phone tripod at the station, capture more than you need. Argue batching is the difference between posting for a year and quitting in three weeks. Mention organizing the batch and captions in the BookReady content maker. Link /platform/tools/marketing/. 200-240 words."
+        },
+        {
+          "kicker": "Repurpose",
+          "title": "Repurpose one piece of content five ways",
+          "directives": "Show how to stretch a single asset so the bank never runs dry. One before-after photo becomes: a grid post, a Story with a poll, a Reel cover, a carousel with the process steps, and a testimonial graphic when the client reviews you. Explain the principle that repurposing is not lazy, it is how busy pros stay consistent. Note that cross-posting the same result to your booking-site gallery keeps proof in front of people at decision time. Link /platform/website/gallery/. 180-220 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What should I post if I have no new client photos?",
+          "answerHint": "Lean on education and FAQ posts. A how-to or a common-question answer needs no fresh client shoot and still builds trust. 30-50 words."
+        },
+        {
+          "q": "How many times a week should a beauty business post?",
+          "answerHint": "Three feed posts a week is a realistic, effective floor for a solo pro, plus Stories when you're working. Consistency beats volume. 30-50 words."
+        },
+        {
+          "q": "How do I come up with captions every time?",
+          "answerHint": "Match each post to one of six categories and write to its purpose. The BookReady content maker helps plan and draft captions so you're not starting blank. 40-60 words."
+        },
+        {
+          "q": "Is it okay to repost the same client transformation?",
+          "answerHint": "Yes, repurposed into different formats. One before-after can become a Reel, a carousel, a Story, and a testimonial graphic. Repurposing is how busy pros stay consistent. 40-60 words."
+        },
+        {
+          "q": "Do I need fancy equipment to make good content?",
+          "answerHint": "No. A phone, consistent lighting, and a small tripod at your station are enough. The transformation matters more than the gear. 30-50 words."
+        },
+        {
+          "q": "How do I get client photos to post?",
+          "answerHint": "Ask at checkout and always get permission. Reviews collected through BookReady give you a steady stream of feature material with consent built in. 30-50 words."
+        },
+        {
+          "q": "How far ahead should I plan content?",
+          "answerHint": "A week at a time is plenty for a solo pro. Batch one shoot, schedule three posts, repeat. Planning further out usually goes stale. 30-50 words."
+        },
+        {
+          "q": "How do I promote an offer without looking spammy?",
+          "answerHint": "Keep promos occasional so they keep their punch, and tie them to a real reason (slow day, seasonal package). Run them with BookReady coupons and announcements. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/marketing/",
+        "/platform/tools/coupons/",
+        "/platform/website/gallery/",
+        "/guides/instagram-marketing-for-salons/",
+        "/guides/salon-promotion-ideas/",
+        "/for-solo-pros/"
+      ],
+      "recommendedFeaturedTemplate": "clarity",
+      "recommendedRelatedIndustry": "solo-pros",
+      "ctaPlan": "Solo",
+      "ctaIndustry": "solo-pros",
+      "status": "pending"
+    },
+    {
+      "slug": "facial-pricing-guide",
+      "url": "/guides/facial-pricing-guide/",
+      "type": "guide",
+      "cluster": "pricing",
+      "metaTitle": "Facial Pricing Guide for Estheticians (2026) | BookReady",
+      "metaDescription": "How to price facials in 2026: real ranges by service, the cost-plus math behind your menu, add-on upcharges, deposits, and how to put it all on a booking page.",
+      "h1": "How to price facials, the right way",
+      "italicTagline": "Real 2026 ranges, the math behind them, and the upcharges that hold your margin.",
+      "primaryKeyword": "facial pricing guide",
+      "secondaryKeywords": [
+        "how much to charge for a facial",
+        "facial prices",
+        "esthetician pricing",
+        "facial service pricing",
+        "how to price facials"
+      ],
+      "estVolume": "200-500",
+      "intent": "MOFU",
+      "intro": "200-240 word intro for estheticians and new spa owners building or refreshing a facial menu. Name the tension: most estheticians price by glancing at the spa down the street, then quietly resent the menu six months later when the room rent, product, and time do not add up. The BookReady opinion stated early: price from cost plus time plus skill, not from your competitor's sign, and let add-ons carry the margin a base facial cannot. Promise a real toolkit: 2026 ranges by facial type, the cost-plus math to set your own number, the add-ons and upcharges that actually add up, a deposit to protect long appointments, and how to turn the finished menu into a live booking page. Note the ranges are useful on any platform, then show how BookReady turns each menu line into a bookable service with its own price and deposit. Link /for-estheticians/ in the first 200 words. No em-dashes, practical, warm, decisive.",
+      "sections": [
+        {
+          "kicker": "The ranges",
+          "title": "What facials actually cost in 2026, by type",
+          "directives": "Give real 2026 ranges by facial type and market tier (budget, mid, premium): express/30-min facial ($45-75), classic/signature facial ($75-130), deep-cleansing or acne facial ($90-150), chemical peel ($100-200), microdermabrasion ($100-175), dermaplaning ($75-150), hydrafacial-style treatment ($150-300), LED add-on session. Present as a clean tiered list or table. Explain that the spread is mostly market and product cost, not skill alone. 220-260 words including the ranges."
+        },
+        {
+          "kicker": "The math",
+          "title": "The cost-plus math behind every price",
+          "directives": "Teach the formula, do not just assert numbers. Walk through cost-plus: product cost per treatment plus room/booth cost for the time slot plus your hourly target, then a margin on top. Worked example: a 60-minute facial with $12 product, $15 room cost for the hour, a $60/hr labor target lands near $110-130 retail at a healthy margin. Make the point that pricing by time means a long facial must cost more than two quick ones in the same window. 240-280 words."
+        },
+        {
+          "kicker": "Upcharges",
+          "title": "Add-ons and upcharges that hold your margin",
+          "directives": "List the profitable add-ons and how to price them as line items rather than freebies: LED therapy ($20-40), dermaplaning add-on ($25-45), extractions beyond the base ($15-30), eye or lip treatment ($15-25), high-frequency, peel upgrade, and retail product attach at checkout. Make the case that the base facial often runs near break-even and the add-ons are where the real margin lives, so they belong on the menu, not given away. 200-240 words."
+        },
+        {
+          "kicker": "Packages",
+          "title": "Series and memberships: pricing repeat skin work",
+          "directives": "Skin results need repeat visits, so price for the series. Recommend a 6-treatment peel or acne series at a 10-15% discount over single sessions to lock commitment, and a simple monthly facial membership (one facial plus a retail credit) to smooth revenue. Explain the logic: a small discount in exchange for prepaid, predictable bookings beats chasing one-off appointments. Link /platform/tools/payments/. 200-240 words."
+        },
+        {
+          "kicker": "Deposits",
+          "title": "Put a deposit on the long ones",
+          "directives": "Make the deposit case for estheticians specifically. Facials run 45-90 minutes and the room is reserved and products pre-set, so a no-show costs real money. Recommend a 30% deposit on standard facials and peels, 50% on multi-hour or series-launch appointments, and show it clearly on the menu so it never surprises a client. Cross-link the deeper deposit guidance. Link /platform/tools/payments/ and /guides/deposit-best-practices/. 180-220 words."
+        },
+        {
+          "kicker": "Raising prices",
+          "title": "How to raise your facial prices without losing clients",
+          "directives": "Practical and specific. Give notice (a few weeks), raise in small steps (5-10% at a time, not 30% overnight), and lead with the value (your training, sanitation, product quality, results), not an apology. Note that the clients who leave over a fair, well-communicated increase were usually the lowest-margin ones anyway. Most regulars stay. 180-220 words."
+        },
+        {
+          "kicker": "Where it lives",
+          "title": "Your price menu belongs on your booking page",
+          "directives": "Make the case that a price list buried in a PDF or only in your DMs leaks bookings. The menu should live on your booking page where the price and deposit are attached to each service a client books. Cross-link the booking-website how-to for building it. Link /platform/booking/booking-forms/ and /guides/how-to-make-a-booking-website/. 160-200 words."
+        },
+        {
+          "kicker": "Go live",
+          "title": "Turn your facial menu into a booking page",
+          "directives": "Show the payoff: each menu line becomes a bookable service carrying its own price and deposit, on your own designed site. Note Opaline as a clean, spa-leaning template for estheticians. Walk the short path: add each facial and add-on as a service, set prices and deposits, connect Stripe, go live. Link /for-estheticians/ and /templates/. 160-200 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How much should an esthetician charge for a facial in 2026?",
+          "answerHint": "It depends on type and market. A classic facial commonly runs $75-130, a chemical peel $100-200, a hydrafacial-style treatment $150-300. Price from your cost, time, and skill, not the spa next door. 40-60 words."
+        },
+        {
+          "q": "How do I calculate the right price for a facial?",
+          "answerHint": "Use cost-plus: product cost plus room cost for the time slot plus your hourly labor target, then add margin. A 60-minute facial often lands near $110-130 at a healthy margin. 40-60 words."
+        },
+        {
+          "q": "Should I charge separately for add-ons like LED or dermaplaning?",
+          "answerHint": "Yes. Price them as line items ($20-45 each), not freebies. The base facial often runs near break-even, so the add-ons are where your margin lives. 40-60 words."
+        },
+        {
+          "q": "Do I need a deposit for facial appointments?",
+          "answerHint": "For longer facials and peels, yes. Facials run 45-90 minutes with the room reserved, so a no-show is costly. A 30% deposit cuts no-shows sharply. 40-60 words."
+        },
+        {
+          "q": "How should I price a facial series or membership?",
+          "answerHint": "Offer a 6-treatment series at 10-15% off single sessions, or a monthly membership with one facial plus a retail credit. Skin results need repeat visits, so price for the series. 40-60 words."
+        },
+        {
+          "q": "How do I raise my facial prices without losing clients?",
+          "answerHint": "Give a few weeks notice, raise in small 5-10% steps, and lead with the value (training, sanitation, results). Most regulars stay. 40-60 words."
+        },
+        {
+          "q": "Where should my facial price list live?",
+          "answerHint": "On your booking page, so the price and deposit are attached to each service a client books, not buried in a PDF or your DMs. 30-50 words."
+        },
+        {
+          "q": "Can BookReady show facial prices and take deposits per service?",
+          "answerHint": "Yes. Each facial and add-on carries its own price and optional deposit, charged through Stripe at booking, on your own designed site. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/for-estheticians/",
+        "/platform/tools/payments/",
+        "/pricing/",
+        "/guides/deposit-best-practices/",
+        "/guides/how-to-make-a-booking-website/",
+        "/templates/"
+      ],
+      "recommendedFeaturedTemplate": "opaline",
+      "recommendedRelatedIndustry": "estheticians",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "estheticians",
+      "status": "pending"
+    },
+    {
+      "slug": "ask-for-reviews-templates",
+      "url": "/guides/ask-for-reviews-templates/",
+      "type": "guide",
+      "cluster": "growth",
+      "metaTitle": "Ask for Reviews: Copy-Paste Templates for Salons | BookReady",
+      "metaDescription": "Copy-paste templates to ask clients for reviews: text, email, in-person script, and post-appointment message, with timing, follow-up cadence, and merge fields.",
+      "h1": "Copy-paste templates to ask clients for reviews",
+      "italicTagline": "Text, email, and in-person scripts that get the review without the cringe.",
+      "primaryKeyword": "ask for reviews templates",
+      "secondaryKeywords": [
+        "how to ask for a review template",
+        "review request message",
+        "asking for reviews text message",
+        "review request email template",
+        "ask client for google review"
+      ],
+      "estVolume": "200-500",
+      "intent": "MOFU",
+      "intro": "200-240 word intro for a nail tech, salon, or studio owner who knows they should ask for reviews but freezes on the wording. Name the friction: most owners either never ask or send something stiff and corporate that gets ignored. The fix is not motivation, it is having the exact words ready to paste. Promise a real toolkit: copy-paste templates for every channel (a short text-style message, a warmer email, an in-person script, and the post-appointment message that lands while the client is still glowing), all with [BRACKETED] personalization fields so each one reads personal. Cover the timing that makes or breaks the ask and a light follow-up cadence so you nudge once without nagging. Note the templates work on any platform, then show how BookReady's reviews feature fires a verified, owner-moderated request automatically after each visit so you stop copy-pasting entirely. Note SMS sending in BookReady is coming soon, so the text templates are for sending from your own phone for now. No em-dashes. Practical, warm, decisive.",
+      "sections": [
+        {
+          "kicker": "Rules",
+          "title": "Five rules every review request follows",
+          "directives": "Set the ground rules before the templates. (1) Time it to the glow: send within a couple hours of a great service. (2) Make it one tap: include the direct link, never 'search for us on Google'. (3) Keep it short: a wall of text kills the ask. (4) Personalize: name the client and the service so it does not read like a blast. (5) Ask once, nudge once, then stop. Explain the why behind each briefly. Link /guides/how-to-get-more-salon-reviews/. 180-220 words."
+        },
+        {
+          "kicker": "Text",
+          "title": "Text-message templates (the workhorses)",
+          "directives": "Provide 4 short copy-paste text templates in callouts with [BRACKETED] merge fields ([Client first name], [Stylist/Tech name], [Service], [Review link]). (1) Same-day post-visit ask. (2) A warmer version that references the specific service. (3) A version for a long-time regular. (4) A one-line gentle follow-up for non-responders. Keep each one to two sentences, casual and human. Note these are for sending from your own phone today, with BookReady SMS coming soon. Link /platform/tools/notifications/. 240-280 words."
+        },
+        {
+          "kicker": "Email",
+          "title": "Email templates for a warmer, longer ask",
+          "directives": "Provide 2 email templates with subject lines and [BRACKETED] fields. (1) A post-visit thank-you-plus-ask that leads with appreciation and ends with one clear link. (2) A monthly or seasonal ask to a segment of happy regulars. Slightly longer and warmer than text, still one clear call to action and one link. Note email review requests can run automatically in BookReady. Link /features/growth/email/ and /platform/tools/reviews/. 220-260 words."
+        },
+        {
+          "kicker": "In person",
+          "title": "The in-person script (say this at checkout)",
+          "directives": "Give a spoken script for the chair and the front desk, plus the mindset that makes it not awkward. Provide the core line ('If you loved it, a quick review really helps people find me, I'll text you the link right now before you go') and a couple of natural variations. Cover the follow-through: send the link while they are still standing there so it actually happens. Add a short note on training a team to make it routine at checkout. Link /guides/how-to-get-more-salon-reviews/. 200-240 words."
+        },
+        {
+          "kicker": "Timing",
+          "title": "Exactly when to send each message",
+          "directives": "Concrete timing guidance per channel. In-person ask: at checkout, every happy client. Text: same day, within one to two hours of the appointment ending, while the glow is fresh. Email: same evening or next morning for clients who prefer email, or as a batched monthly ask to regulars. Explain why same-day beats next-week (conversion drops fast as the memory fades). Note the one rule that overrides all: never send to a client who seemed unhappy, resolve it first. Link /guides/responding-to-negative-reviews/. 180-220 words."
+        },
+        {
+          "kicker": "Cadence",
+          "title": "Follow-up cadence: how to nudge without nagging",
+          "directives": "Give a clear, restrained cadence. Day 0: the first ask (in person or text). Day 3-4: one gentle follow-up if no review yet. Then stop, no third ask. Explain that a single nudge roughly recovers the people who simply forgot, while a third message reads as pestering and risks the relationship. Cover how to know who already left one so you do not re-ask them. Link /platform/tools/customers/. 180-220 words."
+        },
+        {
+          "kicker": "Personalize",
+          "title": "Using merge fields so every message reads personal",
+          "directives": "Explain the [BRACKETED] fields used throughout and how to fill them: [Client first name], [Stylist/Tech name], [Service], [Review link], [Salon name]. Make the case that the difference between a 2% and a 15% response rate is often just the name and the specific service. Show how merge fields let a templated message still feel one-to-one, and how BookReady fills these automatically when it sends the request so personalization is not manual work. Link /platform/tools/customers/ and /platform/tools/reviews/. 180-220 words."
+        },
+        {
+          "kicker": "Automate",
+          "title": "Stop copy-pasting: automate the whole sequence",
+          "directives": "Deliver the payoff. Templates are great until a busy week means you forget to send them. BookReady's reviews feature fires a verified, owner-moderated request automatically when an appointment is marked complete, with the client name and service merged in, timed to the post-visit window. You set it once and every happy client gets asked. Reiterate verified (only real completed bookings) and owner-moderated (you control what publishes), and note SMS requests are coming soon while email runs today. Best for a growing studio on Studio. Link /platform/tools/reviews/, /features/growth/reviews/ and /pricing/. 200-240 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What should a review request message say?",
+          "answerHint": "Thank the client by name, reference the specific service, and include a direct one-tap link. Keep it to one or two sentences and ask only when they are happy. 40-60 words."
+        },
+        {
+          "q": "Is it better to ask for reviews by text or email?",
+          "answerHint": "Text gets opened fast and is best for the same-day ask. Email suits a warmer, longer message or a batched ask to regulars. Use both for different moments. 40-60 words."
+        },
+        {
+          "q": "How many times should I follow up?",
+          "answerHint": "Once. Ask on day zero, send one gentle nudge around day three or four, then stop. A third message reads as nagging and risks the relationship. 40-60 words."
+        },
+        {
+          "q": "When should I send a review request?",
+          "answerHint": "Same day, within one to two hours of the appointment, while the client is still glowing. For email, that evening or the next morning works too. 40-60 words."
+        },
+        {
+          "q": "How do I personalize a review request at scale?",
+          "answerHint": "Use merge fields for the client name, stylist, and service. BookReady fills these automatically when it sends the request, so every message reads personal without manual work. 40-60 words."
+        },
+        {
+          "q": "Can BookReady send review requests for me automatically?",
+          "answerHint": "Yes. When an appointment is marked complete, BookReady sends a verified, owner-moderated review request automatically by email, with the client and service details filled in. SMS is coming soon. 40-60 words."
+        },
+        {
+          "q": "Can I text clients for reviews from BookReady?",
+          "answerHint": "SMS review requests in BookReady are coming soon. For now you can send the text templates from your own phone and run automated review requests by email. 40-60 words."
+        },
+        {
+          "q": "Should I ask every client for a review?",
+          "answerHint": "Ask every happy client, every visit. Never send a request to a client who seemed unhappy, resolve the issue first so you do not invite a public complaint. 40-60 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/reviews/",
+        "/features/growth/reviews/",
+        "/platform/tools/customers/",
+        "/guides/how-to-get-more-salon-reviews/",
+        "/guides/responding-to-negative-reviews/",
+        "/for-nail-techs/"
+      ],
+      "recommendedFeaturedTemplate": "chroma",
+      "recommendedRelatedIndustry": "nail-techs",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "nail-techs",
+      "status": "pending"
+    },
+    {
+      "slug": "win-back-lapsed-clients",
+      "url": "/guides/win-back-lapsed-clients/",
+      "type": "guide",
+      "cluster": "growth",
+      "metaTitle": "How to Win Back Lapsed Clients (Salon Guide) | BookReady",
+      "metaDescription": "Define lapsed, segment your list, and send a win-back sequence that actually returns clients. An honest take on when a discount helps and when it trains bad habits.",
+      "h1": "How to win back lapsed clients",
+      "italicTagline": "The cheapest new client is an old one who already loves your work.",
+      "primaryKeyword": "win back lapsed clients",
+      "secondaryKeywords": [
+        "win back salon clients",
+        "reactivate lapsed clients",
+        "lapsed client win back email",
+        "how to get clients to come back",
+        "salon client win back campaign"
+      ],
+      "estVolume": "200-500",
+      "intent": "MOFU",
+      "intro": "200-240 word intro for estheticians and studio owners sitting on a goldmine they ignore: the clients who came once or twice and quietly disappeared. State the case: a lapsed client already knows your work, trusts your space, and costs almost nothing to reach compared to a stranger you have to win with ads, which is why reactivation is the highest-ROI marketing most studios never run. Frame the BookReady opinion: winning back is a system, not a one-off blast. It starts with a clear definition of lapsed, then segmenting who is worth reaching and how, then a short warm message sequence, and an honest decision about discounts. Set the tone on discounts early: a discount can be the nudge that brings someone back, or it can quietly train your whole list to wait for a deal, and knowing the difference is the skill. Acknowledge that some lapsed clients are gone for good and that is fine, the goal is to recover the recoverable cheaply. Preview: defining lapsed, segmentation, the message sequence, the discount question, and measuring win-back rate. Link /for-estheticians/ in the first 200 words. Calm, honest, specific, no em-dashes.",
+      "sections": [
+        {
+          "kicker": "Define it",
+          "title": "What counts as a lapsed client",
+          "directives": "Give a concrete definition so the owner can actually act. Lapsed means no visit in 60 to 90 days, adjusted to the service interval: for a 3-week service like lash fills, 60 days is already deep lapse, for a quarterly facial client, 90 to 120 days is the line. Distinguish three states: active (within normal interval), soft lapse (one interval past due, easy to recover), and hard lapse (two or more intervals, harder). Argue that defining it turns a vague worry into a list you can work. Note BookReady analytics can surface time-since-last-visit. Link /platform/tools/analytics/. 180-220 words."
+        },
+        {
+          "kicker": "Segment",
+          "title": "Segment your lapsed list before you message",
+          "directives": "Stress that a blanket 'we miss you' to everyone wastes the channel. Segment by value and reason: (1) high-value regulars who suddenly stopped (call or personal text, these are worth real effort), (2) one-and-done clients who never rebooked (lighter touch, possibly a service-fit issue), (3) clients who moved or had a one-time need (let them go, do not over-invest). Use BookReady customer tags to build and save these segments so the sequence targets the right people. Link /platform/tools/customers/ and /features/manage/customers/. 200-240 words."
+        },
+        {
+          "kicker": "The sequence",
+          "title": "The 3-message win-back sequence",
+          "directives": "Lay out a short, warm, escalating sequence with examples in callouts: (1) the soft check-in around the lapse point ('Hi Dana, it has been about 8 weeks since your last facial, want me to get you back on the books?'), no discount, just a friendly nudge and a one-tap link, (2) the value or what's-new touch a week or two later ('We added a new dermaplaning add-on I think you would love, here is your spot'), (3) the final, optional incentive touch ('Would love to see you back, here is 15% off your next visit if you book by Friday') only for segments where it makes sense. Explain timing and why three touches beats one. Link /features/growth/winback/ and /features/growth/email/. 240-280 words including examples."
+        },
+        {
+          "kicker": "Discounts",
+          "title": "When a discount is worth it (and when it trains bad behavior)",
+          "directives": "The honest centerpiece. Make the case both ways. A win-back discount is worth it when: the client is genuinely high-value, the margin still works, and it is a one-time, deadline-bound offer that feels like a welcome-back gift. It trains bad behavior when: you discount your whole list reflexively, you do it often enough that regulars learn to lapse on purpose to trigger a deal, or the discount erodes the premium positioning your brand depends on. Give a rule of thumb: lead with value and convenience first, use a discount only on the third touch and only for clients worth recovering. Argue that a too-generous winback can cost more than the clients it recovers. 220-260 words."
+        },
+        {
+          "kicker": "Automate",
+          "title": "Set winback on autopilot so it never lapses itself",
+          "directives": "Show the payoff: doing winback by hand means it never happens consistently, so set it once and let it run. Describe BookReady's winback firing automatically when a client crosses the lapse threshold for their service, pulling the right segment and sending the sequence. Stress matching the trigger to the service interval, not a generic 90-day rule. Note you can still personally reach out to the highest-value names on top. Link /features/growth/winback/. 180-220 words."
+        },
+        {
+          "kicker": "Channel",
+          "title": "Email or message: picking the right channel",
+          "directives": "Practical channel guidance. Email suits the longer what's-new and gift-style winback touches and costs nothing to send at scale. A short personal text from the owner carries the most weight for high-value lapsed regulars and should be reserved for them. Note that SMS broadcast tools are coming soon to BookReady, and for now the strongest plays are automated email winback plus personal one-to-one texts for your top names. Do not imply SMS broadcast is live. Link /features/growth/email/. 180-220 words."
+        },
+        {
+          "kicker": "Measure",
+          "title": "Measuring your win-back rate",
+          "directives": "Define win-back rate: the share of messaged lapsed clients who book again within a window (say 30 to 45 days). Give rough benchmarks: a well-segmented sequence reactivating 10 to 20% of soft-lapse clients is a strong result, single-digit on hard-lapse is normal. Walk through tracking it in BookReady analytics, comparing segments and touches so you learn which message and which discount level actually works. Argue that even a 10% recovery on a list of a few hundred is real revenue at near-zero cost. Link /platform/tools/analytics/. 180-220 words."
+        },
+        {
+          "kicker": "Prevent",
+          "title": "The best win-back is not needing one",
+          "directives": "Close by zooming out. The cheapest lapse to recover is the one that never happens, so pair winback with the upstream habits: rebook at checkout, a service-matched reminder cadence, and catching soft lapses early before they harden. Frame winback as the safety net, not the strategy. Point readers to the retention and rebooking guides as the front line, and to pricing as where it all runs. Link /guides/client-retention-strategies/, /guides/how-to-rebook-clients/, and /pricing/. 180-220 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "When is a client officially lapsed?",
+          "answerHint": "When they pass 60 to 90 days with no visit, adjusted to the service interval. A lash client is deep-lapsed at 60 days, a quarterly facial client closer to 90 to 120. 40-60 words."
+        },
+        {
+          "q": "Why bother winning back old clients instead of finding new ones?",
+          "answerHint": "A lapsed client already knows and trusts your work, so reactivating them costs almost nothing compared to acquiring a stranger with ads. It is the highest-ROI marketing most studios skip. 40-60 words."
+        },
+        {
+          "q": "Should I offer a discount to win clients back?",
+          "answerHint": "Sometimes. A one-time, deadline-bound offer can nudge a high-value client back. But discounting your whole list reflexively trains regulars to lapse on purpose and erodes your pricing. 40-60 words."
+        },
+        {
+          "q": "How many times should I message a lapsed client?",
+          "answerHint": "Three touches works well: a friendly check-in, a what's-new or value touch, then an optional incentive. Three beats one, and more than three starts to feel like spam. 40-60 words."
+        },
+        {
+          "q": "What is a good win-back rate?",
+          "answerHint": "Reactivating 10 to 20% of soft-lapse clients with a well-segmented sequence is strong. Single-digit recovery on long-gone clients is normal and still worth it at near-zero cost. 40-60 words."
+        },
+        {
+          "q": "Should I email or text a lapsed client?",
+          "answerHint": "Use automated email for the broader sequence, and reserve a short personal text from the owner for your highest-value lapsed regulars where it carries the most weight. 40-60 words."
+        },
+        {
+          "q": "How do I avoid wasting effort on clients who will not return?",
+          "answerHint": "Segment first. Put real effort into high-value clients who suddenly stopped, use a light touch on one-and-done clients, and let movers and one-time needs go. 40-60 words."
+        },
+        {
+          "q": "Can BookReady run win-back campaigns automatically?",
+          "answerHint": "Yes. BookReady's winback can fire when a client crosses the lapse threshold for their service, pull the right segment from your customer tags, and send the sequence. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/features/growth/winback/",
+        "/features/growth/email/",
+        "/platform/tools/customers/",
+        "/platform/tools/analytics/",
+        "/guides/client-retention-strategies/",
+        "/for-estheticians/"
+      ],
+      "recommendedFeaturedTemplate": "opaline",
+      "recommendedRelatedIndustry": "estheticians",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "estheticians",
+      "status": "pending"
+    },
+    {
+      "slug": "salon-promotion-ideas",
+      "url": "/guides/salon-promotion-ideas/",
+      "type": "guide",
+      "cluster": "marketing",
+      "metaTitle": "Salon Promotion Ideas That Fill Slow Days (Without Cheapening Your Brand) | BookReady",
+      "metaDescription": "Promotions that fill empty slots without training clients to wait for a discount. Off-peak pricing, referral rewards, seasonal packages, and when discounting actually hurts.",
+      "h1": "Salon promotion ideas that fill slow days without cheapening your brand",
+      "italicTagline": "Fill the gaps, protect the price. Promote the slot, not the discount.",
+      "primaryKeyword": "salon promotion ideas",
+      "secondaryKeywords": [
+        "salon promotions",
+        "salon marketing promotions",
+        "how to fill slow days salon",
+        "salon discount ideas",
+        "salon referral program ideas"
+      ],
+      "estVolume": "400-800",
+      "intent": "MOFU",
+      "intro": "200-240 word intro. Name the tension: every salon owner wants to fill Tuesday mornings, but blunt discounting trains good clients to wait for a sale and quietly erodes the premium you have built. BookReady opinion: the goal of a promotion is to fill a specific empty slot or attract a specific new client, not to lower your prices across the board. Done right, a promo is targeted, time-bound, and invisible to your full-price regulars. Preview the guide: off-peak pricing, last-minute openings, referral rewards, seasonal packages, first-visit offers, how to actually run them with announcements and coupons, and an honest section on when discounting hurts more than it helps. Stress that brand protection is the through-line. Confident, a little protective of the reader's pricing, honest about tradeoffs. Link /for-salons/ in the first 200 words.",
+      "sections": [
+        {
+          "kicker": "Principle",
+          "title": "The rule: promote the slot, not the price",
+          "directives": "Set the governing principle before any tactics. A promotion should target idle capacity (slow days, last-minute gaps, new-client acquisition), not blanket-discount your whole menu. Explain the danger of always-on discounts: regulars learn to wait, your perceived value drops, and you compete on price instead of skill. Contrast a smart promo (20% off Tuesday 10am-2pm only) with a damaging one (20% off everything, every week). Tell the reader to keep promos targeted, time-bound, and reason-driven. Note that BookReady coupons let you scope an offer to specific services or windows so it stays surgical. Link /for-salons/ and /platform/tools/coupons/. 200-240 words."
+        },
+        {
+          "kicker": "Off-peak",
+          "title": "Off-peak pricing to fill your dead hours",
+          "directives": "Explain off-peak pricing as the cleanest promo because it protects prime-time rates. Recommend a modest discount (10-20%) only on historically slow windows (weekday mornings, early afternoons). Give the logic: a slot booked at 85% is better than an empty chair at 100%, and the discount is invisible to clients who book peak times. Show how to set it up with a BookReady coupon scoped to specific days and hours, announced on the booking site so people know the deal exists. Caution not to discount so deeply that peak clients shift to off-peak. Link /platform/tools/coupons/. 220-260 words."
+        },
+        {
+          "kicker": "Last-minute",
+          "title": "Last-minute openings that recover same-day gaps",
+          "directives": "Address the same-day cancellation hole. Recommend filling it with a small, time-sensitive offer pushed to your audience that day rather than letting the chair sit empty. Practical flow: a cancellation opens a slot, you post it to Stories and put a same-day announcement on the booking site, first to book takes it. Note the discount can be small or zero because urgency and convenience do most of the work. Mention BookReady announcements for surfacing the opening on the booking page instantly. Caution to keep this occasional so clients do not start cancelling hoping for a discounted rebook. Link /platform/website/announcement/ and cross-link /guides/reducing-no-shows/. 220-260 words."
+        },
+        {
+          "kicker": "Referrals",
+          "title": "Referral rewards: the promo that pays for itself",
+          "directives": "Make the case that referrals are the highest-quality, lowest-risk promotion because they bring clients who already trust you and they do not advertise a public discount. Recommend a two-sided reward: the referring client gets a credit or small perk, the new client gets a first-visit offer. Suggest concrete amounts (give $15, get $15, or a free add-on). Explain why referred clients retain better and haggle less. Show how to run it with a unique BookReady coupon code per referrer so it is trackable. Caution to cap or expire rewards so the program does not become an open-ended discount. Link /platform/tools/coupons/. 200-240 words."
+        },
+        {
+          "kicker": "Seasonal",
+          "title": "Seasonal packages that raise ticket size, not lower it",
+          "directives": "Reframe seasonal promos as bundles that increase average spend rather than cuts. Examples: a holiday glam package (service plus add-on plus retail), a bridal-season prep bundle, a back-to-school set, a Valentine's pamper duo. Explain that bundling adds perceived value and bumps ticket size while the per-item price holds. Recommend pricing the bundle so it feels generous but still nets more than a single service. Mention announcing seasonal packages on the booking site and promoting them through the content maker. Note these also create natural content for the calendar. Link /platform/tools/marketing/ and cross-link /guides/content-ideas-for-beauty-businesses/. 220-260 words."
+        },
+        {
+          "kicker": "First-visit",
+          "title": "First-visit offers that acquire without devaluing",
+          "directives": "Cover the new-client offer carefully because it is the one most likely to backfire. Recommend a modest first-visit incentive (a small percentage or a complimentary add-on) restricted to genuinely new clients, framed as a welcome rather than a fire sale. Stress the real goal is retention, so pair the offer with a great first experience and an easy rebook at checkout. Show scoping a BookReady coupon to first-time bookings only. Warn against deep first-visit discounts that attract deal-hunters who never return at full price. Link /platform/booking/online/. 200-240 words."
+        },
+        {
+          "kicker": "Run it",
+          "title": "How to actually run a promotion with announcements and coupons",
+          "directives": "Get practical about execution so the offer does not leak or confuse. Steps: create a scoped coupon in BookReady (set the discount, eligible services, dates, and limits), put a clear announcement on the booking site so visitors see it at the right moment, and promote it where your clients already are (Stories, the bio link). Stress setting an expiry and a usage cap so the promo ends cleanly. Note that coupons keep the discount controlled instead of you eyeballing prices at checkout. Link /platform/tools/coupons/ and /platform/website/announcement/. 200-240 words."
+        },
+        {
+          "kicker": "When not to",
+          "title": "An honest take: when discounting actually hurts you",
+          "directives": "Deliver the honest tradeoff section the brand voice requires. Be direct: if you are already booked solid, a promo is just lost revenue. If you discount constantly, you teach clients to never pay full price. If your problem is no-shows or retention, a discount does not fix it (deposits and follow-up do) and may attract worse-fit clients. Give a simple test: only run a promo when you have a specific empty window or a specific acquisition goal, and when full-price clients will not notice or resent it. Recommend fixing pricing and retention first. Cross-link /guides/client-retention-strategies/ and link /pricing/. 200-240 words."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How often should I run salon promotions?",
+          "answerHint": "Occasionally and with a reason. Constant promos train clients to wait for a sale. Run one when you have a specific empty window or acquisition goal. 40-60 words."
+        },
+        {
+          "q": "Do discounts cheapen my brand?",
+          "answerHint": "Blanket, always-on discounts do. Targeted, time-bound offers scoped to slow hours or new clients fill gaps without your regulars ever noticing a price drop. 40-60 words."
+        },
+        {
+          "q": "What's the best promotion to fill slow weekdays?",
+          "answerHint": "Off-peak pricing: a modest discount on historically slow windows only. It protects your prime-time rates and is invisible to peak-time clients. 30-50 words."
+        },
+        {
+          "q": "How do I run a referral program for my salon?",
+          "answerHint": "Use a two-sided reward (give a credit, get a credit) with a unique BookReady coupon code per referrer so it stays trackable and capped. 40-60 words."
+        },
+        {
+          "q": "Should first-visit offers be a big discount?",
+          "answerHint": "No. Keep them modest and frame them as a welcome. Deep first-visit discounts attract deal-hunters who rarely return at full price. 30-50 words."
+        },
+        {
+          "q": "How do I set up a coupon for a promotion?",
+          "answerHint": "In BookReady, create a coupon scoped to specific services, dates, and limits, then announce it on your booking site. Scoping keeps the discount surgical. 40-60 words."
+        },
+        {
+          "q": "How do I tell clients about a last-minute opening?",
+          "answerHint": "Post it to Stories and add a same-day announcement on your booking site. Urgency and convenience do most of the work, so the discount can be small or none. 40-60 words."
+        },
+        {
+          "q": "When should I not run a promotion at all?",
+          "answerHint": "When you're already booked solid, or when your real problem is no-shows or retention. A discount won't fix those; deposits and follow-up will. 30-50 words."
+        }
+      ],
+      "internalLinks": [
+        "/platform/tools/coupons/",
+        "/platform/website/announcement/",
+        "/platform/tools/marketing/",
+        "/guides/content-ideas-for-beauty-businesses/",
+        "/guides/client-retention-strategies/",
+        "/for-salons/"
+      ],
+      "recommendedFeaturedTemplate": "lushstudio",
+      "recommendedRelatedIndustry": "salons",
+      "ctaPlan": "Studio",
+      "ctaIndustry": "salons",
       "status": "pending"
     }
   ]
