@@ -32,6 +32,21 @@
   <link rel="stylesheet" href="/styles.css?v=574f5ae" />
   <link rel="stylesheet" href="/pages.css?v=574f5ae" />
 
+  <!-- Ad-landing hero: CTA row + scroll-down cue into the gallery -->
+  <style>
+    html { scroll-behavior: smooth; }
+    .br-pagehead__cta { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 30px; }
+    .br-scrolllink { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; font-size: 0.95rem; color: inherit; text-decoration: none; opacity: 0.72; }
+    .br-scrolllink:hover { opacity: 1; }
+    .br-scrolllink svg { transition: transform 0.15s; }
+    .br-scrolllink:hover svg { transform: translateY(2px); }
+    .br-scrollcue { display: inline-flex; margin-top: 32px; color: currentColor; opacity: 0.5; }
+    .br-scrollcue:hover { opacity: 0.9; }
+    .br-scrollcue svg { animation: br-scrollbounce 1.6s infinite; }
+    @keyframes br-scrollbounce { 0%,100% { transform: translateY(0); } 50% { transform: translateY(7px); } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .br-scrollcue svg { animation: none; } }
+  </style>
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -387,11 +402,21 @@
       <p class="br-pagehead__intro">
         Each template is its own little world (palette, type, mood). Pick the one that matches yours. The booking, deposits, and reminders are already wired in underneath, so you&rsquo;re adding your work, not building a site. New templates drop regularly, and a community marketplace is on the way.
       </p>
+      <div class="br-pagehead__cta">
+        <a class="br-button" href="https://app.bkrdy.me/register">Start free</a>
+        <a class="br-scrolllink" href="#templates">
+          Browse the templates
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </a>
+      </div>
+      <a class="br-scrollcue" href="#templates" aria-label="Scroll to the templates">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+      </a>
     </div>
   </section>
 
   <!-- ─── Gallery ─── -->
-  <section class="br-section">
+  <section class="br-section" id="templates" style="scroll-margin-top:84px">
     <div class="br-section__inner">
 
       
