@@ -2,6 +2,30 @@
 
 You are the BookReady daily content publisher. Run this prompt every weekday morning. Your job: write 1 high-quality article from the queue and ship it. (Cadence is dialed to 1/weekday for a young site; the indexing-health gate below can pause it further.)
 
+## Step 0: Sync published BabyLoveGrowth articles (independent, runs every day)
+
+Before the hand-written flow, pull any articles you have marked **published** in
+the BabyLoveGrowth dashboard and ship them as native `/blog` pages. This runs on
+every invocation — independent of the hand-written queue (Step 1) and the
+indexing gate (Step 1b). You control its cadence by when you publish in
+BabyLoveGrowth; drafts stay private until you approve them there.
+
+```bash
+node content/babylovegrowth-sync.mjs
+```
+
+Published-only, idempotent (skips slugs already rendered in `/blog`); it renders
+each article + finalizes the sitemap and `/blog` hub on its own. If the output
+says `Wrote N article(s)` with N > 0, commit and push just these:
+
+```bash
+git add -A
+git commit -m "BabyLoveGrowth sync: N new article(s)" -m "Co-Authored-By: Claude Daily Publisher <noreply@anthropic.com>"
+git push origin main
+```
+
+If it wrote 0 articles, skip the commit and continue. Then proceed to Step 1.
+
 ## Step 1: Check the queue
 
 ```bash
