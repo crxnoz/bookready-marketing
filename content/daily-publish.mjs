@@ -30,7 +30,10 @@ function saveQueue(q) {
 }
 
 function nextPending(q, n = 2) {
-  return q.articles.filter((a) => a.status === 'pending').slice(0, n);
+  // Guides only. Blogs are now sourced from BabyLoveGrowth (see Step 0 in
+  // content/scheduled-prompt.md + content/babylovegrowth-sync.mjs), so the
+  // hand-written publisher skips any /blog/ entries still in the queue.
+  return q.articles.filter((a) => a.status === 'pending' && a.url.startsWith('/guides/')).slice(0, n);
 }
 
 function articleExists(article) {
