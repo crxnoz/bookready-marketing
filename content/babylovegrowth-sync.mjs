@@ -12,8 +12,7 @@
 //
 // Usage:
 //   node content/babylovegrowth-sync.mjs --dry-run            # list what WOULD render, write nothing
-//   node content/babylovegrowth-sync.mjs                      # render published articles → /blog, then finalize
-//   node content/babylovegrowth-sync.mjs --include-drafts     # also render BLG drafts (published=false)
+//   node content/babylovegrowth-sync.mjs                      # render ALL new articles → /blog, then finalize (autopilot)
 //   node content/babylovegrowth-sync.mjs --force              # re-render even if the file already exists
 //   node content/babylovegrowth-sync.mjs --limit=1            # cap how many new articles to render this run
 //   node content/babylovegrowth-sync.mjs --no-finalize        # skip the sitemap/hub finalize step
@@ -46,7 +45,6 @@ const has = (f) => FLAGS.has(f);
 const limitArg = process.argv.find((a) => a.startsWith('--limit='));
 const RENDER_LIMIT = limitArg ? parseInt(limitArg.split('=')[1], 10) : Infinity;
 const DRY = has('--dry-run');
-const INCLUDE_DRAFTS = has('--include-drafts');
 const FORCE = has('--force');
 
 if (!API_KEY) {
@@ -241,9 +239,13 @@ function upsertQueue(a) {
 // ─── Main ───
 async function main() {
   const summaries = await listAllArticles();
-  const eligible = summaries.filter((a) => INCLUDE_DRAFTS || a.published === true);
+  // Autopilot: render ALL generated articles. BLG's `published` flag is tied to
+  // its CMS-push flow, which the API/pull model doesn't use (you can't set it
+  // without a push integration), so gating on it is pointless. Idempotency — the
+  // skip-if-already-in-/blog check below — is the real "don't redo work" gate.
+  const eligible = summaries;
 
-  console.log(`BabyLoveGrowth: ${summaries.length} articles (${eligible.length} ${INCLUDE_DRAFTS ? 'incl. drafts' : 'published'}).`);
+  console.log(`BabyLoveGrowth: ${summaries.length} article(s) (autopilot — no publish gate).`);
 
   const todo = eligible.filter((a) => {
     const exists = existsSync(resolve(ROOT, 'blog', a.slug, 'index.html'));
@@ -251,7 +253,7 @@ async function main() {
   });
 
   if (todo.length === 0) {
-    console.log('Nothing new to render. (Use --force to re-render, --include-drafts for BLG drafts.)');
+    console.log('Nothing new to render — all current articles are already in /blog. (Use --force to re-render.)');
     return;
   }
 
@@ -259,7 +261,7 @@ async function main() {
   console.log(`${DRY ? '[dry-run] would render' : 'Rendering'} ${batch.length} of ${todo.length} new article(s):`);
 
   if (DRY) {
-    for (const a of batch) console.log(`  · ${a.slug}  (id ${a.id}, published=${a.published})`);
+    for (const a of batch) console.log(`  · ${a.slug}  (id ${a.id})`);
     return;
   }
 

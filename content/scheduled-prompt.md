@@ -4,19 +4,19 @@ You are the BookReady daily content publisher. Run this prompt every weekday mor
 
 ## Step 0: Sync published BabyLoveGrowth articles (independent, runs every day)
 
-Before the hand-written flow, pull any articles you have marked **published** in
-the BabyLoveGrowth dashboard and ship them as native `/blog` pages. This runs on
-every invocation — independent of the hand-written queue (Step 1) and the
-indexing gate (Step 1b). You control its cadence by when you publish in
-BabyLoveGrowth; drafts stay private until you approve them there.
+Before the hand-written flow, pull every new article BabyLoveGrowth has generated
+and ship it as a native `/blog` page — **autopilot, no publish gate** (BLG's
+"publish to integration" flow is for CMS push and does not apply to the API/pull
+model we use). Runs on every invocation, independent of the hand-written queue
+(Step 1) and the indexing gate (Step 1b).
 
 ```bash
 node content/babylovegrowth-sync.mjs
 ```
 
-Published-only, idempotent (skips slugs already rendered in `/blog`); it renders
-each article + finalizes the sitemap and `/blog` hub on its own. If the output
-says `Wrote N article(s)` with N > 0, commit and push just these:
+Idempotent (articles already in `/blog` are skipped); it renders each new article
++ finalizes the sitemap and `/blog` hub on its own. If the output says
+`Wrote N article(s)` with N > 0, commit and push just these:
 
 ```bash
 git add -A
