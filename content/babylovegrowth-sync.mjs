@@ -50,8 +50,13 @@ const INCLUDE_DRAFTS = has('--include-drafts');
 const FORCE = has('--force');
 
 if (!API_KEY) {
-  console.error('Missing BABYLOVEGROWTH_API_KEY. Add it to .env (see .env.example).');
-  process.exit(1);
+  // Skip gracefully (exit 0) like the other optional content integrations
+  // (Pexels, GSC, Resend) so a missing key never breaks the daily publish
+  // run. NOTE: .env is gitignored, so the key does NOT travel with the repo —
+  // whatever environment runs the daily bot must set BABYLOVEGROWTH_API_KEY
+  // itself for the sync to do anything.
+  console.log('BabyLoveGrowth: BABYLOVEGROWTH_API_KEY not set — skipping sync.');
+  process.exit(0);
 }
 
 const esc = (s) => String(s ?? '')
