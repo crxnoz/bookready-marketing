@@ -761,6 +761,31 @@ a.br-template-card:hover .br-template-card__overlay {
   margin: 0 0 16px;
 }
 .br-prose p strong { color: var(--text); font-weight: 700; }
+
+/* Imported article prose (BabyLoveGrowth content_html): style raw
+   headings, lists, links, quotes, and media so generated articles match
+   the hand-built blog. Scoped to .br-article so feature-page .br-prose
+   (which uses its own classed markup) is untouched. */
+.br-article .br-prose h2 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(24px, 3.4vw, 32px);
+  font-weight: 400; line-height: 1.2; letter-spacing: -0.01em;
+  color: var(--text); margin: 40px 0 14px;
+}
+.br-article .br-prose h3 { font-size: clamp(19px, 2.4vw, 22px); font-weight: 700; color: var(--text); margin: 30px 0 10px; }
+.br-article .br-prose h4 { font-size: 17px; font-weight: 700; color: var(--text); margin: 22px 0 8px; }
+.br-article .br-prose ul,
+.br-article .br-prose ol { margin: 0 0 18px; padding-left: 22px; }
+.br-article .br-prose li { color: var(--muted); font-size: clamp(16px, 1.8vw, 19px); line-height: 1.6; margin: 0 0 8px; }
+.br-article .br-prose a { color: var(--text); text-decoration: underline; text-underline-offset: 2px; }
+.br-article .br-prose strong { color: var(--text); font-weight: 700; }
+.br-article .br-prose blockquote { margin: 22px 0; padding: 4px 0 4px 18px; border-left: 3px solid var(--accent); color: var(--text); font-style: italic; }
+.br-article .br-prose img { max-width: 100%; height: auto; margin: 24px 0; }
+.br-article .br-prose figure { margin: 24px 0; }
+.br-article .br-prose table { width: 100%; border-collapse: collapse; margin: 22px 0; font-size: 15px; }
+.br-article .br-prose th,
+.br-article .br-prose td { border: 1px solid rgba(18,18,18,0.12); padding: 9px 12px; text-align: left; }
+.br-article .br-prose th { font-weight: 700; color: var(--text); }
 .br-checklist {
   list-style: none;
   margin: 24px 0 0;
