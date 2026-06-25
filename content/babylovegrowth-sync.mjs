@@ -60,10 +60,19 @@ if (!API_KEY) {
 const esc = (s) => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-async function api(path) {
+async function api(path, attempt = 1) {
   const res = await fetch(`${API_BASE}${path}`, {
     headers: { 'X-API-Key': API_KEY, 'Content-Type': 'application/json' },
   });
+  // BLG rate-limits the detail endpoint (429). Respect Retry-After if present,
+  // else back off linearly; retry up to 6 times before giving up.
+  if (res.status === 429 && attempt <= 6) {
+    const ra = parseInt(res.headers.get('retry-after') || '', 10);
+    const waitMs = Number.isFinite(ra) ? ra * 1000 + 500 : Math.min(60000, 4000 * attempt);
+    console.log(`  rate-limited (429) on ${path} — waiting ${Math.round(waitMs / 1000)}s (retry ${attempt}/6)`);
+    await new Promise((r) => setTimeout(r, waitMs));
+    return api(path, attempt + 1);
+  }
   if (!res.ok) throw new Error(`BabyLoveGrowth ${path} → HTTP ${res.status}`);
   return res.json();
 }
@@ -276,6 +285,7 @@ async function main() {
     upsertQueue(full);
     written++;
     console.log(`  ✓ /blog/${full.slug}/`);
+    await new Promise((r) => setTimeout(r, 1500)); // pace requests to stay under the rate limit
   }
 
   console.log(`Wrote ${written} article(s).`);

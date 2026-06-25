@@ -3821,6 +3821,45 @@
       "ctaPlan": "Studio",
       "ctaIndustry": "salons",
       "status": "pending"
+    },
+    {
+      "slug": "beauty-studio-online-booking-setup-a-practical-guide",
+      "url": "/blog/beauty-studio-online-booking-setup-a-practical-guide/",
+      "type": "blog",
+      "status": "shipped",
+      "shippedAt": "2026-06-25",
+      "h1": "Beauty Studio Online Booking Setup: A Practical Guide",
+      "metaTitle": "Beauty Studio Online Booking Setup: A Practical Guide | BKRDY",
+      "metaDescription": "Unlock your studio's potential with a beauty studio online booking setup. Reduce no-shows and streamline client appointments effortlessly!",
+      "featuredImage": "https://csuxjmfbwmkxiegfpljm.supabase.co/storage/v1/object/public/blog-images/organization-39455/1782288151532_Beauty-studio-owner-setting-up-online-booking-system.jpeg",
+      "source": "babylovegrowth",
+      "externalId": 524289
+    },
+    {
+      "slug": "how-smart-waitlists-retain-nail-clients-that-stay",
+      "url": "/blog/how-smart-waitlists-retain-nail-clients-that-stay/",
+      "type": "blog",
+      "status": "shipped",
+      "shippedAt": "2026-06-24",
+      "h1": "How Smart Waitlists Retain Nail Clients That Stay",
+      "metaTitle": "How Smart Waitlists Retain Nail Clients That Stay | BKRDY",
+      "metaDescription": "Discover how smart waitlists retain nail clients effortlessly. Learn to automate scheduling, enhance retention, and boost your salon's success.",
+      "featuredImage": "https://csuxjmfbwmkxiegfpljm.supabase.co/storage/v1/object/public/blog-images/organization-39455/1782318756953_Nail-salon-receptionist-managing-waitlist-on-laptop.jpeg",
+      "source": "babylovegrowth",
+      "externalId": 525706
+    },
+    {
+      "slug": "pricing-transparency-in-hair-bookings-build-client-trust",
+      "url": "/blog/pricing-transparency-in-hair-bookings-build-client-trust/",
+      "type": "blog",
+      "status": "shipped",
+      "shippedAt": "2026-06-24",
+      "h1": "Pricing Transparency in Hair Bookings: Build Client Trust",
+      "metaTitle": "Pricing Transparency in Hair Bookings: Build Client Trust | BKRDY",
+      "metaDescription": "Discover the role of pricing transparency in hair bookings to build client trust. Learn how clear pricing can boost loyalty and confidence.",
+      "featuredImage": "https://csuxjmfbwmkxiegfpljm.supabase.co/storage/v1/object/public/blog-images/organization-39455/1782288204606_Salon-manager-reviewing-pricing-documents.jpeg",
+      "source": "babylovegrowth",
+      "externalId": 524286
     }
   ]
 }
