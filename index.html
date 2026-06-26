@@ -50,7 +50,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preload" as="image" href="/images/hero/new-hero-v2.webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="/images/templates/opaline-cover.jpg" fetchpriority="high" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" /></noscript>
     <link rel="stylesheet" href="styles.css" />
@@ -531,16 +531,68 @@
             30-day free trial &middot; From $12.50/mo &middot; Cancel anytime
           </p>
         </div>
-        <div class="br-hero__visual" aria-hidden="true">
-          <img
-            src="/images/hero/new-hero-v2.webp"
-            alt=""
-            width="1000"
-            height="1000"
-            loading="eager"
-            decoding="async"
-            fetchpriority="high"
-          />
+        <div class="br-hero__visual br-hero-carousel" data-carousel aria-roledescription="carousel" aria-label="BKRDY template showcase">
+          <div class="br-hero-carousel__deck" data-deck>
+            <a class="br-hero-carousel__slide is-active" data-slide="0" href="/templates/opaline/" aria-roledescription="slide" aria-label="Opaline">
+              <img src="/images/templates/opaline-cover.jpg" alt="Opaline template preview" width="1280" height="1600" loading="eager" decoding="async" fetchpriority="high" />
+            </a>
+            <a class="br-hero-carousel__slide" data-slide="1" href="/templates/bleeker/" aria-roledescription="slide" aria-label="Bleeker">
+              <img src="/images/templates/bleeker-cover.jpg" alt="Bleeker template preview" width="1280" height="1600" loading="lazy" decoding="async" />
+            </a>
+            <a class="br-hero-carousel__slide" data-slide="2" href="/templates/velvettheory/" aria-roledescription="slide" aria-label="Velvet Theory">
+              <img src="/images/templates/velvettheory-cover.jpg" alt="Velvet Theory template preview" width="1280" height="1600" loading="lazy" decoding="async" />
+            </a>
+            <a class="br-hero-carousel__slide" data-slide="3" href="/templates/petale/" aria-roledescription="slide" aria-label="Pétale">
+              <img src="/images/templates/petale-cover.jpg" alt="Pétale template preview" width="1280" height="1600" loading="lazy" decoding="async" />
+            </a>
+            <a class="br-hero-carousel__slide" data-slide="4" href="/templates/chroma/" aria-roledescription="slide" aria-label="Chroma">
+              <img src="/images/templates/chroma-cover.jpg" alt="Chroma template preview" width="1280" height="1600" loading="lazy" decoding="async" />
+            </a>
+            <a class="br-hero-carousel__slide" data-slide="5" href="/templates/bottega/" aria-roledescription="slide" aria-label="Bottega">
+              <img src="/images/templates/bottega-cover.jpg" alt="Bottega template preview" width="1280" height="1600" loading="lazy" decoding="async" />
+            </a>
+            <a class="br-hero-carousel__slide" data-slide="6" href="/templates/riso/" aria-roledescription="slide" aria-label="Riso">
+              <img src="/images/templates/riso-cover.jpg" alt="Riso template preview" width="1280" height="1600" loading="lazy" decoding="async" />
+            </a>
+            <a class="br-hero-carousel__slide" data-slide="7" href="/templates/lushstudio/" aria-roledescription="slide" aria-label="Lush Studio">
+              <img src="/images/templates/lushstudio-cover.jpg" alt="Lush Studio template preview" width="1280" height="1600" loading="lazy" decoding="async" />
+            </a>
+            <a class="br-hero-carousel__slide" data-slide="8" href="/templates/arcanum/" aria-roledescription="slide" aria-label="Arcanum">
+              <img src="/images/templates/arcanum-cover.jpg" alt="Arcanum template preview" width="1280" height="1600" loading="lazy" decoding="async" />
+            </a>
+            <a class="br-hero-carousel__slide" data-slide="9" href="/templates/clarity/" aria-roledescription="slide" aria-label="Clarity">
+              <img src="/images/templates/clarity-cover.jpg" alt="Clarity template preview" width="1280" height="1600" loading="lazy" decoding="async" />
+            </a>
+            <a class="br-hero-carousel__slide" data-slide="10" href="/templates/thefaderoom/" aria-roledescription="slide" aria-label="The Fade Room">
+              <img src="/images/templates/thefaderoom-cover.jpg" alt="The Fade Room template preview" width="1280" height="1600" loading="lazy" decoding="async" />
+            </a>
+            <a class="br-hero-carousel__slide" data-slide="11" href="/templates/inkhouse/" aria-roledescription="slide" aria-label="Inkhouse">
+              <img src="/images/templates/inkhouse-cover.jpg" alt="Inkhouse template preview" width="1280" height="1600" loading="lazy" decoding="async" />
+            </a>
+            <a class="br-hero-carousel__slide" data-slide="12" href="/templates/blackline/" aria-roledescription="slide" aria-label="Blackline">
+              <img src="/images/templates/blackline-cover.jpg" alt="Blackline template preview" width="1280" height="1600" loading="lazy" decoding="async" />
+            </a>
+            <button class="br-hero-carousel__nav br-hero-carousel__nav--prev" type="button" data-prev aria-label="Previous template">&lsaquo;</button>
+            <button class="br-hero-carousel__nav br-hero-carousel__nav--next" type="button" data-next aria-label="Next template">&rsaquo;</button>
+          </div>
+          <div class="br-hero-carousel__chrome">
+            <div class="br-hero-carousel__caption" data-caption aria-live="polite">Opaline</div>
+            <div class="br-hero-carousel__dots" role="tablist" aria-label="Choose template">
+              <button type="button" class="br-hero-carousel__dot is-active" data-dot="0" role="tab" aria-selected="true" aria-label="Opaline"></button>
+              <button type="button" class="br-hero-carousel__dot" data-dot="1" role="tab" aria-selected="false" aria-label="Bleeker"></button>
+              <button type="button" class="br-hero-carousel__dot" data-dot="2" role="tab" aria-selected="false" aria-label="Velvet Theory"></button>
+              <button type="button" class="br-hero-carousel__dot" data-dot="3" role="tab" aria-selected="false" aria-label="Pétale"></button>
+              <button type="button" class="br-hero-carousel__dot" data-dot="4" role="tab" aria-selected="false" aria-label="Chroma"></button>
+              <button type="button" class="br-hero-carousel__dot" data-dot="5" role="tab" aria-selected="false" aria-label="Bottega"></button>
+              <button type="button" class="br-hero-carousel__dot" data-dot="6" role="tab" aria-selected="false" aria-label="Riso"></button>
+              <button type="button" class="br-hero-carousel__dot" data-dot="7" role="tab" aria-selected="false" aria-label="Lush Studio"></button>
+              <button type="button" class="br-hero-carousel__dot" data-dot="8" role="tab" aria-selected="false" aria-label="Arcanum"></button>
+              <button type="button" class="br-hero-carousel__dot" data-dot="9" role="tab" aria-selected="false" aria-label="Clarity"></button>
+              <button type="button" class="br-hero-carousel__dot" data-dot="10" role="tab" aria-selected="false" aria-label="The Fade Room"></button>
+              <button type="button" class="br-hero-carousel__dot" data-dot="11" role="tab" aria-selected="false" aria-label="Inkhouse"></button>
+              <button type="button" class="br-hero-carousel__dot" data-dot="12" role="tab" aria-selected="false" aria-label="Blackline"></button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -2265,5 +2317,6 @@
     <!-- ─── Nav behavior (shared, vanilla JS, no deps) ─── -->
     <script src="/nav.js"></script>
     <script src="/tpl-sticky.js" defer></script>
+    <script src="/hero-carousel.js" defer></script>
   </body>
 </html>
