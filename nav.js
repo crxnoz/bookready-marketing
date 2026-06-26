@@ -14,7 +14,17 @@
   function gtag(){ dataLayer.push(arguments); }
   window.gtag = gtag;
   gtag('js', new Date());
-  gtag('config', 'G-4PJSQ6MR9F');
+  /* Cross-domain linking: ads land here (bkrdy.com) but visitors sign up on
+     app.bkrdy.me. Those are two different registrable domains, so a gclid
+     captured here is stored in a bkrdy.com-scoped cookie the app can't read,
+     and signup conversions never attribute. The linker passes the GA client_id
+     + Ads gclid across via the _gl URL param — gtag auto-decorates outbound
+     links to these domains. Keep this list identical to web GAScript.tsx. */
+  var brkLinker = { domains: ['bkrdy.com', 'bkrdy.me'] };
+  gtag('config', 'G-4PJSQ6MR9F', { linker: brkLinker });
+  /* Google Ads conversion tag (same gtag.js instance). Captures the gclid on
+     this landing domain so the linker has a click id to pass to the app. */
+  gtag('config', 'AW-18258006802', { linker: brkLinker });
 })();
 
 /* ─── Nav behavior (vanilla JS, no deps) ───
