@@ -193,7 +193,7 @@ ${hero ? `  <div class="br-article__hero">
     </figure>
   </div>
 
-` : ''}  <section class="br-section">
+` : ''}  <section class="br-section is-visible">
     <div class="br-section__inner">
       <div class="br-prose">
 ${body}
