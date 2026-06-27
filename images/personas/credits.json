@@ -1,0 +1,345 @@
+{
+  "barbers": {
+    "query": "barbershop interior",
+    "alt": "Inside a modern barbershop",
+    "chosen": 0,
+    "options": [
+      {
+        "i": 0,
+        "photographer": "Maria Orlova",
+        "photographer_url": "https://www.pexels.com/@orlovamaria",
+        "pexels_url": "https://www.pexels.com/photo/modern-hairdressing-salon-interior-design-with-leather-chairs-4969838/",
+        "alt": "Stylish cozy interior design of modern hairdressing studio or barbershop with leather chairs stylish souvenirs and framed photos on walls"
+      },
+      {
+        "i": 1,
+        "photographer": "Maria Orlova",
+        "photographer_url": "https://www.pexels.com/@orlovamaria",
+        "pexels_url": "https://www.pexels.com/photo/masters-and-customers-in-traditional-barbershop-4969874/",
+        "alt": "Professional barbers cutting hair of male clients sitting on chairs in traditional barbershop"
+      },
+      {
+        "i": 2,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/backwash-chairs-in-modern-beauty-salon-7195805/",
+        "alt": "Comfortable backwash chairs with sinks near potted plant placed in contemporary beauty salon with bright illumination and abundance of cosmetology products"
+      },
+      {
+        "i": 3,
+        "photographer": "Jose Ricardo Barraza Morachis",
+        "photographer_url": "https://www.pexels.com/@lumierestudiomx",
+        "pexels_url": "https://www.pexels.com/photo/person-standing-holding-neck-of-man-inside-room-897263/",
+        "alt": "Barber skillfully trims a man's hair in a modern barbershop setting."
+      },
+      {
+        "i": 4,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/beauty-salon-with-reception-desk-7195806/",
+        "alt": "Reception counter placed in spacious stylish beauty salon with black chairs and decorated bricks walls with paintings under bright illumination"
+      },
+      {
+        "i": 5,
+        "photographer": "Farhan Alkhaled",
+        "photographer_url": "https://www.pexels.com/@farhan-alkhaled-1332401",
+        "pexels_url": "https://www.pexels.com/photo/a-brown-and-black-barber-chair-12339159/",
+        "alt": "Stylish barbershop interior featuring a vintage barber chair and grooming tools, ideal for design inspiration."
+      }
+    ]
+  },
+  "salons": {
+    "query": "hair salon interior",
+    "alt": "A bright modern hair salon",
+    "chosen": 0,
+    "options": [
+      {
+        "i": 0,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/backwash-chairs-in-modern-beauty-salon-7195805/",
+        "alt": "Comfortable backwash chairs with sinks near potted plant placed in contemporary beauty salon with bright illumination and abundance of cosmetology products"
+      },
+      {
+        "i": 1,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/black-leather-chair-in-front-of-the-mirror-7195803/",
+        "alt": "Contemporary and sophisticated barber shop interior with stylish furniture and lighting."
+      },
+      {
+        "i": 2,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/backwash-chair-in-beauty-salon-7195799/",
+        "alt": "Black backwash chair with white sink placed in modern stylish beauty salon with various cosmetology products and bright glowing lamps"
+      },
+      {
+        "i": 3,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/backwash-chair-in-contemporary-beauty-studio-7195812/",
+        "alt": "Backwash chair with sink placed near shelves with cosmetology products and reception desk in stylish beauty salon with decorated walls"
+      },
+      {
+        "i": 4,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/backwash-chairs-in-beauty-salon-7195796/",
+        "alt": "Modern leather chairs with backwash sinks placed in modern spacious beauty salon with windows and various professional supplies under glowing lamps"
+      },
+      {
+        "i": 5,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/backwash-chairs-near-cosmetology-supplies-7195811/",
+        "alt": "Black backwash chairs with sinks placed in modern spacious beauty salon with window and arrangement of cosmetology supply on shelves"
+      }
+    ]
+  },
+  "lash-artists": {
+    "query": "eyelash extension studio",
+    "alt": "A lash extension studio",
+    "chosen": 0,
+    "options": [
+      {
+        "i": 0,
+        "photographer": "Екатерина Мясоед",
+        "photographer_url": "https://www.pexels.com/@31299941",
+        "pexels_url": "https://www.pexels.com/photo/close-up-of-woman-at-beautician-8554941/",
+        "alt": "Detailed view of a beautician applying eyelash extensions to a woman's eyes."
+      },
+      {
+        "i": 1,
+        "photographer": "Nataliya Vaitkevich",
+        "photographer_url": "https://www.pexels.com/@n-voitkevich",
+        "pexels_url": "https://www.pexels.com/photo/flowers-and-makeup-accessories-8558546/",
+        "alt": "Aesthetic makeup tools and beauty items arranged on a pink surface."
+      },
+      {
+        "i": 2,
+        "photographer": "RDNE Stock project",
+        "photographer_url": "https://www.pexels.com/@rdne",
+        "pexels_url": "https://www.pexels.com/photo/person-holding-a-set-of-false-eyelashes-7755523/",
+        "alt": "Close-up of an eyelash extension application using tweezers, featuring a beautician's hands."
+      },
+      {
+        "i": 3,
+        "photographer": "RDNE Stock project",
+        "photographer_url": "https://www.pexels.com/@rdne",
+        "pexels_url": "https://www.pexels.com/photo/close-up-shot-of-a-person-holding-a-tweezer-and-false-eyelashes-7755650/",
+        "alt": "Close-up of applying false eyelashes with tweezers during a beauty treatment."
+      },
+      {
+        "i": 4,
+        "photographer": "Nataliya Vaitkevich",
+        "photographer_url": "https://www.pexels.com/@n-voitkevich",
+        "pexels_url": "https://www.pexels.com/photo/close-up-of-eyelashes-in-tweezers-8558545/",
+        "alt": "Close-up of applying false eyelashes with tweezers over a pink background."
+      },
+      {
+        "i": 5,
+        "photographer": "Nataliya Vaitkevich",
+        "photographer_url": "https://www.pexels.com/@n-voitkevich",
+        "pexels_url": "https://www.pexels.com/photo/make-up-tools-on-a-brown-paper-8558520/",
+        "alt": "A collection of eyebrow makeup tools and cosmetics arranged on a pink surface for beauty styling."
+      }
+    ]
+  },
+  "nail-techs": {
+    "query": "nail salon manicure",
+    "alt": "A nail salon manicure station",
+    "chosen": 0,
+    "options": [
+      {
+        "i": 0,
+        "photographer": "Felix Adams",
+        "photographer_url": "https://www.pexels.com/@felix-adams-2546767",
+        "pexels_url": "https://www.pexels.com/photo/person-getting-her-nails-done-5484948/",
+        "alt": "Close-up of hands during a manicure session with detailed nail art. Perfect for beauty and lifestyle concepts."
+      },
+      {
+        "i": 1,
+        "photographer": "Gabriel Puyén",
+        "photographer_url": "https://www.pexels.com/@gabrielpuyen",
+        "pexels_url": "https://www.pexels.com/photo/a-person-applying-nail-polish-6135686/",
+        "alt": "Detailed close-up capturing a nail technician applying glossy red polish to fingernails, highlighting precision and care."
+      },
+      {
+        "i": 2,
+        "photographer": "Gabriel Puyén",
+        "photographer_url": "https://www.pexels.com/@gabrielpuyen",
+        "pexels_url": "https://www.pexels.com/photo/nail-clipping-in-beauty-salon-6135673/",
+        "alt": "Close-up of a professional giving a manicure using gloves in a salon setting."
+      },
+      {
+        "i": 3,
+        "photographer": "RDNE Stock project",
+        "photographer_url": "https://www.pexels.com/@rdne",
+        "pexels_url": "https://www.pexels.com/photo/a-woman-using-a-nail-file-while-polishing-nails-of-her-client-7755218/",
+        "alt": "Close-up of a manicurist applying polish in a stylish nail salon."
+      },
+      {
+        "i": 4,
+        "photographer": "Gabriel Puyén",
+        "photographer_url": "https://www.pexels.com/@gabrielpuyen",
+        "pexels_url": "https://www.pexels.com/photo/close-up-photo-of-manicuring-of-nails-6135684/",
+        "alt": "Detailed view of a manicure session with hands and nail tools on a table."
+      },
+      {
+        "i": 5,
+        "photographer": "Gabriel Puyén",
+        "photographer_url": "https://www.pexels.com/@gabrielpuyen",
+        "pexels_url": "https://www.pexels.com/photo/a-person-applying-nail-polish-on-a-fingernail-6135696/",
+        "alt": "Close-up of a nail technician applying red nail polish during a professional manicure session."
+      }
+    ]
+  },
+  "estheticians": {
+    "query": "facial spa treatment room",
+    "alt": "A facial treatment room",
+    "chosen": 0,
+    "options": [
+      {
+        "i": 0,
+        "photographer": "Fall Fall",
+        "photographer_url": "https://www.pexels.com/@fall-fall-516408511",
+        "pexels_url": "https://www.pexels.com/photo/woman-doing-treatment-at-a-beautician-19242408/",
+        "alt": "Patients receiving LED light therapy and facial treatment in a spa setting."
+      },
+      {
+        "i": 1,
+        "photographer": "Ivan S",
+        "photographer_url": "https://www.pexels.com/@ivan-s",
+        "pexels_url": "https://www.pexels.com/photo/a-woman-having-a-facial-treatment-5659049/",
+        "alt": "Aesthetician providing facial care treatment to a woman in a serene spa environment."
+      },
+      {
+        "i": 2,
+        "photographer": "Gustavo Fring",
+        "photographer_url": "https://www.pexels.com/@gustavo-fring",
+        "pexels_url": "https://www.pexels.com/photo/woman-getting-a-facial-treatment-3985328/",
+        "alt": "A spa therapist performs a rejuvenating facial treatment on a client in a serene indoor setting."
+      },
+      {
+        "i": 3,
+        "photographer": "Тарапата Анна",
+        "photographer_url": "https://www.pexels.com/@104274529",
+        "pexels_url": "https://www.pexels.com/photo/woman-at-beautician-25642668/",
+        "alt": "A beautician performing a facial treatment in a serene spa setting, promoting relaxation and beauty care."
+      },
+      {
+        "i": 4,
+        "photographer": "Amar  Preciado",
+        "photographer_url": "https://www.pexels.com/@amar",
+        "pexels_url": "https://www.pexels.com/photo/woman-lying-down-at-spa-20861921/",
+        "alt": "A serene spa session with facial massage, promoting relaxation and skincare."
+      },
+      {
+        "i": 5,
+        "photographer": "RDNE Stock project",
+        "photographer_url": "https://www.pexels.com/@rdne",
+        "pexels_url": "https://www.pexels.com/photo/a-woman-lying-on-the-bed-7755546/",
+        "alt": "Woman receiving a relaxing facial treatment at a spa, promoting self-care and relaxation indoors."
+      }
+    ]
+  },
+  "spas": {
+    "query": "day spa interior",
+    "alt": "A serene day spa",
+    "chosen": 0,
+    "options": [
+      {
+        "i": 0,
+        "photographer": "Tima Miroshnichenko",
+        "photographer_url": "https://www.pexels.com/@tima-miroshnichenko",
+        "pexels_url": "https://www.pexels.com/photo/white-candle-holder-on-wooden-surface-6186740/",
+        "alt": "Serene spa setting with a lit candle, ceramic holder, and plush towels for relaxation."
+      },
+      {
+        "i": 1,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/beauty-couch-in-light-salon-7195804/",
+        "alt": "White beauty couch with lamp for cosmetology procedures placed between decorated brick wall and window in stylish light salon with sunshine"
+      },
+      {
+        "i": 2,
+        "photographer": "cottonbro studio",
+        "photographer_url": "https://www.pexels.com/@cottonbro",
+        "pexels_url": "https://www.pexels.com/photo/woman-swimming-in-the-pool-7222170/",
+        "alt": "Bright indoor spa pool with lounge chairs and calm atmosphere, ideal for relaxation."
+      },
+      {
+        "i": 3,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/an-empty-wooden-sauna-7587466/",
+        "alt": "Warm indoor sauna featuring wooden benches and relaxing ambiance."
+      },
+      {
+        "i": 4,
+        "photographer": "Andrea Piacquadio",
+        "photographer_url": "https://www.pexels.com/@olly",
+        "pexels_url": "https://www.pexels.com/photo/woman-covered-with-towel-lying-on-bed-3921397/",
+        "alt": "Elegant woman in a spa towel relaxing on a gray sofa in a serene indoor setting."
+      },
+      {
+        "i": 5,
+        "photographer": "Vlada Karpovich",
+        "photographer_url": "https://www.pexels.com/@vlada-karpovich",
+        "pexels_url": "https://www.pexels.com/photo/woman-lying-on-white-bathtub-6634828/",
+        "alt": "A serene scene of a woman enjoying a glass of wine while relaxing in a modern bathtub indoors."
+      }
+    ]
+  },
+  "solo-pros": {
+    "query": "small beauty studio",
+    "alt": "A small private beauty studio",
+    "chosen": 0,
+    "options": [
+      {
+        "i": 0,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/interior-of-modern-beauty-salon-7195808/",
+        "alt": "Black chairs placed near armchairs at table in stylish beauty salon with bright illumination and shelves with various cosmetology products"
+      },
+      {
+        "i": 1,
+        "photographer": "Alec Adriano",
+        "photographer_url": "https://www.pexels.com/@alec",
+        "pexels_url": "https://www.pexels.com/photo/minimalistic-home-office-and-cleaning-essentials-36273684/",
+        "alt": "A tidy home office space featuring a wooden desk, chair, broom, and cleaning equipment."
+      },
+      {
+        "i": 2,
+        "photographer": "Rene Terp",
+        "photographer_url": "https://www.pexels.com/@reneterp",
+        "pexels_url": "https://www.pexels.com/photo/a-woman-doing-make-up-9743995/",
+        "alt": "A makeup artist skillfully applies cosmetics to a woman under a ring light in an indoor setting."
+      },
+      {
+        "i": 3,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/reception-desk-in-beauty-studio-7195809/",
+        "alt": "White reception counter with flowers placed in stylish beauty salon with doors and shelves with various cosmetology supplies at brick wall"
+      },
+      {
+        "i": 4,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/manicure-stations-and-comfortable-seat-in-beauty-treatment-room-13068380/",
+        "alt": "Sleek modern nail salon interior with stylish design and treatment station."
+      },
+      {
+        "i": 5,
+        "photographer": "Max Vakhtbovych",
+        "photographer_url": "https://www.pexels.com/@artbovich",
+        "pexels_url": "https://www.pexels.com/photo/spacious-barbershop-with-reception-counter-7195810/",
+        "alt": "Reception desk with flowers placed in spacious light beauty salon with cosmetology equipment and shelves with supplies under bright illumination"
+      }
+    ]
+  }
+}
