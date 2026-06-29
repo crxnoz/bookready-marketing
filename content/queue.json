@@ -1839,7 +1839,8 @@
       "recommendedRelatedIndustry": "lash-artists",
       "ctaPlan": "Studio",
       "ctaIndustry": "lash-artists",
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-06-29"
     },
     {
       "slug": "no-show-fee-policy",
