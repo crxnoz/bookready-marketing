@@ -3886,6 +3886,32 @@
       "featuredImage": "https://csuxjmfbwmkxiegfpljm.supabase.co/storage/v1/object/public/blog-images/organization-39455/1782556358547_Brand-designer-sketching-logo-ideas-in-home-office.jpeg",
       "source": "babylovegrowth",
       "externalId": 535683
+    },
+    {
+      "slug": "new-client-booking-flow-a-guide-for-beauty-pros",
+      "url": "/blog/new-client-booking-flow-a-guide-for-beauty-pros/",
+      "type": "blog",
+      "status": "shipped",
+      "shippedAt": "2026-06-29",
+      "h1": "New Client Booking Flow: A Guide for Beauty Pros",
+      "metaTitle": "New Client Booking Flow: A Guide for Beauty Pros | BKRDY",
+      "metaDescription": "Discover what a new client booking flow is and how it can boost your beauty business. Improve conversions and attract more clients today!",
+      "featuredImage": "https://csuxjmfbwmkxiegfpljm.supabase.co/storage/v1/object/public/blog-images/organization-39455/1782731332166_Beauty-professional-entering-new-client-booking.jpeg",
+      "source": "babylovegrowth",
+      "externalId": 542175
+    },
+    {
+      "slug": "how-refill-scheduling-works-in-a-lash-business",
+      "url": "/blog/how-refill-scheduling-works-in-a-lash-business/",
+      "type": "blog",
+      "status": "shipped",
+      "shippedAt": "2026-06-26",
+      "h1": "How Refill Scheduling Works in a Lash Business",
+      "metaTitle": "How Refill Scheduling Works in a Lash Business | BKRDY",
+      "metaDescription": "Learn how refill scheduling works in a lash business to boost retention. Discover tips for maintaining lash fullness and keeping clients happy.",
+      "featuredImage": "https://csuxjmfbwmkxiegfpljm.supabase.co/storage/v1/object/public/blog-images/organization-39455/1782477169723_Lash-artist-scheduling-refill-appointment.jpeg",
+      "source": "babylovegrowth",
+      "externalId": 531592
     }
   ]
 }
