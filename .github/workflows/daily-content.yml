@@ -1,0 +1,53 @@
+name: Daily content publish
+
+# Auto-publishes new BabyLoveGrowth articles to /blog on a schedule, then
+# commits + pushes (Hostinger auto-pulls on push -> live in ~45s). This is the
+# scheduler the content engine never had: content/babylovegrowth-sync.mjs is a
+# pure pull-render-finalize script with no trigger of its own, so until now it
+# only ran when someone invoked it by hand.
+#
+# REQUIRED: repo secret BABYLOVEGROWTH_API_KEY (Settings -> Secrets and
+# variables -> Actions). The script exits 0 / no-ops if the key is missing, so
+# a missing secret makes the run a clean no-op rather than a failure.
+#
+# Drip cap: --limit=2 publishes at most 2 new articles per run, matching the
+# young-site slow-drip philosophy (daily-publish PER_RUN=1). Raise it once
+# indexing is proven reliable.
+
+on:
+  schedule:
+    - cron: '0 13 * * *'   # daily ~09:00 ET (13:00 UTC)
+  workflow_dispatch: {}    # manual "Run workflow" button for testing / on-demand
+
+concurrency:
+  group: daily-content
+  cancel-in-progress: false
+
+permissions:
+  contents: write          # allow the job to push the rendered articles
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Sync + render new BabyLoveGrowth articles
+        env:
+          BABYLOVEGROWTH_API_KEY: ${{ secrets.BABYLOVEGROWTH_API_KEY }}
+        run: node content/babylovegrowth-sync.mjs --limit=2
+      - name: Commit + push if anything changed
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No new content this run."
+            exit 0
+          fi
+          git config user.name "bkrdy-content-bot"
+          git config user.email "content-bot@bkrdy.com"
+          git add -A
+          git commit -m "content: daily BabyLoveGrowth publish (CI autopilot)"
+          git push

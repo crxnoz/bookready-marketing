@@ -203,7 +203,7 @@ ${body}
 
   <section class="br-final-cta">
     <div class="br-final-cta__inner">
-      <p class="br-kicker br-kicker--inverse">BookReady</p>
+      <p class="br-kicker br-kicker--inverse">BKRDY</p>
       <h2 class="br-final-cta__title">A booking website that looks like your work. <span class="br-italic">Live in minutes.</span></h2>
       <p class="br-final-cta__text">Pick a template, take deposits, and let clients book on your own branded site. 30-day free trial.</p>
       <a href="https://app.bkrdy.me/register?ref=blog" class="br-button br-button--inverse">Start your 30-day trial</a>
