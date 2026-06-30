@@ -3939,6 +3939,19 @@
       "featuredImage": "https://csuxjmfbwmkxiegfpljm.supabase.co/storage/v1/object/public/blog-images/organization-39455/1782385361196_Hair-stylist-discussing-rebooking-with-client-in-salon.jpeg",
       "source": "babylovegrowth",
       "externalId": 528314
+    },
+    {
+      "slug": "automate-client-appointment-reminders-a-beauty-pro-guide",
+      "url": "/blog/automate-client-appointment-reminders-a-beauty-pro-guide/",
+      "type": "blog",
+      "status": "shipped",
+      "shippedAt": "2026-06-30",
+      "h1": "Automate Client Appointment Reminders: A Beauty Pro Guide",
+      "metaTitle": "Automate Client Appointment Reminders: A Beauty Pro Guide | BKRDY",
+      "metaDescription": "Discover how to automate client appointment reminders and reduce no-shows by up to 50%. Boost your beauty business efficiency today!",
+      "featuredImage": "https://csuxjmfbwmkxiegfpljm.supabase.co/storage/v1/object/public/blog-images/organization-39455/1782823132416_Beauty-professional-sending-appointment-reminder-on-phone.jpeg",
+      "source": "babylovegrowth",
+      "externalId": 546061
     }
   ]
 }
