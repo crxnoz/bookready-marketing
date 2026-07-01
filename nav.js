@@ -27,6 +27,95 @@
   gtag('config', 'AW-18258006802', { linker: brkLinker });
 })();
 
+/* ─── Named event firings (analytics event depth) ───
+   The GA4 config above emits automatic page_views. On top of that we fire
+   named funnel events the app-side registry (web/lib/analytics/events.ts)
+   defines as "fired from the bookready-marketing repo":
+
+     - pricing_viewed   — on /pricing/ page loads
+     - template_viewed  — on /templates/{slug}/ page loads
+     - cta_clicked      — on primary-CTA link clicks (any anchor whose href
+                          points to app.bkrdy.me/register, plus anything
+                          explicitly tagged with data-br-cta)
+
+   Payload rule (matches events.ts PII policy): only page-derived slugs
+   and button text. No visitor identifiers.
+
+   Runs after the analytics IIFE above so window.gtag is always defined
+   by the time these fire. Wrapped in try/catch — analytics can never
+   break the marketing site. */
+(function () {
+  if (typeof window === 'undefined' || !window.gtag) return;
+
+  function safeSend(name, params) {
+    try { window.gtag('event', name, params || {}); } catch (e) { /* swallow */ }
+  }
+
+  /* Pricing page view — fires on load and on any client-side path change
+     (in case a future SPA-ish nav is added). */
+  function firePageEvents() {
+    var path = (location.pathname || '/').replace(/\/+$/, '') || '/';
+    // Pricing → pricing_viewed.
+    if (path === '/pricing' || path.indexOf('/pricing/') === 0) {
+      safeSend('pricing_viewed', {});
+    }
+    // Templates detail → template_viewed with the marketing slug.
+    var tm = path.match(/^\/templates\/([a-z0-9-]+)/);
+    if (tm) {
+      safeSend('template_viewed', { template_name: tm[1] });
+    }
+  }
+  firePageEvents();
+  // No SPA today, but hook popstate so back/forward still emits. Cheap.
+  window.addEventListener('popstate', firePageEvents);
+
+  /* CTA click delegation — one document-level handler covers every CTA
+     on every page without markup changes. Triggers on:
+       (a) any anchor whose href points to a registration/trial-start URL
+           on the app (…/register, …/checkout/plan, …/checkout/trial)
+       (b) any element (or ancestor) with a data-br-cta attribute
+     The data-br-cta value is used verbatim as the "location" param when
+     present; otherwise we fall back to the current page path so you can
+     still segment "which page did the CTA fire from" in GA4. */
+  document.addEventListener('click', function (ev) {
+    var el = ev.target;
+    // Walk up to a matching anchor or [data-br-cta]. Cap the walk at 6
+    // hops so a stray click deep in an SVG never scans the whole document.
+    var hops = 0;
+    while (el && hops < 6) {
+      if (el.getAttribute) {
+        var cta = el.getAttribute('data-br-cta');
+        if (cta) {
+          var textFromDom = (el.textContent || el.getAttribute('aria-label') || '').replace(/\s+/g, ' ').trim().slice(0, 80);
+          safeSend('cta_clicked', {
+            location: cta,
+            button_text: textFromDom || cta,
+          });
+          return;
+        }
+        if (el.tagName === 'A') {
+          var href = el.getAttribute('href') || '';
+          // App CTAs — any link that starts the funnel on the app.
+          var isAppRegister =
+            href.indexOf('app.bkrdy.me/register')      !== -1 ||
+            href.indexOf('app.bkrdy.me/checkout/plan') !== -1 ||
+            href.indexOf('app.bkrdy.me/checkout/trial')!== -1;
+          if (isAppRegister) {
+            var linkText = (el.textContent || el.getAttribute('aria-label') || '').replace(/\s+/g, ' ').trim().slice(0, 80);
+            safeSend('cta_clicked', {
+              location: location.pathname || '/',
+              button_text: linkText || 'Register',
+            });
+            return;
+          }
+        }
+      }
+      el = el.parentNode;
+      hops++;
+    }
+  }, true);
+})();
+
 /* ─── Nav behavior (vanilla JS, no deps) ───
    Drives the sticky nav: mega-panel open/close (click + desktop hover),
    the mobile hamburger drawer, outside-click and Escape to close.
