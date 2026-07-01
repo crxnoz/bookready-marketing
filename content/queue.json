@@ -2061,7 +2061,8 @@
       "recommendedRelatedIndustry": "lash-artists",
       "ctaPlan": "Solo",
       "ctaIndustry": "solo-pros",
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-07-01"
     },
     {
       "slug": "best-website-builders-for-salons",
