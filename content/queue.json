@@ -1950,7 +1950,8 @@
       "recommendedRelatedIndustry": "barbers",
       "ctaPlan": "Studio",
       "ctaIndustry": "barbers",
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-07-01"
     },
     {
       "slug": "add-booking-link-to-instagram-bio",
