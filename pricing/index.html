@@ -51,9 +51,9 @@
     "description": "Booking websites for salons, barbers, lash artists, nail techs, and spas. Online booking, Stripe deposits, and unlimited appointments on every plan.",
     "brand": {"@type": "Brand", "name": "BKRDY"},
     "offers": [
+      {"@type": "Offer", "name": "Free",   "price": "0",  "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://bkrdy.com/pricing/"},
       {"@type": "Offer", "name": "Solo",   "price": "15", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://bkrdy.com/pricing/"},
-      {"@type": "Offer", "name": "Studio", "price": "29", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://bkrdy.com/pricing/"},
-      {"@type": "Offer", "name": "Salon",  "price": "99", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://bkrdy.com/pricing/"}
+      {"@type": "Offer", "name": "Studio", "price": "29", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://bkrdy.com/pricing/"}
     ]
   }
   </script>
@@ -404,7 +404,28 @@
 
       <p class="br-founder-note"><strong>Founding-member pricing.</strong> Lock in this rate for life. Early-access prices rise as we add features, but your rate stays put for as long as you&rsquo;re subscribed.</p>
 
-      <div class="br-pricing-grid" aria-label="BookReady plans">
+      <div class="br-pricing-grid" aria-label="BKRDY plans">
+
+        <article class="br-plan" data-plan="free">
+          <p class="br-plan__label">Free</p>
+          <h3>Get started</h3>
+          <div class="br-plan__price">$<span data-price-m>0</span><span>/mo</span></div>
+          <p class="br-plan__period">free forever &middot; no card, ever</p>
+
+          <p class="br-plan__sms">SMS texting &middot; coming soon</p>
+
+          <p class="br-plan__text">
+            A real, designed booking site at no cost. Online booking, Stripe deposits, and email reminders included.
+          </p>
+          <ul class="br-plan__list">
+            <li>1 staff account &middot; bkrdy.me address</li>
+            <li>Online booking + Stripe deposits</li>
+            <li style="opacity:.55;">&times; 20 appointments a week, not unlimited</li>
+            <li style="opacity:.55;">&times; 4 templates, not the full library</li>
+            <li style="opacity:.55;">&times; BKRDY badge stays on your site</li>
+          </ul>
+          <a href="https://app.bkrdy.me/register" class="br-button br-plan__button">Start free</a>
+        </article>
 
         <article class="br-plan" data-plan="solo" data-base-m="15" data-base-a="12.50">
           <p class="br-plan__label">Solo</p>
@@ -423,7 +444,7 @@
             <li>1 staff account</li>
             <li>Full template library</li>
             <li>Custom forms &amp; intake</li>
-            <li>Remove BookReady branding</li>
+            <li>Remove BKRDY branding</li>
             <li>Email marketing <span class="br-plan__soon">coming soon</span></li>
           </ul>
           <a href="https://app.bkrdy.me/register?plan=solo" class="br-button br-plan__button">Choose Solo</a>
@@ -447,48 +468,46 @@
             <li>Up to 5 staff accounts</li>
             <li>Full template library</li>
             <li>Custom forms &amp; intake</li>
-            <li>Remove BookReady branding</li>
+            <li>Remove BKRDY branding</li>
             <li>Email marketing <span class="br-plan__soon">coming soon</span></li>
           </ul>
           <a href="https://app.bkrdy.me/register?plan=studio" class="br-button br-plan__button">Choose Studio</a>
         </article>
 
-        <article class="br-plan br-plan--soon" data-plan="salon" data-base-m="99" data-base-a="79">
-          <div class="br-plan__badge br-plan__badge--soon">Coming Soon</div>
-          <p class="br-plan__label">Salon</p>
-          <h3>Full house</h3>
-          <div class="br-plan__price br-price-m">$<span data-price-m>99</span><span>/mo</span></div>
-          <div class="br-plan__price br-price-a">$<span data-price-a>79</span><span>/mo</span></div>
-          <p class="br-plan__period br-period-m" data-period-m>billed monthly</p>
-          <p class="br-plan__period br-period-a" data-period-a>billed annually ($948/yr) &middot; save $240</p>
+      </div>
 
-          <p class="br-plan__sms">SMS texting &middot; coming soon</p>
-
-          <p class="br-plan__text">
-            For multi-location salons and teams of 5 to 25. Multi-location, API access, white-label notifications, dedicated onboarding.
-          </p>
-          <ul class="br-plan__list">
+      <!-- ─── Salon: wide card, waitlist / reach-out only ─── -->
+      <article class="br-plan br-plan--soon" style="min-height:0;margin-top:28px;border:1px solid var(--border);display:block;box-shadow:0 14px 34px rgba(18,18,18,0.05);">
+        <div class="br-plan__badge br-plan__badge--soon">Coming Soon</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px 40px;align-items:start;">
+          <div>
+            <p class="br-plan__label">Salon</p>
+            <h3>Full house</h3>
+            <p class="br-plan__text" style="margin:10px 0 0;">
+              For multi-location salons and teams of 5 to 25. Reach out and we&rsquo;ll set you up personally.
+            </p>
+          </div>
+          <ul class="br-plan__list" style="margin:0;">
             <li>Up to 25 staff accounts</li>
             <li>Multi-location support</li>
-            <li>White-label notifications</li>
-            <li>API access + advanced reporting</li>
+            <li>Custom domain (yourname.com)</li>
+            <li>White-label notifications &middot; API access</li>
             <li>Dedicated onboarding + VIP support</li>
           </ul>
-
-          <div class="br-plan__waitlist" data-salon-waitlist>
+          <div class="br-plan__waitlist" data-salon-waitlist style="margin-top:0;">
             <p class="br-plan__waitlist-label">Get early access</p>
             <div class="br-plan__waitlist-form" data-waitlist-form>
               <input type="email" class="br-plan__waitlist-input" placeholder="your@email.com" aria-label="Your email" autocomplete="email" data-waitlist-email />
               <button type="button" class="br-button br-plan__button" data-waitlist-submit>Join the waitlist</button>
             </div>
             <p class="br-plan__waitlist-success" data-waitlist-success hidden>You&rsquo;re on the list. We&rsquo;ll be in touch.</p>
+            <p class="br-plan__period" style="margin-top:10px;">Prefer email? <a href="mailto:hello@bkrdy.com?subject=Salon%20plan" class="br-text-link">hello@bkrdy.com</a></p>
           </div>
-        </article>
-
-      </div>
+        </div>
+      </article>
 
       <div class="br-risk-row" aria-label="Money-back reassurances">
-        <span class="br-risk-row__item">30-day trial</span>
+        <span class="br-risk-row__item">Free to start</span>
         <span class="br-risk-row__sep">&middot;</span>
         <span class="br-risk-row__item">Cancel anytime</span>
         <span class="br-risk-row__sep">&middot;</span>
@@ -509,7 +528,7 @@
         <p class="br-kicker">On every plan</p>
         <h2 class="br-section__title">The whole product. <span class="br-italic">Not a starter tier.</span></h2>
         <p class="br-section__intro">
-          We don&rsquo;t gate the booking engine behind a higher plan. Solo gets the same designed templates, deposits, and reminders as everyone else. Bigger plans just add seats and your own domain.
+          We don&rsquo;t gate the booking engine behind a higher plan. Every paid plan gets the same designed templates, deposits, and reminders. Bigger plans just add seats, and Salon adds your own domain.
         </p>
       </div>
 
@@ -537,7 +556,7 @@
         <div class="br-feat">
           <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg></span>
           <h3>Custom domain</h3>
-          <p>Point yourname.com on Studio and Salon. Solo gets a clean bkrdy.me subdomain.</p>
+          <p>Point yourname.com on the Salon plan. Every other plan gets a clean bkrdy.me subdomain.</p>
         </div>
         <div class="br-feat">
           <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></span>
@@ -558,12 +577,12 @@
 
       <div class="br-faq">
         <details class="br-faq__item">
-          <summary>What happens after the 30-day trial?</summary>
-          <p>You pick a plan and your card is charged. If you don&rsquo;t want to continue, you can cancel from your dashboard and your site stays live for 30 days while you export your data.</p>
+          <summary>Do I need a card to start?</summary>
+          <p>No. The Free plan is $0 forever with no card required, so you can get a real booking site live today. When you pick a paid plan you start a 30-day trial with your card on file; you&rsquo;re only charged when the trial ends, and you can cancel from your dashboard before then.</p>
         </details>
         <details class="br-faq__item">
           <summary>What about transaction fees?</summary>
-          <p>BookReady doesn&rsquo;t take any. You pay Stripe&rsquo;s standard rate (2.9% + 30&cent; in the US) and that&rsquo;s it. Deposits and full payments go straight to your Stripe account.</p>
+          <p>BKRDY doesn&rsquo;t take any. You pay Stripe&rsquo;s standard rate (2.9% + 30&cent; in the US) and that&rsquo;s it. Deposits and full payments go straight to your Stripe account.</p>
         </details>
         <details class="br-faq__item">
           <summary>What&rsquo;s the difference between monthly and annual?</summary>
@@ -578,7 +597,7 @@
           <p>Any time, in both directions. Upgrades are prorated and take effect immediately. Downgrades apply at your next billing date. Your site, services, and clients stay exactly as they are.</p>
         </details>
         <details class="br-faq__item">
-          <summary>Is BookReady built for the US?</summary>
+          <summary>Is BKRDY built for the US?</summary>
           <p>Right now, yes. Payments are Stripe US and the booking flow assumes US business hours. International expansion is on the roadmap.</p>
         </details>
       </div>
@@ -607,9 +626,9 @@
         Start free. <span class="br-italic">Add a card when you&rsquo;re ready.</span>
       </h2>
       <p class="br-final-cta__text">
-        30 days to build your site and take real bookings. No card for the first 7 days. Cancel any time.
+        30 days to build your site and take real bookings. no card. Cancel any time.
       </p>
-      <a href="https://app.bkrdy.me/register" class="br-button br-button--inverse">Start your 30-day trial</a>
+      <a href="https://app.bkrdy.me/register" class="br-button br-button--inverse">Start free</a>
     </div>
   </section>
 
@@ -619,7 +638,7 @@
       <div class="br-footer__grid">
 
         <div class="br-footer__brand">
-          <p class="br-footer__mark">BookReady</p>
+          <p class="br-footer__mark">BKRDY</p>
           <p class="br-footer__tag">Designed booking websites for beauty brands.</p>
           <a class="br-footer__cta" href="https://app.bkrdy.me/register">Start free &rarr;</a>
         </div>

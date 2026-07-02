@@ -153,10 +153,10 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What happens after the 30-day trial?",
+            "name": "Do I need a card to start?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You pick a plan and your card is charged. If you don't want to continue, you can cancel from your dashboard and your site stays live for 30 days while you export your data."
+              "text": "No. The Free plan is $0 forever with no card required, so you can get a real booking site live today. When you pick a paid plan you start a 30-day trial with your card on file; you're only charged when the trial ends, and you can cancel from your dashboard before then."
             }
           },
           {
@@ -164,7 +164,7 @@
             "name": "Can I bring my own domain?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, on Studio and Salon plans. Solo gets a clean BookReady subdomain like yourname.bkrdy.me. Studio and Salon let you point a custom domain."
+              "text": "Custom domains are part of the Salon plan. Free, Solo, and Studio get a clean BKRDY subdomain like yourname.bkrdy.me."
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "What about transaction fees?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "BookReady doesn't take any. You pay Stripe's standard rate (2.9% + 30¢ in the US) and that's it. Deposits and full payments go straight to your Stripe account."
+              "text": "BKRDY doesn't take any. You pay Stripe's standard rate (2.9% + 30¢ in the US) and that's it. Deposits and full payments go straight to your Stripe account."
             }
           },
           {
@@ -193,7 +193,7 @@
           },
           {
             "@type": "Question",
-            "name": "Is BookReady built for the US?",
+            "name": "Is BKRDY built for the US?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Right now, yes. Payments are Stripe US and the booking flow assumes US business hours. International expansion is on the roadmap."
@@ -574,11 +574,11 @@
           </p>
           <div class="br-hero__actions">
             <a href="https://app.bkrdy.me/register?ref=home-hero" class="br-button"
-              >Start 30-day free trial &rarr;</a
+              >Start free &rarr;</a
             >
           </div>
           <p class="br-hero__fine">
-            30-day free trial &middot; From $12.50/mo &middot; Cancel anytime
+            Free to start, no card &middot; paid plans from $12.50/mo &middot; Cancel anytime
           </p>
         </div>
         <div class="br-hero__visual br-hero-carousel" data-carousel aria-roledescription="carousel" aria-label="BKRDY template showcase">
@@ -836,7 +836,7 @@
       </div>
     </section>
 
-    <!-- ─── Booking engine — feature tiles + CTA ─── -->
+    <!-- ─── Booking engine, feature tiles + CTA ─── -->
     <section class="br-section" id="booking">
       <div class="br-section__inner">
         <div class="br-section__head">
@@ -1258,12 +1258,12 @@
                 </div>
               </div>
 
-              <!-- Step 4: BookReady newsletter signup -->
+              <!-- Step 4: BKRDY newsletter signup -->
               <div class="br-vt__panel" data-vt-panel="4" hidden>
                 <p class="br-vt__step-label">Before you book</p>
                 <div class="br-vt__newsletter-intro">
                   <p class="br-vt__newsletter-heading">
-                    This is a BookReady demo.
+                    This is a BKRDY demo.
                   </p>
                   <p class="br-vt__newsletter-sub">
                     Get notified when new templates drop, plus an exclusive
@@ -1301,7 +1301,7 @@
                 <label class="br-vt__consent-row">
                   <span class="br-vt__checkbox" data-vt-checkbox></span>
                   <span class="br-vt__consent-text"
-                    >Send me BookReady updates. New templates, features, and
+                    >Send me BKRDY updates. New templates, features, and
                     early offers. Unsubscribe anytime.</span
                   >
                 </label>
@@ -1323,7 +1323,7 @@
                 </div>
               </div>
 
-              <!-- Step 5: Confirmed + BookReady CTA -->
+              <!-- Step 5: Confirmed + BKRDY CTA -->
               <div class="br-vt__panel" data-vt-panel="5" hidden>
                 <div class="br-vt__confirm">
                   <p class="br-vt__confirm-eyebrow">
@@ -1342,13 +1342,13 @@
                   </div>
                 </div>
                 <div class="br-vt__cta-block">
-                  <span class="br-vt__cta-kicker">Powered by BookReady</span>
+                  <span class="br-vt__cta-kicker">Powered by BKRDY</span>
                   <h3 class="br-vt__cta-heading">Want a site like this?</h3>
                   <p class="br-vt__cta-sub">
                     Your brand, your template. Live in under 20 minutes.
                   </p>
                   <a href="https://app.bkrdy.me/register" class="br-vt__cta-btn"
-                    >Start your 30-day trial &rarr;</a
+                    >Start free &rarr;</a
                   >
                 </div>
                 <button
@@ -1485,9 +1485,9 @@
             A flat monthly rate. Zero cut of your bookings.
           </h2>
           <p class="br-section__intro">
-            Online booking, Stripe deposits, and unlimited appointments come
-            standard on every plan. The plan you pick comes down to your team
-            size and whether you want your own domain.
+            Start free with no card. Online booking and Stripe deposits come
+            standard on every plan. Paid plans add unlimited appointments, all
+            13 templates, and more seats.
           </p>
         </div>
 
@@ -1514,7 +1514,33 @@
           for as long as you&rsquo;re subscribed.
         </p>
 
-        <div class="br-pricing-grid" aria-label="BookReady plans">
+        <div class="br-pricing-grid" aria-label="BKRDY plans">
+          <article class="br-plan" data-plan="free">
+            <p class="br-plan__label">Free</p>
+            <h3>Get started</h3>
+            <div class="br-plan__price">$<span data-price-m>0</span><span>/mo</span></div>
+            <p class="br-plan__period">free forever &middot; no card, ever</p>
+
+            <p class="br-plan__sms">SMS texting &middot; coming soon</p>
+
+            <p class="br-plan__text">
+              A real, designed booking site at no cost. Online booking, Stripe
+              deposits, and email reminders included.
+            </p>
+            <ul class="br-plan__list">
+              <li>1 staff account &middot; bkrdy.me address</li>
+              <li>Online booking + Stripe deposits</li>
+              <li style="opacity:.55;">&times; 20 appointments a week, not unlimited</li>
+              <li style="opacity:.55;">&times; 4 templates, not the full library</li>
+              <li style="opacity:.55;">&times; BKRDY badge stays on your site</li>
+            </ul>
+            <a
+              href="https://app.bkrdy.me/register"
+              class="br-button br-plan__button"
+              >Start free</a
+            >
+          </article>
+
           <article
             class="br-plan"
             data-plan="solo"
@@ -1546,7 +1572,7 @@
               <li>1 staff account</li>
               <li>Full template library</li>
               <li>Custom forms &amp; intake</li>
-              <li>Remove BookReady branding</li>
+              <li>Remove BKRDY branding</li>
               <li>
                 Email marketing <span class="br-plan__soon">coming soon</span>
               </li>
@@ -1590,7 +1616,7 @@
               <li>Up to 5 staff accounts</li>
               <li>Full template library</li>
               <li>Custom forms &amp; intake</li>
-              <li>Remove BookReady branding</li>
+              <li>Remove BKRDY branding</li>
               <li>
                 Email marketing <span class="br-plan__soon">coming soon</span>
               </li>
@@ -1602,43 +1628,28 @@
             >
           </article>
 
-          <article
-            class="br-plan br-plan--soon"
-            data-plan="salon"
-            data-base-m="99"
-            data-base-a="79"
-          >
-            <div class="br-plan__badge br-plan__badge--soon">Coming Soon</div>
-            <p class="br-plan__label">Salon</p>
-            <h3>Full house</h3>
-            <div class="br-plan__price br-price-m">
-              $<span data-price-m>99</span><span>/mo</span>
-            </div>
-            <div class="br-plan__price br-price-a">
-              $<span data-price-a>79</span><span>/mo</span>
-            </div>
-            <p class="br-plan__period br-period-m" data-period-m>
-              billed monthly
-            </p>
-            <p class="br-plan__period br-period-a" data-period-a>
-              billed annually ($948/yr) &middot; save $240
-            </p>
+        </div>
 
-            <p class="br-plan__sms">SMS texting &middot; coming soon</p>
-
-            <p class="br-plan__text">
-              For multi-location salons and teams of 5 to 25. Multi-location,
-              API access, white-label notifications, dedicated onboarding.
-            </p>
-            <ul class="br-plan__list">
+        <!-- ─── Salon: wide card, waitlist / reach-out only ─── -->
+        <article class="br-plan br-plan--soon" style="min-height:0;margin-top:28px;border:1px solid var(--border);display:block;box-shadow:0 14px 34px rgba(18,18,18,0.05);">
+          <div class="br-plan__badge br-plan__badge--soon">Coming Soon</div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px 40px;align-items:start;">
+            <div>
+              <p class="br-plan__label">Salon</p>
+              <h3>Full house</h3>
+              <p class="br-plan__text" style="margin:10px 0 0;">
+                For multi-location salons and teams of 5 to 25. Reach out and
+                we&rsquo;ll set you up personally.
+              </p>
+            </div>
+            <ul class="br-plan__list" style="margin:0;">
               <li>Up to 25 staff accounts</li>
               <li>Multi-location support</li>
-              <li>White-label notifications</li>
-              <li>API access + advanced reporting</li>
+              <li>Custom domain (yourname.com)</li>
+              <li>White-label notifications &middot; API access</li>
               <li>Dedicated onboarding + VIP support</li>
             </ul>
-
-            <div class="br-plan__waitlist" data-salon-waitlist>
+            <div class="br-plan__waitlist" data-salon-waitlist style="margin-top:0;">
               <p class="br-plan__waitlist-label">Get early access</p>
               <div class="br-plan__waitlist-form" data-waitlist-form>
                 <input
@@ -1660,12 +1671,13 @@
               <p class="br-plan__waitlist-success" data-waitlist-success hidden>
                 You&rsquo;re on the list. We&rsquo;ll be in touch.
               </p>
+              <p class="br-plan__period" style="margin-top:10px;">Prefer email? <a href="mailto:hello@bkrdy.com?subject=Salon%20plan" class="br-text-link">hello@bkrdy.com</a></p>
             </div>
-          </article>
-        </div>
+          </div>
+        </article>
 
         <div class="br-risk-row" aria-label="Money-back reassurances">
-          <span class="br-risk-row__item">30-day trial</span>
+          <span class="br-risk-row__item">Free to start</span>
           <span class="br-risk-row__sep">&middot;</span>
           <span class="br-risk-row__item">Cancel anytime</span>
           <span class="br-risk-row__sep">&middot;</span>
@@ -1691,7 +1703,7 @@
 
       <div
         class="br-marquee"
-        aria-label="BookReady features showcase"
+        aria-label="BKRDY features showcase"
         data-marquee
       >
         <div class="br-marquee__track" data-marquee-track>
@@ -1914,65 +1926,23 @@
       </div>
     </section>
 
-    <!-- ─── Testimonials ─── -->
+    <!-- ─── See it live (real demo sites) ─── -->
     <section class="br-section br-section--bordered">
       <div class="br-section__inner">
         <div class="br-section__head">
-          <p class="br-kicker">Early access feedback</p>
-          <h2 class="br-section__title">What our first studios told us.</h2>
+          <p class="br-kicker">See it live</p>
+          <h2 class="br-section__title">Real sites, built on BKRDY.</h2>
+          <p class="br-section__intro">
+            Every template is a working booking site, not a mockup. Open a few
+            example studios and book a slot to feel the whole flow.
+          </p>
         </div>
 
-        <div class="br-testimonials">
-          <article class="br-testimonial">
-            <p class="br-testimonial__quote">
-              &ldquo;I tried every booking platform out there. BookReady is the
-              first one that looks like mine. Not like a form someone built in
-              2015.&rdquo;
-            </p>
-            <div class="br-testimonial__author">
-              <span class="br-testimonial__avatar" aria-hidden="true">L</span>
-              <div>
-                <p class="br-testimonial__name">Lush Studio</p>
-                <p class="br-testimonial__role">
-                  Early access &middot; Brooklyn, NY
-                </p>
-              </div>
-            </div>
-          </article>
-
-          <article class="br-testimonial">
-            <p class="br-testimonial__quote">
-              &ldquo;My clients book themselves in, deposits clear instantly,
-              and I cut my no-shows in half with the reminders. Whole thing
-              took me a Saturday to set up.&rdquo;
-            </p>
-            <div class="br-testimonial__author">
-              <span class="br-testimonial__avatar" aria-hidden="true">F</span>
-              <div>
-                <p class="br-testimonial__name">The Fade Room</p>
-                <p class="br-testimonial__role">
-                  Early access &middot; Atlanta, GA
-                </p>
-              </div>
-            </div>
-          </article>
-
-          <article class="br-testimonial">
-            <p class="br-testimonial__quote">
-              &ldquo;Solo lash artist here. After switching, clients started
-              screenshotting my site to send to friends. Picked up around 30
-              regulars in the first two months.&rdquo;
-            </p>
-            <div class="br-testimonial__author">
-              <span class="br-testimonial__avatar" aria-hidden="true">C</span>
-              <div>
-                <p class="br-testimonial__name">Carrera Lash</p>
-                <p class="br-testimonial__role">
-                  Early access &middot; Queens, NY
-                </p>
-              </div>
-            </div>
-          </article>
+        <div class="br-pill-row" style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:8px;">
+          <a class="br-button br-button--ghost" href="https://lushstudio.bkrdy.me" target="_blank" rel="noopener">Lush Studio &rarr;</a>
+          <a class="br-button br-button--ghost" href="https://thefaderoom.bkrdy.me" target="_blank" rel="noopener">The Fade Room &rarr;</a>
+          <a class="br-button br-button--ghost" href="https://petale.bkrdy.me" target="_blank" rel="noopener">P&eacute;tale &rarr;</a>
+          <a class="br-button" href="/templates/">Browse all templates &rarr;</a>
         </div>
       </div>
     </section>
@@ -1985,7 +1955,7 @@
           <h2 class="br-section__title">We move you for free. Same day.</h2>
           <div
             class="br-migration__replaces"
-            aria-label="What BookReady replaces"
+            aria-label="What BKRDY replaces"
           >
             <span class="br-migration__replaces-label">Replaces</span>
             <span class="br-pill">Acuity / StyleSeat / Square</span>
@@ -2013,7 +1983,7 @@
             <span class="br-migration__num">01</span>
             <h3>Sign up + pick your template</h3>
             <p>
-              Live on a real BookReady site in under 20 minutes. Then email us
+              Live on a real BKRDY site in under 20 minutes. Then email us
               your export file.
             </p>
           </div>
@@ -2042,13 +2012,13 @@
             >Book your free migration &rarr;</a
           >
           <p class="br-migration__fine">
-            Free with any BookReady plan &middot; Usually done same day
+            Free with any BKRDY plan &middot; Usually done same day
           </p>
         </div>
       </div>
     </section>
 
-    <!-- ─── Founder note: why BookReady exists ─── -->
+    <!-- ─── Founder note: why BKRDY exists ─── -->
     <section class="br-section br-section--bordered">
       <div class="br-section__inner">
         <div class="br-founder">
@@ -2068,18 +2038,18 @@
 
             <p class="br-founder__body">
               Community starts with individuality. Show what your brand is
-              about. That&rsquo;s what BookReady is for.
+              about. That&rsquo;s what BKRDY is for.
             </p>
 
             <p class="br-founder__body">
               GlossGenius and Acuity are good tools. But ask yourself: are they
-              built for the corporate side, or the customer side? BookReady
+              built for the corporate side, or the customer side? BKRDY
               works for the customer. We&rsquo;re not a booking-system company.
               We&rsquo;re a beauty-focused company.
             </p>
 
             <p class="br-founder__closer">
-              BookReady is <strong>not</strong> for people who don&rsquo;t care
+              BKRDY is <strong>not</strong> for people who don&rsquo;t care
               about their community.
             </p>
           </div>
@@ -2097,27 +2067,29 @@
 
         <div class="br-faq">
           <details class="br-faq__item">
-            <summary>What happens after the 30-day trial?</summary>
+            <summary>Do I need a card to start?</summary>
             <p>
-              You pick a plan and your card is charged. If you don&rsquo;t want
-              to continue, you can cancel from your dashboard and your site
-              stays live for 30 days while you export your data.
+              No. The Free plan is $0 forever with no card required, so you can
+              get a real booking site live today. When you pick a paid plan you
+              start a 30-day trial with your card on file. You&rsquo;re only
+              charged when the trial ends, and you can cancel from your dashboard
+              before then.
             </p>
           </details>
 
           <details class="br-faq__item">
             <summary>Can I bring my own domain?</summary>
             <p>
-              Yes, on Studio and Salon plans. Solo gets a clean BookReady
-              subdomain like <em>yourname.bkrdy.me</em>. Studio and Salon let
-              you point a custom domain.
+              Custom domains are part of the Salon plan. Free, Solo, and
+              Studio get a clean BKRDY subdomain like
+              <em>yourname.bkrdy.me</em>.
             </p>
           </details>
 
           <details class="br-faq__item">
             <summary>What about transaction fees?</summary>
             <p>
-              BookReady doesn&rsquo;t take any. You pay Stripe&rsquo;s standard
+              BKRDY doesn&rsquo;t take any. You pay Stripe&rsquo;s standard
               rate (2.9% + 30&cent; in the US) and that&rsquo;s it. Deposits and
               full payments go straight to your Stripe account.
             </p>
@@ -2142,7 +2114,7 @@
           </details>
 
           <details class="br-faq__item">
-            <summary>Is BookReady built for the US?</summary>
+            <summary>Is BKRDY built for the US?</summary>
             <p>
               Right now, yes. Payments are Stripe US and the booking flow
               assumes US business hours. International expansion is on the
@@ -2163,7 +2135,7 @@
         </h2>
         <p class="br-final-cta__text">
           Browse the library, click the one that fits your room, and your site
-          is wired up before you finish your coffee. 30-day free trial,
+          is wired up before you finish your coffee. Free to start, no card,
           cancel anytime.
         </p>
         <a
@@ -2180,7 +2152,7 @@
       <div class="br-footer__grid">
 
         <div class="br-footer__brand">
-          <p class="br-footer__mark">BookReady</p>
+          <p class="br-footer__mark">BKRDY</p>
           <p class="br-footer__tag">Designed booking websites for beauty brands.</p>
           <a class="br-footer__cta" href="https://app.bkrdy.me/register">Start free &rarr;</a>
         </div>
