@@ -90,6 +90,14 @@
         "offers": [
           {
             "@type": "Offer",
+            "name": "Free",
+            "price": "0",
+            "priceCurrency": "USD",
+            "description": "$0 forever, no card required. A real designed booking site with online booking, Stripe deposits, and email reminders.",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
             "name": "Solo",
             "price": "15",
             "priceCurrency": "USD",
@@ -106,9 +114,9 @@
           },
           {
             "@type": "Offer",
-            "name": "Salon",
-            "description": "Currently waitlisted; pricing TBD.",
-            "availability": "https://schema.org/PreOrder"
+            "name": "Custom Websites",
+            "description": "Fully custom website design, build, and priority onboarding on the BKRDY engine, including your own domain. Priced per project; contact sales.",
+            "availability": "https://schema.org/InStock"
           }
         ],
         "publisher": {
@@ -164,7 +172,7 @@
             "name": "Can I bring my own domain?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Custom domains are part of the Salon plan. Free, Solo, and Studio get a clean BKRDY subdomain like yourname.bkrdy.me."
+              "text": "Custom domains come with our Custom Websites service, a fully custom site built for you on the BKRDY engine. Free, Solo, and Studio plans get a clean BKRDY subdomain like yourname.bkrdy.me."
             }
           },
           {
@@ -1630,48 +1638,28 @@
 
         </div>
 
-        <!-- ─── Salon: wide card, waitlist / reach-out only ─── -->
-        <article class="br-plan br-plan--soon" style="min-height:0;margin-top:28px;border:1px solid var(--border);display:block;box-shadow:0 14px 34px rgba(18,18,18,0.05);">
-          <div class="br-plan__badge br-plan__badge--soon">Coming Soon</div>
+        <!-- ─── Custom Websites: premium custom-site + onboarding service (not a SaaS plan) ─── -->
+        <article class="br-plan" style="min-height:0;margin-top:28px;border:1px solid var(--border);display:block;box-shadow:0 14px 34px rgba(18,18,18,0.05);">
           <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px 40px;align-items:start;">
             <div>
-              <p class="br-plan__label">Salon</p>
-              <h3>Full house</h3>
+              <p class="br-plan__label">Custom Websites</p>
+              <h3>Your site, built for you.</h3>
               <p class="br-plan__text" style="margin:10px 0 0;">
-                For multi-location salons and teams of 5 to 25. Reach out and
-                we&rsquo;ll set you up personally.
+                Not another plan. A fully custom website designed and built on
+                the BKRDY engine, with onboarding handled for you from day one.
               </p>
             </div>
             <ul class="br-plan__list" style="margin:0;">
-              <li>Up to 25 staff accounts</li>
-              <li>Multi-location support</li>
-              <li>Custom domain (yourname.com)</li>
-              <li>White-label notifications &middot; API access</li>
-              <li>Dedicated onboarding + VIP support</li>
+              <li>Fully custom design, tailored to your brand</li>
+              <li>Your own domain (yourname.com)</li>
+              <li>We build it: menu, photos, policies, the lot</li>
+              <li>Priority onboarding, we set everything up</li>
+              <li>Premium support, a person who knows your site</li>
             </ul>
-            <div class="br-plan__waitlist" data-salon-waitlist style="margin-top:0;">
-              <p class="br-plan__waitlist-label">Get early access</p>
-              <div class="br-plan__waitlist-form" data-waitlist-form>
-                <input
-                  type="email"
-                  class="br-plan__waitlist-input"
-                  placeholder="your@email.com"
-                  aria-label="Your email"
-                  autocomplete="email"
-                  data-waitlist-email
-                />
-                <button
-                  type="button"
-                  class="br-button br-plan__button"
-                  data-waitlist-submit
-                >
-                  Join the waitlist
-                </button>
-              </div>
-              <p class="br-plan__waitlist-success" data-waitlist-success hidden>
-                You&rsquo;re on the list. We&rsquo;ll be in touch.
-              </p>
-              <p class="br-plan__period" style="margin-top:10px;">Prefer email? <a href="mailto:hello@bkrdy.com?subject=Salon%20plan" class="br-text-link">hello@bkrdy.com</a></p>
+            <div style="margin-top:0;">
+              <p class="br-plan__waitlist-label">Priced per project</p>
+              <a href="mailto:hello@bkrdy.com?subject=Custom%20Website" class="br-button" style="display:inline-block;text-align:center;width:100%;">Contact sales</a>
+              <p class="br-plan__period" style="margin-top:10px;">Tell us about your business and we&rsquo;ll scope it together. No public pricing.</p>
             </div>
           </div>
         </article>
@@ -2080,8 +2068,9 @@
           <details class="br-faq__item">
             <summary>Can I bring my own domain?</summary>
             <p>
-              Custom domains are part of the Salon plan. Free, Solo, and
-              Studio get a clean BKRDY subdomain like
+              Custom domains come with our Custom Websites service, a fully
+              custom site built for you on the BKRDY engine. Free, Solo, and
+              Studio plans get a clean BKRDY subdomain like
               <em>yourname.bkrdy.me</em>.
             </p>
           </details>
@@ -2224,7 +2213,7 @@
     </div>
   </footer>
 
-    <!-- ─── Pricing: billing toggle + Salon waitlist (shared). ?v bumped when pricing.js changes (assets cached 1h, not name-hashed). ─── -->
+    <!-- ─── Pricing: billing toggle (shared). ?v bumped when pricing.js changes (assets cached 1h, not name-hashed). ─── -->
     <script src="/pricing.js?v=20260616"></script>
 
     <!-- ─── Velvet Theory booking demo (shared) ─── -->
