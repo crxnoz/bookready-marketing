@@ -2394,7 +2394,8 @@
       "recommendedRelatedIndustry": "salons",
       "ctaPlan": "Studio",
       "ctaIndustry": "salons",
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-07-04"
     },
     {
       "slug": "website-vs-instagram-booking",

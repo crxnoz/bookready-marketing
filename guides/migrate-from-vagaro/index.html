@@ -1,0 +1,732 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>How to Migrate From Vagaro to BKRDY | BKRDY</title>
+  <meta name="description" content="A practical, step-by-step guide to migrating your salon, spa, or barbershop off Vagaro without losing bookings, clients, or sleep. Free same-day import." />
+  <link rel="canonical" href="https://bkrdy.com/guides/migrate-from-vagaro/" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://bkrdy.com/guides/migrate-from-vagaro/" />
+  <meta property="og:site_name" content="BKRDY" />
+  <meta property="og:title" content="How to migrate from Vagaro without losing a single booking" />
+  <meta property="og:description" content="A practical, step-by-step guide to migrating your salon, spa, or barbershop off Vagaro without losing bookings, clients, or sleep. Free same-day import." />
+  <meta property="og:image" content="https://bkrdy.com/images/templates/lushstudio-cover.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="article:published_time" content="2026-07-04" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="How to migrate from Vagaro without losing a single booking" />
+  <meta name="twitter:description" content="A practical, step-by-step guide to migrating your salon, spa, or barbershop off Vagaro without losing bookings, clients, or sleep. Free same-day import." />
+  <meta name="twitter:image" content="https://bkrdy.com/images/templates/lushstudio-cover.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" /></noscript>
+  <link rel="stylesheet" href="/styles.css?v=574f5ae" />
+  <link rel="stylesheet" href="/pages.css?v=574f5ae" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bkrdy.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://bkrdy.com/guides/"},
+      {"@type": "ListItem", "position": 3, "name": "How to migrate from Vagaro without losing a single booking", "item": "https://bkrdy.com/guides/migrate-from-vagaro/"}
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to migrate from Vagaro without losing a single booking",
+  "image": "https://bkrdy.com/images/blog/migrate-from-vagaro.webp",
+  "datePublished": "2026-07-04",
+  "dateModified": "2026-07-04",
+  "author": {
+    "@type": "Organization",
+    "name": "BKRDY",
+    "url": "https://bkrdy.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "BKRDY",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bkrdy.com/images/hero/hero.webp"
+    }
+  },
+  "description": "A practical, step-by-step guide to migrating your salon, spa, or barbershop off Vagaro without losing bookings, clients, or sleep. Free same-day import.",
+  "mainEntityOfPage": "https://bkrdy.com/guides/migrate-from-vagaro/"
+}
+  </script>
+
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does the full migration actually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most shops are functionally migrated in 24 to 48 hours. We import your client list the same day, you build your site that evening, and you soft launch to a handful of regulars the next morning. The unglamorous parts, like updating every link, trail off over a week or two."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I lose bookings during the switch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, not if you keep Vagaro live for two to four weeks during the transition. Existing recurring clients simply move to the new link at their next visit. Nothing on Vagaro breaks while both run in parallel, so there is no window where a client cannot book."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does BKRDY import my staff calendars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, on the Studio and Salon plans. Each staff member gets their own calendar, their own services, and their own Stripe payout if you split money that way. We rebuild the team structure during import so nobody has to set up their chair from scratch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens to my Vagaro reviews?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your existing reviews stay on Vagaro, since no platform can lift another platform's reviews. What we do instead is help you collect fresh reviews on Google and on your BKRDY site, which is where new clients actually look before they book."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I keep my custom domain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If you already own a domain pointed at Vagaro, we walk you through the DNS change so it points to BKRDY instead, and your clients never notice. If you do not have a domain yet, the Solo plan includes a free bkrdy.me subdomain so you still get a clean, brandable link."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to cancel Vagaro before I start BKRDY?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, and you should not. Run both in parallel during your trial. Cancel Vagaro only after you have moved your bio link, verified that new bookings are landing in BKRDY, and given your regulars a couple of weeks to adjust."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I be billed twice during the switch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Barely, if at all. BKRDY gives you 14 days free with no card required for the first 7, so you have a comfortable buffer to overlap with Vagaro at no extra cost. Most owners finish the move well inside that window."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about my Vagaro memberships and packages?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Prepaid packages and credits are supported on the BKRDY Studio plan, so multi-session bundles carry over cleanly. Full recurring memberships are on the roadmap. If memberships are core to your revenue, plan the timing around that and talk to us first."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body class="br-article">
+
+<!-- ─── Top nav with full-width mega panels ─── -->
+  <header class="br-nav" data-br-nav>
+    <div class="br-nav__inner">
+      <a class="br-nav__mark" href="/">BKRDY</a>
+      <a class="br-nav__signin-mobile" href="https://app.bkrdy.me/login">Sign in</a>
+      <button class="br-nav__hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="br-nav-menu" data-br-hamburger>
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="br-nav__menu" id="br-nav-menu" aria-label="Primary">
+        <ul class="br-nav__list" role="menubar">
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-templates" data-br-trigger>
+              Templates
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </li>
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-industries" data-br-trigger>
+              Industries
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </li>
+          <li class="br-nav__item" role="none">
+            <a class="br-nav__link" href="/how-it-works/" role="menuitem">How it works</a>
+          </li>
+          <li class="br-nav__item" role="none">
+            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-platform" data-br-trigger>
+              Platform
+              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </li>
+          <li class="br-nav__item" role="none">
+            <a class="br-nav__link" href="/pricing/" role="menuitem">Pricing</a>
+          </li>
+        </ul>
+
+        <!-- Mega-panel: Templates -->
+        <div class="br-megapanel br-megapanel--templates" id="br-mega-templates" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Browse</p>
+              <a class="br-megalink" href="/templates/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">All templates</span>
+                  <span class="br-megalink__desc">Browse the full library</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/templates/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Recently added</span>
+                  <span class="br-megalink__desc">Just shipped</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/templates/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Editor&rsquo;s picks</span>
+                  <span class="br-megalink__desc">Hand-curated</span>
+                </span>
+              </a>
+              <a class="br-megalink br-megalink--coming" role="menuitem" aria-disabled="true">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Marketplace <span class="br-megalink__tag">Soon</span></span>
+                  <span class="br-megalink__desc">Community-designed templates</span>
+                </span>
+              </a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">By mood</p>
+              <a class="br-megalink" href="/templates/thefaderoom/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Dark &amp; editorial</span>
+                  <span class="br-megalink__desc">The Fade Room</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/templates/velvettheory/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Moody &amp; luxe</span>
+                  <span class="br-megalink__desc">Velvet Theory</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/templates/lushstudio/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Soft &amp; feminine</span>
+                  <span class="br-megalink__desc">Lush Studio</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/templates/petale/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Romantic</span>
+                  <span class="br-megalink__desc">Petale</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/templates/opaline/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Quiet luxury</span>
+                  <span class="br-megalink__desc">Opaline</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/templates/blackline/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Architectural</span>
+                  <span class="br-megalink__desc">Blackline</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/templates/bottega/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Handcrafted warm</span>
+                  <span class="br-megalink__desc">Bottega</span>
+                </span>
+              </a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Featured</p>
+              <a class="br-megafeat" href="/templates/velvettheory/" role="menuitem">
+                <img class="br-megafeat__img" src="/images/templates/velvettheory-cover.jpg" alt="Velvet Theory template" loading="lazy" decoding="async" />
+                <div class="br-megafeat__copy">
+                  <span class="br-megafeat__label">Moody &middot; Editorial</span>
+                  <h3 class="br-megafeat__name">Velvet Theory</h3>
+                  <span class="br-megafeat__cta">View template &rarr;</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mega-panel: Industries -->
+        <div class="br-megapanel br-megapanel--industries" id="br-mega-industries" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">By trade</p>
+              <a class="br-megalink" href="/for-barbers/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Barbers</span>
+                  <span class="br-megalink__desc">Dark, after-hours, electric</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/for-salons/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Hair salons</span>
+                  <span class="br-megalink__desc">Per-stylist calendars + color</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/for-lash-artists/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Lash artists</span>
+                  <span class="br-megalink__desc">Luxe, jewel-toned</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/for-nail-techs/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Nail techs</span>
+                  <span class="br-megalink__desc">Add-ons, art tiers, deposits</span>
+                </span>
+              </a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">By trade</p>
+              <a class="br-megalink" href="/for-estheticians/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Estheticians</span>
+                  <span class="br-megalink__desc">Intake, series, packages</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/for-spas/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Spas &amp; wellness</span>
+                  <span class="br-megalink__desc">Quiet luxury, packages</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/for-solo-pros/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Solo pros</span>
+                  <span class="br-megalink__desc">One calendar, one link</span>
+                </span>
+              </a>
+              <a class="br-megalink br-megalink--coming" role="menuitem" aria-disabled="true">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Makeup artists <span class="br-megalink__tag">Soon</span></span>
+                  <span class="br-megalink__desc">Bridal + editorial</span>
+                </span>
+              </a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Featured</p>
+              <a class="br-megafeat" href="/for-salons/" role="menuitem">
+                <img class="br-megafeat__img" src="/images/templates/lushstudio-cover.jpg" alt="Booking websites for salons" loading="lazy" decoding="async" />
+                <div class="br-megafeat__copy">
+                  <span class="br-megafeat__label">Industry &middot; For salons</span>
+                  <h3 class="br-megafeat__name">Built for hair salons</h3>
+                  <span class="br-megafeat__cta">See salon sites &rarr;</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mega-panel: Platform -->
+        <div class="br-megapanel" id="br-mega-platform" role="menu" hidden>
+          <div class="br-megapanel__inner">
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Booking</p>
+              <a class="br-megalink" href="/platform/booking/online/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Services</span>
+                  <span class="br-megalink__desc">Online booking, 24/7</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/platform/booking/calendar/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Smart calendar</span>
+                  <span class="br-megalink__desc">Date drops & owner rules</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/platform/booking/booking-forms/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Booking forms</span>
+                  <span class="br-megalink__desc">Custom intake per service</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/platform/booking/waitlist/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Waitlist</span>
+                  <span class="br-megalink__desc">Cancellations fill themselves</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/platform/booking/after-hours/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">After hours &amp; squeeze-ins</span>
+                  <span class="br-megalink__desc">Premium slots past close</span>
+                </span>
+              </a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Manage</p>
+              <a class="br-megalink" href="/platform/tools/customers/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Customers</span>
+                  <span class="br-megalink__desc">Every client on file</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/features/manage/staff/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Staff</span>
+                  <span class="br-megalink__desc">A calendar per chair</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/platform/tools/payments/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Payments</span>
+                  <span class="br-megalink__desc">Deposits &amp; tips via Stripe</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/platform/tools/reviews/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Reviews</span>
+                  <span class="br-megalink__desc">Verified, owner-moderated</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/platform/tools/coupons/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Coupons</span>
+                  <span class="br-megalink__desc">Promo codes that work</span>
+                </span>
+              </a>
+            </div>
+            <div class="br-megapanel__col">
+              <p class="br-megapanel__kicker">Brand</p>
+              <a class="br-megalink" href="/platform/website/templates/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Website editor</span>
+                  <span class="br-megalink__desc">Templates, your colors</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/platform/website/introduction/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Introduction</span>
+                  <span class="br-megalink__desc">Customizable welcome CTA</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/platform/website/gallery/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Gallery</span>
+                  <span class="br-megalink__desc">Show your work</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/platform/website/policies/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Policies</span>
+                  <span class="br-megalink__desc">Clear expectations</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/platform/website/announcement/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Announcements</span>
+                  <span class="br-megalink__desc">Banner promos in a click</span>
+                </span>
+              </a>
+              <a class="br-megalink" href="/platform/tools/marketing/" role="menuitem">
+                <span class="br-megalink__body">
+                  <span class="br-megalink__title">Content maker</span>
+                  <span class="br-megalink__desc">Social posts in one tap</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="br-nav__actions">
+          <a class="br-nav__signin" href="https://app.bkrdy.me/login">Sign in</a>
+          <a class="br-nav__cta" href="https://app.bkrdy.me/register">Start free</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="br-crumbs" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="br-crumbs__sep" aria-hidden="true">/</span>
+    <a href="/guides/">Guides</a>
+    <span class="br-crumbs__sep" aria-hidden="true">/</span>
+    <span class="br-crumbs__current" aria-current="page">How to migrate from Vagaro without losing a single booking</span>
+  </nav>
+
+  <!-- ─── Article header ─── -->
+  <section class="br-pagehead">
+    <div class="br-pagehead__inner">
+      <p class="br-kicker">Guide &middot; 9 min read</p>
+      <h1 class="br-pagehead__title">How to migrate from Vagaro without losing a single booking. <span class="br-italic">Seven steps, one weekend, zero downtime.</span></h1>
+      <p class="br-pagehead__intro">Most owners do not leave Vagaro because they are convinced switching will break their business. Years of clients, calendars, and forms live inside one login, and the fear is that pulling the plug means a week of chaos and a pile of missed appointments. Let us settle that up front: done right, migration is invisible to your clients and takes a single weekend. Nobody shows up to a locked door, nobody gets a dead booking link, and you do not lose a name.</p>
+      <p class="br-pagehead__intro">The trick is to never flip a single switch. You run Vagaro and BKRDY side by side, move people over gently, and only cancel the old account once the new one is quietly doing all the work. This guide lays out a seven-step playbook: export your data, import it, build your site, connect payments, soft launch to a few regulars, hard switch your public links, and cancel Vagaro on your own timing. BKRDY handles the heaviest lifts, your services, hours, staff, and client list, for free, usually the same day you send the file. If you want the fuller comparison first, our <a href="/compare/vagaro-alternative/">Vagaro alternative</a> page has the side-by-side. Otherwise, start here.</p>
+    </div>
+  </section>
+
+  <div class="br-article__hero">
+    <figure>
+      <img src="/images/blog/migrate-from-vagaro.webp" alt="Hair salon interior" width="1536" height="1024" loading="eager" fetchpriority="high" decoding="async" />
+    </figure>
+  </div>
+
+
+  <!-- ─── Before you start ─── -->
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Before you start</p>
+        <h2 class="br-section__title">What to do the week before you migrate.</h2>
+        <p class="br-section__intro">Spend twenty minutes this week and the actual move becomes trivial. The goal is simple: capture everything Vagaro will stop showing you the moment your subscription lapses, because that access does not come back.</p>
+        <p class="br-section__intro">Work through five quick tasks. First, screenshot your full Vagaro service menu, your hours, and your pricing, so you have a clean reference to rebuild from. Second, note any custom forms or intake questions you use, the health histories, patch-test confirmations, or preference fields that make your booking flow yours. Third, screenshot your Vagaro reports for the last 90 days: revenue, top clients, and appointment counts. You cannot pull these after you cancel, and they are genuinely useful for planning. Fourth, make a list of every integration you will need to reconnect, which usually means Stripe, Google Calendar, and Zoom if you run video consults. Fifth, tell your team what is coming so nobody is surprised by a new calendar next week.</p>
+        <p class="br-section__intro">Then block ninety minutes on your calendar for the actual build. One focused evening, not a nagging half-done project. If you sell bundles, note which packages are active so nothing prepaid slips through the cracks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Step 1 ─── -->
+  <section class="br-section">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Step 1</p>
+        <h2 class="br-section__title">Export your client list from Vagaro.</h2>
+        <p class="br-section__intro">Your client list is the one asset you truly cannot afford to leave behind, so start here. Log into Vagaro on a desktop, not the app, since the export controls live in the web dashboard. Go to Reports, then Customers, then Customer List. Set the date range to All Time so you capture everyone, not just recent visits.</p>
+        <p class="br-section__intro">Click Export and choose CSV when Vagaro asks for a format. The file that downloads includes the fields that matter most: name, email, phone, last visit date, and total spent. That last column is quietly valuable, because it lets you spot your highest-value regulars the moment you land somewhere new, which is exactly who you want to greet first during the soft launch.</p>
+        <p class="br-section__intro">One honest caveat. Vagaro does not export appointment history as cleanly as it exports the client list. The names and contact details come out tidy, but a full visit-by-visit record is messier and sometimes needs a separate report. That is fine. For a smooth migration, the client list is the file that carries the weight. Save it somewhere safe and move on.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Step 2 ─── -->
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Step 2</p>
+        <h2 class="br-section__title">Start your BKRDY trial and send us the file.</h2>
+        <p class="br-section__intro">Head to bkrdy.com and start your trial. You get 14 days free, with no card required for the first 7, so there is zero risk in setting things up before you commit. Once you are inside the dashboard, look for the Migration tab. This is where the free lift happens.</p>
+        <p class="br-section__intro">You have two ways to hand off your data. You can upload the Vagaro CSV directly in the Migration tab, or you can email it to migration@bkrdy.com if you would rather we handle every field. For most accounts, the team runs the import the same day. We do not just dump a spreadsheet in either. Using the screenshots you took last week, we rebuild your service menu and your hours so the structure matches what your clients already know, right down to service names and durations.</p>
+        <p class="br-section__intro">This is the part owners dread and it is the part we take off your plate entirely. You are not re-typing three hundred clients at midnight. You send one file, we do the tedious reconstruction, and you get a working account back. If anything looks off, we fix it before you go live. See exactly how the handoff works on our <a href="/migration/">migration</a> page.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Step 3 ─── -->
+  <section class="br-section">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Step 3</p>
+        <h2 class="br-section__title">Pick a template and customize your copy.</h2>
+        <p class="br-section__intro">This is the fun step, and it is the one Vagaro never really gave you. On Vagaro your booking page looked like every other Vagaro page. On BKRDY you pick a designed template that looks like your brand, not a scheduling tool. There are seven to choose from: The Fade Room, Lush Studio, Velvet Theory, Blackline, Opaline, Petale, and Bottega.</p>
+        <p class="br-section__intro">Pick by mood, not just by industry. A hair salon could land on Lush Studio for something soft and feminine, on Velvet Theory for moody and luxe, or on Opaline for quiet luxury. The right question is what your shop feels like when someone walks in, then match the template to that feeling. Browse them all on the <a href="/templates/">templates</a> page and try a couple before you settle.</p>
+        <p class="br-section__intro">Once you choose, budget 45 to 60 minutes on copy and gallery photos. Write your intro like you talk, drop in real photos of your space and your work, and set your service descriptions so they read like you wrote them. This hour is where a template stops looking like a template and starts looking like your business. It is the difference between a booking form and a website clients trust.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Step 4 ─── -->
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Step 4</p>
+        <h2 class="br-section__title">Connect Stripe for payments and tipping.</h2>
+        <p class="br-section__intro">Payments take about five minutes to wire up. Inside BKRDY, go to Settings, then Payments, and click Connect with Stripe. Sign in to an existing Stripe account or create one on the spot if you do not have it. From there, BKRDY's app auto-configures the important pieces for you: your payout schedule, tipping at checkout, and deposits at booking time.</p>
+        <p class="br-section__intro">Here is the part worth understanding clearly. Stripe charges a standard processing fee, roughly 2.9% plus 30 cents per transaction, the same way it does for any business that uses it. That fee goes to Stripe, not to us. What BKRDY adds on top is a 0% platform markup. We do not take a slice of your bookings the way marketplace platforms do, so the only card cost you carry is Stripe's own rate.</p>
+        <p class="br-section__intro">On real volume that difference adds up fast, and it is a big reason owners move in the first place. Deposits at booking also quietly cut your no-shows, since a client who has put money down tends to show up. Read the full breakdown on our <a href="/platform/tools/payments/">payments</a> page, then move on to the soft launch.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Step 5 ─── -->
+  <section class="br-section">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Step 5</p>
+        <h2 class="br-section__title">Soft launch: tell your clients privately.</h2>
+        <p class="br-section__intro">Do not announce anything to the world yet. The soft launch is how you catch small problems before they become public ones. Pick your top 20 clients, the regulars who book without thinking, and send them a quiet email or DM with your new booking link. Frame it as an early look: you have a new site, would they mind booking their next visit through it.</p>
+        <p class="br-section__intro">Then watch what happens. Run a couple of those bookings yourself if you can, so you see the flow exactly as a client sees it. Is a service missing a photo? Is a price off by five dollars? Does a time slot look wrong? Fix the weird thing the moment you spot it. This is far easier to do with twenty friendly regulars than with your whole list watching.</p>
+        <p class="br-section__intro">Crucially, do not change your public Vagaro link yet. Both platforms are still live. But from this point on, every booking that comes through BKRDY fires BKRDY reminders, deposits, and confirmations, so those clients are already getting the new, cleaner experience. Reminders and confirmations are set up on the <a href="/platform/tools/notifications/">notifications</a> page. Once a handful of real bookings land without a hitch, you are ready to go public.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Step 6 ─── -->
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Step 6</p>
+        <h2 class="br-section__title">Hard switch: update your Instagram bio and Google profile.</h2>
+        <p class="br-section__intro">Now you go public, and it is mostly a matter of updating links. Start with the two that drive the most bookings: your Instagram bio link and your Google Business Profile. On Google, the field you want is the appointment URL, which is what shows up when someone searches your shop by name. Swap both to your BKRDY link.</p>
+        <p class="br-section__intro">Then chase down the quieter places your old link lives. Think Yelp, your Linktree, any online business directory listings, the link in your email signature, even the URL printed on digital business cards. These are easy to forget and they keep sending stragglers to the old flow, so make a quick list and work through it in one sitting. If you need a walkthrough for the Instagram side specifically, our guide on <a href="/guides/add-booking-link-to-instagram-bio/">adding a booking link to your Instagram bio</a> covers it step by step.</p>
+        <p class="br-section__intro">One piece of timing advice: do the hard switch on a quiet morning, not a busy Friday. You want a calm window to double-check that each updated link actually opens your new booking page. A slow Tuesday at open beats a packed afternoon when your phone is already ringing. Verify each link once, and you are effectively migrated.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Step 7 ─── -->
+  <section class="br-section">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Step 7</p>
+        <h2 class="br-section__title">Cancel Vagaro on your own timing.</h2>
+        <p class="br-section__intro">Do not rush this last step. The whole point of running both platforms in parallel is that you get to cancel Vagaro when you are genuinely ready, not on a deadline. Keep it live for two to four weeks after your hard switch. That window lets your recurring clients find the new flow at their own pace, since most only book every few weeks anyway.</p>
+        <p class="br-section__intro">Before you cancel, download one final report dump from Vagaro. Grab your revenue history, your appointment records, and anything else you might want for taxes or planning, because it disappears the moment the account closes. When you are ready, the cancellation path is Settings, then Account, then Cancel Subscription.</p>
+        <p class="br-section__intro">Expect a retention offer. Vagaro will very likely pitch you a discount to stay, which is standard for any subscription business. Decline politely. You did not switch over a few dollars a month, you switched for a real website, your own brand, and a 0% platform markup, and a temporary discount does not change that math. Confirm the cancellation, check that your BKRDY bookings are still landing, and you are done. If you want to sanity-check the plan you land on, our <a href="/pricing/">pricing</a> page lays out what each tier includes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FAQ ─── -->
+  <section class="br-section br-section--bordered">
+    <div class="br-section__inner">
+      <div class="br-section__head">
+        <p class="br-kicker">Questions</p>
+        <h2 class="br-section__title">The short answers.</h2>
+      </div>
+
+      <div class="br-faq">
+          <details class="br-faq__item">
+            <summary>How long does the full migration actually take?</summary>
+            <p>Most shops are functionally migrated in 24 to 48 hours. We import your client list the same day, you build your site that evening, and you soft launch to a handful of regulars the next morning. The unglamorous parts, like updating every link, trail off over a week or two.</p>
+          </details>
+
+          <details class="br-faq__item">
+            <summary>Will I lose bookings during the switch?</summary>
+            <p>No, not if you keep Vagaro live for two to four weeks during the transition. Existing recurring clients simply move to the new link at their next visit. Nothing on Vagaro breaks while both run in parallel, so there is no window where a client cannot book.</p>
+          </details>
+
+          <details class="br-faq__item">
+            <summary>Does BKRDY import my staff calendars?</summary>
+            <p>Yes, on the Studio and Salon plans. Each staff member gets their own calendar, their own services, and their own Stripe payout if you split money that way. We rebuild the team structure during import so nobody has to set up their chair from scratch.</p>
+          </details>
+
+          <details class="br-faq__item">
+            <summary>What happens to my Vagaro reviews?</summary>
+            <p>Your existing reviews stay on Vagaro, since no platform can lift another platform's reviews. What we do instead is help you collect fresh reviews on Google and on your BKRDY site, which is where new clients actually look before they book.</p>
+          </details>
+
+          <details class="br-faq__item">
+            <summary>Can I keep my custom domain?</summary>
+            <p>Yes. If you already own a domain pointed at Vagaro, we walk you through the DNS change so it points to BKRDY instead, and your clients never notice. If you do not have a domain yet, the Solo plan includes a free bkrdy.me subdomain so you still get a clean, brandable link.</p>
+          </details>
+
+          <details class="br-faq__item">
+            <summary>Do I need to cancel Vagaro before I start BKRDY?</summary>
+            <p>No, and you should not. Run both in parallel during your trial. Cancel Vagaro only after you have moved your bio link, verified that new bookings are landing in BKRDY, and given your regulars a couple of weeks to adjust.</p>
+          </details>
+
+          <details class="br-faq__item">
+            <summary>Will I be billed twice during the switch?</summary>
+            <p>Barely, if at all. BKRDY gives you 14 days free with no card required for the first 7, so you have a comfortable buffer to overlap with Vagaro at no extra cost. Most owners finish the move well inside that window.</p>
+          </details>
+
+          <details class="br-faq__item">
+            <summary>What about my Vagaro memberships and packages?</summary>
+            <p>Prepaid packages and credits are supported on the BKRDY Studio plan, so multi-session bundles carry over cleanly. Full recurring memberships are on the roadmap. If memberships are core to your revenue, plan the timing around that and talk to us first.</p>
+          </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Final CTA ─── -->
+  <section class="br-final-cta">
+    <div class="br-final-cta__inner">
+      <p class="br-kicker br-kicker--inverse">For salons</p>
+      <h2 class="br-final-cta__title">Leave Vagaro this weekend. <span class="br-italic">We do the import for free.</span></h2>
+      <p class="br-final-cta__text">Free to start, no card for the first 7 days. Send us your Vagaro client list and we rebuild your services, hours, and staff the same day. Keep Vagaro running until you are sure.</p>
+      <a href="https://app.bkrdy.me/register?industry=salons&template=lushstudio" class="br-button br-button--inverse">Start free</a>
+    </div>
+  </section>
+
+<!-- ─── Footer ─── -->
+  <footer class="br-footer">
+    <div class="br-footer__inner">
+      <div class="br-footer__grid">
+
+        <div class="br-footer__brand">
+          <p class="br-footer__mark">BKRDY</p>
+          <p class="br-footer__tag">Designed booking websites for beauty brands.</p>
+          <a class="br-footer__cta" href="https://app.bkrdy.me/register">Start free &rarr;</a>
+        </div>
+
+        <div class="br-footer__col">
+                    <p class="br-footer__label">Templates</p>
+          <a href="/templates/">All templates</a>
+          <a href="/templates/thefaderoom/">The Fade Room</a>
+          <a href="/templates/velvettheory/">Velvet Theory</a>
+          <a href="/templates/blackline/">Blackline</a>
+          <a href="/templates/lushstudio/">Lush Studio</a>
+          <a href="/templates/opaline/">Opaline</a>
+          <a href="/templates/petale/">Pétale</a>
+          <a href="/templates/bottega/">Bottega</a>
+          <a href="/templates/inkhouse/">Inkhouse</a>
+          <a href="/templates/clarity/">Clarity</a>
+          <a href="/templates/bleeker/">Bleeker</a>
+          <a href="/templates/chroma/">Chroma</a>
+          <a href="/templates/riso/">Riso</a>
+          <a href="/templates/arcanum/">Arcanum</a>
+        </div>
+
+        <div class="br-footer__col">
+          <p class="br-footer__label">Industries</p>
+          <a href="/for-barbers/">For barbers</a>
+          <a href="/for-salons/">For hair salons</a>
+          <a href="/for-lash-artists/">For lash artists</a>
+          <a href="/for-nail-techs/">For nail techs</a>
+          <a href="/for-estheticians/">For estheticians</a>
+          <a href="/for-spas/">For spas</a>
+          <a href="/for-solo-pros/">For solo pros</a>
+        </div>
+
+        <div class="br-footer__col">
+          <p class="br-footer__label">Switching</p>
+          <a href="/migration/">Migration guide</a>
+          <a href="/compare/glossgenius-alternative/">vs GlossGenius</a>
+          <a href="/compare/acuity-alternative/">vs Acuity</a>
+          <a href="/compare/square-appointments-alternative/">vs Square</a>
+          <a href="/compare/fresha-alternative/">vs Fresha</a>
+          <a href="/compare/booksy-alternative/">vs Booksy</a>
+        </div>
+
+        <div class="br-footer__col">
+          <p class="br-footer__label">Company</p>
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
+          <a href="/pricing/">Pricing</a>
+
+          <a href="/changelog/">Changelog</a>
+          <a href="/roadmap/">Roadmap</a>
+          <a href="/community/">Discord</a>
+          <a href="/newsletter/">Newsletter</a>
+        </div>
+
+      </div>
+
+      <div class="br-footer__bottom-row">
+        <p class="br-footer__bottom">
+          &copy; 2026 BKRDY. Made for the small beauty brands quietly building real businesses.
+        </p>
+        <p class="br-footer__legal">
+          <a href="https://app.bkrdy.me/privacy">Privacy</a>
+          <a href="https://app.bkrdy.me/terms">Terms</a>
+          <a href="https://app.bkrdy.me/cookies">Cookies</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/nav.js"></script>
+
+</body>
+</html>
