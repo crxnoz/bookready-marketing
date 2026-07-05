@@ -359,3 +359,63 @@
     track('cta_clicked', { location: path, button_text: text });
   }, true);
 })();
+
+/* BKRDY Growth affiliate attribution (every page, rides nav.js like GA).
+   bkrdy.com and app.bkrdy.me are different domains, so a cookie cannot
+   cross; instead the ref code is stored here and carried into every
+   app.bkrdy.me link as ?ref=, where the app's own capture takes over.
+   Last click wins, 90-day shelf life, silent on any failure. */
+(function () {
+  var KEY = 'bkrdy_ref';
+  var TTL_MS = 90 * 24 * 60 * 60 * 1000;
+  var CODE_RE = /^[a-z0-9][a-z0-9_-]{1,63}$/i;
+
+  function saved() {
+    try {
+      var raw = localStorage.getItem(KEY);
+      if (!raw) return null;
+      var v = JSON.parse(raw);
+      if (!v || !v.code || !CODE_RE.test(v.code)) return null;
+      if (!v.at || Date.now() - v.at > TTL_MS) { localStorage.removeItem(KEY); return null; }
+      return v.code;
+    } catch (e) { return null; }
+  }
+
+  try {
+    var ref = new URLSearchParams(location.search).get('ref');
+    if (ref && CODE_RE.test(ref)) {
+      localStorage.setItem(KEY, JSON.stringify({ code: ref, at: Date.now() }));
+    }
+  } catch (e) { /* private mode etc. */ }
+
+  function decorate(a) {
+    var code = saved();
+    if (!code) return;
+    try {
+      var u = new URL(a.href, location.href);
+      if (u.hostname !== 'app.bkrdy.me') return;
+      if (u.searchParams.get('ref')) return;
+      u.searchParams.set('ref', code);
+      a.href = u.toString();
+    } catch (e) { /* leave the link alone */ }
+  }
+
+  function decorateAll() {
+    if (!saved()) return;
+    var links = document.querySelectorAll('a[href*="app.bkrdy.me"]');
+    for (var i = 0; i < links.length; i++) decorate(links[i]);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', decorateAll);
+  } else {
+    decorateAll();
+  }
+
+  // Capture-phase fixup at click time catches links added after load.
+  // (Middle/cmd-click new-tab opens are covered by the decorated href.)
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+    if (a) decorate(a);
+  }, true);
+})();
