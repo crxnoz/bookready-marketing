@@ -3058,7 +3058,8 @@
       "recommendedRelatedIndustry": "solo-pros",
       "ctaPlan": "Solo",
       "ctaIndustry": "solo-pros",
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-07-12"
     },
     {
       "slug": "responding-to-negative-reviews",
