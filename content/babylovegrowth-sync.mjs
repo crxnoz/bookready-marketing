@@ -60,6 +60,48 @@ if (!API_KEY) {
 const esc = (s) => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
+// ─── No-dash rule (content/style.md): BLG copy arrives with em/en dashes,
+// which the site-wide copy rules forbid. Rewrite them at render time so
+// synced posts pass the same checks as hand-written articles: numeric ranges
+// get a hyphen ("2–3" → "2-3"), a dash opening a sentence-end attribution
+// becomes " - " (". — Luis" → ". - Luis"), everything else becomes a comma.
+const dedash = (s) => String(s ?? '')
+  .replace(/([\d%])\s*[–—]\s*(?=[$\d])/g, '$1-')
+  .replace(/([.!?'"”])\s+[–—]\s*/g, '$1 - ')
+  .replace(/\s*[–—]\s*/g, ', ')
+  .replace(/[–—]/g, '-');
+
+// ─── Mirror BLG-hosted images (Supabase CDN) into /images/blog/blg/ so the
+// posts don't depend on a third-party bucket staying alive. Rewrites every
+// supabase URL in the rendered HTML (og/twitter meta, hero, schema, inline
+// body images) to the local copy. Fails open per image: on download error the
+// remote URL stays in place and the post still ships.
+const BLG_IMG_RE = /https:\/\/[a-z0-9]+\.supabase\.co\/storage\/[^\s"'<>\\)]+/g;
+async function mirrorImages(html) {
+  const urls = [...new Set(html.match(BLG_IMG_RE) || [])];
+  const map = new Map();
+  for (const u of urls) {
+    try {
+      const base = decodeURIComponent(u.split('/').pop())
+        .replace(/[^\w.-]+/g, '-').replace(/^-+|-+$/g, '').slice(-80);
+      const dir = resolve(ROOT, 'images', 'blog', 'blg');
+      const local = resolve(dir, base);
+      if (!existsSync(local)) {
+        const res = await fetch(u);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        mkdirSync(dir, { recursive: true });
+        writeFileSync(local, Buffer.from(await res.arrayBuffer()));
+      }
+      const publicUrl = `https://bkrdy.com/images/blog/blg/${base}`;
+      html = html.replaceAll(u, publicUrl);
+      map.set(u, publicUrl);
+    } catch (e) {
+      console.log(`  ! image mirror failed (${e?.message || e}) — keeping remote URL: ${u.slice(0, 70)}…`);
+    }
+  }
+  return { html, map };
+}
+
 async function api(path, attempt = 1) {
   const res = await fetch(`${API_BASE}${path}`, {
     headers: { 'X-API-Key': API_KEY, 'Content-Type': 'application/json' },
@@ -221,21 +263,22 @@ ${FOOTER}
 
 // ─── Queue upsert so daily-publish.mjs --finalize picks it up for sitemap +
 //     hub. Marks BLG articles shipped with source/externalId provenance. ───
-function upsertQueue(a) {
+function upsertQueue(a, imgMap = new Map()) {
   const QUEUE_PATH = resolve(ROOT, 'content', 'queue.json');
   const q = JSON.parse(readFileSync(QUEUE_PATH, 'utf8'));
   const url = `/blog/${a.slug}/`;
   const today = new Date().toISOString().slice(0, 10);
+  const hero = a.hero_image_url || '';
   const entry = {
     slug: a.slug,
     url,
     type: 'blog',
     status: 'shipped',
     shippedAt: (a.created_at || '').slice(0, 10) || today,
-    h1: a.title,
-    metaTitle: `${a.title} | BKRDY`,
-    metaDescription: a.meta_description || a.excerpt || '',
-    featuredImage: a.hero_image_url || '',
+    h1: dedash(a.title),
+    metaTitle: `${dedash(a.title)} | BKRDY`,
+    metaDescription: dedash(a.meta_description || a.excerpt || ''),
+    featuredImage: imgMap.get(hero) || hero,
     source: 'babylovegrowth',
     externalId: a.id,
   };
@@ -278,11 +321,15 @@ async function main() {
   let written = 0;
   for (const s of batch) {
     const full = await api(`/articles/${s.id}`);
-    const html = renderArticle(full, { NAV, FOOTER });
+    // dedash BEFORE mirroring: dashes only occur in copy, never in the
+    // percent-encoded supabase URLs, so order is safe and keeps the URL
+    // rewrite operating on final text.
+    const raw = dedash(renderArticle(full, { NAV, FOOTER }));
+    const { html, map } = await mirrorImages(raw);
     const dir = resolve(ROOT, 'blog', full.slug);
     mkdirSync(dir, { recursive: true });
     writeFileSync(resolve(dir, 'index.html'), html, 'utf8');
-    upsertQueue(full);
+    upsertQueue(full, map);
     written++;
     console.log(`  ✓ /blog/${full.slug}/`);
     await new Promise((r) => setTimeout(r, 1500)); // pace requests to stay under the rate limit

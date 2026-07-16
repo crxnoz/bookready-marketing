@@ -76,3 +76,10 @@ RewriteRule ^(.*)$ /$1/ [R=301,L]
 <FilesMatch "^(_stock-compare|personas-stock)\.html$">
   Require all denied
 </FilesMatch>
+
+# The whole /content/ directory is publishing pipeline (queue.json, sync and
+# publish scripts) — repo-internal, never a public page. The FilesMatch rules
+# above miss .json/.mjs, so deny the directory outright. robots.txt already
+# disallows crawling it; this closes direct reads too.
+RedirectMatch 403 ^/content/
+RedirectMatch 403 ^/\.scratch/
