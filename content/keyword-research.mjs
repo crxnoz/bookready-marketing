@@ -261,24 +261,45 @@ function dataForSeoProvider(flags) {
     return json;
   }
 
+  // Surface per-task failures instead of silently iterating an empty
+  // result. A 40501 here once nulled the volume for an ENTIRE 600-keyword
+  // batch (one 11-word phrase poisoned the request) and nobody noticed
+  // until the dataset shipped with volume:null everywhere.
+  function taskGuard(json, label) {
+    const t = json.tasks?.[0];
+    if (t && t.status_code !== 20000) {
+      console.warn(`  WARN ${label}: ${t.status_code} ${t.status_message}`);
+    }
+    return t;
+  }
+
   async function fetchMetrics(keywords) {
     const out = new Map();
     for (let i = 0; i < keywords.length; i += 700) {
       const batch = keywords.slice(i, i + 700);
       const task = [{ keywords: batch, location_code: LOCATION_CODE_US, language_code: 'en' }];
 
-      const vol = await post('keywords_data/google_ads/search_volume/live', task);
-      for (const r of (vol.tasks?.[0]?.result || [])) {
-        out.set(norm(r.keyword), {
-          volume: r.search_volume ?? null,
-          cpc: r.cpc ?? null,
-          competition: r.competition ?? null,
-          difficulty: null,
-        });
+      // Google Ads search_volume rejects the whole request if ANY keyword
+      // exceeds its 10-word cap, so filter long-tail phrases out of the
+      // volume call only (Labs difficulty accepts them fine).
+      const volBatch = batch.filter((k) => k.split(' ').length <= 10);
+      if (volBatch.length) {
+        const volTask = [{ keywords: volBatch, location_code: LOCATION_CODE_US, language_code: 'en' }];
+        const vol = await post('keywords_data/google_ads/search_volume/live', volTask);
+        const vt = taskGuard(vol, 'search_volume');
+        for (const r of (vt?.result || [])) {
+          out.set(norm(r.keyword), {
+            volume: r.search_volume ?? null,
+            cpc: r.cpc ?? null,
+            competition: r.competition ?? null,
+            difficulty: null,
+          });
+        }
       }
 
       const diff = await post('dataforseo_labs/google/bulk_keyword_difficulty/live', task);
-      for (const it of (diff.tasks?.[0]?.result?.[0]?.items || [])) {
+      const dt = taskGuard(diff, 'bulk_keyword_difficulty');
+      for (const it of (dt?.result?.[0]?.items || [])) {
         const cur = out.get(norm(it.keyword)) || { volume: null, cpc: null, competition: null };
         cur.difficulty = it.keyword_difficulty ?? null;
         out.set(norm(it.keyword), cur);
