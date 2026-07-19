@@ -4181,6 +4181,32 @@
       "featuredImage": "https://bkrdy.com/images/blog/blg/1784278908802_Nail-technician-reviewing-client-rebooking-schedule.jpeg",
       "source": "babylovegrowth",
       "externalId": 610118
+    },
+    {
+      "slug": "transfer-appointments-new-booking-system",
+      "url": "/blog/transfer-appointments-new-booking-system/",
+      "type": "blog",
+      "status": "shipped",
+      "shippedAt": "2026-07-19",
+      "h1": "How to Transfer Appointments to a New Booking System",
+      "metaTitle": "How to Transfer Appointments to a New Booking System | BKRDY",
+      "metaDescription": "Learn how to seamlessly transfer appointments to a new booking system. Follow crucial steps for a successful migration and keep clients informed.",
+      "featuredImage": "https://bkrdy.com/images/blog/blg/1784444517168_Woman-transferring-appointments-on-laptops.jpeg",
+      "source": "babylovegrowth",
+      "externalId": 617939
+    },
+    {
+      "slug": "what-does-appointment-scheduling-software-do",
+      "url": "/blog/what-does-appointment-scheduling-software-do/",
+      "type": "blog",
+      "status": "shipped",
+      "shippedAt": "2026-07-18",
+      "h1": "What Does Appointment Scheduling Software Do in 2026?",
+      "metaTitle": "What Does Appointment Scheduling Software Do in 2026? | BKRDY",
+      "metaDescription": "Discover what appointment scheduling software does in 2026. Automate booking, reduce missed appointments, and streamline scheduling effortlessly.",
+      "featuredImage": "https://bkrdy.com/images/blog/blg/1784397888540_Small-business-owner-using-scheduling-app-on-tablet.jpeg",
+      "source": "babylovegrowth",
+      "externalId": 615855
     }
   ]
 }
