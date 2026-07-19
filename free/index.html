@@ -5,24 +5,24 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Simple flat-rate pricing for every plan | BKRDY</title>
-  <meta name="description" content="Flat-rate pricing for BKRDY. Online booking, Stripe deposits, and unlimited appointments on every plan. No BKRDY markup. You pay only Stripe's standard rate." />
-  <link rel="canonical" href="https://bkrdy.com/pricing/" />
+  <title>Free Salon Booking Software and Website | BKRDY</title>
+  <meta name="description" content="BKRDY's Free plan is a real salon booking website at $0: online booking, Stripe deposits, unlimited appointments, no card and no trial clock. Upgrade anytime." />
+  <link rel="canonical" href="https://bkrdy.com/free/" />
 
   <!-- OpenGraph -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bkrdy.com/pricing/" />
+  <meta property="og:url" content="https://bkrdy.com/free/" />
   <meta property="og:site_name" content="BKRDY" />
-  <meta property="og:title" content="BKRDY pricing, flat rate" />
-  <meta property="og:description" content="Online booking, Stripe deposits, and unlimited appointments on every plan. No BKRDY markup. You pay only Stripe's standard rate." />
+  <meta property="og:title" content="A free booking site for beauty pros" />
+  <meta property="og:description" content="Online booking, Stripe deposits, and unlimited appointments at $0. No card, no trial clock." />
   <meta property="og:image" content="https://bkrdy.com/images/hero/hero.webp" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="BKRDY pricing, flat rate" />
-  <meta name="twitter:description" content="Online booking, Stripe deposits, and unlimited appointments on every plan. No BKRDY markup. You pay only Stripe's standard rate." />
+  <meta name="twitter:title" content="A free booking site for beauty pros" />
+  <meta name="twitter:description" content="Online booking, Stripe deposits, and unlimited appointments at $0. No card, no trial clock." />
   <meta name="twitter:image" content="https://bkrdy.com/images/hero/hero.webp" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,30 +32,15 @@
   <link rel="stylesheet" href="/styles.css?v=574f5ae" />
   <link rel="stylesheet" href="/pages.css?v=574f5ae" />
 
-  <!-- Structured data: breadcrumb + priced offers -->
+  <!-- Structured data: breadcrumb + free offer + FAQ -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bkrdy.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://bkrdy.com/pricing/"}
-    ]
-  }
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bkrdy.com/"},{"@type":"ListItem","position":2,"name":"Free plan","item":"https://bkrdy.com/free/"}]}
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "BKRDY",
-    "description": "Booking websites for salons, barbers, lash artists, nail techs, and spas. Online booking, Stripe deposits, and unlimited appointments on every plan.",
-    "brand": {"@type": "Brand", "name": "BKRDY"},
-    "offers": [
-      {"@type": "Offer", "name": "Free",   "price": "0",  "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://bkrdy.com/pricing/"},
-      {"@type": "Offer", "name": "Solo",   "price": "15", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://bkrdy.com/pricing/"},
-      {"@type": "Offer", "name": "Studio", "price": "29", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://bkrdy.com/pricing/"}
-    ]
-  }
+  {"@context":"https://schema.org","@type":"Product","name":"BKRDY Free","description":"A free booking website for salons, barbers, lash artists, nail techs, and spas. Online booking, Stripe deposits, and unlimited appointments at $0.","brand":{"@type":"Brand","name":"BKRDY"},"offers":[{"@type":"Offer","name":"Free","price":"0","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://bkrdy.com/free/"}]}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is BKRDY actually free?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Free plan is $0 forever, not a trial. No card, no expiry date, no booking caps. We make money when businesses outgrow Free and upgrade for premium features."}},{"@type":"Question","name":"Do I need a credit card to sign up?","acceptedAnswer":{"@type":"Answer","text":"No. You sign up with Google or email, pick a template, and your site is live. A card only ever comes into it if you choose a paid plan later."}},{"@type":"Question","name":"Can I take payments and deposits on the Free plan?","acceptedAnswer":{"@type":"Answer","text":"Yes. Connect your own Stripe account and take deposits or full payments at booking. BKRDY adds no transaction fee; you pay only Stripe's standard rate and payouts go straight to your bank."}},{"@type":"Question","name":"Is there a limit on appointments?","acceptedAnswer":{"@type":"Answer","text":"No. Unlimited appointments on every plan, including Free."}},{"@type":"Question","name":"What's the catch?","acceptedAnswer":{"@type":"Answer","text":"Free includes 4 of our designed templates instead of the full library, keeps a small Powered by BKRDY badge on your site, and leaves out premium features like text reminders, gift cards, coupons, loyalty rewards, and after-hours premium slots. The booking engine itself is never gated."}},{"@type":"Question","name":"What happens if I upgrade later?","acceptedAnswer":{"@type":"Answer","text":"Everything unlocks immediately and your site, services, clients, and bookings stay exactly as they are. Downgrading back to Free keeps your site live too."}}]}
   </script>
 </head>
 <body>
@@ -375,155 +360,69 @@
     </div>
   </header>
 
-  <!-- ─── Breadcrumb ─── -->
-  <nav class="br-crumbs" aria-label="Breadcrumb">
-    <a href="/">Home</a>
-    <span class="br-crumbs__sep" aria-hidden="true">/</span>
-    <span class="br-crumbs__current" aria-current="page">Pricing</span>
-  </nav>
-
-  <!-- ─── Page header ─── -->
+  <!-- ................ Page head ................ -->
   <section class="br-pagehead">
     <div class="br-pagehead__inner">
-      <p class="br-kicker">Pricing</p>
-      <h1 class="br-pagehead__title">Flat rate. <span class="br-italic">No cuts. No markup.</span></h1>
+      <p class="br-kicker">The Free plan</p>
+      <h1 class="br-pagehead__title">A real booking site. <span class="br-italic">Actually free.</span></h1>
       <p class="br-pagehead__intro">
-        Online booking, Stripe deposits, and unlimited appointments come standard on every plan. The plan you pick comes down to your team size and whether you want your own domain.
+        Most &ldquo;free salon software&rdquo; is a trial with a countdown or a booking cap that kicks in the moment things go well. BKRDY&rsquo;s Free plan is neither: a designed booking website at $0, forever, with online booking, Stripe deposits, and unlimited appointments. No card. Upgrade only when you want the premium extras.
       </p>
     </div>
   </section>
 
-  <!-- ─── Pricing grid (billing toggle bound by pricing.js via #pricing) ─── -->
-  <section id="pricing" class="br-section" data-billing="monthly">
+  <!-- ................ Included vs paid ................ -->
+  <section class="br-section">
     <div class="br-section__inner">
-
-      <div class="br-billing-toggle" data-billing-toggle>
-        <button type="button" class="br-billing-opt is-active" data-billing-btn="monthly">Monthly</button>
-        <button type="button" class="br-billing-opt" data-billing-btn="annual">Annual <span class="br-billing-badge">2 months free</span></button>
-      </div>
-
-      <p class="br-founder-note"><strong>Founding-member pricing.</strong> Lock in this rate for life. Early-access prices rise as we add features, but your rate stays put for as long as you&rsquo;re subscribed.</p>
-
-      <div class="br-pricing-grid" aria-label="BKRDY plans">
+      <div class="br-pricing-grid" aria-label="Free plan contents">
 
         <article class="br-plan" data-plan="free">
-          <p class="br-plan__label">Free</p>
-          <h3>Get started</h3>
-          <div class="br-plan__price">$<span data-price-m>0</span><span>/mo</span></div>
+          <p class="br-plan__label">Included on Free</p>
+          <h3>Everything a booking site needs</h3>
+          <div class="br-plan__price">$<span>0</span><span>/mo</span></div>
           <p class="br-plan__period">free forever &middot; no card, ever</p>
-
-          <p class="br-plan__sms">Text reminders &middot; paid plans</p>
-
-          <p class="br-plan__text">
-            A real, designed booking site at no cost. Online booking, Stripe deposits, and email reminders included.
-          </p>
           <ul class="br-plan__list">
-            <li>1 staff account &middot; bkrdy.me address</li>
-            <li>Online booking + Stripe deposits</li>
-            <li>Unlimited appointments</li>
-            <li style="opacity:.55;">&times; 4 templates, not the full library</li>
-            <li style="opacity:.55;">&times; BKRDY badge stays on your site</li>
+            <li>A designed site at yourname.bkrdy.me</li>
+            <li>Online booking, 24/7, no client accounts needed</li>
+            <li>Stripe deposits + payments, straight to your bank</li>
+            <li>Unlimited appointments, no caps</li>
+            <li>Email confirmations + appointment reminders</li>
+            <li>Client list, gallery, reviews, FAQ, policies</li>
+            <li>4 designed templates to choose from</li>
           </ul>
           <a href="https://app.bkrdy.me/register" class="br-button br-plan__button">Start free</a>
         </article>
 
-        <article class="br-plan" data-plan="solo" data-base-m="15" data-base-a="12.50">
-          <p class="br-plan__label">Solo</p>
-          <h3>One person</h3>
-          <div class="br-plan__price br-price-m">$<span data-price-m>15</span><span>/mo</span></div>
-          <div class="br-plan__price br-price-a">$<span data-price-a>12.50</span><span>/mo</span></div>
-          <p class="br-plan__period br-period-m" data-period-m>billed monthly</p>
-          <p class="br-plan__period br-period-a" data-period-a>billed annually ($150/yr) &middot; save $30</p>
-
-          <p class="br-plan__sms">Text (SMS) reminders &middot; included</p>
-
-          <p class="br-plan__text">
-            One calendar. For solo barbers, lash artists, nail techs, and facialists running their own chair.
-          </p>
+        <article class="br-plan" data-plan="paid">
+          <p class="br-plan__label">What paid adds</p>
+          <h3>The premium layer, when you want it</h3>
+          <div class="br-plan__price">$<span>15</span><span>/mo</span></div>
+          <p class="br-plan__period">Solo, from $12.50/mo billed annually</p>
           <ul class="br-plan__list">
-            <li>1 staff account</li>
-            <li>Full template library</li>
-            <li>Custom forms &amp; intake</li>
-            <li>Remove BKRDY branding</li>
-            <li>Email marketing <span class="br-plan__soon">coming soon</span></li>
+            <li>The full template library</li>
+            <li>Remove the BKRDY badge</li>
+            <li>Text (SMS) reminders</li>
+            <li>Gift cards, coupons, loyalty rewards</li>
+            <li>Premium slots: after-hours + squeeze-ins</li>
+            <li>Client waitlist</li>
+            <li>More team seats on Studio</li>
           </ul>
-          <a href="https://app.bkrdy.me/register?plan=solo" class="br-button br-plan__button">Choose Solo</a>
-        </article>
-
-        <article class="br-plan br-plan--featured" data-plan="studio" data-base-m="29" data-base-a="24">
-          <div class="br-plan__badge">Most Popular</div>
-          <p class="br-plan__label">Studio</p>
-          <h3>Small team</h3>
-          <div class="br-plan__price br-price-m">$<span data-price-m>29</span><span>/mo</span></div>
-          <div class="br-plan__price br-price-a">$<span data-price-a>24</span><span>/mo</span></div>
-          <p class="br-plan__period br-period-m" data-period-m>billed monthly</p>
-          <p class="br-plan__period br-period-a" data-period-a>billed annually ($290/yr) &middot; save $58</p>
-
-          <p class="br-plan__sms">Text (SMS) reminders &middot; included</p>
-
-          <p class="br-plan__text">
-            For small studios with two to five staff. Same full feature set as Solo, just with more team seats.
-          </p>
-          <ul class="br-plan__list">
-            <li>Up to 5 staff accounts</li>
-            <li>Full template library</li>
-            <li>Custom forms &amp; intake</li>
-            <li>Remove BKRDY branding</li>
-            <li>Email marketing <span class="br-plan__soon">coming soon</span></li>
-          </ul>
-          <a href="https://app.bkrdy.me/register?plan=studio" class="br-button br-plan__button">Choose Studio</a>
+          <a href="/pricing/" class="br-button br-plan__button">Compare plans</a>
         </article>
 
       </div>
-
-      <!-- ─── Custom Websites: premium custom-site + onboarding service (not a SaaS plan) ─── -->
-      <article class="br-plan" style="min-height:0;margin-top:28px;border:1px solid var(--border);display:block;box-shadow:0 14px 34px rgba(18,18,18,0.05);">
-        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px 40px;align-items:start;">
-          <div>
-            <p class="br-plan__label">Custom Websites</p>
-            <h3>Your site, built for you.</h3>
-            <p class="br-plan__text" style="margin:10px 0 0;">
-              Not another plan. A fully custom website designed and built on the BKRDY engine, with onboarding handled for you from day one.
-            </p>
-          </div>
-          <ul class="br-plan__list" style="margin:0;">
-            <li>Fully custom design, tailored to your brand</li>
-            <li>Your own domain (yourname.com)</li>
-            <li>We build it: menu, photos, policies, the lot</li>
-            <li>Priority onboarding, we set everything up</li>
-            <li>Premium support, a person who knows your site</li>
-          </ul>
-          <div style="margin-top:0;">
-            <p class="br-plan__waitlist-label">Priced per project</p>
-            <a href="mailto:hello@bkrdy.com?subject=Custom%20Website" class="br-button" style="display:inline-block;text-align:center;width:100%;">Contact sales</a>
-            <p class="br-plan__period" style="margin-top:10px;">Tell us about your business and we&rsquo;ll scope it together. No public pricing.</p>
-          </div>
-        </div>
-      </article>
-
-      <div class="br-risk-row" aria-label="Money-back reassurances">
-        <span class="br-risk-row__item">Free to start</span>
-        <span class="br-risk-row__sep">&middot;</span>
-        <span class="br-risk-row__item">Cancel anytime</span>
-        <span class="br-risk-row__sep">&middot;</span>
-        <span class="br-risk-row__item">Keep your domain</span>
-        <span class="br-risk-row__sep">&middot;</span>
-        <span class="br-risk-row__item">Free migration</span>
-      </div>
-
-      <!-- SMS calculator removed: SMS texting is not live yet (coming soon, free at launch). -->
-
+      <p class="br-founder-note"><strong>The booking engine is never gated.</strong> Free and paid run the same scheduling, deposits, and reminders. Paid plans add the premium layer on top, they don&rsquo;t unlock the basics.</p>
     </div>
   </section>
 
-  <!-- ─── What's included on every plan ─── -->
+  <!-- ................ Feature grid ................ -->
   <section class="br-section br-section--bordered">
     <div class="br-section__inner">
       <div class="br-section__head">
-        <p class="br-kicker">On every plan</p>
-        <h2 class="br-section__title">The whole product. <span class="br-italic">Not a starter tier.</span></h2>
+        <p class="br-kicker">Why it works</p>
+        <h2 class="br-section__title">Free that behaves <span class="br-italic">like a real product.</span></h2>
         <p class="br-section__intro">
-          We don&rsquo;t gate the booking engine behind a higher plan. Every paid plan gets the same designed templates, deposits, and reminders. Bigger plans just add seats. Want your own domain and a one-of-a-kind design? That&rsquo;s our Custom Websites service above.
+          Your clients book from your link, pay their deposit, and get their reminders. Nothing about the client experience says free.
         </p>
       </div>
 
@@ -531,74 +430,65 @@
         <div class="br-feat">
           <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></span>
           <h3>Designed templates</h3>
-          <p>The full template library on every plan. Switch any time, your data stays put.</p>
+          <p>Four templates on Free, each a complete design, not a stripped-down starter theme.</p>
         </div>
         <div class="br-feat">
           <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></span>
           <h3>Direct Stripe payouts</h3>
-          <p>Deposits and payments go straight to your own Stripe account.</p>
+          <p>Deposits and payments go straight to your own Stripe account. BKRDY adds no fee.</p>
         </div>
         <div class="br-feat">
           <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 01-3.4 0"/></svg></span>
           <h3>Deposits + reminders</h3>
-          <p>Collect deposits upfront and send email reminders on your schedule. Paid plans add automatic text reminders.</p>
+          <p>Collect deposits up front and send email reminders automatically. The no-show cure, at $0.</p>
         </div>
         <div class="br-feat">
           <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
           <h3>Unlimited appointments</h3>
-          <p>No booking caps, ever. Take as many appointments as your calendar can hold.</p>
-        </div>
-        <div class="br-feat">
-          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg></span>
-          <h3>Custom domain</h3>
-          <p>Included with the Custom Websites service. Every plan gets a clean bkrdy.me subdomain.</p>
-        </div>
-        <div class="br-feat">
-          <span class="br-feat__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></span>
-          <h3>Free migration</h3>
-          <p>Coming from Acuity, Square, Vagaro, or Booksy? We move you over, usually same day.</p>
+          <p>No booking caps on any plan, including Free. Growth is never punished.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ─── Pricing FAQ ─── -->
+  <!-- ................ FAQ ................ -->
   <section class="br-section br-section--bordered">
     <div class="br-section__inner">
       <div class="br-section__head">
         <p class="br-kicker">Questions</p>
-        <h2 class="br-section__title">Pricing, answered.</h2>
+        <h2 class="br-section__title">Free, answered honestly.</h2>
       </div>
 
       <div class="br-faq">
         <details class="br-faq__item">
-          <summary>Do I need a card to start?</summary>
-          <p>No. Every account starts on the Free plan: $0 forever, no card required, and your booking site is fully live. When you upgrade to a paid plan, billing starts at checkout and the features unlock immediately. You can cancel any time from your dashboard and your site stays up on Free.</p>
+          <summary>Is BKRDY actually free?</summary>
+          <p>Yes. The Free plan is $0 forever, not a trial. No card, no expiry date, no booking caps. We make money when businesses outgrow Free and upgrade for premium features.</p>
         </details>
         <details class="br-faq__item">
-          <summary>What about transaction fees?</summary>
-          <p>BKRDY doesn&rsquo;t take any. You pay Stripe&rsquo;s standard rate (2.9% + 30&cent; in the US) and that&rsquo;s it. Deposits and full payments go straight to your Stripe account.</p>
+          <summary>Do I need a credit card to sign up?</summary>
+          <p>No. You sign up with Google or email, pick a template, and your site is live. A card only ever comes into it if you choose a paid plan later.</p>
         </details>
         <details class="br-faq__item">
-          <summary>What&rsquo;s the difference between monthly and annual?</summary>
-          <p>Annual billing is the same plan at two months free: Solo drops to $12.50/mo, Studio to $24/mo. You&rsquo;re billed once a year and can switch back to monthly whenever.</p>
+          <summary>Can I take payments and deposits on the Free plan?</summary>
+          <p>Yes. Connect your own Stripe account and take deposits or full payments at booking. BKRDY adds no transaction fee; you pay only Stripe&rsquo;s standard rate and payouts go straight to your bank.</p>
         </details>
         <details class="br-faq__item">
-          <summary>Will these prices go up?</summary>
-          <p>These are early-access founding-member prices. Lock in your rate now and it stays put for as long as your subscription stays active, even as we add features and raise prices for new customers.</p>
+          <summary>Is there a limit on appointments?</summary>
+          <p>No. Unlimited appointments on every plan, including Free.</p>
         </details>
         <details class="br-faq__item">
-          <summary>Can I change plans later?</summary>
-          <p>Any time, in both directions. Upgrades are prorated and take effect immediately. Downgrades apply at your next billing date. Your site, services, and clients stay exactly as they are.</p>
+          <summary>What&rsquo;s the catch?</summary>
+          <p>Free includes 4 of our designed templates instead of the full library, keeps a small Powered by BKRDY badge on your site, and leaves out premium features like text reminders, gift cards, coupons, loyalty rewards, and after-hours premium slots. The booking engine itself is never gated.</p>
         </details>
         <details class="br-faq__item">
-          <summary>Is BKRDY built for the US?</summary>
-          <p>Right now, yes. Payments are Stripe US and the booking flow assumes US business hours. International expansion is on the roadmap.</p>
+          <summary>What happens if I upgrade later?</summary>
+          <p>Everything unlocks immediately and your site, services, clients, and bookings stay exactly as they are. Downgrading back to Free keeps your site live too.</p>
         </details>
       </div>
     </div>
   </section>
-  <!-- ─── Switching tile ─── -->
+
+  <!-- ................ Switching tile ................ -->
   <section class="br-section br-section--bordered">
     <div class="br-section__inner">
       <div class="br-template-next">
@@ -612,22 +502,20 @@
     </div>
   </section>
 
-
-  <!-- ─── Final CTA ─── -->
+  <!-- ................ Final CTA ................ -->
   <section class="br-final-cta">
     <div class="br-final-cta__inner">
-      <p class="br-kicker br-kicker--inverse">No pressure</p>
+      <p class="br-kicker br-kicker--inverse">No card, no clock</p>
       <h2 class="br-final-cta__title">
-        Start free. <span class="br-italic">Add a card when you&rsquo;re ready.</span>
+        Your clients are ready to book. <span class="br-italic">Give them the link.</span>
       </h2>
       <p class="br-final-cta__text">
-        Build your site and take real bookings on the Free plan. No card, no clock. Upgrade whenever you&rsquo;re ready.
+        A designed booking site, live today, at $0. Upgrade whenever you&rsquo;re ready, or never.
       </p>
       <a href="https://app.bkrdy.me/register" class="br-button br-button--inverse">Start free</a>
     </div>
   </section>
 
-  <!-- ─── Footer ─── -->
   <footer class="br-footer">
     <div class="br-footer__inner">
       <div class="br-footer__grid">

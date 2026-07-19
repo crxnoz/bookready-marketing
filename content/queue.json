@@ -4536,6 +4536,62 @@
         "dataset": "dataset-2026-07-19.json"
       },
       "status": "pending"
+    },
+    {
+      "slug": "brow-lamination-and-tint",
+      "url": "/blog/brow-lamination-and-tint/",
+      "type": "guide",
+      "cluster": "pricing",
+      "metaTitle": "Brow Lamination and Tint: The Combo Explained | BKRDY",
+      "metaDescription": "Brow lamination and tint in one visit: what the combo does, before and after expectations, how long it lasts, pricing, and how brow techs sell it.",
+      "h1": "Brow lamination and tint, explained",
+      "italicTagline": "What the combo does, what before and after really looks like, and the tech-side play.",
+      "primaryKeyword": "brow lamination and tint",
+      "secondaryKeywords": [
+        "brow lamination before and after",
+        "what is brow lamination and tint",
+        "brow lamination aftercare",
+        "how long does brow lamination and tint last",
+        "brow lamination and tint price"
+      ],
+      "estVolume": "4400/mo primary, ~12300/mo cluster",
+      "intent": "MOFU",
+      "intro": "180-220 word intro. Companion piece to /blog/brow-lamination-cost/ (pending): that one owns the price question, this one owns the what-is and before-and-after questions. SERP is supplier brands (PLA Pro, Supercilium, Lash Lift Store), one franchise blog, and local studios; nobody with real authority. Open on why the combo exists: lamination fixes shape, tint fixes visibility, and tinting AFTER lamination absorbs better because the cuticle is open. Promise the honest walkthrough: what happens in the chair step by step, realistic before-and-after expectations by brow type (sparse vs unruly vs fair-haired), longevity of each half (lamination 4-6 weeks, tint 2-4, so the combo re-books on the tint), quick aftercare rules, and typical combo pricing. Then the flip for brow techs: the combo lifts average ticket, the mismatched fade cycle IS the rebooking hook, and before-and-after photos are the highest-converting content a brow tech can put on a booking site. No em-dashes.",
+      "sections": [
+        {
+          "kicker": "The combo",
+          "title": "What lamination plus tint actually does",
+          "direction": "Shape vs color explained plainly. Why the order matters (tint after lamination, open cuticle absorbs deeper). What a session looks like start to finish, roughly 45-60 minutes."
+        },
+        {
+          "kicker": "Before and after",
+          "title": "Realistic before and after, by brow type",
+          "direction": "This section targets the 6600/mo before-and-after keyword. Describe transformations honestly by starting point: sparse, unruly, fair-haired, over-plucked. What the combo cannot do (it does not add hair). Encourage viewing a tech's real before-and-after gallery before booking."
+        },
+        {
+          "kicker": "Lasting + care",
+          "title": "How long it lasts and the aftercare that protects it",
+          "direction": "Lamination 4-6 weeks, tint 2-4; the combo re-books on the faster-fading half. First-24-hours rules (dry brows, no makeup on them), then low-maintenance. Keep aftercare tight; the dedicated aftercare SERP is franchise-owned and off-intent."
+        },
+        {
+          "kicker": "For brow techs",
+          "title": "Selling the combo and the photos that book it",
+          "direction": "Bundle pricing vs a la carte, the 4-week rebooking prompt, and before-and-after photos as the conversion engine: BKRDY sites have a built-in Before and After section brow techs can fill from their phone. Internal: /blog/brow-lamination-cost/, /for-estheticians/, /guides/how-much-deposit-to-charge/."
+        }
+      ],
+      "research": {
+        "primaryKeyword": "brow lamination and tint",
+        "volume": 4400,
+        "clusterVolumes": {
+          "brow lamination before and after": 6600,
+          "what is brow lamination and tint": 1300,
+          "brow lamination aftercare": 2400
+        },
+        "difficulty": 0,
+        "serpNotes": "Supplier brands (PLA Pro, Beautiful Brows, Supercilium, Lash Lift Store), one franchise blog (Lash Lounge), local studios and spas. No SaaS, no editorial authority, explainer format. STRONG-to-MODERATE opening; validated 2026-07-19.",
+        "dataset": "dataset-2026-07-19.json"
+      },
+      "status": "pending"
     }
   ]
 }
