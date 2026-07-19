@@ -7,7 +7,7 @@
   },
   "articles": [
     {
-      "approved": false,
+      "approved": true,
       "slug": "barber-price-list",
       "url": "/blog/barber-price-list/",
       "type": "guide",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "approved": false,
+      "approved": true,
       "slug": "pedicure-prices",
       "url": "/blog/pedicure-prices/",
       "type": "guide",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "approved": false,
+      "approved": true,
       "slug": "mobile-nail-tech",
       "url": "/blog/mobile-nail-tech/",
       "type": "guide",
@@ -113,7 +113,7 @@
       }
     },
     {
-      "approved": false,
+      "approved": true,
       "slug": "tattoo-booking-software",
       "url": "/blog/tattoo-booking-software/",
       "type": "comparison",
@@ -149,7 +149,7 @@
       }
     },
     {
-      "approved": false,
+      "approved": true,
       "slug": "brow-lamination-cost",
       "url": "/blog/brow-lamination-cost/",
       "type": "guide",
@@ -185,7 +185,7 @@
       }
     },
     {
-      "approved": false,
+      "approved": true,
       "slug": "salon-gift-card-template",
       "url": "/blog/salon-gift-card-template/",
       "type": "guide",

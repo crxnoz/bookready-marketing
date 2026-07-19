@@ -4207,6 +4207,335 @@
       "featuredImage": "https://bkrdy.com/images/blog/blg/1784397888540_Small-business-owner-using-scheduling-app-on-tablet.jpeg",
       "source": "babylovegrowth",
       "externalId": 615855
+    },
+    {
+      "slug": "barber-price-list",
+      "url": "/blog/barber-price-list/",
+      "type": "guide",
+      "cluster": "pricing",
+      "metaTitle": "Barber Price List: What to Charge in 2026 | BKRDY",
+      "metaDescription": "A realistic barber price list for 2026: haircut, fade, beard, and combo pricing, how to set your own numbers, and a clean menu clients can book from.",
+      "h1": "The barber price list, done right",
+      "italicTagline": "What to charge, what clients expect, and how to display it so it books.",
+      "primaryKeyword": "barber price list",
+      "secondaryKeywords": [
+        "barber prices",
+        "barbershop prices",
+        "prices barber shop",
+        "barber pricing list",
+        "barber website template"
+      ],
+      "estVolume": "1000/mo primary, ~2700/mo cluster",
+      "intent": "MOFU",
+      "intro": "180-220 word intro. The SERP for this term is Zazzle posters, Etsy printables, and PosterMyWall templates: everyone is selling a laminated sign, nobody is answering the real question, which is what the numbers on the sign should say. Open with that gap. Promise three things: real 2026 price ranges for the core barber menu (cut, skin fade, beard, kids, combos) split by city tier; a simple method for setting your own prices (costs, time per cut, chair math); and how to present the menu so it converts, because a price list on a website with a Book button outearns a price board on the wall. Natural BKRDY tie: your booking site IS your price list. No em-dashes, confident, no fluff.",
+      "sections": [
+        {
+          "kicker": "The numbers",
+          "title": "2026 barber price ranges, service by service",
+          "direction": "Table of typical US ranges: haircut, skin fade, beard trim, hot towel shave, kids cut, cut + beard combo. Split budget / mid / premium and note big-city vs small-town spread. Cite ranges honestly as ranges."
+        },
+        {
+          "kicker": "Your math",
+          "title": "How to set YOUR prices, not the internet's",
+          "direction": "Chair math: time per cut, cuts per day, monthly costs, target income. Show one worked example (30-min fades, 10 clients a day). Push back on copying competitor prices without knowing their costs."
+        },
+        {
+          "kicker": "Raising prices",
+          "title": "When and how to raise without losing regulars",
+          "direction": "Signals you are underpriced (booked out 2+ weeks, no-shows cheap to eat). The announcement script. Grandfathering regulars for one cycle. Link internal: /guides/reducing-no-shows/ and deposit content."
+        },
+        {
+          "kicker": "Display",
+          "title": "A menu clients can actually book from",
+          "direction": "The wall poster vs the booking page. Every service with price + duration + Book button beats a static list. Screenshot-level description of a BKRDY service menu; CTA to templates and /for-barbers/."
+        }
+      ],
+      "research": {
+        "primaryKeyword": "barber price list",
+        "volume": 390,
+        "clusterVolumes": {
+          "prices barber shop": 1000,
+          "barbershop prices": 590,
+          "barber prices list": 390,
+          "barber price list": 390,
+          "barber website template": 140
+        },
+        "difficulty": 0,
+        "serpNotes": "Zazzle, Amazon, Etsy, PosterMyWall, Pinterest, one real barbershop page. Printable-template marketplaces, zero SaaS competition, no real article answering what to charge. STRONG opening.",
+        "dataset": "dataset-2026-07-19.json"
+      },
+      "status": "pending"
+    },
+    {
+      "slug": "pedicure-prices",
+      "url": "/blog/pedicure-prices/",
+      "type": "guide",
+      "cluster": "pricing",
+      "metaTitle": "Pedicure Prices in 2026: Full Cost Breakdown | BKRDY",
+      "metaDescription": "What a pedicure costs in 2026: basic, spa, gel, and luxury pricing, what drives the price up, tipping norms, and what techs should charge for each tier.",
+      "h1": "Pedicure prices in 2026, tier by tier",
+      "italicTagline": "What clients pay, what techs should charge, and where the line is.",
+      "primaryKeyword": "pedicure prices",
+      "secondaryKeywords": [
+        "pedicure cost",
+        "spa pedicure price",
+        "gel pedicure price",
+        "how much is a pedicure",
+        "pedicure price list"
+      ],
+      "estVolume": "3600/mo",
+      "intent": "MOFU",
+      "intro": "180-220 word intro. Same dual-audience play as the shipped eyelash-extension-prices and waxing-prices posts, which is the house's proven pattern: consumer search volume, tech-side conversion. Open on the honest spread (a basic pedicure and a luxury spa pedicure are 4x apart and both are fair). Promise the tier table, the reasons prices differ (products, time, sanitation standards, location), tipping norms, and then flip to the tech side: what to charge per tier and why racing to the bottom on pedicures is how salons quietly lose money. No em-dashes.",
+      "sections": [
+        {
+          "kicker": "The tiers",
+          "title": "Basic to luxury: the 2026 price table",
+          "direction": "Table: basic, spa, gel, deluxe/luxury with typical US ranges and durations. City-tier spread. What each tier actually includes so the ranges make sense."
+        },
+        {
+          "kicker": "What moves the price",
+          "title": "Why one pedicure is $35 and another is $120",
+          "direction": "Products, add-ons (paraffin, callus, art), time, sanitation and licensing costs, location rent math. Consumer-readable but seeds the value story techs need."
+        },
+        {
+          "kicker": "Tipping + etiquette",
+          "title": "Tipping norms and rebooking",
+          "direction": "Standard tip range, cash vs card, prebooking the next visit. Short section, consumer-facing."
+        },
+        {
+          "kicker": "For techs",
+          "title": "What to charge, per tier, with the math",
+          "direction": "Flip to the pro audience: cost-per-service worked example, when to introduce a premium tier, menu presentation with durations and deposits. Internal links: /blog/nail-tech-price-list (shipped), /guides/how-much-deposit-to-charge/, /for-nail-techs/."
+        }
+      ],
+      "research": {
+        "primaryKeyword": "pedicure prices",
+        "volume": 3600,
+        "difficulty": 0,
+        "serpNotes": "Groupon, beauty-school blogs, Airtasker, local salon pages, Yelp, one Booksy marketplace page. Thin, beatable. Consumer intent, but the house pattern (eyelash-extension-prices 5400/mo, waxing-prices 880/mo, both shipped from the June batch) validates the dual-audience pricing guide. MODERATE-to-STRONG.",
+        "dataset": "dataset-2026-07-19.json"
+      },
+      "status": "pending"
+    },
+    {
+      "slug": "mobile-nail-tech",
+      "url": "/blog/mobile-nail-tech/",
+      "type": "guide",
+      "cluster": "beauty-business-growth",
+      "metaTitle": "How to Run a Mobile Nail Business in 2026 | BKRDY",
+      "metaDescription": "The mobile nail tech playbook: kit, travel pricing, service area rules, deposits that protect your drive time, and the booking setup that makes it work.",
+      "h1": "The mobile nail tech playbook",
+      "italicTagline": "Your car is the salon. Here is how the business side works.",
+      "primaryKeyword": "mobile nail technician",
+      "secondaryKeywords": [
+        "mobile nail tech",
+        "mobile nail business",
+        "how to start a nail business at home",
+        "traveling nail tech",
+        "mobile nail tech prices"
+      ],
+      "estVolume": "1300/mo",
+      "intent": "MOFU",
+      "intro": "180-220 word intro. The SERP is supplier blogs listing kit items and one competitor how-to; nobody covers the operating model that makes mobile work or fail: travel time is unpaid inventory. Open there. Promise the full business side: what a mobile setup costs, how to price with a travel fee or zone system, why deposits are non-negotiable when a no-show costs you the appointment AND the drive, service-area boundaries, and the booking setup (clients pick from your real availability, address collected at booking, buffer time between zones). BKRDY ties are natural and load-bearing here: buffers, deposits, intake fields. No em-dashes.",
+      "sections": [
+        {
+          "kicker": "The model",
+          "title": "Mobile vs home studio vs booth rent: the real math",
+          "direction": "Compare the three paths on startup cost, monthly overhead, and ceiling. Mobile wins on overhead, loses on volume; be honest about it."
+        },
+        {
+          "kicker": "Pricing",
+          "title": "Travel fees, zones, and minimums",
+          "direction": "Three pricing schemes: flat travel fee, zone pricing, service minimums per distance band. Worked example with drive-time math. When to say no to a booking."
+        },
+        {
+          "kicker": "Protection",
+          "title": "Deposits and policies that respect your drive",
+          "direction": "A mobile no-show costs double. Deposit sizing, cancellation window sized to your route planning, address-at-booking. Internal: /guides/deposit-best-practices/, /guides/cancellation-policy-template/."
+        },
+        {
+          "kicker": "The setup",
+          "title": "A booking flow built for mobile",
+          "direction": "Buffers between appointments as drive time, service-area statement on the booking page, intake questions (address, parking, power outlet for e-file). CTA: a BKRDY site handles all of this from the free plan up; link /for-nail-techs/."
+        }
+      ],
+      "research": {
+        "primaryKeyword": "mobile nail technician",
+        "volume": 1300,
+        "difficulty": 7,
+        "serpNotes": "Supplier blogs (iGel, Dashboard Beauty), one GlossGenius how-to, ZipRecruiter, Yelp locals. Thin, beginner-level, only one SaaS present. Perfect owner intent. STRONG opening.",
+        "dataset": "dataset-2026-07-19.json"
+      },
+      "status": "pending"
+    },
+    {
+      "slug": "tattoo-booking-software",
+      "url": "/blog/tattoo-booking-software/",
+      "type": "comparison",
+      "cluster": "comparison",
+      "metaTitle": "Best Tattoo Booking Software and Apps (2026) | BKRDY",
+      "metaDescription": "Tattoo booking software compared for 2026: BKRDY, Venue Ink, Bookedin, Porter, and Setmore. Deposits, flash drops, consent forms, and real pricing.",
+      "h1": "Tattoo booking software, compared",
+      "italicTagline": "Five platforms scored on what a tattoo studio actually needs.",
+      "primaryKeyword": "tattoo booking software",
+      "secondaryKeywords": [
+        "tattoo booking apps",
+        "best tattoo booking app",
+        "tattoo appointment app",
+        "tattoo studio software",
+        "how to book a tattoo appointment"
+      ],
+      "estVolume": "210/mo primary, ~540/mo cluster",
+      "intent": "BOFU",
+      "intro": "180-220 word intro. Every comparison ranking for this term is written by one of the tools in it; say that first and promise a scored comparison against tattoo-specific criteria instead: deposits that actually protect multi-hour slots, consultation-then-appointment flows, flash drop releases, portfolio presentation, consent and intake forms, and what each platform costs at real volume. Include BKRDY honestly (strong on deposits, drops, portfolio sites, no tattoo-specific consent forms yet) so the piece earns trust. Tattoo studios are a BKRDY vertical (the Inkhouse template exists for them). No em-dashes.",
+      "sections": [
+        {
+          "kicker": "Criteria",
+          "title": "What a tattoo studio actually needs from booking",
+          "direction": "Deposits sized to hours-long slots, custom vs flash flows, waitlists for cancellations, artist-level calendars, portfolio-first public page. Set the scoring frame."
+        },
+        {
+          "kicker": "The field",
+          "title": "Five platforms, scored",
+          "direction": "BKRDY, Venue Ink, Bookedin, Porter, Setmore. Score each against the criteria with honest pros/cons and pricing. No fake ratings; text verdicts."
+        },
+        {
+          "kicker": "Deposits + drops",
+          "title": "The two features that pay for themselves",
+          "direction": "Deposit math on a 4-hour session no-show. Flash drops as release-day scheduling (BKRDY booking drops map 1:1). Internal: /guides/deposit-best-practices/."
+        },
+        {
+          "kicker": "Verdict",
+          "title": "Who should pick what",
+          "direction": "Match studio types to tools honestly: high-volume street shop, custom-only private studio, solo artist. CTA to the Inkhouse template demo and /features/."
+        }
+      ],
+      "research": {
+        "primaryKeyword": "tattoo booking software",
+        "volume": 210,
+        "clusterVolumes": {
+          "tattoo booking apps": 260,
+          "best tattoo booking app": 70,
+          "how to book a tattoo appointment": 140
+        },
+        "difficulty": 2,
+        "serpNotes": "Niche vertical tools (Venue Ink, Tattoo Studio Pro, Porter, Bookedin) product pages + their own self-serving listicles; Setmore landing page. No Capterra/G2 dominance, modest authority everywhere. BOFU intent BKRDY serves directly. STRONG opening.",
+        "dataset": "dataset-2026-07-19.json"
+      },
+      "status": "pending"
+    },
+    {
+      "slug": "brow-lamination-cost",
+      "url": "/blog/brow-lamination-cost/",
+      "type": "guide",
+      "cluster": "pricing",
+      "metaTitle": "Brow Lamination Cost in 2026 (+ What to Charge) | BKRDY",
+      "metaDescription": "Brow lamination costs in 2026: typical prices, lamination vs tint vs microblading compared, how long results last, and what brow techs should charge.",
+      "h1": "Brow lamination cost, explained",
+      "italicTagline": "What clients pay, how it compares to tint and microblading, and the tech-side math.",
+      "primaryKeyword": "brow lamination cost",
+      "secondaryKeywords": [
+        "brow lamination and tint",
+        "brow lamination vs microblading",
+        "brow lamination vs brow tint",
+        "what is brow lamination and tint",
+        "how long does brow lamination last"
+      ],
+      "estVolume": "1000/mo primary, ~4000/mo cluster",
+      "intent": "MOFU",
+      "intro": "180-220 word intro. Third entry in the pricing-guide pattern, aimed at the brow niche where BKRDY has no content yet. SERP for cost is soft (StyleSeat blog, small studios, product brands). Open on the typical range and the immediate follow-up every searcher has: is it worth it vs tint or microblading. Promise the price table, the three-way comparison (results, longevity, commitment, price), aftercare basics only as far as they affect value, then the flip: what brow techs should charge, why lamination + tint bundles lift ticket size, and how a clean bookable menu sells the combo. No em-dashes.",
+      "sections": [
+        {
+          "kicker": "The price",
+          "title": "Typical brow lamination prices in 2026",
+          "direction": "Range table: lamination alone, lamination + tint, lamination + tint + wax bundles. City-tier spread. How long results last (6-8 weeks) so cost-per-week framing lands."
+        },
+        {
+          "kicker": "The comparison",
+          "title": "Lamination vs tint vs microblading",
+          "direction": "Three-way table: what each does, longevity, pain/commitment, price, who each suits. This section targets the 480-720/mo vs-keywords; keep it genuinely useful for consumers."
+        },
+        {
+          "kicker": "Worth it?",
+          "title": "When lamination is the right call",
+          "direction": "Honest fit guidance (sparse vs unruly brows, maintenance appetite). Short. Consumer trust section."
+        },
+        {
+          "kicker": "For brow techs",
+          "title": "What to charge and how to sell the bundle",
+          "direction": "Cost per service (product, time), bundle pricing that lifts average ticket, rebooking cadence at 6-8 weeks, deposits for no-show-prone slots. Internal: /for-estheticians/, /guides/how-much-deposit-to-charge/. CTA: a bookable menu with bundles on BKRDY."
+        }
+      ],
+      "research": {
+        "primaryKeyword": "brow lamination cost",
+        "volume": 1000,
+        "clusterVolumes": {
+          "brow lamination and tint": 4400,
+          "what is brow lamination and tint": 1300,
+          "brow lamination vs microblading": 720,
+          "brow lamination vs brow tint": 480
+        },
+        "difficulty": 0,
+        "serpNotes": "Cost SERP: StyleSeat blog, Healthline, product brands, local studios, one pro-side what-to-charge post. Soft and beatable. Aftercare variant skipped: pure consumer intent, franchise education pages, zero owner angle. MODERATE-to-STRONG via the dual-audience angle.",
+        "dataset": "dataset-2026-07-19.json"
+      },
+      "status": "pending"
+    },
+    {
+      "slug": "salon-gift-card-template",
+      "url": "/blog/salon-gift-card-template/",
+      "type": "guide",
+      "cluster": "growth",
+      "metaTitle": "Salon Gift Card Templates + How to Sell Them | BKRDY",
+      "metaDescription": "Free salon gift card templates plus the playbook: pricing, expiry rules, holiday timing, and how selling digital gift cards online beats paper cards.",
+      "h1": "Salon gift cards: templates and the selling playbook",
+      "italicTagline": "Free templates to start today, and the digital setup that outsells them.",
+      "primaryKeyword": "salon gift card template",
+      "secondaryKeywords": [
+        "hair salon gift cards",
+        "hair salon gift certificate",
+        "salon gift certificate template",
+        "sell gift cards online salon",
+        "salon gift card ideas"
+      ],
+      "estVolume": "110/mo primary, ~1900/mo cluster",
+      "intent": "MOFU",
+      "intro": "180-220 word intro. The promotion-ideas angle for salon gift cards is owned by Mangomint, GlossGenius, and every mid-tier SaaS; do not fight it head-on. Lead instead with the thing people can use in the next five minutes: clean gift card and gift certificate templates (printable + digital). Then earn the strategic read: why gift cards are found money for salons (prepaid revenue, breakage, new-client acquisition through gifting), the three rules that keep them legal and un-annoying (expiry, balance, refund policy), holiday timing that actually matters (the two weeks before Mother's Day and Christmas move most volume), and why digital cards sold from your booking site outsell paper. BKRDY tie: gift cards are built in. No em-dashes.",
+      "sections": [
+        {
+          "kicker": "The templates",
+          "title": "Free salon gift card templates",
+          "direction": "Offer 3-4 clean template designs described concretely (minimal, floral, holiday, luxe) with what to put on each face: amount, code, expiry, booking URL. This is the section that ranks; make it genuinely complete."
+        },
+        {
+          "kicker": "The money",
+          "title": "Why gift cards are found money",
+          "direction": "Prepaid cash flow, breakage rates honestly explained, gift buyers become new clients. One worked example: 30 cards at $50 over the holidays."
+        },
+        {
+          "kicker": "The rules",
+          "title": "Expiry, balances, and not being shady",
+          "direction": "State-law reality check on expiration (many states restrict it), clear balance policy, refund stance. Keep it practical, not legal advice."
+        },
+        {
+          "kicker": "Going digital",
+          "title": "Selling gift cards from your booking site",
+          "direction": "Paper cards need a counter; digital cards sell at 11pm from an Instagram link. Walk the flow: buy, receive by email, redeem at booking. BKRDY gift cards CTA + internal /features/."
+        }
+      ],
+      "research": {
+        "primaryKeyword": "salon gift card template",
+        "volume": 110,
+        "clusterVolumes": {
+          "hair salon gift cards": 880,
+          "hair salon gift certificate": 880,
+          "hair salon gift card templates": 110
+        },
+        "difficulty": 0,
+        "serpNotes": "Head terms (hair salon gift cards, 880/mo): wall-to-wall competitor SaaS promotion listicles (Mangomint, GlossGenius, Goldie, DaySmart). Template variant: kd0, weak marketplace results. Enter through the template wedge, let head terms ride as secondaries. MODERATE, product-aligned (gift cards shipped in BKRDY).",
+        "dataset": "dataset-2026-07-19.json"
+      },
+      "status": "pending"
     }
   ]
 }
