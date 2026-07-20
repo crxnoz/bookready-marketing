@@ -4592,6 +4592,19 @@
         "dataset": "dataset-2026-07-19.json"
       },
       "status": "pending"
+    },
+    {
+      "slug": "lash-artist-scheduling-best-practices",
+      "url": "/blog/lash-artist-scheduling-best-practices/",
+      "type": "blog",
+      "status": "shipped",
+      "shippedAt": "2026-07-20",
+      "h1": "Lash Artist Scheduling Best Practices for 2026",
+      "metaTitle": "Lash Artist Scheduling Best Practices for 2026 | BKRDY",
+      "metaDescription": "Discover essential lash artist scheduling best practices for 2026. Streamline your booking, enhance client communication, and boost rebooking today!",
+      "featuredImage": "https://bkrdy.com/images/blog/blg/1784527580813_Lash-artist-managing-schedule-at-desk.jpeg",
+      "source": "babylovegrowth",
+      "externalId": 622653
     }
   ]
 }
