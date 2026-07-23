@@ -3280,7 +3280,8 @@
       "recommendedRelatedIndustry": "lash-artists",
       "ctaPlan": "Studio",
       "ctaIndustry": "lash-artists",
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-07-23"
     },
     {
       "slug": "content-ideas-for-beauty-businesses",
