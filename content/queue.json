@@ -4646,6 +4646,19 @@
       "featuredImage": "https://bkrdy.com/images/blog/blg/1784770543150_Spa-manager-working-on-booking-software.jpeg",
       "source": "babylovegrowth",
       "externalId": 634165
+    },
+    {
+      "slug": "barber-app",
+      "url": "/blog/barber-app/",
+      "type": "blog",
+      "status": "shipped",
+      "shippedAt": "2026-07-24",
+      "h1": "Barber App for Beauty Studios: Branded Booking Websites",
+      "metaTitle": "Barber App for Beauty Studios: Branded Booking Websites | BKRDY",
+      "metaDescription": "Transform your beauty studio with a branded barber app. Reduce no-shows, control pricing, and enhance client retention today!",
+      "featuredImage": "https://bkrdy.com/images/blog/blg/1784857035895_Beauty-studio-owner-using-booking-app-on-tablet.jpeg",
+      "source": "babylovegrowth",
+      "externalId": 638034
     }
   ]
 }
