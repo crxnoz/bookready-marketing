@@ -56,7 +56,6 @@
     .lo-card {
       background: #FFFFFF;
       border: 1px solid var(--accent);
-      border-radius: 14px;
       padding: 24px 22px 26px;
       box-shadow: 0 14px 34px rgba(232,199,218,0.35);
       max-width: 420px;
@@ -86,7 +85,7 @@
       background: #FFFFFF;
       border: 1px solid var(--border, rgba(18,18,18,0.10));
       border-top: 3px solid var(--accent);
-      border-radius: 10px;
+      border-radius: 0;
       padding: 24px 22px;
     }
     .lo-step__num {
@@ -101,7 +100,7 @@
       max-width: 460px; margin: 0 auto;
       background: #FFFFFF;
       border: 1px solid var(--border, rgba(18,18,18,0.10));
-      border-radius: 12px; overflow: hidden;
+      overflow: hidden;
       box-shadow: 0 14px 34px rgba(18,18,18,0.06);
     }
     .lo-mail__bar {
@@ -118,7 +117,7 @@
     .lo-mail__row span:last-child  { font-weight: 600; }
     .lo-mail__loyalty {
       margin-top: 16px; background: #FDF0F6;
-      border: 1px solid var(--accent); border-radius: 10px; padding: 16px 18px;
+      border: 1px solid var(--accent); padding: 16px 18px;
     }
     .lo-mail__head { font-size: 15px; font-weight: 700; margin: 0; }
     .lo-mail__sub  { font-size: 13px; color: var(--muted, #6B7280); margin: 3px 0 0; }
@@ -128,144 +127,96 @@
 
     /* ── Hero scene: the client's phone with the confirmation email behind it.
        Pure CSS, no images, so it stays crisp and costs nothing to load. ── */
+
+    /* ── Hero scene: the confirmation email the client receives, with the
+       punch card inside it. Pure CSS, no images. Square corners throughout,
+       the only circles are the stamps themselves, which are the product. ── */
     .lo-scene {
       position: relative;
       width: 100%;
-      max-width: 520px;
-      min-height: 470px;
+      max-width: 440px;
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 26px 0 30px;
     }
-    /* Soft pink glow behind the whole composition. */
     .lo-scene::before {
       content: "";
       position: absolute;
-      inset: 8% 4% 12%;
-      background: radial-gradient(60% 55% at 55% 45%, rgba(232,199,218,0.55) 0%, rgba(232,199,218,0) 70%);
+      inset: 0 -6% 4%;
+      background: radial-gradient(60% 55% at 50% 48%, rgba(232,199,218,0.55) 0%, rgba(232,199,218,0) 72%);
       filter: blur(6px);
     }
 
-    /* Email card, tucked behind and to the left */
     .lo-scene__mail {
-      position: absolute;
-      left: 0;
-      top: 12%;
-      width: 250px;
-      background: #FFFFFF;
-      border: 1px solid var(--border, rgba(18,18,18,0.10));
-      border-radius: 12px;
-      padding: 16px 16px 14px;
-      box-shadow: 0 18px 40px rgba(18,18,18,0.10);
-      transform: rotate(-4deg);
-    }
-    .lo-mini__label {
-      font-size: 9.5px; font-weight: 700; letter-spacing: 0.14em;
-      text-transform: uppercase; color: var(--muted, #6B7280); margin: 0 0 4px;
-    }
-    .lo-mini__head { font-size: 15px; font-weight: 700; margin: 0 0 10px; }
-    .lo-mini__rows { display: grid; gap: 6px; margin-bottom: 12px; }
-    .lo-mini__row {
-      display: flex; justify-content: space-between; gap: 10px;
-      font-size: 11.5px; color: var(--muted, #6B7280);
-      padding-bottom: 6px; border-bottom: 1px solid rgba(18,18,18,0.06);
-    }
-    .lo-mini__card {
-      background: #FDF0F6; border: 1px solid var(--accent);
-      border-radius: 8px; padding: 11px 12px;
-    }
-    .lo-mini__note { font-size: 10.5px; color: var(--muted, #6B7280); margin: 8px 0 0; }
-
-    /* Phone */
-    .lo-scene__phone {
       position: relative;
       z-index: 2;
-      width: 264px;
-      margin-left: 78px;
-      background: #121212;
-      border-radius: 34px;
-      padding: 9px;
-      box-shadow: 0 30px 60px rgba(18,18,18,0.22), 0 4px 12px rgba(18,18,18,0.10);
-    }
-    .lo-phone__screen {
+      width: 100%;
       background: #FFFFFF;
-      border-radius: 26px;
-      overflow: hidden;
+      border: 1px solid var(--border, rgba(18,18,18,0.10));
+      box-shadow: 0 26px 56px rgba(18,18,18,0.13);
     }
-    .lo-phone__bar {
-      display: flex; align-items: center; gap: 8px;
-      padding: 13px 16px 11px;
+    .lo-mail__top {
+      background: #FDF4F8;
+      border-bottom: 1px solid var(--accent);
+      padding: 13px 22px;
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 0.14em; text-transform: uppercase;
+      color: #B14C7D;
+    }
+    .lo-mail__inner { padding: 22px 22px 24px; }
+    .lo-mail__title { font-size: 21px; font-weight: 700; margin: 0 0 16px; }
+    .lo-mini__rows { display: grid; gap: 0; margin-bottom: 18px; }
+    .lo-mini__row {
+      display: flex; justify-content: space-between; gap: 14px;
+      font-size: 13px; padding: 9px 0;
       border-bottom: 1px solid rgba(18,18,18,0.07);
     }
-    .lo-phone__dot {
-      width: 7px; height: 7px; border-radius: 999px; background: var(--accent);
-      flex: 0 0 auto;
-    }
-    .lo-phone__title { font-size: 11px; font-weight: 700; letter-spacing: 0.04em; }
-    .lo-phone__body { padding: 16px 16px 18px; }
-    .lo-phone__biz {
-      font-size: 9.5px; font-weight: 700; letter-spacing: 0.14em;
-      text-transform: uppercase; color: var(--muted, #6B7280); margin: 0 0 6px;
-    }
-    .lo-phone__svc { font-size: 16px; font-weight: 700; margin: 0 0 2px; }
-    .lo-phone__when { font-size: 11.5px; color: var(--muted, #6B7280); margin: 0 0 14px; }
-    .lo-phone__card {
+    .lo-mini__row span:first-child { color: var(--muted, #6B7280); }
+    .lo-mini__row span:last-child  { font-weight: 600; }
+
+    .lo-mini__card {
       background: #FDF0F6;
       border: 1px solid var(--accent);
-      border-radius: 10px;
-      padding: 13px 13px 14px;
+      padding: 16px 18px 18px;
     }
-    .lo-phone__go { font-size: 13.5px; font-weight: 700; margin: 0 0 10px; }
-    .lo-phone__toward { font-size: 10.5px; color: var(--muted, #6B7280); margin: 9px 0 0; }
-    .lo-phone__actions { display: flex; gap: 7px; margin-top: 14px; }
-    .lo-phone__btn {
-      flex: 1; text-align: center;
-      background: #121212; color: #FFFFFF;
-      font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
-      padding: 9px 6px; border-radius: 7px;
+    .lo-mini__label {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--muted, #6B7280); margin: 0 0 6px;
     }
-    .lo-phone__btn--ghost {
-      background: #FFFFFF; color: #121212;
-      border: 1px solid rgba(18,18,18,0.16);
-    }
+    .lo-mini__head { font-size: 15px; font-weight: 700; margin: 0; }
+    .lo-mini__note { font-size: 12px; color: var(--muted, #6B7280); margin: 3px 0 0; }
 
-    /* Floating reward chip */
+    /* Floating reward tag, square to match */
     .lo-scene__chip {
       position: absolute;
-      right: 0; top: 16%;
+      right: -10px; top: 4px;
       z-index: 3;
       display: inline-flex; align-items: center; gap: 7px;
-      background: #FFFFFF;
-      border: 1px solid var(--accent);
-      border-radius: 999px;
+      background: #121212; color: #FFFFFF;
       padding: 9px 15px;
-      font-size: 12px; font-weight: 700;
-      box-shadow: 0 12px 28px rgba(232,199,218,0.55);
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      box-shadow: 0 14px 30px rgba(18,18,18,0.22);
       animation: lo-bob 4.5s ease-in-out infinite;
     }
-    .lo-chip__star { color: #B14C7D; font-size: 13px; }
+    .lo-chip__star { color: var(--accent); font-size: 12px; }
     @keyframes lo-bob {
       0%, 100% { transform: translateY(0); }
-      50%      { transform: translateY(-8px); }
+      50%      { transform: translateY(-7px); }
     }
     @media (prefers-reduced-motion: reduce) {
       .lo-scene__chip { animation: none; }
     }
 
-    /* Small stamp sizes used inside the scene */
-    .lo-stamps--sm .lo-stamp { width: 26px; height: 26px; font-size: 11px; }
-    .lo-stamps--sm { gap: 6px; margin-top: 0; }
-    .lo-stamps--xs .lo-stamp { width: 21px; height: 21px; font-size: 9.5px; }
-    .lo-stamps--xs { gap: 5px; margin-top: 0; }
-    .lo-stamps--xs .lo-stamp--next { border-width: 1.5px; }
+    .lo-stamps--sm { gap: 8px; margin-top: 12px; }
+    .lo-stamps--sm .lo-stamp { width: 30px; height: 30px; font-size: 12px; }
 
-    /* Stack the scene down on narrow screens: the email slides under the
-       phone rather than off the edge, and the chip tucks in tighter. */
     @media (max-width: 560px) {
-      .lo-scene { min-height: 0; flex-direction: column; max-width: 320px; }
-      .lo-scene__mail { position: relative; left: auto; top: auto; width: 100%; transform: none; margin-bottom: -22px; }
-      .lo-scene__phone { margin-left: 0; }
-      .lo-scene__chip { right: -6px; top: 46%; }
+      .lo-scene { max-width: 340px; }
+      .lo-scene__chip { right: -4px; }
+      .lo-stamps--sm .lo-stamp { width: 27px; height: 27px; }
+    }
     }
   </style>
 </head>
@@ -602,66 +553,37 @@
 
     <div class="br-pagehero__visual">
       <div class="lo-scene" aria-hidden="true">
-        <!-- Confirmation email, sitting behind -->
         <div class="lo-scene__mail">
-          <p class="lo-mini__label">Appointment confirmed</p>
-          <p class="lo-mini__head">You&rsquo;re booked in</p>
-          <div class="lo-mini__rows">
-            <div class="lo-mini__row"><span>Friday, Aug 1</span><span>12:00 PM</span></div>
-            <div class="lo-mini__row"><span>Signature Lash Set</span><span>$130</span></div>
-          </div>
-          <div class="lo-mini__card">
-            <div class="lo-stamps lo-stamps--xs">
-              <span class="lo-stamp lo-stamp--done">&#10003;</span>
-              <span class="lo-stamp lo-stamp--done">&#10003;</span>
-              <span class="lo-stamp lo-stamp--done">&#10003;</span>
-              <span class="lo-stamp lo-stamp--done">&#10003;</span>
-              <span class="lo-stamp lo-stamp--next">5</span>
-              <span class="lo-stamp lo-stamp--gift">&#9733;</span>
+          <div class="lo-mail__top">Appointment confirmed</div>
+          <div class="lo-mail__inner">
+            <p class="lo-mail__title">You&rsquo;re booked in</p>
+            <div class="lo-mini__rows">
+              <div class="lo-mini__row"><span>Service</span><span>Signature Lash Set</span></div>
+              <div class="lo-mini__row"><span>Date</span><span>Friday, August 1</span></div>
+              <div class="lo-mini__row"><span>Time</span><span>12:00 PM</span></div>
+              <div class="lo-mini__row"><span>Location</span><span>356 7th Avenue</span></div>
             </div>
-            <p class="lo-mini__note">One more and your next fill is on us.</p>
-          </div>
-        </div>
-
-        <!-- Phone: the client's booking page -->
-        <div class="lo-scene__phone">
-          <div class="lo-phone__screen">
-            <div class="lo-phone__bar">
-              <span class="lo-phone__dot"></span>
-              <span class="lo-phone__title">Your appointment</span>
-            </div>
-            <div class="lo-phone__body">
-              <p class="lo-phone__biz">Lush Studio</p>
-              <p class="lo-phone__svc">Signature Lash Set</p>
-              <p class="lo-phone__when">Friday, August 1 &middot; 12:00 PM</p>
-
-              <div class="lo-phone__card">
-                <p class="lo-mini__label">Your punch card</p>
-                <p class="lo-phone__go">One more visit to go</p>
-                <div class="lo-stamps lo-stamps--sm">
-                  <span class="lo-stamp lo-stamp--done">&#10003;</span>
-                  <span class="lo-stamp lo-stamp--done">&#10003;</span>
-                  <span class="lo-stamp lo-stamp--done">&#10003;</span>
-                  <span class="lo-stamp lo-stamp--done">&#10003;</span>
-                  <span class="lo-stamp lo-stamp--next">5</span>
-                  <span class="lo-stamp lo-stamp--gift">&#9733;</span>
-                </div>
-                <p class="lo-phone__toward">toward a free lash fill</p>
-              </div>
-
-              <div class="lo-phone__actions">
-                <span class="lo-phone__btn">Reschedule</span>
-                <span class="lo-phone__btn lo-phone__btn--ghost">Cancel</span>
+            <div class="lo-mini__card">
+              <p class="lo-mini__label">Your punch card</p>
+              <p class="lo-mini__head">This visit makes 4 of 5</p>
+              <p class="lo-mini__note">One more and your next fill is on us.</p>
+              <div class="lo-stamps lo-stamps--sm">
+                <span class="lo-stamp lo-stamp--done">&#10003;</span>
+                <span class="lo-stamp lo-stamp--done">&#10003;</span>
+                <span class="lo-stamp lo-stamp--done">&#10003;</span>
+                <span class="lo-stamp lo-stamp--done">&#10003;</span>
+                <span class="lo-stamp lo-stamp--next">5</span>
+                <span class="lo-stamp lo-stamp--gift">&#9733;</span>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Floating reward chip -->
         <div class="lo-scene__chip">
           <span class="lo-chip__star">&#9733;</span>
           <span>Reward ready</span>
         </div>
+      </div>
       </div>
     </div>
   </section>
