@@ -37,274 +37,94 @@
     ]
   }
   </script>
-
-</head>
-
-  <!-- ─── Loyalty page: scoped sweet-shop styling. Every rule is namespaced
-       under .lv- so nothing leaks into the rest of the marketing site. ─── -->
   <style>
-    .lv {
-      --lv-pink:      #F3C7DC;
-      --lv-pink-deep: #D9548E;
-      --lv-pink-ink:  #7A2348;
-      --lv-cream:     #FFF7FA;
-      --lv-lilac:     #EDE6FF;
-      --lv-butter:    #FFF2D6;
-      --lv-ink:       #2B1B24;
-      --lv-muted:     #7C6470;
-      --lv-line:      rgba(43,27,36,0.10);
-    }
-    .lv * { box-sizing: border-box; }
+    /* Loyalty page — a pink layer over the standard page components. Built on
+       the site's own --accent (#E8C7DA) so it stays on-brand; only the punch
+       card, the step cards, and the email mock need markup of their own,
+       since nothing equivalent exists in the shared stylesheet. All rules are
+       namespaced .lo- (plus page-scoped overrides) so nothing leaks. */
+    .lo-tint { background: #FDF4F8; }
+    .lo-tint .br-feat { background: #FFFFFF; }
 
-    /* Hero */
-    .lv-hero {
-      position: relative;
-      overflow: hidden;
-      background:
-        radial-gradient(120% 90% at 12% 0%, #FFE9F2 0%, rgba(255,233,242,0) 60%),
-        radial-gradient(100% 80% at 92% 18%, #F1ECFF 0%, rgba(241,236,255,0) 62%),
-        var(--lv-cream);
-      padding: clamp(56px, 8vw, 96px) 20px clamp(52px, 7vw, 84px);
-      text-align: center;
-    }
-    .lv-hero__inner { max-width: 780px; margin: 0 auto; position: relative; z-index: 2; }
-    .lv-badge {
-      display: inline-flex; align-items: center; gap: 8px;
+    /* Pink kickers + a pink rule under section headings on this page only. */
+    .br-pagehero .br-kicker,
+    .br-section .br-kicker { color: #B14C7D; }
+    .br-pagehead__title .br-italic { color: #B14C7D; }
+    .br-feat__icon { color: #B14C7D; background: #FDF0F6; }
+
+    /* Punch card */
+    .lo-card {
       background: #FFFFFF;
-      border: 1px solid var(--lv-pink);
-      color: var(--lv-pink-ink);
-      font-family: Inter, system-ui, sans-serif;
-      font-size: 12px; font-weight: 700;
-      letter-spacing: 0.12em; text-transform: uppercase;
-      padding: 8px 16px; border-radius: 999px;
-      box-shadow: 0 6px 18px rgba(217,84,142,0.12);
+      border: 1px solid var(--accent);
+      border-radius: 14px;
+      padding: 24px 22px 26px;
+      box-shadow: 0 14px 34px rgba(232,199,218,0.35);
+      max-width: 420px;
     }
-    .lv-hero h1 {
-      font-family: Fraunces, Georgia, serif;
-      font-weight: 400;
-      font-size: clamp(38px, 7vw, 68px);
-      line-height: 1.03;
-      letter-spacing: -0.02em;
-      color: var(--lv-ink);
-      margin: 20px 0 16px;
-      text-wrap: balance;
+    .lo-card__label {
+      font-size: 11px; font-weight: 700; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--muted, #6B7280); margin: 0 0 8px;
     }
-    .lv-hero h1 em {
-      font-style: italic;
-      color: var(--lv-pink-deep);
-    }
-    .lv-hero p.lv-lede {
-      font-family: Inter, system-ui, sans-serif;
-      font-size: clamp(16px, 2.1vw, 19px);
-      line-height: 1.6;
-      color: var(--lv-muted);
-      max-width: 56ch;
-      margin: 0 auto 28px;
-    }
-    .lv-cta { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
-    .lv-btn {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: var(--lv-pink-deep); color: #FFFFFF;
-      font-family: Inter, system-ui, sans-serif;
-      font-size: 14px; font-weight: 700; letter-spacing: 0.02em;
-      text-decoration: none;
-      padding: 15px 30px; border-radius: 999px;
-      box-shadow: 0 10px 24px rgba(217,84,142,0.28);
-      transition: transform .18s ease, box-shadow .18s ease;
-    }
-    .lv-btn:hover { transform: translateY(-2px); box-shadow: 0 14px 30px rgba(217,84,142,0.34); }
-    .lv-btn--soft {
-      background: #FFFFFF; color: var(--lv-pink-ink);
-      border: 1px solid var(--lv-pink); box-shadow: none;
-    }
-    .lv-btn--soft:hover { box-shadow: 0 8px 20px rgba(217,84,142,0.14); }
+    .lo-card__head { font-size: 20px; font-weight: 700; margin: 0 0 2px; color: var(--text, #121212); }
+    .lo-card__sub  { font-size: 14px; color: var(--muted, #6B7280); margin: 0; }
 
-    /* Floating confetti hearts, decorative only */
-    .lv-confetti { position: absolute; inset: 0; pointer-events: none; z-index: 1; }
-    .lv-confetti span {
-      position: absolute; font-size: 18px; opacity: .5;
-      animation: lv-float 9s ease-in-out infinite;
-    }
-    .lv-confetti span:nth-child(1) { left: 6%;  top: 22%; animation-delay: 0s;   }
-    .lv-confetti span:nth-child(2) { left: 88%; top: 16%; animation-delay: 1.4s; font-size: 14px; }
-    .lv-confetti span:nth-child(3) { left: 16%; top: 68%; animation-delay: 2.6s; font-size: 15px; }
-    .lv-confetti span:nth-child(4) { left: 79%; top: 72%; animation-delay: 3.8s; }
-    .lv-confetti span:nth-child(5) { left: 46%; top: 8%;  animation-delay: 2s;   font-size: 13px; }
-    @keyframes lv-float {
-      0%, 100% { transform: translateY(0) rotate(-6deg); }
-      50%      { transform: translateY(-16px) rotate(8deg); }
-    }
-    @media (prefers-reduced-motion: reduce) {
-      .lv-confetti span { animation: none; }
-      .lv-btn { transition: none; }
-      .lv-stamp--pop { animation: none !important; }
-    }
-
-    /* The card showcase */
-    .lv-card-wrap { max-width: 520px; margin: 36px auto 0; }
-    .lv-card {
-      background: #FFFFFF;
-      border: 1px solid var(--lv-pink);
-      border-radius: 22px;
-      padding: 26px 24px 28px;
-      box-shadow: 0 18px 46px rgba(217,84,142,0.16);
-      text-align: left;
-    }
-    .lv-card__label {
-      font-family: Inter, system-ui, sans-serif;
-      font-size: 11px; font-weight: 700; letter-spacing: 0.16em;
-      text-transform: uppercase; color: var(--lv-muted); margin: 0 0 6px;
-    }
-    .lv-card__head {
-      font-family: Fraunces, Georgia, serif; font-size: 24px;
-      color: var(--lv-ink); margin: 0 0 4px;
-    }
-    .lv-card__sub {
-      font-family: Inter, system-ui, sans-serif; font-size: 14px;
-      color: var(--lv-muted); margin: 0;
-    }
-    .lv-stamps { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-    .lv-stamp {
-      width: 40px; height: 40px; border-radius: 999px;
+    .lo-stamps { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 16px; }
+    .lo-stamp {
+      width: 34px; height: 34px; border-radius: 999px;
       display: grid; place-items: center;
-      font-family: Inter, system-ui, sans-serif; font-size: 14px; font-weight: 700;
+      font-size: 13px; font-weight: 700; flex: 0 0 auto;
     }
-    .lv-stamp--done { background: var(--lv-pink-deep); color: #FFFFFF; }
-    .lv-stamp--next {
-      background: #FFF0F6; border: 2px dashed var(--lv-pink); color: var(--lv-pink-ink);
-      animation: lv-pulse 2.4s ease-in-out infinite;
-    }
-    .lv-stamp--todo { border: 1px solid var(--lv-line); }
-    .lv-stamp--gift { background: var(--lv-pink); color: var(--lv-pink-ink); font-size: 17px; }
-    @keyframes lv-pulse {
-      0%, 100% { transform: scale(1); }
-      50%      { transform: scale(1.08); }
-    }
-
-    /* Sections */
-    .lv-sec { padding: clamp(52px, 7vw, 84px) 20px; }
-    .lv-sec--tint { background: var(--lv-cream); }
-    .lv-sec__inner { max-width: 1040px; margin: 0 auto; }
-    .lv-kicker {
-      font-family: Inter, system-ui, sans-serif;
-      font-size: 11px; font-weight: 700; letter-spacing: 0.16em;
-      text-transform: uppercase; color: var(--lv-pink-deep);
-      margin: 0 0 10px; text-align: center;
-    }
-    .lv-sec h2 {
-      font-family: Fraunces, Georgia, serif; font-weight: 400;
-      font-size: clamp(28px, 4.2vw, 42px); line-height: 1.1;
-      letter-spacing: -0.015em; color: var(--lv-ink);
-      margin: 0 auto 12px; text-align: center; max-width: 20ch;
-      text-wrap: balance;
-    }
-    .lv-sec h2 em { font-style: italic; color: var(--lv-pink-deep); }
-    .lv-sec__intro {
-      font-family: Inter, system-ui, sans-serif; font-size: 16px; line-height: 1.65;
-      color: var(--lv-muted); max-width: 58ch; margin: 0 auto 40px; text-align: center;
-    }
+    .lo-stamp--done { background: var(--text, #121212); color: #FFFFFF; }
+    .lo-stamp--next { background: #FDF0F6; border: 2px dashed var(--accent); color: var(--text, #121212); }
+    .lo-stamp--todo { border: 1px solid rgba(18,18,18,0.16); }
+    .lo-stamp--gift { background: var(--accent); color: var(--text, #121212); }
 
     /* Steps */
-    .lv-steps { display: grid; gap: 18px; }
-    @media (min-width: 780px) { .lv-steps { grid-template-columns: repeat(3, 1fr); } }
-    .lv-step {
-      background: #FFFFFF; border: 1px solid var(--lv-line);
-      border-radius: 20px; padding: 26px 24px;
-      position: relative;
+    .lo-steps { display: grid; grid-template-columns: 1fr; gap: 16px; }
+    @media (min-width: 760px) { .lo-steps { grid-template-columns: repeat(3, 1fr); } }
+    .lo-step {
+      background: #FFFFFF;
+      border: 1px solid var(--border, rgba(18,18,18,0.10));
+      border-top: 3px solid var(--accent);
+      border-radius: 10px;
+      padding: 24px 22px;
     }
-    .lv-step__n {
-      width: 34px; height: 34px; border-radius: 999px;
-      background: var(--lv-pink); color: var(--lv-pink-ink);
-      display: grid; place-items: center;
-      font-family: Inter, system-ui, sans-serif; font-size: 14px; font-weight: 800;
-      margin-bottom: 14px;
+    .lo-step__num {
+      display: inline-block; font-size: 12px; font-weight: 800;
+      letter-spacing: 0.1em; color: #B14C7D; margin-bottom: 10px;
     }
-    .lv-step h3 {
-      font-family: Fraunces, Georgia, serif; font-size: 21px; font-weight: 400;
-      color: var(--lv-ink); margin: 0 0 8px;
-    }
-    .lv-step p {
-      font-family: Inter, system-ui, sans-serif; font-size: 14.5px; line-height: 1.6;
-      color: var(--lv-muted); margin: 0;
-    }
-
-    /* Feature grid */
-    .lv-grid { display: grid; gap: 16px; }
-    @media (min-width: 700px) { .lv-grid { grid-template-columns: repeat(2, 1fr); } }
-    .lv-tile {
-      border-radius: 20px; padding: 26px 24px;
-      border: 1px solid transparent;
-    }
-    .lv-tile--pink   { background: #FFEFF6; border-color: rgba(217,84,142,0.18); }
-    .lv-tile--lilac  { background: var(--lv-lilac); border-color: rgba(120,90,220,0.14); }
-    .lv-tile--butter { background: var(--lv-butter); border-color: rgba(190,140,20,0.16); }
-    .lv-tile--mint   { background: #E4F5EC; border-color: rgba(30,130,80,0.14); }
-    .lv-tile__icon { font-size: 24px; line-height: 1; margin-bottom: 12px; display: block; }
-    .lv-tile h3 {
-      font-family: Fraunces, Georgia, serif; font-size: 21px; font-weight: 400;
-      color: var(--lv-ink); margin: 0 0 8px;
-    }
-    .lv-tile p {
-      font-family: Inter, system-ui, sans-serif; font-size: 14.5px; line-height: 1.6;
-      color: var(--lv-muted); margin: 0;
-    }
+    .lo-step h3 { font-size: 19px; margin: 0 0 8px; }
+    .lo-step p  { font-size: 15px; line-height: 1.6; color: var(--muted, #6B7280); margin: 0; }
 
     /* Email mock */
-    .lv-mail {
+    .lo-mail {
       max-width: 460px; margin: 0 auto;
-      background: #FFFFFF; border: 1px solid var(--lv-line);
-      border-radius: 18px; overflow: hidden;
-      box-shadow: 0 14px 38px rgba(43,27,36,0.10);
+      background: #FFFFFF;
+      border: 1px solid var(--border, rgba(18,18,18,0.10));
+      border-radius: 12px; overflow: hidden;
+      box-shadow: 0 14px 34px rgba(18,18,18,0.06);
     }
-    .lv-mail__bar {
-      background: #FBF7F9; border-bottom: 1px solid var(--lv-line);
-      padding: 12px 18px;
-      font-family: Inter, system-ui, sans-serif; font-size: 12px; color: var(--lv-muted);
+    .lo-mail__bar {
+      background: #FDF4F8; border-bottom: 1px solid var(--accent);
+      padding: 12px 18px; font-size: 12px; color: var(--muted, #6B7280);
     }
-    .lv-mail__body { padding: 20px 18px 22px; }
-    .lv-mail__row {
+    .lo-mail__body { padding: 18px; }
+    .lo-mail__row {
       display: flex; justify-content: space-between; gap: 16px;
-      font-family: Inter, system-ui, sans-serif; font-size: 13.5px;
-      padding: 8px 0; border-bottom: 1px solid rgba(43,27,36,0.06);
+      font-size: 13.5px; padding: 8px 0;
+      border-bottom: 1px solid rgba(18,18,18,0.06);
     }
-    .lv-mail__row span:first-child { color: var(--lv-muted); }
-    .lv-mail__row span:last-child { color: var(--lv-ink); font-weight: 600; }
-    .lv-mail__loyalty {
-      margin-top: 16px; background: #FFEFF6;
-      border: 1px solid var(--lv-pink); border-radius: 14px; padding: 16px 18px;
+    .lo-mail__row span:first-child { color: var(--muted, #6B7280); }
+    .lo-mail__row span:last-child  { font-weight: 600; }
+    .lo-mail__loyalty {
+      margin-top: 16px; background: #FDF0F6;
+      border: 1px solid var(--accent); border-radius: 10px; padding: 16px 18px;
     }
-    .lv-mail__loyalty .lv-stamps { margin-top: 14px; }
-    .lv-mail__loyalty .lv-stamp { width: 30px; height: 30px; font-size: 12px; }
+    .lo-mail__head { font-size: 15px; font-weight: 700; margin: 0; }
+    .lo-mail__sub  { font-size: 13px; color: var(--muted, #6B7280); margin: 3px 0 0; }
+    .lo-mail__loyalty .lo-stamp { width: 28px; height: 28px; font-size: 12px; }
 
-    /* Quote */
-    .lv-quote {
-      max-width: 720px; margin: 0 auto; text-align: center;
-      font-family: Fraunces, Georgia, serif; font-style: italic;
-      font-size: clamp(21px, 3vw, 30px); line-height: 1.4;
-      color: var(--lv-ink);
-    }
-    .lv-quote__who {
-      display: block; margin-top: 18px;
-      font-family: Inter, system-ui, sans-serif; font-style: normal;
-      font-size: 13px; font-weight: 700; letter-spacing: 0.12em;
-      text-transform: uppercase; color: var(--lv-pink-deep);
-    }
-
-    /* Closing CTA */
-    .lv-final {
-      background: linear-gradient(160deg, #FFE4EF 0%, #F4ECFF 100%);
-      padding: clamp(56px, 8vw, 92px) 20px;
-      text-align: center;
-    }
-    .lv-final h2 { margin-bottom: 14px; }
-    .lv-final p {
-      font-family: Inter, system-ui, sans-serif; font-size: 16px; line-height: 1.6;
-      color: var(--lv-muted); max-width: 48ch; margin: 0 auto 28px;
-    }
-    .lv-fineprint {
-      font-family: Inter, system-ui, sans-serif; font-size: 13px;
-      color: var(--lv-muted); margin-top: 18px;
-    }
+    .lo-where { max-width: 62ch; margin: 0 auto; }
   </style>
 </head>
 <body>
@@ -631,168 +451,133 @@
     <span class="br-crumbs__current" aria-current="page">Loyalty rewards</span>
   </nav>
 
-  <div class="lv">
-
-    <!-- Hero -->
-    <section class="lv-hero">
-      <div class="lv-confetti" aria-hidden="true">
-        <span>&#10084;&#65039;</span><span>&#10024;</span><span>&#127872;</span><span>&#10024;</span><span>&#10084;&#65039;</span>
-      </div>
-      <div class="lv-hero__inner">
-        <span class="lv-badge">New &#10024; Loyalty rewards</span>
-        <h1>Your regulars deserve a <em>little something</em></h1>
-        <p class="lv-lede">
-          Give every client a digital punch card. Visits count themselves, the reward shows
-          up right in their booking emails, and nobody has to keep a paper card in their
-          purse for eight months.
-        </p>
-        <div class="lv-cta">
-          <a class="lv-btn" href="https://app.bkrdy.me/register">Start free</a>
-          <a class="lv-btn lv-btn--soft" href="#how">See how it works</a>
+  <section class="br-pagehero">
+    <div class="br-pagehero__meta">
+      <p class="br-kicker">Product update &middot; Client experience</p>
+      <h1 class="br-pagehead__title">Loyalty rewards, now <span class="br-italic">everywhere they look.</span></h1>
+      <p class="br-pagehead__intro">Your punch card used to live in your dashboard, where clients never saw it. It now rides along in their booking emails, sits on their appointment page, and can advertise itself on your website. You can also stamp a visit by hand for anyone who paid outside the booking system.</p>
+    </div>
+    <div class="br-pagehero__visual">
+      <div class="lo-card">
+        <p class="lo-card__label">Your punch card</p>
+        <p class="lo-card__head">One more visit to go</p>
+        <p class="lo-card__sub">toward a free lash fill</p>
+        <div class="lo-stamps" role="img" aria-label="Four of five visits earned, then the reward">
+          <span class="lo-stamp lo-stamp--done" aria-hidden="true">&#10003;</span>
+          <span class="lo-stamp lo-stamp--done" aria-hidden="true">&#10003;</span>
+          <span class="lo-stamp lo-stamp--done" aria-hidden="true">&#10003;</span>
+          <span class="lo-stamp lo-stamp--done" aria-hidden="true">&#10003;</span>
+          <span class="lo-stamp lo-stamp--next" aria-hidden="true">5</span>
+          <span class="lo-stamp lo-stamp--gift" aria-hidden="true">&#9733;</span>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="lv-card-wrap">
-          <div class="lv-card">
-            <p class="lv-card__label">Your punch card</p>
-            <p class="lv-card__head">One more visit to go</p>
-            <p class="lv-card__sub">toward a free lash fill</p>
-            <div class="lv-stamps" role="img" aria-label="Four of five visits earned">
-              <span class="lv-stamp lv-stamp--done" aria-hidden="true">&#10003;</span>
-              <span class="lv-stamp lv-stamp--done" aria-hidden="true">&#10003;</span>
-              <span class="lv-stamp lv-stamp--done" aria-hidden="true">&#10003;</span>
-              <span class="lv-stamp lv-stamp--done" aria-hidden="true">&#10003;</span>
-              <span class="lv-stamp lv-stamp--next" aria-hidden="true">5</span>
-              <span class="lv-stamp lv-stamp--gift" aria-hidden="true">&#127873;</span>
+  <section class="br-section lo-tint">
+    <div class="br-section__inner">
+      <div class="br-section__head br-section__head--center">
+        <p class="br-kicker">What changed</p>
+        <h2 class="br-section__title">Four new places your card shows up.</h2>
+        <p class="br-section__intro">A reward nobody can see does not bring anyone back, so we moved the card out of your dashboard and in front of your clients.</p>
+      </div>
+      <div class="br-feats">
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
+          <h3>In their booking emails</h3>
+          <p>Confirmations can carry their punch card, so they see how close they are the moment they book. You choose: every booking, only when they are within two visits of the reward, or never.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
+          <h3>On their appointment page</h3>
+          <p>When a client opens their booking details from your email, their stamps are right there, with a gentle nudge to make a free account so they can keep track of their rewards.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+          <h3>On your booking site</h3>
+          <p>An optional band above your footer tells first-time visitors that your regulars get rewarded. It picks up your template colours on its own, and it stays off until you switch it on.</p>
+        </div>
+        <div class="br-feat">
+          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="M5 12h14"/></svg></span>
+          <h3>Stamped by hand</h3>
+          <p>Someone paid cash, or an appointment never got marked complete? Add the visit yourself with one tap. Gave a stamp by mistake? Take it back the same way.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="br-section">
+    <div class="br-section__inner">
+      <div class="br-section__head br-section__head--center">
+        <p class="br-kicker">How it works</p>
+        <h2 class="br-section__title">Nothing new to learn.</h2>
+        <p class="br-section__intro">The program itself works the way it always has. Pick a threshold and a reward, and completed appointments count themselves.</p>
+      </div>
+      <div class="lo-steps">
+        <article class="lo-step">
+          <span class="lo-step__num">01</span>
+          <h3>Choose your reward</h3>
+          <p>Every 5th visit, every 10th, whatever suits you. Write the reward in your own words: a free fill, a complimentary add-on, half off a full set.</p>
+        </article>
+        <article class="lo-step">
+          <span class="lo-step__num">02</span>
+          <h3>Visits count themselves</h3>
+          <p>Every completed appointment adds a stamp. No app for your client to download, no card for them to lose, nothing for you to remember.</p>
+        </article>
+        <article class="lo-step">
+          <span class="lo-step__num">03</span>
+          <h3>Redeem in a tap</h3>
+          <p>Anyone who has earned a reward moves to the top of your loyalty list. Hand it over, tap Redeem, and their card starts fresh.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="br-section lo-tint">
+    <div class="br-section__inner">
+      <div class="br-section__head br-section__head--center">
+        <p class="br-kicker">In their inbox</p>
+        <h2 class="br-section__title">What your clients receive.</h2>
+        <p class="br-section__intro">Most clients never create an account anywhere. That is fine. Their card travels in the email they already open.</p>
+      </div>
+      <div class="lo-mail">
+        <div class="lo-mail__bar">Appointment confirmed &middot; your business</div>
+        <div class="lo-mail__body">
+          <div class="lo-mail__row"><span>Service</span><span>Signature Lash Set</span></div>
+          <div class="lo-mail__row"><span>Date</span><span>Friday, August 1</span></div>
+          <div class="lo-mail__row"><span>Time</span><span>12:00 PM</span></div>
+          <div class="lo-mail__row"><span>Location</span><span>356 7th Avenue</span></div>
+          <div class="lo-mail__loyalty">
+            <p class="lo-card__label">Your punch card</p>
+            <p class="lo-mail__head">This visit makes 4 of 5</p>
+            <p class="lo-mail__sub">One more and your next fill is on us.</p>
+            <div class="lo-stamps" aria-hidden="true">
+              <span class="lo-stamp lo-stamp--done">&#10003;</span>
+              <span class="lo-stamp lo-stamp--done">&#10003;</span>
+              <span class="lo-stamp lo-stamp--done">&#10003;</span>
+              <span class="lo-stamp lo-stamp--done">&#10003;</span>
+              <span class="lo-stamp lo-stamp--next">5</span>
+              <span class="lo-stamp lo-stamp--gift">&#9733;</span>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- How it works -->
-    <section class="lv-sec" id="how">
-      <div class="lv-sec__inner">
-        <p class="lv-kicker">How it works</p>
-        <h2>Set it once, then <em>forget about it</em></h2>
-        <p class="lv-sec__intro">
-          You pick how many visits earn a reward and what the reward is. That is the whole
-          setup. Everything after that runs on its own.
-        </p>
-        <div class="lv-steps">
-          <div class="lv-step">
-            <div class="lv-step__n">1</div>
-            <h3>Choose your reward</h3>
-            <p>Every 5th visit, every 10th, whatever suits you. Write the reward in your own words: a free fill, a complimentary add-on, half off a set.</p>
-          </div>
-          <div class="lv-step">
-            <div class="lv-step__n">2</div>
-            <h3>Visits count themselves</h3>
-            <p>Every completed appointment adds a stamp automatically. No app for your client to download, no card to lose, nothing for you to remember.</p>
-          </div>
-          <div class="lv-step">
-            <div class="lv-step__n">3</div>
-            <h3>You get told when it is time</h3>
-            <p>When someone earns a reward they move to the top of your loyalty list. Give it to them, tap Redeem, and their card starts fresh.</p>
-          </div>
-        </div>
+  <section class="br-section">
+    <div class="br-section__inner">
+      <div class="br-section__head br-section__head--center">
+        <p class="br-kicker">Where to find it</p>
+        <h2 class="br-section__title">Already in your dashboard.</h2>
       </div>
-    </section>
-
-    <!-- What is new -->
-    <section class="lv-sec lv-sec--tint">
-      <div class="lv-sec__inner">
-        <p class="lv-kicker">What is new</p>
-        <h2>Now it shows up <em>everywhere they look</em></h2>
-        <p class="lv-sec__intro">
-          A reward nobody can see does not bring anyone back. So we put the card in front of
-          your clients at every moment that matters.
-        </p>
-        <div class="lv-grid">
-          <div class="lv-tile lv-tile--pink">
-            <span class="lv-tile__icon" aria-hidden="true">&#128231;</span>
-            <h3>In their confirmation email</h3>
-            <p>Every booking email can carry their punch card, so they see how close they are the moment they book. You choose: every booking, only when they are nearly there, or never.</p>
-          </div>
-          <div class="lv-tile lv-tile--lilac">
-            <span class="lv-tile__icon" aria-hidden="true">&#128241;</span>
-            <h3>On their booking page</h3>
-            <p>When a client opens their appointment details, their stamps are right there, along with a friendly nudge to make a free account and keep track of their rewards.</p>
-          </div>
-          <div class="lv-tile lv-tile--butter">
-            <span class="lv-tile__icon" aria-hidden="true">&#10024;</span>
-            <h3>On your website</h3>
-            <p>Turn on a sweet little band that tells first-time visitors your regulars get rewarded. It picks up your template colours automatically, and it is off until you say so.</p>
-          </div>
-          <div class="lv-tile lv-tile--mint">
-            <span class="lv-tile__icon" aria-hidden="true">&#9997;&#65039;</span>
-            <h3>Stamped by hand when you need to</h3>
-            <p>Someone paid cash, or you forgot to close out an appointment? Add a visit yourself with one tap. Took one off by accident? Take it back the same way.</p>
-          </div>
-        </div>
+      <div class="br-prose lo-where">
+        <p>The punch card itself lives under <strong>Customers &rsaquo; Loyalty</strong>, along with the new email setting, the hand-stamp buttons, and a searchable list of everyone enrolled, sorted so whoever is closest to a reward sits at the top.</p>
+        <p>The website band is a switch under <strong>Website &rsaquo; Footer visibility</strong>, called Loyalty band. It only appears while your program is running, and it is off until you turn it on.</p>
+        <p>Loyalty rewards are included on every paid plan. If your program is already on, the new surfaces are live for your clients now.</p>
       </div>
-    </section>
-
-    <!-- Email mock -->
-    <section class="lv-sec">
-      <div class="lv-sec__inner">
-        <p class="lv-kicker">In their inbox</p>
-        <h2>The nudge that <em>actually works</em></h2>
-        <p class="lv-sec__intro">
-          Most clients never make an account anywhere. That is fine. Their card rides along in
-          the email they already open.
-        </p>
-        <div class="lv-mail">
-          <div class="lv-mail__bar">Appointment confirmed &middot; Lush Studio</div>
-          <div class="lv-mail__body">
-            <div class="lv-mail__row"><span>Service</span><span>Signature Lash Set</span></div>
-            <div class="lv-mail__row"><span>Date</span><span>Friday, August 1</span></div>
-            <div class="lv-mail__row"><span>Time</span><span>12:00 PM</span></div>
-            <div class="lv-mail__row"><span>Location</span><span>356 7th Avenue</span></div>
-            <div class="lv-mail__loyalty">
-              <p class="lv-card__label">Your punch card</p>
-              <p style="font-family:Inter,system-ui,sans-serif;font-size:15px;font-weight:700;color:#2B1B24;margin:0;">This visit makes 4 of 5</p>
-              <p style="font-family:Inter,system-ui,sans-serif;font-size:13px;color:#7C6470;margin:3px 0 0;">One more and your next fill is on us.</p>
-              <div class="lv-stamps" aria-hidden="true">
-                <span class="lv-stamp lv-stamp--done">&#10003;</span>
-                <span class="lv-stamp lv-stamp--done">&#10003;</span>
-                <span class="lv-stamp lv-stamp--done">&#10003;</span>
-                <span class="lv-stamp lv-stamp--done">&#10003;</span>
-                <span class="lv-stamp lv-stamp--next">5</span>
-                <span class="lv-stamp lv-stamp--gift">&#127873;</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Why it matters -->
-    <section class="lv-sec lv-sec--tint">
-      <div class="lv-sec__inner">
-        <p class="lv-quote">
-          A client who is one visit away from something free books that visit sooner.
-          That is the whole idea, and it is why the punch card follows them around
-          instead of hiding in your dashboard.
-          <span class="lv-quote__who">Why we built it this way</span>
-        </p>
-      </div>
-    </section>
-
-    <!-- Closing -->
-    <section class="lv-final">
-      <p class="lv-kicker">Ready when you are</p>
-      <h2 style="font-family:Fraunces,Georgia,serif;font-weight:400;font-size:clamp(28px,4.2vw,42px);line-height:1.1;color:#2B1B24;margin:0 auto 14px;max-width:20ch;">
-        Give your regulars a <em style="font-style:italic;color:#D9548E;">reason to hurry back</em>
-      </h2>
-      <p>Loyalty rewards are included on every paid plan. Turn it on in your dashboard under Customers, and your next completed appointment starts counting.</p>
-      <div class="lv-cta">
-        <a class="lv-btn" href="https://app.bkrdy.me/register">Start free</a>
-        <a class="lv-btn lv-btn--soft" href="/pricing/">See pricing</a>
-      </div>
-      <p class="lv-fineprint">No card to print. No app for your clients. Nothing to remember.</p>
-    </section>
-
-  </div>
+    </div>
+  </section>
   <!-- ─── Footer ─── -->
   <footer class="br-footer">
     <div class="br-footer__inner">
