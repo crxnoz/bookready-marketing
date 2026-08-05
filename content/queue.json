@@ -3502,7 +3502,8 @@
       "recommendedRelatedIndustry": "estheticians",
       "ctaPlan": "Studio",
       "ctaIndustry": "estheticians",
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-08-05"
     },
     {
       "slug": "ask-for-reviews-templates",
