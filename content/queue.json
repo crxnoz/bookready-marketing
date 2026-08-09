@@ -3613,7 +3613,8 @@
       "recommendedRelatedIndustry": "nail-techs",
       "ctaPlan": "Studio",
       "ctaIndustry": "nail-techs",
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-08-09"
     },
     {
       "slug": "win-back-lapsed-clients",
