@@ -3724,7 +3724,8 @@
       "recommendedRelatedIndustry": "estheticians",
       "ctaPlan": "Studio",
       "ctaIndustry": "estheticians",
-      "status": "pending"
+      "status": "shipped",
+      "shippedAt": "2026-08-11"
     },
     {
       "slug": "salon-promotion-ideas",
