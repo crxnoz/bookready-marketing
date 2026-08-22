@@ -286,6 +286,9 @@
           <li class="br-nav__item" role="none">
             <a class="br-nav__link" href="/pricing/" role="menuitem">Pricing</a>
           </li>
+          <li class="br-nav__item" role="none">
+            <a class="br-nav__link" href="/#app" role="menuitem">iOS App</a>
+          </li>
         </ul>
 
         <!-- Mega-panel: Templates -->
@@ -1480,6 +1483,148 @@
       </div>
     </section>
 
+    <!-- ─── iOS app (coming Sept 1) ─── -->
+    <style>
+      .br-app { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px; align-items: center; }
+      .br-app__badge { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 700;
+        letter-spacing: 0.02em; color: #8A3D5E; background: #FBEFF4; border: 1px solid rgba(232,199,218,0.7);
+        border-radius: 999px; padding: 6px 14px; margin-bottom: 20px; }
+      .br-app__badge span { width: 6px; height: 6px; border-radius: 50%; background: #C77BA0; }
+      .br-app__list { list-style: none; margin: 22px 0 28px; padding: 0; display: flex; flex-direction: column; gap: 14px; }
+      .br-app__list li { display: flex; gap: 12px; align-items: flex-start; font-size: 15.5px; line-height: 1.5; }
+      .br-app__list li svg { flex-shrink: 0; margin-top: 3px; }
+      .br-app__list strong { font-weight: 700; }
+      .br-app__signup { max-width: 440px; }
+      .br-app__note { font-size: 13px; color: var(--muted); margin: 10px 0 0; }
+      .br-app__note a { color: var(--text); text-decoration: underline; text-underline-offset: 2px; }
+      /* Phone */
+      .br-app__phonewrap { display: flex; justify-content: center; position: relative; }
+      .br-app__phonewrap::before { content: ""; position: absolute; width: 320px; height: 320px; border-radius: 50%;
+        background: radial-gradient(circle, rgba(232,199,218,0.45), rgba(232,228,255,0.25) 55%, transparent 72%);
+        filter: blur(6px); z-index: 0; }
+      .br-phone { position: relative; z-index: 1; width: 260px; border: 9px solid #121212; border-radius: 42px;
+        background: #121212; box-shadow: 0 40px 80px rgba(18,18,18,0.22); overflow: hidden; }
+      .br-phone__notch { position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 108px; height: 24px;
+        background: #121212; border-radius: 0 0 16px 16px; z-index: 3; }
+      .br-phone__screen { background: #F8F6F2; border-radius: 33px; overflow: hidden; }
+      .br-phone__status { display: flex; justify-content: space-between; align-items: center; padding: 12px 20px 2px;
+        font-size: 11px; font-weight: 700; color: #121212; }
+      .br-phone__hd { padding: 12px 18px 8px; }
+      .br-phone__eyebrow { font-size: 9.5px; letter-spacing: 0.18em; text-transform: uppercase; color: #9A948C; font-weight: 700; }
+      .br-phone__title { font-family: 'Fraunces', Georgia, serif; font-size: 21px; font-weight: 600; letter-spacing: -0.01em; margin: 2px 0 0; color: #121212; }
+      .br-phone__stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 4px 14px 10px; }
+      .br-phone__stat { background: #fff; border: 1px solid rgba(18,18,18,0.08); border-radius: 12px; padding: 10px 12px; }
+      .br-phone__stat b { display: block; font-size: 20px; font-weight: 700; letter-spacing: -0.02em; color: #121212; font-variant-numeric: tabular-nums; }
+      .br-phone__stat span { font-size: 10px; color: #6B7280; font-weight: 600; }
+      .br-phone__stat.a { background: #FBEFF4; border-color: rgba(232,199,218,0.6); }
+      .br-phone__stat.a b { color: #8A3D5E; }
+      .br-phone__sub { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #9A948C; font-weight: 700; padding: 2px 18px 6px; }
+      .br-phone__appt { display: flex; align-items: center; gap: 10px; margin: 0 14px 7px; background: #fff;
+        border: 1px solid rgba(18,18,18,0.08); border-radius: 12px; padding: 9px 11px; }
+      .br-phone__time { font-size: 12px; font-weight: 700; color: #121212; font-variant-numeric: tabular-nums; width: 52px; }
+      .br-phone__who { flex: 1; min-width: 0; }
+      .br-phone__who b { display: block; font-size: 12.5px; font-weight: 700; color: #121212; }
+      .br-phone__who span { font-size: 10.5px; color: #6B7280; }
+      .br-phone__pill { font-size: 8.5px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase;
+        border-radius: 6px; padding: 3px 7px; }
+      .br-phone__pill.ok { background: #EAF3EE; color: #0F6F3D; }
+      .br-phone__pill.new { background: #FFF8E6; color: #8A5A00; }
+      .br-phone__toast { display: flex; align-items: center; gap: 9px; margin: 2px 14px 10px; background: #121212;
+        color: #F8F6F2; border-radius: 12px; padding: 9px 12px; }
+      .br-phone__toast b { font-size: 11.5px; font-weight: 700; }
+      .br-phone__toast span { display: block; font-size: 10px; color: rgba(248,246,242,0.65); }
+      .br-phone__tabs { display: flex; justify-content: space-around; background: #fff; border-top: 1px solid rgba(18,18,18,0.08);
+        padding: 9px 0 12px; }
+      .br-phone__tab { display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 8.5px; font-weight: 700; color: #B4ADA4; }
+      .br-phone__tab.on { color: #121212; }
+      .br-phone__tab svg { display: block; }
+      @media (max-width: 860px) {
+        .br-app { grid-template-columns: 1fr; gap: 36px; }
+        .br-app__phonewrap { order: -1; }
+        .br-app__signup { max-width: none; }
+      }
+    </style>
+    <section class="br-section br-section--bordered" id="app">
+      <div class="br-section__inner">
+        <div class="br-app">
+          <div class="br-app__copy">
+            <span class="br-app__badge"><span></span>Coming to iPhone &middot; September 1</span>
+            <h2 class="br-section__title">
+              Your whole studio, <span class="br-italic">in your pocket.</span>
+            </h2>
+            <p class="br-section__intro">
+              The BKRDY app puts your calendar, clients, and bookings on your
+              phone. Get a push the second someone books, confirm it from the
+              chair, and never open a laptop between clients again.
+            </p>
+            <ul class="br-app__list">
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="#FBEFF4" stroke="#E8C7DA"/><path d="M6 10.2l2.6 2.6L14 7.4" stroke="#8A3D5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span><strong>Booked while you sleep.</strong> A push notification the moment a client books, reschedules, or pays a deposit.</span>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="#FBEFF4" stroke="#E8C7DA"/><path d="M6 10.2l2.6 2.6L14 7.4" stroke="#8A3D5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span><strong>Run the day one-handed.</strong> Today&rsquo;s schedule, confirm or move an appointment, block off time, all in a couple of taps.</span>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="#FBEFF4" stroke="#E8C7DA"/><path d="M6 10.2l2.6 2.6L14 7.4" stroke="#8A3D5E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span><strong>Same account, nothing to learn.</strong> Sign in and your services, clients, and site are already there. Free with every plan.</span>
+              </li>
+            </ul>
+            <div class="br-signup br-app__signup" data-signup data-source="ios-app-waitlist">
+              <div class="br-signup__form" data-signup-form>
+                <input type="email" class="br-signup__input" placeholder="your@email.com" aria-label="Your email" autocomplete="email" data-signup-email />
+                <button type="button" class="br-button" data-signup-submit>Notify me at launch</button>
+              </div>
+              <p class="br-signup__success" data-signup-success hidden>You&rsquo;re on the list. We&rsquo;ll email you the moment it&rsquo;s live.</p>
+            </div>
+            <p class="br-app__note">
+              iPhone first, Android to follow. Already a member? It works with
+              your <a href="https://app.bkrdy.me/login">existing login</a>.
+            </p>
+          </div>
+
+          <div class="br-app__phonewrap">
+            <div class="br-phone" role="img" aria-label="Preview of the BKRDY iPhone app showing today's schedule with a new booking notification">
+              <div class="br-phone__notch"></div>
+              <div class="br-phone__screen">
+                <div class="br-phone__status"><span>9:41</span><span>&#9679;&#9679;&#9679;&#9679;&#9679;</span></div>
+                <div class="br-phone__hd">
+                  <p class="br-phone__eyebrow">Thursday, Aug 24</p>
+                  <p class="br-phone__title">Good morning, Maya</p>
+                </div>
+                <div class="br-phone__stats">
+                  <div class="br-phone__stat a"><b>6</b><span>Booked today</span></div>
+                  <div class="br-phone__stat"><b>$180</b><span>Deposits in</span></div>
+                </div>
+                <p class="br-phone__sub">Today&rsquo;s schedule</p>
+                <div class="br-phone__appt">
+                  <span class="br-phone__time">10:30</span>
+                  <span class="br-phone__who"><b>Jasmine K.</b><span>Full set &middot; 90 min</span></span>
+                  <span class="br-phone__pill ok">Paid</span>
+                </div>
+                <div class="br-phone__appt">
+                  <span class="br-phone__time">1:00</span>
+                  <span class="br-phone__who"><b>Priya S.</b><span>Gel fill &middot; 60 min</span></span>
+                  <span class="br-phone__pill new">New</span>
+                </div>
+                <div class="br-phone__toast">
+                  <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2a5 5 0 00-5 5c0 4-1.5 5-1.5 5h13S15 11 15 7a5 5 0 00-5-5z" stroke="#F8F6F2" stroke-width="1.4" stroke-linejoin="round"/><path d="M8.5 15a1.5 1.5 0 003 0" stroke="#F8F6F2" stroke-width="1.4" stroke-linecap="round"/></svg>
+                  <span><b>New booking &middot; Priya S.</b><span>Gel fill, today at 1:00 PM</span></span>
+                </div>
+                <div class="br-phone__tabs">
+                  <span class="br-phone__tab on"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 9l7-6 7 6v8a1 1 0 01-1 1h-4v-5H8v5H4a1 1 0 01-1-1V9z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>Home</span>
+                  <span class="br-phone__tab"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="3" y="4" width="14" height="13" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h14M7 2v3M13 2v3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Calendar</span>
+                  <span class="br-phone__tab"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="7" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M4 17c0-3 2.7-5 6-5s6 2 6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Clients</span>
+                  <span class="br-phone__tab"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M10 6v8M7 8.5h4.5a1.5 1.5 0 010 3H8a1.5 1.5 0 000 3H13" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>Business</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ─── Pricing ─── -->
     <section
       id="pricing"
@@ -2234,6 +2379,31 @@
           track.appendChild(c);
         });
       })();
+    </script>
+
+    <!-- ─── Email capture (app waitlist), posts to the leads endpoint ─── -->
+    <script>
+    (function () {
+      document.querySelectorAll('[data-signup]').forEach(function (box) {
+        var input = box.querySelector('[data-signup-email]');
+        var submit = box.querySelector('[data-signup-submit]');
+        var form = box.querySelector('[data-signup-form]');
+        var success = box.querySelector('[data-signup-success]');
+        var source = box.getAttribute('data-source') || 'home';
+        var label = submit ? submit.textContent : 'Notify me';
+        if (input) input.addEventListener('input', function () { input.style.borderColor = ''; });
+        if (input) input.addEventListener('keydown', function (e) { if (e.key === 'Enter' && submit) submit.click(); });
+        if (submit) submit.addEventListener('click', function () {
+          var email = input ? input.value.trim() : '';
+          if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { if (input) { input.style.borderColor = '#C0392B'; input.focus(); } return; }
+          submit.disabled = true; submit.textContent = 'Adding you…';
+          fetch('https://api.bkrdy.me/api/v1/leads', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify({ email: email, source: source }) })
+            .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+            .then(function () { if (form) form.hidden = true; if (success) success.removeAttribute('hidden'); })
+            .catch(function () { submit.disabled = false; submit.textContent = label; if (input) { input.style.borderColor = '#C0392B'; input.focus(); } });
+        });
+      });
+    })();
     </script>
 
     <!-- ─── Nav behavior (shared, vanilla JS, no deps) ─── -->
