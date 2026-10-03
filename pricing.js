@@ -5,8 +5,8 @@
    Prices are static HTML. Monthly vs annual visibility is pure CSS, driven by
    the data-billing attribute on #pricing (see styles.css). This script only
    flips that attribute on toggle, keeps the CTA hrefs in sync, and runs the
-   Salon waitlist. SMS pricing/quotas were removed while SMS texting is not
-   live (it ships free at launch), so there is no per-plan price math here. */
+   Salon waitlist. Text reminders are unlimited on every paid plan
+   (2026-10-03), so there is no per-plan SMS price math here. */
 (function () {
   var section = document.getElementById('pricing');
   if (!section) return;
