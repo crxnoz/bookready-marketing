@@ -1618,8 +1618,12 @@ button { cursor: pointer; font: inherit; }
   border-top: 1px solid var(--border);
   border-left: 1px solid var(--border);
 }
+/* Four cards since Studio+ (2026-10-03): two-up on tablets, four-up wide. */
 @media (min-width: 820px) {
-  .br-pricing-grid { grid-template-columns: repeat(3, 1fr); }
+  .br-pricing-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1120px) {
+  .br-pricing-grid { grid-template-columns: repeat(4, 1fr); }
 }
 .br-plan {
   position: relative;
