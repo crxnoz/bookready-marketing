@@ -2,8 +2,8 @@
 key: after-hours-appointments
 section: blog
 slug: after-hours-appointments
-title: "Should You Take After Hours Appointments?"
-metaTitle: "Should You Take After Hours Appointments? | BKRDY"
+title: Should you take after-hours appointments?
+metaTitle: Should you take after-hours appointments? | BKRDY
 description: Almost everyone takes the odd evening appointment and almost nobody has decided how. Three honest ways to run after hours slots, or to stop.
 date: 2026-11-16
 pillar: the-week

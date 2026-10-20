@@ -2,8 +2,8 @@
 key: buffer-time-between-appointments
 section: blog
 slug: buffer-time-between-appointments
-title: "Buffer Time Between Appointments: The Quiet Fix"
-metaTitle: "Buffer Time Between Appointments: The Quiet Fix | BKRDY"
+title: Buffer time between appointments: the quiet fix
+metaTitle: Buffer time between appointments: the quiet fix | BKRDY
 description: A day that runs thirty minutes late by 3pm is a calendar problem, not a slow client. How to find your real service time and build the buffer back in.
 date: 2026-11-02
 pillar: the-week

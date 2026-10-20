@@ -2,8 +2,8 @@
 key: the-squeeze-in
 section: blog
 slug: the-squeeze-in
-title: "The Squeeze In: Saying Yes Without Wrecking Your Day"
-metaTitle: "The Squeeze In: Saying Yes Without Wrecking Your Day | BKRDY"
+title: The squeeze-in: saying yes without wrecking your day
+metaTitle: The squeeze-in: saying yes without wrecking your day | BKRDY
 description: Everybody fits in the odd last minute client and nobody has a rule for it. Three conditions that make one safe, plus the no that keeps them.
 date: 2026-11-24
 pillar: the-week

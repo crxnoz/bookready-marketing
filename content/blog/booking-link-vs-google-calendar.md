@@ -2,8 +2,8 @@
 key: booking-link-vs-google-calendar
 section: blog
 slug: booking-link-vs-google-calendar
-title: "A Google Calendar Booking Link Is Not a Booking Page"
-metaTitle: "A Google Calendar Booking Link Is Not a Booking Page | BKRDY"
+title: A Google Calendar link is not a booking page
+metaTitle: A Google Calendar link is not a booking page | BKRDY
 description: A free calendar appointment link shows your free time. It cannot take a deposit, handle turnaround or send a reminder a client sees. Where that costs you.
 date: 2026-11-17
 pillar: your-site

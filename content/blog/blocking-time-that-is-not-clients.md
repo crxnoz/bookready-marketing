@@ -2,8 +2,8 @@
 key: blocking-time-that-is-not-clients
 section: blog
 slug: blocking-time-that-is-not-clients
-title: "The Hours in Your Week That Are Not Appointments"
-metaTitle: "The Hours in Your Week That Are Not Appointments | BKRDY"
+title: The hours in your week that are not appointments
+metaTitle: The hours in your week that are not appointments | BKRDY
 description: Ordering, laundry, admin, photos: real work that is nowhere in your calendar, so it happens after the last client or not at all. How to block it.
 date: 2026-11-19
 pillar: the-week

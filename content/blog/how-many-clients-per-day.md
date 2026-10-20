@@ -2,8 +2,8 @@
 key: how-many-clients-per-day
 section: blog
 slug: how-many-clients-per-day
-title: "How Many Clients a Day Is Too Many?"
-metaTitle: "How Many Clients a Day Is Too Many? | BKRDY"
+title: How many clients a day is too many?
+metaTitle: How many clients a day is too many? | BKRDY
 description: Your real ceiling is not the number of slots that fit in your opening hours. How to find your own number, and why the last slot of a full day rarely pays.
 date: 2026-11-11
 pillar: the-week
