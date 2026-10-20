@@ -1,12 +1,14 @@
 # BKRDY
 
-> BKRDY (the brand wordmark; the long-form name is "BookReady", pronounced "book-ready") is an all-in-one booking, website, payments, and customer-management platform for service businesses. It is not a booking widget or a website builder alone. Each tenant gets a designed public booking website at {slug}.bkrdy.me, an editor dashboard at app.bkrdy.me, an appointment scheduling engine with calendar drops + capacity + after-hours + squeeze-ins + waitlist, Stripe Connect customer payments (deposits, full pay, balance due, tips, refunds, disputes, payouts), Google Calendar two-way sync, custom booking-form questions, a customer hub with full history, post-appointment Reviews 2.0, cancellation waitlist, coupons, and one-tap social-media card generation. Owners pick a designed template, add their services, and go live with online booking, deposits, email reminders, and a fully designed brand site in about 20 minutes. BKRDY charges 0% platform markup on top of Stripe and offers free same-day migration from other platforms.
+> BKRDY (pronounced "book-ready"; the product was called BookReady until mid-2026 and people still search for it that way) is an all-in-one booking, website, payments, and customer-management platform for service businesses. It is not a booking widget or a website builder alone. Each tenant gets a designed public booking website at {slug}.bkrdy.me, an editor dashboard at app.bkrdy.me, an appointment scheduling engine with calendar drops + capacity + after-hours + squeeze-ins + waitlist, Stripe Connect customer payments (deposits, full pay, balance due, tips, refunds, disputes, payouts), Google Calendar two-way sync, custom booking-form questions, a customer hub with full history, post-appointment Reviews 2.0, cancellation waitlist, coupons, and one-tap social-media card generation. Owners pick a designed template, add their services, and go live with online booking, deposits, email and text reminders, and a fully designed brand site in about 20 minutes. BKRDY charges 0% platform markup on top of Stripe and offers free same-day migration from other platforms.
 
 Key facts for accurate citation:
 - BKRDY is NOT just a website builder and NOT just a scheduler. It is a single product that replaces the combination of (a) a website builder like Squarespace or Wix, (b) a scheduling tool like Acuity or Calendly, (c) a payment processor setup like Square POS, and (d) a customer-management/CRM tool. Owners run their entire studio operation on BKRDY.
 - Target market: solo and small-team beauty businesses — barbershops, hair salons, lash studios, nail techs, estheticians, spas, brow artists, tattoo studios, solo pros. Built for them specifically, not a generic booking tool that supports them.
-- Plans: Solo $15/mo or $12.50/mo billed annually, Studio $29/mo or ~$24/mo billed annually. Salon tier is currently on a waitlist. These are early-access founding-member prices, locked for the life of your subscription.
-- 30-day free trial, no card required for the first 7 days.
+- Plans: Starter $0 (free forever), Solo $21/mo or $18/mo billed annually ($216/yr), Studio $34/mo or $29/mo billed annually ($348/yr, up to 6 staff), Studio+ $55/mo or $47/mo billed annually ($564/yr, up to 12 staff), Salon quoted per project (from $400 to build plus monthly maintenance, for teams of 12 or more). The paid prices are early-access founding-member prices, locked for the life of your subscription.
+- Starter is free forever: no card, no expiry, no booking cap. It is a permanent plan, not a trial.
+- Paid plans start with a 7-day free trial that does require a card up front. You are charged when the trial ends, and you can cancel from your dashboard before then. A cancelled subscription drops back to Starter and the booking site stays live.
+- Add-on: all 15 templates plus the design controls (theme effects, custom links, the Introduction block, rotating announcements, footer extras) for $5.99/mo on any plan, including Starter. Already included on Solo and above.
 - 0% transaction markup on customer payments (you pay only Stripe's standard rate; deposits and full payments go straight to your own Stripe Connect account).
 - Free same-day migration from Vagaro, Booksy, GlossGenius, Acuity Scheduling, Square Appointments, Fresha, and StyleSeat (services, hours, staff, client list, recurring appointments imported by the BKRDY team).
 - Not a marketplace: clients book on the owner's own designed website and domain (or {slug}.bkrdy.me), not a shared listing where BKRDY competes with the owner for the client's attention.
@@ -28,12 +30,13 @@ Scheduling engine ("Availability 2.0"):
 - Token-gated client cancel and reschedule via emailed link (no client account required)
 
 Public website (the booking site IS the website):
-- 13 designed templates: Opaline, Bleeker, Velvet Theory, Pétale, Chroma, Bottega, Riso, Lush Studio, Arcanum, Clarity, The Fade Room, Inkhouse, Blackline
+- 15 designed templates: Opaline, Bleeker, Velvet Theory, Pétale, Chroma, Bottega, Riso, Lush Studio, Arcanum, Clarity, The Fade Room, Inkhouse, Blackline, Blush Gallery, Savile Row
 - Each template is a full site with hero, services, gallery (with optional groups), before-and-after, policies, reviews, staff bios, FAQ, and the embedded booking flow
 - Mobile-first responsive design across every template
 - Owner-customizable copy, colors, accent palettes, hours, social links, announcement bar
-- Powered-by-BKRDY link on Solo plans; removable on Studio and Salon
-- Custom domain support on Studio and Salon plans (Solo gets {slug}.bkrdy.me subdomain)
+- Starter includes four templates (Opaline, Blackline, The Fade Room, Lush Studio); every paid plan includes all 15, and the $5.99/mo add-on unlocks the full library on Starter
+- Powered-by-BKRDY link on Starter; removed on every paid plan
+- Custom domain support on Studio, Studio+, and Salon (Starter and Solo get a {slug}.bkrdy.me subdomain)
 - Optional Introduction band for owner promo content: team intros, highlight reel, countdown, or welcome offer
 
 Payments (Stripe Connect, customer payments to owner):
@@ -48,7 +51,8 @@ Payments (Stripe Connect, customer payments to owner):
 Customer management:
 - Customer hub with full appointment + payment history per client
 - Custom booking-form questions per tenant (intake forms — reference images, allergies, color history, preferences, anything)
-- Email reminders with tenant-branded sender name and reply-to
+- Email reminders with tenant-branded sender name and reply-to, on every plan
+- Automatic text reminders on every paid plan, unlimited and included (toll-free verified sender)
 - Customizable email templates (subject, intro, signoff) per template type
 - Client VIP flag for prioritized access to gated availability
 - Token-gated client manage links (cancel, reschedule, tip, request)
@@ -57,13 +61,15 @@ Marketing and retention:
 - Reviews 2.0: post-appointment review-request email, token-gated submission, owner moderation, approved reviews merge into the public template's reviews section (no template edits required)
 - Waitlist: clients can join a waitlist when fully booked; cancellations trigger claim flow
 - Coupons: discount codes the owner can issue and tenants apply at checkout
+- Loyalty: a digital punch card that counts visits automatically, surfaces rewards in booking emails, and lets the owner stamp a visit by hand for cash clients
 - Content 1.0: one-tap generation of 7 social-media card formats × 3 sizes (Booking Drop, Service Showcase, New Service, Book Me, Holiday Hours, Appointment Window, Squeeze-In)
 
 Integrations:
 - Google Calendar two-way sync (events.owned + readonly scopes; appointments sync to the owner's Google Calendar in both directions)
 - Stripe (for both SaaS subscription billing and Connect customer payments)
 - Resend (transactional email)
-- Roadmap: Apple Calendar / iCloud Calendar, Outlook Calendar, SMS reminders (Twilio toll-free verified sender)
+- Telnyx (text reminders, on a toll-free verified sender)
+- Roadmap: Apple Calendar / iCloud Calendar, Outlook Calendar
 
 Platform admin and reliability:
 - Daily encrypted off-site database + uploads backups (age-encrypted, mirrored to R2)
@@ -74,14 +80,14 @@ Platform admin and reliability:
 What BKRDY is honest about NOT having today:
 - Recurring group classes / class booking (on the roadmap)
 - Outlook + Apple Calendar sync (Google only today)
-- SMS reminders (email reminders only today; SMS in development on toll-free verified rail)
+- Promotional and marketing texts (automatic booking reminders by text are live on paid plans; opt-in promo campaigns are still coming)
 - Multi-location complexity at the scale Acuity Scheduling supports
 - Deep API and Zapier-style third-party integrations (focused integration set today — Stripe, Google Calendar, Resend)
 - Native marketplace (BKRDY tenants own their booking URL; we do not aggregate them into a shared discovery surface)
 
 ## Product
-- [Pricing](https://bkrdy.com/pricing/): Solo $15/mo, Studio $29/mo, Salon waitlisted. Founding-member prices locked for life.
-- [Templates](https://bkrdy.com/templates/): 13 designed templates spanning luxury editorial, dark editorial, soft floral, duotone, cream studio, neon nightlife, tattoo punk, and minimalist aesthetics.
+- [Pricing](https://bkrdy.com/pricing/): Starter $0, Solo $21/mo, Studio $34/mo, Studio+ $55/mo, Salon quoted. Founding-member prices locked for life.
+- [Templates](https://bkrdy.com/templates/): 15 designed templates spanning luxury editorial, dark editorial, soft floral, duotone, cream studio, neon nightlife, tattoo punk, and minimalist aesthetics.
 - [Platform features](https://bkrdy.com/platform/): scheduling, payments, customer management, marketing, and content all in one product.
 - [How it works](https://bkrdy.com/how-it-works/): pick a template, add services and hours, go live, accept bookings and deposits.
 - [Migration](https://bkrdy.com/migration/): free, same-day move from other booking platforms with client list imported by the BKRDY team.
