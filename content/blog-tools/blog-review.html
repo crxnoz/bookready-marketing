@@ -1,0 +1,656 @@
+<title>BKRDY Blog Drafts</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300&family=Inter:wght@400;500;600;700;800&display=swap">
+<style>
+/* One column under a sticky bar. The publishing calendar, the search terms
+   report and the site check fold open above the cards. BKRDY cream and near
+   black with the blush accent, in both themes. */
+:root {
+  --bg: #F8F6F2; --card: #FFFFFF; --ink: #121212; --text: #1F2024; --muted: #6B7280; --faint: #9CA3AF;
+  --line: rgba(18,18,18,0.12); --hair: rgba(18,18,18,0.07); --blush: #E8C7DA;
+  --ok: #15663F; --ok-bg: #E4F2EA; --warn: #8A4B00; --warn-bg: #FBEEDB;
+  --live: #1F3A8A; --live-bg: #E7ECFB; --bad: #9B1C1C; --bad-bg: #FBE7E7;
+  --font: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --serif: 'Fraunces', Georgia, serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121214; --card: #1B1B1E; --ink: #F5F3EF; --text: #D9D6D0; --muted: #9A978F; --faint: #6E6B65;
+  --line: rgba(245,243,239,0.16); --hair: rgba(245,243,239,0.09); --blush: #C99BB6;
+  --ok: #7FD3A8; --ok-bg: #11301F; --warn: #F0B869; --warn-bg: #33240F;
+  --live: #A7BAF4; --live-bg: #1A2144; --bad: #F09898; --bad-bg: #3A1616; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #121214; --card: #1B1B1E; --ink: #F5F3EF; --text: #D9D6D0; --muted: #9A978F; --faint: #6E6B65;
+  --line: rgba(245,243,239,0.16); --hair: rgba(245,243,239,0.09); --blush: #C99BB6;
+  --ok: #7FD3A8; --ok-bg: #11301F; --warn: #F0B869; --warn-bg: #33240F;
+  --live: #A7BAF4; --live-bg: #1A2144; --bad: #F09898; --bad-bg: #3A1616; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font: 400 16px/1.6 var(--font); margin: 0; }
+h1, h2, h3 { color: var(--ink); margin: 0; text-wrap: balance; }
+button { font: inherit; cursor: pointer; }
+:focus-visible { outline: 3px solid var(--blush); outline-offset: 2px; }
+.wrap { max-width: 860px; margin: 0 auto; padding-bottom: 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.lab { font: 700 10.5px/1 var(--font); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0; }
+.mono { font: 500 12.5px var(--font); letter-spacing: .02em; }
+
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+.top .wrap { padding-block: 14px; padding-bottom: 12px; display: grid; gap: 10px; }
+.brand { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.brand h1 { font: 800 17px/1 var(--font); letter-spacing: .13em; display: flex; align-items: center; gap: 9px; }
+.brand h1 i { width: 9px; height: 9px; background: var(--blush); display: block; }
+.months { display: flex; gap: 6px; flex-wrap: wrap; }
+.months:empty { display: none; }
+.months button, .seg button { border: 1px solid var(--line); background: var(--card); color: var(--ink);
+  padding: 8px 12px; font: 600 12.5px var(--font); min-height: 36px; }
+.months button[aria-pressed="true"], .seg button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.counts { display: flex; gap: 14px; flex-wrap: wrap; font: 500 12.5px var(--font); color: var(--muted); }
+.counts:empty { display: none; }
+.counts b { color: var(--ink); font-weight: 700; }
+
+.intro { padding-block: 24px 10px; display: grid; gap: 14px; }
+.intro > p { margin: 0; max-width: 62ch; }
+.bulk { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.btn { min-height: 44px; padding: 0 17px; border: 1px solid var(--ink); background: var(--ink); color: var(--bg); font-weight: 600; font-size: 14.5px; }
+.btn--line { background: transparent; color: var(--ink); border-color: var(--line); }
+.btn--line:hover { border-color: var(--ink); }
+.btn:disabled { opacity: .4; cursor: default; }
+
+details.panel { border: 1px solid var(--line); background: var(--card); min-width: 0; }
+details.panel > summary { list-style: none; padding: 15px 16px; display: flex; justify-content: space-between;
+  align-items: baseline; gap: 10px; cursor: pointer; color: var(--ink); }
+details.panel > summary::-webkit-details-marker { display: none; }
+details.panel > summary b { font: 400 18px/1.2 var(--serif); }
+details.panel > summary > span { display: grid; gap: 3px; }
+details.panel > summary small { font: 500 12px var(--font); color: var(--muted); }
+details.panel > summary small:empty { display: none; }
+details.panel > summary::after { content: "+"; font: 400 19px/1 var(--font); color: var(--muted); }
+details.panel[open] > summary::after { content: "\2013"; }
+.pbody { padding: 0 16px 18px; display: grid; gap: 14px; min-width: 0; }
+.pbody p { margin: 0; }
+.pbody ul { margin: 0; padding-left: 18px; }
+.pbody li { margin: 0 0 7px; }
+.how { font-size: 14.5px; color: var(--muted); max-width: 64ch; }
+.how b { color: var(--ink); font-weight: 600; }
+
+/* search terms report */
+.controls { display: flex; gap: 8px 14px; flex-wrap: wrap; align-items: center; }
+.seg { display: flex; gap: 6px; flex-wrap: wrap; }
+.terms { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.terms li { display: grid; grid-template-columns: minmax(0,1fr) 6.4em 7.2em; gap: 4px 12px; align-items: center;
+  padding: 11px 0; border-bottom: 1px solid var(--hair); }
+.terms .head { padding: 8px 0 6px; font: 700 10px/1.2 var(--font); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.terms .num { text-align: right; }
+.t-term { color: var(--ink); font-weight: 600; overflow-wrap: anywhere; }
+.t-cover { display: block; font: 500 12px/1.45 var(--font); color: var(--muted); margin-top: 3px; }
+.t-cover b { font-weight: 600; }
+.t-cover--live b { color: var(--live); } .t-cover--draft b { color: var(--ok); }
+.t-vol { font: 700 15px var(--font); color: var(--ink); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.t-vol small { font: 500 11px var(--font); color: var(--muted); }
+.kd { display: inline-block; font: 600 11.5px var(--font); padding: 4px 8px; background: var(--bg); color: var(--muted); white-space: nowrap; }
+.kd--easy { background: var(--ok-bg); color: var(--ok); } .kd--mid { background: var(--warn-bg); color: var(--warn); }
+.kd--hard { background: var(--bad-bg); color: var(--bad); }
+.more { justify-self: start; }
+@media (max-width: 560px) {
+  .terms .head { display: none; }
+  .terms li { grid-template-columns: auto auto minmax(0,1fr); gap: 7px 10px; }
+  .terms li > div:first-child { grid-column: 1 / -1; }
+  .terms .num { text-align: left; }
+}
+
+/* calendar */
+.next { margin: 0; font-size: 15px; }
+.next b { color: var(--ink); }
+.cal-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.cal-head h3 { font: 400 18px/1.2 var(--serif); }
+.cal-nav { display: flex; gap: 6px; }
+.cal-nav button { width: 38px; height: 38px; border: 1px solid var(--line); background: var(--card); color: var(--ink); font: 600 16px/1 var(--font); }
+.cal-nav button:disabled { opacity: .35; cursor: default; }
+.cal { display: grid; grid-template-columns: repeat(7, minmax(0,1fr)); gap: 3px; }
+.cal .dow { font: 700 10px var(--font); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); text-align: center; padding-bottom: 4px; }
+.day { min-height: 46px; min-width: 0; background: var(--card); border: 1px solid var(--hair); padding: 4px;
+  display: flex; flex-direction: column; gap: 3px; text-align: left; color: var(--muted); font: 500 11.5px var(--font); }
+.day--out { background: transparent; border-color: transparent; }
+.day--today { box-shadow: inset 0 0 0 2px var(--blush); color: var(--ink); }
+button.day { cursor: pointer; color: var(--ink); }
+.day > b { font: 700 11.5px var(--font); }
+.ev { display: block; height: 5px; background: var(--muted); }
+.ev--approved { background: var(--ok); } .ev--changes { background: var(--warn); } .ev--published { background: var(--live); }
+.ev span { display: none; }
+@media (min-width: 640px) {
+  .day { min-height: 92px; }
+  .ev { height: auto; padding: 4px 5px; background: var(--bg); color: var(--ink); font: 600 11px/1.25 var(--font); }
+  .ev--approved { background: var(--ok-bg); color: var(--ok); } .ev--changes { background: var(--warn-bg); color: var(--warn); }
+  .ev--published { background: var(--live-bg); color: var(--live); }
+  .ev span { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+}
+.legend { display: flex; gap: 6px 14px; flex-wrap: wrap; font: 500 12px var(--font); color: var(--muted); }
+.legend i { display: inline-block; width: 16px; height: 5px; margin-right: 6px; vertical-align: middle; background: var(--muted); }
+.legend .l-approved { background: var(--ok); } .legend .l-changes { background: var(--warn); } .legend .l-published { background: var(--live); }
+.agenda { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.agenda button { width: 100%; display: grid; grid-template-columns: 4.4rem minmax(0,1fr); gap: 10px; align-items: baseline;
+  padding: 12px 0; border: 0; border-bottom: 1px solid var(--hair); background: transparent; color: var(--ink); text-align: left; }
+.agenda .when { font: 600 12.5px var(--font); color: var(--muted); }
+.agenda .t { font-weight: 600; overflow-wrap: anywhere; line-height: 1.35; }
+.agenda .cam { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin-top: 6px; font: 500 12px var(--font); color: var(--muted); }
+
+/* cards */
+.list { display: grid; gap: 14px; margin-top: 18px; }
+.card { border: 1px solid var(--line); background: var(--card); padding: 17px; display: grid; gap: 11px; min-width: 0; scroll-margin-top: 150px; }
+.card[data-status="approved"] { border-color: var(--ok); }
+.card[data-status="changes"] { border-color: var(--warn); }
+.card.is-flash { box-shadow: 0 0 0 3px var(--blush); }
+.cmeta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; font: 500 12.5px var(--font); color: var(--muted); }
+.pill { font: 700 10.5px var(--font); letter-spacing: .1em; text-transform: uppercase; padding: 4px 8px; background: var(--bg); color: var(--muted); }
+.pill--approved { background: var(--ok-bg); color: var(--ok); }
+.pill--changes { background: var(--warn-bg); color: var(--warn); }
+.pill--published { background: var(--live-bg); color: var(--live); }
+.card h2 { font: 400 23px/1.2 var(--serif); }
+.cdesc { margin: 0; color: var(--text); }
+.term { font: 500 13.5px/1.55 var(--font); color: var(--muted); margin: 0; }
+.term b { color: var(--ink); font-weight: 600; }
+.note { background: var(--warn-bg); color: var(--warn); padding: 11px 13px; font-size: 15px; margin: 0; white-space: pre-wrap; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.actions .btn { min-height: 42px; }
+.ask { display: grid; gap: 8px; }
+.ask textarea { width: 100%; min-height: 86px; border: 1px solid var(--line); background: var(--bg); color: var(--ink);
+  font: 400 15px/1.45 var(--font); padding: 11px 12px; resize: vertical; }
+
+/* media on a card */
+.media { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 14px;
+  border-top: 1px solid var(--hair); padding-top: 13px; }
+@media (max-width: 600px) { .media { grid-template-columns: minmax(0,1fr); } }
+.media > div { display: grid; gap: 8px; align-content: start; min-width: 0; }
+.media img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+.share img { aspect-ratio: 1200/630; }
+.photo img { aspect-ratio: 16/9; object-fit: cover; }
+.pnote { margin: 0; font-size: 14px; line-height: 1.5; color: var(--muted); }
+.pnote code { font: 600 13px var(--font); color: var(--ink); background: var(--bg); padding: 2px 6px; }
+.pterms { display: flex; flex-wrap: wrap; gap: 6px; }
+.pterms span { font: 500 12.5px var(--font); background: var(--bg); border: 1px solid var(--hair); padding: 5px 9px; color: var(--ink); }
+
+/* reader */
+.reader { border-top: 1px solid var(--hair); padding-top: 13px; min-width: 0; }
+.article { max-width: 68ch; font-size: 16.5px; line-height: 1.7; overflow-wrap: anywhere; }
+.article h2 { font: 400 22px/1.2 var(--serif); margin: 28px 0 8px; }
+.article h3 { font: 600 16.5px/1.4 var(--font); margin: 22px 0 6px; }
+.article p { margin: 0 0 13px; }
+.article ul, .article ol { margin: 0 0 15px; padding-left: 22px; }
+.article li { margin: 0 0 7px; }
+.article blockquote { margin: 16px 0; padding: 2px 0 2px 15px; border-left: 3px solid var(--blush); color: var(--ink); font: 300 italic 19px/1.4 var(--serif); }
+.article a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--blush); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.article table { border-collapse: collapse; width: 100%; font-size: 14.5px; margin: 0 0 16px; }
+.article th, .article td { text-align: left; padding: 9px 12px 9px 0; border-bottom: 1px solid var(--hair); vertical-align: top; }
+.article th { font: 700 10.5px var(--font); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); border-bottom: 2px solid var(--ink); }
+.a-title { font: 400 25px/1.15 var(--serif); margin: 0 0 7px; }
+.a-desc { color: var(--muted); margin: 0 0 20px; }
+.a-answer { background: var(--bg); border: 1px solid var(--line); border-left: 3px solid var(--blush); padding: 14px; margin: 0 0 16px; }
+.a-answer .lab { margin-bottom: 8px; }
+.a-answer p:last-child { margin-bottom: 0; }
+.a-copy { border: 1px dashed var(--line); background: var(--bg); padding: 13px; margin: 0 0 16px; white-space: pre-line; font-size: 15px; }
+.a-copy .lab { margin-bottom: 8px; }
+.fig { margin: 20px 0; max-width: 380px; }
+.fig img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+.fig-missing { border: 1px dashed var(--line); padding: 12px 14px; font: 500 13px/1.45 var(--font); color: var(--muted); }
+
+.empty, .status-line { border: 1px dashed var(--line); padding: 24px 18px; color: var(--muted); }
+.empty h2 { font: 400 20px/1.2 var(--serif); margin-bottom: 7px; }
+.empty p { margin: 0 0 7px; }
+.empty code { font: 500 12.5px var(--font); color: var(--ink); overflow-wrap: anywhere; }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  background: var(--ink); color: var(--bg); padding: 12px 17px; font-weight: 600; z-index: 20; max-width: calc(100% - 32px); }
+@media (prefers-reduced-motion: no-preference) { .card { transition: border-color .2s, box-shadow .2s; } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand"><h1><i></i>BKRDY BLOG</h1><span class="lab">bkrdy.com/blog</span></div>
+    <div class="months" id="months" role="group" aria-label="Batch"></div>
+    <div class="counts" id="counts" aria-live="polite"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <p>Each month we check the site, look at what beauty pros are searching for, and draft the next batch. Read each one, then approve it or ask for changes. Approved articles go live on their dates, one a day, Monday to Friday. Nothing publishes without you.</p>
+    <div class="bulk">
+      <button class="btn" id="approveAll" type="button" disabled>Approve all waiting</button>
+      <span class="mono" id="who"></span>
+    </div>
+    <details class="panel" id="calendar" open hidden>
+      <summary><span><b>Publishing calendar</b><small id="calMeta"></small></span></summary>
+      <div class="pbody" id="calBody"></div>
+    </details>
+    <details class="panel" id="report" hidden>
+      <summary><span><b>What people are searching for</b><small id="reportMeta"></small></span></summary>
+      <div class="pbody" id="reportBody"></div>
+    </details>
+    <details class="panel" id="research" hidden>
+      <summary><span><b>Site check</b><small id="researchMeta"></small></span></summary>
+      <div class="pbody" id="researchBody"></div>
+    </details>
+  </section>
+  <section class="list" id="list" aria-live="polite">
+    <div class="status-line" id="loading">Loading the drafts…</div>
+  </section>
+</main>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+(function () {
+  'use strict';
+  var STATUS = { pending: 'Waiting for you', approved: 'Approved', changes: 'Needs changes', published: 'Live' };
+  var SHORT = { pending: 'Waiting', approved: 'Approved', changes: 'Needs changes', published: 'Live' };
+  var PILLARS = { switching: 'Switching', money: 'Money on the table', 'coming-back': 'Getting them back',
+    'your-site': 'Your own site', 'the-week': 'Running the week', 'going-solo': 'Going solo' };
+  var state = { months: [], month: null, posts: [], open: {}, asking: {}, canWrite: false, loaded: false,
+    rFilter: 'open', rAll: false, covers: {}, graphics: {}, calMonth: null };
+  var db = null;
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = function (s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); };
+  var fmt = function (n) { return n == null ? '–' : Number(n).toLocaleString('en-US'); };
+  function toast(t) { var e = $('toast'); e.textContent = t; e.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(function () { e.hidden = true; }, 2600); }
+  function monthName(m) { try { return new Date(m + '-15T12:00:00Z').toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' }); } catch (e) { return m; } }
+  function dayName(d) { try { return new Date(d + 'T12:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' }); } catch (e) { return d; } }
+  function errText(e) { return e ? ((e.code ? e.code + ': ' : '') + (e.message || String(e))) : 'unknown error'; }
+
+  // Problems show on the page, with the reason, instead of an endless "Loading".
+  function showProblem(title, detail) {
+    $('list').innerHTML = '<div class="empty"><h2>' + esc(title) + '</h2><p>Reload the page to try again. If it keeps happening, send Claude this line:</p><p><code>' + esc(detail) + '</code></p></div>';
+  }
+  addEventListener('error', function (e) { if (!state.loaded) showProblem('Could not show the drafts', 'page error: ' + (e.message || 'unknown')); });
+  addEventListener('unhandledrejection', function (e) { if (!state.loaded) showProblem('Could not show the drafts', 'page error: ' + errText(e.reason)); });
+
+  // The same small Markdown the site uses (content/blog-tools/md.mjs), escaped first.
+  function inline(s) {
+    return esc(s)
+      .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, function (_, text, url) {
+        var href = /^\//.test(url) ? 'https://bkrdy.com' + url : (/^https?:\/\//.test(url) ? url : '#');
+        return '<a href="' + href + '" target="_blank" rel="noopener">' + text + '</a>';
+      })
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+      .replace(/(^|[^*])\*([^*\s][^*]*)\*/g, '$1<em>$2</em>');
+  }
+  function markdown(src) {
+    var out = [], para = [], list = null, quote = [], table = null, block = null;
+    function cells(l) { return l.replace(/^\||\|$/g, '').split('|').map(function (c) { return c.trim(); }); }
+    function flush() {
+      if (para.length) { out.push('<p>' + inline(para.join(' ')) + '</p>'); para = []; }
+      if (list) { out.push('<' + list.tag + '>' + list.items.map(function (i) { return '<li>' + inline(i) + '</li>'; }).join('') + '</' + list.tag + '>'); list = null; }
+      if (quote.length) { out.push('<blockquote><p>' + inline(quote.join(' ')) + '</p></blockquote>'); quote = []; }
+      if (table && table.rows.length) {
+        out.push('<table><thead><tr>' + table.head.map(function (c) { return '<th>' + inline(c) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+          table.rows.map(function (r) { return '<tr>' + r.map(function (c) { return '<td>' + inline(c) + '</td>'; }).join('') + '</tr>'; }).join('') + '</tbody></table>');
+        table = null;
+      }
+    }
+    String(src || '').replace(/\r\n/g, '\n').split('\n').forEach(function (raw) {
+      var line = raw.replace(/\s+$/, ''), m;
+      if ((m = line.match(/^:::(answer|copy)\s*(.*)$/))) { flush(); block = { kind: m[1], label: m[2].trim(), body: [] }; return; }
+      if (block) {
+        if (line.trim() === ':::') {
+          if (block.kind === 'answer') {
+            out.push('<div class="a-answer"><p class="lab">' + esc(block.label || 'The short answer') + '</p>' +
+              block.body.join('\n').split(/\n{2,}/).filter(function (p) { return p.trim(); })
+                .map(function (p) { return '<p>' + inline(p.replace(/\n/g, ' ')) + '</p>'; }).join('') + '</div>');
+          } else {
+            out.push('<div class="a-copy"><p class="lab">' + esc(block.label || 'Copy this') + '</p>' + esc(block.body.join('\n').replace(/^\n+|\n+$/g, '')) + '</div>');
+          }
+          block = null;
+        } else block.body.push(line);
+        return;
+      }
+      if (!line.trim()) { flush(); return; }
+      if ((m = line.match(/^(#{2,3})\s+(.*)$/))) { flush(); out.push('<h' + m[1].length + '>' + inline(m[2]) + '</h' + m[1].length + '>'); return; }
+      if (/^\|/.test(line)) {
+        if (/^\|[\s:|-]+\|?$/.test(line)) return;
+        if (para.length || list || quote.length) flush();
+        if (!table) table = { head: cells(line), rows: [] }; else table.rows.push(cells(line));
+        return;
+      }
+      if ((m = line.match(/^\s*[-*]\s+(.*)$/)) || (m = line.match(/^\s*\d+[.)]\s+(.*)$/))) {
+        var tag = /^\s*\d/.test(line) ? 'ol' : 'ul';
+        if (para.length || quote.length || table || (list && list.tag !== tag)) flush();
+        if (!list) list = { tag: tag, items: [] };
+        list.items.push(m[1]); return;
+      }
+      if ((m = line.match(/^!\[([^\]]*)\]\((\/images\/blog\/[a-z0-9-]+\.webp)\)$/))) {
+        flush();
+        var g = state.graphics[m[2]];
+        out.push(g ? '<figure class="fig"><img src="' + esc(g) + '" alt="' + esc(m[1]) + '" loading="lazy"></figure>'
+          : '<p class="fig-missing">Graphic: ' + esc(m[1]) + '</p>');
+        return;
+      }
+      if ((m = line.match(/^>\s?(.*)$/))) { if (para.length || list || table) flush(); quote.push(m[1]); return; }
+      if (list || quote.length || table) flush();
+      para.push(line.trim());
+    });
+    flush();
+    return out.join('\n');
+  }
+
+  function month() { return state.months.filter(function (x) { return x.id === state.month; })[0]; }
+  function current() { return state.posts.filter(function (p) { return p.month === state.month; })
+    .sort(function (a, b) { return String(a.date).localeCompare(String(b.date)); }); }
+
+  function renderMonths() {
+    var box = $('months');
+    box.textContent = '';
+    if (state.months.length < 2) return;
+    state.months.forEach(function (m) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.textContent = monthName(m.id);
+      b.setAttribute('aria-pressed', m.id === state.month ? 'true' : 'false');
+      b.addEventListener('click', function () { if (state.month !== m.id) { state.month = m.id; state.rAll = false; renderAll(); } });
+      box.appendChild(b);
+    });
+  }
+  function renderCounts() {
+    var posts = current(), c = { pending: 0, approved: 0, changes: 0, published: 0 };
+    posts.forEach(function (p) { c[p.status] = (c[p.status] || 0) + 1; });
+    $('counts').innerHTML = posts.length ? '<span>' + esc(monthName(state.month)) + '</span><span><b>' + posts.length +
+      '</b> articles</span><span><b>' + c.pending + '</b> waiting</span><span><b>' + c.approved + '</b> approved</span><span><b>' +
+      c.changes + '</b> need changes</span><span><b>' + c.published + '</b> live</span>' : '';
+    $('approveAll').disabled = !state.canWrite || !c.pending;
+  }
+
+  // What people search for (months/<M>.report, from keyword-metrics.mjs).
+  function kd(n) {
+    if (n == null) return '<span class="kd">–</span>';
+    var cls = n < 30 ? 'easy' : n < 50 ? 'mid' : 'hard', word = n < 30 ? 'Easy' : n < 50 ? 'Medium' : 'Hard';
+    return '<span class="kd kd--' + cls + '" title="Difficulty ' + n + ' out of 100">' + word + ' ' + n + '</span>';
+  }
+  function coverLine(c) {
+    if (!c) return '';
+    var draft = c.status === 'draft';
+    var p = draft ? state.posts.filter(function (x) { return x.key === c.key && x.month === state.month; })[0] : null;
+    var label = draft ? (p ? 'Drafted for ' + dayName(p.date) : 'Drafted') : 'Already live';
+    return '<span class="t-cover t-cover--' + (draft ? 'draft' : 'live') + '"><b>' + esc(label) + '</b> · ' + esc(c.title || c.key) + '</span>';
+  }
+  function renderReport() {
+    var m = month(), box = $('report'), r = m && m.report;
+    if (!r || !r.rows || !r.rows.length) { box.hidden = true; return; }
+    box.hidden = false;
+    var open = r.rows.filter(function (x) { return !x.covered; });
+    $('reportMeta').textContent = r.rows.length + ' searches · ' + open.length + ' with no article yet';
+    var rows = state.rFilter === 'all' ? r.rows : open;
+    var shown = state.rAll ? rows : rows.slice(0, 12);
+    $('reportBody').innerHTML =
+      '<p class="how"><b>A month</b> is how often people in the United States search exactly that on Google. <b>Difficulty</b> runs 0 to 100 and says how hard page one is: easy under 30, hard from 50. Source: ' + esc(r.provider || '') + '.</p>' +
+      '<div class="controls"><div class="seg" role="group" aria-label="Show">' +
+        '<button type="button" data-r="filter" data-v="open" aria-pressed="' + (state.rFilter === 'open') + '">No article yet ' + open.length + '</button>' +
+        '<button type="button" data-r="filter" data-v="all" aria-pressed="' + (state.rFilter === 'all') + '">All ' + r.rows.length + '</button></div></div>' +
+      (shown.length ? '<ul class="terms"><li class="head" aria-hidden="true"><span>Search</span><span class="num">A month</span><span class="num">Difficulty</span></li>' +
+        shown.map(function (x) {
+          return '<li><div><span class="t-term">' + esc(x.term) + '</span>' + coverLine(x.covered) + '</div>' +
+            '<span class="num t-vol">' + fmt(x.volume) + '<small> /mo</small></span><span class="num">' + kd(x.difficulty) + '</span></li>';
+        }).join('') + '</ul>' : '<p class="how">Every search on this list already has an article.</p>') +
+      (rows.length > 12 ? '<button class="btn btn--line more" type="button" data-r="all">' + (state.rAll ? 'Show the top 12' : 'Show all ' + rows.length) + '</button>' : '');
+  }
+  $('reportBody').addEventListener('click', function (e) {
+    var b = e.target.closest('button[data-r]');
+    if (!b) return;
+    if (b.getAttribute('data-r') === 'filter') { state.rFilter = b.getAttribute('data-v'); state.rAll = false; }
+    else state.rAll = !state.rAll;
+    renderReport();
+  });
+
+  function renderResearch() {
+    var m = month(), box = $('research');
+    if (!m || (!m.seo && !m.gsc)) { box.hidden = true; return; }
+    box.hidden = false;
+    var html = '';
+    if (m.seo) {
+      $('researchMeta').textContent = (m.seo.errors || 0) + ' errors · ' + (m.seo.warnings || 0) + ' warnings';
+      html += '<p>' + esc(m.seo.pages + ' pages checked, ' + m.seo.indexable + ' of them meant for Google. ' +
+        (m.seo.errors ? m.seo.errors + ' errors and ' : '') + (m.seo.warnings || 0) + ' warnings.') + '</p>';
+      if (m.seo.items && m.seo.items.length) html += '<ul>' + m.seo.items.map(function (i) { return '<li>' + esc(i) + '</li>'; }).join('') + '</ul>';
+    }
+    if (m.gsc) {
+      html += '<p class="lab">Search Console</p><p>' + esc(m.gsc.connected
+        ? (m.gsc.clicks + ' clicks and ' + m.gsc.impressions + ' impressions in the last 28 days.')
+        : (m.gsc.note || 'Search Console is not connected yet.')) + '</p>';
+      if (m.gsc.opportunities && m.gsc.opportunities.length) {
+        html += '<p class="how">Searches the site already shows up for, low on the page. These make the best next articles.</p><ul>' +
+          m.gsc.opportunities.map(function (o) { return '<li>' + esc(o) + '</li>'; }).join('') + '</ul>';
+      }
+    }
+    $('researchBody').innerHTML = html;
+  }
+
+  // Publishing calendar.
+  var DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  var pad = function (n) { return String(n).padStart(2, '0'); };
+  function todayISO() { var d = new Date(); return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+  function shortDay(iso) { var d = new Date(iso + 'T12:00:00Z'); return DOW[d.getUTCDay()] + ' ' + d.getUTCDate(); }
+  var byDate = function (a, b) { return String(a.date).localeCompare(String(b.date)); };
+  function nextPost() { var t = todayISO(); return state.posts.filter(function (p) { return p.status !== 'published' && String(p.date) >= t; }).sort(byDate)[0]; }
+  function calMonths() {
+    var ms = state.posts.map(function (p) { return String(p.date).slice(0, 7); }).concat([todayISO().slice(0, 7)]).sort();
+    var out = [], y = +ms[0].slice(0, 4), m = +ms[0].slice(5, 7), last = ms[ms.length - 1];
+    for (var g = 0; g < 48; g++) {
+      var k = y + '-' + pad(m); out.push(k);
+      if (k >= last) break;
+      if (++m > 12) { m = 1; y++; }
+    }
+    return out;
+  }
+  function renderCalendar() {
+    var box = $('calendar');
+    if (!state.posts.length) { box.hidden = true; return; }
+    box.hidden = false;
+    var months = calMonths(), n = nextPost(), t = todayISO();
+    if (!state.calMonth || months.indexOf(state.calMonth) < 0) state.calMonth = n ? String(n.date).slice(0, 7) : months[months.length - 1];
+    var cm = state.calMonth, i = months.indexOf(cm), y = +cm.slice(0, 4), mo = +cm.slice(5, 7);
+    var lead = new Date(Date.UTC(y, mo - 1, 1)).getUTCDay(), days = new Date(Date.UTC(y, mo, 0)).getUTCDate();
+    var upcoming = state.posts.filter(function (p) { return p.status !== 'published' && String(p.date) >= t; }).sort(byDate);
+    $('calMeta').textContent = upcoming.length ? upcoming.length + ' scheduled · ' + shortDay(upcoming[0].date) + ' to ' + shortDay(upcoming[upcoming.length - 1].date) : 'Nothing scheduled';
+    var inMonth = state.posts.filter(function (p) { return String(p.date).slice(0, 7) === cm; }).sort(byDate);
+    var byDay = {};
+    inMonth.forEach(function (p) { (byDay[p.date] = byDay[p.date] || []).push(p); });
+    var cells = DOW.map(function (d) { return '<span class="dow" aria-hidden="true">' + d + '</span>'; }).join('');
+    for (var k = 0; k < lead; k++) cells += '<span class="day day--out" aria-hidden="true"></span>';
+    for (var d = 1; d <= days; d++) {
+      var iso = cm + '-' + pad(d), ps = byDay[iso] || [], cls = 'day' + (iso === t ? ' day--today' : '');
+      cells += ps.length
+        ? '<button type="button" class="' + cls + '" data-go="' + esc(ps[0].id) + '" aria-label="' + esc(dayName(iso) + ': ' + ps.map(function (p) { return p.title + ', ' + (STATUS[p.status] || p.status); }).join('; ')) + '"><b>' + d + '</b>' +
+          ps.map(function (p) { return '<span class="ev ev--' + esc(p.status) + '"><span>' + esc(p.title) + '</span></span>'; }).join('') + '</button>'
+        : '<span class="' + cls + '"><b>' + d + '</b></span>';
+    }
+    for (var k2 = lead + days; k2 % 7; k2++) cells += '<span class="day day--out" aria-hidden="true"></span>';
+    $('calBody').innerHTML =
+      (n ? '<p class="next">Next up: <b>' + esc(dayName(n.date)) + '</b> · ' + esc(n.title) +
+        (n.status === 'approved' ? '' : ' <span class="pill pill--' + esc(n.status) + '">' + esc(STATUS[n.status] || n.status) + '</span>') + '</p>'
+        : '<p class="next">Nothing scheduled after today.</p>') +
+      '<div class="cal-head"><h3>' + esc(monthName(cm)) + '</h3><div class="cal-nav">' +
+        '<button type="button" data-cal="-1" aria-label="Previous month"' + (i <= 0 ? ' disabled' : '') + '>&lsaquo;</button>' +
+        '<button type="button" data-cal="1" aria-label="Next month"' + (i >= months.length - 1 ? ' disabled' : '') + '>&rsaquo;</button></div></div>' +
+      '<div class="cal">' + cells + '</div>' +
+      '<div class="legend"><span><i></i>Waiting</span><span><i class="l-approved"></i>Approved</span><span><i class="l-changes"></i>Needs changes</span><span><i class="l-published"></i>Live</span></div>' +
+      (inMonth.length ? '<ul class="agenda">' + inMonth.map(function (p) {
+        var photo = p.photo && p.photo.added ? 'Photo added' : 'No photo yet';
+        return '<li><button type="button" data-go="' + esc(p.id) + '"><span class="when">' + esc(shortDay(p.date)) + '</span><span class="t">' + esc(p.title) +
+          '<span class="cam"><span class="pill pill--' + esc(p.status) + '">' + esc(SHORT[p.status] || p.status) + '</span><span>' + photo + '</span>' +
+          (p.graphic ? '<span>Graphic</span>' : '') + '</span></span></button></li>';
+      }).join('') + '</ul>' : '<p class="pnote">Nothing scheduled this month.</p>');
+  }
+  function jump(id) {
+    var p = state.posts.filter(function (x) { return x.id === id; })[0];
+    if (!p) return;
+    if (p.month !== state.month) { state.month = p.month; renderAll(); }
+    var el = document.getElementById('card-' + id);
+    if (!el) return;
+    el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    el.classList.add('is-flash');
+    setTimeout(function () { el.classList.remove('is-flash'); }, 1600);
+  }
+  $('calBody').addEventListener('click', function (e) {
+    var b = e.target.closest('button');
+    if (!b) return;
+    if (b.hasAttribute('data-cal')) {
+      var months = calMonths(), i = months.indexOf(state.calMonth) + Number(b.getAttribute('data-cal'));
+      if (months[i]) { state.calMonth = months[i]; renderCalendar(); }
+    } else if (b.hasAttribute('data-go')) jump(b.getAttribute('data-go'));
+  });
+
+  // The share image, and the photo (or the search terms for finding one).
+  function mediaBlock(p) {
+    var cv = state.covers[p.key];
+    var share = cv && cv.url ? '<div class="share"><p class="lab">Link preview</p><img src="' + esc(cv.url) +
+      '" alt="' + esc('Share image: ' + p.title) + '" loading="lazy"></div>' : '';
+    var photo;
+    if (p.photo && p.photo.added) {
+      photo = '<div class="photo"><p class="lab">Article photo</p>' +
+        (p.photo.url ? '<img src="' + esc(p.photo.url) + '" alt="' + esc(p.photo.alt || '') + '" loading="lazy">' : '') +
+        '<p class="pnote">Added. It goes live with the article.</p></div>';
+    } else {
+      photo = '<div class="photo"><p class="lab">Photo to license</p>' +
+        ((p.photoTerms || []).length ? '<div class="pterms">' + p.photoTerms.map(function (t) { return '<span>' + esc(t) + '</span>'; }).join('') + '</div>' : '') +
+        '<p class="pnote">Search Shutterstock for one of those, license it at the largest size, and save it as <code>' + esc(p.photoFile || (p.key + '.jpg')) +
+        '</code> in your blog photos folder. It goes in on the next publish run, even if the article is already live. Nothing under 1600px wide.</p></div>';
+    }
+    if (!share && !photo) return '';
+    return '<div class="media">' + share + photo + '</div>';
+  }
+
+  function keywordLine(p) {
+    var r = (month() || {}).report;
+    var hits = r && r.rows ? r.rows.filter(function (x) { return x.covered && x.covered.key === p.key && x.volume; }) : [];
+    if (hits.length) {
+      hits.sort(function (a, b) { return b.volume - a.volume; });
+      return '<p class="term">Searches it answers: ' + hits.slice(0, 3).map(function (x) {
+        return '<b>' + esc(x.term) + '</b> (' + fmt(x.volume) + '/mo)'; }).join(', ') + '</p>';
+    }
+    return p.keywords ? '<p class="term">Searches it answers: <b>' + esc(p.keywords) + '</b></p>' : '';
+  }
+
+  function renderList() {
+    var list = $('list'), posts = current();
+    list.textContent = '';
+    if (!state.month || !posts.length) {
+      list.innerHTML = '<div class="empty"><h2>No drafts yet</h2><p>The monthly run puts the next batch here and emails you when it is ready to read.</p></div>';
+      return;
+    }
+    posts.forEach(function (p) {
+      var card = document.createElement('article');
+      card.className = 'card'; card.id = 'card-' + p.id; card.setAttribute('data-status', p.status);
+      var open = !!state.open[p.id], asking = !!state.asking[p.id], locked = p.status === 'published';
+      card.innerHTML =
+        '<div class="cmeta"><span class="pill pill--' + esc(p.status) + '">' + esc(STATUS[p.status] || p.status) + '</span>' +
+          '<span>' + esc(dayName(p.date)) + '</span><span>' + esc(PILLARS[p.pillar] || p.pillar || '') + '</span>' +
+          '<span>' + esc((p.words || '?') + ' words') + '</span>' + (p.graphic ? '<span>Graphic</span>' : '') + '</div>' +
+        '<h2>' + esc(p.title) + '</h2>' +
+        '<p class="cdesc">' + esc(p.desc) + '</p>' +
+        keywordLine(p) +
+        (p.status === 'changes' && p.note ? '<p class="note">' + esc(p.note) + '</p>' : '') +
+        mediaBlock(p) +
+        '<div class="actions">' +
+          '<button class="btn btn--line" type="button" data-act="read" aria-expanded="' + open + '">' + (open ? 'Close' : 'Read') + '</button>' +
+          (state.canWrite && !locked
+            ? (p.status !== 'approved' ? '<button class="btn" type="button" data-act="approve">Approve</button>'
+                                       : '<button class="btn btn--line" type="button" data-act="undo">Undo approval</button>') +
+              '<button class="btn btn--line" type="button" data-act="ask">' + (p.status === 'changes' ? 'Edit note' : 'Needs changes') + '</button>'
+            : '') +
+        '</div>' +
+        (asking ? '<div class="ask"><label class="lab" for="note-' + esc(p.id) + '">What should change?</label>' +
+          '<textarea id="note-' + esc(p.id) + '" placeholder="For example: cut the intro, add a section on deposits, change the title to…">' + esc(p.note || '') + '</textarea>' +
+          '<div class="actions"><button class="btn" type="button" data-act="send">Send to Claude</button>' +
+          '<button class="btn btn--line" type="button" data-act="cancel">Cancel</button></div></div>' : '') +
+        (open ? '<div class="reader"><div class="article"><h3 class="a-title">' + esc(p.title) + '</h3>' +
+          '<p class="a-desc">' + esc(p.desc) + '</p>' + markdown(p.body) + '</div></div>' : '');
+      card.addEventListener('click', function (e) {
+        var b = e.target.closest('button[data-act]');
+        if (!b) return;
+        var act = b.getAttribute('data-act');
+        if (act === 'read') { state.open[p.id] = !open; renderList(); }
+        else if (act === 'approve') decide(p, 'approved', '');
+        else if (act === 'undo') decide(p, 'pending', '');
+        else if (act === 'ask') { state.asking[p.id] = true; renderList(); var ta = document.getElementById('note-' + p.id); if (ta) ta.focus(); }
+        else if (act === 'cancel') { state.asking[p.id] = false; renderList(); }
+        else if (act === 'send') {
+          var note = (document.getElementById('note-' + p.id) || {}).value || '';
+          if (!note.trim()) { toast('Write what should change first.'); return; }
+          state.asking[p.id] = false; decide(p, 'changes', note.trim());
+        }
+      });
+      list.appendChild(card);
+    });
+  }
+
+  function renderAll() {
+    try { renderMonths(); renderCounts(); renderCalendar(); renderReport(); renderResearch(); renderList(); }
+    catch (e) { showProblem('Could not show the drafts', 'render: ' + errText(e)); }
+  }
+
+  function decide(p, status, note) {
+    if (!db || !state.canWrite) return;
+    db.doc('posts/' + p.id).update({ status: status, note: note, decidedAt: new Date().toISOString() })
+      .then(function () {
+        toast(status === 'approved' ? 'Approved. It goes live on ' + dayName(p.date) + '.'
+          : status === 'changes' ? 'Sent. Claude revises it on the next run.' : 'Back to waiting.');
+      })
+      .catch(function (e) { toast(e && e.code === 'invalid_argument' ? 'Only the owner can change these.' : 'That did not save (' + errText(e) + ').'); });
+  }
+  $('approveAll').addEventListener('click', function () {
+    var waiting = current().filter(function (p) { return p.status === 'pending'; });
+    var chain = Promise.resolve();
+    waiting.forEach(function (p) {
+      chain = chain.then(function () { return db.doc('posts/' + p.id).update({ status: 'approved', note: '', decidedAt: new Date().toISOString() }); });
+    });
+    chain.then(function () { toast(waiting.length + ' approved. They go live on their dates.'); })
+      .catch(function (e) { toast('Some approvals did not save (' + errText(e) + ').'); });
+  });
+
+  // Snapshot rows are frozen: copy each one before adding its id.
+  function rows(snap) { return snap.docs.map(function (d) { return Object.assign({}, d.data(), { _doc: d.id }); }); }
+  function setMonths(list) {
+    state.months = list.map(function (x) { x.id = x.id || x._doc; return x; })
+      .sort(function (a, b) { return String(b.id).localeCompare(String(a.id)); });
+    if (!state.month || !state.months.some(function (m) { return m.id === state.month; })) {
+      state.month = state.months.length ? state.months[0].id : null;
+    }
+  }
+  function setPosts(list) { state.posts = list.map(function (x) { x.id = x._doc; return x; }); }
+
+  (async function () {
+    if (typeof claude === 'undefined' || !claude || typeof claude.use !== 'function') {
+      showProblem('Open this page on claude.ai', 'the claude.ai runtime is not available in this view'); return;
+    }
+    db = await claude.use('db');
+    var user = await claude.use('user');
+    if (!db) {
+      $('list').innerHTML = '<div class="empty"><h2>Sign in to review</h2><p>Open this page signed in to claude.ai to read and approve the drafts.</p></div>';
+      return;
+    }
+    try { state.canWrite = user ? (await user.canEdit()) !== false : true; } catch (e) { state.canWrite = true; }
+    if (!state.canWrite) $('who').textContent = 'View only: approvals are made by the owner.';
+
+    var got = { months: false, posts: false };
+    function ready() { if (got.months && got.posts) { state.loaded = true; renderAll(); } }
+    db.collection('months').onSnapshot(function (s) { setMonths(rows(s)); got.months = true; ready(); },
+      function (e) { showProblem('Could not load the drafts', 'months: ' + errText(e)); });
+    db.collection('posts').onSnapshot(function (s) { setPosts(rows(s)); got.posts = true; ready(); },
+      function (e) { showProblem('Could not load the drafts', 'posts: ' + errText(e)); });
+    // Images arrive separately; the drafts show without them until they do.
+    db.collection('covers').onSnapshot(function (s) {
+      var m = {}; rows(s).forEach(function (x) { m[x.key] = x; });
+      state.covers = m; if (state.loaded) renderAll();
+    }, function () {});
+    db.collection('graphics').onSnapshot(function (s) {
+      var m = {}; rows(s).forEach(function (x) { if (x.src && x.url) m[x.src] = x.url; });
+      state.graphics = m; if (state.loaded) renderAll();
+    }, function () {});
+
+    // If the live feed is slow to start, read once so the page is not left waiting.
+    setTimeout(function () {
+      if (state.loaded) return;
+      Promise.all([db.collection('months').get(), db.collection('posts').get()]).then(function (r) {
+        if (state.loaded) return;
+        setMonths(rows(r[0])); setPosts(rows(r[1])); state.loaded = true; renderAll();
+      }).catch(function (e) { if (!state.loaded) showProblem('Could not load the drafts', 'read: ' + errText(e)); });
+    }, 8000);
+  })().catch(function (e) { showProblem('Could not load the drafts', 'start: ' + errText(e)); });
+})();
+</script>
