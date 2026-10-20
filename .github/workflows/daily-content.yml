@@ -14,10 +14,18 @@ name: Daily content publish
 # young-site slow-drip philosophy (daily-publish PER_RUN=1). Raise it once
 # indexing is proven reliable.
 
+# ─── The daily schedule is OFF (2026-10-20, Luis's decision) ───
+# /blog is now approval-gated: articles are drafted by the monthly run, read
+# and approved by Luis on the review page, and published on their dates by the
+# weekday publish run (content/blog-tools/blog-loop.md). A cron that pushes
+# unreviewed third-party articles into the same hub defeats that gate, so the
+# `schedule:` trigger below is commented out rather than deleted: the workflow
+# and its secret still work from the Actions tab if the pipeline is ever wanted
+# again. Uncomment the two lines to turn it back on.
 on:
-  schedule:
-    - cron: '0 13 * * *'   # daily ~09:00 ET (13:00 UTC)
-  workflow_dispatch: {}    # manual "Run workflow" button for testing / on-demand
+  # schedule:
+  #   - cron: '0 13 * * *'   # daily ~09:00 ET (13:00 UTC)
+  workflow_dispatch: {}    # manual "Run workflow" button only
 
 concurrency:
   group: daily-content
