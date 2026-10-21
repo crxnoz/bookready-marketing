@@ -43,12 +43,12 @@ Nothing is ever published without Luis's approval on the review page.
 
 Every article belongs to one, set in `pillar`. They are the shape of the blog, not decoration: the hub filters by them and the share image prints the label.
 
-- `switching` — Competitor fees, honest math, what transfers and what does not. The lowest-difficulty, highest-intent searches we have.
-- `money` — Deposits, no-show fees, cancellation windows, card on file, tips, pricing your own services.
-- `coming-back` — Rebooking, reminders, waitlists, reviews, client records.
-- `your-site` — The booking page, the link in bio, the domain that is yours rather than a marketplace listing.
-- `the-week` — Calendars, capacity, drops, after-hours, how the week is shaped. Little search volume, but it is what BKRDY does that nobody else writes about.
-- `going-solo` — Booth rent, going independent, the first ninety days.
+- `switching`: Competitor fees, honest math, what transfers and what does not. The lowest-difficulty, highest-intent searches we have.
+- `money`: Deposits, no-show fees, cancellation windows, card on file, tips, pricing your own services.
+- `coming-back`: Rebooking, reminders, waitlists, reviews, client records.
+- `your-site`: The booking page, the link in bio, the domain that is yours rather than a marketplace listing.
+- `the-week`: Calendars, capacity, drops, after-hours, how the week is shaped. Little search volume, but it is what BKRDY does that nobody else writes about.
+- `going-solo`: Booth rent, going independent, the first ninety days.
 
 ## Monthly run (the 15th)
 
