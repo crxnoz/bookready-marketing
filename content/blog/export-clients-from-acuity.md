@@ -78,7 +78,7 @@ The simplest safeguard for all of this is a screenshot. Anything you want to rem
 
 If the export was the first step toward switching, the rest is lighter than you might expect. Start a BKRDY trial, send us your cleaned CSV, and we handle the import. Most migrations finish within a day, with services, hours, staff, and clients all brought across so you are not rebuilding from scratch.
 
-The trial runs 30 days, with no card required for the first 7, so you can build your site and review the imported data before committing to anything. Solo pros in particular tend to be live the same day. If you want the full picture first, read the [migration guide](/migration/), check plans on the [pricing page](/pricing/), or see how the two platforms stack up on our [Acuity alternative comparison](/compare/acuity-alternative/). Built for one-person businesses? The [solo pros page](/for-solo-pros/) shows what a designed site looks like for a team of one.
+You can build your site and review the imported data on Starter, which is free forever with no card, before committing to anything. A paid plan starts with 7 days free, with a card on file. Solo pros in particular tend to be live the same day. If you want the full picture first, read the [migration guide](/migration/), check plans on the [pricing page](/pricing/), or see how the two platforms stack up on our [Acuity alternative comparison](/compare/acuity-alternative/). Built for one-person businesses? The [solo pros page](/for-solo-pros/) shows what a designed site looks like for a team of one.
 
 ## Questions
 

@@ -36,7 +36,7 @@ One honest caveat. Vagaro does not export appointment history as cleanly as it e
 
 ## Start your BKRDY trial and send us the file.
 
-Head to bkrdy.com and start your trial. You get 14 days free, with no card required for the first 7, so there is zero risk in setting things up before you commit. Once you are inside the dashboard, look for the Migration tab. This is where the free lift happens.
+Head to bkrdy.com and sign up. Starter is free forever with no card, so there is zero risk in setting things up before you commit, and a paid plan starts with 7 days free. Once you are inside the dashboard, look for the Migration tab. This is where the free lift happens.
 
 You have two ways to hand off your data. You can upload the Vagaro CSV directly in the Migration tab, or you can email it to migration@bkrdy.com if you would rather we handle every field. For most accounts, the team runs the import the same day. We do not just dump a spreadsheet in either. Using the screenshots you took last week, we rebuild your service menu and your hours so the structure matches what your clients already know, right down to service names and durations.
 
@@ -110,7 +110,7 @@ No, and you should not. Run both in parallel during your trial. Cancel Vagaro on
 
 ### Will I be billed twice during the switch?
 
-Barely, if at all. BKRDY gives you 14 days free with no card required for the first 7, so you have a comfortable buffer to overlap with Vagaro at no extra cost. Most owners finish the move well inside that window.
+Barely, if at all. Starter is free forever with no card, so you can overlap with Vagaro at no extra cost for as long as you need, and a paid plan starts with 7 days free. Most owners finish the move in a day or two.
 
 ### What about my Vagaro memberships and packages?
 
