@@ -2,9 +2,9 @@
 key: instagram-marketing-for-salons
 section: guides
 slug: instagram-marketing-for-salons
-title: Instagram marketing for salons that actually books clients.
-metaTitle: Instagram Marketing for Salons: Turn Followers Into Bookings | BKRDY
-description: Stop posting into the void. How to turn your salon Instagram into a real booking channel: the bio link flow, content that converts, and a posting cadence you can keep.
+title: Instagram marketing that actually books salon clients
+metaTitle: Instagram marketing that books salon clients | BKRDY
+description: How to turn your salon Instagram into a real booking channel: the bio link flow, the content that converts, and a posting cadence you can keep.
 date: 2026-07-10
 pillar: your-site
 keywords: instagram marketing salons

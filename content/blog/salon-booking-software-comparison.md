@@ -50,7 +50,7 @@ Skip the feature checklist. For a salon, five things decide whether software hel
 
 ## Six platforms, one honest read each.
 
-**BKRDY.** A designed booking website (fifteen named editorial templates) with booking, deposits, and reminders built in, 0% transaction markup, and free same-day migration. $19 to $34 a month, flat. Best for owners who treat their brand as the product. Weak spots: no barcode retail inventory and no POS hardware. It is the only option here that puts the booking experience on your own domain by default, which matters for SEO and for reading as an established business rather than a marketplace listing. Browse the [templates](/templates/).
+**BKRDY.** A designed booking website (fifteen named editorial templates) with booking, deposits, and reminders built in, 0% transaction markup, and free same-day migration. $0 to $55 a month, flat, with Salon quoted. Best for owners who treat their brand as the product. Weak spots: no barcode retail inventory and no POS hardware. It is the only option here that puts the booking experience on your own domain by default, which matters for SEO and for reading as an established business rather than a marketplace listing. Browse the [templates](/templates/).
 
 **Fresha.** Free to subscribe, with a large marketplace and multi-location support. The revenue model is the catch: a new-client fee (a cut of first visits) plus processing markup, and your data lives in their marketplace. Best for high-volume salons that prize zero monthly cost over owning the funnel. See the [Fresha comparison](/compare/fresha-alternative/).
 

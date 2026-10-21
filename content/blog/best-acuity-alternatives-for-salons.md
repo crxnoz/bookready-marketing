@@ -30,9 +30,9 @@ The part most owners do not see coming is the brand cost. You spend two years bu
 
 ## BKRDY. Best for design-led salons.
 
-**Price.** $19 to $34 per month depending on team size, with fully custom builds quoted, with 0% platform markup. Free to start, no card. **Best for.** Owners who treat their brand like the product and do not want to lose a percentage of every booking.
+**Price.** Starter is $0. Paid plans run $21 to $55 a month depending on team size, with Salon quoted, and 0% platform markup. The free plan needs no card; the trial does. **Best for.** Owners who treat their brand like the product and do not want to lose a percentage of every booking.
 
-BKRDY is built around one idea: your booking page should be a real website, not a widget. You get seven editorial templates that are named and designed rather than generic color swaps, plus all the booking, deposit, and reminder features built in. Free same-day migration from Acuity is included, and you pay 0% on top of Stripe's standard processing rate.
+BKRDY is built around one idea: your booking page should be a real website, not a widget. You get fifteen editorial templates that are named and designed rather than generic color swaps, plus all the booking, deposit, and reminder features built in. Free same-day migration from Acuity is included, and you pay 0% on top of Stripe's standard processing rate.
 
 **What stood out.** The templates are genuinely designed. Pick Petale and you get a romantic, soft layout that suits a color-focused salon, with photography that carries the page instead of a form that fights it. Per-stylist calendars work cleanly, each stylist gets their own login and Stripe payout on the team plans, and deposits are enforced in the booking flow rather than on a sign at the desk. Browse the full set on the [templates page](/templates/) to see the range.
 
