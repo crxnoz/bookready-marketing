@@ -84,7 +84,7 @@ Over a year, a three-chair shop on Booksy is paying the base plus two add-ons, a
 
 If most of your bookings already come from people who know you, the math changes. A designed website on your own domain, with booking and deposits built in, costs less than a stacked marketplace bill and keeps every client as yours.
 
-That is what BKRDY does: a real site (not a marketplace listing), 0% transaction markup on top of Stripe, and free same-day migration of your client list. Plans run from $0 to $55 a month, flat, with no per-staff surprise. Barbers tend to start with The Fade Room or Blackline because they look like a real shop, not a generic widget. Browse the full set on the [templates page](/templates/).
+That is what BKRDY does: a real site (not a marketplace listing), 0% transaction markup on top of Stripe, and free same-day migration of your client list. Plans run from $0 to $47 a month billed annually, or $21 to $55 month, flat, with no per-staff surprise. Barbers tend to start with The Fade Room or Blackline because they look like a real shop, not a generic widget. Browse the full set on the [templates page](/templates/).
 
 If you want the head-to-head with the marketplace specifically, read our [Booksy alternative comparison](/compare/booksy-alternative/), which runs the fee math in detail.
 

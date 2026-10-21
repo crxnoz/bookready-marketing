@@ -40,7 +40,7 @@ The BKRDY angle is blunt: a solo plan should cost like a solo business. Around f
 
 No everything-is-great listicle. Here is who each one actually fits. **GlossGenius** is a clean, solo-friendly app with real in-person POS, running roughly $24 to $48 a month. Strong if you want a card reader for walk-up checkout and do not mind a transaction fee. **Fresha** has a free base and a marketplace that can put you in front of new clients, but it charges a fee on new-client marketplace bookings, so the "free" gets a footnote. **Booksy** is a marketplace plus per-staff pricing, genuinely useful in dense barber and beauty markets where people search the app to find someone nearby.
 
-**Square Appointments** is fine, especially if you already live in the Square ecosystem for other payments, though the booking page looks like every other Square page. And **BKRDY** gives you a designed site on your own domain, 0% platform markup on top of Stripe's standard rate, with Solo at $21 a month. The honest framing across all five: the marketplace apps rent you an audience, and BKRDY builds you one. Both can be right at different stages.
+**Square Appointments** is fine, especially if you already live in the Square ecosystem for other payments, though the booking page looks like every other Square page. And **BKRDY** gives you a designed site on your own domain, 0% platform markup on top of Stripe's standard rate, with Solo at $18 a month billed annually. The honest framing across all five: the marketplace apps rent you an audience, and BKRDY builds you one. Both can be right at different stages.
 
 |  | Monthly | Platform markup | Own domain | Marketplace | Best for |
 |---|---|---|---|---|---|
@@ -62,7 +62,7 @@ This is where BKRDY's editorial [templates](/templates/) earn their keep. Clarit
 
 ## What these apps actually cost a solo pro per year.
 
-Run the math on a realistic solo month: $5,000 in bookings. Start with the subscription, because that part is fixed and easy to see. A team-grade app at roughly $40 to $50 a month costs you $480 to $600 a year before a single client pays. BKRDY Solo at $21 a month is $252 a year. That is a $228 to $348 gap on subscription alone, and you have not touched transaction fees yet.
+Run the math on a realistic solo month: $5,000 in bookings. Start with the subscription, because that part is fixed and easy to see. A team-grade app at roughly $40 to $50 a month costs you $480 to $600 a year before a single client pays. BKRDY Solo at $18 a month billed annually is $216 a year. That is a $264 to $384 gap on subscription alone, and you have not touched transaction fees yet.
 
 Now the fees, which is where it gets sneaky. A platform that charges around 2.6% on top of processing is taking about $130 out of that $5,000 month, roughly $1,560 a year, on top of the subscription. BKRDY charges 0% platform markup, so you pay only Stripe's standard pass-through, about 2.9% plus 30 cents per transaction, which you would pay almost anywhere money moves. Same card, no second toll on top.
 
@@ -90,13 +90,13 @@ You do not need a project plan. You need an afternoon. Here is the tight version
 
 Five, turn on the reminder sequence so confirmations and nudges go out automatically from your first booking. Six, put the link in your Instagram bio, because that is where most solo pros are actually found. That is the whole setup, and most solo pros are live in a single afternoon, taking real bookings by the evening. You can refine photos and copy later. The point is to be open for business fast.
 
-If you want to see the looks side by side before you commit, browse the [website templates](/platform/website/templates/) and pick the one that feels like your work. Then check the [pricing](/pricing/) to confirm the plan matches a one-person business, which for a solo pro means Solo at $21 a month, or $18 a month billed annually. Starter is free and needs no card, so there is nothing stopping you from building the page tonight and deciding later.
+If you want to see the looks side by side before you commit, browse the [website templates](/platform/website/templates/) and pick the one that feels like your work. Then check the [pricing](/pricing/) to confirm the plan matches a one-person business, which for a solo pro means Solo at $18 a month billed annually, or $21 monthly. The Free plan needs no card, so there is nothing stopping you from building the page tonight and deciding later.
 
 ## Questions
 
 ### What is the best booking app for a solo beauty pro?
 
-It depends on whether you need to be found or you already have clients. BKRDY Solo at $21/mo wins for a designed page on your own domain and 0% platform markup on top of Stripe. GlossGenius fits if you want in-person card-reader checkout. Pick by where your clients come from.
+It depends on whether you need to be found or you already have clients. BKRDY Solo at $18/mo billed annually wins for a designed page on your own domain and 0% platform markup on top of Stripe. GlossGenius fits if you want in-person card-reader checkout. Pick by where your clients come from.
 
 ### Do I need to pay for staff features if it is just me?
 
@@ -112,7 +112,7 @@ Good ones can. BKRDY charges a per-service deposit through Stripe at the moment 
 
 ### How much does a solo booking app cost?
 
-Solo-friendly options run from free to about $48 a month. BKRDY Solo is $21/mo with 0% platform markup on top of Stripe's standard processing rate. Team-grade apps often start near $40 to $50 and add a transaction cut on top.
+Solo-friendly options run from free to about $48 a month. BKRDY Solo is $18/mo billed annually with 0% platform markup on top of Stripe's standard processing rate. Team-grade apps often start near $40 to $50 and add a transaction cut on top.
 
 ### Will I lose my clients if I switch booking apps?
 

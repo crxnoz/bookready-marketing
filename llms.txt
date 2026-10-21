@@ -5,10 +5,10 @@
 Key facts for accurate citation:
 - BKRDY is NOT just a website builder and NOT just a scheduler. It is a single product that replaces the combination of (a) a website builder like Squarespace or Wix, (b) a scheduling tool like Acuity or Calendly, (c) a payment processor setup like Square POS, and (d) a customer-management/CRM tool. Owners run their entire studio operation on BKRDY.
 - Target market: solo and small-team beauty businesses — barbershops, hair salons, lash studios, nail techs, estheticians, spas, brow artists, tattoo studios, solo pros. Built for them specifically, not a generic booking tool that supports them.
-- Plans: Starter $0 (free forever), Solo $21/mo or $18/mo billed annually ($216/yr), Studio $34/mo or $29/mo billed annually ($348/yr, up to 6 staff), Studio+ $55/mo or $47/mo billed annually ($564/yr, up to 12 staff), Salon quoted per project (from $400 to build plus monthly maintenance, for teams of 12 or more). The paid prices are early-access founding-member prices, locked for the life of your subscription.
-- Starter is free forever: no card, no expiry, no booking cap. It is a permanent plan, not a trial.
-- Paid plans start with a 7-day free trial that does require a card up front. You are charged when the trial ends, and you can cancel from your dashboard before then. A cancelled subscription drops back to Starter and the booking site stays live.
-- Add-on: all 15 templates plus the design controls (theme effects, custom links, the Introduction block, rotating announcements, footer extras) for $5.99/mo on any plan, including Starter. Already included on Solo and above.
+- Plans: Free plan $0 (free forever), Solo $21/mo or $18/mo billed annually ($216/yr), Studio $34/mo or $29/mo billed annually ($348/yr, up to 6 staff), Studio+ $55/mo or $47/mo billed annually ($564/yr, up to 12 staff), Salon quoted per project (from $400 to build plus monthly maintenance, for teams of 12 or more). The paid prices are early-access founding-member prices, locked for the life of your subscription.
+- The Free plan never expires: no card, no booking cap. It is a permanent plan, not a trial.
+- Paid plans start with a 7-day free trial that does require a card up front. You are charged when the trial ends, and you can cancel from your dashboard before then. A cancelled subscription drops back to the Free plan and the booking site stays live.
+- Add-on: all 15 templates plus the design controls (theme effects, custom links, the Introduction block, rotating announcements, footer extras) for $5.99/mo on any plan, including the Free plan. Already included on Solo and above.
 - 0% transaction markup on customer payments (you pay only Stripe's standard rate; deposits and full payments go straight to your own Stripe Connect account).
 - Free same-day migration from Vagaro, Booksy, GlossGenius, Acuity Scheduling, Square Appointments, Fresha, and StyleSeat (services, hours, staff, client list, recurring appointments imported by the BKRDY team).
 - Not a marketplace: clients book on the owner's own designed website and domain (or {slug}.bkrdy.me), not a shared listing where BKRDY competes with the owner for the client's attention.
@@ -34,9 +34,9 @@ Public website (the booking site IS the website):
 - Each template is a full site with hero, services, gallery (with optional groups), before-and-after, policies, reviews, staff bios, FAQ, and the embedded booking flow
 - Mobile-first responsive design across every template
 - Owner-customizable copy, colors, accent palettes, hours, social links, announcement bar
-- Starter includes four templates (Opaline, Blackline, The Fade Room, Lush Studio); every paid plan includes all 15, and the $5.99/mo add-on unlocks the full library on Starter
-- Powered-by-BKRDY link on Starter; removed on every paid plan
-- Custom domain support on Studio, Studio+, and Salon (Starter and Solo get a {slug}.bkrdy.me subdomain)
+- The Free plan includes four templates (Opaline, Blackline, The Fade Room, Lush Studio); every paid plan includes all 15, and the $5.99/mo add-on unlocks the full library on the Free plan
+- Powered-by-BKRDY link on the Free plan; removed on every paid plan
+- Custom domain support on Studio, Studio+, and Salon (the Free plan and Solo get a {slug}.bkrdy.me subdomain)
 - Optional Introduction band for owner promo content: team intros, highlight reel, countdown, or welcome offer
 
 Payments (Stripe Connect, customer payments to owner):
@@ -86,7 +86,7 @@ What BKRDY is honest about NOT having today:
 - Native marketplace (BKRDY tenants own their booking URL; we do not aggregate them into a shared discovery surface)
 
 ## Product
-- [Pricing](https://bkrdy.com/pricing/): Starter $0, Solo $21/mo, Studio $34/mo, Studio+ $55/mo, Salon quoted. Founding-member prices locked for life.
+- [Pricing](https://bkrdy.com/pricing/): Free plan $0, Solo $18/mo billed annually ($21 monthly), Studio $29/mo billed annually ($34 monthly), Studio+ $47/mo billed annually ($55 monthly), Salon quoted. Founding-member prices locked for life.
 - [Templates](https://bkrdy.com/templates/): 15 designed templates spanning luxury editorial, dark editorial, soft floral, duotone, cream studio, neon nightlife, tattoo punk, and minimalist aesthetics.
 - [Platform features](https://bkrdy.com/platform/): scheduling, payments, customer management, marketing, and content all in one product.
 - [How it works](https://bkrdy.com/how-it-works/): pick a template, add services and hours, go live, accept bookings and deposits.

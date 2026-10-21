@@ -30,7 +30,7 @@ The part most owners do not see coming is the brand cost. You spend two years bu
 
 ## BKRDY. Best for design-led salons.
 
-**Price.** Starter is $0. Paid plans run $21 to $55 a month depending on team size, with Salon quoted, and 0% platform markup. The free plan needs no card; the trial does. **Best for.** Owners who treat their brand like the product and do not want to lose a percentage of every booking.
+**Price.** The Free plan is $0. Paid plans run $18 to $47 a month billed annually, or $21 to $55 monthly, depending on team size, with Salon quoted, and 0% platform markup. The free plan needs no card; the trial does. **Best for.** Owners who treat their brand like the product and do not want to lose a percentage of every booking.
 
 BKRDY is built around one idea: your booking page should be a real website, not a widget. You get fifteen editorial templates that are named and designed rather than generic color swaps, plus all the booking, deposit, and reminder features built in. Free same-day migration from Acuity is included, and you pay 0% on top of Stripe's standard processing rate.
 
@@ -143,7 +143,7 @@ Fresha and Booksy both run marketplaces. BKRDY, GlossGenius, Vagaro, and Square 
 
 ### Which is best for a one-person salon?
 
-BKRDY Solo at $21 per month, or GlossGenius if in-person tap-to-pay checkout is central to your day. BKRDY wins on design and zero platform fees. GlossGenius wins on the integrated point-of-sale and tipping flow. For most solo stylists, the design edge matters more.
+BKRDY Solo at $18 a month billed annually, or GlossGenius if in-person tap-to-pay checkout is central to your day. BKRDY wins on design and zero platform fees. GlossGenius wins on the integrated point-of-sale and tipping flow. For most solo stylists, the design edge matters more.
 
 ### Which is best for a 5-chair salon?
 

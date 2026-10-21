@@ -64,7 +64,7 @@ A solo lash artist switches from a marketplace booking link to BKRDY, imports cl
 
 ### Pricing
 
-BKRDY Solo is $21 a month, or $18 a month billed annually ($216 a year). A free plan with basic features is available and does not require a credit card to start.
+BKRDY Solo is $18 a month billed annually ($216 a year), or $21 monthly. A free plan with basic features is available and does not require a credit card to start.
 
 **Website:** [bkrdy.com](/)
 

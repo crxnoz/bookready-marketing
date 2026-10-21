@@ -26,7 +26,7 @@ Six criteria we used to evaluate each platform. Each matters for a different rea
 
 ## BKRDY. A real designed website, 0% markup.
 
-**Price.** Starter $0, Solo $21/mo, Studio $34/mo, 0% platform markup. Starter is free with no card. **Best for.** Barbers who want their site to look like a brand and do not want to pay 1-3% per booking.
+**Price.** The Free plan is $0, Solo $18/mo and Studio $29/mo billed annually ($21 and $34 monthly), 0% platform markup. The Free plan needs no card. **Best for.** Barbers who want their site to look like a brand and do not want to pay 1-3% per booking.
 
 BKRDY gives you a designed booking website (templates are named, not generic, with The Fade Room as the most popular for barbershops) and all the booking, deposit, and reminder features built in. Same booking engine you would find on GlossGenius or Booksy, but the surface your clients touch is a designed website, not a booking widget.
 
@@ -153,7 +153,7 @@ Yes. You can manually add bookings from your dashboard. Most shops find that 80 
 
 ### What if I want a fully custom website (not just a template)?
 
-BKRDY templates are customizable (your photos, your services, your colors), but they do not go fully custom (custom code, custom layouts). For that you would need a designer plus a booking integration like Acuity. The pricing math works out to about $200 to $500 per month for that setup versus $21 to $55 per month for BKRDY.
+BKRDY templates are customizable (your photos, your services, your colors), but they do not go fully custom (custom code, custom layouts). For that you would need a designer plus a booking integration like Acuity. The pricing math works out to about $200 to $500 per month for that setup versus $18 to $47 a month billed annually for BKRDY.
 
 ### Which BKRDY template should a barbershop pick?
 
