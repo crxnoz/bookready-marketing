@@ -9,7 +9,7 @@ date: 2026-10-27
 pillar: the-week
 keywords: salon schedule, how far in advance to book clients
 photoTerms: hair stylist booking next appointment front desk | nail technician talking with client at table | barber shop reception desk client conversation
-status: draft
+status: published
 ---
 
 Four to six weeks is the right window for most beauty work, and most owners have their books open far longer than that. Three months, six months, or rolling open forever, because a full calendar feels like a safe calendar.

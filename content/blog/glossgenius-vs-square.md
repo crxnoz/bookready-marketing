@@ -9,7 +9,7 @@ date: 2026-10-26
 pillar: switching
 keywords: glossgenius vs square, glossgenius vs square appointments
 photoTerms: nail technician client manicure salon conversation | barber shop owner taking card payment counter | hair stylist salon reception checking tablet
-status: draft
+status: published
 ---
 
 The honest comparison here is not a feature list, because these are not the same kind of product. One is built for beauty and sells you a bundle. The other is a booking calendar bolted onto a payments company that also serves coffee shops and dog groomers.
