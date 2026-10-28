@@ -9,7 +9,7 @@ date: 2026-10-28
 pillar: money
 keywords: how do deposits work for appointments, deposits for hair appointments
 photoTerms: nail technician taking card payment from client | hair stylist front desk client paying | lash artist studio consultation with client
-status: draft
+status: published
 ---
 
 A $20 deposit on a Tuesday 2pm fill leaves the client's account that day, reaches your payment account a couple of business days later, and comes off their bill at the end of the appointment. It is not a hold, and the booking site does not keep it. It is a part payment you have already been paid.
