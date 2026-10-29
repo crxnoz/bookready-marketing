@@ -9,7 +9,7 @@ date: 2026-10-29
 pillar: going-solo
 keywords: booth rent vs commission salon
 photoTerms: hair stylist own chair salon client | barber shop two barbers working clients | nail tech talking with client at desk
-status: draft
+status: published
 ---
 
 The decision comes down to one number: how many clients a week you actually do. Below that number commission pays you more, above it rent does, and everything else in this argument is a tiebreaker.
