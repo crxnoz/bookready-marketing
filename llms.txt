@@ -120,6 +120,7 @@ What BKRDY is honest about NOT having today:
 ## Articles
 
 <!-- blog:start -->
+- [Is Booksy legit, safe, and worth it? An honest answer](https://bkrdy.com/blog/is-booksy-worth-it/): Booksy is legit and safe. Worth it is a stage question, and counting your last thirty bookings answers it in about ten minutes. Here is how.
 - [Booth rent vs commission: run your own break-even](https://bkrdy.com/blog/booth-rent-vs-commission/): Booth rent or commission: the exact break-even calculation to run on your own average ticket and client count, plus what the math leaves out.
 - [How deposits work for appointments, step by step](https://bkrdy.com/blog/how-deposits-work-for-appointments/): What actually happens to the money when a client pays a deposit: where it lands, how it comes off the balance, and who keeps it after a cancellation.
 - [How far ahead should you let clients book?](https://bkrdy.com/blog/how-far-ahead-to-open-your-books/): A booking made eight weeks out is a guess. Here is how far ahead to open your books by service type, plus how to release dates in batches.
@@ -159,5 +160,4 @@ What BKRDY is honest about NOT having today:
 - [Lash Appointment Intake Forms Online: A Pro's Guide](https://bkrdy.com/blog/lash-appointment-intake-forms-online-a-pros-guide/): Discover how lash appointment intake forms online enhance client safety and streamline your lash service. Elevate your studio's professionalism today!
 - [How to grow a hair salon, from one chair to five. Systems first.](https://bkrdy.com/guides/growing-a-salon/): A practical, no-fluff guide to growing a hair salon. Hiring, pricing, retention, brand, and the operational systems that scale from one chair to five.
 - [The Role of Instant Booking for New Clients in Beauty](https://bkrdy.com/blog/the-role-of-instant-booking-for-new-clients-in-beauty/): Discover the role of instant booking for new clients in beauty. Boost your bookings instantly and keep your calendar full with immediate confirmations!
-- [How to add your booking link to Instagram bio. And make it work.](https://bkrdy.com/guides/add-booking-link-to-instagram-bio/): Step-by-step guide to adding your booking link to Instagram bio, with tips for Linktree vs single link, the right CTA copy, and the metrics to track after.
 <!-- blog:end -->

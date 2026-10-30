@@ -9,7 +9,7 @@ date: 2026-10-30
 pillar: switching
 keywords: is booksy legit, is booksy safe, is booksy worth it
 photoTerms: nail technician working with client salon | barber cutting hair client conversation | lash artist studio natural light client
-status: draft
+status: published
 ---
 
 Yes, yes, and it depends on your stage. Those are the three answers, in the order people search for them. Booksy is a real company, your money and your client data are handled the normal way, and whether the fee is worth paying comes down to one number you can count yourself in ten minutes.
