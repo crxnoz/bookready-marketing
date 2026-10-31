@@ -393,3 +393,144 @@ img { max-width: 100%; display: block; }
   .v-night__kito { display: none; }
   .v-foot__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
+/* ══ Inner pages (phase 2: pricing, /free/, the for-* pages, templates) ══ */
+
+/* Page head: the homepage horizon, shorter and quieter. */
+.v-phead { position: relative; overflow: hidden; padding: 96px 0 88px; }
+.v-phead .v-horizon { opacity: 0.6; top: -120px; }
+.v-phead__copy { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 24px; }
+.v-phead__copy .v-lede { max-width: 640px; }
+.v-h1--page { font-size: clamp(42px, 6vw, 80px); }
+
+/* Split head: copy left, a product visual right (trade pages, /free/). */
+.v-split { position: relative; z-index: 2; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 64px; align-items: center; }
+.v-split__copy { display: flex; flex-direction: column; align-items: flex-start; gap: 24px; }
+.v-split__copy .v-hero__ctas { justify-content: flex-start; }
+
+/* A light card from the app: the service menu. */
+.v-shot { position: relative; padding-bottom: 72px; }
+.v-menu { padding: 22px; border-radius: 28px; background: var(--app-card); color: var(--app-ink); box-shadow: 0 40px 120px rgba(0, 0, 0, 0.6); }
+.v-menu__head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.v-menu__title { font-size: 20px; font-weight: 800; letter-spacing: -0.02em; }
+.v-menu__sub { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--app-ink-2); }
+.v-menu__row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; padding: 13px 0; border-top: 1px solid var(--app-line); }
+.v-menu__name { font-size: 14px; font-weight: 700; }
+.v-menu__price { font-size: 14px; font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; }
+.v-menu__meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 12px; color: var(--app-muted); }
+.v-menu__dep { padding: 2px 8px; border-radius: 999px; background: #FBEEE6; color: #8F3F22; font-weight: 600; }
+.v-menu__book { justify-self: end; height: 26px; padding: 0 12px; border-radius: 999px; background: var(--app-chip); color: var(--app-ink); font-size: 12px; font-weight: 700; display: inline-flex; align-items: center; }
+.v-kito {
+  position: absolute; right: -24px; bottom: 0; width: min(360px, 86%);
+  padding: 16px; border-radius: 22px; display: flex; flex-direction: column; gap: 10px;
+  background: rgba(22, 25, 34, 0.94); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  box-shadow: inset 0 0 0 1px var(--line-2), 0 30px 80px rgba(0, 0, 0, 0.6);
+}
+.v-kito .v-bubble, .v-kito .v-reply { font-size: 13px; }
+.v-kito__steps { display: flex; flex-wrap: wrap; gap: 6px; padding-left: 38px; }
+.v-kito__steps span { display: inline-flex; align-items: center; gap: 5px; height: 22px; padding: 0 9px; border-radius: 999px; background: var(--surface-3); color: var(--text-2); font-size: 11px; font-weight: 600; }
+
+/* Four text cards, two by two. */
+.v-duo { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.v-point { padding: 32px; display: flex; flex-direction: column; gap: 12px; }
+.v-point .v-mono { margin: 0; color: var(--text-3); }
+.v-point .v-h3 { font-size: 22px; }
+
+/* Template covers with their names. */
+.v-tpls { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.v-tpl { display: flex; flex-direction: column; gap: 14px; }
+.v-tpl__img { overflow: hidden; border-radius: 20px; box-shadow: inset 0 0 0 1px var(--line-2); background: var(--surface-2); }
+.v-tpl__img img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; transition: transform 0.4s ease; }
+.v-tpl:hover .v-tpl__img img { transform: scale(1.03); }
+.v-tpl__name { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.v-tpl__name .v-h3 { font-size: 17px; }
+.v-tpl__name span { font-size: 14px; color: var(--text-3); }
+.v-tpl__mood { margin: -8px 0 0; font-size: 14px; color: var(--text-3); }
+@media (prefers-reduced-motion: reduce) { .v-tpl__img img, .v-tpl:hover .v-tpl__img img { transition: none; transform: none; } }
+
+/* One recommended plan, beside the 0% line. */
+.v-pick { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 16px; }
+.v-pick__plan { padding: 36px; display: flex; flex-direction: column; gap: 16px; }
+.v-pick__plan .v-body { max-width: 520px; }
+.v-pick__row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: 8px; }
+.v-pick__zero { position: relative; overflow: hidden; padding: 36px; display: flex; flex-direction: column; justify-content: flex-end; gap: 10px; min-height: 300px; }
+.v-pick__zero::before { content: ""; position: absolute; right: -60px; top: -60px; width: 260px; height: 260px; border-radius: 999px; background: var(--moon); opacity: 0.9; }
+.v-pick__zero::after { content: ""; position: absolute; right: -150px; top: -150px; width: 440px; height: 440px; border-radius: 999px; background: radial-gradient(circle, rgba(229, 154, 120, 0.22) 0%, rgba(229, 154, 120, 0) 65%); }
+.v-pick__zero > * { position: relative; z-index: 1; }
+.v-pick__num { font-size: 96px; font-weight: 800; letter-spacing: -0.06em; line-height: 0.9; }
+
+/* Reading list and sibling trades. */
+.v-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 48px; border-top: 1px solid var(--line); }
+.v-links a { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0; border-bottom: 1px solid var(--line); font-size: 17px; font-weight: 600; }
+.v-links a svg { flex: none; color: var(--text-3); transition: transform 0.15s ease, color 0.15s ease; }
+.v-links a:hover svg { color: var(--accent); transform: translateX(3px); }
+.v-others { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 40px; }
+.v-others a.v-chip:hover { background: var(--line-2); }
+
+/* Pricing page: plans, the comparison, the 0% math. */
+.v-prices--page .v-plan .v-body { min-height: 0; }
+.v-plan__tag { align-self: flex-start; padding: 3px 10px; border-radius: 999px; background: rgba(229, 154, 120, 0.14); color: var(--accent); font-size: 12px; font-weight: 700; }
+.v-plan li.is-no { color: var(--text-3); }
+.v-plan li.is-no svg { color: var(--text-3); }
+.v-wide { margin-top: 16px; padding: 32px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; gap: 24px 48px; align-items: center; }
+.v-wide ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: var(--text-2); }
+.v-addon { margin: 16px 0 0; padding: 18px 24px; border-radius: 20px; border: 1px dashed var(--line-2); font-size: 15px; line-height: 1.5; color: var(--text-2); }
+.v-addon strong { color: var(--text); }
+.v-table-wrap { overflow-x: auto; border-radius: 28px; border: 1px solid var(--line); background: var(--surface); }
+.v-table { width: 100%; min-width: 720px; border-collapse: collapse; font-size: 15px; font-variant-numeric: tabular-nums; }
+.v-table th, .v-table td { padding: 15px 20px; text-align: center; border-bottom: 1px solid var(--line); }
+.v-table th:first-child, .v-table td:first-child { text-align: left; width: 36%; }
+.v-table thead th { background: var(--surface); font-size: 16px; font-weight: 800; letter-spacing: -0.01em; }
+.v-table thead th span { display: block; margin-top: 2px; font-size: 13px; font-weight: 500; color: var(--text-3); }
+.v-table tbody th { font-weight: 500; color: var(--text-2); }
+.v-table td { color: var(--text); font-weight: 600; }
+.v-table tr.v-table__group th { padding-top: 30px; font-family: var(--mono); font-size: 12px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.v-yes { color: var(--accent); }
+.v-no { color: var(--text-3); font-weight: 400; }
+.v-math { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.v-math__cell { padding: 28px; display: flex; flex-direction: column; gap: 6px; }
+.v-math__num { font-size: 44px; font-weight: 800; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; }
+.v-math__cell.is-us .v-math__num { color: var(--accent); }
+
+/* /free/: what Free has, what paid adds. */
+.v-have { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; }
+.v-have__card { padding: 32px; display: flex; flex-direction: column; gap: 18px; }
+.v-have__card ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 15px; line-height: 1.45; color: var(--text-2); }
+.v-have__card li { display: flex; gap: 10px; align-items: flex-start; }
+.v-have__card li svg { flex: none; margin-top: 2px; color: var(--accent); }
+.v-have__card--paid { background: var(--surface-2); }
+.v-have__card--paid li svg { color: var(--text-3); }
+
+/* Templates index. */
+.v-tpls--all { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px 16px; }
+.v-filter { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
+.v-filter button { height: 36px; padding: 0 16px; border: 0; border-radius: 999px; background: var(--surface-2); box-shadow: inset 0 0 0 1px var(--line); color: var(--text-2); font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; }
+.v-filter button[aria-pressed="true"] { background: var(--btn); color: var(--btn-text); box-shadow: none; }
+.v-tpl[hidden] { display: none; }
+.v-tpl__free { padding: 2px 8px; border-radius: 999px; background: rgba(229, 154, 120, 0.14); color: var(--accent); font-size: 11px; font-weight: 700; }
+
+@media (max-width: 1100px) {
+  .v-tpls--all { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .v-wide { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .v-kito { right: 0; }
+}
+@media (max-width: 860px) {
+  .v-split, .v-pick, .v-have { grid-template-columns: minmax(0, 1fr); gap: 40px; }
+  .v-pick, .v-have { gap: 16px; }
+  .v-duo, .v-math { grid-template-columns: minmax(0, 1fr); }
+  .v-tpls, .v-tpls--all { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .v-links { grid-template-columns: minmax(0, 1fr); }
+  .v-wide { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 760px) {
+  .v-phead { padding: 56px 0 64px; }
+  .v-phead .v-horizon { display: none; }
+  .v-point, .v-pick__plan, .v-pick__zero, .v-have__card, .v-wide { padding: 24px; }
+  .v-shot { padding-bottom: 0; }
+  .v-kito { position: relative; right: auto; width: auto; margin: -28px 12px 0; }
+  .v-menu { padding: 18px; }
+  .v-tpls { grid-template-columns: minmax(0, 1fr); }
+  .v-tpls--all { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 12px; }
+  .v-pick__num { font-size: 72px; }
+}
+.v-nav__links a[aria-current="page"] { color: var(--text); }

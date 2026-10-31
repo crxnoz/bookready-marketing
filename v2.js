@@ -48,3 +48,23 @@
     b.addEventListener('click', function () { show(b.getAttribute('data-v-cycle')); });
   });
 })();
+
+/* Templates index: filter the gallery by mood. Each card lists its
+   moods in data-moods; "all" shows every card. */
+(function () {
+  var buttons = document.querySelectorAll('[data-v-filter]');
+  if (!buttons.length) return;
+  var cards = document.querySelectorAll('[data-moods]');
+
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var pick = b.getAttribute('data-v-filter');
+      buttons.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      cards.forEach(function (c) {
+        var moods = ' ' + c.getAttribute('data-moods') + ' ';
+        if (pick === 'all' || moods.indexOf(' ' + pick + ' ') !== -1) c.removeAttribute('hidden');
+        else c.setAttribute('hidden', '');
+      });
+    });
+  });
+})();
