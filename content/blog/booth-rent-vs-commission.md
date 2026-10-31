@@ -60,7 +60,7 @@ This is the part that actually decides it. Under commission the salon usually ow
 
 Under rent you own your clients, and everything attached to them. The admin, the texting at 9pm, the no-shows nobody else absorbs, the slow January, chasing a deposit. Nobody is covering the front desk. You are the front desk.
 
-Which is why a pro renting a booth needs their own booking page and client list rather than the salon's, from day one, so the people you earn stay yours if the shop sells. BKRDY's Starter plan does that for free, and the [guide for solo beauty pros](/guides/booking-app-for-solo-beauty-pros/) covers what a one-person setup actually needs.
+Which is why a pro renting a booth needs their own booking page and client list rather than the salon's, from day one, so the people you earn stay yours if the shop sells. BKRDY's Free plan does that for free, and the [guide for solo beauty pros](/guides/booking-app-for-solo-beauty-pros/) covers what a one-person setup actually needs.
 
 ## Who should stay on commission
 

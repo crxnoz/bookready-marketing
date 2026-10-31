@@ -52,7 +52,7 @@ The ladder, cheapest first:
 
 **Before and after photos of your own work, on real people.** Same angle, same light, eyes closed, no filter, every single set. Your own hands, or it falls apart the first time a set does not match the picture.
 
-**A booking page.** A link clients tap from your Instagram bio that shows real availability and takes a deposit. BKRDY's Starter plan is free, so this is not something to save up for. [The booking app comparison for solo pros](/guides/booking-app-for-solo-beauty-pros/) covers what to look for.
+**A booking page.** A link clients tap from your Instagram bio that shows real availability and takes a deposit. BKRDY's Free plan costs nothing, so this is not something to save up for. [The booking app comparison for solo pros](/guides/booking-app-for-solo-beauty-pros/) covers what to look for.
 
 **A Google Business Profile.** Free, and the best reason a stranger ten minutes away finds you instead of the studio on the main road. Working from home? Set it up as a service area rather than publishing your address.
 

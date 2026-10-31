@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#08090D" />
+    <title>Staff scheduling and team calendars for salons | BKRDY</title>
+    <meta name="description" content="Add up to 12 artists, each with a login, their own hours and the services they do, side by side on one calendar. On Studio and Studio+, with 0% commission." />
+    <link rel="canonical" href="https://bkrdy.com/platform/tools/team/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bkrdy.com/platform/tools/team/" />
+    <meta property="og:site_name" content="BKRDY" />
+    <meta property="og:title" content="Staff scheduling and team calendars for salons | BKRDY" />
+    <meta property="og:description" content="Add up to 12 artists, each with a login, their own hours and the services they do, side by side on one calendar. On Studio and Studio+, with 0% commission." />
+    <meta property="og:image" content="https://bkrdy.com/images/og/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Staff scheduling and team calendars for salons | BKRDY" />
+    <meta name="twitter:description" content="Add up to 12 artists, each with a login, their own hours and the services they do, side by side on one calendar. On Studio and Studio+, with 0% commission." />
+    <meta name="twitter:image" content="https://bkrdy.com/images/og/og-image.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Geist+Mono:wght@500&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Geist+Mono:wght@500&display=swap" /></noscript>
+    <link rel="stylesheet" href="/v2.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://bkrdy.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Product",
+            "item": "https://bkrdy.com/platform/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Team",
+            "item": "https://bkrdy.com/platform/tools/team/"
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How many staff can I add?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Up to 6 on Studio ($34/mo) and up to 12 on Studio+ ($55/mo). Free and Solo have one calendar. For bigger teams, Salon is priced per project, so talk to us."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does BKRDY run payroll or track commissions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. There is no payroll, commission or booth-rent tracking. The payments overview does show revenue by artist, which helps when you work out pay yourself."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can each artist get paid into their own Stripe account?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. All payments go to the studio's one Stripe account, with 0% commission to BKRDY. Splitting money between artists happens outside BKRDY."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What can a staff member see?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Their own schedule and appointments, plus their own hours and profile. Studio settings, payments and the rest of the business stay with you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can clients choose their artist?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Clients pick an artist who does the service they booked, or choose any available staff and get whoever is free at that time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I pay extra for each artist?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Seats are included in your plan: Studio covers up to 6 staff and Studio+ up to 12, with no charge per artist."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+
+    <header class="v-nav" data-v-nav>
+      <div class="v-wrap">
+        <div class="v-nav__in">
+          <a class="v-logo" href="/" aria-label="BKRDY home">BKRDY</a>
+          <nav class="v-nav__links" aria-label="Main">
+            <a href="/#product">Product</a>
+            <a href="/#kito">Kito</a>
+            <a href="/templates/">Templates</a>
+            <a href="/pricing/">Pricing</a>
+            <a href="/blog/">Blog</a>
+          </nav>
+          <div class="v-nav__right">
+            <a class="v-nav__login" href="https://app.bkrdy.me/login">Log in</a>
+            <a class="v-btn v-btn--sm" href="https://app.bkrdy.me/register?ref=tools-team-nav">Start free</a>
+            <button class="v-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="v-drawer" data-v-burger>
+              <svg class="v-burger__open" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+              <svg class="v-burger__close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+            </button>
+          </div>
+        </div>
+        <nav class="v-drawer" id="v-drawer" aria-label="Menu">
+          <a href="/#product">Product</a>
+          <a href="/#kito">Kito</a>
+          <a href="/templates/">Templates</a>
+          <a href="/pricing/">Pricing</a>
+          <a href="/blog/">Blog</a>
+          <a href="https://app.bkrdy.me/login">Log in</a>
+          <a class="v-btn" href="https://app.bkrdy.me/register?ref=tools-team-menu">Start free</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ─── Head ─── -->
+      <section class="v-phead">
+        <div class="v-art v-horizon" aria-hidden="true">
+          <img class="v-art__sky" src="/images/art/dusk.webp" alt="" width="2000" height="857" fetchpriority="high" />
+          <img class="v-art__kito" src="/images/kito/sitting.webp" alt="" width="213" height="320" />
+        </div>
+        <div class="v-wrap v-split">
+          <div class="v-split__copy">
+            <p class="v-mono v-eyebrow">Business tools · Team</p>
+            <h1 class="v-h1 v-h1--page">Every artist, one calendar.</h1>
+            <p class="v-lede">Add your artists, pick which services each one does and set their hours. The calendar shows everyone side by side, clients choose an artist or anyone free, and each artist gets their own login.</p>
+            <div class="v-hero__ctas">
+              <a class="v-btn" href="https://app.bkrdy.me/register?ref=tools-team-hero">Start for free <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+              <a class="v-btn v-btn--ghost" href="/pricing/">See pricing</a>
+            </div>
+            <p class="v-mono v-hero__fine">On Studio and Studio+ · 0% commission</p>
+          </div>
+
+          <!-- Demo data: how this looks in BKRDY, and Kito answering the owner. -->
+          <div class="v-shot" aria-hidden="true">
+            <div class="v-list">
+              <div class="v-list__head"><span class="v-list__title">Team</span><span class="v-list__sub">Saturday · 3 working</span></div>
+              <div class="v-list__row"><span class="v-list__av" style="background: #F6E3DE">ML</span><span><span class="v-list__name">Maya L.</span><span class="v-list__meta">Lash artist · 10 AM to 7 PM</span></span><span class="v-list__end"><span class="v-list__tag">4 booked</span></span></div>
+              <div class="v-list__row"><span class="v-list__av" style="background: #F4EBCB">SP</span><span><span class="v-list__name">Sienna P.</span><span class="v-list__meta">Lash and brow · 11 AM to 6 PM</span></span><span class="v-list__end"><span class="v-list__tag">Full</span></span></div>
+              <div class="v-list__row"><span class="v-list__av" style="background: #DCE7EF">IK</span><span><span class="v-list__name">Iris K.</span><span class="v-list__meta">Junior lash · 12 PM to 5 PM</span></span><span class="v-list__end"><span class="v-list__tag">2 booked</span></span></div>
+              <div class="v-list__row"><span class="v-list__av" style="background: #DDE9DD">DW</span><span><span class="v-list__name">Dani W.</span><span class="v-list__meta">Nails · off today</span></span><span class="v-list__end"><span class="v-list__tag">Time off</span></span></div>
+              <div class="v-list__action">Add staff</div>
+            </div>
+            <div class="v-kito">
+              <div class="v-bubble">Who's free Saturday afternoon?</div>
+              <div class="v-kito__steps"><span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Checked Saturday</span><span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Compared 3 artists</span></div>
+              <div class="v-reply"><img src="/images/kito/kito-256.webp" alt="" width="28" height="28" /><div>Two of them. <b>Iris K.</b> is open 2:00 to 5:00 PM and Maya L. from 4:00. Want me to book someone in or block that time?</div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── What you get ─── -->
+      <section class="v-sec">
+        <div class="v-wrap">
+          <div class="v-head">
+            <div class="v-head__title">
+              <p class="v-mono v-eyebrow">What you get</p>
+              <h2 class="v-h2">Team,<br />done properly.</h2>
+            </div>
+            <span></span>
+          </div>
+          <div class="v-duo">
+            <article class="v-card v-point">
+              <p class="v-mono">One grid</p>
+              <h3 class="v-h3">Everyone on one calendar.</h3>
+              <p class="v-body">Day, week or list view with each artist in their own column, so you see who is busy and who has room. Booking requests and open stretches show right on the grid too.</p>
+            </article>
+            <article class="v-card v-point">
+              <p class="v-mono">Services</p>
+              <h3 class="v-h3">Who does what.</h3>
+              <p class="v-body">Choose which artists do each service. Clients pick from the artists who do what they booked, or tap Any available staff and get whoever is free at that time.</p>
+            </article>
+            <article class="v-card v-point">
+              <p class="v-mono">Hours</p>
+              <h3 class="v-h3">Their own hours and time off.</h3>
+              <p class="v-body">Each artist keeps their own weekly hours and days off, and the booking site follows them. A week away for one artist leaves everyone else open for booking.</p>
+            </article>
+            <article class="v-card v-point">
+              <p class="v-mono">Logins</p>
+              <h3 class="v-h3">A login for each artist.</h3>
+              <p class="v-body">Send an invite and each artist signs in to see their own schedule and keep their own hours up to date. You see and run the whole studio, and can turn a login off any time.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── How it works ─── -->
+      <section class="v-sec">
+        <div class="v-wrap">
+          <div class="v-head">
+            <div class="v-head__title">
+              <p class="v-mono v-eyebrow">Team</p>
+              <h2 class="v-h2">How it works.</h2>
+            </div>
+            <span></span>
+          </div>
+          <div class="v-steps">
+            <article class="v-card v-step">
+              <p class="v-step__n">01</p>
+              <h3 class="v-h3">Add an artist.</h3>
+              <p class="v-body">Enter their name, role, photo and email, then pick the services they do from your menu.</p>
+            </article>
+            <article class="v-card v-step">
+              <p class="v-step__n">02</p>
+              <h3 class="v-h3">Set their hours.</h3>
+              <p class="v-body">Give them a weekly schedule and add any days off. The booking site only offers times they can work.</p>
+            </article>
+            <article class="v-card v-step">
+              <p class="v-step__n">03</p>
+              <h3 class="v-h3">Send their login.</h3>
+              <p class="v-body">They accept the invite and see their own day, while clients can book them by name from your site.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Plan and related ─── -->
+      <section class="v-sec">
+        <div class="v-wrap v-more">
+          <article class="v-card v-more__plan">
+            <p class="v-mono v-eyebrow">Plans</p>
+            <h3 class="v-h3">On Studio and Studio+.</h3>
+            <p class="v-body">Studio: up to 6 staff. Studio+: up to 12. Free and Solo have one calendar. BKRDY takes 0% commission on every booking.</p>
+            <a class="v-link" href="/pricing/#compare">Compare plans <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+          </article>
+          <nav class="v-links v-more__links" aria-label="Related">
+            <a href="/platform/booking/calendar/"><span>Calendar <span style="color: var(--text-3); font-weight: 500">Your whole day, one screen.</span></span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+            <a href="/platform/tools/analytics/"><span>Analytics <span style="color: var(--text-3); font-weight: 500">Your numbers, in plain words.</span></span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+            <a href="/platform/booking/online/"><span>Online booking <span style="color: var(--text-3); font-weight: 500">Booked while you work.</span></span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+            <a href="/platform/"><span>Everything in BKRDY</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+          </nav>
+        </div>
+      </section>
+
+      <!-- ─── FAQ (keep word for word with the FAQPage schema in the head) ─── -->
+      <section class="v-sec" id="faq">
+        <div class="v-wrap v-faq">
+          <div class="v-head__title">
+            <p class="v-mono v-eyebrow">Questions</p>
+            <h2 class="v-h2">Short answers.</h2>
+          </div>
+          <div class="v-faq__list">
+            <details>
+              <summary>How many staff can I add?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+              <p>Up to 6 on Studio ($34/mo) and up to 12 on Studio+ ($55/mo). Free and Solo have one calendar. For bigger teams, Salon is priced per project, so talk to us.</p>
+            </details>
+            <details>
+              <summary>Does BKRDY run payroll or track commissions?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+              <p>No. There is no payroll, commission or booth-rent tracking. The payments overview does show revenue by artist, which helps when you work out pay yourself.</p>
+            </details>
+            <details>
+              <summary>Can each artist get paid into their own Stripe account?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+              <p>No. All payments go to the studio's one Stripe account, with 0% commission to BKRDY. Splitting money between artists happens outside BKRDY.</p>
+            </details>
+            <details>
+              <summary>What can a staff member see?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+              <p>Their own schedule and appointments, plus their own hours and profile. Studio settings, payments and the rest of the business stay with you.</p>
+            </details>
+            <details>
+              <summary>Can clients choose their artist?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+              <p>Yes. Clients pick an artist who does the service they booked, or choose any available staff and get whoever is free at that time.</p>
+            </details>
+            <details>
+              <summary>Do I pay extra for each artist?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+              <p>No. Seats are included in your plan: Studio covers up to 6 staff and Studio+ up to 12, with no charge per artist.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── After hours ─── -->
+      <section class="v-sec">
+        <div class="v-wrap">
+          <div class="v-night">
+            <img class="v-night__kito" src="/images/kito/sitting.webp" alt="" width="213" height="320" loading="lazy" />
+            <div class="v-night__copy">
+              <p class="v-mono v-eyebrow">Free to start</p>
+              <h2 class="v-h2">Set it up tonight.<br />Kito keeps watch.</h2>
+              <p class="v-body">Start on Free with your booking site, deposits and email reminders. Add a paid plan when you want the rest.</p>
+              <div class="v-night__ctas">
+                <a class="v-btn" href="https://app.bkrdy.me/register?ref=tools-team-final">Start for free</a>
+                <a class="v-btn v-btn--ghost" href="/pricing/">See pricing</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="v-foot">
+      <div class="v-wrap">
+        <div class="v-foot__grid">
+          <div class="v-foot__brand">
+            <span class="v-logo" style="color: var(--text)">BKRDY</span>
+            <span>The calm way to run a busy book.</span>
+          </div>
+          <nav aria-label="Product">
+            <h2>Product</h2>
+            <a href="/platform/">All features</a>
+            <a href="/platform/booking/online/">Online booking</a>
+            <a href="/platform/booking/calendar/">Calendar</a>
+            <a href="/platform/tools/payments/">Payments</a>
+            <a href="/templates/">Templates</a>
+            <a href="/pricing/">Pricing</a>
+            <a href="/free/">Free plan</a>
+          </nav>
+          <nav aria-label="Who it is for">
+            <h2>For</h2>
+            <a href="/for-lash-artists/">Lash artists</a>
+            <a href="/for-nail-techs/">Nail techs</a>
+            <a href="/for-barbers/">Barbers</a>
+            <a href="/for-estheticians/">Estheticians</a>
+            <a href="/for-salons/">Salons</a>
+            <a href="/for-spas/">Spas</a>
+            <a href="/for-solo-pros/">Solo pros</a>
+          </nav>
+          <nav aria-label="Switch">
+            <h2>Switch</h2>
+            <a href="/migration/">Free migration</a>
+            <a href="/compare/booksy-alternative/">From Booksy</a>
+            <a href="/compare/glossgenius-alternative/">From GlossGenius</a>
+            <a href="/compare/fresha-alternative/">From Fresha</a>
+            <a href="/compare/vagaro-alternative/">From Vagaro</a>
+          </nav>
+          <nav aria-label="Company">
+            <h2>Company</h2>
+            <a href="/about/">About</a>
+            <a href="/blog/">Blog</a>
+            <a href="/changelog/">Changelog</a>
+            <a href="/roadmap/">Roadmap</a>
+            <a href="/contact/">Contact</a>
+          </nav>
+          <nav aria-label="Legal">
+            <h2>Legal</h2>
+            <a href="https://app.bkrdy.me/privacy">Privacy</a>
+            <a href="https://app.bkrdy.me/terms">Terms</a>
+            <a href="https://app.bkrdy.me/cookies">Cookies</a>
+            <a href="https://www.instagram.com/bkrdy.me/">Instagram</a>
+          </nav>
+        </div>
+        <div class="v-foot__base">
+          <span>&copy; 2026 BKRDY. Operated by DaysGraphic LLC.</span>
+          <span>Made for the people behind the chair.</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Analytics, signup intent and referral passthrough (shared with every page) -->
+    <script src="/nav.js"></script>
+    <script src="/v2.js" defer></script>
+  </body>
+</html>

@@ -93,7 +93,7 @@
             "name": "Can I take a deposit on full sets?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, per service. Ask for a flat deposit on a three-hour set and nothing on a quick polish change. It goes to your own Stripe account, BKRDY takes no cut, and Stripe's standard card fee applies."
+              "text": "Yes. Set one deposit rule, a flat amount or a percent of the price, and every booking asks for it. With a percent, a three-hour set asks for more than a polish change. It goes to your own Stripe account, and BKRDY takes no cut."
             }
           },
           {
@@ -190,11 +190,11 @@
           <div class="v-shot" aria-hidden="true">
             <div class="v-menu">
               <div class="v-menu__head"><span class="v-menu__title">Services</span><span class="v-menu__sub">Book online</span></div>
-              <div class="v-menu__row"><span class="v-menu__name">Gel manicure</span><span class="v-menu__price">$55</span><span class="v-menu__meta">1 hr</span><span class="v-menu__book">Book</span></div>
-              <div class="v-menu__row"><span class="v-menu__name">Builder gel overlay</span><span class="v-menu__price">$75</span><span class="v-menu__meta">1 hr 30 min</span><span class="v-menu__book">Book</span></div>
-              <div class="v-menu__row"><span class="v-menu__name">Acrylic full set</span><span class="v-menu__price">$85</span><span class="v-menu__meta">2 hr<span class="v-menu__dep">$25 deposit</span></span><span class="v-menu__book">Book</span></div>
-              <div class="v-menu__row"><span class="v-menu__name">Full set with nail art</span><span class="v-menu__price">$140</span><span class="v-menu__meta">3 hr<span class="v-menu__dep">$40 deposit</span></span><span class="v-menu__book">Book</span></div>
-              <div class="v-menu__row"><span class="v-menu__name">Fill, 3 weeks</span><span class="v-menu__price">$60</span><span class="v-menu__meta">1 hr 15 min</span><span class="v-menu__book">Book</span></div>
+              <div class="v-menu__row"><span class="v-menu__name">Gel manicure</span><span class="v-menu__price">$55</span><span class="v-menu__meta">1 hr<span class="v-menu__dep">$15 deposit</span></span><span class="v-menu__book">Book</span></div>
+              <div class="v-menu__row"><span class="v-menu__name">Builder gel overlay</span><span class="v-menu__price">$75</span><span class="v-menu__meta">1 hr 30 min<span class="v-menu__dep">$20 deposit</span></span><span class="v-menu__book">Book</span></div>
+              <div class="v-menu__row"><span class="v-menu__name">Acrylic full set</span><span class="v-menu__price">$85</span><span class="v-menu__meta">2 hr<span class="v-menu__dep">$20 deposit</span></span><span class="v-menu__book">Book</span></div>
+              <div class="v-menu__row"><span class="v-menu__name">Full set with nail art</span><span class="v-menu__price">$140</span><span class="v-menu__meta">3 hr<span class="v-menu__dep">$35 deposit</span></span><span class="v-menu__book">Book</span></div>
+              <div class="v-menu__row"><span class="v-menu__name">Fill, 3 weeks</span><span class="v-menu__price">$60</span><span class="v-menu__meta">1 hr 15 min<span class="v-menu__dep">$15 deposit</span></span><span class="v-menu__book">Book</span></div>
             </div>
             <div class="v-kito">
               <div class="v-bubble">Do I have room for a full set with art Friday?</div>
@@ -224,7 +224,7 @@
             <article class="v-card v-point">
               <p class="v-mono">Deposits</p>
               <h3 class="v-h3">Protect the three-hour sets.</h3>
-              <p class="v-body">Ask for a deposit on any service, or the full price up front. It lands in your own Stripe account, and BKRDY takes 0% commission. Paid plans add card on file and late cancellation fees.</p>
+              <p class="v-body">Ask for a deposit at booking, a flat amount or a percent of the price, and let clients pay in full if they want. It lands in your own Stripe account, and BKRDY takes 0%. Paid plans add card on file and late fees.</p>
             </article>
             <article class="v-card v-point">
               <p class="v-mono">Gallery</p>
@@ -317,7 +317,7 @@
             </details>
             <details>
               <summary>Can I take a deposit on full sets?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
-              <p>Yes, per service. Ask for a flat deposit on a three-hour set and nothing on a quick polish change. It goes to your own Stripe account, BKRDY takes no cut, and Stripe's standard card fee applies.</p>
+              <p>Yes. Set one deposit rule, a flat amount or a percent of the price, and every booking asks for it. With a percent, a three-hour set asks for more than a polish change. It goes to your own Stripe account, and BKRDY takes no cut.</p>
             </details>
             <details>
               <summary>Can clients send inspiration photos?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
@@ -395,6 +395,7 @@
           </div>
           <nav aria-label="Product">
             <h2>Product</h2>
+            <a href="/platform/">All features</a>
             <a href="/platform/booking/online/">Online booking</a>
             <a href="/platform/booking/calendar/">Calendar</a>
             <a href="/platform/tools/payments/">Payments</a>

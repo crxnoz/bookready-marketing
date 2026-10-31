@@ -65,7 +65,7 @@ A barber with eighty regulars who follow them can open small and be fine. A barb
 
 That book gets built on rungs one, two and three, not after the lease is signed. It is learning names, running on time, texting the guy whose beard trim is due, rebooking while the cape is still on. In your own shop that work gets harder, not easier, because you are also the cleaner and the bookkeeper.
 
-So count your regulars honestly. Not followers: people who booked you three or more times in the last six months. Under thirty, the next rung is not a shop, it is filling the chair you already have. A booking page and a deposit do not have to wait for money, since BKRDY's Starter plan is free and a [solo setup](/guides/booking-app-for-solo-beauty-pros/) needs less than people assume.
+So count your regulars honestly. Not followers: people who booked you three or more times in the last six months. Under thirty, the next rung is not a shop, it is filling the chair you already have. A booking page and a deposit do not have to wait for money, since BKRDY's Free plan costs nothing and a [solo setup](/guides/booking-app-for-solo-beauty-pros/) needs less than people assume.
 
 ## Tell your clients yourself, the week before you move
 

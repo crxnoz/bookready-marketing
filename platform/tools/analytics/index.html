@@ -1,577 +1,349 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Booking & revenue analytics | BKRDY</title>
-  <meta name="description" content="A simple dashboard showing where your bookings, revenue, and no-shows come from, by day, service, and staff. No spreadsheets." />
-  <link rel="canonical" href="https://bkrdy.com/platform/tools/analytics/" />
+  <head>
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#08090D" />
+    <title>Booking and revenue analytics for salons | BKRDY</title>
+    <meta name="description" content="See revenue by month, service, artist and weekday, your top clients and payment methods, then ask Kito how busy you've been. On every plan, Free included." />
+    <link rel="canonical" href="https://bkrdy.com/platform/tools/analytics/" />
 
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bkrdy.com/platform/tools/analytics/" />
-  <meta property="og:site_name" content="BKRDY" />
-  <meta property="og:title" content="Booking & revenue analytics" />
-  <meta property="og:description" content="A simple dashboard showing where your bookings, revenue, and no-shows come from, by day, service, and staff. No spreadsheets." />
-  <meta property="og:image" content="https://bkrdy.com/images/hero/hero.webp" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Booking & revenue analytics" />
-  <meta name="twitter:description" content="A simple dashboard showing where your bookings, revenue, and no-shows come from, by day, service, and staff. No spreadsheets." />
-  <meta name="twitter:image" content="https://bkrdy.com/images/hero/hero.webp" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bkrdy.com/platform/tools/analytics/" />
+    <meta property="og:site_name" content="BKRDY" />
+    <meta property="og:title" content="Booking and revenue analytics for salons | BKRDY" />
+    <meta property="og:description" content="See revenue by month, service, artist and weekday, your top clients and payment methods, then ask Kito how busy you've been. On every plan, Free included." />
+    <meta property="og:image" content="https://bkrdy.com/images/og/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Booking and revenue analytics for salons | BKRDY" />
+    <meta name="twitter:description" content="See revenue by month, service, artist and weekday, your top clients and payment methods, then ask Kito how busy you've been. On every plan, Free included." />
+    <meta name="twitter:image" content="https://bkrdy.com/images/og/og-image.jpg" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap" /></noscript>
-  <link rel="stylesheet" href="/styles.css?v=574f5ae" />
-  <link rel="stylesheet" href="/pages.css?v=574f5ae" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Geist+Mono:wght@500&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Geist+Mono:wght@500&display=swap" /></noscript>
+    <link rel="stylesheet" href="/v2.css" />
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bkrdy.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Platform", "item": "https://bkrdy.com/platform/"},
-      {"@type": "ListItem", "position": 3, "name": "Analytics", "item": "https://bkrdy.com/platform/tools/analytics/"}
-    ]
-  }
-  </script>
-</head>
-<body>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://bkrdy.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Product",
+            "item": "https://bkrdy.com/platform/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Analytics",
+            "item": "https://bkrdy.com/platform/tools/analytics/"
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is there a separate reports section to set up?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The numbers live in the payments overview and on Home, and they fill in as clients book and pay. Kito answers questions about them in plain words."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I see where my bookings come from, like Instagram or Google?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. BKRDY does not track site traffic or ad sources. The numbers here come from your own bookings and payments."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it track no-shows?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Ask Kito how many appointments were missed or cancelled in a period, and the No-show risk segment in your client book flags clients who often miss."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do cash payments count?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. When you mark a balance paid in cash, Venmo or Zelle, it shows under payment methods and in your totals, next to your card payments."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it on the Free plan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The payments overview, the CSV export and Kito's answers work on every plan, including Free. Revenue by artist appears once you add a team on Studio or Studio+."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
 
-  <!-- ─── Top nav with full-width mega panels ─── -->
-  <header class="br-nav" data-br-nav>
-    <div class="br-nav__inner">
-      <a class="br-nav__mark" href="/">BKRDY</a>
-      <a class="br-nav__signin-mobile" href="https://app.bkrdy.me/login">Sign in</a>
-      <button class="br-nav__hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="br-nav-menu" data-br-hamburger>
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="br-nav__menu" id="br-nav-menu" aria-label="Primary">
-        <ul class="br-nav__list" role="menubar">
-          <li class="br-nav__item" role="none">
-            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-templates" data-br-trigger>
-              Templates
-              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <header class="v-nav" data-v-nav>
+      <div class="v-wrap">
+        <div class="v-nav__in">
+          <a class="v-logo" href="/" aria-label="BKRDY home">BKRDY</a>
+          <nav class="v-nav__links" aria-label="Main">
+            <a href="/#product">Product</a>
+            <a href="/#kito">Kito</a>
+            <a href="/templates/">Templates</a>
+            <a href="/pricing/">Pricing</a>
+            <a href="/blog/">Blog</a>
+          </nav>
+          <div class="v-nav__right">
+            <a class="v-nav__login" href="https://app.bkrdy.me/login">Log in</a>
+            <a class="v-btn v-btn--sm" href="https://app.bkrdy.me/register?ref=tools-analytics-nav">Start free</a>
+            <button class="v-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="v-drawer" data-v-burger>
+              <svg class="v-burger__open" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+              <svg class="v-burger__close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
             </button>
-          </li>
-          <li class="br-nav__item" role="none">
-            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-industries" data-br-trigger>
-              Industries
-              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </button>
-          </li>
-          <li class="br-nav__item" role="none">
-            <a class="br-nav__link" href="/how-it-works/" role="menuitem">How it works</a>
-          </li>
-          <li class="br-nav__item" role="none">
-            <button class="br-nav__trigger" type="button" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="br-mega-platform" data-br-trigger>
-              Platform
-              <svg class="br-nav__chev" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </button>
-          </li>
-          <li class="br-nav__item" role="none">
-            <a class="br-nav__link" href="/pricing/" role="menuitem">Pricing</a>
-          </li>
-          <li class="br-nav__item" role="none">
-            <a class="br-nav__link" href="/#app" role="menuitem">iOS App</a>
-          </li>
-        </ul>
-
-        <!-- Mega-panel: Templates -->
-        <div class="br-megapanel br-megapanel--templates" id="br-mega-templates" role="menu" hidden>
-          <div class="br-megapanel__inner">
-            <div class="br-megapanel__col">
-              <p class="br-megapanel__kicker">Browse</p>
-              <a class="br-megalink" href="/templates/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">All templates</span>
-                  <span class="br-megalink__desc">Browse the full library</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/templates/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Recently added</span>
-                  <span class="br-megalink__desc">Just shipped</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/templates/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Editor&rsquo;s picks</span>
-                  <span class="br-megalink__desc">Hand-curated</span>
-                </span>
-              </a>
-              <a class="br-megalink br-megalink--coming" role="menuitem" aria-disabled="true">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Marketplace <span class="br-megalink__tag">Soon</span></span>
-                  <span class="br-megalink__desc">Community-designed templates</span>
-                </span>
-              </a>
-            </div>
-            <div class="br-megapanel__col">
-              <p class="br-megapanel__kicker">By mood</p>
-              <a class="br-megalink" href="/templates/thefaderoom/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Dark &amp; editorial</span>
-                  <span class="br-megalink__desc">The Fade Room</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/templates/velvettheory/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Moody &amp; luxe</span>
-                  <span class="br-megalink__desc">Velvet Theory</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/templates/lushstudio/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Soft &amp; feminine</span>
-                  <span class="br-megalink__desc">Lush Studio</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/templates/petale/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Romantic</span>
-                  <span class="br-megalink__desc">Petale</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/templates/opaline/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Quiet luxury</span>
-                  <span class="br-megalink__desc">Opaline</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/templates/blackline/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Architectural</span>
-                  <span class="br-megalink__desc">Blackline</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/templates/bottega/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Handcrafted warm</span>
-                  <span class="br-megalink__desc">Bottega</span>
-                </span>
-              </a>
-            </div>
-            <div class="br-megapanel__col">
-              <p class="br-megapanel__kicker">Featured</p>
-              <a class="br-megafeat" href="/templates/velvettheory/" role="menuitem">
-                <img class="br-megafeat__img" src="/images/templates/velvettheory-cover.jpg" alt="Velvet Theory template" loading="lazy" decoding="async" />
-                <div class="br-megafeat__copy">
-                  <span class="br-megafeat__label">Moody &middot; Editorial</span>
-                  <h3 class="br-megafeat__name">Velvet Theory</h3>
-                  <span class="br-megafeat__cta">View template &rarr;</span>
-                </div>
-              </a>
-            </div>
           </div>
         </div>
-
-        <!-- Mega-panel: Industries -->
-        <div class="br-megapanel br-megapanel--industries" id="br-mega-industries" role="menu" hidden>
-          <div class="br-megapanel__inner">
-            <div class="br-megapanel__col">
-              <p class="br-megapanel__kicker">By trade</p>
-              <a class="br-megalink" href="/for-barbers/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Barbers</span>
-                  <span class="br-megalink__desc">Dark, after-hours, electric</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/for-salons/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Hair salons</span>
-                  <span class="br-megalink__desc">Per-stylist calendars + color</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/for-lash-artists/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Lash artists</span>
-                  <span class="br-megalink__desc">Luxe, jewel-toned</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/for-nail-techs/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Nail techs</span>
-                  <span class="br-megalink__desc">Add-ons, art tiers, deposits</span>
-                </span>
-              </a>
-            </div>
-            <div class="br-megapanel__col">
-              <p class="br-megapanel__kicker">By trade</p>
-              <a class="br-megalink" href="/for-estheticians/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Estheticians</span>
-                  <span class="br-megalink__desc">Intake, series, packages</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/for-spas/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Spas &amp; wellness</span>
-                  <span class="br-megalink__desc">Quiet luxury, packages</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/for-solo-pros/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Solo pros</span>
-                  <span class="br-megalink__desc">One calendar, one link</span>
-                </span>
-              </a>
-              <a class="br-megalink br-megalink--coming" role="menuitem" aria-disabled="true">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Makeup artists <span class="br-megalink__tag">Soon</span></span>
-                  <span class="br-megalink__desc">Bridal + editorial</span>
-                </span>
-              </a>
-            </div>
-            <div class="br-megapanel__col">
-              <p class="br-megapanel__kicker">Featured</p>
-              <a class="br-megafeat" href="/for-barbers/" role="menuitem">
-                <img class="br-megafeat__img" src="/images/templates/thefaderoom-cover.jpg" alt="Booking websites for barbers" loading="lazy" decoding="async" />
-                <div class="br-megafeat__copy">
-                  <span class="br-megafeat__label">Industry &middot; For barbers</span>
-                  <h3 class="br-megafeat__name">Built for barbershops</h3>
-                  <span class="br-megafeat__cta">See barber sites &rarr;</span>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Mega-panel: Platform -->
-        <div class="br-megapanel" id="br-mega-platform" role="menu" hidden>
-          <div class="br-megapanel__inner">
-            <div class="br-megapanel__col">
-              <p class="br-megapanel__kicker">Booking</p>
-              <a class="br-megalink" href="/platform/booking/online/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Services</span>
-                  <span class="br-megalink__desc">Online booking, 24/7</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/platform/booking/calendar/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Smart calendar</span>
-                  <span class="br-megalink__desc">Date drops & owner rules</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/platform/booking/booking-forms/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Booking forms</span>
-                  <span class="br-megalink__desc">Custom intake per service</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/platform/booking/waitlist/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Waitlist</span>
-                  <span class="br-megalink__desc">Cancellations fill themselves</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/platform/booking/after-hours/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">After hours &amp; squeeze-ins</span>
-                  <span class="br-megalink__desc">Premium slots past close</span>
-                </span>
-              </a>
-            </div>
-            <div class="br-megapanel__col">
-              <p class="br-megapanel__kicker">Manage</p>
-              <a class="br-megalink" href="/platform/tools/customers/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Customers</span>
-                  <span class="br-megalink__desc">Every client on file</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/features/manage/staff/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Staff</span>
-                  <span class="br-megalink__desc">A calendar per chair</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/platform/tools/payments/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Payments</span>
-                  <span class="br-megalink__desc">Deposits &amp; tips via Stripe</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/platform/tools/reviews/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Reviews</span>
-                  <span class="br-megalink__desc">Verified, owner-moderated</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/platform/tools/coupons/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Coupons</span>
-                  <span class="br-megalink__desc">Promo codes that work</span>
-                </span>
-              </a>
-            </div>
-            <div class="br-megapanel__col">
-              <p class="br-megapanel__kicker">Brand</p>
-              <a class="br-megalink" href="/platform/website/templates/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Website editor</span>
-                  <span class="br-megalink__desc">Templates, your colors</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/platform/website/introduction/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Introduction</span>
-                  <span class="br-megalink__desc">Customizable welcome CTA</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/platform/website/gallery/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Gallery</span>
-                  <span class="br-megalink__desc">Show your work</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/platform/website/policies/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Policies</span>
-                  <span class="br-megalink__desc">Clear expectations</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/platform/website/announcement/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Announcements</span>
-                  <span class="br-megalink__desc">Banner promos in a click</span>
-                </span>
-              </a>
-              <a class="br-megalink" href="/platform/tools/marketing/" role="menuitem">
-                <span class="br-megalink__body">
-                  <span class="br-megalink__title">Content maker</span>
-                  <span class="br-megalink__desc">Social posts in one tap</span>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="br-nav__actions">
-          <a class="br-nav__signin" href="https://app.bkrdy.me/login">Sign in</a>
-          <a class="br-nav__cta" href="https://app.bkrdy.me/register">Start free</a>
-        </div>
-      </nav>
-    </div>
-  </header>
-
-  <nav class="br-crumbs" aria-label="Breadcrumb">
-    <a href="/">Home</a>
-    <span class="br-crumbs__sep" aria-hidden="true">/</span>
-    <span class="br-crumbs__current">Platform</span>
-    <span class="br-crumbs__sep" aria-hidden="true">/</span>
-    <span class="br-crumbs__current" aria-current="page">Analytics</span>
-  </nav>
-
-  <section class="br-pagehero">
-    <div class="br-pagehero__meta">
-      <p class="br-kicker">Business Tools</p>
-      <h1 class="br-pagehead__title">See what&rsquo;s <span class="br-italic">actually working.</span></h1>
-      <p class="br-pagehead__intro">A simple dashboard that shows where your bookings, revenue, and no-shows are coming from, no spreadsheets, no exports.</p>
-      <div class="br-pagehead__actions">
-        <a href="https://app.bkrdy.me/register" class="br-button">Start free</a>
-        <a href="/pricing/" class="br-text-link">See pricing &rarr;</a>
-      </div>
-    </div>
-    <div class="br-pagehero__visual">
-      <img class="br-pagehero__shot" src="https://bkrdy.com/images/og/og-image.jpg" alt="" loading="eager" decoding="async" />
-    </div>
-  </section>
-
-  <section class="br-section">
-    <div class="br-section__inner">
-      <div class="br-section__head">
-        <p class="br-kicker">What you get</p>
-        <h2 class="br-section__title">Decisions, not guesses.</h2>
-      </div>
-      <div class="br-feats">
-        <div class="br-feat">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="21" x2="21" y2="21"/><rect x="6" y="11" width="3" height="8"/><rect x="11" y="6" width="3" height="13"/><rect x="16" y="14" width="3" height="5"/></svg></span>
-          <h3>Revenue at a glance</h3>
-          <p>Track bookings and revenue by day, service, and staff member.</p>
-        </div>
-        <div class="br-feat">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="10" r="3"/><path d="M6.5 19a6 6 0 0111 0"/></svg></span>
-          <h3>Repeat-client rate</h3>
-          <p>See how many clients come back, the number that actually grows a studio.</p>
-        </div>
-        <div class="br-feat">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 01-3.4 0"/></svg></span>
-          <h3>No-show tracking</h3>
-          <p>Spot no-show patterns and tighten your deposit policy where it matters.</p>
-        </div>
-        <div class="br-feat">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-          <h3>Top services</h3>
-          <p>Know what books most and earns most, so you can do more of it.</p>
-        </div>
-        <div class="br-feat">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
-          <h3>Busy vs. slow</h3>
-          <p>See your busiest days and quietest hours, and staff or promote accordingly.</p>
-        </div>
-        <div class="br-feat">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></span>
-          <h3>No spreadsheets</h3>
-          <p>It&rsquo;s built in and always current, nothing to export or maintain.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="br-section br-section--bordered">
-    <div class="br-section__inner">
-      <div class="br-section__head">
-        <p class="br-kicker">The numbers that matter</p>
-        <h2 class="br-section__title">Know your studio.</h2>
-      </div>
-      <div class="br-statband">
-        <div class="br-stat"><p class="br-stat__num">Revenue</p><p class="br-stat__label">tracked by day, service, and staff member</p></div>
-        <div class="br-stat"><p class="br-stat__num">Repeat %</p><p class="br-stat__label">the clearest signal of a healthy studio</p></div>
-        <div class="br-stat"><p class="br-stat__num">No-shows</p><p class="br-stat__label">spotted early, so you can tighten policy</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="br-section br-section--bordered br-section--white">
-    <div class="br-section__inner">
-      <div class="br-section__head">
-        <p class="br-kicker">Why it matters</p>
-        <h2 class="br-section__title">Do more of what works.</h2>
-      </div>
-      <div class="br-prose">
-        <p>Running on gut feel is fine until you&rsquo;re busy enough that the wrong guess costs you, over-staffing a slow day, pushing a service that doesn&rsquo;t pay.</p>
-        <p>A clear view of revenue, repeat rate, and no-shows turns those into decisions. You double down on your best services and busiest days, and fix the leaks.</p>
-        <ul class="br-checklist">
-          <li>Revenue by day, service, staff</li>
-          <li>Repeat-client rate</li>
-          <li>No-show patterns</li>
-          <li>Always current, no exports</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="br-section br-section--bordered">
-    <div class="br-section__inner">
-      <div class="br-related__head">
-        <h2>More of the platform</h2>
-        <a href="/pricing/" class="br-text-link">See all plans &rarr;</a>
-      </div>
-      <div class="br-feats">
-        <a class="br-feat" href="/platform/tools/payments/">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></span>
-          <h3>Stripe payments + deposits &rarr;</h3>
-          <p>Deposits upfront, 0% to us.</p>
-        </a>
-        <a class="br-feat" href="/platform/tools/customers/">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="10" r="3"/><path d="M6.5 19a6 6 0 0111 0"/></svg></span>
-          <h3>Customer accounts &rarr;</h3>
-          <p>Every client, on file.</p>
-        </a>
-        <a class="br-feat" href="/platform/tools/notifications/">
-          <span class="br-feat__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 01-3.4 0"/></svg></span>
-          <h3>Email reminders &rarr;</h3>
-          <p>Reminders that cut no-shows.</p>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="br-final-cta">
-    <div class="br-final-cta__inner">
-      <p class="br-kicker br-kicker--inverse">Business Tools</p>
-      <h2 class="br-final-cta__title">Run on numbers, not vibes.</h2>
-      <p class="br-final-cta__text">Start free and watch your dashboard fill in as bookings come through.</p>
-      <a href="https://app.bkrdy.me/register" class="br-button br-button--inverse">Start free</a>
-    </div>
-  </section>
-
-  <!-- ─── Footer ─── -->
-  <footer class="br-footer">
-    <div class="br-footer__inner">
-      <div class="br-footer__grid">
-
-        <div class="br-footer__brand">
-          <p class="br-footer__mark">BKRDY</p>
-          <p class="br-footer__tag">Designed booking websites for beauty brands.</p>
-          <a class="br-footer__cta" href="https://app.bkrdy.me/register">Start free &rarr;</a>
-        </div>
-
-        <div class="br-footer__col">
-                    <p class="br-footer__label">Templates</p>
-          <a href="/templates/">All templates</a>
-          <a href="/templates/thefaderoom/">The Fade Room</a>
-          <a href="/templates/velvettheory/">Velvet Theory</a>
-          <a href="/templates/blackline/">Blackline</a>
-          <a href="/templates/lushstudio/">Lush Studio</a>
-          <a href="/templates/opaline/">Opaline</a>
-          <a href="/templates/petale/">Pétale</a>
-          <a href="/templates/bottega/">Bottega</a>
-          <a href="/templates/inkhouse/">Inkhouse</a>
-          <a href="/templates/clarity/">Clarity</a>
-          <a href="/templates/bleeker/">Bleeker</a>
-          <a href="/templates/chroma/">Chroma</a>
-          <a href="/templates/riso/">Riso</a>
-          <a href="/templates/arcanum/">Arcanum</a>
-        </div>
-
-        <div class="br-footer__col">
-          <p class="br-footer__label">Industries</p>
-          <a href="/for-barbers/">For barbers</a>
-          <a href="/for-salons/">For hair salons</a>
-          <a href="/for-lash-artists/">For lash artists</a>
-          <a href="/for-nail-techs/">For nail techs</a>
-          <a href="/for-estheticians/">For estheticians</a>
-          <a href="/for-spas/">For spas</a>
-          <a href="/for-solo-pros/">For solo pros</a>
-        </div>
-
-        <div class="br-footer__col">
-          <p class="br-footer__label">Switching</p>
-          <a href="/migration/">Migration guide</a>
-          <a href="/compare/glossgenius-alternative/">vs GlossGenius</a>
-          <a href="/compare/acuity-alternative/">vs Acuity</a>
-          <a href="/compare/square-appointments-alternative/">vs Square</a>
-          <a href="/compare/fresha-alternative/">vs Fresha</a>
-          <a href="/compare/booksy-alternative/">vs Booksy</a>
-        </div>
-
-        <div class="br-footer__col">
-          <p class="br-footer__label">Company</p>
-          <a href="/about/">About</a>
-          <a href="/contact/">Contact</a>
+        <nav class="v-drawer" id="v-drawer" aria-label="Menu">
+          <a href="/#product">Product</a>
+          <a href="/#kito">Kito</a>
+          <a href="/templates/">Templates</a>
           <a href="/pricing/">Pricing</a>
-
           <a href="/blog/">Blog</a>
-          <a href="/changelog/">Changelog</a>
-          <a href="/roadmap/">Roadmap</a>
-          <a href="/community/">Discord</a>
-          <a href="/newsletter/">Newsletter</a>
+          <a href="https://app.bkrdy.me/login">Log in</a>
+          <a class="v-btn" href="https://app.bkrdy.me/register?ref=tools-analytics-menu">Start free</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ─── Head ─── -->
+      <section class="v-phead">
+        <div class="v-art v-horizon" aria-hidden="true">
+          <img class="v-art__sky" src="/images/art/dusk.webp" alt="" width="2000" height="857" fetchpriority="high" />
+          <img class="v-art__kito" src="/images/kito/sitting.webp" alt="" width="213" height="320" />
         </div>
+        <div class="v-wrap v-split">
+          <div class="v-split__copy">
+            <p class="v-mono v-eyebrow">Business tools · Analytics</p>
+            <h1 class="v-h1 v-h1--page">Your numbers, in plain words.</h1>
+            <p class="v-lede">The payments overview shows what came in over 3, 6 or 12 months, by service, artist and day of the week. Ask Kito how busy you've been, your slowest day and what sells.</p>
+            <div class="v-hero__ctas">
+              <a class="v-btn" href="https://app.bkrdy.me/register?ref=tools-analytics-hero">Start for free <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+              <a class="v-btn v-btn--ghost" href="/pricing/">See pricing</a>
+            </div>
+            <p class="v-mono v-hero__fine">On every plan, Free included · 0% commission</p>
+          </div>
 
+          <!-- Demo data: how this looks in BKRDY, and Kito answering the owner. -->
+          <div class="v-shot" aria-hidden="true">
+            <div class="v-list">
+              <div class="v-list__head"><span class="v-list__title">Last 6 months</span><span class="v-list__sub">$18,420 collected · $0 commission</span></div>
+              <div class="v-list__row" style="grid-template-columns: minmax(0, 1fr) auto"><span><span class="v-list__name">Gel full set</span><span class="v-list__meta">142 visits</span></span><span class="v-list__end"><span class="v-list__value">$7,100</span></span></div>
+              <div class="v-list__row" style="grid-template-columns: minmax(0, 1fr) auto"><span><span class="v-list__name">Lash fill</span><span class="v-list__meta">98 visits</span></span><span class="v-list__end"><span class="v-list__value">$5,390</span></span></div>
+              <div class="v-list__row" style="grid-template-columns: minmax(0, 1fr) auto"><span><span class="v-list__name">Brow lamination</span><span class="v-list__meta">61 visits</span></span><span class="v-list__end"><span class="v-list__value">$3,050</span></span></div>
+              <div class="v-list__row" style="grid-template-columns: minmax(0, 1fr) auto"><span><span class="v-list__name">Saturdays</span><span class="v-list__meta">Best day of the week</span></span><span class="v-list__end"><span class="v-list__value">$4,960</span><span class="v-list__tag">Top day</span></span></div>
+              <div class="v-list__action">Export CSV</div>
+            </div>
+            <div class="v-kito">
+              <div class="v-bubble">What's my slowest day, and what sells best?</div>
+              <div class="v-kito__steps"><span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Checked 6 weeks</span><span><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Compared weekdays</span></div>
+              <div class="v-reply"><img src="/images/kito/kito-256.webp" alt="" width="28" height="28" /><div>Tuesday. It's been <b>38% booked</b>, against 81% on Saturdays. Gel full sets sell best. Want me to find Tuesday openings you could fill?</div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── What you get ─── -->
+      <section class="v-sec">
+        <div class="v-wrap">
+          <div class="v-head">
+            <div class="v-head__title">
+              <p class="v-mono v-eyebrow">What you get</p>
+              <h2 class="v-h2">Analytics,<br />done properly.</h2>
+            </div>
+            <span></span>
+          </div>
+          <div class="v-duo">
+            <article class="v-card v-point">
+              <p class="v-mono">Revenue</p>
+              <h3 class="v-h3">What came in, month by month.</h3>
+              <p class="v-body">Money collected over the last 3, 6 or 12 months, net of refunds, with tips counted separately. A month-by-month trend, your average ticket and what is still due at upcoming visits sit on one screen.</p>
+            </article>
+            <article class="v-card v-point">
+              <p class="v-mono">Breakdowns</p>
+              <h3 class="v-h3">By service, artist and weekday.</h3>
+              <p class="v-body">See which services earn the most and how many visits each had, what each artist brought in, and which days of the week pay best. Payment methods and your top clients by spend sit alongside.</p>
+            </article>
+            <article class="v-card v-point">
+              <p class="v-mono">Ask Kito</p>
+              <h3 class="v-h3">Ask a question, get a number.</h3>
+              <p class="v-body">Ask Kito how full the calendar has been, which day is slowest or what sells, and he answers with real numbers from your bookings. Compare one month with another in a single question.</p>
+            </article>
+            <article class="v-card v-point">
+              <p class="v-mono">Export</p>
+              <h3 class="v-h3">Ready for your bookkeeper.</h3>
+              <p class="v-body">Export your transactions as a CSV file for any date range and hand it straight over. Set a monthly goal on Home and watch your progress grow as payments come in.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Plan and related ─── -->
+      <section class="v-sec">
+        <div class="v-wrap v-more">
+          <article class="v-card v-more__plan">
+            <p class="v-mono v-eyebrow">Plans</p>
+            <h3 class="v-h3">On every plan.</h3>
+            <p class="v-body">Every plan. Revenue by artist shows once you have a team. BKRDY takes 0% commission on every booking.</p>
+            <a class="v-link" href="/pricing/#compare">Compare plans <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+          </article>
+          <nav class="v-links v-more__links" aria-label="Related">
+            <a href="/platform/tools/payments/"><span>Payments <span style="color: var(--text-3); font-weight: 500">Get paid before the chair.</span></span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+            <a href="/platform/tools/customers/"><span>Client book <span style="color: var(--text-3); font-weight: 500">Every client, remembered.</span></span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+            <a href="/platform/booking/calendar/"><span>Calendar <span style="color: var(--text-3); font-weight: 500">Your whole day, one screen.</span></span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+            <a href="/platform/"><span>Everything in BKRDY</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+          </nav>
+        </div>
+      </section>
+
+      <!-- ─── FAQ (keep word for word with the FAQPage schema in the head) ─── -->
+      <section class="v-sec" id="faq">
+        <div class="v-wrap v-faq">
+          <div class="v-head__title">
+            <p class="v-mono v-eyebrow">Questions</p>
+            <h2 class="v-h2">Short answers.</h2>
+          </div>
+          <div class="v-faq__list">
+            <details>
+              <summary>Is there a separate reports section to set up?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+              <p>No. The numbers live in the payments overview and on Home, and they fill in as clients book and pay. Kito answers questions about them in plain words.</p>
+            </details>
+            <details>
+              <summary>Can I see where my bookings come from, like Instagram or Google?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+              <p>No. BKRDY does not track site traffic or ad sources. The numbers here come from your own bookings and payments.</p>
+            </details>
+            <details>
+              <summary>Does it track no-shows?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+              <p>Yes. Ask Kito how many appointments were missed or cancelled in a period, and the No-show risk segment in your client book flags clients who often miss.</p>
+            </details>
+            <details>
+              <summary>Do cash payments count?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+              <p>Yes. When you mark a balance paid in cash, Venmo or Zelle, it shows under payment methods and in your totals, next to your card payments.</p>
+            </details>
+            <details>
+              <summary>Is it on the Free plan?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+              <p>Yes. The payments overview, the CSV export and Kito's answers work on every plan, including Free. Revenue by artist appears once you add a team on Studio or Studio+.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── After hours ─── -->
+      <section class="v-sec">
+        <div class="v-wrap">
+          <div class="v-night">
+            <img class="v-night__kito" src="/images/kito/sitting.webp" alt="" width="213" height="320" loading="lazy" />
+            <div class="v-night__copy">
+              <p class="v-mono v-eyebrow">Free to start</p>
+              <h2 class="v-h2">Set it up tonight.<br />Kito keeps watch.</h2>
+              <p class="v-body">Start on Free with your booking site, deposits and email reminders. Add a paid plan when you want the rest.</p>
+              <div class="v-night__ctas">
+                <a class="v-btn" href="https://app.bkrdy.me/register?ref=tools-analytics-final">Start for free</a>
+                <a class="v-btn v-btn--ghost" href="/pricing/">See pricing</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="v-foot">
+      <div class="v-wrap">
+        <div class="v-foot__grid">
+          <div class="v-foot__brand">
+            <span class="v-logo" style="color: var(--text)">BKRDY</span>
+            <span>The calm way to run a busy book.</span>
+          </div>
+          <nav aria-label="Product">
+            <h2>Product</h2>
+            <a href="/platform/">All features</a>
+            <a href="/platform/booking/online/">Online booking</a>
+            <a href="/platform/booking/calendar/">Calendar</a>
+            <a href="/platform/tools/payments/">Payments</a>
+            <a href="/templates/">Templates</a>
+            <a href="/pricing/">Pricing</a>
+            <a href="/free/">Free plan</a>
+          </nav>
+          <nav aria-label="Who it is for">
+            <h2>For</h2>
+            <a href="/for-lash-artists/">Lash artists</a>
+            <a href="/for-nail-techs/">Nail techs</a>
+            <a href="/for-barbers/">Barbers</a>
+            <a href="/for-estheticians/">Estheticians</a>
+            <a href="/for-salons/">Salons</a>
+            <a href="/for-spas/">Spas</a>
+            <a href="/for-solo-pros/">Solo pros</a>
+          </nav>
+          <nav aria-label="Switch">
+            <h2>Switch</h2>
+            <a href="/migration/">Free migration</a>
+            <a href="/compare/booksy-alternative/">From Booksy</a>
+            <a href="/compare/glossgenius-alternative/">From GlossGenius</a>
+            <a href="/compare/fresha-alternative/">From Fresha</a>
+            <a href="/compare/vagaro-alternative/">From Vagaro</a>
+          </nav>
+          <nav aria-label="Company">
+            <h2>Company</h2>
+            <a href="/about/">About</a>
+            <a href="/blog/">Blog</a>
+            <a href="/changelog/">Changelog</a>
+            <a href="/roadmap/">Roadmap</a>
+            <a href="/contact/">Contact</a>
+          </nav>
+          <nav aria-label="Legal">
+            <h2>Legal</h2>
+            <a href="https://app.bkrdy.me/privacy">Privacy</a>
+            <a href="https://app.bkrdy.me/terms">Terms</a>
+            <a href="https://app.bkrdy.me/cookies">Cookies</a>
+            <a href="https://www.instagram.com/bkrdy.me/">Instagram</a>
+          </nav>
+        </div>
+        <div class="v-foot__base">
+          <span>&copy; 2026 BKRDY. Operated by DaysGraphic LLC.</span>
+          <span>Made for the people behind the chair.</span>
+        </div>
       </div>
+    </footer>
 
-      <div class="br-footer__bottom-row">
-        <p class="br-footer__bottom">
-          &copy; 2026 BKRDY. Made for the small beauty brands quietly building real businesses.
-        </p>
-        <p class="br-footer__legal">
-          <a href="https://app.bkrdy.me/privacy">Privacy</a>
-          <a href="https://app.bkrdy.me/terms">Terms</a>
-          <a href="https://app.bkrdy.me/cookies">Cookies</a>
-        </p>
-      </div>
-    </div>
-  </footer>
-
-  <script src="/nav.js"></script>
-
-</body>
+    <!-- Analytics, signup intent and referral passthrough (shared with every page) -->
+    <script src="/nav.js"></script>
+    <script src="/v2.js" defer></script>
+  </body>
 </html>

@@ -36,7 +36,7 @@ BKRDY starts at $18 a month billed annually and advertises no transaction fees a
 
 ### Core Features
 
-BKRDY provides customizable website templates with gallery, policies, and banner content that match studio branding. The booking engine handles online scheduling with deposits, automatic reminders, an auto waitlist and cancellation flows, and **two-way Google Calendar sync**. The platform includes a **branded client management hub** with client history, multi-staff calendars, and review collection.
+BKRDY provides customizable website templates with gallery, policies, and banner content that match studio branding. The booking engine handles online scheduling with deposits, automatic reminders, an auto waitlist and cancellation flows, and **Google Calendar sync** (bookings go to your calendar). The platform includes a **branded client management hub** with client history, multi-staff calendars, and review collection.
 
 ### Key Differentiator
 
@@ -329,7 +329,7 @@ Choosing the best platform for integrated studio websites and booking systems de
 
 ## Which booking system fits your beauty studio’s needs?
 
-Handling appointments with generic booking links can weaken your studio’s brand and frustrate clients. BKRDY offers a unique solution designed specifically for solo lash artists, nail technicians, and hairstylists who want a website that merges booking with a showcase of their services. Unlike other [bookingbee.ai](http://bookingbee.ai) alternatives, BKRDY includes deposit handling through Stripe, two-way Google Calendar sync, and a branded client history to improve client retention and reduce no-shows.
+Handling appointments with generic booking links can weaken your studio’s brand and frustrate clients. BKRDY offers a unique solution designed specifically for solo lash artists, nail technicians, and hairstylists who want a website that merges booking with a showcase of their services. Unlike other [bookingbee.ai](http://bookingbee.ai) alternatives, BKRDY includes deposit handling through Stripe, Google Calendar sync, and a branded client history to improve client retention and reduce no-shows.
 
 If you want a booking page that looks like part of your studio rather than a generic widget, visit [BKRDY](/templates/). Import your client data quickly and publish a customized site with built-in reminders and smart waitlists that help keep your calendar full and your operations smooth.
 

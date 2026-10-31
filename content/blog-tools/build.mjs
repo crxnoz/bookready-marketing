@@ -18,7 +18,9 @@
 //
 // Nav and footer are lifted at build time from pricing/index.html, a page this
 // script does not own, so the blog's chrome follows the rest of the site
-// without a copy of it living here to go stale.
+// without a copy of it living here to go stale. Since the rebrand (2026-10-31)
+// that is the v2 night shell: `header.v-nav` and `footer.v-foot`, styled by
+// /v2.css, which also carries the article (.bq-*) styles.
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, rmSync } from 'node:fs';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -54,10 +56,16 @@ const shortDate = d => { try { return new Date(d + 'T12:00:00Z').toLocaleDateStr
 // ── the site shell ───────────────────────────────────────────────────────────
 function shell() {
   const src = readFileSync(SHELL_SOURCE, 'utf8');
-  const nav = src.match(/[ \t]*<header class="br-nav"[\s\S]*?<\/header>/);
-  const foot = src.match(/[ \t]*<footer class="br-footer"[\s\S]*?<\/footer>/);
+  const nav = src.match(/[ \t]*<header class="v-nav"[\s\S]*?<\/header>/);
+  const foot = src.match(/[ \t]*<footer class="v-foot"[\s\S]*?<\/footer>/);
   if (!nav || !foot) throw new Error(`could not lift the nav and footer out of ${SHELL_SOURCE}`);
-  return { nav: nav[0], footer: foot[0] };
+  // The source page marks Pricing as the open link and tags its signup links
+  // ref=pricing-*. Re-point both at the section being built.
+  const navFor = section => nav[0]
+    .replace(/ aria-current="page"/g, '')
+    .replace(/href="\/blog\/"/g, 'href="/blog/" aria-current="page"')
+    .replace(/ref=pricing-/g, `ref=${section}-`);
+  return { navFor, footer: foot[0] };
 }
 
 // ── posts ────────────────────────────────────────────────────────────────────
@@ -105,7 +113,7 @@ const withGraphicSrcset = html => html.replace(/<img src="\/images\/blog\/([a-z0
 
 function ogImage(p) {
   const f = `/images/blog/${p.key}-og.png`;
-  return existsSync(join(ROOT, f.slice(1))) ? ORIGIN + f : `${ORIGIN}/images/hero/hero.webp`;
+  return existsSync(join(ROOT, f.slice(1))) ? ORIGIN + f : `${ORIGIN}/images/og/og-image.jpg`;
 }
 
 function articlePage(p, all, sh) {
@@ -148,11 +156,11 @@ ${faqHtml}
       </div>
 
       <aside class="bq-cta">
-        <h2>Set it up once, let the page do it</h2>
-        <p>The Free plan gives you a real booking site on your own address at no cost. Solo is $18 a month billed annually, or $21 monthly, when you want deposits, card on file and unlimited texts.</p>
+        <h2>Start free. Add a card when you're ready.</h2>
+        <p>The Free plan is a real booking site with deposits and email reminders, at no cost. Solo is $18 a month billed yearly, or $21 monthly, when you want card on file and unlimited texts. BKRDY takes 0% commission on every plan.</p>
         <div class="bq-cta__b">
-          <a class="bq-cta__p" href="https://app.bkrdy.me/register">Start free</a>
-          <a class="bq-cta__s" href="/templates/">See the templates</a>
+          <a class="bq-cta__p" href="https://app.bkrdy.me/register?ref=${p.section}-cta">Start for free</a>
+          <a class="bq-cta__s" href="/pricing/">See pricing</a>
         </div>
       </aside>
 
@@ -166,7 +174,7 @@ ${faqHtml}
   return page({
     title: (p.metaTitle || `${p.title} | BKRDY`),
     description: p.description,
-    path: p.url, og, ogType: 'article', ld, body, sh,
+    path: p.url, og, ogType: 'article', ld, body, sh, section: p.section,
     head: `  <meta property="article:published_time" content="${esc(p.date)}" />\n` +
           `  <meta property="article:section" content="${esc(pil.label)}" />\n`,
   });
@@ -212,19 +220,23 @@ function hubPage(section, posts, sh) {
       { '@type': 'ListItem', position: 2, name: S.crumb, item: `${ORIGIN}/${S.path}/` }] },
   ];
   return page({ title: `${S.title} | BKRDY`, description: S.lead, path: `/${S.path}/`,
-    og: `${ORIGIN}/images/hero/hero.webp`, ogType: 'website', ld, body, sh, head: '' });
+    og: `${ORIGIN}/images/og/og-image.jpg`, ogType: 'website', ld, body, sh, section, head: '' });
 }
 
 // ── the page shell ───────────────────────────────────────────────────────────
-const FONTS = 'https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600;700;800&display=swap';
+const FONTS = 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Geist+Mono:wght@500&display=swap';
 
-function page({ title, description, path, og, ogType, ld, body, sh, head }) {
+function page({ title, description, path, og, ogType, ld, body, sh, section, head }) {
   return `<!doctype html>
 <html lang="en">
 <head>
+  <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#08090D" />
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}" />
   <link rel="canonical" href="${ORIGIN}${path}" />
@@ -247,20 +259,21 @@ ${head}
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="${FONTS}" media="print" onload="this.media='all'" />
   <noscript><link rel="stylesheet" href="${FONTS}" /></noscript>
-  <link rel="stylesheet" href="/styles.css" />
-  <link rel="stylesheet" href="/pages.css" />
-  <link rel="stylesheet" href="/blog.css" />
+  <link rel="stylesheet" href="/v2.css" />
 
 ${ld.map(x => `  <script type="application/ld+json">\n${JSON.stringify(x, null, 2).split('\n').map(l => '  ' + l).join('\n')}\n  </script>`).join('\n')}
 </head>
-<body class="br-article bq-page">
+<body>
 
-${sh.nav}
+${sh.navFor(section)}
+  <main>
 ${body}
+  </main>
 
 ${sh.footer}
 
   <script src="/nav.js"></script>
+  <script src="/v2.js" defer></script>
   <script src="/blog.js"></script>
 </body>
 </html>

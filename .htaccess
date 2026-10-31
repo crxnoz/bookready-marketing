@@ -12,15 +12,44 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^(www\.)?mybookready\.com$ [NC]
 RewriteRule ^(.*)$ https://bkrdy.com/$1 [R=301,L]
 
+# www.bkrdy.com -> bkrdy.com (2026-10-31). www used to serve the same pages
+# with a 200, a duplicate host for search, and the template pages embed the
+# live demo ({key}.bkrdy.me), whose frame-ancestors allows bkrdy.com only.
+RewriteCond %{HTTP_HOST} ^www\.bkrdy\.com$ [NC]
+RewriteRule ^(.*)$ https://bkrdy.com/$1 [R=301,L]
+
 # Legacy URLs (pre-restructure) -> current equivalents. Preserves any link
 # equity and clears the GSC "Not found (404)" reports. The /wp-admin and
 # /wp-content 404s are bot probes and are correctly left as 404.
 RewriteRule ^booking-system/calendar-sync/?$ /platform/booking/sync/ [R=301,L]
-RewriteRule ^booking-system/client-dashboard/?$ /features/client/dashboard/ [R=301,L]
+RewriteRule ^booking-system/client-dashboard/?$ /platform/tools/customers/ [R=301,L]
 RewriteRule ^booking-system/?$ /platform/booking/online/ [R=301,L]
 RewriteRule ^template/?$ /templates/ [R=301,L]
 RewriteRule ^features/personalized-branding/?$ /platform/website/sections/ [R=301,L]
 RewriteRule ^features/easy-editing/?$ /platform/website/templates/ [R=301,L]
+
+# Rebrand phase 3 (2026-10-31): /features/* was a second copy of the product
+# tree, and several of its pages sold things BKRDY does not do (email and SMS
+# campaigns, win-back automations). /platform/* is now the one product tree;
+# each old page points at the page that covers what is real. Recurring
+# appointments do not exist, so that page goes to the calendar.
+RewriteRule ^features/?$ /platform/ [R=301,L]
+RewriteRule ^features/client/(booking|reschedule)/?$ /platform/booking/online/ [R=301,L]
+RewriteRule ^features/client/dashboard/?$ /platform/tools/customers/ [R=301,L]
+RewriteRule ^features/client/loyalty/?$ /platform/tools/loyalty/ [R=301,L]
+RewriteRule ^features/client/payments/?$ /platform/tools/payments/ [R=301,L]
+RewriteRule ^features/client/reminders/?$ /platform/tools/notifications/ [R=301,L]
+RewriteRule ^features/growth/analytics/?$ /platform/tools/analytics/ [R=301,L]
+RewriteRule ^features/growth/email/?$ /platform/tools/marketing/ [R=301,L]
+RewriteRule ^features/growth/reviews/?$ /platform/tools/reviews/ [R=301,L]
+RewriteRule ^features/growth/sms/?$ /platform/tools/notifications/ [R=301,L]
+RewriteRule ^features/growth/winback/?$ /platform/tools/customers/ [R=301,L]
+RewriteRule ^features/manage/customers/?$ /platform/tools/customers/ [R=301,L]
+RewriteRule ^features/manage/dashboard/?$ /platform/ [R=301,L]
+RewriteRule ^features/manage/(hours|reschedule)/?$ /platform/booking/calendar/ [R=301,L]
+RewriteRule ^features/manage/staff/?$ /platform/tools/team/ [R=301,L]
+RewriteRule ^features/.+$ /platform/ [R=301,L]
+RewriteRule ^platform/booking/recurring/?$ /platform/booking/calendar/ [R=301,L]
 
 # /customers/ removed (page held fabricated testimonials before any real customers existed).
 # Redirect to /templates/ — closest intent match for a visitor who clicked an old link.

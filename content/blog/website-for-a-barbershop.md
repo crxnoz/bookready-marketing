@@ -103,7 +103,7 @@ Build one first if you are:
 - **A shop with more than one barber.** Clients pick a person, and your barbers need their own calendars.
 - **Taking deposits.** A deposit needs a page that collects it and a policy the client saw first. Collecting them over DMs is where disputes start.
 
-Then keep it small. Eight elements, one page, your own photos. [BKRDY has templates designed for barbershops](/templates/), Starter is free, and the booking page is yours rather than a listing that also shows the shop next door. Whatever you build it with, the order is the part that matters.
+Then keep it small. Eight elements, one page, your own photos. [BKRDY has templates designed for barbershops](/templates/), the Free plan costs $0, and the booking page is yours rather than a listing that also shows the shop next door. Whatever you build it with, the order is the part that matters.
 
 ## Questions
 

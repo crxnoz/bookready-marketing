@@ -68,3 +68,34 @@
     });
   });
 })();
+
+// Email capture (newsletter, community, tutorials, contact, roadmap): posts
+// to the same /leads endpoint the old forms used, tagged with data-source.
+(function () {
+  var forms = document.querySelectorAll('[data-v-lead]');
+  if (!forms.length) return;
+  forms.forEach(function (form) {
+    var box = form.closest('[data-v-lead-box]');
+    var input = form.querySelector('input[type="email"]');
+    var btn = form.querySelector('button');
+    var label = btn.textContent;
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var email = (input.value || '').trim();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { input.setAttribute('aria-invalid', 'true'); input.focus(); return; }
+      input.removeAttribute('aria-invalid');
+      btn.disabled = true; btn.textContent = 'Sending';
+      fetch('https://api.bkrdy.me/api/v1/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({ email: email, source: form.getAttribute('data-source') || 'site' })
+      }).then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+        .then(function () {
+          form.hidden = true;
+          var ok = box && box.querySelector('[data-v-lead-ok]');
+          if (ok) ok.removeAttribute('hidden');
+        })
+        .catch(function () { btn.disabled = false; btn.textContent = label; input.setAttribute('aria-invalid', 'true'); input.focus(); });
+    });
+  });
+})();

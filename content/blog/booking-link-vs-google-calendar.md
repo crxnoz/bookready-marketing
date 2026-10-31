@@ -84,7 +84,7 @@ The best setup for most people is not one or the other. It is a booking page cli
 
 The direction is what matters. One-way sync pushes new bookings into your calendar, which looks fine until your own life double books you: the dentist at 2pm on Thursday sits in your calendar, your booking page never hears about it, and someone takes 2pm on Thursday.
 
-So the question to ask a platform is not "do you sync with Google Calendar". It is "does a busy event in my own calendar block a bookable slot on my page". BKRDY syncs both directions and lets you write your own booking questions. Other platforms do it too. Ask before you pay anyone.
+So the question to ask a platform is not "do you sync with Google Calendar". It is "does a busy event in my own calendar block a bookable slot on my page". BKRDY sends every booking to your Google Calendar but does not read busy time back, so block personal time in BKRDY. Some platforms do read it back. Ask before you pay anyone.
 
 ## For three appointments a week, a careful hand is enough
 

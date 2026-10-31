@@ -68,7 +68,6 @@
   <url><loc>https://bkrdy.com/platform/booking/online/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://bkrdy.com/platform/booking/calendar/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://bkrdy.com/platform/booking/sync/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bkrdy.com/platform/booking/recurring/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://bkrdy.com/platform/booking/waitlist/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://bkrdy.com/platform/tools/payments/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://bkrdy.com/platform/tools/customers/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -76,28 +75,14 @@
   <url><loc>https://bkrdy.com/platform/tools/marketing/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://bkrdy.com/platform/tools/analytics/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://bkrdy.com/platform/tools/reviews/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bkrdy.com/features/client/booking/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bkrdy.com/features/client/dashboard/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bkrdy.com/features/client/payments/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bkrdy.com/features/client/reschedule/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bkrdy.com/features/client/reminders/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bkrdy.com/features/manage/dashboard/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bkrdy.com/features/manage/reschedule/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bkrdy.com/features/manage/staff/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bkrdy.com/features/manage/hours/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bkrdy.com/features/manage/customers/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bkrdy.com/features/growth/reviews/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bkrdy.com/features/growth/analytics/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://bkrdy.com/features/growth/email/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://bkrdy.com/features/growth/sms/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://bkrdy.com/features/growth/winback/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://bkrdy.com/platform/tools/team/</loc><lastmod>2026-10-31</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://bkrdy.com/platform/tools/loyalty/</loc><lastmod>2026-10-31</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://bkrdy.com/roadmap/</loc><lastmod>2026-06-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://bkrdy.com/newsletter/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://bkrdy.com/community/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://bkrdy.com/about/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://bkrdy.com/contact/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://bkrdy.com/platform/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bkrdy.com/features/</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://bkrdy.com/for-barbers/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bkrdy.com/for-lash-artists/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bkrdy.com/for-nail-techs/</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -123,7 +108,6 @@
   <url><loc>https://bkrdy.com/templates/riso/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://bkrdy.com/templates/blushgallery/</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://bkrdy.com/templates/savilerow/</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://bkrdy.com/features/client/loyalty/</loc><lastmod>2026-07-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://bkrdy.com/platform/booking/after-hours/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://bkrdy.com/platform/booking/booking-forms/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://bkrdy.com/platform/tools/coupons/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>

@@ -125,7 +125,7 @@ Reminders done right do not just fill gaps. They build the kind of client relati
 
 ## BKRDY’s reminder tools for nail techs who want full calendars
 
-BKRDY builds automated reminder systems directly into its booking platform for nail technicians, so you get the three-touch sequence, two-way messaging, and waitlist automation without stitching together separate tools.
+BKRDY builds automated reminder systems directly into its booking platform for nail technicians, so confirmations, reminders and a waitlist come built in, without stitching together separate tools.
 
 The [automated reminders feature](/features/client/reminders) handles instant confirmations, 48-hour messages, and 2-hour nudges out of the box. Clients can confirm or reschedule with one tap, and your calendar updates automatically. Deposit collection runs through Stripe, so your cancellation policy is enforced without any awkward conversations. The [nail tech booking platform](/for-nail-techs) also includes smart waitlist management that fills canceled slots within minutes. If you want a booking site that works as hard as you do, BKRDY is built for exactly that.
 

@@ -94,7 +94,7 @@ Free is the right call if you are starting out, if you take a handful of booking
 
 It is the wrong call if you take deposits on most services, if you have staff, or if your booking page is the main shop window people judge you through. Those three run straight into the usual limits.
 
-BKRDY's Starter plan sits in the fourth category: $0, a real booking site that stays live, one calendar, four templates, no custom domain, so your link is a bkrdy.me address rather than your own. The paid plans are on the [pricing page](/pricing/), and the [booking software comparison](/blog/salon-booking-software-comparison/) covers the main platforms.
+BKRDY's Free plan sits in the fourth category: $0, a real booking site that stays live, one calendar, four templates, no custom domain, so your link is a bkrdy.me address rather than your own. The paid plans are on the [pricing page](/pricing/), and the [booking software comparison](/blog/salon-booking-software-comparison/) covers the main platforms.
 
 ## Questions
 

@@ -93,7 +93,7 @@ Look at what people near you charge for the same service at the same quality, an
 
 In a salon, an 11am no-show gets filled by a walk-in or a colleague takes the chair. At home it is a dead hour in your own hallway, with no footfall to fill it from. That is why the deposit goes in from day one.
 
-A flat amount or a percentage of the service both work, taken at booking and applied to the total. What matters is that it is automatic and applies to everybody, friends included. [How much to charge](/guides/how-much-deposit-to-charge/) is its own decision. BKRDY's Starter plan is free, so cost is no reason for the booking page to wait.
+A flat amount or a percentage of the service both work, taken at booking and applied to the total. What matters is that it is automatic and applies to everybody, friends included. [How much to charge](/guides/how-much-deposit-to-charge/) is its own decision. BKRDY's Free plan costs nothing, so cost is no reason for the booking page to wait.
 
 ## What you save in rent, you pay for somewhere else
 
