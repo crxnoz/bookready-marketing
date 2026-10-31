@@ -16,13 +16,13 @@ migrated: true
 
 Almost every booking app on the market is priced and built for a team. Open the pricing page and the plans assume staff seats, multiple locations, a front desk, and a register with a card reader bolted to it. So a solo lash artist or a self-employed esthetician signs up and quietly pays for reporting dashboards, payroll tools, and POS hardware she will never touch. The app is expensive because it was designed for a shop with employees, and you are not that shop.
 
-Here is the BKRDY position, stated up front: when it is just you, the app should disappear. It should become a clean booking page on your own domain that looks like your work, take a deposit so people show up, and remind clients so you are not texting confirmations by hand at night. That is most of the job. Everything past it is machinery for a business you do not run yet. A [booking app for solo pros](/for-solo-pros/) should cost like a one-person business and get out of the way.
+Here is the BKRDY position, stated up front: when it is just you, the app should disappear. It should become a clean booking page of your own that looks like your work, take a deposit so people show up, and remind clients so you are not texting confirmations by hand at night. That is most of the job. Everything past it is machinery for a business you do not run yet. A [booking app for solo pros](/for-solo-pros/) should cost like a one-person business and get out of the way.
 
 This guide is honest about the exceptions. A marketplace app like Fresha or Booksy can genuinely be worth it for the first few months, when you are cold and need strangers to find you. We are not going to pretend otherwise. What follows: the five things a solo pro actually needs, the features you are overpaying for, an honest shortlist of the options, why the booking page is your whole storefront, what these apps really cost per year, the two settings that protect your calendar, why owning your client list matters more when you are solo, and the fastest path to live.
 
 ## The five things a solo pro actually needs.
 
-Strip it back to the short list. First, a clean booking page on your own domain that looks like your work, because for a one-person business that page is the whole brand and it decides whether a stranger taps Book. Second, a deposit on each service, because a held card is what turns a casual "maybe" into a real appointment and cuts no-shows. Third, automatic reminders, so a confirmation and a nudge go out on their own instead of you typing them between clients.
+Strip it back to the short list. First, a clean booking page of your own that looks like your work, because for a one-person business that page is the whole brand and it decides whether a stranger taps Book. Second, a deposit on each service, because a held card is what turns a casual "maybe" into a real appointment and cuts no-shows. Third, automatic reminders, so a confirmation and a nudge go out on their own instead of you typing them between clients.
 
 Fourth, a client list you own and can export, so the people you have already earned belong to you and not to a platform. Fifth, low fees, meaning no platform markup stacked on top of card processing. You are already paying Stripe or whoever moves the money. You should not pay a second toll on the same booking just to use the software.
 
@@ -40,9 +40,9 @@ The BKRDY angle is blunt: a solo plan should cost like a solo business. Around f
 
 No everything-is-great listicle. Here is who each one actually fits. **GlossGenius** is a clean, solo-friendly app with real in-person POS, running roughly $24 to $48 a month. Strong if you want a card reader for walk-up checkout and do not mind a transaction fee. **Fresha** has a free base and a marketplace that can put you in front of new clients, but it charges a fee on new-client marketplace bookings, so the "free" gets a footnote. **Booksy** is a marketplace plus per-staff pricing, genuinely useful in dense barber and beauty markets where people search the app to find someone nearby.
 
-**Square Appointments** is fine, especially if you already live in the Square ecosystem for other payments, though the booking page looks like every other Square page. And **BKRDY** gives you a designed site on your own domain, 0% platform markup on top of Stripe's standard rate, with Solo at $18 a month billed annually. The honest framing across all five: the marketplace apps rent you an audience, and BKRDY builds you one. Both can be right at different stages.
+**Square Appointments** is fine, especially if you already live in the Square ecosystem for other payments, though the booking page looks like every other Square page. And **BKRDY** gives you a designed site at yourname.bkrdy.me, 0% platform markup on top of Stripe's standard rate, with Solo at $18 a month billed annually. The honest framing across all five: the marketplace apps rent you an audience, and BKRDY builds you one. Both can be right at different stages.
 
-|  | Monthly | Platform markup | Own domain | Marketplace | Best for |
+|  | Monthly | Platform markup | Designed site | Marketplace | Best for |
 |---|---|---|---|---|---|
 | **BKRDY** | **$21** | **0%** | **Yes** | No | Owning your brand |
 | GlossGenius | $24-$48 | ~2.6% | No | No | In-person POS |
@@ -58,7 +58,7 @@ When you run a shop with a physical space, the room does the work of the brand. 
 
 Most apps drop your clients onto a generic widget that looks identical to every other business using the same software. A gray form, a dropdown, a logo slot. It works, but it says nothing about you, and worse, it says you are one of many. A page that looks considered and specific to your work quietly justifies your prices before a client has even picked a service. Premium is communicated, not announced.
 
-This is where BKRDY's editorial [templates](/templates/) earn their keep. Clarity is the clean, uncluttered, solo-leaning look: calm, confident, gets out of the way of your photos. If your work has more edge, The Fade Room leans dark and after-hours, and Opaline leans quiet-luxury for a softer, high-end feel. Point one of them at your own domain with [a custom domain](/platform/website/domain/), and the page reads as a real business, not a listing on someone else's app. That is the difference between looking like a professional and looking like a search result.
+This is where BKRDY's editorial [templates](/templates/) earn their keep. Clarity is the clean, uncluttered, solo-leaning look: calm, confident, gets out of the way of your photos. If your work has more edge, The Fade Room leans dark and after-hours, and Opaline leans quiet-luxury for a softer, high-end feel. Put your name and photos on one of them, and the page reads as a real business, not a listing on someone else's app. That is the difference between looking like a professional and looking like a search result.
 
 ## What these apps actually cost a solo pro per year.
 
@@ -80,13 +80,13 @@ The good news is you do not have to invent any of this. BKRDY's [reminder tools]
 
 A marketplace is convenient right up until you want to leave. It controls the URL people book through, the audience that sees you, and the rebooking prompts that bring clients back. That is fine when the marketplace is introducing you to strangers. It becomes a trap the moment your business depends on it, because a solo pro who walks away can lose the entire funnel overnight. The clients were never really yours. They were the platform's, lent to you for a fee.
 
-Owning your business as an asset means owning the things a competitor cannot switch off. Your own domain, so the booking link is yours. Your own client list, so you can reach the people you have served. Your own reviews, sitting on a page you control instead of a profile someone else can change or delist. When those live with you, the business is something you could sell, move, or grow on your terms, not a tenancy in someone else's app.
+Owning your business as an asset means owning the things a competitor cannot switch off. Your own booking site, so the page clients land on is yours. Your own client list, so you can reach the people you have served. Your own reviews, sitting on a page you control instead of a profile someone else can change or delist. When those live with you, the business is something you could sell, move, or grow on your terms, not a tenancy in someone else's app.
 
 Practically, this is easy to start. Export your existing client list as a CSV from whatever you use now, and import it somewhere you own. BKRDY keeps every client on file in your own [customer records](/platform/tools/customers/), and it collects [verified reviews](/features/growth/reviews/) on assets that belong to you, not to a marketplace. Start the ownership habit early, while the list is small and easy to move. The longer you rent, the more expensive leaving becomes, which is exactly why the marketplace wants you to stay.
 
 ## The fastest path to live as a solo pro.
 
-You do not need a project plan. You need an afternoon. Here is the tight version. One, pick a template: Clarity for a clean, uncluttered look, The Fade Room or Opaline if your work wants more mood. Two, add your services with real prices and a deposit on each. Three, connect Stripe, which is the only account you need to take money. Four, point your domain at the site, or use the free subdomain to start today and add the custom domain later.
+You do not need a project plan. You need an afternoon. Here is the tight version. One, pick a template: Clarity for a clean, uncluttered look, The Fade Room or Opaline if your work wants more mood. Two, add your services with real prices and turn on a deposit. Three, connect Stripe, which is the only account you need to take money. Four, share your yourname.bkrdy.me link, which is live the moment you publish.
 
 Five, turn on the reminder sequence so confirmations and nudges go out automatically from your first booking. Six, put the link in your Instagram bio, because that is where most solo pros are actually found. That is the whole setup, and most solo pros are live in a single afternoon, taking real bookings by the evening. You can refine photos and copy later. The point is to be open for business fast.
 
@@ -96,7 +96,7 @@ If you want to see the looks side by side before you commit, browse the [website
 
 ### What is the best booking app for a solo beauty pro?
 
-It depends on whether you need to be found or you already have clients. BKRDY Solo at $18/mo billed annually wins for a designed page on your own domain and 0% platform markup on top of Stripe. GlossGenius fits if you want in-person card-reader checkout. Pick by where your clients come from.
+It depends on whether you need to be found or you already have clients. BKRDY Solo at $18/mo billed annually wins for a designed page of your own and 0% platform markup on top of Stripe. GlossGenius fits if you want in-person card-reader checkout. Pick by where your clients come from.
 
 ### Do I need to pay for staff features if it is just me?
 
@@ -120,7 +120,7 @@ No, if you own the list. Most apps export a client CSV, and BKRDY runs the impor
 
 ### Do I need my own website or just a booking link?
 
-A bare link drops clients on a generic form that looks like everyone else's. Your own designed site on your own domain builds trust, gets found on Google, and looks like your work. When it is just you, that page is the entire storefront.
+A bare link drops clients on a generic form that looks like everyone else's. Your own designed site builds trust, gets found on Google, and looks like your work. When it is just you, that page is the entire storefront.
 
 ### How long does it take a solo pro to get set up?
 

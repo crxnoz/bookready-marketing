@@ -62,7 +62,7 @@ A solo lash artist, nail tech, brow specialist or barber who wants one bill and 
 
 A multi-chair salon or spa with retail, classes, memberships or payroll: Vagaro. The depth is the point, and it beats running three systems that each know half of a client's story. If you want the wider field instead, there is a longer list of [Vagaro alternatives](/blog/vagarocom-alternatives/).
 
-If your main problem is that your booking page looks like everyone else's, neither is the answer. Both set the structure of that page for everyone on the platform: you get your logo, photos, colors and service list, not how the page is built or how it reads. Moving between them swaps one house style for another. What solves that is a site on your own domain, which is where [BKRDY](/templates/) sits.
+If your main problem is that your booking page looks like everyone else's, neither is the answer. Both set the structure of that page for everyone on the platform: you get your logo, photos, colors and service list, not how the page is built or how it reads. Moving between them swaps one house style for another. What solves that is a booking site with a design of its own, which is where [BKRDY](/templates/) sits.
 
 ## Keep your own export, whichever you choose
 

@@ -1,6 +1,6 @@
 # BKRDY
 
-> BKRDY (pronounced "book-ready"; the product was called BookReady until mid-2026 and people still search for it that way) is booking software for beauty pros: a designed booking website, a calendar, deposits and payments, reminders, a client book, and Kito, an AI assistant for the owner, in one app. Each studio gets a public booking site at {slug}.bkrdy.me (or its own domain on Studio and Studio+) and runs the business from app.bkrdy.me. It is free to start, and BKRDY takes 0% commission on every booking: card payments go to the owner's own Stripe account at Stripe's standard rate.
+> BKRDY (pronounced "book-ready"; the product was called BookReady until mid-2026 and people still search for it that way) is booking software for beauty pros: a designed booking website, a calendar, deposits and payments, reminders, a client book, and Kito, an AI assistant for the owner, in one app. Each studio gets a public booking site at {slug}.bkrdy.me and runs the business from app.bkrdy.me. It is free to start, and BKRDY takes 0% commission on every booking: card payments go to the owner's own Stripe account at Stripe's standard rate.
 
 Key facts for accurate citation:
 - BKRDY is one product that replaces a website builder, a scheduling tool, a payments setup and a client list. Owners run the whole studio from it.
@@ -44,8 +44,8 @@ Clients and reminders:
 The booking website:
 - 15 designed templates: Opaline, Bleeker, Velvet Theory, Pétale, Chroma, Bottega, Riso, Lush Studio, Arcanum, Clarity, The Fade Room, Inkhouse, Blackline, Blush Gallery, Savile Row. The Free plan includes Opaline, Blackline, The Fade Room and Lush Studio; paid plans include all 15.
 - Every template has the same 12 sections in its own style (header, booking, gallery, results, about, policy, advice, timeline, FAQ, reviews, thank-you, footer); owners rename, hide and reorder the tab sections. Switching templates keeps services, clients and bookings.
-- Built for phones first. Gallery: 6 photos on Free, unlimited on paid plans. Free sites show a Powered by BKRDY badge.
-- Your own domain on Studio and Studio+, connected for you; Free and Solo use {slug}.bkrdy.me.
+- Built for phones first. Gallery: 6 photos on Free, up to 18 on paid plans (3 collections of 6). Free sites show a Powered by BKRDY badge.
+- Every site lives at {slug}.bkrdy.me, on every plan.
 
 What BKRDY does not have today:
 - Recurring or standing appointments, group or class bookings, memberships
@@ -54,6 +54,7 @@ What BKRDY does not have today:
 - Payroll, commission tracking or separate payouts per artist; a card reader or POS
 - Multi-location management, a public API or Zapier
 - An Android app (the iPhone owner app is in App Store review)
+- A studio's own domain (every site is {slug}.bkrdy.me for now)
 - A client marketplace
 
 ## Product
@@ -104,7 +105,7 @@ What BKRDY does not have today:
 - [Content ideas for beauty businesses. A year of posts, one shoot at a time.](https://bkrdy.com/guides/content-ideas-for-beauty-businesses/): Never stare at a blank caption again. A category-by-category bank of post ideas plus a simple weekly plan a solo beauty pro can actually keep.
 - [Barber App for Beauty Studios: Branded Booking Websites](https://bkrdy.com/blog/barber-app/): Transform your beauty studio with a branded barber app. Reduce no-shows, control pricing, and enhance client retention today!
 - [How to rebook clients before they leave the chair. The next appointment is easiest to book when they are still in front of you.](https://bkrdy.com/guides/how-to-rebook-clients/): The highest-leverage move in beauty is booking the next appointment before the client leaves. Scripts, per-service rebook intervals, and how to automate it.
-- [Spa Software for Independent Beauty Studios: 2026 Guide](https://bkrdy.com/blog/spa-software/): Discover the best spa software in 2026! Streamline your beauty studio with integrated booking, payments, and client management, all on your brand's domain.
+- [Spa Software for Independent Beauty Studios: 2026 Guide](https://bkrdy.com/blog/spa-software/): Discover the best spa software in 2026! Streamline your beauty studio with integrated booking, payments, and client management, all under your own brand.
 - [What Is a Hairstylist Digital Presence? A 2026 Guide](https://bkrdy.com/blog/what-is-a-hairstylist-digital-presence/): Discover what is a hairstylist digital presence and learn how to build a complete online footprint to attract new clients and boost bookings.
 - [Best Vagaro.com Alternatives for Salons and Spas in 2026](https://bkrdy.com/blog/vagarocom-alternatives/): Discover the best vagaro.com alternatives for salons and spas in 2026. Find the perfect solution for your business needs and growth.
 - [Lash Artist Scheduling Best Practices for 2026](https://bkrdy.com/blog/lash-artist-scheduling-best-practices/): Discover essential lash artist scheduling best practices for 2026. Streamline your booking, enhance client communication, and boost rebooking today!

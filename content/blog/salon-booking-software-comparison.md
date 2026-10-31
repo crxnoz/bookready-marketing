@@ -22,7 +22,7 @@ Here is how BKRDY, Fresha, Vagaro, GlossGenius, Square Appointments, and Booksy 
 
 ## The 60-second answer.
 
-**Best for design-led owners:** BKRDY. A real designed website on your own domain with 0% transaction markup.
+**Best for design-led owners:** BKRDY. A real designed website of your own with 0% transaction markup.
 
 **Best free tier:** Fresha, with a caveat. The subscription is free, but the new-client fee and processing recover the cost.
 
@@ -50,7 +50,7 @@ Skip the feature checklist. For a salon, five things decide whether software hel
 
 ## Six platforms, one honest read each.
 
-**BKRDY.** A designed booking website (fifteen named editorial templates) with booking, deposits, and reminders built in, 0% transaction markup, and free same-day migration. $0 to $47 a month billed annually, flat, with Salon quoted. Best for owners who treat their brand as the product. Weak spots: no barcode retail inventory and no POS hardware. It is the only option here that puts the booking experience on your own domain by default, which matters for SEO and for reading as an established business rather than a marketplace listing. Browse the [templates](/templates/).
+**BKRDY.** A designed booking website (fifteen named editorial templates) with booking, deposits, and reminders built in, 0% transaction markup, and free same-day migration. $0 to $47 a month billed annually, flat, with Salon quoted. Best for owners who treat their brand as the product. Weak spots: no barcode retail inventory and no POS hardware. It is the only option here that puts the booking experience on a designed site of your own by default, which matters for SEO and for reading as an established business rather than a marketplace listing. Browse the [templates](/templates/).
 
 **Fresha.** Free to subscribe, with a large marketplace and multi-location support. The revenue model is the catch: a new-client fee (a cut of first visits) plus processing markup, and your data lives in their marketplace. Best for high-volume salons that prize zero monthly cost over owning the funnel. See the [Fresha comparison](/compare/fresha-alternative/).
 

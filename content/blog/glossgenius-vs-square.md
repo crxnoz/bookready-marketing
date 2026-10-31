@@ -62,7 +62,7 @@ For one person doing beauty work, GlossGenius is a sound, simple choice. One sub
 
 Here is the honest limit. The page clients land on is a GlossGenius page in a GlossGenius layout. You get your logo, photos, colors and service list, not the structure or the overall feel.
 
-That trade exists either way. Square decides because design is not its business. GlossGenius decides because a house style is part of what it sells. If your brand is part of the service, the third category is a booking site on your own domain, which is where [BKRDY](/templates/) sits. If your brand is your hands and your work, ignore all of this.
+That trade exists either way. Square decides because design is not its business. GlossGenius decides because a house style is part of what it sells. If your brand is part of the service, the third category is a booking site with a design of its own, which is where [BKRDY](/templates/) sits. If your brand is your hands and your work, ignore all of this.
 
 ## What moves with you, and what does not
 

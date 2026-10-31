@@ -151,7 +151,7 @@ BKRDY Salon if you want a designed multi-stylist site with per-chair calendars a
 
 ### Will I lose SEO if I switch from Acuity?
 
-Almost certainly not. Your Acuity scheduling subdomain carries near-zero SEO equity for salon searches because it lives on a shared scheduling domain. Moving to your own domain on a designed BKRDY site is usually a net gain for local search, not a loss.
+Almost certainly not. Your Acuity scheduling subdomain carries near-zero SEO equity for salon searches because it lives on a shared scheduling domain. A designed BKRDY site with your name, services and location on the page gives search engines far more to work with, so the move is usually a gain for local search, not a loss.
 
 ### How fast can I switch?
 

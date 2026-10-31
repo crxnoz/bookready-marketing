@@ -79,7 +79,7 @@ The difference between a busy nail business and a profitable one usually comes d
 
 Short framework. Match the platform to how your business actually makes money.
 
-**Design-led nail brand?** BKRDY. If your clients come from Instagram and your work is the draw, a photo-led booking page on your own domain with 0% markup and per-tech calendars is the right fit. Start on the [nail tech page](/for-nail-techs/) to see it set up for the trade.
+**Design-led nail brand?** BKRDY. If your clients come from Instagram and your work is the draw, a photo-led booking page of your own with 0% markup and per-tech calendars is the right fit. Start on the [nail tech page](/for-nail-techs/) to see it set up for the trade.
 
 **Heavy retail or a POS-first shop?** Vagaro. If you sell a lot of product and want inventory, stock, and checkout deeply integrated, the extra weight earns its keep.
 

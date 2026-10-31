@@ -60,7 +60,7 @@ BKRDY fits solo beauty professionals and small studios that want a branded websi
 
 ### Unique Value Proposition
 
-Owning a custom domain and a brand-led booking site while paying no platform transaction markup changes how you manage appointment revenue. You collect deposits through Stripe to cut no shows and keep full control of your client records on the same site. For studios that sell services via Instagram or social links, one branded booking link replaces a generic third-party page.
+Running a brand-led booking site of your own while paying no platform transaction markup changes how you manage appointment revenue. You collect deposits through Stripe to cut no shows and keep full control of your client records on the same site. For studios that sell services via Instagram or social links, one branded booking link replaces a generic third-party page.
 
 ### Real World Use Case
 

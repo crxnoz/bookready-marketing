@@ -40,9 +40,9 @@ Honestly, only one of these is built for a busy owner. Here is how they compare.
 
 A booking link in your Instagram bio is not a website. It is a door with no building behind it. When a client taps it, they land on a generic form on a platform's domain, with the platform's logo at the bottom and none of your work in sight. It books the appointment, but it does nothing for how your business is perceived, and it does nothing for how you get found.
 
-A real site does two things a link cannot. First, it builds trust. A client deciding between you and the studio down the street sees your photos, your prices, your story, and your reviews on a site that looks like you spent money on it. That perception lets you charge what your work is worth instead of competing on price. Second, it gets found on Google. A page on your own domain can rank for searches in your town, which a booking widget on a shared platform cannot do for you.
+A real site does two things a link cannot. First, it builds trust. A client deciding between you and the studio down the street sees your photos, your prices, your story, and your reviews on a site that looks like you spent money on it. That perception lets you charge what your work is worth instead of competing on price. Second, it gets found on Google. A site of your own, with your name, services and town on it, can rank for searches in your town, which a booking widget on a shared platform cannot do for you.
 
-Your own domain is the asset. It is where reputation and search traffic compound over years. A booking link is a feature that lives on someone else's property. Read how [a custom domain](/platform/website/domain/) turns your site into something you actually own.
+Your own site is the asset. It is where reputation and search traffic compound over years. A marketplace listing is a feature that lives on someone else's property. Read how [your link](/platform/website/domain/) works on BKRDY.
 
 ## The fastest path: a designed template.
 
@@ -54,7 +54,7 @@ Here is the whole build, start to finish. Most owners move through it in an afte
 
 **3. Connect payments.** Link your Stripe account so you can take deposits at booking. This is a two-minute connection, and it is the single biggest lever on no-shows.
 
-**4. Connect a domain.** Point a domain you own at the site, or start on a clean free subdomain and add a custom domain later.
+**4. Share your link.** Your site lives at yourstudio.bkrdy.me the moment you publish. Put it in your bio and your Google profile.
 
 **5. Go live.** Publish, then put the link in your Instagram bio. Because the site is [built for the phone](/platform/website/mobile/), the booking flow is thumb-first where most of your traffic comes from.
 
@@ -62,7 +62,7 @@ Here is the whole build, start to finish. Most owners move through it in an afte
 
 These two steps turn a template into a real business asset, and both are simpler than they sound.
 
-**Your domain.** If you already own one, you point it at the site by updating a couple of DNS records, usually a copy-and-paste from your host's dashboard. If you do not own one yet, you can buy one and connect it, or launch today on a clean free subdomain and upgrade to a custom domain whenever you are ready. Nothing about your booking flow changes when you switch, so there is no reason to wait on the domain to go live.
+**Your link.** On BKRDY every site lives at yourstudio.bkrdy.me, on every plan, so there is nothing to buy or set up before you go live. Your own domain is on the roadmap; if you already own one, it can forward to your BKRDY link in the meantime.
 
 **Deposits.** Connect Stripe and each service can carry a deposit that is charged at the moment of booking. The money posts straight to your own Stripe account, not held by a middleman. Deposits are the most effective no-show tool there is, because a client who has put money down shows up or reschedules instead of ghosting. You decide which services require a deposit and how much, so a quick consult can stay free while a long appointment is protected. See how [deposits and payments](/platform/tools/payments/) work end to end.
 
@@ -96,7 +96,7 @@ A designed template with booking built in runs about 15 to 99 dollars a month al
 
 ### Can I use my own domain?
 
-Yes. You can point a domain you already own at the site, buy a new one, or start on a clean free subdomain and connect a custom domain later. Nothing about your booking flow changes when you switch.
+Not yet on BKRDY. Every site lives at yourstudio.bkrdy.me today, and a domain you already own can forward to it. Your own domain is on the roadmap.
 
 ### Can the website take deposits?
 

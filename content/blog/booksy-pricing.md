@@ -48,7 +48,7 @@ Booksy is a marketplace first. Clients open the app, search for a service near t
 
 The catch is what you are renting. Your bookings happen on booksy.com, under their brand, next to every other local pro competing for the same client. You are paying for traffic to a profile you do not own, on a platform that can change its rules, its fees, and its search ranking whenever it wants. The clients feel like Booksy clients, not yours.
 
-The alternative is to own the funnel: your own domain, your own site, your own client list. New clients still find you through Instagram, Google, and word of mouth, but they land on something you control. More on how that works on our [custom domain](/platform/website/domain/) page.
+The alternative is to own the funnel: your own site, your own client list. New clients still find you through Instagram, Google, and word of mouth, but they land on something you control. More on how that works on our [booking website](/platform/website/) page.
 
 ## Is Booksy worth it for your stage?
 
@@ -68,7 +68,7 @@ One practical note: keep your own copy of your client list. Booksy is secure, bu
 
 ## Booksy vs owning your own site.
 
-Here is the same shop, two ways. Booksy scales its bill with your team and keeps the client relationship on its platform. A flat plan on your own domain does not.
+Here is the same shop, two ways. Booksy scales its bill with your team and keeps the client relationship on its platform. A flat plan on your own site does not.
 
 |  | Booksy (3 chairs) | Your own site |
 |---|---|---|
@@ -82,7 +82,7 @@ Over a year, a three-chair shop on Booksy is paying the base plus two add-ons, a
 
 ## What to use once you own your clients.
 
-If most of your bookings already come from people who know you, the math changes. A designed website on your own domain, with booking and deposits built in, costs less than a stacked marketplace bill and keeps every client as yours.
+If most of your bookings already come from people who know you, the math changes. A designed website of your own, with booking and deposits built in, costs less than a stacked marketplace bill and keeps every client as yours.
 
 That is what BKRDY does: a real site (not a marketplace listing), 0% transaction markup on top of Stripe, and free same-day migration of your client list. Plans run from $0 to $47 a month billed annually, or $21 to $55 month, flat, with no per-staff surprise. Barbers tend to start with The Fade Room or Blackline because they look like a real shop, not a generic widget. Browse the full set on the [templates page](/templates/).
 
@@ -112,4 +112,4 @@ Booksy charges a subscription and per-staff fees plus processing, and the option
 
 ### What is the best alternative to Booksy?
 
-If you want a designed site on your own domain with 0% transaction markup instead of a marketplace listing, see our Booksy alternative breakdown for the full comparison.
+If you want a designed site of your own with 0% transaction markup instead of a marketplace listing, see our Booksy alternative breakdown for the full comparison.

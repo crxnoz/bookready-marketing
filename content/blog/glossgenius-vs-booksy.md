@@ -48,7 +48,7 @@ The promotion is the part people misread. It is not a one-off boost. As more com
 
 On Booksy, clients book on a Booksy profile, in Booksy's layout, with other local pros a scroll away. On GlossGenius you get your own booking page, in their style, on their platform.
 
-GlossGenius is clearly the better of the two if looking like everyone else is what bothers you. But be honest about what that buys: a nicer house style, not a house. Neither page is a site you own outright, and on both the structure is decided for everybody on the platform. Fixing that means a site on your own domain, a separate decision from this one, and where [BKRDY](/templates/) sits.
+GlossGenius is clearly the better of the two if looking like everyone else is what bothers you. But be honest about what that buys: a nicer house style, not a house. Neither page is a site you own outright, and on both the structure is decided for everybody on the platform. Fixing that means a booking site with a design of its own, a separate decision from this one, and where [BKRDY](/templates/) sits.
 
 ## Five things that decide it
 

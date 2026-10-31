@@ -18,7 +18,7 @@ Instagram is where most beauty discovery happens. Somewhere between 60 and 80 pe
 
 There are three common mistakes. Some leave the field blank, which sends every interested new client to a DM you may not answer for hours. Some link to a Linktree, which adds a tap and quietly loses 30 to 40 percent of the people who clicked. And some paste a clumsy Booksy or Vagaro URL that loads slow and looks nothing like their brand. All three cost bookings you already earned with your content.
 
-The BKRDY position is simple: one tap, your own domain, a page that looks like you. This guide walks through exactly how to set that up, what to write next to the link, how to use Story stickers, and which numbers to watch after. If you run a one-chair operation, the [solo pros page](/for-solo-pros/) shows the same setup end to end.
+The BKRDY position is simple: one tap, one clean link, a page that looks like you. This guide walks through exactly how to set that up, what to write next to the link, how to use Story stickers, and which numbers to watch after. If you run a one-chair operation, the [solo pros page](/for-solo-pros/) shows the same setup end to end.
 
 ## Why your bio link is the single most important link you own.
 
@@ -26,7 +26,7 @@ For most beauty businesses, the Instagram bio link drives 40 to 60 percent of al
 
 Now picture what most of those links actually go to. A Linktree with eight buttons of equal size, so the new client has to read a menu and decide. Or a generic platform URL like booksy.com/en-us/12345_your-studio that looks like a spreadsheet row and loads a page branded for someone else. Neither says "this is a real studio worth booking." Both add friction at the exact moment a stranger decided to give you a chance.
 
-The fix is to make the link go straight to a fast, branded booking site on your own web address. When the page that opens looks designed, matches your feed, and puts a Book button in reach of a thumb, the tap-to-booking rate climbs. Your [custom domain](/platform/website/domain/) is what makes that link read as yours instead of a platform's.
+The fix is to make the link go straight to a fast, branded booking site on your own web address. When the page that opens looks designed, matches your feed, and puts a Book button in reach of a thumb, the tap-to-booking rate climbs. A short link with your studio's name in it, like yourstudio.bkrdy.me, is what makes it read as yours instead of a marketplace's.
 
 ## Why one direct link beats a Linktree page.
 
@@ -38,9 +38,9 @@ The usual objection is fair: "But I have a portfolio, a services list, my story,
 
 ## Get your BKRDY link ready.
 
-Start on the BKRDY side so the link is live before you touch Instagram. Log in, open your site settings, and find your web address. You have two options, and both work. The first is your free bkrdy.me subdomain, which looks like yourstudio.bkrdy.me and is ready the moment your site is published. The second is a custom domain like yourstudio.com, which you can register for around 12 dollars a year and connect in a few clicks.
+Start on the BKRDY side so the link is live before you touch Instagram. Log in, open your site settings, and find your web address. It is your bkrdy.me address, which looks like yourstudio.bkrdy.me and is ready the moment your site is published. Every plan has one, Free included.
 
-Both links open the same fast, branded page, so the subdomain is a perfectly good place to begin. The custom domain is the upgrade: it reads more credible in the bio, it is easier for a client to remember and say out loud, and it belongs to you rather than to a platform. If you are deciding, the [domain setup page](/platform/website/domain/) walks through connecting one. Copy whichever address you are using, confirm it loads cleanly on your own phone, and keep it handy for the next step.
+It opens a fast, branded page with your name on it, and it is short enough to say out loud. More on how the address works on the [your link page](/platform/website/domain/). Copy it, confirm it loads cleanly on your own phone, and keep it handy for the next step.
 
 ## Update your Instagram bio in three taps.
 
@@ -90,9 +90,9 @@ Even in those cases, though, you rarely need a third-party redirect. A BKRDY hom
 
 Use your BKRDY link directly. A Linktree adds one extra tap between the profile and the booking flow, and every extra tap loses roughly 30 to 40 percent of the people who started. One direct link to a site that already has sections converts higher.
 
-### Can I use a bkrdy.me subdomain instead of a custom domain?
+### Can I use my own domain instead of a bkrdy.me address?
 
-Yes, and it works fine out of the gate. A custom domain runs about 12 dollars a year and reads a little more credible in the bio, but yourstudio.bkrdy.me is fully functional. Start with the subdomain and upgrade the domain later if you want.
+Not yet. Every BKRDY site lives at yourstudio.bkrdy.me today, and it works well in a bio: short, secure and clearly yours. Your own domain is on the roadmap.
 
 ### How do I track how many people tap my bio link?
 
@@ -104,7 +104,7 @@ Yes, Instagram allows up to five links stacked under your bio. For a beauty busi
 
 ### What if Instagram says my link is suspicious?
 
-This is rare with a BKRDY custom domain or bkrdy.me subdomain, since both are clean and consistent. If it does happen, switch to your bkrdy.me subdomain temporarily and contact our support so we can flag the domain for review.
+This is rare with a bkrdy.me address, since it is clean and consistent. If it does happen, contact our support so we can flag the link for review.
 
 ### How often should I update the bio link?
 
@@ -116,4 +116,4 @@ Yes. Story link stickers can point to any specific page on your site, like a sin
 
 ### What if my booking link is too long?
 
-Use your custom domain or a short bkrdy.me subdomain, both of which stay compact. Avoid third-party URL shorteners: Instagram sometimes flags shortened links as spam, and a shortener hides where the link actually goes, which lowers trust.
+Use your bkrdy.me address, which stays compact. Avoid third-party URL shorteners: Instagram sometimes flags shortened links as spam, and a shortener hides where the link actually goes, which lowers trust.

@@ -102,7 +102,7 @@ Your existing reviews stay on Vagaro, since no platform can lift another platfor
 
 ### Can I keep my custom domain?
 
-Yes. If you already own a domain pointed at Vagaro, we walk you through the DNS change so it points to BKRDY instead, and your clients never notice. If you do not have a domain yet, the Solo plan includes a free bkrdy.me subdomain so you still get a clean, brandable link.
+You can keep it, and it can forward to your BKRDY site, but BKRDY does not host sites on a studio's own domain yet. Every site lives at yourstudio.bkrdy.me, on every plan, Free included.
 
 ### Do I need to cancel Vagaro before I start BKRDY?
 
