@@ -74,7 +74,7 @@ Let M be the batch name (`YYYY-MM`, the month most of the batch falls in). Every
    - Add an entry to `content/blog/graphics.mjs` (types: `steps`, `checklist`, `dodont`, `compare`, `costs`, `policy`, `flow`; copy the shape of an existing entry). **Every word comes from the article.** No new facts, numbers or claims.
    - `SHARP=… node content/blog-tools/graphics.mjs <keys>`, then look at every new image: nothing cut off, nothing overlapping, readable at phone size.
    - Put `![<alt>](/images/blog/<key>-<name>.webp)` on its own line where it summarises the section it sits in, with a blank line before and after. Write alt text that says what the graphic shows, in full sentences.
-9. Share images: `SHARP=… node content/blog-tools/covers.mjs <the batch keys>`, then look at every new `images/blog/<key>-og.png`: the headline must not touch the shape on the right.
+9. Share images: `SHARP=… node content/blog-tools/covers.mjs <the batch keys>`, then look at every new `images/blog/<key>-share.jpg` (the night card, since 2026-11-01): the headline must stay on the dark left side and never run into Kito or the painting on the right. Never regenerate a published card under the same name; the host caches images for a year.
 10. Photos. **Luis licenses photos himself.** His Shutterstock plan excludes some collections, so never pre-pick one for him. For each article put three search terms on the `photoTerms:` line, separated by `|`, following the art direction below. He saves the licensed file as `<key>.jpg` in `C:\Users\carre\bkrdy-blog-photos` and the publish run finds it there.
 
 **Check, commit, review page, email**

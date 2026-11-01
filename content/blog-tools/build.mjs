@@ -112,8 +112,8 @@ const withGraphicSrcset = html => html.replace(/<img src="\/images\/blog\/([a-z0
     : all);
 
 function ogImage(p) {
-  const f = `/images/blog/${p.key}-og.png`;
-  return existsSync(join(ROOT, f.slice(1))) ? ORIGIN + f : `${ORIGIN}/images/og/og-image.jpg`;
+  const f = `/images/blog/${p.key}-share.jpg`;
+  return existsSync(join(ROOT, f.slice(1))) ? ORIGIN + f : `${ORIGIN}/images/og/v2/${p.section === 'guides' ? 'guides' : 'blog'}.jpg`;
 }
 
 function articlePage(p, all, sh) {
@@ -200,7 +200,7 @@ function hubPage(section, posts, sh) {
         ${used.map(x => `<button type="button" data-filter="${x.id}" aria-pressed="false">${esc(x.label)}</button>`).join('\n        ')}
       </div>` : ''}
       ${feat ? `<a class="bq-feat" href="${feat.url}" data-pillar="${esc(feat.pillar)}">
-        ${existsSync(join(ROOT, 'images', 'blog', `${feat.key}-og.png`)) ? `<img src="/images/blog/${feat.key}-og.png" width="1200" height="630" alt="" loading="eager">` : ''}
+        ${existsSync(join(ROOT, 'images', 'blog', `${feat.key}-share.jpg`)) ? `<img src="/images/blog/${feat.key}-share.jpg" width="1200" height="630" alt="" loading="eager">` : ''}
         <em>${esc(PILLAR(feat.pillar).label)} <span aria-hidden="true">·</span> ${shortDate(feat.date)}</em>
         <b>${esc(feat.title)}</b><s>${esc(feat.description)}</s>
       </a>` : '<p class="bq-hub__empty">The first articles are being written.</p>'}
@@ -220,7 +220,7 @@ function hubPage(section, posts, sh) {
       { '@type': 'ListItem', position: 2, name: S.crumb, item: `${ORIGIN}/${S.path}/` }] },
   ];
   return page({ title: `${S.title} | BKRDY`, description: S.lead, path: `/${S.path}/`,
-    og: `${ORIGIN}/images/og/og-image.jpg`, ogType: 'website', ld, body, sh, section, head: '' });
+    og: `${ORIGIN}/images/og/v2/${S.path}.jpg`, ogType: 'website', ld, body, sh, section, head: '' });
 }
 
 // ── the page shell ───────────────────────────────────────────────────────────
