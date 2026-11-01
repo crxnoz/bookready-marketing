@@ -148,11 +148,9 @@ img { max-width: 100%; display: block; }
 
 /* The app's dusk painting as a horizon: the sky fades into the night above
    it and the hills fade into the page below, so only the moon band shows.
-   Kito sits on the hill in front of the moon (percentages of the painting,
-   so he stays put at any width). */
-.v-art { position: absolute; aspect-ratio: 2000 / 857; pointer-events: none; }
+   Kito is painted in, sitting on the hill in front of the moon. */
+.v-art { position: absolute; aspect-ratio: 2400 / 1030; pointer-events: none; }
 .v-art__sky { position: absolute; inset: 0; width: 100%; height: 100%; }
-.v-art__kito { position: absolute; left: 82.2%; bottom: 22.6%; width: 4.4%; height: auto; transform: translateX(-50%); }
 .v-horizon {
   z-index: 0; left: 50%; top: 0; transform: translateX(-50%);
   width: max(100%, 1680px); max-width: 2200px;
@@ -332,12 +330,11 @@ img { max-width: 100%; display: block; }
   position: relative; min-height: 560px; overflow: hidden;
   display: flex; align-items: center;
   border-radius: 32px; box-shadow: inset 0 0 0 1px var(--line);
-  background: #0C1A2F url('/images/art/evening.webp') center bottom / cover no-repeat;
+  background: #0C1A2F url('/images/art/evening-kito.webp') center bottom / cover no-repeat;
 }
 .v-night__copy { position: relative; max-width: 620px; padding: 64px; display: flex; flex-direction: column; gap: 22px; }
 .v-night__copy .v-body { font-size: 18px; color: #BCC5D3; }
 .v-night__ctas { display: flex; flex-wrap: wrap; gap: 12px; }
-.v-night__kito { position: absolute; left: 72%; bottom: 33%; width: 56px; height: auto; transform: translateX(-50%); }
 
 /* ── Footer ──────────────────────────────────────────────── */
 .v-foot { padding: 72px 0 40px; border-top: 1px solid var(--line); }
@@ -390,9 +387,8 @@ img { max-width: 100%; display: block; }
   .v-moon__disc { width: 200px; height: 200px; }
   .v-moon__num { font-size: 150px; }
   .v-switch { margin-top: 48px; padding: 24px; }
-  .v-night { min-height: 540px; align-items: flex-start; }
+  .v-night { min-height: 540px; align-items: flex-start; background-position: 78% bottom; }
   .v-night__copy { padding: 32px 24px; }
-  .v-night__kito { display: none; }
   .v-foot__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
