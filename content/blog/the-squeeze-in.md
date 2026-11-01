@@ -41,7 +41,7 @@ Six weeks on they ask again, with less preamble, behaving exactly as you taught 
 
 ## Three conditions, and all three have to be true
 
-![The three conditions that make a last minute squeeze-in safe: a short service, a real gap, and a client you want more of.](/images/blog/the-squeeze-in-three.webp)
+![The three conditions that make a last minute squeeze-in safe: a short service, a real gap, and a client you want more of.](/images/blog/the-squeeze-in-three-night.webp)
 
 Yes only when all three are true. Two out of three is a no.
 

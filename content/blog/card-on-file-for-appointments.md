@@ -45,7 +45,7 @@ Most books run both, split by service length. Set the amount first with a [no-sh
 
 ## Say it once, and do not apologise
 
-![The four lines of booking page wording that cover a cancellation window, the fee, the card and lateness.](/images/blog/card-on-file-for-appointments-wording.webp)
+![The four lines of booking page wording that cover a cancellation window, the fee, the card and lateness.](/images/blog/card-on-file-for-appointments-wording-night.webp)
 
 The wording that works is short, neutral and states the condition: the window, the amount, and that the card is charged only if that happens.
 

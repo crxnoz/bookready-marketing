@@ -22,7 +22,7 @@ A barbershop website needs eight things, in this order: a book button visible wi
 
 ## Rank the page by what it costs you to skip
 
-![The eight things a barbershop website needs, numbered in order of how many clients you lose when you skip each one.](/images/blog/website-for-a-barbershop-order.webp)
+![The eight things a barbershop website needs, numbered in order of how many clients you lose when you skip each one.](/images/blog/website-for-a-barbershop-order-night.webp)
 
 Run out of time halfway down and you still have a site that takes bookings.
 

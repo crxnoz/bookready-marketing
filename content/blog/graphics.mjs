@@ -16,7 +16,7 @@
 //   name   a short word for this graphic, used in the file name
 //   type   steps | checklist | dodont | compare | costs | policy | flow
 //   label  the pillar label, printed small at the top right
-//   title  the graphic's headline, in Fraunces
+//   title  the graphic's headline, in Plus Jakarta Sans
 //   alt    full-sentence alt text saying what the graphic shows
 //
 // Per type:
@@ -30,7 +30,7 @@
 
 export const GRAPHICS = [
   {
-    key: 'how-deposits-work-for-appointments', name: 'money', type: 'steps', label: 'Money on the table',
+    key: 'how-deposits-work-for-appointments', name: 'money-night', type: 'steps', label: 'Money on the table',
     title: 'Where a deposit actually goes',
     alt: 'Four steps following a deposit from the moment a client books, into your own account, off the total at the appointment, and what happens if they cancel.',
     steps: [
@@ -42,7 +42,7 @@ export const GRAPHICS = [
     note: 'Whatever you pick, they have to have read it before they paid.',
   },
   {
-    key: 'website-for-a-barbershop', name: 'order', type: 'steps', label: 'Your own site',
+    key: 'website-for-a-barbershop', name: 'order-night', type: 'steps', label: 'Your own site',
     title: 'A barbershop page, in the order that matters',
     alt: 'The eight things a barbershop website needs, numbered in order of how many clients you lose when you skip each one.',
     steps: [
@@ -58,7 +58,7 @@ export const GRAPHICS = [
     note: 'Build only the first four and you still have a working barbershop site.',
   },
   {
-    key: 'booth-rent-vs-commission', name: 'stay', type: 'flow', label: 'Going solo',
+    key: 'booth-rent-vs-commission', name: 'stay-night', type: 'flow', label: 'Going solo',
     title: 'Who should stay on commission',
     alt: 'Three situations in which commission is still the better deal, and the one situation in which booth rent starts to pay.',
     ifLabel: 'Where you are now',
@@ -71,7 +71,7 @@ export const GRAPHICS = [
     note: 'Going independent is not a promotion. It is a different job with different risks.',
   },
   {
-    key: 'is-booksy-worth-it', name: 'count', type: 'steps', label: 'Switching',
+    key: 'is-booksy-worth-it', name: 'count-night', type: 'steps', label: 'Switching',
     title: 'Count your last thirty bookings',
     alt: 'Three buckets for sorting your last thirty appointments, to work out whether a marketplace is still finding you new clients.',
     steps: [
@@ -82,7 +82,7 @@ export const GRAPHICS = [
     note: 'Count bucket one. If it is one or two, you are paying for distribution you have stopped using.',
   },
   {
-    key: 'free-salon-booking-software', name: 'four', type: 'flow', label: 'Switching',
+    key: 'free-salon-booking-software', name: 'four-night', type: 'flow', label: 'Switching',
     title: 'Four kinds of free',
     alt: 'The four things free booking software usually turns out to be, and what each one really costs.',
     ifLabel: 'Free because',
@@ -95,7 +95,7 @@ export const GRAPHICS = [
     note: 'Check you can export your client list before you commit it.',
   },
   {
-    key: 'what-is-double-booking', name: 'overlap', type: 'dodont', label: 'Running the week',
+    key: 'what-is-double-booking', name: 'overlap-night', type: 'dodont', label: 'Running the week',
     title: 'Overlapping two clients',
     alt: 'Two panels: the four conditions under which deliberately overlapping two clients works, and the four situations where it reliably fails.',
     doLabel: 'It works when',
@@ -114,7 +114,7 @@ export const GRAPHICS = [
     ],
   },
   {
-    key: 'the-squeeze-in', name: 'three', type: 'checklist', label: 'Running the week',
+    key: 'the-squeeze-in', name: 'three-night', type: 'checklist', label: 'Running the week',
     title: 'Three conditions, and all three have to be true',
     alt: 'The three conditions that make a last minute squeeze-in safe: a short service, a real gap, and a client you want more of.',
     items: [
@@ -125,7 +125,7 @@ export const GRAPHICS = [
     note: 'Two out of three is a no. The honest answer is a waitlist place, not a yes.',
   },
   {
-    key: 'card-on-file-for-appointments', name: 'wording', type: 'policy', label: 'Money on the table',
+    key: 'card-on-file-for-appointments', name: 'wording-night', type: 'policy', label: 'Money on the table',
     title: 'Card on file, in four lines',
     alt: 'The four lines of booking page wording that cover a cancellation window, the fee, the card and lateness.',
     lines: [
@@ -137,7 +137,7 @@ export const GRAPHICS = [
     note: 'Short, neutral, and states the condition: the window, the amount, and that the card is charged only if that happens.',
   },
   {
-    key: 'how-many-clients-per-day', name: 'signs', type: 'checklist', label: 'Running the week',
+    key: 'how-many-clients-per-day', name: 'signs-night', type: 'checklist', label: 'Running the week',
     title: 'The signs you have already crossed it',
     alt: 'Five signs that a day holds more clients than it should, from the last client getting the worst version of you to complaints in work you would normally be proud of.',
     items: [

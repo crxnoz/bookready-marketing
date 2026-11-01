@@ -20,7 +20,7 @@ Free salon booking software is usually one of four things: a trial that ends, a 
 
 ## A free trial is not free, it is just later
 
-![The four things free booking software usually turns out to be, and what each one really costs.](/images/blog/free-salon-booking-software-four.webp)
+![The four things free booking software usually turns out to be, and what each one really costs.](/images/blog/free-salon-booking-software-four-night.webp)
 
 A thirty day trial is a good way to see software. It is not a free plan, whatever the ad says. The useful question is what happens on the day it ends:
 

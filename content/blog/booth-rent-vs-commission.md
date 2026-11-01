@@ -64,7 +64,7 @@ Which is why a pro renting a booth needs their own booking page and client list 
 
 ## Who should stay on commission
 
-![Three situations in which commission is still the better deal, and the one situation in which booth rent starts to pay.](/images/blog/booth-rent-vs-commission-stay.webp)
+![Three situations in which commission is still the better deal, and the one situation in which booth rent starts to pay.](/images/blog/booth-rent-vs-commission-stay-night.webp)
 
 Three readers should stay put, and none of them owe anyone an apology.
 

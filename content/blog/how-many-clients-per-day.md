@@ -34,7 +34,7 @@ Add it up and divide by the days you worked. That is your admin block: the secon
 
 ## The signs you have already crossed it
 
-![Five signs that a day holds more clients than it should, from the last client getting the worst version of you to complaints in work you would normally be proud of.](/images/blog/how-many-clients-per-day-signs.webp)
+![Five signs that a day holds more clients than it should, from the last client getting the worst version of you to complaints in work you would normally be proud of.](/images/blog/how-many-clients-per-day-signs-night.webp)
 
 Read these honestly. They are capacity readings, not character flaws.
 

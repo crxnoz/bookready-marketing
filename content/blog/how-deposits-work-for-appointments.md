@@ -22,7 +22,7 @@ A deposit is a part payment charged to the client's card at the moment they book
 
 ## A deposit is a real charge, not a hold on the card
 
-![Four steps following a deposit from the moment a client books, into your own account, off the total at the appointment, and what happens if they cancel.](/images/blog/how-deposits-work-for-appointments-money.webp)
+![Four steps following a deposit from the moment a client books, into your own account, off the total at the appointment, and what happens if they cancel.](/images/blog/how-deposits-work-for-appointments-money-night.webp)
 
 In nearly every booking setup a deposit is a real charge. The money moves the day they book, and their statement shows it like any other card purchase.
 

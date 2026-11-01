@@ -50,7 +50,7 @@ The promotion is not a trick. It is an auction for position, and it works. The c
 
 ## Count your last thirty bookings this week
 
-![Three buckets for sorting your last thirty appointments, to work out whether a marketplace is still finding you new clients.](/images/blog/is-booksy-worth-it-count.webp)
+![Three buckets for sorting your last thirty appointments, to work out whether a marketplace is still finding you new clients.](/images/blog/is-booksy-worth-it-count-night.webp)
 
 Open your calendar and scroll back through the last thirty appointments. Put each one in exactly one of three buckets:
 

@@ -40,7 +40,7 @@ The second service also has to finish inside the gap, and the hands-on moments o
 
 ## Where overlapping reliably fails
 
-![Two panels: the four conditions under which deliberately overlapping two clients works, and the four situations where it reliably fails.](/images/blog/what-is-double-booking-overlap.webp)
+![Two panels: the four conditions under which deliberately overlapping two clients works, and the four situations where it reliably fails.](/images/blog/what-is-double-booking-overlap-night.webp)
 
 - **The first client finishes early.** Processing comes out faster than expected and they are in your chair while you are elbow deep in someone else.
 - **Either client is late.** Overlap has no slack by design. A client ten minutes late does not cost you ten minutes, they cost you the whole overlap, because the gap has moved.
