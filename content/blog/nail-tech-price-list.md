@@ -91,7 +91,7 @@ Keep the rule simple and consistent. Returning clients who have never missed can
 
 A price list in a phone note cannot take a booking or hold a deposit. The version that actually protects your time is one where each service carries its price and deposit, on a page clients can book from directly.
 
-That is what BKRDY does. You add each service with its price, set a deposit where it matters, and it becomes a designed booking page on your own site, not a generic widget. Clients pick a service, see the price, pay the deposit, and book. Your [client list](/platform/tools/customers/) builds itself as they do.
+That is what BKRDY does. You add each service with its price, set one deposit rule for the menu, and it becomes a designed booking page on your own site, not a generic widget. Clients pick a service, see the price, pay the deposit, and book. Your [client list](/platform/tools/customers/) builds itself as they do.
 
 Browse the templates that fit a nail studio on the [templates page](/templates/), or see the full picture on the [nail techs](/for-nail-techs/) page. Most techs are live in about 20 minutes.
 
@@ -119,6 +119,6 @@ Give a few weeks of notice, raise in small steps, and lead with the value: sanit
 
 On your booking page, so the price and deposit are attached to each service a client books, not buried in a PDF or a Story highlight.
 
-### Can BKRDY show prices and take deposits per service?
+### Can BKRDY show prices and take deposits?
 
-Yes. Each service carries its own price and an optional deposit, charged through Stripe at the moment of booking.
+Yes. Each service carries its own price, and one deposit rule for the menu, a flat amount or a percent, is charged through Stripe at the moment of booking.

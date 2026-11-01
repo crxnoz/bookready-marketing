@@ -18,7 +18,7 @@ There is a list inside your booking software worth more than any ad you could ru
 
 Our position: winning clients back is a system, not a one-off blast. It starts with a definition of lapsed you can act on, then segmenting who is genuinely worth reaching and how, then a short warm sequence of messages, then an honest decision about whether money should be involved at all.
 
-On that last point, be careful. A discount can be the nudge that brings a good client back, or it can quietly teach your whole list to wait for a deal. Knowing the difference is the actual skill here. Some lapsed clients are gone for good, and that is fine. The goal is to recover the recoverable, cheaply. Below: defining lapsed, segmentation, the sequence, the discount question, automation, channel, and how to measure whether any of it worked.
+On that last point, be careful. A discount can be the nudge that brings a good client back, or it can quietly teach your whole list to wait for a deal. Knowing the difference is the actual skill here. Some lapsed clients are gone for good, and that is fine. The goal is to recover the recoverable, cheaply. Below: defining lapsed, segmentation, the sequence, the discount question, making it a monthly habit, channel, and how to measure whether any of it worked.
 
 ## What counts as a lapsed client.
 
@@ -26,7 +26,7 @@ Lapsed is not a feeling. It is a date, and you need a specific one before you ca
 
 Sort your book into three states instead of two. **Active** is anyone inside their normal interval. **Soft lapse** is one interval past due: the appointment that got skipped, the client who meant to rebook and did not. These are the recoverable ones and they are the whole prize. **Hard lapse** is two or more intervals past due, where the habit has broken and someone else may already be doing the work.
 
-Writing the definition down is what turns a vague worry into a list you can work through on a Tuesday afternoon. BKRDY [analytics](/platform/tools/analytics/) shows time since last visit per client, so the list builds itself instead of you scrolling a calendar backwards.
+Writing the definition down is what turns a vague worry into a list you can work through on a Tuesday afternoon. In BKRDY, the [Inactive segment](/platform/tools/customers/) lists everyone with no visit in 90 days or more, so you start from a list instead of scrolling a calendar backwards.
 
 ## Segment the list before you message anyone.
 
@@ -34,9 +34,9 @@ The instinct is to send one warm note to everyone who has gone quiet. Resist it.
 
 Three groups cover almost every book. **High-value regulars who suddenly stopped** are the ones worth real effort. Someone came in monthly for a year and then vanished, which usually means something specific happened: a scheduling conflict, a price change, a visit that was slightly off. A call or a personal text from you, not an automation, is the right move for maybe a dozen names.
 
-**One-and-done clients who never rebooked** get a lighter touch. A single visit that never repeated often signals a fit problem, wrong service, wrong price point, wrong expectations, and no amount of warmth fixes that. Automate this group and move on. **Clients who moved or had a one-time need**, the bride, the visitor, the person now living two states away, should be let go without guilt. Over-investing here is the most common way winback wastes a week.
+**One-and-done clients who never rebooked** get a lighter touch. A single visit that never repeated often signals a fit problem, wrong service, wrong price point, wrong expectations, and no amount of warmth fixes that. One short email is enough for this group, then move on. **Clients who moved or had a one-time need**, the bride, the visitor, the person now living two states away, should be let go without guilt. Over-investing here is the most common way winback wastes a week.
 
-Build the segments once with BKRDY [customer tags](/platform/tools/customers/) and save them, so the sequence targets the right people every time instead of being rebuilt from memory. The [client management view](/platform/tools/customers/) is where you tag them as you go.
+On paid plans, BKRDY [tags](/platform/tools/customers/) let you mark each client as you sort, so next month's list starts from what you already know instead of from memory.
 
 ## The three-message win-back sequence.
 
@@ -48,7 +48,7 @@ Three touches, spaced out, escalating gently. Each one gives the client a differ
 
 **3. The optional incentive, only where it makes sense.** "Would love to see you back. Here is 15% off your next visit if you book by Friday." Send this to the segments that earn it and skip it for the rest. Read the next section before you decide who those are.
 
-BKRDY [winback](/platform/tools/customers/) runs this shape for you, and the [email tools](/platform/tools/marketing/) handle the second and third touches.
+BKRDY does not send any of this for you. It has no automatic win-back messages and no email campaigns, so each touch goes from your own phone or email account, with your [booking link](/platform/booking/online/) in it.
 
 ## When a discount is worth it, and when it trains bad behavior.
 
@@ -60,25 +60,25 @@ This is the part most winback advice gets wrong, usually by defaulting to a perc
 
 The rule of thumb: lead with value and convenience, hold the discount for the third touch, and only send it to clients worth recovering at that price. A too-generous winback can cost more in eroded rates than it returns in recovered visits, and that damage does not show up in the campaign report.
 
-## Set winback on autopilot so it never lapses itself.
+## Put winback on the calendar so it never lapses itself.
 
-Here is what happens when winback is a manual task. You do it in January, it works, you feel great, and you never do it again because February is busy. The single biggest predictor of whether reactivation earns anything is whether it runs without you remembering it.
+Here is what happens when winback is a manual task. You do it in January, it works, you feel great, and you never do it again because February is busy. Reactivation only earns anything if it keeps happening, so it needs a fixed slot rather than a good intention.
 
-So set it once. BKRDY [winback](/platform/tools/customers/) fires when a client crosses the lapse threshold for their service, pulls the matching segment from your tags, and sends the sequence on its own schedule. The client who goes quiet in March gets caught in May whether or not you were thinking about it.
+So give it a standing date. Once a month, block half an hour, open the [Inactive segment](/platform/tools/customers/) in BKRDY, and work down the new names. BKRDY does the sorting and you do the sending. The client who goes quiet in March shows up on your list by June, and the date in your calendar makes sure you look.
 
-Match the trigger to the service interval rather than setting one generic 90-day rule across the book. A lash client and a facial client should not be crossing the same line, and a single threshold guarantees you are either late for one or early for the other. Set the number per service and the timing stops being a compromise.
+Read that list with the service interval in mind, because the Inactive line is one rule for the whole book. A lash client and a facial client should not be crossing the same line: 90 days is late for three-week fills and early for a quarterly facial. So skip the facial client who is simply on schedule, and check your shortest-interval clients by hand before they ever reach the list.
 
-Automation does not replace the personal layer, it protects it. Let the system handle the long tail so the only names left on your plate are the ten or fifteen high-value regulars who deserve a message you actually wrote.
+If you want the long tail sent automatically, that takes a separate email tool and a [CSV export of your client list](/platform/tools/customers/). That kind of automation does not replace the personal layer, it protects it, because the only names left on your plate are the ten or fifteen high-value regulars who deserve a message you actually wrote.
 
 ## Email or message: picking the right channel.
 
 The channel changes how a winback message lands, so match it to the touch rather than sending everything the same way.
 
-Email carries the longer touches well. The what-is-new note with a photo of the new treatment room, the seasonal gift-style offer, the message that needs two sentences of context all read naturally in an inbox and cost nothing to send at any scale. Email is the right default for your automated sequence and for anyone in the one-and-done segment. See the [email tools](/platform/tools/marketing/) for how the sequences are built.
+Email carries the longer touches well. The what-is-new note with a photo of the new treatment room, the seasonal gift-style offer, the message that needs two sentences of context all read naturally in an inbox and cost nothing to send at any scale. Email is the right default for the broad list and for anyone in the one-and-done group. BKRDY does not send email campaigns, so these go from your own email account or a separate email tool.
 
 A short personal text from the owner is the heaviest thing you can send, and its weight comes entirely from scarcity. It works because it is obviously not a campaign. Send fifty of them and it becomes one, and the effect is gone. Reserve texts for the high-value lapsed regulars you would genuinely be sorry to lose, and write each one yourself.
 
-SMS broadcast tools are coming soon to BKRDY. For now the strongest combination is automated email winback doing the volume, plus one-to-one texts from your own phone for your top names.
+BKRDY does not send marketing texts or text blasts. The strongest combination is email for the volume, plus one-to-one texts from your own phone for your top names.
 
 ## Measuring your win-back rate.
 
@@ -86,7 +86,7 @@ Win-back rate is the share of messaged lapsed clients who book again within a de
 
 Rough benchmarks to judge yourself against: a well-segmented sequence reactivating 10 to 20 percent of soft-lapse clients is a strong result. Single-digit recovery on hard-lapse clients is normal and not a failure, since those habits broke months ago. If soft lapse is coming in under 5 percent, the problem is almost always the segmentation or the timing, not the wording.
 
-Track it in [analytics](/platform/tools/analytics/) and compare across segments and touches, so you learn which message does the work and whether the discount touch is earning its cost or just giving away margin to people who would have returned anyway. That second question is the one worth answering.
+Track it on a simple sheet, since BKRDY does not report a win-back rate, and compare across segments and touches, so you learn which message does the work and whether the discount touch is earning its cost or just giving away margin to people who would have returned anyway. That second question is the one worth answering.
 
 Keep the scale in view. A 10 percent recovery on a list of three hundred lapsed clients is thirty returning appointments, at close to zero cost. That is a real month.
 
@@ -94,9 +94,9 @@ Keep the scale in view. A 10 percent recovery on a list of three hundred lapsed 
 
 Zoom out and the cheapest lapse is the one that never happens. Every client you recover through a sequence is a client you could have kept for free with better habits upstream, and the upstream fixes are less work than the campaign.
 
-Three habits do most of it. Rebook at checkout, while the client is standing there happy and holding her phone, which converts far better than any message sent two months later. Match your reminder cadence to the service interval so nobody drifts past their window without noticing. And watch the soft-lapse list weekly so you catch people at one interval past due, when a nudge still works, rather than at three when it barely does.
+Three habits do most of it. Rebook at checkout, while the client is standing there happy and holding her phone, which converts far better than any message sent two months later. Tell each client when they are next due, so nobody drifts past their window without noticing. And watch the soft-lapse list weekly so you catch people at one interval past due, when a nudge still works, rather than at three when it barely does.
 
-Treat winback as the safety net, not the strategy. The front line is [client retention](/guides/client-retention-strategies/) and a real [rebooking habit](/guides/how-to-rebook-clients/), and the net catches whatever gets through. Both run on the same client record and the same automations, on any plan. See [pricing](/pricing/) for where that sits.
+Treat winback as the safety net, not the strategy. The front line is [client retention](/guides/client-retention-strategies/) and a real [rebooking habit](/guides/how-to-rebook-clients/), and the net catches whatever gets through. Both start from the same client record, which is on every plan. See [pricing](/pricing/) for what each plan adds.
 
 ## Questions
 
@@ -122,12 +122,12 @@ Reactivating 10 to 20 percent of soft-lapse clients with a well-segmented sequen
 
 ### Should I email or text a lapsed client?
 
-Use automated email for the broad sequence, since it costs nothing to send and suits the longer value touches. Reserve a short personal text from you, sent by hand, for the handful of high-value regulars where a real message carries real weight.
+Use email for the broad sequence, since it is cheap to send and suits the longer value touches. Reserve a short personal text from you, sent by hand, for the handful of high-value regulars where a real message carries real weight.
 
 ### How do I avoid wasting effort on clients who will not return?
 
-Segment before you send. Put real effort into high-value clients who suddenly stopped, use a light automated touch on one-and-done clients, and let the movers and one-time needs go without a second thought. Effort follows value.
+Segment before you send. Put real effort into high-value clients who suddenly stopped, use one light email on one-and-done clients, and let the movers and one-time needs go without a second thought. Effort follows value.
 
 ### Can BKRDY run win-back campaigns automatically?
 
-Yes. Winback fires when a client crosses the lapse threshold for their service, pulls the right segment from your customer tags, and sends the sequence without you touching it.
+No. BKRDY does not send win-back emails or texts. Its Inactive segment shows who has not been in for 90 days or more, and you choose who to reach out to and how.

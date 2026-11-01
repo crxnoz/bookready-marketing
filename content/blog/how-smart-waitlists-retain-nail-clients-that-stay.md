@@ -107,7 +107,7 @@ My honest advice: start with one feature, get it right, and build from there. Na
 
 ## BKRDY makes smart waitlists work for nail techs
 
-BKRDY builds booking websites for nail technicians that include a smart waitlist, automated reminders, and client history management in one connected platform. You get a branded booking page that looks professional, not like a generic scheduling link, and a system that fills your calendar without you managing it manually.
+BKRDY builds booking websites for nail technicians that include a smart waitlist, automated reminders, and client history management in one connected platform. You get a branded booking page that looks professional, not like a generic scheduling link, and, on paid plans, a waitlist that offers freed times to waiting clients by email, without you managing it manually.
 
 BKRDY handles deposit collection through Stripe, sends automatic reminders, and keeps client records accessible across every booking. The setup takes minutes, not weeks. If you want a full schedule and clients who keep coming back, the [BKRDY platform](/platform) is built for exactly that.
 

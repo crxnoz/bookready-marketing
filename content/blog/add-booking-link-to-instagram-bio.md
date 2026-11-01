@@ -76,13 +76,13 @@ You cannot improve what you cannot see, so turn on the numbers. First, make sure
 
 Once you are on a professional account, open Insights and check your bio link taps weekly. That number, the bio link tap rate, is a leading indicator of booking volume: when taps rise, bookings tend to follow a beat later, and when taps stall, it is an early warning before your calendar shows it. Watch it against what you posted that week so you learn which content actually drives people to the link.
 
-Then close the loop on the other side. Instagram counts the taps, but only your booking site knows which taps became appointments. BKRDY [analytics](/platform/tools/analytics/) shows the bookings that landed, so you can compare the two. If taps are high but bookings are low, the gap is on your booking page, and that gap is the single most useful thing to fix. Taps measure your content. Bookings measure your page. You want both.
+Then close the loop on the other side. Instagram counts the taps, and your booking calendar shows the appointments. BKRDY does not track which taps became bookings, so compare the two [numbers](/platform/tools/analytics/) week by week. If taps are high but bookings are low, the gap is on your booking page, and that gap is the single most useful thing to fix. Taps measure your content. Bookings measure your page. You want both.
 
 ## When a Linktree-style page actually makes sense.
 
 To be fair, a link menu is not always wrong. There are real cases where equal-weight links serve you better than a single booking link. If you sell digital products alongside services, like a preset pack or an online course, those may deserve their own top-level slot. If you run a podcast or a YouTube channel that needs the same visibility as booking, a menu balances them. And if you are a multi-stylist salon where each artist has a separate booking link, a menu can route clients to the right calendar.
 
-Even in those cases, though, you rarely need a third-party redirect. A BKRDY homepage with section anchors handles most of it: you can point people to a specific part of your page without sending them through another domain first. For the multi-artist case, per-staff links live inside the same site, so a lash-focused studio can route each artist cleanly. The [lash artists page](/for-lash-artists/) shows that setup. The rule of thumb stays the same. Reach for a menu only when you genuinely have two or more equally important destinations. If booking is the main event, keep it one tap away.
+Even in those cases, though, you rarely need a third-party redirect. A BKRDY homepage with section anchors handles most of it: you can point people to a specific part of your page without sending them through another domain first. For the multi-artist case, clients pick the artist inside the same booking flow, so a lash-focused studio can keep one link. The [lash artists page](/for-lash-artists/) shows that setup. The rule of thumb stays the same. Reach for a menu only when you genuinely have two or more equally important destinations. If booking is the main event, keep it one tap away.
 
 ## Questions
 
@@ -96,7 +96,7 @@ Not yet. Every BKRDY site lives at yourstudio.bkrdy.me today, and it works well 
 
 ### How do I track how many people tap my bio link?
 
-Instagram Insights shows taps under Profile, then Insights, then the bio link row. BKRDY analytics shows the bookings that actually landed. The gap between taps and bookings is the number worth optimizing, since it tells you whether your booking page is doing its job.
+Instagram Insights shows taps under Profile, then Insights, then the bio link row. Your BKRDY calendar shows the bookings that actually landed. The gap between taps and bookings is the number worth optimizing, since it tells you whether your booking page is doing its job.
 
 ### Can I have multiple links in Instagram bio now?
 

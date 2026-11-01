@@ -26,7 +26,7 @@ The reason you run out of ideas is that you are starting from infinity. Anything
 
 Here they are, with the job each one does. One, before-and-after: proof, the single strongest format in beauty. Two, education: authority, the posts that make you the expert. Three, behind-the-scenes: relationship, the human texture that earns loyalty. Four, client features: social proof, other people vouching for you. Five, promos and offers: revenue, the direct ask. Six, FAQs: objection-handling, quietly removing reasons to hesitate.
 
-Rotate these six and your feed stays varied without forcing a shred of creativity. You are not inventing, you are filling slots. The sections below hand you concrete prompts for each category, so the bank is stocked before you ever open the camera. Keep the rotation organized inside the BKRDY [content maker](/platform/tools/marketing/), so you can see at a glance which bucket is due next and never post three promos in a row by accident.
+Rotate these six and your feed stays varied without forcing a shred of creativity. You are not inventing, you are filling slots. The sections below hand you concrete prompts for each category, so the bank is stocked before you ever open the camera. Keep the rotation on a simple list and make the posts in the BKRDY [content maker](/platform/tools/marketing/), so you can see at a glance which bucket is due next and never post three promos in a row by accident.
 
 ## Before-and-after ideas that do the heavy lifting.
 
@@ -66,7 +66,7 @@ A bank of ideas does nothing without a rhythm, so here is one small enough to su
 
 Notice what this plan is not. It is not seven posts a week. It is not a content calendar with forty color-coded cells. It is deliberately, almost stubbornly small, because the plan you keep beats the plan you admire. Three posts done every week for a year will do far more for your books than an ambitious schedule you abandon in three weeks. Consistency is the whole game, and consistency likes small.
 
-Pick fixed posting days and stick to them, so posting becomes a routine rather than a nightly decision. Decisions are what drain you at 9pm. A routine just runs. Schedule the captions ahead inside BKRDY so the week is essentially done before it starts, and Monday morning is a post going live, not a blank box. For the funnel around these posts, revisit the [Instagram marketing guide](/guides/instagram-marketing-for-salons/).
+Pick fixed posting days and stick to them, so posting becomes a routine rather than a nightly decision. Decisions are what drain you at 9pm. A routine just runs. Write the captions ahead of time, in the BKRDY content maker or anywhere you like, so the week is essentially done before it starts, and Monday morning is a post you publish, not a blank box. For the funnel around these posts, revisit the [Instagram marketing guide](/guides/instagram-marketing-for-salons/).
 
 ## Batch one shoot into a whole week of content.
 

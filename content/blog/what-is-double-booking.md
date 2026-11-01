@@ -57,7 +57,7 @@ Short frequent visits suit overlap better than consultative work, and [lash arti
 
 Every booking channel has to write into the same calendar: your booking page, your DMs, the phone, the walk in, and your own life. If one lives somewhere else, a clash is not bad luck, it is a matter of time.
 
-In practice that is three habits. DM bookings get entered the moment you agree to them. Personal commitments go in as blocked time rather than living in your head. And your booking page is where clients are sent by default, so the DM is the exception. BKRDY keeps one calendar for every channel and syncs with Google Calendar both ways, so a dentist appointment in your personal calendar closes that slot on your booking page. Once that is true, you are the only person who can create an overlap.
+In practice that is three habits. DM bookings get entered the moment you agree to them. Personal commitments go in as blocked time rather than living in your head. And your booking page is where clients are sent by default, so the DM is the exception. BKRDY keeps one calendar for every channel and sends your bookings out to Google Calendar, but it does not read busy time back, so block the dentist appointment in BKRDY too. Once that is true, you are the only person who can create an overlap.
 
 ## The first ten minutes after a real clash
 

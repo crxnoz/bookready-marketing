@@ -26,7 +26,7 @@ The details are stored by the payment processor, not by you and not written in a
 
 The part that makes it work is the agreement. At booking they are told the window, the amount, and that their card is saved for that charge, and they agree before they get the slot. That consent, given up front and in plain words, is the entire basis of the arrangement.
 
-BKRDY holds the card at booking through your own Stripe account, with no markup on Stripe's own rate, and the window your page shows is the same number the client's own cancel link enforces, so the policy and the software cannot drift apart.
+On paid plans, BKRDY can save the client's card at booking, with their consent, through your own Stripe account, with no markup on Stripe's own rate, and the window your page shows is the same number the client's own cancel link enforces, so the policy and the software cannot drift apart.
 
 ## A card on file and a deposit solve different problems
 

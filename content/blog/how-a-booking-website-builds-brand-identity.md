@@ -124,7 +124,7 @@ The uncomfortable truth is that a generic booking link is a brand statement. It 
 
 Beauty professionals deserve a booking website that reflects the quality of their work, not a generic scheduling link that could belong to anyone.
 
-BKRDY builds fully designed booking websites for [lash artists](/for-lash-artists), [estheticians](/for-estheticians), nail techs, hairstylists, and [spas](/for-spas), with your colors, your fonts, your photography, and your voice built in from the start. The platform includes built-in scheduling, deposit handling through Stripe, client history management, automatic reminders, and a smart waitlist. No third-party commissions. No generic templates. No lengthy setup. Your booking site should feel like the front door to your studio. BKRDY makes sure it does.
+BKRDY builds fully designed booking websites for [lash artists](/for-lash-artists), [estheticians](/for-estheticians), nail techs, hairstylists, and [spas](/for-spas), with your colors, your photography, and your voice built in from the start. The platform includes built-in scheduling, deposit handling through Stripe, client history management, automatic reminders, and a smart waitlist. No third-party commissions. No generic templates. No lengthy setup. Your booking site should feel like the front door to your studio. BKRDY makes sure it does.
 
 ## FAQ
 

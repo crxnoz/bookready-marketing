@@ -36,7 +36,7 @@ BKRDY is built around one idea: your booking page should be a real website, not 
 
 **What stood out.** The templates are genuinely designed. Pick Petale and you get a romantic, soft layout that suits a color-focused salon, with photography that carries the page instead of a form that fights it. Per-stylist calendars work cleanly, each stylist gets their own login and Stripe payout on the team plans, and deposits are enforced in the booking flow rather than on a sign at the desk. Browse the full set on the [templates page](/templates/) to see the range.
 
-**What is missing.** No full POS hardware (Stripe tap-to-pay only), and no marketplace, so brand-new salons with no client list will not get discovery traffic on day one.
+**What is missing.** No card reader or POS, and no marketplace, so brand-new salons with no client list will not get discovery traffic on day one.
 
 **Verdict.** The strongest pick for any salon that competes on how it looks and feels. The fee math alone usually covers the subscription. Check the [pricing page](/pricing/) to see where your shop lands.
 
@@ -104,7 +104,7 @@ Booksy runs one of the largest beauty marketplaces, with especially strong adopt
 
 |  | Monthly | Transaction fee | Designed templates | Marketplace | POS | Best for |
 |---|---|---|---|---|---|---|
-| **BKRDY** | $0-$55 | **0%** | **Yes (15 named)** | No | Stripe tap-to-pay | Design-led salons |
+| **BKRDY** | $0-$55 | **0%** | **Yes (15 named)** | No | None | Design-led salons |
 | GlossGenius | $24-$48 | 2.6% | Generic | No | **Full** | Solo POS + tipping |
 | Fresha | $0 | Per-transaction | Thin | Yes | Yes | High-volume, free |
 | Vagaro | $30+/user | Markup | Dated | No | **Full** | Retail-heavy spas |

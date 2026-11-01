@@ -34,7 +34,7 @@ Be specific about what you do not need yet and are almost certainly paying for. 
 
 Then there is the deeper stuff that pads the higher tiers: advanced inventory, class and membership engines, gift-card and loyalty systems built for volume. Team-grade platforms like Mindbody and Vagaro price these in even on their lower plans, which is how a "starter" tier still lands at forty or fifty dollars a month. You are subsidizing a feature set built for studios with a dozen staff.
 
-The BKRDY angle is blunt: a solo plan should cost like a solo business. Around fifteen dollars a month, not fifty-plus. You are not a small enterprise that happens to have one employee. You are a craftsperson with a calendar, and the price should reflect that. Before you commit to any app, read its [pricing](/pricing/) honestly and ask which line items exist for a team you do not have. If half the plan is for other people, you are on the wrong plan.
+The BKRDY angle is blunt: a solo plan should cost like a solo business. Under twenty-five dollars a month, not fifty-plus. You are not a small enterprise that happens to have one employee. You are a craftsperson with a calendar, and the price should reflect that. Before you commit to any app, read its [pricing](/pricing/) honestly and ask which line items exist for a team you do not have. If half the plan is for other people, you are on the wrong plan.
 
 ## The honest shortlist of apps for solo pros.
 
@@ -72,9 +72,9 @@ Marketplace apps add a different line. During a growth month when you lean on th
 
 When you are solo, a no-show is not a gap someone else can fill. There is no second chair, no colleague who takes the walk-in. The empty hour is your hour, and the lost money is your money. That is why the two most important settings in any solo booking app are the deposit and the reminder. Get those right and you protect the calendar that pays you.
 
-For deposits, a simple rule works: a flat deposit on services under $50, and 20 to 30 percent on anything above that. Enough that a client thinks twice before ghosting, not so much that it scares off a first-timer. Set it per service so a quick fill and a three-hour session are treated differently. For reminders, use a short sequence: an immediate confirmation when they book, a nudge about 48 hours out, and a day-of message. Text and email both work, and the point is that it runs on its own.
+For deposits, a simple rule works: a flat deposit on services under $50, and 20 to 30 percent on anything above that. Enough that a client thinks twice before ghosting, not so much that it scares off a first-timer. A percentage is the simple way to treat a quick fill and a three-hour session differently. For reminders, use a short sequence: an immediate confirmation when they book, a nudge about 48 hours out, and a day-of message. Text and email both work, and the point is that it runs on its own.
 
-The good news is you do not have to invent any of this. BKRDY's [reminder tools](/platform/tools/notifications/) ship with sensible defaults you can copy and adjust, so the sequence is on from day one instead of a thing you mean to set up later. And if you want the full playbook on cutting no-shows, deposits, cancellation windows, and the policies that actually hold, the guide on [reducing no-shows](/guides/reducing-no-shows/) walks through it step by step. For a solo pro, these two settings are not optional polish. They are the difference between a protected calendar and a leaky one.
+The good news is you do not have to invent any of this. BKRDY sends the [confirmation and a reminder](/platform/tools/notifications/), with the reminder set to 24 hours before by default, so they are on from day one instead of a thing you mean to set up later. And if you want the full playbook on cutting no-shows, deposits, cancellation windows, and the policies that actually hold, the guide on [reducing no-shows](/guides/reducing-no-shows/) walks through it step by step. For a solo pro, these two settings are not optional polish. They are the difference between a protected calendar and a leaky one.
 
 ## Why owning your client list matters more when you are solo.
 
@@ -108,7 +108,7 @@ For the first few months when you are cold and nobody knows your name, the marke
 
 ### Can a solo booking app take deposits?
 
-Good ones can. BKRDY charges a per-service deposit through Stripe at the moment of booking, which matters most when you are solo and feel every no-show directly. A held card turns a casual booking into a real commitment.
+Good ones can. BKRDY charges a deposit through Stripe at the moment of booking, a flat amount or a percent, which matters most when you are solo and feel every no-show directly. Money paid up front turns a casual booking into a real commitment.
 
 ### How much does a solo booking app cost?
 

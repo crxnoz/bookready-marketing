@@ -4,7 +4,7 @@ section: guides
 slug: appointment-reminder-templates
 title: Salon appointment reminder templates that cut no-shows. Copy, paste, send.
 metaTitle: Salon Appointment Reminder Templates | BKRDY
-description: Copy-and-paste salon appointment reminder templates for SMS and email that cut no-shows. A 3-touch cadence, real wording, and how to automate it.
+description: Copy-and-paste salon appointment reminder templates for SMS and email that cut no-shows. A 3-touch cadence, real wording, and what to automate.
 date: 2026-06-15
 pillar: coming-back
 keywords: appointment reminder templates, appointment reminder text message, appointment reminder text template
@@ -18,13 +18,13 @@ A good reminder is the cheapest no-show insurance you have. It costs a text mess
 
 This guide gives you the whole toolkit: a three-touch reminder sequence, copy-and-paste SMS and email templates for every kind of client, and the tone rules that actually get a reply. The templates work on any platform you are using today.
 
-At the end, we show how to set the whole sequence once in BKRDY so it fires automatically on every booking and you never copy-paste again.
+At the end, we show what BKRDY sends on its own and what stays with you.
 
 ## Reminders are your cheapest no-show insurance.
 
 The numbers are clear. A single reminder helps a little. A two-touch sequence cuts no-shows by roughly 20 percent. A three-touch sequence that asks the client to confirm cuts them 40 to 60 percent. The act of typing back yes creates a small commitment that makes the appointment real.
 
-Reminders are not nagging. They are respect for both calendars, yours and your client's. A warm, well-timed message tells a client you are expecting them and makes it easy to speak up if plans changed. You can wire the whole sequence into your booking flow through your [notifications settings](/platform/tools/notifications/) so it runs without you.
+Reminders are not nagging. They are respect for both calendars, yours and your client's. A warm, well-timed message tells a client you are expecting them and makes it easy to speak up if plans changed. In BKRDY, the confirmation and one reminder run from your [notification settings](/platform/tools/notifications/) without you.
 
 Put a number on it. If your average service is $80 and you lose four chairs a week to no-shows, that is $320 a week, more than $16,000 a year walking out the door. A reminder sequence that recovers even half of those slots pays for your entire software stack many times over.
 
@@ -72,7 +72,7 @@ A template only works if it sounds like you and asks for one easy thing. A few r
 
 **Make it one tap.** Reply Y to confirm beats a paragraph of instructions. Every extra step loses a few replies.
 
-**Ask for the confirmation.** Some owners worry that asking clients to reply is annoying. It is not. A one-tap yes is far less annoying than a surprise no-show fee, and it is the single biggest lever in the whole sequence. See how the reply tracking works under [client reminders](/platform/tools/notifications/).
+**Ask for the confirmation.** Some owners worry that asking clients to reply is annoying. It is not. A one-tap yes is far less annoying than a surprise no-show fee, and it is the single biggest lever in the whole sequence. Replies need a person on the other end, so send this one from your own phone: BKRDY's [client reminders](/platform/tools/notifications/) do not track replies.
 
 ## When a client needs a different message.
 
@@ -88,15 +88,15 @@ The three-touch sequence covers most people. A few situations call for a tweak.
 
 **Bridal and group bookings.** Higher stakes and a longer lead time. Confirm at booking, again a week out, and again the day before, and tie it to a larger deposit.
 
-## How to send these automatically in BKRDY.
+## What BKRDY sends for you.
 
-Copy-pasting templates by hand works until you get busy, which is exactly when no-shows hurt most. The fix is to set the sequence once and let it run.
+Copy-pasting templates by hand works until you get busy, which is exactly when no-shows hurt most. The fix is to let software send what it can, and keep the rest short.
 
-In BKRDY you build the three-touch sequence in your [notification settings](/platform/tools/notifications/): a confirmation at booking, a 48-hour reminder with a reply request, and a day-of text. Merge fields fill in the name, stylist, service, date, and time automatically, so every message reads personal without any manual work. It fires on every booking, for every client, forever.
+In BKRDY that is two messages, set in your [notification settings](/platform/tools/notifications/): a confirmation by email at booking, and one reminder at the time you choose, from 1 hour to 30 days before, by email and on paid plans by text for clients who tick the box. The name, service, date and time fill in on their own, and you can edit the email's subject, intro and sign-off. It fires on every booking, for every client.
 
-Pair it with a deposit at booking through [payments](/platform/tools/payments/) and the no-show problem mostly takes care of itself: the deposit gives the client skin in the game, and the reminder sequence gives them every chance to show up or speak up.
+Pair it with a deposit at booking through [payments](/platform/tools/payments/) and the no-show problem mostly takes care of itself: the deposit gives the client skin in the game, and the reminder gives them every chance to show up or speak up.
 
-Two small settings matter once it is running. Send the day-of text in the morning, not the night before, so it lands while the client is planning their day. And turn on reply tracking, so a client who answers to reschedule is flagged for you instead of slipping through. Set it once and the sequence quietly does the work that used to live on a sticky note.
+Two small habits matter once it is running. If you add a day-of text, send it from your own phone in the morning, not the night before, so it lands while the client is planning their day. And keep the reply-requested version for the appointments you most need to confirm, because BKRDY does not track replies. Every reminder email carries a link to change the booking, so a client who needs to reschedule can do it themselves.
 
 ## Questions
 
@@ -118,8 +118,8 @@ Yes. A two-touch sequence cuts no-shows by roughly 20 percent, and a three-touch
 
 ### Can I personalize reminders for each client?
 
-Yes. Merge fields fill in the name, stylist, service, and time automatically, so every message reads personal without any manual work on your end.
+Yes. Most booking software fills in the name, service and time automatically, BKRDY included, so every message reads personal without any manual work on your end.
 
 ### How do I automate these instead of copy-pasting?
 
-Set the three-touch sequence once in your BKRDY notification settings and it fires on every booking with the details filled in for you.
+In BKRDY, turn on the reminder in your notification settings and choose when it goes out, and the confirmation and reminder send on every booking with the details filled in for you. A third touch, like a day-of text, comes from your own phone.

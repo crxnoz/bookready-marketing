@@ -64,7 +64,7 @@ The features that matter most for refill scheduling are:
 - **Waitlist and slot matching.** Cancellations are inevitable. A waitlist feature fills those slots automatically instead of leaving chair time empty.
 - **Deposit processing.** Requiring a deposit at booking reduces no-shows. Automated deposits and reminders protect recurring revenue without requiring manual follow-up.
 
-BKRDY is built specifically for independent beauty studios and handles all of these functions in one place. The platform centralizes your calendar, client history, automated reminders, and deposit flows through Stripe, so your [lash artist booking workflow](/for-lash-artists) runs without you chasing clients down manually.
+BKRDY is built specifically for independent beauty studios and handles most of these in one place. The platform centralizes your calendar, client history, appointment reminders, and deposit flows through Stripe for your [lash artist booking workflow](/for-lash-artists). It does not send reminders on a refill timer, so that one stays with you or a separate tool.
 
 ## What best practices make refill scheduling work at scale?
 
@@ -114,7 +114,7 @@ Investing in a purpose-built booking platform like BKRDY is not a luxury for stu
 
 Lash refill scheduling only works consistently when the right tools are behind it. BKRDY is built for independent lash artists who want a booking experience that reflects their brand and handles the operational side without extra effort.
 
-With BKRDY, your lash booking website includes automated refill reminders timed to your preferred window, client history tracking, deposit processing through Stripe, and a waitlist that fills cancellations automatically. Your service menu can display eligibility rules clearly so clients arrive knowing exactly what to expect. Setup takes hours, not weeks, and the result is a calendar that manages itself. See how BKRDY’s [full feature set](/platform/) supports your refill scheduling workflow from day one.
+With BKRDY, your lash booking website includes appointment reminders, client history tracking, deposit processing through Stripe, and on paid plans a waitlist that offers freed times to clients waiting. It does not send refill reminders on its own, so book the next fill before the client leaves, and follow up by hand with anyone who leaves open. Your service menu can display eligibility rules clearly so clients arrive knowing exactly what to expect. Setup takes hours, not weeks. See how BKRDY’s [full feature set](/platform/) supports your refill scheduling workflow from day one.
 
 ## FAQ
 

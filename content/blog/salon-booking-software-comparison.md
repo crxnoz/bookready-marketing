@@ -66,7 +66,7 @@ Skip the feature checklist. For a salon, five things decide whether software hel
 
 |  | Monthly | Transaction fee | Designed site | Marketplace | POS | Best for |
 |---|---|---|---|---|---|---|
-| **BKRDY** | $0-$55 | **0%** | **Yes (15 named)** | No | Stripe | Brand-first salons |
+| **BKRDY** | $0-$55 | **0%** | **Yes (15 named)** | No | None | Brand-first salons |
 | Fresha | $0 | New-client fee | Template-thin | Yes | Yes | High-volume, free |
 | Vagaro | $30+ | Markup | Dated | Yes | **Full** | Retail-heavy spas |
 | GlossGenius | $24-$48 | 2.6% | Generic | No | **Full** | Solo POS |
@@ -115,7 +115,7 @@ The fear of switching keeps a lot of owners on software they have outgrown. In p
 
 A clean move looks like this: start a trial without touching your current setup, export your client list, hand it over for import, build the new site, connect your payment processor, then swap your Instagram bio link once the new site is ready. Keep the old platform running in parallel until bookings have moved, then cancel it on your own timing.
 
-BKRDY runs the heaviest lifts (client import, services, hours, staff) for free, usually the same day. The full playbook lives on the [migration page](/migration/). The honest point is this: the cost of staying on the wrong platform compounds every month, while the cost of switching is a single quiet afternoon.
+BKRDY runs the heaviest lifts (clients, services, upcoming appointments) for free, usually the same day. The full playbook lives on the [migration page](/migration/). The honest point is this: the cost of staying on the wrong platform compounds every month, while the cost of switching is a single quiet afternoon.
 
 ## Questions
 
@@ -141,4 +141,4 @@ Most platforms export a client CSV. BKRDY runs the import for free during migrat
 
 ### Which is best for a multi-stylist salon?
 
-BKRDY Salon at $99 a month for a designed multi-staff site, or Vagaro if you have serious retail. Both handle per-staff calendars and payouts.
+BKRDY Studio+ or a quoted Salon plan for a designed multi-staff site, or Vagaro if you have serious retail. Both handle per-staff calendars.

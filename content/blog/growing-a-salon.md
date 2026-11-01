@@ -16,7 +16,7 @@ migrated: true
 
 Most salon growth advice online is either marketing fluff ("post on TikTok every day!") or corporate strategy written for a chain of forty locations. Neither one fits the business you actually run: one to five chairs, tight margins, and a schedule that lives or dies on whether people show up. So here is the honest version. Real salon growth is boring. It is better systems, better hiring, better pricing, and better retention. That is the whole game.
 
-The fancy stuff (a beautiful brand, a marketing engine, a second location) only works when it sits on top of those four foundations. Build the foundations first and everything else compounds. Skip them and you are building on sand: you can pour marketing money in the top and watch most of it leak out the bottom. This is the pattern we see over and over with the salons that use [BKRDY](/for-salons/), and it is the pattern behind almost every salon that quietly grows without drama.
+The fancy stuff (a beautiful brand, a marketing engine, a second location) only works when it sits on top of those four foundations. Build the foundations first and everything else compounds. Skip them and you are building on sand: you can pour marketing money in the top and watch most of it leak out the bottom. This is the pattern behind almost every salon that quietly grows without drama, and it is what [BKRDY](/for-salons/) is built around.
 
 This guide goes in order on purpose. Systems, then pricing, then retention, then hiring, then brand, then expansion, then marketing. Read it top to bottom, and do not skip ahead to the exciting parts. The exciting parts do not work until the boring parts are running.
 
@@ -26,7 +26,7 @@ Here is a claim we will stand behind. A salon owner with a 95% confirmed booking
 
 Think of it as a bucket. Marketing is the water you pour in. Your systems are the bucket. If the bucket is full of holes (no-shows, clients who never rebook, calendar chaos, pricing that leaves money on the table), pouring in more water just means more waste. You feel busy, you feel broke, and you cannot figure out why the harder you work the less you keep. The fix is almost never more water. It is patching the bucket.
 
-There are four foundations that make up the bucket, and the rest of this guide is built around them. First, a real booking system that protects your calendar. Second, deposits and a no-show policy that make missed appointments rare. Third, a retention flow that turns first-timers into regulars. Fourth, pricing that reflects what your work is actually worth. Get those four running and your [platform](/platform/) does the compounding for you, quietly, every single week.
+There are four foundations that make up the bucket, and the rest of this guide is built around them. First, a real booking system that protects your calendar. Second, deposits and a no-show policy that make missed appointments rare. Third, a retention flow that turns first-timers into regulars. Fourth, pricing that reflects what your work is actually worth. Get those four running on a [platform](/platform/) you trust and the compounding starts, quietly, every single week.
 
 ## Build a booking system that respects your time.
 
@@ -50,7 +50,7 @@ Here is the hard truth almost nobody wants to sit with. Acquiring a new salon cl
 
 Fix the leak first. There are three retention levers, and none of them cost much. The first is rebooking at checkout. Before a client leaves the chair, they book their next visit. This is the single highest-return habit in the entire salon industry, and most salons simply forget to ask. The second is an automated re-engagement message at the four-week mark for anyone who did not rebook, a gentle nudge while you are still fresh in their mind. The third is a personal text from the stylist at eight weeks if the client still has not returned. Personal beats automated at the point where a relationship is genuinely at risk.
 
-The automated pieces of this run themselves once set up. A [win-back flow](/platform/tools/customers/) catches lapsing clients before they drift to the salon down the street, and it does it without you remembering to do anything. Do the math on your own numbers: if you keep even 10 more clients a year who each spend $600 annually, that is $6,000 in revenue you kept for the cost of a few automated messages. Retention is not the exciting part of growth. It is the profitable part.
+Make the follow-up a monthly habit. BKRDY does not send win-back messages, but its [Inactive segment](/platform/tools/customers/) shows who has not been in for 90 days or more, so you can reach out before they drift to the salon down the street. Do the math on your own numbers: if you keep even 10 more clients a year who each spend $600 annually, that is $6,000 in revenue you kept for the cost of a few messages. Retention is not the exciting part of growth. It is the profitable part.
 
 ## When to hire your first stylist (and how to structure it).
 
@@ -82,7 +82,7 @@ Marketing comes last for a reason: it only pays off once the bucket holds water.
 
 Now the honest part, the channels that do not work for most small salons. Facebook ads carry a high cost per acquisition for service businesses and rarely pay back at salon margins. Influencer "collabs" usually cost more in free services than they ever bring back in paying clients. Yelp ads are expensive and easy to overspend on with little to show for it. None of these are scams exactly, they just have bad math for a one-to-five-chair salon, and your money works harder elsewhere.
 
-The best marketing you own is the client relationship you already have. Automated [email campaigns](/platform/tools/marketing/) to your existing list convert far better than cold ads, because you are talking to people who already trust you. And your [reviews](/platform/tools/reviews/) are quietly your most persuasive salesperson, working around the clock on your booking page and your Google profile. Make asking for a review a habit at checkout, right alongside the rebook. When you are ready to weigh what a real system costs against what leaky marketing wastes, the [pricing page](/pricing/) lays it out plainly.
+The best marketing you own is the client relationship you already have. Email to your existing list tends to beat cold ads, because you are talking to people who already trust you. BKRDY does not send campaigns, so that means your own email tool, and on paid plans its [Content studio](/platform/tools/marketing/) makes posts you share yourself. And your [reviews](/platform/tools/reviews/) are quietly your most persuasive salesperson, working around the clock on your booking page. Make asking for a review a habit at checkout, right alongside the rebook. When you are ready to weigh what a real system costs against what leaky marketing wastes, the [pricing page](/pricing/) lays it out plainly.
 
 ## Questions
 

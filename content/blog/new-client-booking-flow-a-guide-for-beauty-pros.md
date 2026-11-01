@@ -112,7 +112,7 @@ The balance between technology and personal touch is not actually that hard to f
 
 Beauty professionals who want a booking flow that actually reflects their brand have a real option in BKRDY. The platform builds complete booking websites for [spas](/for-spas), [estheticians](/for-estheticians), lash artists, nail techs, and hair salons, with intake, deposit collection through Stripe, and automatic reminders built in from the start.
 
-BKRDY replaces the generic booking link with a branded site that handles the full client appointment flow, from first visit to confirmed appointment, without requiring design skills or a lengthy setup. The platform includes a smart waitlist, client history management, and the kind of automatic reminders that bring no-show rates down to single digits. If you are ready to see what a purpose-built booking site looks like for your studio, BKRDY is worth a close look.
+BKRDY replaces the generic booking link with a branded site that handles the full client appointment flow, from first visit to confirmed appointment, without requiring design skills or a lengthy setup. The platform includes a smart waitlist, client history management, and automatic reminders that help bring no-show rates down. If you are ready to see what a purpose-built booking site looks like for your studio, BKRDY is worth a close look.
 
 ## FAQ
 

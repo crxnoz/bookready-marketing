@@ -54,7 +54,7 @@ Full color correction is its own animal. These are $400-plus services running fo
 
 Lash full sets, usually $150 to $300, carry high cancellation risk because of who books them. Many full-set clients are first-timers: anxious about the result, unsure about the process, and actively shopping around before they commit. That is exactly the profile that ghosts. A 30 percent deposit converts a maybe into a real booking and filters out the tire-kickers who were never going to show.
 
-Fills are different. A fill at $75 to $150 is usually a returning regular on a known rhythm, so the risk is far lower. Charge 20 percent, or drop the deposit entirely for clients you have tagged as trusted after a few clean visits. Reserving the lighter touch for proven regulars rewards loyalty without exposing you on the riskier first appointment.
+Fills are different. A fill at $75 to $150 is usually a returning regular on a known rhythm, so the risk is far lower. Charge 20 percent, or drop the deposit entirely for proven regulars after a few clean visits. In BKRDY, where the deposit is one rule for the menu, that means booking them in yourself from your calendar. Reserving the lighter touch for proven regulars rewards loyalty without exposing you on the riskier first appointment.
 
 Lash has one quirk worth naming: the "lash bomb." Clients sometimes book the same slot with several artists at once, then pick whoever fits best and silently drop the rest. Deposits are the cure. A client will not pay three 30 percent deposits to hedge, so the deposit forces the choice up front and the no-shows evaporate. For more on lash-specific booking flow and client management, see our [page for lash artists](/for-lash-artists/).
 
@@ -88,13 +88,13 @@ You do not have to guess. A deposit amount is a number you can test like any oth
 
 Those three numbers tell you everything. If conversion dropped hard, your deposit is too high and you are scaring off real bookings at the door. If your no-show rate barely moved, the deposit is too low to function as a commitment device and you should raise it. If forfeits are climbing past 3 percent, something else is wrong, usually unclear policy communication rather than the amount itself.
 
-The point is to let the data correct you rather than defending a number you picked on instinct. Run the test, read the three signals, and adjust once. You can watch all of this in your [BKRDY analytics](/platform/tools/analytics/), where booking, no-show, and deposit data sit in one place so the next adjustment is informed instead of a hunch.
+The point is to let the data correct you rather than defending a number you picked on instinct. Run the test, read the three signals, and adjust once. Your BKRDY calendar and [payments overview](/platform/tools/analytics/) hold the bookings and deposits, and a simple tally of no-shows covers the rest, so the next adjustment is informed instead of a hunch.
 
 ## Pick the smallest number that changes behavior.
 
 Across every category the logic is the same: flat for cheap and fast, percentage for everything above $50, and 50 percent for the long, high-stakes bookings where a no-show genuinely hurts. Start with the cheat sheet, adjust per service using the deep dives, then run the 30-day test and let the data settle the final number. A deposit is not a wall you put up to keep clients out. It is the smallest signal of intent that protects your calendar without costing you the booking.
 
-Whichever amounts you land on, the setup should take an afternoon, not a project. Compare what fits your volume on the [pricing page](/pricing/), then turn deposits on per service and let them run.
+Whichever amounts you land on, the setup should take an afternoon, not a project. Compare what fits your volume on the [pricing page](/pricing/), then set your deposit and let it run. BKRDY uses one rule for your whole menu, a flat amount or a percent, so pick the percent that suits most of your book.
 
 ## Questions
 
@@ -112,7 +112,7 @@ Most charge 20 to 30 percent across standard services. Bridal and full color cor
 
 ### Can deposits be applied to product purchases?
 
-Yes. In BKRDY the deposit is credited toward the final service total, including any add-on retail rung up at checkout. The client never pays twice, and the deposit simply reduces what is owed at the end of the appointment.
+Yes. In BKRDY the deposit is credited toward the appointment total, including any add-ons. The client never pays twice, and the deposit simply reduces what is owed at the end of the appointment.
 
 ### What if the service price changes after booking?
 
@@ -120,7 +120,7 @@ The deposit applies as-is to the new total. If the final service costs less, ref
 
 ### Should I take a deposit on returning clients?
 
-Usually no, once they have three or more visits and zero no-shows. Tag them as Trusted in BKRDY to skip the deposit prompt automatically. Reserving deposits for new and unproven clients keeps your best regulars from feeling policed.
+Usually no, once they have three or more visits and zero no-shows. BKRDY's deposit is one rule for everyone who books online and a tag does not change it, so book those regulars in yourself from your calendar, where no deposit is asked. Reserving deposits for new and unproven clients keeps your best regulars from feeling policed.
 
 ### How much for a group booking like a wedding party?
 

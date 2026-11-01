@@ -18,7 +18,7 @@ You already know reviews matter. The problem is not motivation, it is the wordin
 
 The fix is small and boring. Have the exact words ready to paste. That is the whole guide. Below you get a working toolkit: four short text messages for the post-visit window, two warmer emails with subject lines, and a spoken script for the chair and the front desk. Every one uses [BRACKETED] fields so you swap in the client and the service and it still reads like you wrote it.
 
-You also get the parts most template lists skip: the timing that makes or breaks the ask, a follow-up cadence that nudges once and then stops, and the rule about who never gets a request. These work on any platform you use today. At the end, we show how [BKRDY's reviews feature](/platform/tools/reviews/) fires a verified, owner-moderated request automatically after each visit so you can stop copy-pasting. If you run your own book, start with the [nail tech setup](/for-nail-techs/).
+You also get the parts most template lists skip: the timing that makes or breaks the ask, a follow-up cadence that nudges once and then stops, and the rule about who never gets a request. These work on any platform you use today. At the end, we show how [BKRDY's reviews feature](/platform/tools/reviews/) emails a verified request on its own after a visit so you can stop copy-pasting. If you run your own book, start with the [nail tech setup](/for-nail-techs/).
 
 ## Five rules every review request follows.
 
@@ -46,7 +46,7 @@ Text is where most reviews come from. It gets opened in minutes and it fits the 
 
 **4. The one gentle follow-up.** Hey [Client first name], no pressure at all, just floating this back up in case it got buried: [Review link]. Thanks either way, see you next time.
 
-Send these from your own phone for now. SMS sending inside BKRDY is coming soon; automated email requests already run today, and you can see how the messaging side fits together on the [notifications page](/platform/tools/notifications/).
+Send these from your own phone. BKRDY's review requests go by email, not text, and you can see how the messaging side fits together on the [notifications page](/platform/tools/notifications/).
 
 ## Email templates for a warmer, longer ask.
 
@@ -56,7 +56,7 @@ Email gives you room to be gracious. It suits clients who do not text, and it is
 
 **2. Monthly ask to happy regulars.** Subject: A small favor, [Client first name]. Body: Hi [Client first name], you have been in a few times now and I wanted to say thank you properly. If you have a minute this week, a review would mean a lot. I am a small studio, so a handful of recent reviews genuinely changes who walks through the door. Here is the link: [Review link]. No pressure, and see you at your next appointment. [Stylist/Tech name].
 
-You do not have to send these by hand forever. Review requests by email can run automatically on every completed appointment, and the same list powers your other campaigns through [email marketing](/platform/tools/marketing/) and [the reviews tool](/platform/tools/reviews/).
+You do not have to send these by hand forever. On paid plans, review requests by email can run on their own through [the reviews tool](/platform/tools/reviews/).
 
 ## The in-person script (say this at checkout).
 
@@ -120,11 +120,11 @@ The gap between a 2 percent and a 15 percent response rate is often nothing more
 
 Templates solve the wording problem. They do not solve the busy-week problem. You will use them religiously for two weeks, then have a Saturday with nine clients back to back, and the asks quietly stop. That is not a discipline failure, it is what happens to every manual step in a business run by one person with their hands full.
 
-So take yourself out of the loop. In BKRDY, marking an appointment complete triggers a review request automatically, with the client's name and the exact service already merged in and the send timed to the post-visit window. You set it up once and every happy client gets asked, on the Saturday with nine clients as reliably as on the quiet Tuesday.
+So take yourself out of the loop. On BKRDY's paid plans, a review request goes out by email once the appointment is over, after the delay you choose, with the client's name and the exact service already filled in. You set it up once and clients get asked, on the Saturday with nine clients as reliably as on the quiet Tuesday, at most once every 90 days so a weekly regular is not asked every week.
 
-Two things make it different from a generic review blast. It is **verified**, so requests only go to real completed bookings and the reviews you collect are tied to actual appointments. And it is **owner-moderated**, so you decide what publishes to your site. Email requests run today and SMS is coming soon.
+Two things make it different from a generic review blast. It is **verified**, so requests only go to real bookings and the reviews you collect are tied to actual appointments. And it **sorts by rating**: four and five stars publish to your site straight away, while one to three stars stay private and come to you. Requests go by email.
 
-For a growing studio this sits on the Studio plan alongside per-chair calendars and staff logins. Read the details on [automated review requests](/platform/tools/reviews/) and [the reviews tool](/platform/tools/reviews/), or check what it costs on [pricing](/pricing/).
+This sits on every paid plan: Solo, Studio and Studio+. Read the details on [automated review requests](/platform/tools/reviews/) and [the reviews tool](/platform/tools/reviews/), or check what it costs on [pricing](/pricing/).
 
 ## Questions
 
@@ -146,15 +146,15 @@ Same day, ideally within one to two hours of the appointment ending, while the c
 
 ### How do I personalize a review request at scale?
 
-Use merge fields for the client first name, the stylist or tech, and the specific service. BKRDY fills those in automatically when it sends the request, so a templated message still reads one to one without you typing anything.
+Use merge fields for the client first name, the stylist or tech, and the specific service. BKRDY's own request fills in the client's first name and the service, so it still reads one to one without you typing anything.
 
 ### Can BKRDY send review requests for me automatically?
 
-Yes. When you mark an appointment complete, BKRDY sends a verified, owner-moderated review request by email with the client name and service already filled in. You set the timing once and every happy client gets asked. SMS requests are coming soon.
+Yes, on Solo, Studio and Studio+. After an appointment is over, BKRDY emails a verified review request with the client name and service already filled in, at the delay you choose. It asks each client at most once every 90 days.
 
 ### Can I text clients for reviews from BKRDY?
 
-SMS review requests inside BKRDY are coming soon. For now, send the text templates from your own phone in the post-visit window and let the automated email requests run in the background. The wording in this guide works for both.
+No. BKRDY sends review requests by email only. To ask by text, send the templates from your own phone in the post-visit window and let the automated email requests run in the background. The wording in this guide works for both.
 
 ### Should I ask every client for a review?
 

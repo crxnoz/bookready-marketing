@@ -62,7 +62,7 @@ If this sounds tedious, it is, and you do not have to do it alone. When you migr
 
 Once your file is clean, there are two paths, and they are not mutually exclusive.
 
-**Path A: import into a new platform.** If you are moving to BKRDY, you do not need to format anything special. Send us the CSV during migration and we run the import the same day, free, bringing over names, emails, phones, and notes. Most setups are live within hours, and we flag anything that looks off so you can confirm it. The full process is laid out on the [migration page](/migration/), and you can see plan options on the [pricing page](/pricing/) if you are still deciding.
+**Path A: import into a new platform.** If you are moving to BKRDY, you do not need to format anything special. Send us the CSV during migration and we run the import the same day, free, bringing over names, emails and phones, and we flag anything that looks off so you can confirm it. The full process is laid out on the [migration page](/migration/), and you can see plan options on the [pricing page](/pricing/) if you are still deciding.
 
 **Path B: keep it as a backup.** If you are staying on Acuity for now, still hold onto the file properly. Save it to two places, a cloud drive plus a local copy, so a single lost laptop does not erase it. Tag the file name with the export date so you always know how fresh it is. Then set a calendar reminder to re-export every 90 days. A backup you took once and forgot is barely a backup at all.
 
@@ -76,7 +76,7 @@ The simplest safeguard for all of this is a screenshot. Anything you want to rem
 
 ## Ready to migrate? Here is what happens next.
 
-If the export was the first step toward switching, the rest is lighter than you might expect. Start a BKRDY trial, send us your cleaned CSV, and we handle the import. Most migrations finish within a day, with services, hours, staff, and clients all brought across so you are not rebuilding from scratch.
+If the export was the first step toward switching, the rest is lighter than you might expect. Start a BKRDY trial, send us your cleaned CSV, and we handle the import. Most migrations finish the same day, with services, clients and upcoming appointments brought across so you are not rebuilding from scratch.
 
 You can build your site and review the imported data on the Free plan, which has no card and no expiry, before committing to anything. A paid plan starts with 7 days free, with a card on file. Solo pros in particular tend to be live the same day. If you want the full picture first, read the [migration guide](/migration/), check plans on the [pricing page](/pricing/), or see how the two platforms stack up on our [Acuity alternative comparison](/compare/acuity-alternative/). Built for one-person businesses? The [solo pros page](/for-solo-pros/) shows what a designed site looks like for a team of one.
 

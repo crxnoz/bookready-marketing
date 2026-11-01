@@ -60,7 +60,7 @@ The most concrete advantage is that BKRDY combines a studio-grade website and bo
 
 ### Real World Use Case
 
-A solo lash artist switches from a marketplace booking link to BKRDY, imports client data during the free migration, sets deposit rules for high-value treatments, and publishes a gallery-driven site. The artist then uses client history and reminders to tailor follow-ups and reduce last-minute cancellations.
+A solo lash artist switches from a marketplace booking link to BKRDY, imports client data during the free migration, sets a deposit rule that scales with the price, and publishes a gallery-driven site. The artist then uses client history and reminders to tailor follow-ups and reduce last-minute cancellations.
 
 ### Pricing
 

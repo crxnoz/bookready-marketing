@@ -96,4 +96,4 @@ Yes. Full sets are long appointments, often two hours or more, so a no-show is e
 
 ### What is the easiest way to take lash bookings and deposits?
 
-A designed booking page where each service carries its own price and deposit, charged through Stripe. BKRDY sets this up in about 20 minutes, so clients see the deposit before they confirm and your calendar stays protected.
+A designed booking page where each service shows its price and deposit, charged through Stripe. BKRDY shows clients the deposit before they confirm, so your calendar stays protected.

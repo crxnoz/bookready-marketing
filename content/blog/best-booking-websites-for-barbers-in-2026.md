@@ -100,7 +100,7 @@ Setmore is the budget pick. Their free tier handles basic online booking for one
 
 |  | Monthly | Transaction fee | Designed templates | Marketplace | POS | Best for |
 |---|---|---|---|---|---|---|
-| **BKRDY** | $0-$55 | **0%** | **Yes (15 named)** | No | Stripe-only | Brand-first shops |
+| **BKRDY** | $0-$55 | **0%** | **Yes (15 named)** | No | None | Brand-first shops |
 | Squire | $200+ | varies | No (Squire-branded) | No | **Full** | High-volume tech shops |
 | TheCut | $30 | 1.5% | No (TheCut-branded) | Yes | No | Urban marketplace |
 | Booksy | $29.99 | 1.65% | No (Booksy-branded) | Yes | No | Marketplace + loyalty |

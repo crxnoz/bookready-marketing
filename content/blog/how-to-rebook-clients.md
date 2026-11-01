@@ -4,7 +4,7 @@ section: guides
 slug: how-to-rebook-clients
 title: How to rebook clients before they leave the chair. The next appointment is easiest to book when they are still in front of you.
 metaTitle: How to Rebook Clients: Scripts and Intervals | BKRDY
-description: The highest-leverage move in beauty is booking the next appointment before the client leaves. Scripts, per-service rebook intervals, and how to automate it.
+description: The highest-leverage move in beauty is booking the next appointment before the client leaves. Scripts, per-service rebook intervals, and how to follow up.
 date: 2026-07-23
 pillar: coming-back
 keywords: rebook clients
@@ -16,9 +16,9 @@ migrated: true
 
 Most beauty businesses do not lose money to bad work. They lose it to open-ended goodbyes. The single highest-leverage move in a service business is booking the client's next appointment before they walk out the door, because the moment they leave with no future slot, you stop competing with yourself and start competing with their busy life, their budget, and every other studio's promo in their feed. That is a much harder race to win, and you run it every single time a client leaves without a next date on the calendar.
 
-The numbers are not subtle. Studios that rebook at checkout routinely see return rates 20 to 40 points higher than those that let clients rebook later on their own. For a [lash artist](/for-lash-artists/), a stylist, or a studio owner, that gap is the difference between a chair that stays full and one you are constantly refilling. The BKRDY position is simple: rebooking should be a habit, not a hope. The mechanics, the calendar, the recurring slot, the reminder at the right interval, should make it effortless so you do not have to rely on willpower at 6pm on a Friday.
+The numbers are not subtle. Studios that rebook at checkout routinely see return rates 20 to 40 points higher than those that let clients rebook later on their own. For a [lash artist](/for-lash-artists/), a stylist, or a studio owner, that gap is the difference between a chair that stays full and one you are constantly refilling. The BKRDY position is simple: rebooking should be a habit, not a hope. The mechanics, the calendar, the next slot held before they leave, the reminder before each visit, should make it effortless so you do not have to rely on willpower at 6pm on a Friday.
 
-Some pros feel a knot in their stomach asking. It can feel pushy. So reframe it: you are not selling anything, you are doing a service for the client who actually wants their spot held. This guide covers why the chair is the moment, the exact scripts, recurring bookings for fixed-schedule clients, the right rebook interval per service, how to automate the reminder for the ones who leave open, and how to measure your rebooking rate so you can lift it.
+Some pros feel a knot in their stomach asking. It can feel pushy. So reframe it: you are not selling anything, you are doing a service for the client who actually wants their spot held. This guide covers why the chair is the moment, the exact scripts, standing slots for fixed-schedule clients, the right rebook interval per service, how to follow up with the ones who leave open, and how to measure your rebooking rate so you can lift it.
 
 ## Why the chair is the only moment that matters.
 
@@ -40,13 +40,13 @@ You do not need a sales pitch. You need one natural line you can say without thi
 
 **4. The recurring offer (for the regular).** "You come every four weeks like clockwork, want me to just hold your standing Thursday so you never have to think about it?" For habitual clients, this is a gift. You are removing a recurring chore from their life.
 
-**5. The graceful out.** "No problem, I will text you when you are due so it does not slip." When someone truly cannot commit, do not push. Let them leave knowing the reminder has their back, and let the automation do the follow-up.
+**5. The graceful out.** "No problem, I will text you when you are due so it does not slip." When someone truly cannot commit, do not push. Let them leave knowing you will follow up, then put it in your calendar so you do.
 
 ## Standing appointments for your regulars.
 
 For clients on a fixed rhythm, the ultimate rebooking tool is not a script at all. It is a standing appointment. Lash fills every two to three weeks, blowouts weekly, color every four to six weeks: these clients live on a predictable clock, and a recurring slot removes the decision entirely. They never have to remember to rebook, and you never have to ask.
 
-A standing appointment also protects your best hours for your most loyal clients. The Saturday-morning regular who has held the same 10am for a year is worth far more than a stranger, and locking in that slot means it is never accidentally given away. Set it up once in [recurring bookings](/platform/booking/calendar/) and the series books itself forward automatically, with a reminder before each visit so the client is never surprised.
+A standing appointment also protects your best hours for your most loyal clients. The Saturday-morning regular who has held the same 10am for a year is worth far more than a stranger, and locking in that slot means it is never accidentally given away. BKRDY has no recurring bookings, so hold the slot by booking the next two or three visits into your [calendar](/platform/booking/calendar/) before the client leaves. Each one is its own appointment, with a reminder before the visit so the client is never surprised.
 
 Be honest about who this fits. Recurring works for habitual clients, not occasional ones. Put someone who genuinely comes every ten weeks on a rigid four-week standing slot and you have manufactured cancellations, not loyalty. Offer it selectively, to the clients whose rhythm is already reliable, and let everyone else rebook visit by visit.
 
@@ -66,15 +66,15 @@ The rebook offer lands best when it matches the biology of the service. Book too
 | Balayage | Every 8 to 12 weeks |
 | Facials | Every 4 to 6 weeks |
 
-Booking at the right interval keeps the result looking fresh, and that is the real pitch. "Your color will start to grow out around week five, so let us get you in at week four" is not a sales line, it is advice the client actually wants. BKRDY lets you set a default rebook interval per service, so the right timing is baked into every booking rather than something you have to calculate at the counter each time.
+Booking at the right interval keeps the result looking fresh, and that is the real pitch. "Your color will start to grow out around week five, so let us get you in at week four" is not a sales line, it is advice the client actually wants. Keep this table by the counter, so the right timing is something you look up rather than something you have to calculate each time.
 
 ## Automated rebooking reminders for clients who left open.
 
-Not every client commits at checkout, and that is fine. Some genuinely do not know their schedule three weeks out. The mistake is letting that open-ended goodbye become a permanent one. This is where automation earns its keep: a reminder that fires at the service-matched interval turns a passive lapse into an active rebook.
+Not every client commits at checkout, and that is fine. Some genuinely do not know their schedule three weeks out. The mistake is letting that open-ended goodbye become a permanent one. This is where a simple follow-up earns its keep: a message sent at the service-matched interval turns a passive lapse into an active rebook.
 
-The message is simple and useful. "Hi Maya, your lashes are due for a fill this week, here is the link to grab your spot." It lands right when the client is starting to notice the service wearing off, which is exactly when they are most receptive. The key is timing it to the interval you set on each service, not a generic monthly blast. A lash client and a balayage client are on different clocks, and a reminder that is perfectly timed for one is noise for the other.
+The message is simple and useful. "Hi Maya, your lashes are due for a fill this week, here is the link to grab your spot." It lands right when the client is starting to notice the service wearing off, which is exactly when they are most receptive. The key is timing it to the service, not a generic monthly blast. A lash client and a balayage client are on different clocks, and a reminder that is perfectly timed for one is noise for the other.
 
-Set it once in your [notifications](/platform/tools/notifications/) and it runs on autopilot for every client who leaves without a next appointment. Pair it with well-timed [client reminders](/platform/tools/notifications/) so the nudge is friendly and consistent, and the open-ended goodbye quietly becomes an easy rebook a few weeks later, without you lifting a finger.
+BKRDY does not send this one for you. Its [reminders](/platform/tools/notifications/) go out for appointments that are already booked, so a client who leaves without a next appointment gets nothing from it. Note who left open and when they are due, then send the message from your own phone, or from a separate tool if your list is long. Your [client record](/platform/tools/customers/) has the last visit and the phone number, so the open-ended goodbye can still become an easy rebook a few weeks later.
 
 ## Make rebooking one tap on their phone.
 
@@ -82,7 +82,7 @@ A willing client will still fail to rebook if it takes a phone call during busin
 
 A self-serve booking link fixes it. Put your [online booking](/platform/booking/online/) link in the reminder, in the confirmation, and in your Instagram bio, and the client can lock their next slot at 11pm from the couch. The easier you make it, the higher your rebook rate climbs, because you are meeting people in the moment they actually think about it rather than forcing them into your open hours.
 
-When a client wants a slot that is already taken, do not let that demand leak away. A [waitlist](/platform/booking/waitlist/) captures it, and when a cancellation opens the slot, the software fills it automatically from the people who wanted in. That way a fully booked week still converts every bit of rebooking intent into an actual appointment.
+When a client wants a slot that is already taken, do not let that demand leak away. A [waitlist](/platform/booking/waitlist/) captures it, and when a cancellation opens the slot, the software offers it by email to the people who wanted in. That way a fully booked week still converts every bit of rebooking intent into an actual appointment.
 
 ## Getting over the fear of asking.
 
@@ -94,7 +94,7 @@ Here is a confidence script for the nervous moment: "I would love to keep you lo
 
 You cannot improve what you do not measure, and rebooking rate is one of the most telling numbers in the business. It is the share of completed appointments that leave with a next appointment already booked. Track it and you know instantly whether the checkout habit is actually happening or whether it is quietly slipping.
 
-Read it against these benchmarks. Under 30 percent means you are mostly not asking, and fixing that is the fastest revenue you will find all year. Between 50 and 70 percent is strong. Above 70 percent is elite for a busy studio and usually means the rebook-at-checkout habit is fully baked into how every appointment ends. Watch the number in your [analytics](/platform/tools/analytics/) and you will see it move as the team adopts the habit.
+Read it against these benchmarks. Under 30 percent means you are mostly not asking, and fixing that is the fastest revenue you will find all year. Between 50 and 70 percent is strong. Above 70 percent is elite for a busy studio and usually means the rebook-at-checkout habit is fully baked into how every appointment ends. Count it monthly on a simple sheet, since BKRDY does not report it, and you will see it move as the team adopts the habit.
 
 The revenue math is why this matters. A 10-point lift in rebooking compounds fast, because every retained client books again and again across the year, not just once. That is a far cheaper path to growth than chasing new clients through ads. If you want the full picture of how rebooking fits into keeping a chair full, read our guide on [client retention strategies](/guides/client-retention-strategies/), and when you are ready to put the system in place, compare plans on [pricing](/pricing/).
 
@@ -118,7 +118,7 @@ Under 30 percent means you are rarely asking, 50 to 70 percent is strong, and ab
 
 ### How do recurring appointments help with rebooking?
 
-A standing slot removes the decision for habitual clients. BKRDY recurring bookings book the series forward automatically and remind the client before each one, so the loyal regular never has to think about it.
+A standing slot removes the decision for habitual clients. BKRDY has no recurring bookings, so hold the slot by booking the next few visits into your calendar yourself. Each one gets its own reminder, so the loyal regular never has to think about it.
 
 ### What if a client will not commit at checkout?
 

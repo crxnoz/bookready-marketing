@@ -69,7 +69,7 @@ Multi-channel delivery also improves results. SMS tends to get opened faster tha
 
 **Pro Tip:** *Track your rebooking reminders by channel. If SMS outperforms email by a wide margin for your client base, shift more of your follow-up budget there. The data will tell you what your clients actually respond to.*
 
-BKRDY builds automated reminders directly into its [booking platform for beauty professionals](/platform), so the follow-up sequence runs without manual effort. For solo pros and independent studios, that kind of built-in automation removes the operational burden of chasing clients individually.
+BKRDY builds automated reminders directly into its [booking platform for beauty professionals](/platform), but those are for visits already booked. It does not send rebooking reminders, so this follow-up needs a separate tool or a message from you.
 
 ## What metrics should you track to measure rebooking success?
 
@@ -112,9 +112,9 @@ One more thing: personalized follow-ups matter more than most people expect. A m
 
 ## How BKRDY supports rebooking and client retention
 
-Beauty professionals who want to put these strategies on autopilot have a real advantage when their booking platform is built for it. BKRDY is designed specifically for independent studios, lash artists, nail technicians, hairstylists, and estheticians who need more than a generic booking link.
+Beauty professionals who want to keep these strategies running need a booking platform that makes the habit easy. BKRDY is designed specifically for independent studios, lash artists, nail technicians, hairstylists, and estheticians who need more than a generic booking link.
 
-BKRDY’s platform includes automated appointment reminders, client history tracking, and a smart waitlist that fills cancellations without manual effort. The booking experience is brand-led, so clients land on a page that looks and feels like your studio, not a third-party directory. Whether you run a [hair salon](/for-salons), a [lash studio](/for-lash-artists), or a solo practice, BKRDY gives you the tools to turn first-time clients into regulars. See the full range of [booking built for beauty pros](/templates/) and find the setup that fits your business.
+BKRDY’s platform includes automated appointment reminders, client history tracking, and on paid plans a waitlist that offers freed times to clients waiting. The rebooking ask itself stays with you. The booking experience is brand-led, so clients land on a page that looks and feels like your studio, not a third-party directory. Whether you run a [hair salon](/for-salons), a [lash studio](/for-lash-artists), or a solo practice, BKRDY gives you the tools to turn first-time clients into regulars. See the full range of [booking built for beauty pros](/templates/) and find the setup that fits your business.
 
 ## FAQ
 

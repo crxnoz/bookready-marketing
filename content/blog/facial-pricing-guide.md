@@ -99,9 +99,9 @@ The menu should live where the booking happens, with the price and deposit attac
 
 ## Turn your facial menu into a booking page.
 
-The payoff for the work above is a menu that books itself. Each line becomes a service carrying its own price, duration, and deposit, on a site that looks like your studio instead of a scheduling widget.
+The payoff for the work above is a menu that books itself. Each line becomes a service carrying its own price and duration, with the deposit worked out from your one rule, on a site that looks like your studio instead of a scheduling widget.
 
-The path is short. Add each facial as a service with its price and duration. Add each upcharge as an add-on clients can tick at booking. Set the deposit percentage per service, 30 percent on the standard menu, 50 percent on the long ones. Connect Stripe so the deposit is charged at booking. Publish.
+The path is short. Add each facial as a service with its price and duration. Add each upcharge as an add-on clients can tick at booking. Set one deposit percentage for the whole menu, so it scales with each price; 30 percent suits a standard menu. Connect Stripe so the deposit is charged at booking. Publish.
 
 For the look, [Opaline](/templates/opaline/) suits skin studios well: quiet, pale, unhurried, with room for a real menu without turning into a price sheet. Browse the rest of the [template library](/templates/) if you want something warmer or darker. Once it is live, your Instagram bio link points at a page that answers the price question and takes the deposit in the same tap.
 
@@ -135,6 +135,6 @@ Give a few weeks of notice, raise in small steps of 5 to 10 percent rather than 
 
 On your booking page, where the price and the deposit are attached to the exact service a client is booking. A PDF menu or a price you only quote in DMs adds a step, and every extra step loses bookings.
 
-### Can BKRDY show facial prices and take deposits per service?
+### Can BKRDY show facial prices and take deposits?
 
-Yes. Every facial and every add-on is its own service with its own price and optional deposit, charged through Stripe at the moment of booking, on your own designed website rather than a generic booking form.
+Yes. Every facial is a service and every upcharge is an add-on, each with its own price. The deposit is one rule for your whole menu, a flat amount or a percent, charged through Stripe at the moment of booking, on your own designed website rather than a generic booking form.

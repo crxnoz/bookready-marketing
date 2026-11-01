@@ -16,7 +16,7 @@ migrated: true
 
 Most owners do not leave Vagaro because they are convinced switching will break their business. Years of clients, calendars, and forms live inside one login, and the fear is that pulling the plug means a week of chaos and a pile of missed appointments. Let us settle that up front: done right, migration is invisible to your clients and takes a single weekend. Nobody shows up to a locked door, nobody gets a dead booking link, and you do not lose a name.
 
-The trick is to never flip a single switch. You run Vagaro and BKRDY side by side, move people over gently, and only cancel the old account once the new one is quietly doing all the work. This guide lays out a seven-step playbook: export your data, import it, build your site, connect payments, soft launch to a few regulars, hard switch your public links, and cancel Vagaro on your own timing. BKRDY handles the heaviest lifts, your services, hours, staff, and client list, for free, usually the same day you send the file. If you want the fuller comparison first, our [Vagaro alternative](/compare/vagaro-alternative/) page has the side-by-side. Otherwise, start here.
+The trick is to never flip a single switch. You run Vagaro and BKRDY side by side, move people over gently, and only cancel the old account once the new one is quietly doing all the work. This guide lays out a seven-step playbook: export your data, import it, build your site, connect payments, soft launch to a few regulars, hard switch your public links, and cancel Vagaro on your own timing. BKRDY handles the heaviest lifts, your services, clients, and upcoming appointments, for free, usually the same day you send the file. If you want the fuller comparison first, our [Vagaro alternative](/compare/vagaro-alternative/) page has the side-by-side. Otherwise, start here.
 
 ## What to do the week before you migrate.
 
@@ -36,15 +36,15 @@ One honest caveat. Vagaro does not export appointment history as cleanly as it e
 
 ## Start your BKRDY trial and send us the file.
 
-Head to bkrdy.com and sign up. The Free plan needs no card, so there is zero risk in setting things up before you commit, and a paid plan starts with 7 days free. Once you are inside the dashboard, look for the Migration tab. This is where the free lift happens.
+Head to bkrdy.com and sign up. The Free plan needs no card, so there is zero risk in setting things up before you commit, and a paid plan starts with 7 days free. Once you have an account, you are ready for the free lift.
 
-You have two ways to hand off your data. You can upload the Vagaro CSV directly in the Migration tab, or you can email it to migration@bkrdy.com if you would rather we handle every field. For most accounts, the team runs the import the same day. We do not just dump a spreadsheet in either. Using the screenshots you took last week, we rebuild your service menu and your hours so the structure matches what your clients already know, right down to service names and durations.
+Email your Vagaro export to hello@bkrdy.com. For most accounts, the team runs the import the same day. We do not just dump a spreadsheet in either. Using the screenshots you took last week, we rebuild your service menu so the structure matches what your clients already know, right down to service names and durations. Your hours, policies and Stripe connection stay with you, since those are your calls.
 
 This is the part owners dread and it is the part we take off your plate entirely. You are not re-typing three hundred clients at midnight. You send one file, we do the tedious reconstruction, and you get a working account back. If anything looks off, we fix it before you go live. See exactly how the handoff works on our [migration](/migration/) page.
 
 ## Pick a template and customize your copy.
 
-This is the fun step, and it is the one Vagaro never really gave you. On Vagaro your booking page looked like every other Vagaro page. On BKRDY you pick a designed template that looks like your brand, not a scheduling tool. There are seven to choose from: The Fade Room, Lush Studio, Velvet Theory, Blackline, Opaline, Petale, and Bottega.
+This is the fun step, and it is the one Vagaro never really gave you. On Vagaro your booking page looked like every other Vagaro page. On BKRDY you pick a designed template that looks like your brand, not a scheduling tool. There are fifteen to choose from, four of them on the Free plan.
 
 Pick by mood, not just by industry. A hair salon could land on Lush Studio for something soft and feminine, on Velvet Theory for moody and luxe, or on Opaline for quiet luxury. The right question is what your shop feels like when someone walks in, then match the template to that feeling. Browse them all on the [templates](/templates/) page and try a couple before you settle.
 
@@ -52,7 +52,7 @@ Once you choose, budget 45 to 60 minutes on copy and gallery photos. Write your 
 
 ## Connect Stripe for payments and tipping.
 
-Payments take about five minutes to wire up. Inside BKRDY, go to Settings, then Payments, and click Connect with Stripe. Sign in to an existing Stripe account or create one on the spot if you do not have it. From there, BKRDY's app auto-configures the important pieces for you: your payout schedule, tipping at checkout, and deposits at booking time.
+Payments take about five minutes to wire up. Inside BKRDY, go to Settings, then Payment rules, and connect Stripe. Sign in to an existing Stripe account or create one on the spot if you do not have it. From there, set your deposit rule on the same page. Payouts follow Stripe's normal schedule, and balances and tips can be collected after the visit.
 
 Here is the part worth understanding clearly. Stripe charges a standard processing fee, roughly 2.9% plus 30 cents per transaction, the same way it does for any business that uses it. That fee goes to Stripe, not to us. What BKRDY adds on top is a 0% platform markup. We do not take a slice of your bookings the way marketplace platforms do, so the only card cost you carry is Stripe's own rate.
 
@@ -94,11 +94,11 @@ No, not if you keep Vagaro live for two to four weeks during the transition. Exi
 
 ### Does BKRDY import my staff calendars?
 
-Yes, on the Studio and Salon plans. Each staff member gets their own calendar, their own services, and their own Stripe payout if you split money that way. We rebuild the team structure during import so nobody has to set up their chair from scratch.
+Not as separate calendars. We bring over your services, clients and upcoming appointments. On Studio and Studio+, you then add each staff member in Settings, and each one gets their own calendar, hours and login. Payments go to the one studio Stripe account.
 
 ### What happens to my Vagaro reviews?
 
-Your existing reviews stay on Vagaro, since no platform can lift another platform's reviews. What we do instead is help you collect fresh reviews on Google and on your BKRDY site, which is where new clients actually look before they book.
+Your existing reviews stay on Vagaro, since no platform can lift another platform's reviews. What you can do instead is collect fresh reviews on your BKRDY site, and ask for them on Google yourself, since those are where new clients look before they book.
 
 ### Can I keep my custom domain?
 
@@ -114,4 +114,4 @@ Barely, if at all. The Free plan has no card and no clock, so you can overlap wi
 
 ### What about my Vagaro memberships and packages?
 
-Prepaid packages and credits are supported on the BKRDY Studio plan, so multi-session bundles carry over cleanly. Full recurring memberships are on the roadmap. If memberships are core to your revenue, plan the timing around that and talk to us first.
+BKRDY has packages, which bundle services at a set price, but no prepaid credits or memberships, so balances and memberships do not carry over. If they are core to your revenue, plan the timing around that and talk to us first.

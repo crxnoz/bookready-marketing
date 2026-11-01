@@ -128,7 +128,7 @@ Invest in the tools that make the experience feel professional from the first bo
 
 Nail techs who want to put these retention strategies into practice need a booking setup that works as hard as they do. BKRDY builds [booking websites for nail technicians](/for-nail-techs) that go well beyond a generic calendar link. Every site includes 24/7 online booking, automatic appointment reminders, and built-in client profile tools that store preferences and service history.
 
-BKRDY also handles deposit collection through Stripe and includes a smart waitlist that fills canceled slots automatically. The result is a professional, brand-led booking experience that makes clients want to return. Setup takes minutes, not weeks, and no design experience is required.
+BKRDY also handles deposit collection through Stripe and, on paid plans, includes a waitlist that offers canceled slots to clients waiting. The result is a professional, brand-led booking experience that makes clients want to return. Setup takes minutes, not weeks, and no design experience is required.
 
 ## FAQ
 

@@ -22,7 +22,7 @@ The single most damaging review responses are written in the first ten minutes, 
 
 Reframe what you are looking at. A review is not a private argument between you and one unhappy client. It is a public document, and the real audience is the next 200 people deciding whether to book you. You are never really writing to the reviewer. You are writing to the silent crowd reading over their shoulder, and that crowd rewards composure and punishes defensiveness. Keep them in mind and the right words come easily.
 
-On your own site this matters less, because BKRDY reviews are verified to real bookings and [owner-moderated](/platform/tools/reviews/), so you are rarely blindsided by a total stranger. Google, Yelp, and the rest still let anyone post, and those are the ones that need a steady hand. If you run a [hair salon](/for-salons/), this steady approach is the difference between a profile that reassures and one that scares people off.
+On your own site this matters less, because BKRDY reviews come only from [real bookings](/platform/tools/reviews/), and one to three star reviews stay private and come to you, so you are rarely blindsided by a total stranger. Google, Yelp, and the rest still let anyone post, and those are the ones that need a steady hand. If you run a [hair salon](/for-salons/), this steady approach is the difference between a profile that reassures and one that scares people off.
 
 ## The three-step response framework.
 
@@ -58,7 +58,7 @@ Here is the part owners miss when they are panicking: a well-handled complaint o
 
 So walk the play. Respond calmly in public using the framework. Then resolve generously in private: a redo, a partial refund, or a genuinely thoughtful fix that costs you a little and buys back a lot. Overdeliver on the recovery, because the recovery is the marketing. Once the client is happy again, and only then, it is fair to mention you would welcome an updated review. Say it lightly, never demand it, and never make the fix conditional on a better rating.
 
-A surprising share of removed or upgraded reviews come from exactly this sequence: calm reply, generous private fix, gentle follow-up. And notice what you have really done. You did not just clean up a review, you recovered a client who was on their way out the door. That is a retention story, and retention is where the money is. This is win-back in miniature, so it pairs naturally with your [client retention playbook](/guides/client-retention-strategies/) and the automated [win-back tools](/platform/tools/customers/) that bring lapsed clients back on their own.
+A surprising share of removed or upgraded reviews come from exactly this sequence: calm reply, generous private fix, gentle follow-up. And notice what you have really done. You did not just clean up a review, you recovered a client who was on their way out the door. That is a retention story, and retention is where the money is. This is win-back in miniature, so it pairs naturally with your [client retention playbook](/guides/client-retention-strategies/) and the [Inactive list](/platform/tools/customers/) in your client book, which shows who to reach out to next.
 
 ## Response examples for the most common complaints.
 
@@ -80,15 +80,15 @@ A single bad review stings most when it sits near the top of a thin profile. If 
 
 So bury it the honest way. Collect a steady, ongoing stream of fresh verified reviews so a single off day becomes one quiet voice among many recent ones. When you have a constant drip of new five-stars, an old one-star drops down the page and loses its power to define you, and it does it without any tricks. Owners who ask after every visit almost never panic over a single bad review, because they know three good ones are landing this week.
 
-The trick is to make the ask automatic instead of relying on memory. Work through the [get-more-reviews playbook](/guides/how-to-get-more-salon-reviews/), then let BKRDY's [reviews feature](/platform/tools/reviews/) fire a verified request after every completed appointment on its own. You focus on the chair. The profile keeps refreshing itself in the background, which is the whole point.
+The trick is to make the ask automatic instead of relying on memory. Work through the [get-more-reviews playbook](/guides/how-to-get-more-salon-reviews/), then, on paid plans, let BKRDY's [reviews feature](/platform/tools/reviews/) email a verified request after the visit on its own, at most once every 90 days per client. You focus on the chair. The profile keeps refreshing itself in the background, which is the whole point.
 
 ## Building a reputation that survives a bad day.
 
-Zoom out and the whole thing stops feeling fragile. Reputation is not a score you defend one review at a time, it is a system you run. Four moving parts: collect reviews automatically so the flow never depends on you remembering, moderate your own-site display so you control what shows next to the book button, respond to the public ones in the same calm voice every single time, and resolve problems in the chair before they ever reach a review at all.
+Zoom out and the whole thing stops feeling fragile. Reputation is not a score you defend one review at a time, it is a system you run. Four moving parts: collect reviews automatically so the flow never depends on you remembering, let four and five star reviews publish to your own site while one to three stars come to you privately, respond to the public ones in the same calm voice every single time, and resolve problems in the chair before they ever reach a review at all.
 
 The last one does the most work. Most one-stars are avoidable friction that surfaced too late, a confusing price, a rushed consult, a result nobody flagged in the room. Catch those live and half your bad reviews never get written.
 
-There is one durable advantage worth building deliberately. Verified, owner-moderated reviews on your own booking page are an asset you actually own, one that does not vanish when a public platform quietly changes its algorithm or its rules. That is yours for good. For a salon running reviews alongside marketing to keep the funnel full, the [Studio plan](/pricing/) fits cleanly, and the [reviews tool](/platform/tools/reviews/) keeps the whole system running with almost none of your attention. Handle the rare bad review with a steady hand, and let the system do the rest.
+There is one durable advantage worth building deliberately. Verified reviews on your own booking page are an asset you actually own, one that does not vanish when a public platform quietly changes its algorithm or its rules. That is yours for good. Automatic review requests are on every paid plan, so see [pricing](/pricing/) for where you fit, and the [reviews tool](/platform/tools/reviews/) needs almost none of your attention once it is on. Handle the rare bad review with a steady hand, and let the system do the rest.
 
 ## Questions
 
@@ -118,7 +118,7 @@ Never argue the facts publicly, get sarcastic, share private appointment or heal
 
 ### Do BKRDY reviews protect me from fake reviews?
 
-On your own booking page, yes. BKRDY reviews are verified to real completed bookings and owner-moderated, so drive-by fakes cannot post there. Public sites like Google and Yelp still allow anyone to post, so those continue to need flagging when something is not legitimate.
+On your own booking page, yes. BKRDY reviews are tied to real completed bookings, so drive-by fakes cannot post there, and a fake or abusive one can be reported to us for removal. Public sites like Google and Yelp still allow anyone to post, so those continue to need flagging when something is not legitimate.
 
 ### How do I stop one bad review from dominating my profile?
 

@@ -18,7 +18,7 @@ You already know reviews matter. What nobody tells you is that a chair full of l
 
 Here is the BKRDY position: reviews are not luck, they are a system. The salons winning on Google are not better at color or cutting than you are. They ask at the right moment, and they automate the follow-through so it happens every single time without anyone remembering. That is the whole game, and it is completely learnable.
 
-This guide walks through the exact moment to ask (right after a great service, at checkout, while the client is still glowing), how to automate the ask so it fires after every visit, where reviews actually move the needle (Google versus Instagram versus your own [salon site](/for-salons/)), and why a steady drip of recent reviews beats a frozen perfect 5.0. BKRDY handles the automated, verified, owner-moderated side of this, so most of the work happens on its own.
+This guide walks through the exact moment to ask (right after a great service, at checkout, while the client is still glowing), how to automate the ask so it goes out without you, where reviews actually move the needle (Google versus Instagram versus your own [salon site](/for-salons/)), and why a steady drip of recent reviews beats a frozen perfect 5.0. On paid plans, BKRDY handles the automated, verified side of this on your own site, so most of that work happens on its own.
 
 ## Why your happiest clients never leave a review.
 
@@ -40,9 +40,9 @@ There are two clean versions. The in-person one: hand them your phone with the r
 
 Be honest about what happens on a real day. You are running behind, three clients are waiting, the phone is ringing, and the last thing on your mind is asking the woman at the register for a Google review. Rely on memory and you ask maybe one client in ten. That is not a discipline problem, it is a design problem. The ask needs to happen without you.
 
-The fix is a trigger that fires after every completed appointment on its own. BKRDY's [reviews tool](/platform/tools/reviews/) does exactly this: when you mark an appointment complete, a verified review request goes out to that client automatically, with the timing tuned to the post-visit window when people are most likely to respond. You do nothing. It just happens, every visit, for every client.
+The fix is a trigger that fires after the appointment on its own. BKRDY's [reviews tool](/platform/tools/reviews/) does this on paid plans: once the appointment is over, a verified review request goes to that client by email, after the delay you choose. You do nothing. It just happens, for every client, at most once every 90 days so your regulars are not asked every visit.
 
-Two words matter here. Verified means only real clients who actually booked and completed a visit can leave one, so your profile cannot be padded with fakes or gamed by a competitor. Owner-moderated means you decide what publishes to your booking page. Email requests are live today, and SMS review requests are coming soon, so treat texting as a near-future addition rather than something to count on right now. Pair reviews with your [automated notifications](/platform/tools/notifications/) and the whole post-visit sequence, reminder, thank-you, review ask, runs itself.
+Two things matter here. Verified means only real clients who actually booked and completed a visit can leave one, so your profile cannot be padded with fakes or gamed by a competitor. And the rating decides where a review goes: four and five stars publish to your booking page straight away, and one to three stars stay private so you can make it right. Requests go by email, so if you want to ask by text, do that from your own phone.
 
 ## Google vs Instagram vs reviews on your own site.
 
@@ -50,7 +50,7 @@ Not all reviews do the same job, so it helps to be honest about the three surfac
 
 Instagram is great social proof and worth having, but keep it in perspective. Comments, tags, and story love are lovely, and they build brand warmth, but they slide down the feed within days and do nothing for your search ranking. Treat Instagram affection as a bonus, not a review strategy. It flatters you; it does not get you found.
 
-Your own site is the quiet winner people forget. Verified reviews on your BKRDY booking page are yours. They cannot vanish if a platform changes its rules, and they sit right next to the book button, exactly where a hesitating visitor makes the decision. So here is the play: send most clients to Google for discovery, mirror your best verified reviews on your own page where they close the sale, and let Instagram love be the cherry on top. Show off the work itself in your [site gallery](/platform/website/gallery/), and let the reviews sitting beside it do the convincing.
+Your own site is the quiet winner people forget. Verified reviews on your BKRDY booking page are yours. They cannot vanish if a platform changes its rules, and they sit right next to the book button, exactly where a hesitating visitor makes the decision. So here is the play: send most clients to Google for discovery, let verified reviews build up on your own page where they close the sale, and let Instagram love be the cherry on top. Show off the work itself in your [site gallery](/platform/website/gallery/), and let the reviews sitting beside it do the convincing.
 
 ## Why volume and recency beat a perfect 5.0.
 
@@ -58,7 +58,7 @@ This is the counterintuitive one, and it frees a lot of owners once it clicks. A
 
 What people actually trust is the shape of the profile: lots of reviews, recent dates, a believable spread of voices. A wall of glowing feedback with fresh timestamps says "this place is busy and loved right now." A frozen 5.0 with four reviews says "either brand new or hiding something." The average matters far less than the volume and the recency around it.
 
-The trap is that chasing a spotless average makes owners afraid to ask, in case someone leaves a 4. That is exactly backwards. The goal is a steady drip of recent, honest reviews, not a museum piece. This is where automation earns its keep: a [request after every visit](/platform/tools/reviews/) keeps your most recent review days old instead of years, and keeps the count climbing without you thinking about it. Recency takes care of itself when the ask never stops.
+The trap is that chasing a spotless average makes owners afraid to ask, in case someone leaves a 4. That is exactly backwards. The goal is a steady drip of recent, honest reviews, not a museum piece. This is where automation earns its keep: an [automatic request after the visit](/platform/tools/reviews/) keeps your most recent review days old instead of years, and keeps the count climbing without you thinking about it. Recency takes care of itself when the ask never stops.
 
 ## How to ask out loud without the cringe.
 
@@ -68,11 +68,11 @@ Keep the words casual and specific. Something like: "If you loved it, a quick Go
 
 If you have a team, make this part of checkout, not a personal quirk of whoever happens to remember. Train the front desk and every stylist to make the ask a normal beat in closing out a visit, the same way they confirm the next appointment. Consistency is what turns a good week of reviews into a steady stream. When the whole room asks the same simple way, the drip never dries up.
 
-## Moderating reviews and handling the occasional bad one.
+## What shows on your page, and handling the occasional bad one.
 
-The fear that stops owners from asking more is simple: what if I open the floodgates and something ugly lands on my storefront? Reasonable worry, and BKRDY is built with it in mind. Reviews are owner-moderated, which means you see each verified review and decide what publishes to your booking page. A one-off bad day does not get to blindside the first thing a new client sees.
+The fear that stops owners from asking more is simple: what if I open the floodgates and something ugly lands on my storefront? Reasonable worry, and BKRDY is built with it in mind. Four and five star reviews publish to your booking page as soon as they come in, and one to three stars stay private, so only you see them. A one-off bad day does not get to blindside the first thing a new client sees.
 
-Be clear on what moderation is and is not. It is curation of your own-site display: you choose which verified reviews appear next to your book button. It is not editing anyone's words, and it does not touch Google, where reviews live on Google's terms regardless. So this is about your storefront, not about rewriting reality. You control the shop window; you do not control the whole street, and that is fine.
+Be clear on what this is and is not. You do not pick and choose: a published review stays up, though you can add a public reply, and a fake or abusive one can be reported for removal. It is not editing anyone's words, and it does not touch Google, where reviews live on Google's terms regardless. So this is about your storefront, not about rewriting reality. You set the rule for the shop window; you do not control the whole street, and that is fine.
 
 Here is the part that surprises people: a few less-than-perfect reviews actually build trust. A profile with nothing but breathless raves reads as staged. A believable spread, mostly great with the occasional honest four, reads as real, and real converts. For the genuinely negative ones, respond with a calm, non-defensive reply, thank them, address it briefly, invite them back, and move on. Fold it back into your [review workflow](/platform/tools/reviews/) and keep the drip going.
 
@@ -80,9 +80,9 @@ Here is the part that surprises people: a few less-than-perfect reviews actually
 
 A review count is not the goal. Bookings are. Reviews are only worth collecting if they push a hesitating visitor over the line into a confirmed appointment, so the last step is putting them to work instead of letting them sit as a vanity badge on a profile page.
 
-Do three things. Feature your best verified reviews on your booking page, right next to the book button, so proof and action live in the same glance. Reference recent reviews in your [email](/platform/tools/marketing/) and win-back campaigns, because a lapsed client is far more likely to rebook when they are reminded that people love the work right now. And let fresh social proof lift conversion on cold traffic arriving from Google and Instagram, where a stranger needs a reason to trust you fast.
+Do three things. Keep your verified reviews on your booking page, right next to the book button, so proof and action live in the same glance. Reference recent reviews in the messages you send to lapsed clients, because a lapsed client is more likely to rebook when they are reminded that people love the work right now. On paid plans, BKRDY's [Content studio](/platform/tools/marketing/) can turn your reviews into a post you share yourself. And let fresh social proof lift conversion on cold traffic arriving from Google and Instagram, where a stranger needs a reason to trust you fast.
 
-This is also where the tooling starts to matter as you grow. Reviews running automatically alongside [marketing](/platform/tools/marketing/) and campaigns is exactly the kind of setup the Studio plan is built for, a growing salon that wants the whole loop, collect, display, promote, working together. When you are ready to see how it prices out, the [pricing page](/pricing/) lays it out plainly, no games.
+This is also where the tooling starts to matter as you grow. Automatic review requests and the [Content studio](/platform/tools/marketing/) are on every paid plan, so collecting, displaying and sharing can sit in one place. When you are ready to see how it prices out, the [pricing page](/pricing/) lays it out plainly, no games.
 
 ## Questions
 
@@ -96,7 +96,7 @@ Only about 5 to 10 percent leave one unprompted. A direct, well-timed ask lifts 
 
 ### Should I ask for Google reviews or reviews on my own site?
 
-Both. Google drives discovery for new clients searching locally, so it is the priority for getting found. Verified reviews on your own BKRDY site sit right next to the booking button and close the sale. Mirror your best ones in both places.
+Both. Google drives discovery for new clients searching locally, so it is the priority for getting found. Verified reviews on your own BKRDY site sit right next to the booking button and close the sale. Build both: BKRDY has no Google connection, so each one collects its own reviews.
 
 ### Is it bad to have a perfect 5.0 rating?
 
@@ -108,11 +108,11 @@ Right after a great service, at checkout, while the client is still looking in t
 
 ### Can BKRDY collect reviews automatically?
 
-Yes. When an appointment is marked complete, BKRDY sends a verified review request to that client automatically, so you never have to remember to ask. The timing is tuned to the post-visit window when clients are most likely to respond.
+Yes, on Solo, Studio and Studio+. Once an appointment is over, BKRDY emails that client a verified review request, so you never have to remember to ask. You choose the delay, and each client is asked at most once every 90 days.
 
 ### Are BKRDY reviews verified?
 
-Yes. Only real clients who actually booked and completed an appointment can leave one, so nothing is fabricated. Reviews are also owner-moderated, which means you control what publishes to your booking page.
+Yes. Only real clients who actually booked and completed an appointment can leave one, so nothing is fabricated. Four and five star reviews publish to your booking page as they come in, and one to three stars stay private.
 
 ### Should I offer a discount for leaving a review?
 

@@ -65,7 +65,7 @@ You do not need a heavy deposit to fix this. A light deposit or a card on file i
 
 The cleanest way to run a wax business is to put the whole menu on your own booking page, with each service showing its price, its duration, and its policy. The client picks what they want, sees the deposit, and books, with no back-and-forth texting and no phone tag during your appointments.
 
-That does two things at once. It saves you the admin time that quietly eats a solo esthetician's day, and it makes you look like the established studio you are. A designed page that matches your brand reads very differently from a generic scheduling form, and it supports the prices you set earlier. Pair it with automated [reminders](/platform/tools/notifications/) so clients show up on time and rebook on their cycle. If you want to see what a BKRDY skin studio looks like, start with the [esthetician page](/for-estheticians/), then browse looks in the [template library](/templates/). Opaline and the other quiet-luxury templates suit a wax and skin studio well.
+That does two things at once. It saves you the admin time that quietly eats a solo esthetician's day, and it makes you look like the established studio you are. A designed page that matches your brand reads very differently from a generic scheduling form, and it supports the prices you set earlier. Pair it with automated [reminders](/platform/tools/notifications/) so clients show up on time, and book the next wax before they leave so they stay on their cycle. If you want to see what a BKRDY skin studio looks like, start with the [esthetician page](/for-estheticians/), then browse looks in the [template library](/templates/). Opaline and the other quiet-luxury templates suit a wax and skin studio well.
 
 ## Questions
 
@@ -87,7 +87,7 @@ A light deposit or a card on file still helps. Short slots are easy to no-show a
 
 ### How often should clients book waxing?
 
-Every 3 to 5 weeks for most areas, once hair grows back to a length that waxes cleanly. That steady cycle makes recurring bookings and automated reminders well worth setting up.
+Every 3 to 5 weeks for most areas, once hair grows back to a length that waxes cleanly. That steady cycle makes booking the next visit in advance, with an automated reminder before it, well worth the habit.
 
 ### What is the easiest way to take waxing bookings?
 

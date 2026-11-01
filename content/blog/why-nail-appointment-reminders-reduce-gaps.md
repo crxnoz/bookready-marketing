@@ -79,7 +79,7 @@ The flow works like this:
 | First client to respond books | Slot fills without any manual outreach |
 | Remaining waitlist clients receive a “slot filled” update | No double-booking confusion |
 
-The [smart waitlist feature](/blog/how-smart-waitlists-retain-nail-clients-that-stay) on platforms built for beauty professionals automates this entire sequence. You do not need to scroll through a list of names and make calls. The system handles it, and you see a booked appointment where there was a gap. BKRDY builds this waitlist automation directly into its booking platform, so nail techs get gap-filling without the manual work.
+The [smart waitlist feature](/blog/how-smart-waitlists-retain-nail-clients-that-stay) on platforms built for beauty professionals automates this entire sequence. You do not need to scroll through a list of names and make calls. The system handles it, and you see a booked appointment where there was a gap. BKRDY builds this into its paid plans: when a time frees up, the first matching client on the waitlist gets an email with a claim link that lasts two hours.
 
 ## Common mistakes that make reminder systems fail
 
@@ -127,7 +127,7 @@ Reminders done right do not just fill gaps. They build the kind of client relati
 
 BKRDY builds automated reminder systems directly into its booking platform for nail technicians, so confirmations, reminders and a waitlist come built in, without stitching together separate tools.
 
-The [automated reminders feature](/platform/tools/notifications/) handles instant confirmations, 48-hour messages, and 2-hour nudges out of the box. Clients can confirm or reschedule with one tap, and your calendar updates automatically. Deposit collection runs through Stripe, so your cancellation policy is enforced without any awkward conversations. The [nail tech booking platform](/for-nail-techs) also includes smart waitlist management that fills canceled slots within minutes. If you want a booking site that works as hard as you do, BKRDY is built for exactly that.
+The [automated reminders feature](/platform/tools/notifications/) sends an instant email confirmation and one reminder at the time you choose, from 1 hour to 30 days before, so a second nudge comes from your own phone. Clients can reschedule or cancel from the link in their email, and your calendar updates automatically. Deposit collection runs through Stripe, so your cancellation policy is enforced without any awkward conversations. The [nail tech booking platform](/for-nail-techs) also includes, on paid plans, a waitlist that offers a canceled slot to a client who is waiting. If you want a booking site that works as hard as you do, BKRDY is built for exactly that.
 
 ## FAQ
 

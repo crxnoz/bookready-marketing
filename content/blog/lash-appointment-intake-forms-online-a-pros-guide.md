@@ -108,7 +108,7 @@ The future of client onboarding in lash studios is a single flow: book, pay depo
 
 Lash artists who want their intake process to feel like part of their brand, not an afterthought, need a booking site built for that purpose.
 
-BKRDY builds booking websites for lash artists that include client profile management, automated appointment reminders, and deposit handling through Stripe. The platform is designed so that client intake data lives alongside the appointment record, not in a separate system. BKRDY also handles [automated client reminders](/platform/tools/notifications/) so incomplete forms get flagged before the appointment day, without any manual follow-up on your end. If you are ready to move your lash studio off generic booking links and onto a site that reflects your work, BKRDY is built for exactly that.
+BKRDY builds booking websites for lash artists that include client profile management, automated appointment reminders, and deposit handling through Stripe. The platform is designed so that client intake data lives alongside the appointment record, not in a separate system. BKRDY also sends [automated client reminders](/platform/tools/notifications/) before each appointment, and a required [booking question](/platform/booking/booking-forms/) has to be answered before the client can book, so a form cannot be left half done. If you are ready to move your lash studio off generic booking links and onto a site that reflects your work, BKRDY is built for exactly that.
 
 ## FAQ
 

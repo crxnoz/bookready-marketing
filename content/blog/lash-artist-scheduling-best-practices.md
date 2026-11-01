@@ -219,7 +219,7 @@ If a client genuinely cannot commit to a date at checkout, send a follow-up with
 
 Last-minute cancellations sting most when you have no system to respond to them. The studios that handle them best treat cancellations as a process problem, not a client loyalty problem, and build their response into the booking system itself.
 
-A waitlist is your first line of defense. When a cancellation comes in, an automated waitlist notification can go out to clients who have expressed interest in that time slot, filling the gap without any manual effort on your part. BKRDY’s smart waitlist feature handles this automatically, which means a canceled 10 AM slot can be filled before you have finished your morning coffee.
+A waitlist is your first line of defense. When a cancellation comes in, an automated waitlist notification can go out to clients who have expressed interest in that time slot, filling the gap without any manual effort on your part. BKRDY’s waitlist, on paid plans, handles the first step on its own: a canceled 10 AM slot goes by email to the first matching client, with a two-hour link to claim it.
 
 For cancellations that come in inside your policy window, enforce the deposit or cancellation fee consistently. Inconsistent enforcement signals that the policy is negotiable, which invites more late cancellations. Clients respect clear, consistently applied rules even when they occasionally find them inconvenient.
 

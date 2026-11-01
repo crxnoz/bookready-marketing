@@ -48,9 +48,9 @@ A policy is only as strong as its visibility. If a client can later say "I never
 
 **1. On the booking page, before they confirm.** This is the one that matters most legally. The client should see the policy and tick a box or read it directly above the Confirm button, so agreement is part of the act of booking. In BKRDY this lives under Settings > Policies, and it renders right inside the booking flow.
 
-**2. In the confirmation email and SMS.** The moment the booking lands, the confirmation should restate the policy in one line with a link to the full text. This creates a timestamped record that the client received it. Both confirmation templates are editable, so you paste the policy link once and it goes out on every booking through [automated notifications](/platform/tools/notifications/).
+**2. In the confirmation email and SMS.** The moment the booking lands, the confirmation should restate the policy in one line with a link to the full text. This creates a timestamped record that the client received it. In BKRDY the confirmation goes by email and its intro and sign-off are editable, so you paste the policy line once and it goes out on every booking through [automated notifications](/platform/tools/notifications/).
 
-**3. In the reminder, 48 hours out.** The reminder is your last, best chance to prevent the no-show entirely. A line like "reminder: cancellations within 24 hours forfeit the deposit" gives a wavering client the nudge to reschedule properly instead of ghosting. If the policy is not in all three of these, you cannot cleanly enforce it. You can configure the wording for each in your [policy settings](/platform/website/policies/).
+**3. In the reminder, 48 hours out.** The reminder is your last, best chance to prevent the no-show entirely. A line like "reminder: cancellations within 24 hours forfeit the deposit" gives a wavering client the nudge to reschedule properly instead of ghosting. If the policy is not in all three of these, you cannot cleanly enforce it. The policy wording lives in your [policy settings](/platform/website/policies/), and the confirmation and reminder lines in Settings > Notifications.
 
 ## Specialty variants: bridal, color, lash, group.
 
@@ -100,7 +100,7 @@ You have the policy. Here is how it goes live across all three placements withou
 
 **Step 1 (2 min).** Open Settings > Policies > Cancellation Policy. Paste the template, edit your five variables (deposit, window, grace, no-show charge, business name and contact), and save. It now renders on the booking page before clients confirm.
 
-**Step 2 (2 min).** Go to Settings > Notifications, open the Confirmation Email and Confirmation SMS templates, and drop in a one-line policy summary plus a link. Repeat for the 48-hour reminder. These run on autopilot through [automated notifications](/platform/tools/notifications/) from then on.
+**Step 2 (2 min).** Go to Settings > Notifications, open the confirmation email template, and drop a one-line policy summary plus a link into the intro or sign-off. Repeat for the reminder email, and set the reminder to go out 48 hours before. These run on their own through [automated notifications](/platform/tools/notifications/) from then on.
 
 **Step 3 (1 min).** Turn on deposit collection under [payments](/platform/tools/payments/) and set the deposit to match the percentage in your policy. That is the whole job. Five minutes, and the policy is now visible at booking, in the confirmation, and in the reminder, which is the only configuration that actually holds up. If you want fewer missed appointments overall, pair this with the tactics in our guide on [reducing no-shows](/guides/reducing-no-shows/).
 
@@ -124,7 +124,7 @@ Yes, as long as the client agreed to it by booking through a flow that clearly s
 
 ### Can I exempt regulars from the policy?
 
-Yes. Use client tags in BKRDY to exempt deposit requirements for clients who have never no-showed. The policy still exists for everyone, you just choose not to enforce it on people who have earned the trust. It stays in place the day a regular slips.
+Yes, by hand. BKRDY's online deposit is one rule for everyone and a client tag does not change it, so book those regulars in yourself from your calendar, where no deposit is asked. The policy still exists for everyone, you just choose not to enforce it on people who have earned the trust. It stays in place the day a regular slips.
 
 ### What if the client never saw my old policy?
 
@@ -136,4 +136,4 @@ A 10-minute grace period, after which the appointment may be shortened or resche
 
 ### Does BKRDY auto-charge no-show fees?
 
-Yes on the Studio and Salon plans. The card on file is charged automatically based on the policy you configure. The Solo plan supports deposits at booking but you charge no-show fees manually from the dashboard.
+No. On Solo, Studio and Studio+, clients can save a card at booking with their consent, and you charge the no-show or late cancellation fee to that card from the appointment when you decide to. Nothing is charged on its own. On the Free plan, the deposit is your protection.

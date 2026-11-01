@@ -26,7 +26,7 @@ A no-show fee is not something you can invent after the fact. For it to hold up,
 
 First, the policy has to be visible at the moment of booking, before the client confirms. A fee buried in a footer nobody reads does not count. It needs to sit next to the Confirm button where a reasonable person would see it. Second, the client has to take an action that signals agreement. Clicking Confirm on a booking page that clearly discloses the fee is exactly that: an affirmative step taken with the terms in view. Third, the amount has to be reasonable in proportion to the service. A $200 fee on a $40 haircut looks punitive and gives a bank an easy reason to side with the client.
 
-When a client disputes the charge later, the card network does not care how you felt about it. They care about disclosure. Stripe disputes lean almost entirely on whether you can show the client saw the policy and agreed to it. That is why enforceability is built at booking time, not at charge time. Handle the money side properly with [Stripe-backed payments](/platform/tools/payments/) and the disclosure is captured for you automatically.
+When a client disputes the charge later, the card network does not care how you felt about it. They care about disclosure. Stripe disputes lean almost entirely on whether you can show the client saw the policy and agreed to it. That is why enforceability is built at booking time, not at charge time. Handle the money side properly with [Stripe-backed payments](/platform/tools/payments/) and turn on the policy agreement box at booking, so the disclosure is captured every time.
 
 ## How much to charge for a no-show.
 
@@ -52,15 +52,15 @@ A no-show fee is only as strong as its weakest point of disclosure. If the polic
 
 First, on the booking page, before the client confirms. This is the one that matters most, because it is where consent is captured. The client should not be able to reach the Confirm button without the policy being in plain view. Second, in the confirmation email and SMS that goes out the moment they book. This creates a timestamped record that the terms were delivered, and it puts the fee in front of the client a second time while the booking is fresh. Third, in the reminder that goes out 24 to 48 hours before the appointment, which is both a courtesy and a paper trail.
 
-The reason for the redundancy is simple: each touchpoint is another piece of evidence, and together they make a dispute nearly unwinnable for the client. Automated [confirmations and reminders](/platform/tools/notifications/) do this without you lifting a finger, so the policy rides along on every message instead of depending on you to remember. For the broader playbook on cutting missed appointments, see our guide on [reducing no-shows](/guides/reducing-no-shows/).
+The reason for the redundancy is simple: each touchpoint is another piece of evidence, and together they make a dispute nearly unwinnable for the client. Once you add the policy line to the email templates, automated [confirmations and reminders](/platform/tools/notifications/) do this without you lifting a finger, so the policy rides along on every message instead of depending on you to remember. For the broader playbook on cutting missed appointments, see our guide on [reducing no-shows](/guides/reducing-no-shows/).
 
-## How to auto-charge a no-show in BKRDY.
+## How to charge a no-show fee in BKRDY.
 
-Automating the charge removes the worst part of the whole process: the moment where you have to decide, in real time and with your emotions involved, whether to bill someone. Set it once and let the system enforce it evenly for everyone.
+BKRDY does not charge the fee on its own. You decide, appointment by appointment, which means a genuine mix-up never costs anyone money. The way to keep that decision even-handed is to write the rule down and apply it the same way every time.
 
-Start by requiring a card at booking. In Settings, Payments, turn on Card on File Required at Booking. This is available on the Studio and Salon plans and is the piece that makes auto-charging possible at all, because you cannot bill a card you never captured. Then go to Settings, Policies, No-Show Fee, and set two things: the amount (100% of the service, per the section above) and the timing. By default the fee charges one hour after the missed appointment, which gives you a short window to cancel it if the client turns up late or there was a genuine mix-up.
+Start with the saved card, because you cannot bill a card you never captured. On Solo, Studio and Studio+, clients can save a card at booking with their consent. Turn that on under Settings, Payment rules, and set your no-show fee and late cancellation fee there too, as a set amount. When a client misses an appointment, mark it a no-show, open it, and charge the fee to the saved card. A client who did not save one has only their deposit at stake.
 
-The Solo plan works a little differently. It supports deposits at booking, which cover a lot of the same ground, but it does not store full cards for later charging, so no-show fees on Solo are collected manually from the dashboard. If no-shows are a recurring problem for you, that alone is a reason to look at Studio. Either way, the underlying billing runs on [Stripe](/platform/tools/payments/), so the charge and its disclosure record are handled cleanly.
+The Free plan works a little differently. It supports deposits at booking, which cover a lot of the same ground, but it does not save cards or charge fees, so the deposit is your protection. If no-shows are a recurring problem for you, that alone is a reason to look at a paid plan. Either way, the underlying billing runs on [Stripe](/platform/tools/payments/), so the charge and its record are handled cleanly.
 
 ## The SMS script that goes out after a no-show.
 
@@ -100,7 +100,7 @@ Yes. The chair sat empty and the loss was total, so the fee should be too. Charg
 
 ### What if the client never gave a card at booking?
 
-Then you cannot auto-charge anything. The fix is to require a card on file for every booking, which BKRDY supports on the Studio and Salon plans. The Solo plan allows deposits but not stored cards, so no-show fees there are collected manually.
+Then you cannot charge the fee to a card. In BKRDY, saving a card is the client's choice, on Solo, Studio and Studio+, so a client who did not save one is covered by the deposit instead. Ask them for the balance directly, or send a payment link.
 
 ### What is the grace period before someone counts as a no-show?
 
@@ -112,7 +112,7 @@ Yes, for genuine emergencies with a brief bit of context. Do not waive it for va
 
 ### Does BKRDY automatically charge the fee?
 
-Yes, on the Studio and Salon plans. You set the amount and timing in Settings, Policies, and the fee charges the card on file after the missed appointment. On the Solo plan you charge it manually from the dashboard.
+No. On Solo, Studio and Studio+, you set the fee in Settings, Payment rules, and charge it to the client's saved card from the appointment when you decide to. Nothing is charged on its own. The Free plan takes deposits but does not save cards or charge fees.
 
 ### What if a client says they texted to cancel?
 
