@@ -119,7 +119,7 @@ What I find most overlooked is the “forgotten middle.” Nail techs focus on t
 
 Building a retention system from scratch takes time you probably do not have between appointments. BKRDY was built specifically for nail techs and independent beauty studios who want a professional booking presence without spending weeks on setup.
 
-The platform combines a branded [nail tech booking website](/for-nail-techs) with built-in scheduling, deposit handling through Stripe, automated reminders, and client history management. Everything that drives retention sits in one place. You get a booking page that looks like your brand, not a generic platform, and a system that follows up with clients automatically so you can focus on the work. Explore the full [BKRDY features](/features) to see how each tool supports client retention from the first booking onward.
+The platform combines a branded [nail tech booking website](/for-nail-techs) with built-in scheduling, deposit handling through Stripe, automated reminders, and client history management. Everything that drives retention sits in one place. You get a booking page that looks like your brand, not a generic platform, and a system that follows up with clients automatically so you can focus on the work. Explore the full [BKRDY features](/platform/) to see how each tool supports client retention from the first booking onward.
 
 ## FAQ
 

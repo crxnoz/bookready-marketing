@@ -34,7 +34,7 @@ This is the single highest-leverage move you can make, and most shops skip it ou
 
 For the amount, aim for 15 to 30 percent of the service price, or a flat $25 to $50 depending on your price point. Enough to sting if they skip, not so much that it feels hostile. The deposit applies to the final bill, so it is never an extra charge, just a portion paid early. Make that clear at booking and most clients will not blink.
 
-You do not have to deposit everyone. Exempt your reliable regulars: clients who have booked repeatedly and never no-showed should not be treated like strangers. Require the deposit on new clients and the few repeat offenders who earned it. In [BKRDY deposits](/platform/tools/payments/) you set this per service under Services, then the service’s deposit setting, and Stripe handles the charge. Your client list lives in the [customer database](/features/manage/customers/), so tagging regulars for an exemption takes a few seconds and you own that data outright.
+You do not have to deposit everyone. Exempt your reliable regulars: clients who have booked repeatedly and never no-showed should not be treated like strangers. Require the deposit on new clients and the few repeat offenders who earned it. In [BKRDY deposits](/platform/tools/payments/) you set this per service under Services, then the service’s deposit setting, and Stripe handles the charge. Your client list lives in the [customer database](/platform/tools/customers/), so tagging regulars for an exemption takes a few seconds and you own that data outright.
 
 ## Build a three-touch reminder sequence.
 
@@ -42,7 +42,7 @@ Deposits change the stakes. Reminders change the odds. A single reminder helps a
 
 The numbers back this up. A two-touch reminder setup tends to cut no-shows by around 20 percent. A three-touch sequence pushes that to 40 to 60 percent, because each touch catches a different kind of forgetting: the booking made three weeks ago, the busy week that buried it, and the morning-of scramble where they lost the address. You are not nagging. You are removing every excuse a well-meaning client has to miss.
 
-Tone matters more than frequency. Keep each message warm, brief, and easy to reply to. The 48-hour text should read like a person, not a system: "Hi Mara, still good for your color appointment Thursday at 2? Reply YES to confirm." You can set the whole cadence under [notifications](/platform/tools/notifications/), and the client-facing side of automated [reminders](/features/client/reminders/) handles the timing so you never send one by hand.
+Tone matters more than frequency. Keep each message warm, brief, and easy to reply to. The 48-hour text should read like a person, not a system: "Hi Mara, still good for your color appointment Thursday at 2? Reply YES to confirm." You can set the whole cadence under [notifications](/platform/tools/notifications/), and the client-facing side of automated [reminders](/platform/tools/notifications/) handles the timing so you never send one by hand.
 
 ## The reply-required confirmation that changes everything.
 

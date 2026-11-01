@@ -43,7 +43,7 @@ Do not block all of it. Nine blocks in a week is a fantasy you abandon by Thursd
 
 Pick the two or three that cost you most when they slip. Not the most virtuous, the ones with a price: running out of adhesive mid set, a booking request that sat four days and went to the girl down the road, a quarter of receipts to reconstruct. Give each one a specific hour on a specific day, and mark it unbookable rather than hoping nobody asks.
 
-BKRDY lets you mark time unbookable on specific dates and set the hours inside which a day can be booked at all, which is the difference between a block and a note to yourself. Whatever you use, the [setting](/features/) matters less than the hour no longer being offered.
+BKRDY lets you mark time unbookable on specific dates and set the hours inside which a day can be booked at all, which is the difference between a block and a note to yourself. Whatever you use, the [setting](/platform/) matters less than the hour no longer being offered.
 
 :::copy A weekly block plan to fill in
 

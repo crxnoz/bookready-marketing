@@ -66,7 +66,7 @@ The honest answer to who can take these slots is usually not everyone.
 
 A 9pm Sunday slot a brand new client can book from Instagram at eleven in the morning will eventually be a no-show at 9pm on a Sunday, and that hurts in a way a Tuesday no-show does not. If you open evenings widely, take a deposit. The usual [no-show protections](/guides/reducing-no-shows/) matter more here, not less.
 
-This is where a booking system earns its keep. BKRDY has after hours slots that extend past your normal close, carry their own fee folded into the appointment total, and can be limited to your regulars, so the [booking page](/features/) enforces the rule rather than you.
+This is where a booking system earns its keep. BKRDY has after hours slots that extend past your normal close, carry their own fee folded into the appointment total, and can be limited to your regulars, so the [booking page](/platform/) enforces the rule rather than you.
 
 :::copy Evening slots, for your booking page
 Evening appointments are Thursdays only, from 6pm to 9pm.

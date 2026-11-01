@@ -56,7 +56,7 @@ Email gives you room to be gracious. It suits clients who do not text, and it is
 
 **2. Monthly ask to happy regulars.** Subject: A small favor, [Client first name]. Body: Hi [Client first name], you have been in a few times now and I wanted to say thank you properly. If you have a minute this week, a review would mean a lot. I am a small studio, so a handful of recent reviews genuinely changes who walks through the door. Here is the link: [Review link]. No pressure, and see you at your next appointment. [Stylist/Tech name].
 
-You do not have to send these by hand forever. Review requests by email can run automatically on every completed appointment, and the same list powers your other campaigns through [email marketing](/features/growth/email/) and [the reviews tool](/platform/tools/reviews/).
+You do not have to send these by hand forever. Review requests by email can run automatically on every completed appointment, and the same list powers your other campaigns through [email marketing](/platform/tools/marketing/) and [the reviews tool](/platform/tools/reviews/).
 
 ## The in-person script (say this at checkout).
 
@@ -124,7 +124,7 @@ So take yourself out of the loop. In BKRDY, marking an appointment complete trig
 
 Two things make it different from a generic review blast. It is **verified**, so requests only go to real completed bookings and the reviews you collect are tied to actual appointments. And it is **owner-moderated**, so you decide what publishes to your site. Email requests run today and SMS is coming soon.
 
-For a growing studio this sits on the Studio plan alongside per-chair calendars and staff logins. Read the details on [automated review requests](/features/growth/reviews/) and [the reviews tool](/platform/tools/reviews/), or check what it costs on [pricing](/pricing/).
+For a growing studio this sits on the Studio plan alongside per-chair calendars and staff logins. Read the details on [automated review requests](/platform/tools/reviews/) and [the reviews tool](/platform/tools/reviews/), or check what it costs on [pricing](/pricing/).
 
 ## Questions
 

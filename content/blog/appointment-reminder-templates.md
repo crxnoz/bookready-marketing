@@ -72,7 +72,7 @@ A template only works if it sounds like you and asks for one easy thing. A few r
 
 **Make it one tap.** Reply Y to confirm beats a paragraph of instructions. Every extra step loses a few replies.
 
-**Ask for the confirmation.** Some owners worry that asking clients to reply is annoying. It is not. A one-tap yes is far less annoying than a surprise no-show fee, and it is the single biggest lever in the whole sequence. See how the reply tracking works under [client reminders](/features/client/reminders/).
+**Ask for the confirmation.** Some owners worry that asking clients to reply is annoying. It is not. A one-tap yes is far less annoying than a surprise no-show fee, and it is the single biggest lever in the whole sequence. See how the reply tracking works under [client reminders](/platform/tools/notifications/).
 
 ## When a client needs a different message.
 

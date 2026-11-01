@@ -75,7 +75,7 @@ Still, compare them at the same scale. An extra appointment earns one service fe
 
 A number you have decided on is not a cap. A cap is a number that something other than you enforces. Thursday comes, your regular asks for the one day that is full, they ask nicely, and you like them. You will say yes, and the cap you set on Sunday will not survive the week. Closing the day before anyone asks is the only version that holds, and it is not personal when the booking page says it.
 
-BKRDY has a daily cap you can set for the whole business or per staff member, plus a cancellation waitlist that offers a freed slot to the people already waiting. The [settings](/features/) matter less than the number you pick.
+BKRDY has a daily cap you can set for the whole business or per staff member, plus a cancellation waitlist that offers a freed slot to the people already waiting. The [settings](/platform/) matter less than the number you pick.
 
 The trade-off, straight: a cap turns away work. On the day you would have squeezed someone in, it costs you a real service fee. You are choosing that on purpose, for the sake of the other seven appointments. And if your book is thin it is the wrong trade. A cap protects a full day and does nothing for an empty one except keep it empty.
 

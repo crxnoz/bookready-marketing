@@ -46,7 +46,7 @@ You do not need a sales pitch. You need one natural line you can say without thi
 
 For clients on a fixed rhythm, the ultimate rebooking tool is not a script at all. It is a standing appointment. Lash fills every two to three weeks, blowouts weekly, color every four to six weeks: these clients live on a predictable clock, and a recurring slot removes the decision entirely. They never have to remember to rebook, and you never have to ask.
 
-A standing appointment also protects your best hours for your most loyal clients. The Saturday-morning regular who has held the same 10am for a year is worth far more than a stranger, and locking in that slot means it is never accidentally given away. Set it up once in [recurring bookings](/platform/booking/recurring/) and the series books itself forward automatically, with a reminder before each visit so the client is never surprised.
+A standing appointment also protects your best hours for your most loyal clients. The Saturday-morning regular who has held the same 10am for a year is worth far more than a stranger, and locking in that slot means it is never accidentally given away. Set it up once in [recurring bookings](/platform/booking/calendar/) and the series books itself forward automatically, with a reminder before each visit so the client is never surprised.
 
 Be honest about who this fits. Recurring works for habitual clients, not occasional ones. Put someone who genuinely comes every ten weeks on a rigid four-week standing slot and you have manufactured cancellations, not loyalty. Offer it selectively, to the clients whose rhythm is already reliable, and let everyone else rebook visit by visit.
 
@@ -74,7 +74,7 @@ Not every client commits at checkout, and that is fine. Some genuinely do not kn
 
 The message is simple and useful. "Hi Maya, your lashes are due for a fill this week, here is the link to grab your spot." It lands right when the client is starting to notice the service wearing off, which is exactly when they are most receptive. The key is timing it to the interval you set on each service, not a generic monthly blast. A lash client and a balayage client are on different clocks, and a reminder that is perfectly timed for one is noise for the other.
 
-Set it once in your [notifications](/platform/tools/notifications/) and it runs on autopilot for every client who leaves without a next appointment. Pair it with well-timed [client reminders](/features/client/reminders/) so the nudge is friendly and consistent, and the open-ended goodbye quietly becomes an easy rebook a few weeks later, without you lifting a finger.
+Set it once in your [notifications](/platform/tools/notifications/) and it runs on autopilot for every client who leaves without a next appointment. Pair it with well-timed [client reminders](/platform/tools/notifications/) so the nudge is friendly and consistent, and the open-ended goodbye quietly becomes an easy rebook a few weeks later, without you lifting a finger.
 
 ## Make rebooking one tap on their phone.
 
@@ -88,7 +88,7 @@ When a client wants a slot that is already taken, do not let that demand leak aw
 
 Plenty of talented pros quietly undercharge their own time by never asking for the rebook, because it feels pushy. That instinct is understandable and completely backwards. You are not selling. You are saving the client the hassle of losing their preferred slot, and the clients who love your work genuinely want to be asked. Silence is the pushy move, because it leaves them to figure it out alone.
 
-Here is a confidence script for the nervous moment: "I would love to keep you looking like this, want me to hold your next spot?" Warm, specific, easy to say yes or no to. Say it the same way every time until it stops feeling like a big ask and starts feeling like part of the goodbye. A small number of clients will decline, and that is completely fine. The automated reminder catches them a few weeks later, so a no today is not a lost client, just a later rebook. And if plans change, a simple [reschedule](/features/client/reschedule/) link means nobody feels trapped by the slot they booked.
+Here is a confidence script for the nervous moment: "I would love to keep you looking like this, want me to hold your next spot?" Warm, specific, easy to say yes or no to. Say it the same way every time until it stops feeling like a big ask and starts feeling like part of the goodbye. A small number of clients will decline, and that is completely fine. The automated reminder catches them a few weeks later, so a no today is not a lost client, just a later rebook. And if plans change, a simple [reschedule](/platform/booking/online/) link means nobody feels trapped by the slot they booked.
 
 ## Track your rebooking rate and lift it.
 

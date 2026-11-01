@@ -68,9 +68,9 @@ A booking page connected to the right tools does far more than schedule appointm
 
 **CRM integration and client profiling** are the foundation of a well-connected booking system. [CRM-integrated booking pages](https://atlasperk.com/guides/website-conversion-for-travel/booking-forms/) enable progressive client profiling, collecting minimal data at booking and richer preferences afterward. For a lash artist, this means knowing a returning client’s preferred curl type before they arrive. For a nail tech, it means remembering a client’s sensitivity to certain products. That level of personalization is what turns one-time clients into regulars.
 
-**Automated reminders** are the single highest-return feature you can add to your booking system. Clients who receive reminders are significantly less likely to miss appointments, which directly protects your revenue. BKRDY’s [automated reminder system](/features/client/reminders) sends timed notifications so you never have to chase clients manually.
+**Automated reminders** are the single highest-return feature you can add to your booking system. Clients who receive reminders are significantly less likely to miss appointments, which directly protects your revenue. BKRDY’s [automated reminder system](/platform/tools/notifications/) sends timed notifications so you never have to chase clients manually.
 
-**Self-serve rescheduling** reduces the back-and-forth that eats up your time between appointments. When clients can [reschedule on their own](/features/client/reschedule) through the booking portal, they are more likely to keep the appointment rather than cancel outright. It also removes the awkward phone call that neither party enjoys.
+**Self-serve rescheduling** reduces the back-and-forth that eats up your time between appointments. When clients can [reschedule on their own](/platform/booking/online/) through the booking portal, they are more likely to keep the appointment rather than cancel outright. It also removes the awkward phone call that neither party enjoys.
 
 **Unified branded portals** tie everything together. When your booking page, confirmation emails, and reminder messages all carry the same visual identity and tone, clients experience your brand as consistent and professional at every touchpoint.
 

@@ -147,5 +147,5 @@ Yes. Frequency typically starts higher during active treatment phases and decrea
 ## Recommended
 
 - [Customer accounts & client profiles | BKRDY](/platform/tools/customers)
-- [Automated reminders for clients | BKRDY](/features/client/reminders)
-- [Self-serve reschedule for clients | BKRDY](/features/client/reschedule)
+- [Automated reminders for clients | BKRDY](/platform/tools/notifications/)
+- [Self-serve reschedule for clients | BKRDY](/platform/booking/online/)

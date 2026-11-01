@@ -48,7 +48,7 @@ Booksy is a marketplace first. Clients open the app, search for a service near t
 
 The catch is what you are renting. Your bookings happen on booksy.com, under their brand, next to every other local pro competing for the same client. You are paying for traffic to a profile you do not own, on a platform that can change its rules, its fees, and its search ranking whenever it wants. The clients feel like Booksy clients, not yours.
 
-The alternative is to own the funnel: your own site, your own client list. New clients still find you through Instagram, Google, and word of mouth, but they land on something you control. More on how that works on our [booking website](/platform/website/) page.
+The alternative is to own the funnel: your own site, your own client list. New clients still find you through Instagram, Google, and word of mouth, but they land on something you control. More on how that works on our [booking website](/platform/website/templates/) page.
 
 ## Is Booksy worth it for your stage?
 

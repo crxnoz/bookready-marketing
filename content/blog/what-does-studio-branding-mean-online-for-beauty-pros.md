@@ -115,7 +115,7 @@ My honest advice is to start with words before visuals. Write down what your stu
 
 Your booking page is the moment your brand either earns a client or loses one. BKRDY builds [professionally designed booking websites](/for-spas) tailored specifically for independent beauty studios, including lash artists, nail techs, hairstylists, and estheticians.
 
-Every BKRDY site is built to reflect your studio’s identity, not a generic template. Built-in scheduling, Stripe deposit handling, [automated client reminders](/features/client/reminders), and personalized client history management all work together to create a booking experience that reinforces your brand at every step. For beauty pros who want a professional online presence without a lengthy setup, BKRDY is built for exactly that. See what a [branded booking site](/for-estheticians) looks like for your studio type.
+Every BKRDY site is built to reflect your studio’s identity, not a generic template. Built-in scheduling, Stripe deposit handling, [automated client reminders](/platform/tools/notifications/), and personalized client history management all work together to create a booking experience that reinforces your brand at every step. For beauty pros who want a professional online presence without a lengthy setup, BKRDY is built for exactly that. See what a [branded booking site](/for-estheticians) looks like for your studio type.
 
 ## FAQ
 

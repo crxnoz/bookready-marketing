@@ -138,7 +138,7 @@ My honest advice is to pick a platform built for beauty professionals rather tha
 
 Independent studio owners who want a booking site that reflects their brand without building one from scratch have a direct option.
 
-BKRDY builds [custom booking websites](/for-salons) for hair salons, lash artists, nail technicians, estheticians, and spas. Each site includes built-in scheduling, Stripe deposit handling, automatic reminders, and a smart waitlist. Setup does not require design experience or a developer. If you are a [nail technician](/for-nail-techs) or an esthetician looking for a booking site that works out of the box, BKRDY’s [platform features](/features) cover everything this guide recommends, in one place.
+BKRDY builds [custom booking websites](/for-salons) for hair salons, lash artists, nail technicians, estheticians, and spas. Each site includes built-in scheduling, Stripe deposit handling, automatic reminders, and a smart waitlist. Setup does not require design experience or a developer. If you are a [nail technician](/for-nail-techs) or an esthetician looking for a booking site that works out of the box, BKRDY’s [platform features](/platform/) cover everything this guide recommends, in one place.
 
 ## FAQ
 

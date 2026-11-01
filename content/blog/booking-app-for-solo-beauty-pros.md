@@ -74,7 +74,7 @@ When you are solo, a no-show is not a gap someone else can fill. There is no sec
 
 For deposits, a simple rule works: a flat deposit on services under $50, and 20 to 30 percent on anything above that. Enough that a client thinks twice before ghosting, not so much that it scares off a first-timer. Set it per service so a quick fill and a three-hour session are treated differently. For reminders, use a short sequence: an immediate confirmation when they book, a nudge about 48 hours out, and a day-of message. Text and email both work, and the point is that it runs on its own.
 
-The good news is you do not have to invent any of this. BKRDY's [reminder tools](/features/client/reminders/) ship with sensible defaults you can copy and adjust, so the sequence is on from day one instead of a thing you mean to set up later. And if you want the full playbook on cutting no-shows, deposits, cancellation windows, and the policies that actually hold, the guide on [reducing no-shows](/guides/reducing-no-shows/) walks through it step by step. For a solo pro, these two settings are not optional polish. They are the difference between a protected calendar and a leaky one.
+The good news is you do not have to invent any of this. BKRDY's [reminder tools](/platform/tools/notifications/) ship with sensible defaults you can copy and adjust, so the sequence is on from day one instead of a thing you mean to set up later. And if you want the full playbook on cutting no-shows, deposits, cancellation windows, and the policies that actually hold, the guide on [reducing no-shows](/guides/reducing-no-shows/) walks through it step by step. For a solo pro, these two settings are not optional polish. They are the difference between a protected calendar and a leaky one.
 
 ## Why owning your client list matters more when you are solo.
 
@@ -82,7 +82,7 @@ A marketplace is convenient right up until you want to leave. It controls the UR
 
 Owning your business as an asset means owning the things a competitor cannot switch off. Your own booking site, so the page clients land on is yours. Your own client list, so you can reach the people you have served. Your own reviews, sitting on a page you control instead of a profile someone else can change or delist. When those live with you, the business is something you could sell, move, or grow on your terms, not a tenancy in someone else's app.
 
-Practically, this is easy to start. Export your existing client list as a CSV from whatever you use now, and import it somewhere you own. BKRDY keeps every client on file in your own [customer records](/platform/tools/customers/), and it collects [verified reviews](/features/growth/reviews/) on assets that belong to you, not to a marketplace. Start the ownership habit early, while the list is small and easy to move. The longer you rent, the more expensive leaving becomes, which is exactly why the marketplace wants you to stay.
+Practically, this is easy to start. Export your existing client list as a CSV from whatever you use now, and import it somewhere you own. BKRDY keeps every client on file in your own [customer records](/platform/tools/customers/), and it collects [verified reviews](/platform/tools/reviews/) on assets that belong to you, not to a marketplace. Start the ownership habit early, while the list is small and easy to move. The longer you rent, the more expensive leaving becomes, which is exactly why the marketplace wants you to stay.
 
 ## The fastest path to live as a solo pro.
 

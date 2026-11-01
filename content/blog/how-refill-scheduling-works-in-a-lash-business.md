@@ -114,7 +114,7 @@ Investing in a purpose-built booking platform like BKRDY is not a luxury for stu
 
 Lash refill scheduling only works consistently when the right tools are behind it. BKRDY is built for independent lash artists who want a booking experience that reflects their brand and handles the operational side without extra effort.
 
-With BKRDY, your lash booking website includes automated refill reminders timed to your preferred window, client history tracking, deposit processing through Stripe, and a waitlist that fills cancellations automatically. Your service menu can display eligibility rules clearly so clients arrive knowing exactly what to expect. Setup takes hours, not weeks, and the result is a calendar that manages itself. See how BKRDY’s [full feature set](/features) supports your refill scheduling workflow from day one.
+With BKRDY, your lash booking website includes automated refill reminders timed to your preferred window, client history tracking, deposit processing through Stripe, and a waitlist that fills cancellations automatically. Your service menu can display eligibility rules clearly so clients arrive knowing exactly what to expect. Setup takes hours, not weeks, and the result is a calendar that manages itself. See how BKRDY’s [full feature set](/platform/) supports your refill scheduling workflow from day one.
 
 ## FAQ
 

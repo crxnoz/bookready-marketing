@@ -36,7 +36,7 @@ Three groups cover almost every book. **High-value regulars who suddenly stopped
 
 **One-and-done clients who never rebooked** get a lighter touch. A single visit that never repeated often signals a fit problem, wrong service, wrong price point, wrong expectations, and no amount of warmth fixes that. Automate this group and move on. **Clients who moved or had a one-time need**, the bride, the visitor, the person now living two states away, should be let go without guilt. Over-investing here is the most common way winback wastes a week.
 
-Build the segments once with BKRDY [customer tags](/platform/tools/customers/) and save them, so the sequence targets the right people every time instead of being rebuilt from memory. The [client management view](/features/manage/customers/) is where you tag them as you go.
+Build the segments once with BKRDY [customer tags](/platform/tools/customers/) and save them, so the sequence targets the right people every time instead of being rebuilt from memory. The [client management view](/platform/tools/customers/) is where you tag them as you go.
 
 ## The three-message win-back sequence.
 
@@ -48,7 +48,7 @@ Three touches, spaced out, escalating gently. Each one gives the client a differ
 
 **3. The optional incentive, only where it makes sense.** "Would love to see you back. Here is 15% off your next visit if you book by Friday." Send this to the segments that earn it and skip it for the rest. Read the next section before you decide who those are.
 
-BKRDY [winback](/features/growth/winback/) runs this shape for you, and the [email tools](/features/growth/email/) handle the second and third touches.
+BKRDY [winback](/platform/tools/customers/) runs this shape for you, and the [email tools](/platform/tools/marketing/) handle the second and third touches.
 
 ## When a discount is worth it, and when it trains bad behavior.
 
@@ -64,7 +64,7 @@ The rule of thumb: lead with value and convenience, hold the discount for the th
 
 Here is what happens when winback is a manual task. You do it in January, it works, you feel great, and you never do it again because February is busy. The single biggest predictor of whether reactivation earns anything is whether it runs without you remembering it.
 
-So set it once. BKRDY [winback](/features/growth/winback/) fires when a client crosses the lapse threshold for their service, pulls the matching segment from your tags, and sends the sequence on its own schedule. The client who goes quiet in March gets caught in May whether or not you were thinking about it.
+So set it once. BKRDY [winback](/platform/tools/customers/) fires when a client crosses the lapse threshold for their service, pulls the matching segment from your tags, and sends the sequence on its own schedule. The client who goes quiet in March gets caught in May whether or not you were thinking about it.
 
 Match the trigger to the service interval rather than setting one generic 90-day rule across the book. A lash client and a facial client should not be crossing the same line, and a single threshold guarantees you are either late for one or early for the other. Set the number per service and the timing stops being a compromise.
 
@@ -74,7 +74,7 @@ Automation does not replace the personal layer, it protects it. Let the system h
 
 The channel changes how a winback message lands, so match it to the touch rather than sending everything the same way.
 
-Email carries the longer touches well. The what-is-new note with a photo of the new treatment room, the seasonal gift-style offer, the message that needs two sentences of context all read naturally in an inbox and cost nothing to send at any scale. Email is the right default for your automated sequence and for anyone in the one-and-done segment. See the [email tools](/features/growth/email/) for how the sequences are built.
+Email carries the longer touches well. The what-is-new note with a photo of the new treatment room, the seasonal gift-style offer, the message that needs two sentences of context all read naturally in an inbox and cost nothing to send at any scale. Email is the right default for your automated sequence and for anyone in the one-and-done segment. See the [email tools](/platform/tools/marketing/) for how the sequences are built.
 
 A short personal text from the owner is the heaviest thing you can send, and its weight comes entirely from scarcity. It works because it is obviously not a campaign. Send fifty of them and it becomes one, and the effect is gone. Reserve texts for the high-value lapsed regulars you would genuinely be sorry to lose, and write each one yourself.
 

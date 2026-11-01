@@ -123,7 +123,7 @@ The professionals who get the most out of automated scheduling reminders are the
 
 ## BKRDY’s booking sites come with reminders built in
 
-Independent beauty professionals spend too much time chasing confirmations. BKRDY was built to fix that. Every [BKRDY booking website](/features) includes automated SMS and email reminders, live calendar sync, and a smart waitlist that fills open slots the moment a cancellation comes in.
+Independent beauty professionals spend too much time chasing confirmations. BKRDY was built to fix that. Every [BKRDY booking website](/platform/) includes automated SMS and email reminders, live calendar sync, and a smart waitlist that fills open slots the moment a cancellation comes in.
 
 Whether you are a [lash artist](/for-lash-artists), a [nail tech](/for-nail-techs), or running a [full-service salon](/for-salons), BKRDY gives you a branded booking page that handles client communication from the first booking to the post-visit rebooking prompt. Setup takes minutes, not weeks. No design experience needed. The reminders run from day one.
 

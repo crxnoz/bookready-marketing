@@ -110,7 +110,7 @@ My honest advice: do not wait until you are at capacity to set this up. Migratin
 
 Independent beauty studios spend too much time managing tools that were never designed to work together. BKRDY was built specifically for lash artists, nail technicians, hairstylists, and estheticians who want a professional booking website with Stripe payment handling already in place.
 
-BKRDY’s platform includes deposit flows, [automated client reminders](/features/client/reminders), and [client profile management](/platform/tools/customers) connected to every booking. Whether you run a [spa](/for-spas) or a solo nail studio, the payment and booking experience your clients see is branded, fast, and built on Stripe from the start. No third-party configuration, no generic links, and no technical setup required.
+BKRDY’s platform includes deposit flows, [automated client reminders](/platform/tools/notifications/), and [client profile management](/platform/tools/customers) connected to every booking. Whether you run a [spa](/for-spas) or a solo nail studio, the payment and booking experience your clients see is branded, fast, and built on Stripe from the start. No third-party configuration, no generic links, and no technical setup required.
 
 ## FAQ
 

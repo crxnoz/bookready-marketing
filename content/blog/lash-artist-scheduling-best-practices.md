@@ -88,7 +88,7 @@ No-shows are the most expensive problem in a lash calendar. A missed 90-minute s
 | Buffer time between slots | Prevents cascading lateness | Improves on-time start rate |
 
 - **Send two reminders, not one.** A 48-hour reminder gives clients time to reschedule if something came up. A 24-hour reminder catches the ones who forgot.
-- **Make rescheduling easy.** If canceling feels easier than rescheduling, clients will cancel. A [self-serve reschedule option](/features/client/reschedule) lets clients move their appointment without calling or texting you, which means fewer no-shows and more future bookings.
+- **Make rescheduling easy.** If canceling feels easier than rescheduling, clients will cancel. A [self-serve reschedule option](/platform/booking/online/) lets clients move their appointment without calling or texting you, which means fewer no-shows and more future bookings.
 - **Require a deposit.** A deposit does not guarantee attendance, but it dramatically reduces the casual “I’ll just skip it” cancellation. Even a small holding fee changes the calculus.
 - **Use data to spot patterns.** If Monday mornings consistently produce no-shows, that is a scheduling signal, not bad luck. Pull your booking data monthly and look for patterns by day, time slot, and service type.
 - **Follow up gently after a missed appointment.** A short, non-accusatory message like “We missed you today, hope everything is okay, here’s a link to rebook” keeps the relationship intact and often brings the client back.

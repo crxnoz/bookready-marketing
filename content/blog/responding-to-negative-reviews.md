@@ -58,7 +58,7 @@ Here is the part owners miss when they are panicking: a well-handled complaint o
 
 So walk the play. Respond calmly in public using the framework. Then resolve generously in private: a redo, a partial refund, or a genuinely thoughtful fix that costs you a little and buys back a lot. Overdeliver on the recovery, because the recovery is the marketing. Once the client is happy again, and only then, it is fair to mention you would welcome an updated review. Say it lightly, never demand it, and never make the fix conditional on a better rating.
 
-A surprising share of removed or upgraded reviews come from exactly this sequence: calm reply, generous private fix, gentle follow-up. And notice what you have really done. You did not just clean up a review, you recovered a client who was on their way out the door. That is a retention story, and retention is where the money is. This is win-back in miniature, so it pairs naturally with your [client retention playbook](/guides/client-retention-strategies/) and the automated [win-back tools](/features/growth/winback/) that bring lapsed clients back on their own.
+A surprising share of removed or upgraded reviews come from exactly this sequence: calm reply, generous private fix, gentle follow-up. And notice what you have really done. You did not just clean up a review, you recovered a client who was on their way out the door. That is a retention story, and retention is where the money is. This is win-back in miniature, so it pairs naturally with your [client retention playbook](/guides/client-retention-strategies/) and the automated [win-back tools](/platform/tools/customers/) that bring lapsed clients back on their own.
 
 ## Response examples for the most common complaints.
 
@@ -80,7 +80,7 @@ A single bad review stings most when it sits near the top of a thin profile. If 
 
 So bury it the honest way. Collect a steady, ongoing stream of fresh verified reviews so a single off day becomes one quiet voice among many recent ones. When you have a constant drip of new five-stars, an old one-star drops down the page and loses its power to define you, and it does it without any tricks. Owners who ask after every visit almost never panic over a single bad review, because they know three good ones are landing this week.
 
-The trick is to make the ask automatic instead of relying on memory. Work through the [get-more-reviews playbook](/guides/how-to-get-more-salon-reviews/), then let BKRDY's [reviews feature](/features/growth/reviews/) fire a verified request after every completed appointment on its own. You focus on the chair. The profile keeps refreshing itself in the background, which is the whole point.
+The trick is to make the ask automatic instead of relying on memory. Work through the [get-more-reviews playbook](/guides/how-to-get-more-salon-reviews/), then let BKRDY's [reviews feature](/platform/tools/reviews/) fire a verified request after every completed appointment on its own. You focus on the chair. The profile keeps refreshing itself in the background, which is the whole point.
 
 ## Building a reputation that survives a bad day.
 

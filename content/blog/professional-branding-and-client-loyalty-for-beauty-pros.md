@@ -117,7 +117,7 @@ The beauty professionals with the most loyal books are not necessarily the most 
 
 BKRDY builds booking websites specifically for independent beauty studios, including lash artists, nail technicians, hairstylists, and estheticians. Every site is designed to reflect your brand, not a generic template that could belong to anyone.
 
-Features like [automated client reminders](/features/client/reminders), [personalized client profiles](/platform/tools/customers), deposit handling through Stripe, and a smart waitlist work together to make your brand feel consistent and attentive at every touchpoint. Whether you run a [spa](/for-spas), a [hair salon](/for-salons), or a solo lash studio, BKRDY gives you a professional online presence that earns client trust before the first appointment and keeps them coming back after it.
+Features like [automated client reminders](/platform/tools/notifications/), [personalized client profiles](/platform/tools/customers), deposit handling through Stripe, and a smart waitlist work together to make your brand feel consistent and attentive at every touchpoint. Whether you run a [spa](/for-spas), a [hair salon](/for-salons), or a solo lash studio, BKRDY gives you a professional online presence that earns client trust before the first appointment and keeps them coming back after it.
 
 ## FAQ
 

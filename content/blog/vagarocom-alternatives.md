@@ -255,7 +255,7 @@ Beyond the visual design, BKRDY includes the operational tools an independent st
 - **Personalized client history** so you know what every client had done, when, and what they preferred
 - **Automatic appointment reminders** that reduce no-shows without requiring manual follow-up
 - **Smart waitlist** that fills canceled slots automatically, keeping the calendar full
-- **[Self-serve rescheduling](/features/client/reschedule)** so clients can move appointments without calling or texting
+- **[Self-serve rescheduling](/platform/booking/online/)** so clients can move appointments without calling or texting
 
 The client experience on a BKRDY booking page is genuinely different from what most scheduling software produces. There is no redirect to a marketplace. There is no account creation requirement. The client lands on a page that looks like your studio, books in a few taps, and receives a confirmation that carries your brand throughout.
 

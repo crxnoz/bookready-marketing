@@ -34,7 +34,7 @@ If you do one thing from this guide, do this. Booking the next visit while the c
 
 So make it a habit at checkout. While you are ringing them up, say the line out loud: "You are due again in about six weeks, want me to lock in the same time?" Open the calendar right there. Book the slot. Clients who rebook on the spot return at dramatically higher rates than those who leave with an open-ended "I'll text you." You are not being pushy. You are making it easy.
 
-For clients who come on a fixed rhythm (the every-four-weeks color client, the standing blowout), set them up on [recurring bookings](/platform/booking/recurring/) so the standing slot repeats without anyone having to remember. The habit does the heavy lifting, and the software makes it stick.
+For clients who come on a fixed rhythm (the every-four-weeks color client, the standing blowout), set them up on [recurring bookings](/platform/booking/calendar/) so the standing slot repeats without anyone having to remember. The habit does the heavy lifting, and the software makes it stick.
 
 ## Loyalty and membership thinking (without a points app).
 
@@ -50,7 +50,7 @@ Clients go cold in the silence between visits. A cadence fills that silence with
 
 The why matters. The gap between visits is exactly when a competitor can capture them. A single well-timed nudge, sent right when they are starting to notice their roots, reclaims the slot before anyone else gets the chance. It reads as thoughtful, not salesy, because the timing is genuinely useful to them.
 
-The one rule: match the interval to the service, not to a generic monthly blast. A lash client and a balayage client live on different clocks, and a message that lands at the right moment for one is noise for the other. BKRDY can fire [reminders](/features/client/reminders/) and follow-ups automatically on the interval you set, so the cadence runs whether or not you remember to think about it.
+The one rule: match the interval to the service, not to a generic monthly blast. A lash client and a balayage client live on different clocks, and a message that lands at the right moment for one is noise for the other. BKRDY can fire [reminders](/platform/tools/notifications/) and follow-ups automatically on the interval you set, so the cadence runs whether or not you remember to think about it.
 
 ## Track repeat-visit rate (the metric that predicts revenue).
 
@@ -58,7 +58,7 @@ Here is the one number most owners never look at: repeat-visit rate. It is the s
 
 Read it like this. Under 30 percent means a leaky funnel, and you should fix retention before spending another dollar on ads. Between 40 and 50 percent is healthy for most studios. Above 60 percent is excellent and usually means your rebook-at-checkout habit is working. Contrast that with a vanity metric like follower count, which can look great while the chair sits empty.
 
-You can check repeat-visit rate, average visits per client per year, and time-between-visits directly in your [BKRDY analytics](/platform/tools/analytics/), and dig into the retention trends over time in [growth analytics](/features/growth/analytics/). What you measure, you improve. Watch this number monthly and let it point you at the leak.
+You can check repeat-visit rate, average visits per client per year, and time-between-visits directly in your [BKRDY analytics](/platform/tools/analytics/), and dig into the retention trends over time in [growth analytics](/platform/tools/analytics/). What you measure, you improve. Watch this number monthly and let it point you at the leak.
 
 ## Personal touches that scale without burning you out.
 
@@ -66,7 +66,7 @@ This is where most retention advice falls apart. "Just be more personal" is usel
 
 Keep a saved note on each client: the kids' names, the exact color formula, how they take their coffee, the vacation they mentioned last time. Surface it right before the appointment so you walk in already knowing. Add a happy-birthday message and a simple "we saved your formula, want to rebook?" text. None of it is fake. It is the same attentiveness you would give if you could remember everything, made reliable.
 
-Use [customer tags and notes](/platform/tools/customers/) so the relationship is not trapped in your head. When any team member can open the [client record](/features/manage/customers/) and pick up exactly where you left off, the studio feels personal even on your day off. Do not fake intimacy. Automate the recall, and spend your real attention on the person in front of you.
+Use [customer tags and notes](/platform/tools/customers/) so the relationship is not trapped in your head. When any team member can open the [client record](/platform/tools/customers/) and pick up exactly where you left off, the studio feels personal even on your day off. Do not fake intimacy. Automate the recall, and spend your real attention on the person in front of you.
 
 ## Catch clients before they fully lapse.
 
@@ -74,7 +74,7 @@ Even a great cadence loses some people. Winback is the safety net, and the cheap
 
 The trick is catching them early. A client who is two weeks past their normal interval is a soft lapse, and a soft lapse is far easier to recover than someone who has been gone 90 days. Once a lapse hardens into a new routine somewhere else, you are competing all over again. So watch for the drift and send a light, warm nudge before they fully disappear: no discount begging, just a friendly "we noticed it has been a while, your chair is here when you want it."
 
-BKRDY's [winback](/features/growth/winback/) tool can flag clients who slip past their usual interval and send that message automatically, so the safety net is always there even when you are not watching the calendar.
+BKRDY's [winback](/platform/tools/customers/) tool can flag clients who slip past their usual interval and send that message automatically, so the safety net is always there even when you are not watching the calendar.
 
 ## Your retention system on one page.
 

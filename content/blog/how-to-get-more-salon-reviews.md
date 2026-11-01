@@ -26,7 +26,7 @@ Start with the number that explains everything: roughly 5 to 10 percent of satis
 
 This is the silent-majority problem. Your regulars adore you. They rebook, they refer their friends, they tip well. But leaving a public review is not something that occurs to a happy person mid-life. They walk out feeling great and the thought never crosses their mind. There is no signal, so there is no post.
 
-The fix is not better service. You are already good, and getting better will not close this gap, because the gap is not about quality. It is about the ask. A deliberate, well-timed request turns that silent goodwill into visible proof. Everything in this guide builds on that one shift: stop hoping clients remember, and start making the ask a normal part of how you close out a visit. BKRDY's [reviews feature](/features/growth/reviews/) exists to make that ask automatic, so you never carry the burden of remembering.
+The fix is not better service. You are already good, and getting better will not close this gap, because the gap is not about quality. It is about the ask. A deliberate, well-timed request turns that silent goodwill into visible proof. Everything in this guide builds on that one shift: stop hoping clients remember, and start making the ask a normal part of how you close out a visit. BKRDY's [reviews feature](/platform/tools/reviews/) exists to make that ask automatic, so you never carry the burden of remembering.
 
 ## The single best moment to ask for a review.
 
@@ -58,7 +58,7 @@ This is the counterintuitive one, and it frees a lot of owners once it clicks. A
 
 What people actually trust is the shape of the profile: lots of reviews, recent dates, a believable spread of voices. A wall of glowing feedback with fresh timestamps says "this place is busy and loved right now." A frozen 5.0 with four reviews says "either brand new or hiding something." The average matters far less than the volume and the recency around it.
 
-The trap is that chasing a spotless average makes owners afraid to ask, in case someone leaves a 4. That is exactly backwards. The goal is a steady drip of recent, honest reviews, not a museum piece. This is where automation earns its keep: a [request after every visit](/features/growth/reviews/) keeps your most recent review days old instead of years, and keeps the count climbing without you thinking about it. Recency takes care of itself when the ask never stops.
+The trap is that chasing a spotless average makes owners afraid to ask, in case someone leaves a 4. That is exactly backwards. The goal is a steady drip of recent, honest reviews, not a museum piece. This is where automation earns its keep: a [request after every visit](/platform/tools/reviews/) keeps your most recent review days old instead of years, and keeps the count climbing without you thinking about it. Recency takes care of itself when the ask never stops.
 
 ## How to ask out loud without the cringe.
 
@@ -80,7 +80,7 @@ Here is the part that surprises people: a few less-than-perfect reviews actually
 
 A review count is not the goal. Bookings are. Reviews are only worth collecting if they push a hesitating visitor over the line into a confirmed appointment, so the last step is putting them to work instead of letting them sit as a vanity badge on a profile page.
 
-Do three things. Feature your best verified reviews on your booking page, right next to the book button, so proof and action live in the same glance. Reference recent reviews in your [email](/features/growth/email/) and win-back campaigns, because a lapsed client is far more likely to rebook when they are reminded that people love the work right now. And let fresh social proof lift conversion on cold traffic arriving from Google and Instagram, where a stranger needs a reason to trust you fast.
+Do three things. Feature your best verified reviews on your booking page, right next to the book button, so proof and action live in the same glance. Reference recent reviews in your [email](/platform/tools/marketing/) and win-back campaigns, because a lapsed client is far more likely to rebook when they are reminded that people love the work right now. And let fresh social proof lift conversion on cold traffic arriving from Google and Instagram, where a stranger needs a reason to trust you fast.
 
 This is also where the tooling starts to matter as you grow. Reviews running automatically alongside [marketing](/platform/tools/marketing/) and campaigns is exactly the kind of setup the Studio plan is built for, a growing salon that wants the whole loop, collect, display, promote, working together. When you are ready to see how it prices out, the [pricing page](/pricing/) lays it out plainly, no games.
 

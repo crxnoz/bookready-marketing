@@ -101,7 +101,7 @@ When you are moving client data to a new system, the last thing you want is a ge
 **What BKRDY brings to the transition:**
 
 - **Built-in deposit handling via Stripe**, so your deposit flows carry over without needing a separate payment setup.
-- **[Automated reminders](/features/client/reschedule)** that fire without manual input, reducing no-shows during the adjustment period when clients are still getting used to the new booking link.
+- **[Automated reminders](/platform/booking/online/)** that fire without manual input, reducing no-shows during the adjustment period when clients are still getting used to the new booking link.
 - **A smart waitlist** that fills canceled slots automatically, protecting revenue during the weeks when your calendar is still settling.
 - **Client self-service rescheduling**, which takes the administrative load off you when clients need to adjust appointments mid-transition.
 - **A branded booking website**, not a generic link. Your studio’s name, photos, and services are front and center, so the new booking experience feels intentional rather than like a software upgrade your clients have to tolerate.
@@ -124,5 +124,5 @@ Transferring appointments to a new booking system goes smoothly when you standar
 
 ## Recommended
 
-- [Self-serve reschedule for clients | BKRDY](/features/client/reschedule)
+- [Self-serve reschedule for clients | BKRDY](/platform/booking/online/)
 - [Automate Client Appointment Reminders: A Beauty Pro Guide | BKRDY](/blog/automate-client-appointment-reminders-a-beauty-pro-guide)

@@ -105,7 +105,7 @@ One nuance worth noting: deposit transfers are a genuinely useful middle ground.
 
 Running deposit collection manually is one of those tasks that sounds simple until you are chasing a payment link at 9 PM the night before a full day of appointments. BKRDY builds deposit handling directly into your booking website so the entire process runs without you touching it.
 
-BKRDY processes deposits through Stripe at the moment of booking, which means clients pay before the appointment is confirmed. You can set different deposit amounts per service, configure your cancellation window, and let the platform enforce the rules automatically. Studios using BKRDY also get [client self-serve rescheduling](/features/client/reschedule) built in, so clients can move appointments within your policy terms without calling you. Whether you run a [hair salon](/for-salons) or a lash studio, BKRDY gives you a booking site that looks professional and handles the financial details correctly from day one.
+BKRDY processes deposits through Stripe at the moment of booking, which means clients pay before the appointment is confirmed. You can set different deposit amounts per service, configure your cancellation window, and let the platform enforce the rules automatically. Studios using BKRDY also get [client self-serve rescheduling](/platform/booking/online/) built in, so clients can move appointments within your policy terms without calling you. Whether you run a [hair salon](/for-salons) or a lash studio, BKRDY gives you a booking site that looks professional and handles the financial details correctly from day one.
 
 ## FAQ
 
