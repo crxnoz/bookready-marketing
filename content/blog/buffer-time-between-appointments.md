@@ -9,7 +9,7 @@ date: 2026-11-02
 pillar: the-week
 keywords: buffer time between appointments
 photoTerms: nail technician finishing client manicure salon | barber sweeping station between clients | esthetician wiping down treatment room
-status: draft
+status: published
 ---
 
 If your day is thirty minutes late by 3pm, the cause is almost never the one client who talked too much. It is the calendar. Your service times are set to the best possible version of each service: the client who arrives early, sits still, pays on the first tap and leaves.
