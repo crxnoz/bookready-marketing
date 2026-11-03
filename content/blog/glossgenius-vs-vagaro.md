@@ -20,13 +20,13 @@ If you work alone or with one or two other people and you want one subscription,
 
 ## They are built for different sizes of business
 
-GlossGenius is beauty-native and opinionated. A booking page, card processing and a card reader are bundled into the subscription, so there is one bill and one support line, and the words in the app are the words you use: fills, add-ons, deposits, tips, color notes. The flip side of opinionated is less room to configure: when your way of working does not match what the app expects, there is often no setting for it.
+GlossGenius is beauty-native and opinionated. A booking page and card processing are bundled into the subscription, so there is one bill and one support line, and the words in the app are the words you use: fills, add-ons, deposits, tips, color notes. The flip side of opinionated is less room to configure: when your way of working does not match what the app expects, there is often no setting for it.
 
 Vagaro is the opposite trade: more staff, payroll, inventory, memberships, packages, classes, a marketplace listing, hardware, and more settings than most solo pros will ever open. Six chairs, a product wall and a Saturday class is what that depth is for. It is also the learning curve. The owners who love Vagaro usually have a front desk that learned it properly. The ones who resent it are one person inside software built for twelve chairs.
 
 ## The cost does not grow the same way
 
-GlossGenius leans toward a flatter shape: a subscription, with the website and the reader inside it. Vagaro grows with you, because you pay as you add staff calendars and as you switch on add-ons for payroll or marketing, so two Vagaro salons can pay very different amounts.
+GlossGenius leans toward a flatter shape: a subscription, with the website inside it. Vagaro grows with you, because you pay as you add staff calendars and as you switch on add-ons for payroll or marketing, so two Vagaro salons can pay very different amounts.
 
 Both change their prices and what each tier includes, so do not trust a figure from an article, including this one. Price the tier you would be on from each company's own page, add the processing percentage, and use the staff count you will need twelve months from now rather than today's.
 

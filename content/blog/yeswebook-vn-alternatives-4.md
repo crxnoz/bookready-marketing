@@ -76,7 +76,7 @@ Free to start. Paid plans begin at $18/mo billed annually for solo professionals
 
 ### At a Glance
 
-Founded by former salon owners, Rosy focuses on workflows that match how salons actually operate. It pairs in-salon scheduling with online booking and messaging. The product starts from $44/month and includes a 14-day free trial for new accounts.
+Founded by former salon owners, Rosy focuses on workflows that match how salons actually operate. It pairs in-salon scheduling with online booking and messaging. The product starts from $29/month with its RosyPay discount and includes a 14-day free trial for new accounts.
 
 ### Core Features
 
@@ -114,7 +114,7 @@ A boutique salon owner runs daily bookings from a tablet. She uses Rosy to confi
 
 ### Pricing
 
-The vendor lists pricing starting at **$44/month** and offers a 14 day free trial for new customers. Tiers scale by number of employees, which affects seat counts and feature availability listed on the vendor site.
+The vendor lists pricing starting at **$29/month** with its RosyPay discount and offers a 14 day free trial for new customers. Tiers scale by number of employees, which affects seat counts and feature availability listed on the vendor site.
 
 **Website:** [https://rosysalonsoftware.com](https://rosysalonsoftware.com)
 
@@ -168,7 +168,7 @@ A regional salon chain uses Salonist to publish online booking pages for each lo
 
 ### Pricing
 
-Plans list a **Free** option and three paid tiers: **Essential $79/month**, **Advance $109/month**, and **Expert $179/month**. The trial runs for 14 days with no credit card required so you can test booking, POS, and marketing features before committing.
+Plans list a **Free** option and three paid tiers: **Essential $59/month**, **Advance $109/month**, and **Expert $179/month** when billed monthly. The trial runs for 7 days with no credit card required so you can test booking, POS, and marketing features before committing.
 
 **Website:** [https://salonist.io](https://salonist.io)
 
@@ -237,8 +237,8 @@ Here is a comparison of salon booking software solutions with standout features,
 | **Product** | **Core Feature** | **Key Differentiator** | **Best For** | **Pricing** | **Notable Limitation** |
 |---|---|---|---|---|---|
 | BKRDY | Website builder, booking, deposits | Brand-first booking site | Solo pros, small studios | Free, or from $18/month billed annually | Limited to US-based businesses |
-| Rosy Salon Software | Booking and POS system | Built by salon staff | Small salons, booth renters | From $44/month | Limited customization for enterprises |
-| Salonist | All-in-one booking and marketing system | Centralized management tools | Multi-location salons | Free/$79+/month | Free plan details not transparent |
+| Rosy Salon Software | Booking and POS system | Built by salon staff | Small salons, booth renters | From $29/month with RosyPay | Limited customization for enterprises |
+| Salonist | All-in-one booking and marketing system | Centralized management tools | Multi-location salons | Free/$59+/month | Free plan details not transparent |
 | Book in Beautiful | Booking and staff scheduling | No commission on bookings | UK salons, practitioners | Pricing not published | Industry compliance detail lacking |
 
 ## Why Do Beauty Professionals Seek Yeswebook.vn Alternatives Like BKRDY?

@@ -101,21 +101,21 @@ Inefficient time slot allocation is subtler but just as costly. A schedule full 
 
 ## Top appointment scheduling software options in the US for 2026
 
-Eleven platforms dominate the US market for small business scheduling. They vary significantly in depth, pricing, and the type of business they suit best.
+Here are eleven platforms worth knowing for small business scheduling. They vary significantly in depth, pricing, and the type of business they suit best.
 
 | Tool | Best For | Key Features | Pricing | When to Choose |
 |---|---|---|---|---|
-| [Calendly](https://calendly.com) | Sales teams, professionals | Calendar sync, meeting types, team scheduling | Free plan; paid from $, | You need fast, clean meeting booking with minimal setup |
-| Acuity Scheduling | Advanced customization, payments | Custom intake forms, packages, payment processing | , | You need highly configurable booking flows and client intake |
-| SimplyBook.me | Service businesses with marketing needs | Marketing integrations, memberships, custom features | Free plan; paid from $, | You want booking and marketing tools in one platform |
-| Setmore | Small businesses on a budget | Free plan, payments, multi-platform support | Free plan; paid from $, | You need a capable free tier with payment features |
-| Square Appointments | POS-integrated businesses | Built-in Square POS, client management, no-show protection | Free for individuals; paid from $, | You already use Square for payments and want booking built in |
-| Lunacal | Modern small businesses | Real-time availability, intuitive self-booking, clean UI | Free plan available | You want a US-made tool with a polished client-facing experience |
-| [Cal.com](https://cal.com) | Tech-savvy, developer teams | Open source, API access, self-hosting option | Free; paid from $, | You need deep customization or want to self-host |
-| Appointy | SMBs wanting marketing + booking | Marketing automation, social booking, staff management | Free plan; paid from $, | You want scheduling tied directly to marketing campaigns |
-| [Zoho Bookings](https://zoho.com/bookings) | Zoho ecosystem users | CRM sync, Zoho suite integration, team scheduling | Free plan; paid from $, | You run your business on Zoho apps and need scheduling to match |
+| [Calendly](https://calendly.com) | Sales teams, professionals | Calendar sync, meeting types, team scheduling | Free plan; paid from $10 per seat a month, billed yearly | You need fast, clean meeting booking with minimal setup |
+| Acuity Scheduling | Advanced customization, payments | Custom intake forms, packages, payment processing | From $16 a month, billed yearly | You need highly configurable booking flows and client intake |
+| SimplyBook.me | Service businesses with marketing needs | Marketing integrations, memberships, custom features | Free plan; paid from $11.90 a month, billed yearly | You want booking and marketing tools in one platform |
+| Setmore | Small businesses on a budget | Free plan, payments, multi-platform support | Free plan; Pro from $5 per user a month, billed yearly | You need a capable free tier with payment features |
+| Square Appointments | POS-integrated businesses | Built-in Square POS, client management, no-show protection | Free for individuals; paid from $49 a month per location | You already use Square for payments and want booking built in |
+| Lunacal | Modern small businesses | Real-time availability, intuitive self-booking, clean UI | From $9 per user a month, with a 7-day free trial | You want a polished client-facing experience |
+| [Cal.com](https://cal.com) | Tech-savvy, developer teams | Open source, API access, self-hosting option | Free; teams from $12 per user a month, billed yearly | You need deep customization or want to self-host |
+| Appointy | SMBs wanting marketing + booking | Marketing automation, social booking, staff management | Free plan; paid from $19.99 a month | You want scheduling tied directly to marketing campaigns |
+| [Zoho Bookings](https://zoho.com/bookings) | Zoho ecosystem users | CRM sync, Zoho suite integration, team scheduling | Free plan; paid from $6 per user a month | You run your business on Zoho apps and need scheduling to match |
 | [Brevo Meetings](https://meetings.brevo.com) | Professional services, client meetings | Workflow automation, meeting management, CRM integration | Free plan available | You need structured client meeting workflows with automation |
-| BookedIn | Freelancers, solo operators | Simple setup, client notifications, basic calendar | , | You want something that works in under an hour with no learning curve |
+| BookedIn | Freelancers, solo operators | Simple setup, client notifications, basic calendar | See their site | You want something that works in under an hour with no learning curve |
 
 ### How the leading tools compare in practice
 
@@ -129,11 +129,11 @@ SimplyBook.me stands out for its breadth of marketing features. You can connect 
 
 Cal.com is the outlier in the group. It is open source, which means developers can self-host it, modify the codebase, and build custom integrations that no other platform on this list allows. For a tech team building a product on top of scheduling infrastructure, it is the only real option.
 
-Setmore earns its place for small businesses watching costs. Its free plan includes payment processing and multi-platform support, which most free tiers do not. Appointy takes a similar approach but leans harder into marketing automation, including social media booking and automated follow-up campaigns.
+Setmore earns its place for small businesses watching costs. Its free plan takes card payments and covers up to four users. Appointy takes a similar approach but leans harder into marketing automation, including social media booking and automated follow-up campaigns.
 
 Zoho Bookings is purpose-built for businesses already running on Zoho CRM, Zoho Desk, or other Zoho apps. The scheduling data flows directly into the CRM, so client records stay current without manual entry. Outside the Zoho ecosystem, it offers less reason to choose it over the alternatives.
 
-Lunacal focuses on the client-facing booking experience. Its real-time availability display and self-booking flow are built for clients who expect a modern, frictionless experience, and it is US-made, which matters for businesses that prioritize domestic vendor relationships and support.
+Lunacal focuses on the client-facing booking experience. Its real-time availability display and self-booking flow are built for clients who expect a modern, frictionless experience.
 
 Brevo Meetings suits professional services firms that need structured meeting workflows, automated follow-ups, and CRM connectivity. BookedIn is the simplest tool on the list, genuinely quick to set up, and suited to freelancers or solo operators who need basic scheduling without complexity.
 

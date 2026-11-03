@@ -115,13 +115,13 @@ The design side is not decorative. Fifteen templates, clean typography, and inte
 
 The market for spa booking software covers a wide range of use cases, from free entry-level tools to enterprise platforms built for multi-location chains.
 
-**Entry-level and budget-friendly options** like Fresha offer free scheduling with no monthly subscription, generating revenue through marketplace commissions and payment processing fees. The tradeoff: no local SEO capability and limited brand control. Square Appointments works similarly for studios already inside the Square ecosystem, with a free tier for solo practitioners and 2.6% + $0.15 per transaction.
+**Entry-level and budget-friendly options** like Fresha start at $19.95 a month for one team member, and add marketplace commissions on new clients and payment processing fees. The tradeoff: no local SEO capability and limited brand control. Square Appointments suits studios already inside the Square ecosystem, with a free tier for solo practitioners and 2.6% + $0.15 per in-person transaction.
 
 **Mid-tier platforms** like Vagaro (from $30/month) and GlossGenius (from $24/month) cover scheduling, client records, and basic marketing in one tool. Vagaro adds cost as staff count grows, and custom websites are an add-on rather than included. GlossGenius is cleaner and more design-forward, making it a reasonable fit for independent professionals who want something that looks polished without heavy configuration.
 
-**Higher-end operations tools** like Mangomint (from $165/month) and Boulevard (from $158/month) are built for multi-staff day spas with complex scheduling needs. Both are strong operationally but do not address local SEO or new client discovery.
+**Higher-end operations tools** like Mangomint ($120 per location plus $10 per user) and Boulevard (from $143/month) are built for multi-staff day spas with complex scheduling needs. Both are strong operationally but do not address local SEO or new client discovery.
 
-**Clinical and medical spa platforms** like Pabau ($62 per user/month) add healthcare-grade documentation, injection mapping, and HIPAA-compliant records. For studios offering medical aesthetics, standard salon software rarely meets clinical workflow needs out of the box.
+**Clinical and medical spa platforms** like Pabau (priced by location and team size) add healthcare-grade documentation, injection mapping, and HIPAA-compliant records. For studios offering medical aesthetics, standard salon software rarely meets clinical workflow needs out of the box.
 
 **BKRDY** sits in a distinct category: a designed booking website built specifically for independent beauty studios, where the brand presentation and the booking flow are the same product. It is not trying to be an enterprise operations platform. It is built for the studio owner who wants a beautiful, functional online presence without stitching together a website builder, a booking tool, and a payment processor separately. The [online booking setup guide](/blog/beauty-studio-online-booking-setup-a-practical-guide) walks through exactly how that comes together in practice.
 

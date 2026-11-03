@@ -160,7 +160,7 @@ A chain of hair salons uses Salonist to manage appointments, staff rosters, inve
 
 ### Pricing
 
-Salonist offers a free tier and paid plans starting at $79/month when billed monthly and at $799 billed annually, with higher tiers adding inventory, marketing campaigns, and multi-location tools. Exact feature limits by tier are listed on the vendor site.
+Salonist offers a free tier and paid plans starting at $59/month when billed monthly, with higher tiers adding inventory, marketing campaigns, and multi-location tools. Exact feature limits by tier are listed on the vendor site.
 
 **Website:** [https://salonist.io](https://salonist.io)
 
@@ -323,7 +323,7 @@ Choosing the best platform for integrated studio websites and booking systems de
 |---|---|---|---|---|
 | BKRDY | Website and booking integration | Studio-focused web design | Free, Solo: $18/month billed annually | Limited regional payment options |
 | Heygoldie | AI-assisted scheduling and payments | Combined booking and AI tools | Free, Pro: $19.99/month, Pro Plus: $39.99/month | Reported inconsistent customer support |
-| Salonist | Point of sale and inventory management | All-in-one salon operations | Free, Paid plans: From $79/month | Complex setup for advanced features |
+| Salonist | Point of sale and inventory management | All-in-one salon operations | Free, Paid plans: From $59/month | Complex setup for advanced features |
 | IdleBooking | Flat-fee based salon operation tools | Unified subscription model | Price not published | Limited external user reviews |
 | Anna | Social profile booking and discount marketplace | Monetize idle appointment slots | LITE: $15.99/month, PROFI: $21.99/month | Limited advanced features for larger operations |
 

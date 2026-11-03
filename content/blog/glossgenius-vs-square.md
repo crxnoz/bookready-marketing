@@ -17,12 +17,12 @@ The honest comparison here is not a feature list, because these are not the same
 So the real question is what else your business sells, and how much you care what your booking page looks like.
 
 :::answer
-If you already run a register, retail or more than one business through Square, stay on Square Appointments. If you are a solo beauty pro who wants one subscription covering a booking page, card payments and a reader, and you like how their pages look, GlossGenius fits better. With both, the processing is theirs and the page is their design. That is the trade either way.
+If you already run a register, retail or more than one business through Square, stay on Square Appointments. If you are a solo beauty pro who wants one subscription covering a booking page and card payments, and you like how their pages look, GlossGenius fits better. With both, the processing is theirs and the page is their design. That is the trade either way.
 :::
 
 ## They are not the same kind of product
 
-GlossGenius is beauty-native. The language in the app is your language: services, add-ons, deposits, tips, color notes, lash fills. It bundles a booking page, card processing and a physical reader into one subscription, so there is one bill. The design is deliberate and consistent, which is why solo lash artists, nail techs and stylists like it.
+GlossGenius is beauty-native. The language in the app is your language: services, add-ons, deposits, tips, color notes, lash fills. It bundles a booking page and card processing into one subscription, so there is one bill. Card readers are sold separately. The design is deliberate and consistent, which is why solo lash artists, nail techs and stylists like it.
 
 Square Appointments is a booking calendar sitting on Square's payments business. That is not a criticism, it is the point. Square's strength is the till, the inventory, the receipts, and running several revenue lines through one account.
 
@@ -58,7 +58,7 @@ The reverse holds too. No till, no retail, no second business, and you pay for t
 
 ## Pick GlossGenius if you are solo and the look fits
 
-For one person doing beauty work, GlossGenius is a sound, simple choice. One subscription, one support line, a reader that works out of the box, deposits and tips that work the way beauty appointments do.
+For one person doing beauty work, GlossGenius is a sound, simple choice. One subscription, one support line, deposits and tips that work the way beauty appointments do.
 
 Here is the honest limit. The page clients land on is a GlossGenius page in a GlossGenius layout. You get your logo, photos, colors and service list, not the structure or the overall feel.
 
@@ -97,7 +97,7 @@ The decision is smaller than it feels. Square if the register is already yours, 
 
 ### Is GlossGenius better than Square Appointments?
 
-For a solo beauty professional with no retail and no register, usually yes, because it is built for beauty work and bundles the booking page, processing and card reader into one subscription. For a business already running a till, inventory or several revenue lines through Square, Square Appointments is the better fit.
+For a solo beauty professional with no retail and no register, usually yes, because it is built for beauty work and bundles the booking page and processing into one subscription. For a business already running a till, inventory or several revenue lines through Square, Square Appointments is the better fit.
 
 ### Can I use my own payment processor with either one?
 

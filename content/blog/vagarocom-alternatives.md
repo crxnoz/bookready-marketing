@@ -27,14 +27,14 @@ Here is a quick orientation before the full profiles:
 | Platform | Best for | Starting price | Login-free booking | Marketplace |
 |---|---|---|---|---|
 | GlossGenius | Solo and independent pros | $28/month | Yes | No |
-| Mangomint | Growing multi-staff salons | $165/month | Yes | No |
+| Mangomint | Growing multi-staff salons | $120/location + $10/user | Yes | No |
 | Square Appointments | Budget-conscious startups | Free (solo) | Yes | No |
-| Fresha | Client discovery via marketplace | Free base | No | Yes |
-| Mindbody | Wellness, classes, memberships | $139/month | No | Yes |
-| Boulevard | Luxury, high-end salons | $176/month | Yes | No |
-| WellnessLiving | Fitness and wellness studios | $69/month | Not listed | Yes |
+| Fresha | Client discovery via marketplace | $19.95/month | No | Yes |
+| Mindbody | Wellness, classes, memberships | $79/month | No | Yes |
+| Boulevard | Luxury, high-end salons | $143/month | Yes | No |
+| WellnessLiving | Fitness and wellness studios | See their site | Not listed | Yes |
 | Zenoti | Enterprise chains and franchises | Custom | Not listed | No |
-| Pabau | Medical aesthetics clinics | $69/month | Not listed | No |
+| Pabau | Medical aesthetics clinics | Not publicly listed | Not listed | No |
 | Schedulicity | Small studios, simple needs | Not publicly listed | Not listed | No |
 | Jane App | Allied health and wellness | Not publicly listed | Not listed | No |
 | Cliniko | Clinical and allied health | Not publicly listed | Not listed | No |
@@ -61,7 +61,7 @@ GlossGenius targets independent beauty professionals who want a polished, mobile
 
 ### Mangomint
 
-Mangomint is the top pick for growing salons with multiple staff members who need real automation and clean multi-location management. Starting at $165/month, it costs more than most entry-level options, but the price reflects what you get: commission tracking, payroll integration, automated client messaging, and a booking flow that lives on your own website rather than a third-party portal.
+Mangomint is the top pick for growing salons with multiple staff members who need real automation and clean multi-location management. At $120 per location plus $10 per user, it costs more than most entry-level options, but the price reflects what you get: commission tracking, payroll integration, automated client messaging, and a booking flow that lives on your own website rather than a third-party portal.
 
 **What it does well:**
 
@@ -89,7 +89,7 @@ Square Appointments offers a free plan for solo professionals and paid team plan
 
 ### Fresha
 
-Fresha runs on a free base plan, generating revenue through payment processing fees and a commission on new clients booked through its marketplace. That model is genuinely attractive for budget-conscious salons, but it comes with a trade-off: clients must create a Fresha profile to book, and the marketplace puts your business alongside competitors in a price-comparison environment.
+Fresha starts at $19.95 a month for one team member, or $14.95 per team member on its team plan, plus payment processing fees and a 20% one-time commission on new clients booked through its marketplace. That entry price is genuinely attractive for budget-conscious salons, but it comes with a trade-off: clients must create a Fresha profile to book, and the marketplace puts your business alongside competitors in a price-comparison environment.
 
 Fresha’s marketplace can drive real new-client volume, especially in urban markets where consumers actively browse the platform. The question is whether that visibility is worth the client relationship sitting with Fresha rather than with you. For a newer salon trying to fill the calendar, the answer is often yes. For an established studio focused on retention, it is worth thinking through.
 
@@ -103,7 +103,7 @@ Fresha’s marketplace can drive real new-client volume, especially in urban mar
 
 ### Mindbody
 
-Mindbody is built for wellness businesses that run classes, sell memberships, and need marketing automation at scale. Starting at $139/month, it sits in a different category from most salon software. The platform handles scheduling, client management, and marketing, but its real strength is class-based businesses: yoga studios, fitness centers, and wellness centers with recurring revenue models.
+Mindbody is built for wellness businesses that run classes, sell memberships, and need marketing automation at scale. Starting at $79/month per location, it sits in a different category from most salon software. The platform handles scheduling, client management, and marketing, but its real strength is class-based businesses: yoga studios, fitness centers, and wellness centers with recurring revenue models.
 
 For a traditional hair salon or nail studio, Mindbody is likely overkill. For a spa that offers group meditation sessions, retail products, and monthly memberships alongside individual treatments, it starts to make sense. Mindbody operates across 40,000 locations worldwide, which speaks to its enterprise-level reliability and integration depth.
 
@@ -118,7 +118,7 @@ For a traditional hair salon or nail studio, Mindbody is likely overkill. For a 
 
 ### Boulevard
 
-Boulevard targets luxury salons and high-end spas where the client experience is the product. Starting at $176/month, it is the most expensive option on this list, but it delivers a genuinely premium booking and client management experience. Automated pre-visit messaging, detailed service history, and a polished front-of-house workflow are all built in.
+Boulevard targets luxury salons and high-end spas where the client experience is the product. Starting at $143/month for one location, it delivers a genuinely premium booking and client management experience. Automated pre-visit messaging, detailed service history, and a polished front-of-house workflow are all built in.
 
 Boulevard is favored by luxury-focused salons that prioritize client experience over cost. If your brand is built around a premium, personalized feel and your clients expect that same quality in every touchpoint, including the booking page, Boulevard delivers it.
 
@@ -133,7 +133,7 @@ Boulevard is favored by luxury-focused salons that prioritize client experience 
 
 ### WellnessLiving
 
-WellnessLiving starts at $69/month and targets fitness studios, yoga centers, and wellness businesses that need class management, loyalty programs, and video content delivery alongside standard appointment scheduling. It is a strong Mindbody alternative for businesses that find Mindbody’s pricing prohibitive but still need class-based features.
+WellnessLiving targets fitness studios, yoga centers, and wellness businesses that need class management, loyalty programs, and video content delivery alongside standard appointment scheduling. It is a strong Mindbody alternative for businesses that find Mindbody’s pricing prohibitive but still need class-based features.
 
 **What it does well:**
 
@@ -158,7 +158,7 @@ Zenoti is enterprise software for large spa chains, franchises, and multi-locati
 
 ### Pabau
 
-Pabau is built for medical aesthetics clinics and cosmetic practices that need clinical documentation, patient tracking, and treatment records alongside standard booking. Starting at $69/month, it combines practice management with medical-grade charting tools. [Med spas require HIPAA-compliant features](https://business.shapescale.com/content/posts/patientnow-review-features) and specialized medical record-keeping that generic salon software cannot provide. Pabau fills that gap for aesthetic clinics.
+Pabau is built for medical aesthetics clinics and cosmetic practices that need clinical documentation, patient tracking, and treatment records alongside standard booking. Pricing depends on your location and team size, and it combines practice management with medical-grade charting tools. [Med spas require HIPAA-compliant features](https://business.shapescale.com/content/posts/patientnow-review-features) and specialized medical record-keeping that generic salon software cannot provide. Pabau fills that gap for aesthetic clinics.
 
 **What it does well:**
 
@@ -189,14 +189,14 @@ BKRDY is a different kind of option. Where most platforms on this list are gener
 | Platform | Starting price | Payment processing | Multi-location | Client login required | Best business type |
 |---|---|---|---|---|---|
 | GlossGenius | $28/month | Flat rate | No | No | Solo pros |
-| Mangomint | $165/month | Standard rates | Yes | No | Growing salons |
+| Mangomint | $120/location + $10/user | Standard rates | Yes | No | Growing salons |
 | Square Appointments | Free (solo) / $49/month (team) | Square rates | Limited | No | Budget startups |
-| Fresha | Free base | Processing fees + marketplace commission | Limited | Yes | Discovery-focused salons |
-| Mindbody | $139/month | Standard rates | Yes | Yes | Wellness, classes |
-| Boulevard | $176/month | Standard rates | Yes | No | Luxury salons |
-| WellnessLiving | $69/month | Standard rates | Yes | Not listed | Fitness and wellness |
+| Fresha | $19.95/month | Processing fees + marketplace commission | Limited | Yes | Discovery-focused salons |
+| Mindbody | $79/month | Standard rates | Yes | Yes | Wellness, classes |
+| Boulevard | $143/month | Standard rates | Yes | No | Luxury salons |
+| WellnessLiving | See their site | Standard rates | Yes | Not listed | Fitness and wellness |
 | Zenoti | Custom | Custom | Yes | Not listed | Enterprise chains |
-| Pabau | $69/month | Standard rates | Yes | Not listed | Medical aesthetics |
+| Pabau | Not publicly listed | Standard rates | Yes | Not listed | Medical aesthetics |
 | Schedulicity | Not publicly listed | Standard rates | Not listed | Not listed | Small studios |
 | BKRDY | Free plan $0; Solo $18/month billed annually ($21 monthly) | Stripe (0% platform fee) | No | No | Boutique independents |
 
@@ -236,7 +236,7 @@ Mangomint draws praise for its automation and the quality of its onboarding supp
 
 Square Appointments reviews reflect its position as a general-purpose tool. Users who already operate within the Square ecosystem find the integration genuinely useful. Users who come to it expecting salon-specific features like commission tracking or color-service timing often find it falls short.
 
-Fresha’s free model attracts strong initial enthusiasm, but reviews from established salons often note the tension between marketplace visibility and client ownership. New businesses building their client base tend to rate it more positively than studios that have spent years cultivating a loyal clientele.
+Fresha’s low entry price and marketplace attract strong initial enthusiasm, but reviews from established salons often note the tension between marketplace visibility and client ownership. New businesses building their client base tend to rate it more positively than studios that have spent years cultivating a loyal clientele.
 
 Mindbody’s reviews are more polarized than most. Wellness businesses that use its class scheduling and membership tools rate it highly. Traditional salons that adopted it for basic appointment booking often find it overcomplicated and expensive for their actual needs.
 

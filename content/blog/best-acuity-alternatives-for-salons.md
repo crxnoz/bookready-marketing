@@ -90,13 +90,13 @@ If your salon already lives on Square for in-person payments, Square Appointment
 
 ## Booksy. Best for marketplace acquisition.
 
-**Price.** Around $30 per month, plus marketplace and promotion fees. **Best for.** Shops in cities with active Booksy users hunting for talent.
+**Price.** $29.99 per month, plus $20 for each extra team member, card processing, and optional paid promotion. **Best for.** Shops in cities with active Booksy users hunting for talent.
 
 Booksy runs one of the largest beauty marketplaces, with especially strong adoption among barbers and urban salons. If you are in a market where clients open Booksy to find someone new, that discovery is real, and the push notifications do drive rebookings.
 
 **What stood out.** Genuine marketplace traffic in dense markets, strong rebooking nudges, and polished native apps for both sides. For a newer shop building a base, the exposure can matter.
 
-**What is missing.** The marketplace branding overshadows yours, so clients remember Booksy, not your salon. Fees compound across the subscription, transaction cuts, and paid promotion to rank in search. The public page is generic, which works against an established brand.
+**What is missing.** The marketplace branding overshadows yours, so clients remember Booksy, not your salon. Costs stack across the subscription, per-staff fees, card processing, and paid promotion to rank in search. The public page is generic, which works against an established brand.
 
 **Verdict.** Useful if marketplace discovery is genuinely driving new clients in your city. If your bookings come from Instagram and word of mouth, you are paying for traffic you already have. See the math on our [Booksy alternative comparison](/compare/booksy-alternative/).
 
@@ -109,7 +109,7 @@ Booksy runs one of the largest beauty marketplaces, with especially strong adopt
 | Fresha | $19.95+ | New-client fee | Thin | Yes | Yes | High-volume |
 | Vagaro | $30 + $10/calendar | Markup | Dated | No | **Full** | Retail-heavy spas |
 | Square | $0-$49 | Higher than Stripe | Utilitarian | No | **Full** | Square loyalists |
-| Booksy | ~$30 | Compounding | Generic | Yes | Yes | Marketplace reach |
+| Booksy | $29.99 + seats | From 2.49% + 10¢, plus optional Boost | Generic | Yes | Yes | Marketplace reach |
 
 ## How to actually pick the right alternative.
 

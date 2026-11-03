@@ -24,7 +24,7 @@ If you are still filling your book and nobody knows your name, Booksy earns its 
 
 Booksy sells attention. A stranger who has never heard of you can land on your profile, see your prices, and book Tuesday at 2pm without speaking to you first. For a barber who moved cities last month, that is worth real money.
 
-GlossGenius sells tidiness. One subscription, one bill, a booking page that looks considered, card payments and a reader included, deposits that understand a 45 minute lash fill. Nobody discovers you through it. It assumes you already have clients. That is the whole comparison, and everything else hangs off it.
+GlossGenius sells tidiness. One subscription, one bill, a booking page that looks considered, card payments included, deposits that understand a 45 minute lash fill. Nobody discovers you through it. It assumes you already have clients. That is the whole comparison, and everything else hangs off it.
 
 ## Run the last thirty bookings test
 
@@ -40,7 +40,7 @@ Only bucket three is what a marketplace is actually selling you. Eight or ten ou
 
 ## How the money grows on each
 
-Both change their prices, so price the tier you would actually be on from their own pages. What matters is the shape, because the shape is what bites you in year two. Booksy tends to charge for each extra staff member on top of the base subscription, plus card processing, plus an optional paid promotion that lifts you in marketplace search. GlossGenius tends toward a flatter subscription with payments bundled. The marketplace side is broken down further in the [Booksy pricing article](/blog/booksy-pricing/).
+Both change their prices, so price the tier you would actually be on from their own pages. What matters is the shape, because the shape is what bites you in year two. Booksy tends to charge for each extra staff member on top of the base subscription, plus card processing, plus an optional paid promotion that lifts you in marketplace search. GlossGenius tends toward a flatter subscription with payments built in at its own card rates. The marketplace side is broken down further in the [Booksy pricing article](/blog/booksy-pricing/).
 
 The promotion is the part people misread. It is not a one-off boost. As more competitors pay to rank, staying visible costs more rather than less, so the spend that got you seen last spring buys less this spring. Budget it as a standing marketing line, or do not start it.
 
@@ -56,7 +56,7 @@ GlossGenius is clearly the better of the two if looking like everyone else is wh
 |---|---|---|
 | What it is built around | A marketplace clients browse | Your own setup, booking plus payments in one bill |
 | How clients find you | Search inside the app, plus your own link | Your link, your Instagram, your Google listing |
-| How the cost grows | Per extra staff member, plus processing, plus optional promotion | Flatter subscription, payments bundled |
+| How the cost grows | Per extra staff member, plus processing, plus optional promotion | Flatter subscription, its own card rates |
 | Where clients book | A Booksy profile, local pros a scroll away | Your own page, their style, their platform |
 | What leaves with you | Client contacts, if you keep your own export | The same, and nothing more |
 
@@ -96,7 +96,7 @@ For an established pro with a book of regulars, usually yes, because you stop pa
 
 ### Which one is cheaper?
 
-It depends on your staff count and whether you buy promotion. Booksy tends to add cost per extra staff member plus processing plus promotion, and GlossGenius tends toward a flatter subscription with payments bundled. Both change their prices, so check their own pages.
+It depends on your staff count and whether you buy promotion. Booksy tends to add cost per extra staff member plus processing plus promotion, and GlossGenius tends toward a flatter subscription with payments built in at its own card rates. Both change their prices, so check their own pages.
 
 ### What happens to my reviews if I leave either one?
 

@@ -47,7 +47,7 @@ No everything-is-great listicle. Here is who each one actually fits. **GlossGeni
 | **BKRDY** | **$21** | **0%** | **Yes** | No | Owning your brand |
 | GlossGenius | $28 | None listed | No | No | In-person POS |
 | Fresha | $19.95 | New-client fee | No | Yes | Getting found cold |
-| Booksy | ~$30 + seats | Marketplace fee | No | Yes | Dense local search |
+| Booksy | $29.99 + seats | Optional Boost fee | No | Yes | Dense local search |
 | Square | $0-$49 | None listed | No | No | Already on Square |
 
 If you are weighing a fee-heavy incumbent against a flat, low-markup plan, the [GlossGenius alternative comparison](/compare/glossgenius-alternative/) lays out the prices and card rates side by side. Pick by where your clients come from, not by which app has the longest feature list.
@@ -64,9 +64,9 @@ This is where BKRDY's editorial [templates](/templates/) earn their keep. Clarit
 
 Run the math on a realistic solo month: $5,000 in bookings. Start with the subscription, because that part is fixed and easy to see. A team-grade app at roughly $40 to $50 a month costs you $480 to $600 a year before a single client pays. BKRDY Solo at $18 a month billed annually is $216 a year. That is a $264 to $384 gap on subscription alone, and you have not touched transaction fees yet.
 
-Now the fees, which is where it gets sneaky. A platform that charges around 2.6% on top of processing is taking about $130 out of that $5,000 month, roughly $1,560 a year, on top of the subscription. BKRDY charges 0% platform markup, so you pay only Stripe's standard pass-through, about 2.9% plus 30 cents per transaction, which you would pay almost anywhere money moves. Same card, no second toll on top.
+Now the fees. BKRDY charges 0% platform markup, so you pay only Stripe's standard pass-through, about 2.9% plus 30 cents per transaction, which you would pay almost anywhere money moves. Most of the apps above set their own card rate instead, so compare the rate itself rather than the word "fee".
 
-Marketplace apps add a different line. During a growth month when you lean on the marketplace to find new clients, the new-client booking fees can quietly add up to hundreds of dollars, because you are paying for each stranger the app introduces. That can be worth it when you are starting cold. It is a bad deal once those clients are yours and rebooking anyway, because you keep paying an introduction fee for people you already know. Add it all up and the honest headline is simple: at $5,000 a month, the difference between a flat, low-markup plan and a fee-heavy team app is often more than a thousand dollars a year. Check the full [pricing](/pricing/) against your own numbers before you sign.
+Marketplace apps add a different line. During a growth month when you lean on the marketplace to find new clients, the new-client booking fees can quietly add up to hundreds of dollars, because you are paying for each stranger the app introduces. That can be worth it when you are starting cold. It is a bad deal once those clients are yours and rebooking anyway, because you keep paying an introduction fee for people you already know. Add it all up and the honest headline is simple: the real gap between these apps is the subscription and the marketplace fees, not the card rate. Check the full [pricing](/pricing/) against your own numbers before you sign.
 
 ## The two settings that protect a solo calendar.
 
