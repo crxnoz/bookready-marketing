@@ -50,13 +50,13 @@ Squire is the most expensive option on this list and earns the price tag for the
 
 ## TheCut. Marketplace traffic, brand trade-off.
 
-**Price.** $30/mo + 1.5% per booking. **Best for.** Barbers in dense urban markets who want marketplace-driven client acquisition.
+**Price.** $25/mo + 1.5% per booking. **Best for.** Barbers in dense urban markets who want marketplace-driven client acquisition.
 
 TheCut is a barber marketplace (similar to Booksy) with strong adoption in major US cities. The trade-off is the same as any marketplace: you get traffic, but you give up brand control. Your profile is TheCut-branded. Clients book on thecut.app, not on your own site.
 
 **What stood out.** Real client acquisition from the marketplace if you are in a city where TheCut is popular (NYC, LA, Atlanta, Houston, Detroit). Native mobile app polished for both barbers and clients. Tipping handled cleanly.
 
-**What is missing.** Your profile is TheCut-branded, not yours. 1.5% fee on top of the $30/mo. Limited template customization (a few generic layouts).
+**What is missing.** Your profile is TheCut-branded, not yours. 1.5% fee on top of the $25/mo. Limited template customization (a few generic layouts).
 
 **Verdict.** Solid if you are in a TheCut-heavy market and want the marketplace as your primary client channel. Skip if you have a strong brand and want a real website.
 
@@ -74,7 +74,7 @@ Booksy is the largest barbershop booking platform in the US by user count. Stron
 
 ## GlossGenius. Strong POS, 2.6% fee.
 
-**Price.** $24/mo (Pro, billed annually) + 2.6% per booking. **Best for.** Barbershops that sell meaningful retail (pomade, beard oil, t-shirts) and need integrated POS.
+**Price.** $24/mo (Standard, billed annually) + 2.6% per booking. **Best for.** Barbershops that sell meaningful retail (pomade, beard oil, t-shirts) and need integrated POS.
 
 GlossGenius is a strong contender from the salon and beauty SaaS world. Their booking, payments, and CRM are deep, and their retail and inventory features are best-in-class for the price.
 
@@ -102,7 +102,7 @@ Setmore is the budget pick. Their free tier handles basic online booking for one
 |---|---|---|---|---|---|---|
 | **BKRDY** | $0-$55 | **0% markup**, Stripe's fee applies | **Yes (15 named)** | No | None | Brand-first shops |
 | Squire | $200+ | varies | No (Squire-branded) | No | **Full** | High-volume tech shops |
-| TheCut | $30 | 1.5% | No (TheCut-branded) | Yes | No | Urban marketplace |
+| TheCut | $25 | 1.5% | No (TheCut-branded) | Yes | No | Urban marketplace |
 | Booksy | $29.99 | 1.65% | No (Booksy-branded) | Yes | No | Marketplace + loyalty |
 | GlossGenius | $24-$48 | 2.6% | Generic | No | **Full** | Retail-heavy shops |
 | Setmore | $0-$25 | 0% | No | No | Stripe | Starting from $0 |
