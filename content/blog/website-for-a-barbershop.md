@@ -9,7 +9,7 @@ date: 2026-11-03
 pillar: your-site
 keywords: website for barbershop, website for barbers
 photoTerms: barber cutting hair client conversation | barbershop interior two barbers working | barber showing phone screen to client in chair
-status: draft
+status: published
 ---
 
 A barbershop website has a short job. Someone taps your link, decides you cut the hair they want at a price they expected, and books a time. That should take two taps on a phone.
