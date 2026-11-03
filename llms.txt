@@ -94,6 +94,7 @@ What BKRDY does not have today:
 ## Articles
 
 <!-- blog:start -->
+- [Buffer time between appointments: the quiet fix](https://bkrdy.com/blog/buffer-time-between-appointments/): A day that runs thirty minutes late by 3pm is a calendar problem, not a slow client. How to find your real service time and build the buffer back in.
 - [Is Booksy legit, safe, and worth it? An honest answer](https://bkrdy.com/blog/is-booksy-worth-it/): Booksy is legit and safe. Worth it is a stage question, and counting your last thirty bookings answers it in about ten minutes. Here is how.
 - [Booth rent vs commission: run your own break-even](https://bkrdy.com/blog/booth-rent-vs-commission/): Booth rent or commission: the exact break-even calculation to run on your own average ticket and client count, plus what the math leaves out.
 - [How deposits work for appointments, step by step](https://bkrdy.com/blog/how-deposits-work-for-appointments/): What actually happens to the money when a client pays a deposit: where it lands, how it comes off the balance, and who keeps it after a cancellation.
@@ -133,5 +134,4 @@ What BKRDY does not have today:
 - [Professional Branding and Client Loyalty for Beauty Pros](https://bkrdy.com/blog/professional-branding-and-client-loyalty-for-beauty-pros/): Discover the role of professional branding in client loyalty for beauty pros. Build a distinctive identity that boosts repeat bookings today!
 - [Lash Appointment Intake Forms Online: A Pro's Guide](https://bkrdy.com/blog/lash-appointment-intake-forms-online-a-pros-guide/): Discover how lash appointment intake forms online enhance client safety and streamline your lash service. Elevate your studio's professionalism today!
 - [How to grow a hair salon, from one chair to five. Systems first.](https://bkrdy.com/guides/growing-a-salon/): A practical, no-fluff guide to growing a hair salon. Hiring, pricing, retention, brand, and the operational systems that scale from one chair to five.
-- [The Role of Instant Booking for New Clients in Beauty](https://bkrdy.com/blog/the-role-of-instant-booking-for-new-clients-in-beauty/): Discover the role of instant booking for new clients in beauty. Boost your bookings instantly and keep your calendar full with immediate confirmations!
 <!-- blog:end -->
