@@ -111,7 +111,7 @@ My other strong opinion: do not wait until you have the perfect system to start.
 
 Nail technicians who want their booking page to do more than just hold a calendar slot will find BKRDY worth a close look. The platform is built specifically for independent beauty studios, and it connects client history, notes, and preferences directly to the booking flow.
 
-When a client books through BKRDY, their service history and preferences are already attached to the appointment. No switching between apps, no hunting through paper cards. BKRDY also handles deposit collection through Stripe and sends automatic reminders, so fewer appointments go to waste. If you are ready to give your clients a more personal experience from the moment they book, the [BKRDY nail tech platform](/for-nail-techs) is a practical place to start.
+When a client books through BKRDY, their preferences and notes show on the appointment, and their service history is on their client record. No switching between apps, no hunting through paper cards. BKRDY also handles deposit collection through Stripe and sends automatic reminders. If you are ready to give your clients a more personal experience from the moment they book, the [BKRDY nail tech platform](/for-nail-techs) is a practical place to start.
 
 ## FAQ
 

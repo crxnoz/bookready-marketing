@@ -32,7 +32,7 @@ Start by logging in at acuityscheduling.com. In 2026, most owners land in one of
 
 Once you are in, look for Clients in the left-hand navigation. This is the one you want. Be careful not to confuse it with Contacts, which is a separate Squarespace-wide list that does not hold your scheduling data the same way. The Clients tab is specifically your booking clients, with their appointment counts and notes attached.
 
-One thing to check before you go further: you need to be on the admin account, not a staff seat. Staff logins often have the export option hidden or disabled, so if you do not see the controls described in the next step, that is usually why. Switch to the owner login, confirm you can see the full client list, and then continue. If you manage clients across the business, the same data lives in your BKRDY [customer accounts](/platform/tools/customers/) once you migrate.
+One thing to check before you go further: you need to be on the admin account, not a staff seat. Staff logins often have the export option hidden or disabled, so if you do not see the controls described in the next step, that is usually why. Switch to the owner login, confirm you can see the full client list, and then continue. If you manage clients across the business, their names, emails and phones live in your BKRDY [customer accounts](/platform/tools/customers/) once you migrate.
 
 ## Export the full client CSV.
 
@@ -56,13 +56,13 @@ A raw export is rarely import-ready. Ten minutes of cleanup now saves headaches 
 
 Start by deleting duplicate rows, which usually show up as the same email appearing two or three times because a client booked under slightly different details over the years. Next, verify the email column actually contains emails, not placeholder text like "no email on file" that some older accounts store as a literal string. Then standardize the phone format if you can, so numbers are consistent rather than a mix of dashes, dots, and country codes. Finally, add a new column to flag your VIP or highest-revenue clients, using the total revenue field from the export as your guide. That tag makes it easy to set up loyalty or priority booking on your next platform.
 
-If this sounds tedious, it is, and you do not have to do it alone. When you migrate to BKRDY, we run this cleanup for you as part of the free import, deduping and validating the file so you do not have to touch a spreadsheet at all.
+If this sounds tedious, it is, and you do not have to do it alone. When you migrate to BKRDY, we work from your export as part of the free import and tell you about anything that looks off, so you do not have to perfect the spreadsheet first.
 
 ## Import it, or keep it as a backup.
 
 Once your file is clean, there are two paths, and they are not mutually exclusive.
 
-**Path A: import into a new platform.** If you are moving to BKRDY, you do not need to format anything special. Send us the CSV during migration and we run the import the same day, free, bringing over names, emails and phones, and we flag anything that looks off so you can confirm it. The full process is laid out on the [migration page](/migration/), and you can see plan options on the [pricing page](/pricing/) if you are still deciding.
+**Path A: import into a new platform.** If you are moving to BKRDY, you do not need to format anything special. Send us the CSV during migration and we run the import for free, usually the same day, bringing over names, emails and phones, and we flag anything that looks off so you can confirm it. The full process is laid out on the [migration page](/migration/), and you can see plan options on the [pricing page](/pricing/) if you are still deciding.
 
 **Path B: keep it as a backup.** If you are staying on Acuity for now, still hold onto the file properly. Save it to two places, a cloud drive plus a local copy, so a single lost laptop does not erase it. Tag the file name with the export date so you always know how fresh it is. Then set a calendar reminder to re-export every 90 days. A backup you took once and forgot is barely a backup at all.
 
@@ -70,7 +70,7 @@ Once your file is clean, there are two paths, and they are not mutually exclusiv
 
 A clean client list is most of the value, but a few things simply do not come out in any export. Knowing this upfront saves you from discovering a gap after you have already cancelled.
 
-Reviews collected on Acuity stay on Acuity, so if testimonials matter to you, screenshot them before you go. Your automated email content stays locked in Acuity's templates and does not transfer, which means you rebuild those messages on your next platform rather than migrating them. Custom intake forms have to be exported separately, as covered in Step 3, and are easy to forget. Integrations such as Zapier, Zoom, or calendar connections do not move with your data and need to be reconnected wherever you land. And recurring appointments do not carry their future dates across, so standing weekly or monthly slots have to be rebuilt.
+Reviews collected on Acuity stay on Acuity, so if testimonials matter to you, screenshot them before you go. Your automated email content stays locked in Acuity's templates and does not transfer, which means you rebuild those messages on your next platform rather than migrating them. Custom intake forms have to be exported separately, as covered in Step 3, and are easy to forget. Integrations such as Zapier, Zoom, or calendar connections do not move with your data and need to be reconnected wherever you land, if your new tool has them: BKRDY connects to Stripe, gives you a read-only calendar feed, and has no Zapier or Zoom connection. And recurring appointments do not carry their future dates across, so standing weekly or monthly slots have to be rebuilt, and on BKRDY, which has no recurring appointments, that means booking each visit on its own.
 
 The simplest safeguard for all of this is a screenshot. Anything you want to remember but cannot export, capture it as an image before your subscription ends. It is low effort and it means nothing important disappears the day your access does. If you are weighing the move, our [Acuity alternative comparison](/compare/acuity-alternative/) covers what changes after the switch.
 
@@ -100,7 +100,7 @@ No. Exporting does not affect your subscription in any way. Your account keeps r
 
 ### Can BKRDY import the Acuity CSV directly?
 
-Yes. Send it to us during the free migration and we run the import for you. Most setups are live the same day, with services, hours, staff, and clients all brought over. You do not need to format anything special first.
+Yes. Send it to us during the free migration and we run the import for you. Most setups are live the same day, with services, clients and upcoming appointments brought over. You do not need to format anything special first.
 
 ### What if my CSV is missing emails or phones?
 
@@ -108,7 +108,7 @@ That is common with older Acuity accounts where some clients were added by hand.
 
 ### Do automated reminder emails transfer?
 
-No. Reminder templates and automations stay inside Acuity and do not export. BKRDY ships its own reminder system that you set up in the dashboard, so you rebuild the few messages you use rather than migrating them.
+No. Reminder templates and automations stay inside Acuity and do not export. BKRDY has its own reminder, one per appointment at the time you set, and you can edit the email's subject, intro and sign-off in Settings, so you start fresh rather than migrating them.
 
 ### How often should I export as a backup?
 

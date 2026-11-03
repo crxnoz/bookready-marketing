@@ -63,7 +63,7 @@ Ready wording is in [how to ask for reviews](/guides/ask-for-reviews-templates/)
 
 ## One line about them, and the rest the same every time
 
-Keep one line that is genuinely about the client, from what you noted during the appointment, and let the rest be identical for everybody. That line is the difference between a message that lands and one they can tell went to forty people. It has to be specific: they sleep on their left side, they are growing out a fringe, they have a wedding in March. BKRDY keeps a client record with notes from each visit, so the line has somewhere to come from, and it can send the review request for you.
+Keep one line that is genuinely about the client, from what you noted during the appointment, and let the rest be identical for everybody. That line is the difference between a message that lands and one they can tell went to forty people. It has to be specific: they sleep on their left side, they are growing out a fringe, they have a wedding in March. BKRDY keeps a client record with your notes, so the line has somewhere to come from, and on paid plans it can email a review request for your own site.
 
 :::copy The first-visit follow up, two versions
 For lashes, nails or colour, sent two days after:

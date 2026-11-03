@@ -68,7 +68,7 @@ Each piece of your online presence has a specific job. The mistake most stylists
 
 Getting this right does not require doing everything at once. A focused sequence works better than scattered effort.
 
-1. **Secure your domain and build a professional booking site.** Your domain is your permanent address online. A [purpose-built booking website](/for-salons) for hair salons, like what BKRDY provides, handles scheduling, deposits, and client history in one place without requiring you to design anything from scratch.
+1. **Claim your web address and build a professional booking site.** Your address is where clients find you online. A [purpose-built booking website](/for-salons) for hair salons, like what BKRDY provides at yourname.bkrdy.me, handles scheduling, deposits, and client history in one place without requiring you to design anything from scratch.
 2. **Develop your branding assets.** Pick a consistent color palette, a logo, and a tone of voice. These should look and feel the same on your website, your Instagram, and your Google profile. Inconsistency reads as unprofessional, even when the work itself is excellent.
 3. **Set up and fully complete your Google Business Profile.** Add photos, write a description that uses the same service language as your website, enable messaging, and ask every satisfied client for a review. Treat it like a second homepage.
 4. **Choose two or three social platforms and post consistently.** You do not need to be everywhere. Pick the platforms where your ideal clients spend time and show up there reliably. Posting during natural breaks like processing time keeps it manageable.
@@ -76,7 +76,7 @@ Getting this right does not require doing everything at once. A focused sequence
 6. **Build a content schedule you can actually keep.** A simple plan, such as two posts per week on Instagram and one short video per week on TikTok, beats an ambitious plan you abandon after three weeks. Elyse Rox, a stylist and coach featured in *Modern Salon*, recommends posting frequency based on your actual goals: if you are fully booked, post less; if you are building clientele, post more.
 7. **Ask for reviews systematically.** After a great appointment, send a follow-up message with a direct link to your Google review page. Make it one tap, not a search.
 
-**Pro Tip:** *Use UTM parameters on the links in your social bios so you can see which platform is actually driving bookings, not just traffic. Most booking platforms support this, and it takes about five minutes to set up.*
+**Pro Tip:** *Use UTM parameters on the links in your social bios so you can see which platform is actually driving bookings, not just traffic. Many booking platforms report on this, and it takes about five minutes to set up, though BKRDY does not show where a booking came from.*
 
 Building [pricing transparency](/blog/pricing-transparency-in-hair-bookings-build-client-trust) into your website is one of the fastest ways to convert visitors into booked clients. Clients who know what to expect before they arrive are less likely to cancel and more likely to rebook.
 

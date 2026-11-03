@@ -80,7 +80,7 @@ Not all Stripe integrations are equal. Native integration, where Stripe is built
 
 Stripe scales without requiring a platform overhaul as transaction volume increases. A solo nail technician and a five-chair salon use the same infrastructure. That matters when you plan to add staff or open a second location, because you will not need to migrate your payment system mid-growth.
 
-BKRDY builds all of these features into its [booking websites for estheticians](/for-estheticians) and other beauty professionals, with Stripe deposit handling included from day one. The [online booking setup](/blog/beauty-studio-online-booking-setup-a-practical-guide) requires no technical background and no third-party payment configuration.
+BKRDY builds native Stripe, optional sales tax through Stripe, and Apple Pay and Google Pay into its [booking websites for estheticians](/for-estheticians) and other beauty professionals, with Stripe deposit handling included from day one. It does not split a bill across cards, and a refund on a cancellation is a button you click, not automatic. The [online booking setup](/blog/beauty-studio-online-booking-setup-a-practical-guide) requires no technical background, just your own Stripe account to connect.
 
 ## Key Takeaways
 
@@ -110,7 +110,7 @@ My honest advice: do not wait until you are at capacity to set this up. Migratin
 
 Independent beauty studios spend too much time managing tools that were never designed to work together. BKRDY was built specifically for lash artists, nail technicians, hairstylists, and estheticians who want a professional booking website with Stripe payment handling already in place.
 
-BKRDY’s platform includes deposit flows, [automated client reminders](/platform/tools/notifications/), and [client profile management](/platform/tools/customers) connected to every booking. Whether you run a [spa](/for-spas) or a solo nail studio, the payment and booking experience your clients see is branded, fast, and built on Stripe from the start. No third-party configuration, no generic links, and no technical setup required.
+BKRDY’s platform includes deposit flows, [automated client reminders](/platform/tools/notifications/), and [client profile management](/platform/tools/customers) connected to every booking. Whether you run a [spa](/for-spas) or a solo nail studio, the payment and booking experience your clients see is branded, fast, and built on Stripe from the start. No generic links and no technical setup required, just your own Stripe account to connect.
 
 ## FAQ
 

@@ -18,7 +18,7 @@ A no-show fee policy is not the same thing as a cancellation policy, and treatin
 
 That difference changes everything about how you write and enforce the policy. The math is harder, because a same-day empty chair almost never rebooks. The documentation requirement is higher, because you will sometimes have to defend the charge to a bank. And the enforcement is more delicate, because you are billing someone who is already annoyed at themselves and looking for a reason to be annoyed at you instead.
 
-This guide walks through the whole thing in order: what makes a no-show fee actually enforceable, how much to charge, the exact policy language to use, the three places it has to appear, how to set up auto-charging, the message that goes out afterward, how to win a payment dispute, and how to handle repeat offenders without torching the relationship.
+This guide walks through the whole thing in order: what makes a no-show fee actually enforceable, how much to charge, the exact policy language to use, the three places it has to appear, how to charge the fee, the message that goes out afterward, how to win a payment dispute, and how to handle repeat offenders without torching the relationship.
 
 ## What makes a no-show fee enforceable.
 
@@ -26,7 +26,7 @@ A no-show fee is not something you can invent after the fact. For it to hold up,
 
 First, the policy has to be visible at the moment of booking, before the client confirms. A fee buried in a footer nobody reads does not count. It needs to sit next to the Confirm button where a reasonable person would see it. Second, the client has to take an action that signals agreement. Clicking Confirm on a booking page that clearly discloses the fee is exactly that: an affirmative step taken with the terms in view. Third, the amount has to be reasonable in proportion to the service. A $200 fee on a $40 haircut looks punitive and gives a bank an easy reason to side with the client.
 
-When a client disputes the charge later, the card network does not care how you felt about it. They care about disclosure. Stripe disputes lean almost entirely on whether you can show the client saw the policy and agreed to it. That is why enforceability is built at booking time, not at charge time. Handle the money side properly with [Stripe-backed payments](/platform/tools/payments/) and turn on the policy agreement box at booking, so the disclosure is captured every time.
+When a client disputes the charge later, the card network does not care how you felt about it. They care about disclosure. Stripe disputes lean almost entirely on whether you can show the client saw the policy and agreed to it. That is why enforceability is built at booking time, not at charge time. Handle the money side properly with [Stripe-backed payments](/platform/tools/payments/) and turn on the policy agreement at booking, so the disclosure is part of every booking.
 
 ## How much to charge for a no-show.
 
@@ -52,7 +52,7 @@ A no-show fee is only as strong as its weakest point of disclosure. If the polic
 
 First, on the booking page, before the client confirms. This is the one that matters most, because it is where consent is captured. The client should not be able to reach the Confirm button without the policy being in plain view. Second, in the confirmation email and SMS that goes out the moment they book. This creates a timestamped record that the terms were delivered, and it puts the fee in front of the client a second time while the booking is fresh. Third, in the reminder that goes out 24 to 48 hours before the appointment, which is both a courtesy and a paper trail.
 
-The reason for the redundancy is simple: each touchpoint is another piece of evidence, and together they make a dispute nearly unwinnable for the client. Once you add the policy line to the email templates, automated [confirmations and reminders](/platform/tools/notifications/) do this without you lifting a finger, so the policy rides along on every message instead of depending on you to remember. For the broader playbook on cutting missed appointments, see our guide on [reducing no-shows](/guides/reducing-no-shows/).
+The reason for the redundancy is simple: each touchpoint is another piece of evidence, and together they make a dispute nearly unwinnable for the client. Once you add the policy line to the email templates, automated [confirmation and reminder emails](/platform/tools/notifications/) do this without you lifting a finger, so the policy rides along on every one instead of depending on you to remember. BKRDY's text wording is fixed, so the line lives in the email. For the broader playbook on cutting missed appointments, see our guide on [reducing no-shows](/guides/reducing-no-shows/).
 
 ## How to charge a no-show fee in BKRDY.
 
@@ -84,9 +84,9 @@ The pattern is consistent: whoever has the cleaner documentation wins, and that 
 
 A single no-show is usually life happening. A pattern is a different problem, and it needs an escalating response that is firm on the money but easy on the person. A simple three-strike system keeps you consistent and keeps you from making the call in the heat of the moment.
 
-On the first no-show, charge the fee and offer to rebook, exactly as covered above. On the second, charge the fee again and require a deposit on all future bookings. This is where the earlier policy language earns its keep, because you warned them at booking that repeat no-shows may require prepayment, so it is not a surprise. On the third, you are within your rights to decline future bookings entirely or require full prepayment before you will hold a slot. At that point the client has told you, three times, how much they value your time.
+On the first no-show, charge the fee and offer to rebook, exactly as covered above. On the second, charge the fee again and require payment up front on all future bookings. This is where the earlier policy language earns its keep, because you warned them at booking that repeat no-shows may require prepayment, so it is not a surprise. On the third, you are within your rights to decline future bookings entirely or require full prepayment before you will hold a slot. At that point the client has told you, three times, how much they value your time.
 
-For the deposit conversation, keep it warm and matter-of-fact: "Hi [name], happy to get you back on the books. Since we have had a couple of missed appointments, future bookings will need a deposit to hold the slot. You can book anytime through the usual link." No blame, no drama, just the new terms. Most clients accept it without complaint, and the ones who walk away were costing you money anyway. Deposits handle this quietly, and our [deposit guide](/guides/deposit-best-practices/) and [cancellation policy template](/guides/cancellation-policy-template/) show how to wire the whole system together. When you are ready to set it up, see [pricing](/pricing/) for the plan that fits.
+For the prepayment conversation, keep it warm and matter-of-fact: "Hi [name], happy to get you back on the books. Since we have had a couple of missed appointments, future bookings will need to be paid up front to hold the slot. Message me when you want to come in and I will send you the link." No blame, no drama, just the new terms. Most clients accept it without complaint, and the ones who walk away were costing you money anyway. BKRDY's deposit is one studio-wide rule, not a per-client one, so for a repeat offender you add the booking yourself and send a payment link. Our [deposit guide](/guides/deposit-best-practices/) and [cancellation policy template](/guides/cancellation-policy-template/) show how to wire the whole system together. When you are ready to set it up, see [pricing](/pricing/) for the plan that fits.
 
 ## Questions
 
@@ -112,7 +112,7 @@ Yes, for genuine emergencies with a brief bit of context. Do not waive it for va
 
 ### Does BKRDY automatically charge the fee?
 
-No. On Solo, Studio and Studio+, you set the fee in Settings, Payment rules, and charge it to the client's saved card from the appointment when you decide to. Nothing is charged on its own. The Free plan takes deposits but does not save cards or charge fees.
+No. On Solo, Studio and Studio+, you set the fee in Settings, Payment rules, and charge it to the client's saved card from the appointment when you decide to. A no-show fee is never charged on its own. A late cancellation fee is different: when a client with a saved card cancels through their link inside your late window, it is charged automatically and they get an email. The Free plan takes deposits but does not save cards or charge fees.
 
 ### What if a client says they texted to cancel?
 

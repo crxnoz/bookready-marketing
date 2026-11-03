@@ -38,19 +38,19 @@ The BKRDY angle is blunt: a solo plan should cost like a solo business. Under tw
 
 ## The honest shortlist of apps for solo pros.
 
-No everything-is-great listicle. Here is who each one actually fits. **GlossGenius** is a clean, solo-friendly app with real in-person POS, running roughly $24 to $48 a month. Strong if you want a card reader for walk-up checkout and do not mind a transaction fee. **Fresha** has a free base and a marketplace that can put you in front of new clients, but it charges a fee on new-client marketplace bookings, so the "free" gets a footnote. **Booksy** is a marketplace plus per-staff pricing, genuinely useful in dense barber and beauty markets where people search the app to find someone nearby.
+No everything-is-great listicle. Here is who each one actually fits. **GlossGenius** is a clean, solo-friendly app with real in-person POS, starting at $28 a month, or $24 billed yearly. Strong if you want a card reader for walk-up checkout and are fine with its card rates. **Fresha** starts at $19.95 a month for one team member and has a marketplace that can put you in front of new clients, but it charges a fee on new-client marketplace bookings. **Booksy** is a marketplace plus per-staff pricing, genuinely useful in dense barber and beauty markets where people search the app to find someone nearby.
 
-**Square Appointments** is fine, especially if you already live in the Square ecosystem for other payments, though the booking page looks like every other Square page. And **BKRDY** gives you a designed site at yourname.bkrdy.me, 0% platform markup on top of Stripe's standard rate, with Solo at $18 a month billed annually. The honest framing across all five: the marketplace apps rent you an audience, and BKRDY builds you one. Both can be right at different stages.
+**Square Appointments** is fine, especially if you already live in the Square ecosystem for other payments, though the booking page looks like every other Square page. And **BKRDY** gives you a designed site at yourname.bkrdy.me, 0% platform markup on top of Stripe's standard rate, with Solo at $18 a month billed annually. The honest framing across all five: the marketplace apps rent you an audience, and BKRDY gives you a page of your own to build one on. Both can be right at different stages.
 
 |  | Monthly | Platform markup | Designed site | Marketplace | Best for |
 |---|---|---|---|---|---|
 | **BKRDY** | **$21** | **0%** | **Yes** | No | Owning your brand |
-| GlossGenius | $24-$48 | ~2.6% | No | No | In-person POS |
-| Fresha | $0 base | New-client fee | No | Yes | Getting found cold |
+| GlossGenius | $28 | None listed | No | No | In-person POS |
+| Fresha | $19.95 | New-client fee | No | Yes | Getting found cold |
 | Booksy | ~$30 + seats | Marketplace fee | No | Yes | Dense local search |
-| Square | $0-$29 | ~2.6% | No | No | Already on Square |
+| Square | $0-$49 | None listed | No | No | Already on Square |
 
-If you are weighing a fee-heavy incumbent against a flat, low-markup plan, the [GlossGenius alternative comparison](/compare/glossgenius-alternative/) runs the same math in more detail. Pick by where your clients come from, not by which app has the longest feature list.
+If you are weighing a fee-heavy incumbent against a flat, low-markup plan, the [GlossGenius alternative comparison](/compare/glossgenius-alternative/) lays out the prices and card rates side by side. Pick by where your clients come from, not by which app has the longest feature list.
 
 ## Your booking page is your storefront.
 
@@ -82,13 +82,13 @@ A marketplace is convenient right up until you want to leave. It controls the UR
 
 Owning your business as an asset means owning the things a competitor cannot switch off. Your own booking site, so the page clients land on is yours. Your own client list, so you can reach the people you have served. Your own reviews, sitting on a page you control instead of a profile someone else can change or delist. When those live with you, the business is something you could sell, move, or grow on your terms, not a tenancy in someone else's app.
 
-Practically, this is easy to start. Export your existing client list as a CSV from whatever you use now, and import it somewhere you own. BKRDY keeps every client on file in your own [customer records](/platform/tools/customers/), and it collects [verified reviews](/platform/tools/reviews/) on assets that belong to you, not to a marketplace. Start the ownership habit early, while the list is small and easy to move. The longer you rent, the more expensive leaving becomes, which is exactly why the marketplace wants you to stay.
+Practically, this is easy to start. Export your existing client list as a CSV from whatever you use now, and keep a copy somewhere you own. BKRDY keeps every client on file in your own [customer records](/platform/tools/customers/), and it collects [verified reviews](/platform/tools/reviews/) on assets that belong to you, not to a marketplace. Start the ownership habit early, while the list is small and easy to move. The longer you rent, the more expensive leaving becomes, which is exactly why the marketplace wants you to stay.
 
 ## The fastest path to live as a solo pro.
 
 You do not need a project plan. You need an afternoon. Here is the tight version. One, pick a template: Clarity for a clean, uncluttered look, The Fade Room or Opaline if your work wants more mood. Two, add your services with real prices and turn on a deposit. Three, connect Stripe, which is the only account you need to take money. Four, share your yourname.bkrdy.me link, which is live the moment you publish.
 
-Five, turn on the reminder sequence so confirmations and nudges go out automatically from your first booking. Six, put the link in your Instagram bio, because that is where most solo pros are actually found. That is the whole setup, and most solo pros are live in a single afternoon, taking real bookings by the evening. You can refine photos and copy later. The point is to be open for business fast.
+Five, check your reminder setting so the confirmation and the reminder go out automatically from your first booking. Six, put the link in your Instagram bio, because that is where most solo pros are actually found. That is the whole setup, and you can be live in a single afternoon, taking real bookings by the evening. You can refine photos and copy later. The point is to be open for business fast.
 
 If you want to see the looks side by side before you commit, browse the [website templates](/platform/website/templates/) and pick the one that feels like your work. Then check the [pricing](/pricing/) to confirm the plan matches a one-person business, which for a solo pro means Solo at $18 a month billed annually, or $21 monthly. The Free plan needs no card, so there is nothing stopping you from building the page tonight and deciding later.
 
@@ -100,7 +100,7 @@ It depends on whether you need to be found or you already have clients. BKRDY So
 
 ### Do I need to pay for staff features if it is just me?
 
-No, and you should not. Team-grade apps price in per-staff seats, multi-location reporting, and payroll you will never open. Look for a true solo plan, around $15/mo, that charges like a one-person business instead of a small team.
+No, and you should not. Team-grade apps price in per-staff seats, multi-location reporting, and payroll you will never open. Look for a true solo plan, under $25/mo, that charges like a one-person business instead of a small team.
 
 ### Is a marketplace app like Fresha or Booksy worth it for a solo pro?
 
@@ -112,7 +112,7 @@ Good ones can. BKRDY charges a deposit through Stripe at the moment of booking, 
 
 ### How much does a solo booking app cost?
 
-Solo-friendly options run from free to about $48 a month. BKRDY Solo is $18/mo billed annually with 0% platform markup on top of Stripe's standard processing rate. Team-grade apps often start near $40 to $50 and add a transaction cut on top.
+Solo-friendly options run from free to about $30 a month. BKRDY Solo is $18/mo billed annually with 0% platform markup on top of Stripe's standard processing rate. Team-grade apps often start near $40 to $50 and add a transaction cut on top.
 
 ### Will I lose my clients if I switch booking apps?
 
@@ -120,8 +120,8 @@ No, if you own the list. Most apps export a client CSV, and BKRDY runs the impor
 
 ### Do I need my own website or just a booking link?
 
-A bare link drops clients on a generic form that looks like everyone else's. Your own designed site builds trust, gets found on Google, and looks like your work. When it is just you, that page is the entire storefront.
+A bare link drops clients on a generic form that looks like everyone else's. Your own designed site builds trust, can show up on Google, and looks like your work. When it is just you, that page is the entire storefront.
 
 ### How long does it take a solo pro to get set up?
 
-Most solo pros are live in an afternoon. Pick a template, add your services with prices and deposits, connect Stripe, point a domain or use the free subdomain to start, turn on reminders, and drop the link in your Instagram bio.
+You can be live in an afternoon. Pick a template, add your services with prices, turn on a deposit, connect Stripe, share your yourname.bkrdy.me link, check your reminder setting, and drop the link in your Instagram bio.

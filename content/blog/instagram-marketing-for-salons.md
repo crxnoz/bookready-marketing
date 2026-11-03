@@ -42,7 +42,7 @@ Not all content is equal, and it is worth being blunt about which kind pays. Wha
 
 What does not convert: motivational quote tiles, reposted memes, generic stock images of products you do not sell. They can rack up likes because they are easy to double-tap, but a like is not an intention. People book when they can picture themselves in the result and trust the hand doing the work. A quote about self-care does neither. A fifteen-second reel of a root smudge melting into a balayage does both.
 
-One rule ties it together: every converting post should end with a plain call to action pointing at the bio link. Not clever, not buried. "Book this look through the link in our bio." People need to be told the next step, even when it seems obvious to you. You can plan and caption these posts using the BKRDY [content maker](/platform/tools/marketing/), so the idea, the caption, and the booking destination all live in one place instead of scattered across your camera roll and three apps. Keep the loop tight and the whole thing gets easier to sustain.
+One rule ties it together: every converting post should end with a plain call to action pointing at the bio link. Not clever, not buried. "Book this look through the link in our bio." People need to be told the next step, even when it seems obvious to you. On paid plans, the BKRDY [content maker](/platform/tools/marketing/) can turn your photos into ready-made post and story images with a caption to copy, so you are not starting from a blank screen, and you post them yourself. Keep the loop tight and the whole thing gets easier to sustain.
 
 ## Stories vs Reels vs grid: what each is actually for.
 
@@ -50,7 +50,7 @@ Owners waste hours guessing which format to use because nobody gave each one a j
 
 The grid is the credibility check. When someone lands on your profile after a Reel, the top nine posts decide in about two seconds whether they trust you enough to book. Keep it consistent and result-forward: recent work, clean photos, a look that reads instantly as "this salon is good at what I want." A messy or off-brand grid undoes the reach a great Reel earned. Treat it like the first nine frames of a first impression, because that is what it is.
 
-Stories are for warmth and urgency. Behind-the-scenes moments, last-minute openings, quick polls, the day-to-day texture that keeps you top of mind with people who already follow you. The simple rule: Reels to get found, grid to get trusted, Stories to stay remembered. Stories are also the perfect place to fill a same-day gap. Post the opening, and pair it with a BKRDY [announcement banner](/platform/website/announcement/) on your booking site so the two channels say the same thing at the same time. A cancellation becomes a booking instead of a hole in the day.
+Stories are for warmth and urgency. Behind-the-scenes moments, last-minute openings, quick polls, the day-to-day texture that keeps you top of mind with people who already follow you. The simple rule: Reels to get found, grid to get trusted, Stories to stay remembered. Stories are also the perfect place to fill a same-day gap. Post the opening, and on a paid plan pair it with a BKRDY [announcement banner](/platform/website/announcement/) on your booking site so the two channels say the same thing at the same time. A cancellation becomes a booking instead of a hole in the day.
 
 ## A posting cadence a busy owner can actually keep.
 
@@ -58,7 +58,7 @@ Stories are for warmth and urgency. Behind-the-scenes moments, last-minute openi
 
 Three consistent posts beat seven sporadic ones for a simple reason: both the algorithm and your clients reward reliability. The platform learns you are a steady creator and shows your work more. Clients learn you are present and active, which quietly signals a healthy, open business. A dead feed with a great post from six weeks ago reads as "are they even still open?" Steady wins.
 
-Now the real constraint. You are fully booked, so when exactly are you supposed to make this content? Batch it. Shoot a week of clips and photos in one session, between clients or on an admin afternoon, then schedule them ahead so posting runs in the background. Make the images and captions for the batch in one sitting with the BKRDY [content maker](/platform/tools/marketing/), which does not post for you, so nothing sits half-finished. And set the cadence at the floor you can hold during your worst week, not your best one. A schedule that only survives a slow week is not a schedule, it is a hobby.
+Now the real constraint. You are fully booked, so when exactly are you supposed to make this content? Batch it. Shoot a week of clips and photos in one session, between clients or on an admin afternoon, then schedule them ahead so posting runs in the background. On paid plans, make the images and captions for the batch in one sitting with the BKRDY [content maker](/platform/tools/marketing/), so nothing sits half-finished. It does not post or schedule, so that part happens in Instagram. And set the cadence at the floor you can hold during your worst week, not your best one. A schedule that only survives a slow week is not a schedule, it is a hobby.
 
 ## Make the booking page look like your brand, not a form.
 
@@ -74,13 +74,13 @@ Proof is fuel, so feed it back into the funnel instead of letting it sit in a fo
 
 The psychology is simple and it is not flattering to your captions: a stranger trusts other clients far more than they trust you. You are the seller. Of course you say your work is good. A photo of someone else's fresh color, or a five-star note from a real regular, carries weight your own words never will. That is why a steady stream of recent proof outperforms any amount of clever copy.
 
-Make the flow automatic rather than something you chase. Collecting reviews through BKRDY's [reviews tool](/platform/tools/reviews/) means fresh, verified proof arrives on its own after appointments, so you always have something current to share. One caution: never fake or over-edit results. Regulars notice a filter that erased a client's actual hair, and the moment they clock it, every future post gets a mental asterisk. Honest proof compounds. Inflated proof erodes. If you want the full playbook on gathering it without feeling pushy, read the guide on [getting more salon reviews](/guides/how-to-get-more-salon-reviews/).
+Make the flow automatic rather than something you chase. On paid plans, collecting reviews through BKRDY's [reviews tool](/platform/tools/reviews/) means the request goes out on its own after appointments, so fresh, verified proof keeps coming in without you chasing it. One caution: never fake or over-edit results. Regulars notice a filter that erased a client's actual hair, and the moment they clock it, every future post gets a mental asterisk. Honest proof compounds. Inflated proof erodes. If you want the full playbook on gathering it without feeling pushy, read the guide on [getting more salon reviews](/guides/how-to-get-more-salon-reviews/).
 
 ## How to know if Instagram is actually paying off.
 
 Here is what to measure so you stop guessing: bookings attributed to the bio link. Not followers, not likes, not saves. Those are noise dressed up as progress. The only number that tells you Instagram is working is how many appointments trace back to that one link in your profile. Everything else is a feeling.
 
-The practical method is to watch booking volume from your booking-site traffic and note the jumps. When a specific post lands and bookings tick up that week, you just learned what your audience acts on. Do this review monthly, not daily. Checking every day means reacting to noise, chasing a slow Tuesday that means nothing. A month of data shows the actual pattern. BKRDY does not track traffic or where a booking came from, but your calendar shows the bookings and its [numbers](/platform/tools/analytics/) show the money by month, so you can set those against what you posted instead of guessing.
+The practical method is to watch your booking volume and note the jumps. When a specific post lands and bookings tick up that week, you just learned what your audience acts on. Do this review monthly, not daily. Checking every day means reacting to noise, chasing a slow Tuesday that means nothing. A month of data shows the actual pattern. BKRDY does not track traffic or where a booking came from, but your calendar shows the bookings and its [numbers](/platform/tools/analytics/) show the money by month, so you can set those against what you posted instead of guessing.
 
 One benchmark to hold in mind: if three months of consistent posting produces no new bookings, the problem is almost never your posting frequency. It is upstream. Usually it is the bio-link destination, still pointing at a form or a dead end, or the content type, all quotes and no transformation. Fix the funnel before you blame the effort. When both ends are right, the frequency you can actually sustain is more than enough.
 
@@ -104,7 +104,7 @@ Both, for different jobs. Reels get you discovered by new clients who do not fol
 
 ### How do I add a booking link to my Instagram bio?
 
-Put your BKRDY booking-site URL in the website field of your Instagram profile. It becomes a tappable link clients use to book in two taps, with no DM tag required. The dedicated [bio-link guide](/guides/add-booking-link-to-instagram-bio/) walks through the exact steps if you want the screenshots.
+Put your BKRDY booking-site URL in the website field of your Instagram profile. It becomes a tappable link clients use to pick a service and a time and book, with no DM tag required. The dedicated [bio-link guide](/guides/add-booking-link-to-instagram-bio/) walks through the exact steps if you want the screenshots.
 
 ### Do I need a lot of followers to get clients?
 

@@ -63,7 +63,7 @@ You do not need a heavy deposit to fix this. A light deposit or a card on file i
 
 ## Put your menu on a booking page.
 
-The cleanest way to run a wax business is to put the whole menu on your own booking page, with each service showing its price, its duration, and its policy. The client picks what they want, sees the deposit, and books, with no back-and-forth texting and no phone tag during your appointments.
+The cleanest way to run a wax business is to put the whole menu on your own booking page, with each service showing its price and its duration, and your policy in plain view. The client picks what they want, sees the deposit, and books, with no back-and-forth texting and no phone tag during your appointments.
 
 That does two things at once. It saves you the admin time that quietly eats a solo esthetician's day, and it makes you look like the established studio you are. A designed page that matches your brand reads very differently from a generic scheduling form, and it supports the prices you set earlier. Pair it with automated [reminders](/platform/tools/notifications/) so clients show up on time, and book the next wax before they leave so they stay on their cycle. If you want to see what a BKRDY skin studio looks like, start with the [esthetician page](/for-estheticians/), then browse looks in the [template library](/templates/). Opaline and the other quiet-luxury templates suit a wax and skin studio well.
 
@@ -91,4 +91,4 @@ Every 3 to 5 weeks for most areas, once hair grows back to a length that waxes c
 
 ### What is the easiest way to take waxing bookings?
 
-A booking page where each service shows its own price and policy, charged through Stripe. BKRDY sets it up fast, so clients can see the menu, pick a service, and book without texting you back and forth.
+A booking page where each service shows its own price and duration, with your policy in plain view and deposits charged through Stripe. BKRDY sets it up fast, so clients can see the menu, pick a service, and book without texting you back and forth.

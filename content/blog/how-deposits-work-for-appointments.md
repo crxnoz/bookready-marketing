@@ -85,7 +85,7 @@ Switch deposits on and some people will not book. They will fill in the form, se
 
 Be honest about where you are, though. If you are brand new and your book is thin, a deposit on every service can cost more than it saves. An empty Tuesday you could have filled is worse than a no-show on one you never would.
 
-So start narrow. Deposits only on the services that hurt to lose: anything over two hours, anything where you order supplies ahead, and any prime slot you turn other people away to hold. Leave the 30 minute trim alone. Once you can see which services get ghosted, widen it, and work out [how much to charge](/guides/how-much-deposit-to-charge/) on each.
+So start narrow. Deposits only on the services that hurt to lose: anything over two hours, anything where you order supplies ahead, and any prime slot you turn other people away to hold. Leave the 30 minute trim alone. Once you can see which services get ghosted, widen it, and work out [how much to charge](/guides/how-much-deposit-to-charge/) on each. BKRDY's deposit is one rule for the whole menu, not a setting per service, so there a percent deposit is the closest you get, since it scales with the price.
 
 ## Questions
 

@@ -109,7 +109,7 @@ The uncomfortable truth is that vague clients get average results, even at premi
 
 Nail techs who want to offer a genuinely tailored appointment need more than skill. They need a booking system that collects client preferences before the appointment even starts.
 
-BKRDY builds [booking websites for nail techs](/for-nail-techs) that include client history management, intake notes, and scheduling flexibility so technicians can allocate real consultation time without losing revenue. Clients can share preferences, flag sensitivities, and communicate their vision before they walk in the door. Automatic reminders and a smart waitlist keep appointments running on time, which protects the unhurried consultation experience that makes personalization possible. If you are a nail tech ready to build a client experience that actually reflects your work, BKRDY is built for exactly that.
+BKRDY builds [booking websites for nail techs](/for-nail-techs) that include client history management, client notes and preferences, and service lengths and buffer time you set, so technicians can allocate real consultation time. Booking questions let clients share preferences, flag sensitivities, and on paid plans upload a reference photo while they book. Automatic reminders go out before each appointment, and on paid plans a waitlist offers cancelled times to clients waiting. If you are a nail tech ready to build a client experience that actually reflects your work, BKRDY is built for exactly that.
 
 ## FAQ
 

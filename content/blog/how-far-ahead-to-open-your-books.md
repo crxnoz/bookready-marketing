@@ -56,7 +56,7 @@ If you offer several of these, set the window for your most frequent service and
 
 The fear with shortening is the client who wants to book and cannot. A waitlist answers that better than an open calendar does, because it turns a cancellation into a filled slot instead of a hole.
 
-The client who wanted next Thursday says so, and when Thursday's 2pm cancels at 9am that client gets a text and takes it. Without a waitlist you are refreshing your own calendar and posting the opening to a story half your clients will not see for six hours. The window and the waitlist are two halves of the same fix, and [reducing no-shows](/guides/reducing-no-shows/) covers the rest.
+The client who wanted next Thursday says so, and when Thursday's 2pm cancels at 9am that client gets the offer and takes it. Without a waitlist you are refreshing your own calendar and posting the opening to a story half your clients will not see for six hours. The window and the waitlist are two halves of the same fix, and [reducing no-shows](/guides/reducing-no-shows/) covers the rest.
 
 ## Some work genuinely needs a long window
 
@@ -76,7 +76,7 @@ This is what makes a shorter window painless. Regulars get first pick of every d
 
 ## Open dates in batches, on a day your clients learn
 
-Instead of a calendar that rolls open one day at a time forever, open a defined block on a set day. The first Monday of the month, four weeks of dates, every month. BKRDY has a release strategy setting for exactly this, always open or weekly, bi-weekly, monthly or a custom block, with a cancellation waitlist to catch everyone who missed it.
+Instead of a calendar that rolls open one day at a time forever, open a defined block on a set day. The first Monday of the month, four weeks of dates, every month. BKRDY has a release schedule setting for this, always open or weekly, bi-weekly, monthly on a date you pick or a custom block, with a cancellation waitlist on paid plans to catch everyone who missed it.
 
 Clients learn the rhythm quickly and the regulars start showing up for it. You get a predictable moment to look at your month before it fills, instead of finding out in week three that you gave away every Saturday.
 
@@ -85,7 +85,7 @@ The honest cost: it takes explaining, and a few clients will message you confuse
 :::copy The note for your booking page and clients
 New dates open on the first Monday of every month at 9am, and cover the next four weeks.
 
-If the date you want is not showing yet, it is not taken, it just has not opened. Check back on the first Monday, or ask me to add you to the waitlist and I will text you the moment something comes free.
+If the date you want is not showing yet, it is not taken, it just has not opened. Check back on the first Monday, or join the waitlist on my booking page and you will get an email if something comes free.
 
 Already a regular? Book your next appointment before you leave and I will get you in ahead of the public release.
 :::

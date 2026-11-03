@@ -48,7 +48,7 @@ Squarespace’s salon guide also recommends adding contact forms and direct emai
 
 Connecting your booking platform to a payment processor is where most studio owners either get it right or create problems for themselves later. The goal is a single, uninterrupted flow: client picks a service, picks a time, pays, and receives a confirmation. Any break in that chain increases abandonment.
 
-[Stripe’s booking workflow](https://stripe.com/ae/resources/more/booking-systems-with-payments-101-what-they-are-and-how-they-work) processes card payments instantly, updates booking status automatically, and handles refunds without manual intervention. That automation matters because it means your calendar reflects real, paid appointments rather than tentative holds. BKRDY uses Stripe for deposit handling, which means studio owners get the same reliability without building a custom integration.
+[Stripe’s booking workflow](https://stripe.com/ae/resources/more/booking-systems-with-payments-101-what-they-are-and-how-they-work) processes card payments instantly, updates booking status automatically, and handles refunds without manual intervention. That automation matters because it means your calendar reflects real, paid appointments rather than tentative holds. BKRDY uses Stripe for deposit handling, which means studio owners get the same card processing without building a custom integration, though a refund in BKRDY is a button you click rather than something that happens by itself.
 
 **Steps to connect booking and payments:**
 
@@ -130,7 +130,7 @@ The most common mistake I see is treating the booking page as an afterthought. S
 
 The second mistake is underestimating the value of two-way reminders. Most studio owners set up a one-way confirmation email and call it done. The research is clear: SMS reminders sent two hours before an appointment, with a direct link to reschedule, move the needle on attendance in a way that email alone does not.
 
-My honest advice is to pick a platform built for beauty professionals rather than a generic scheduling tool you have adapted. The difference shows up in the details: service-specific intake forms, deposit flows that match how beauty pricing works, and client history that helps you personalize the next visit. BKRDY is built around exactly that logic, and it shows in how quickly studios can go from zero to a live, branded booking page.
+My honest advice is to pick a platform built for beauty professionals rather than a generic scheduling tool you have adapted. The difference shows up in the details: booking questions you can set per service, deposits taken at booking, and client history that helps you personalize the next visit. BKRDY is built around exactly that logic, and it shows in how quickly studios can go from zero to a live, branded booking page.
 
 > *, Luis*
 
@@ -138,7 +138,7 @@ My honest advice is to pick a platform built for beauty professionals rather tha
 
 Independent studio owners who want a booking site that reflects their brand without building one from scratch have a direct option.
 
-BKRDY builds [custom booking websites](/for-salons) for hair salons, lash artists, nail technicians, estheticians, and spas. Each site includes built-in scheduling, Stripe deposit handling, automatic reminders, and a smart waitlist. Setup does not require design experience or a developer. If you are a [nail technician](/for-nail-techs) or an esthetician looking for a booking site that works out of the box, BKRDY’s [platform features](/platform/) cover everything this guide recommends, in one place.
+BKRDY builds [designed booking websites](/for-salons) for hair salons, lash artists, nail technicians, estheticians, and spas. Each site includes built-in scheduling, Stripe deposit handling, and automatic reminders, and paid plans add a waitlist. Setup does not require design experience or a developer. If you are a [nail technician](/for-nail-techs) or an esthetician looking for a booking site that works out of the box, BKRDY’s [platform features](/platform/) cover the booking page, the deposits, and an automatic reminder in one place, though not the two-way replies or the second reminder this guide describes.
 
 ## FAQ
 
@@ -160,7 +160,7 @@ Stripe is the most widely integrated payment processor for beauty booking platfo
 
 ### How long does it take to set up online booking for a beauty studio?
 
-A basic setup with a booking page, payment connection, and Google Business Profile link can be completed in a single day. Platforms built specifically for beauty studios, like BKRDY, reduce that timeline further by providing pre-configured templates and built-in integrations.
+A basic setup with a booking page, payment connection, and Google Business Profile link can be completed in a single day. Platforms built specifically for beauty studios, like BKRDY, reduce that timeline further by providing ready-made templates and a built-in Stripe connection.
 
 ## Recommended
 

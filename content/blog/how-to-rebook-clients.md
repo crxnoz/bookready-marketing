@@ -26,7 +26,7 @@ Timing is everything, and there is exactly one window where rebooking is easy. I
 
 The instant they walk out, friction takes over. They get busy. The calendar fades. The next time they think about you may be when the lashes have already thinned or the color has already grown out, which is to say, too late to protect the look and often too late to get their preferred slot. On-the-spot rebooking lifts return rates 20 to 40 points versus an open-ended goodbye, and that gap is almost entirely about timing, not persuasion.
 
-A polished checkout is part of the experience, not a hard sell. Ringing them up, thanking them, and offering the next slot in one smooth motion feels like good service, because it is. Make it a fixed part of how every appointment ends, and lean on a [smart calendar](/platform/booking/calendar/) that shows the next open slot at a glance so you are never fumbling for a date while the client waits.
+A polished checkout is part of the experience, not a hard sell. Ringing them up, thanking them, and offering the next slot in one smooth motion feels like good service, because it is. Make it a fixed part of how every appointment ends, and lean on a [calendar](/platform/booking/calendar/) that shows your open time at a glance so you are never fumbling for a date while the client waits.
 
 ## The exact words to use at checkout.
 
@@ -68,7 +68,7 @@ The rebook offer lands best when it matches the biology of the service. Book too
 
 Booking at the right interval keeps the result looking fresh, and that is the real pitch. "Your color will start to grow out around week five, so let us get you in at week four" is not a sales line, it is advice the client actually wants. Keep this table by the counter, so the right timing is something you look up rather than something you have to calculate each time.
 
-## Automated rebooking reminders for clients who left open.
+## Rebooking reminders for clients who left open.
 
 Not every client commits at checkout, and that is fine. Some genuinely do not know their schedule three weeks out. The mistake is letting that open-ended goodbye become a permanent one. This is where a simple follow-up earns its keep: a message sent at the service-matched interval turns a passive lapse into an active rebook.
 
@@ -82,13 +82,13 @@ A willing client will still fail to rebook if it takes a phone call during busin
 
 A self-serve booking link fixes it. Put your [online booking](/platform/booking/online/) link in the reminder, in the confirmation, and in your Instagram bio, and the client can lock their next slot at 11pm from the couch. The easier you make it, the higher your rebook rate climbs, because you are meeting people in the moment they actually think about it rather than forcing them into your open hours.
 
-When a client wants a slot that is already taken, do not let that demand leak away. A [waitlist](/platform/booking/waitlist/) captures it, and when a cancellation opens the slot, the software offers it by email to the people who wanted in. That way a fully booked week still converts every bit of rebooking intent into an actual appointment.
+When a client wants a slot that is already taken, do not let that demand leak away. On BKRDY's paid plans a [waitlist](/platform/booking/waitlist/) captures it, and when a cancellation opens the slot, the software offers it by email to the people who wanted in, one at a time. That way a fully booked week can still turn rebooking intent into an actual appointment.
 
 ## Getting over the fear of asking.
 
 Plenty of talented pros quietly undercharge their own time by never asking for the rebook, because it feels pushy. That instinct is understandable and completely backwards. You are not selling. You are saving the client the hassle of losing their preferred slot, and the clients who love your work genuinely want to be asked. Silence is the pushy move, because it leaves them to figure it out alone.
 
-Here is a confidence script for the nervous moment: "I would love to keep you looking like this, want me to hold your next spot?" Warm, specific, easy to say yes or no to. Say it the same way every time until it stops feeling like a big ask and starts feeling like part of the goodbye. A small number of clients will decline, and that is completely fine. The automated reminder catches them a few weeks later, so a no today is not a lost client, just a later rebook. And if plans change, a simple [reschedule](/platform/booking/online/) link means nobody feels trapped by the slot they booked.
+Here is a confidence script for the nervous moment: "I would love to keep you looking like this, want me to hold your next spot?" Warm, specific, easy to say yes or no to. Say it the same way every time until it stops feeling like a big ask and starts feeling like part of the goodbye. A small number of clients will decline, and that is completely fine. Your own follow-up catches them a few weeks later, so a no today is not a lost client, just a later rebook. And if plans change, a simple [reschedule](/platform/booking/online/) link means nobody feels trapped by the slot they booked.
 
 ## Track your rebooking rate and lift it.
 
@@ -106,7 +106,7 @@ At checkout, while the client is still with you and happiest with the result. Re
 
 ### What should I say to get a client to rebook?
 
-Use an assumptive close: name when they are due, offer a specific slot, and ask to lock it in. For regulars, offer a standing appointment so they never have to think about it, and give hesitant clients an easy out backed by a reminder.
+Use an assumptive close: name when they are due, offer a specific slot, and ask to lock it in. For regulars, offer a standing appointment so they never have to think about it, and give hesitant clients an easy out backed by a follow-up from you.
 
 ### How far out should I rebook each service?
 
@@ -122,11 +122,11 @@ A standing slot removes the decision for habitual clients. BKRDY has no recurrin
 
 ### What if a client will not commit at checkout?
 
-Let an automated reminder fire at the service-matched interval with a one-tap booking link. It turns an open-ended goodbye into an easy rebook a few weeks later, right when the service is starting to wear off.
+Send a short message from your own phone at the service-matched interval with your booking link, since BKRDY does not send this one for you. It turns an open-ended goodbye into an easy rebook a few weeks later, right when the service is starting to wear off.
 
 ### Does asking to rebook feel too pushy?
 
-Reframe it as saving the client their preferred slot. Clients who love your work want to be asked, and a low-pressure offer with an easy out rarely feels like a sell. The small number who decline get caught by the automated reminder.
+Reframe it as saving the client their preferred slot. Clients who love your work want to be asked, and a low-pressure offer with an easy out rarely feels like a sell. The small number who decline get caught by your follow-up a few weeks later.
 
 ### Can clients rebook themselves without calling?
 

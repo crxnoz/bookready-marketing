@@ -22,7 +22,7 @@ This guide walks the whole thing end to end: how much to charge, refund rules in
 
 ## Why deposits exist (and why most policies fail).
 
-A deposit is not about the money you collect up front. It is about the behavior it changes. When a client has skin in the game, even a small amount, they show up. It is one of the most reliable levers you have to protect your calendar, and it is cheaper than any reminder campaign.
+A deposit is not about the money you collect up front. It is about the behavior it changes. When a client has skin in the game, even a small amount, they show up. It is the single most reliable lever you have to protect your calendar, and it is cheaper than any reminder campaign.
 
 So if deposits work this well, why do so many policies fail? Four reasons, and almost every struggling policy has at least one. First, the deposit is too small to matter. A five dollar hold on a hundred dollar service is a rounding error, and clients treat it like one. Second, the refund rules are confusing, so clients hesitate to book at all. Third, regulars get treated like strangers, which quietly erodes the loyalty you spent years building. Fourth, the policy is invisible at booking, surfacing only when something goes wrong, which feels like a trap.
 
@@ -30,7 +30,7 @@ Get those four right and the rest of this guide is detail. If no-shows are your 
 
 ## How much deposit to actually require.
 
-The right deposit is proportional to what you lose if the slot goes empty. A flat number works for cheap services and breaks down fast for expensive ones, so tier it by service price. Here is the framework we recommend, refined across thousands of beauty bookings.
+The right deposit is proportional to what you lose if the slot goes empty. A flat number works for cheap services and breaks down fast for expensive ones, so tier it by service price. Here is the framework we recommend.
 
 **Under $50 service:** charge a flat $20. At this price a percentage is too small to change behavior, so a fixed amount that represents a real chunk of the ticket does the work. **$50 to $150 service:** charge 25 percent. Big enough to sting, small enough that nobody balks. **$150 to $400 service:** charge 30 percent. These are your longer, harder-to-refill appointments, so the commitment should rise with the stakes. **Over $400 (bridal, color correction, transformations):** charge 50 percent. These slots can eat half a day, and a no-show here is catastrophic, so the deposit should reflect that.
 
@@ -50,13 +50,13 @@ A deposit is a filter for risk, and your most loyal clients are not the risk. As
 
 **One:** returning clients who have completed three or more visits with no no-shows. They have proven they show up. **Two:** clients you have known personally for years, the ones who would text you directly if something came up. **Three:** clients on a recurring four-week schedule, because the standing appointment is itself a commitment, and double-charging that relationship feels petty.
 
-BKRDY has no exemption setting: the deposit is one rule for everyone who books online, and a tag does not change it. The way to spare a regular is to book them in yourself from your [calendar](/platform/booking/calendar/), where no deposit is asked. It takes a minute per booking and your best people never feel the friction, which is exactly how it should be. The whole point of a good deposit policy is that the clients you most want to keep barely know it exists.
+BKRDY has no exemption setting: the deposit is one rule for everyone who books online, and a tag does not change it. The way to spare a regular is to book them in yourself from your calendar, where no deposit is asked. It takes a minute per booking and your best people never feel the friction, which is exactly how it should be. The whole point of a good deposit policy is that the clients you most want to keep barely know it exists.
 
 ## How to set up deposits in BKRDY.
 
 The setup takes about ten minutes and lives in three places. Do them in order and you only touch each once.
 
-**Step one, set the deposit.** Go to Settings, then Payment rules, and set one percent or flat amount for your whole menu, using the tier that fits most of your bookings. A service with no price never asks for money up front. Save. **Step two, write the rules.** Go to Settings, then Policies, and paste your three refund rules into the cancellation policy so they show on your booking page. **Step three, confirm the messaging.** Go to Settings, then Notifications, and add a line about the deposit to the confirmation and reminder emails, so the client is never surprised.
+**Step one, set the deposit.** Go to Settings, then Payment rules, and set one percent or flat amount for your whole menu, using the tier that fits most of your bookings. A service with no price never asks for money up front. Save. **Step two, write the rules.** Go to Settings, then Policies, and paste your three refund rules into the cancellation policy so they show on your booking page. **Step three, confirm the messaging.** The confirmation email already shows the deposit paid and the balance left. Go to Settings, then Notifications, and add a line about the deposit to the reminder email, so the client is never surprised.
 
 That last step is the one people skip, and it is the one that prevents disputes. When the deposit, the rules, and the amount all appear before payment and again in the confirmation, a chargeback has nowhere to stand. Stripe-backed deposits in [payments](/platform/tools/payments/) are charged at booking and come off the total automatically, so you are never manually tracking who paid what.
 
@@ -82,13 +82,13 @@ A few situations need their own rule, because the standard tiers do not quite fi
 
 A deposit policy is not set-and-forget. Watch three numbers for the first 60 days, on a simple sheet if your software does not report them, and adjust if any drift out of range.
 
-**Booking conversion rate.** Compare the weeks before and after you introduced deposits. A small dip is normal and healthy, since you are filtering out the flakiest bookers. But if conversion drops 10 to 15 percent or more, your deposit is too high or your refund rules read as scary, so dial it back. **No-show rate.** This should fall 50 to 70 percent within 30 days. If it has not moved, your deposit is probably too small to change behavior, so raise it a tier.
+**Booking conversion rate.** Compare the weeks before and after you introduced deposits. A small dip is normal and healthy, since you are filtering out the flakiest bookers. But if conversion drops 10 to 15 percent or more, your deposit is too high or your refund rules read as scary, so dial it back. **No-show rate.** This should fall within 30 days. If it has not moved, your deposit is probably too small to change behavior, so raise it a tier.
 
 **Refund rate.** If more than 5 percent of deposits are being refunded, your cancellation window may be too tight, pushing genuine late changes into the forfeit zone and generating friction. Loosen the window or widen the credit option. Read these three together, not in isolation: the goal is fewer no-shows without a meaningful hit to conversion. When deposits, refunds, and conversion all sit in their healthy ranges, your policy is doing its job quietly in the background, which is exactly where it belongs.
 
 ## Set it once, then forget about it.
 
-A good deposit policy is mostly invisible. New clients prepay a fair amount, regulars are waved through, late cancellations turn into rebook credit instead of arguments, and your Saturday calendar stops leaking revenue. The whole thing runs on rules you set in an afternoon and never touch again.
+A good deposit policy is mostly invisible. New clients prepay a fair amount, regulars are waved through, late cancellations turn into rebook credit instead of arguments, and your Saturday calendar stops leaking revenue. The rules take an afternoon to set and rarely need touching again.
 
 BKRDY includes Stripe-backed deposits, one rule for your whole menu, and a payments overview to check the money, with 0% platform markup on top. See what that costs on our [pricing page](/pricing/), then set your deposits the same day.
 

@@ -66,7 +66,7 @@ Add those up, then position for your market. If you are the most experienced art
 
 ## Pricing is half the job. Booking is the other half.
 
-A good price list does nothing if clients cannot see it clearly or book against it without texting you back and forth. The studios that protect their time best put the whole menu on a booking page where each service carries its own price, its duration, and its deposit.
+A good price list does nothing if clients cannot see it clearly or book against it without texting you back and forth. The studios that protect their time best put the whole menu on a booking page where each service carries its own price and duration, and the deposit is charged at booking.
 
 That matters more for lashes than almost any other service, because your appointments are long. A two-hour mega volume set that no-shows is a half-day of lost income you cannot fill on short notice. A deposit charged at booking, through [Stripe-backed payments](/platform/tools/payments/), filters out the clients who were never going to show and protects the block of time for the ones who are. The client sees the deposit before they confirm, so there is no awkward conversation later.
 
@@ -96,4 +96,4 @@ Yes. Full sets are long appointments, often two hours or more, so a no-show is e
 
 ### What is the easiest way to take lash bookings and deposits?
 
-A designed booking page where each service shows its price and deposit, charged through Stripe. BKRDY shows clients the deposit before they confirm, so your calendar stays protected.
+A designed booking page that shows each service's price and charges the deposit through Stripe. BKRDY shows clients the deposit before they confirm, so there is no surprise later.

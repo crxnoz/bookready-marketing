@@ -131,11 +131,11 @@ The other thing worth saying plainly: your clients want to be guided. They are n
 
 > *, Luis*
 
-## How BKRDY helps nail techs rebook more clients
+## How BKRDY helps nail techs rebook
 
 Nail techs who want to put these strategies into practice need a booking setup that works for them automatically, not one that creates more manual work.
 
-BKRDY builds [booking websites for nail techs](/for-nail-techs) that include built-in client profiles, automated appointment reminders, and deposit handling through Stripe. Every client account stores booking history, so you always know when someone is due for their next visit. The platform sends reminders on your behalf, handles reschedules, and keeps your calendar full without you chasing clients down. If you want a booking setup that actively supports your rebooking rate, BKRDY is built for exactly that.
+BKRDY builds [booking websites for nail techs](/for-nail-techs) that include built-in client profiles, automated appointment reminders, and deposit handling through Stripe. Every client profile keeps their visit history, so you can see when someone was last in and judge when they are due. The platform sends appointment reminders on your behalf and lets clients reschedule from their confirmation email, and a Book again button adds the next visit while they are still in your chair. It does not send rebooking reminders, so the ask from this guide stays yours.
 
 ## FAQ
 

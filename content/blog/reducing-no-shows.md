@@ -4,7 +4,7 @@ section: guides
 slug: reducing-no-shows
 title: How to reduce no-shows in your salon. Deposits, reminders, and policies that actually hold.
 metaTitle: How to Reduce No-Shows in Your Salon | BKRDY
-description: Cut your no-show rate in half in 30 days. Deposits, reminders, cancellation rules, and the policies that actually hold. From BKRDY.
+description: How to bring your no-show rate down in 30 days: deposits, reminders, cancellation rules, and the policies that actually hold. From BKRDY.
 date: 2026-06-19
 pillar: money
 keywords: reducing no shows, how to stop no shows
@@ -16,7 +16,7 @@ migrated: true
 
 Run the math before you read anything else. A salon booking $7,500 a month with a 15 percent no-show rate is losing roughly $1,125 every month to empty chairs. Over a year that is about $13,500, gone. Not to a competitor, not to a slow market, just to people who said they would come and did not. That is a stylist’s second income. It is your rent. It is the difference between a good year and a tight one.
 
-Here is the good news: no-shows are one of the most fixable problems in this business. The system below takes most shops from double-digit no-show rates to single digits within 30 days, and it does not require you to become the bad guy. This is not about punishing clients or being mean. It is about respecting your time and theirs, with a few clear rules that do the enforcing for you so you never have to chase a missed appointment by hand again.
+Here is the good news: no-shows are one of the most fixable problems in this business. The system below is built to bring a double-digit no-show rate down, you can measure it inside 30 days, and it does not require you to become the bad guy. This is not about punishing clients or being mean. It is about respecting your time and theirs, with a few clear rules that do the enforcing for you so you never have to chase a missed appointment by hand again.
 
 We will walk through seven moves in order: measure your current rate, require deposits on new bookings, build a three-touch reminder sequence, add a reply-required confirmation, write a cancellation policy that holds, script the awkward fee conversation, and handle the edge cases. If you run a salon and want the industry-specific setup, the [For salons](/for-salons/) page covers the booking side in more depth. Let us start with the number you cannot fix until you measure it.
 
@@ -26,7 +26,7 @@ You cannot fix what you do not measure, and most owners are guessing. The formul
 
 For context on where you sit, realistic baselines run about 8 to 15 percent for booked salons, 15 to 25 percent for solo barbers in cold markets, and 20 to 30 percent for lash studios carrying a heavy new-client mix. If you are above those numbers, the system below will move you fast. If you are below 5 percent already, you are doing something right and the goal is to hold it.
 
-Pull the number from your [analytics dashboard](/platform/tools/analytics/) if your platform tracks it, or keep a simple weekly tally in a spreadsheet. Either works. What matters is that you write it down before you change anything, because that baseline is the only way to know whether deposits and reminders are actually paying off 30 days from now.
+Pull the number from your platform if it tracks it, or keep a simple weekly tally in a spreadsheet, which is how to do it on BKRDY, since its [analytics](/platform/tools/analytics/) cover revenue rather than a no-show rate. Either works. What matters is that you write it down before you change anything, because that baseline is the only way to know whether deposits and reminders are actually paying off 30 days from now.
 
 ## Require a deposit on every new-client booking.
 
@@ -64,7 +64,7 @@ Keep the language plain and human. "Life happens, so cancellations 24 hours out 
 
 Even with everything automated, you will sometimes have to talk to a person about money they owe. Have the words ready so you are warm, firm, and never improvising under stress. Here are three scenarios and the language that works for each.
 
-**First-time offender.** Keep it light and forward-looking. SMS: "Hi Jordan, looks like we missed you for your 3pm today. Our system charged the $40 no-show fee per the booking policy. No hard feelings at all, want me to get you rebooked for this week?" You are stating the fact, not arguing it, and immediately pointing at the next appointment.
+**First-time offender.** Keep it light and forward-looking. SMS: "Hi Jordan, looks like we missed you for your 3pm today. We charged the $40 no-show fee per the booking policy. No hard feelings at all, want me to get you rebooked for this week?" You are stating the fact, not arguing it, and immediately pointing at the next appointment.
 
 **Repeat offender.** Be kind but change the terms. SMS or email: "Hi Sam, we love having you in the chair. Because we have had a few missed appointments, we are moving your bookings to deposit-required going forward so we can keep your spot held. Same great service, just a small deposit at booking." You are not firing them. You are protecting your calendar.
 
@@ -106,7 +106,7 @@ Aim for 15 to 30 percent of the service price, or a flat $25 to $50 depending on
 
 ### Can I exempt my regulars from deposits?
 
-Yes, and you should. Returning clients who have never no-showed should not be treated like strangers. In BKRDY, book your reliable regulars in yourself from your calendar, where no deposit is asked, because online bookings all follow the one deposit rule. Reserve the requirement for new clients and the few repeat offenders who earned it.
+Yes, and you should. Returning clients who have never no-showed should not be treated like strangers. In BKRDY, book your reliable regulars in yourself from your calendar, where no deposit is asked, because online bookings all follow the one deposit rule. On a tool with per-client deposit rules, reserve the requirement for new clients and the few repeat offenders who earned it.
 
 ### What about clients who book by DM?
 

@@ -114,15 +114,15 @@ Every template above uses the same five fields. Fill them properly and a templat
 
 **[Salon name].** Mostly for email, where it grounds the message.
 
-The gap between a 2 percent and a 15 percent response rate is often nothing more than the name and the service. The catch is that filling five fields by hand for every client is exactly the chore that makes you stop sending. When BKRDY sends the request, it pulls those details straight from the appointment and the [client record](/platform/tools/customers/), so personalization costs you nothing. See [how the reviews tool](/platform/tools/reviews/) handles it.
+The gap between a 2 percent and a 15 percent response rate is often nothing more than the name and the service. The catch is that filling five fields by hand for every client is exactly the chore that makes you stop sending. When BKRDY sends the request, it pulls the first name, the service, and the studio name straight from the appointment and the [client record](/platform/tools/customers/), so personalization costs you nothing. See [how the reviews tool](/platform/tools/reviews/) handles it.
 
-## Stop copy-pasting: automate the whole sequence.
+## Stop copy-pasting: automate the email ask.
 
 Templates solve the wording problem. They do not solve the busy-week problem. You will use them religiously for two weeks, then have a Saturday with nine clients back to back, and the asks quietly stop. That is not a discipline failure, it is what happens to every manual step in a business run by one person with their hands full.
 
 So take yourself out of the loop. On BKRDY's paid plans, a review request goes out by email once the appointment is over, after the delay you choose, with the client's name and the exact service already filled in. You set it up once and clients get asked, on the Saturday with nine clients as reliably as on the quiet Tuesday, at most once every 90 days so a weekly regular is not asked every week.
 
-Two things make it different from a generic review blast. It is **verified**, so requests only go to real bookings and the reviews you collect are tied to actual appointments. And it **sorts by rating**: four and five stars publish to your site straight away, while one to three stars stay private and come to you. Requests go by email.
+Two things make it different from a generic review blast. It is **verified**, so requests only go to real bookings and the reviews you collect are tied to actual appointments. And it **sorts by rating**: four and five stars publish to your site straight away, while one to three stars stay private and come to you. Requests go by email, one ask with no follow-up nudge. The reviews live on your BKRDY site and nothing goes to Google, so keep sending the templates above if Google is where you want them.
 
 This sits on every paid plan: Solo, Studio and Studio+. Read the details on [automated review requests](/platform/tools/reviews/) and [the reviews tool](/platform/tools/reviews/), or check what it costs on [pricing](/pricing/).
 

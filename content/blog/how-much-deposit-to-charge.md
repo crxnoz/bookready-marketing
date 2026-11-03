@@ -40,7 +40,7 @@ For a typical $35 to $60 cut, a flat $15 to $20 deposit is enough commitment wit
 
 Barbershops can also run lower deposits than salons for structural reasons. Services are shorter, so a no-show burns 30 to 45 minutes rather than three hours. Slots are faster to recover, and walk-in culture means an opening can often be filled the same day. That combination lowers the cost of any single no-show, so the deposit only needs to discourage the casual flake, not fully insure the slot.
 
-The exception is the barber who has moved upmarket. If you do lengthy color, premium grooming packages, or anything north of $150, treat those services like salon services and switch to a percentage. The risk profile of a two-hour premium appointment looks nothing like a 30-minute fade. For the full barber playbook on pricing, deposits, and walk-in flow, see our [page for barbers](/for-barbers/).
+The exception is the barber who has moved upmarket. If you do lengthy color, premium grooming packages, or anything north of $150, treat those services like salon services and switch to a percentage. The risk profile of a two-hour premium appointment looks nothing like a 30-minute fade. For how deposits and walk-ins fit on BKRDY, see our [page for barbers](/for-barbers/).
 
 ## Color services: 25 to 30%, full color correction 50%.
 
@@ -80,7 +80,7 @@ Bridal is its own category and should be priced like one. The stakes are higher,
 
 Set a 14-day cancellation window so you have a fair chance to rebook a peak Saturday if plans change far enough out. Inside that window, the deposit stays with you, because there is no realistic way to refill a wedding-day slot on short notice. For parties of four or more, move to a separate written contract that spells out per-person pricing, the deposit, timing, and what happens if the count drops. Verbal agreements fall apart fast when a bridal party shrinks the week before.
 
-Handle date changes with a clear default: transfer the deposit to the new date if you are available, with no refund. That protects you against serial rescheduling while still treating a genuine change of plans with grace. Spell it out in writing so there is no debate later. For the full salon and bridal setup, see our [page for salons](/for-salons/).
+Handle date changes with a clear default: transfer the deposit to the new date if you are available, with no refund. That protects you against serial rescheduling while still treating a genuine change of plans with grace. Spell it out in writing so there is no debate later. For the full salon setup, see our [page for salons](/for-salons/).
 
 ## How to test whether your deposit amount is right.
 
@@ -88,7 +88,7 @@ You do not have to guess. A deposit amount is a number you can test like any oth
 
 Those three numbers tell you everything. If conversion dropped hard, your deposit is too high and you are scaring off real bookings at the door. If your no-show rate barely moved, the deposit is too low to function as a commitment device and you should raise it. If forfeits are climbing past 3 percent, something else is wrong, usually unclear policy communication rather than the amount itself.
 
-The point is to let the data correct you rather than defending a number you picked on instinct. Run the test, read the three signals, and adjust once. Your BKRDY calendar and [payments overview](/platform/tools/analytics/) hold the bookings and deposits, and a simple tally of no-shows covers the rest, so the next adjustment is informed instead of a hunch.
+The point is to let the data correct you rather than defending a number you picked on instinct. Run the test, read the three signals, and adjust once. Your BKRDY calendar and [payments overview](/platform/tools/analytics/) hold the bookings and deposits. BKRDY does not report conversion or no-show rates, so count your weekly bookings and keep a simple tally of no-shows, and the next adjustment is informed instead of a hunch.
 
 ## Pick the smallest number that changes behavior.
 
@@ -112,7 +112,7 @@ Most charge 20 to 30 percent across standard services. Bridal and full color cor
 
 ### Can deposits be applied to product purchases?
 
-Yes. In BKRDY the deposit is credited toward the appointment total, including any add-ons. The client never pays twice, and the deposit simply reduces what is owed at the end of the appointment.
+Yes, when the product is booked with the appointment. In BKRDY the deposit is credited toward the appointment total, including any add-ons or products the client added. The client never pays twice, and the deposit simply reduces what is owed at the end of the appointment.
 
 ### What if the service price changes after booking?
 

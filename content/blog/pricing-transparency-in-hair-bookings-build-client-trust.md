@@ -117,7 +117,7 @@ Pricing transparency is not about being cheap or giving clients ammunition to ne
 
 ## How BKRDY helps salons put transparent pricing into practice
 
-Salon owners who want to close the gap between what they communicate and what clients actually see need a booking system built for that job. BKRDY’s [salon booking websites](/for-salons) are designed specifically for independent beauty studios, with each service showing its price and description, and your deposit and cancellation policies shown on the site and at booking.
+Salon owners who want to close the gap between what they communicate and what clients actually see need a booking system built for that job. BKRDY’s [salon booking websites](/for-salons) are designed specifically for independent beauty studios, with each service showing its price and description, your deposit and cancellation policies written on the site, and the deposit amount shown at booking.
 
 BKRDY handles deposit collection through Stripe, sends automatic appointment reminders, and shows your current prices on the booking page, so returning clients always see accurate pricing. The setup takes hours, not weeks. For salon owners who want clients to arrive informed and confident, BKRDY gives you the structure to make that happen without building it from scratch.
 

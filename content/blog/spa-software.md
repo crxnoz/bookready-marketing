@@ -26,7 +26,7 @@ Here is why integrated booking websites outperform standalone booking pages:
 - Deposit collection and confirmations happen in one flow, not across two platforms
 - Client history, notes, and preferences live alongside the booking calendar
 
-BKRDY is built around exactly this model: a boutique-designed booking website with scheduling, Stripe deposits, and client profiles all under one roof.
+BKRDY is built around the all-in-one part of this model: a boutique-designed booking website at yourname.bkrdy.me, with scheduling, Stripe deposits, and client profiles all under one roof.
 
 ## Table of Contents
 
@@ -102,14 +102,14 @@ BKRDY’s approach is built around the idea that your booking page should look l
 
 | Feature | Business Impact |
 |---|---|
-| On-domain booking flow | Reduces drop-off; higher conversion vs. iframe booking |
-| Stripe deposits at booking | Filters no-shows; protects revenue |
-| Automated reminders | Reduces missed appointments without manual effort |
-| Smart waitlist | Fills cancellations automatically |
+| Booking flow on your BKRDY site | No iframe or marketplace page in between |
+| Stripe deposits at booking | Clients put money down when they book |
+| Automated reminders | One reminder before each visit, without manual effort |
+| Waitlist (paid plans) | Emails the next matching client when a booking is canceled |
 | [Client profiles and history](/platform/tools/customers) | Enables personalized follow-ups and repeat bookings |
 | Boutique design aesthetic | Reinforces premium brand perception at every touchpoint |
 
-The design side is not decorative. Soft cream surfaces, clean typography, and intentional spacing communicate a premium experience before a client reads a single word. That visual consistency, from the first Google result through to the booking confirmation, is what turns a one-time visitor into a regular.
+The design side is not decorative. Fifteen templates, clean typography, and intentional spacing communicate a premium experience before a client reads a single word. That visual consistency, from the first Google result through to the booking confirmation, is what turns a one-time visitor into a regular.
 
 ## Comparing popular spa booking software options
 
@@ -129,7 +129,7 @@ The market for spa booking software covers a wide range of use cases, from free 
 
 Most spa booking software gives you a calendar. BKRDY gives you a [designed booking website for your spa](/for-spas) that showcases your brand, collects deposits through Stripe at zero platform fee, and keeps client history in one place. There is no separate website builder to manage, no iframe breaking your booking flow, and no generic link that looks like it belongs to someone else’s studio.
 
-For lash artists, nail technicians, estheticians, and hairstylists who want their online presence to match the quality of their work, BKRDY is built for that gap. Setup is fast, the design is done for you, and the booking experience stays on your domain from the first click to the confirmation. See what it looks like for your studio at bkrdy.com/for-spas.
+For lash artists, nail technicians, estheticians, and hairstylists who want their online presence to match the quality of their work, BKRDY is built for that gap. Setup is fast, the design is done for you, and the booking experience stays on your own site at yourname.bkrdy.me, with deposits paid through Stripe. See what it looks like for your studio at bkrdy.com/for-spas.
 
 ## Key Takeaways
 
@@ -141,7 +141,7 @@ Integrated spa software that combines a branded website with on-domain booking c
 | Switch only when it counts | Experts recommend switching spa software only when your current system fails many critical features. |
 | Match platform to studio size | A basic scheduling tool is sufficient until you reach roughly 50 visits per month or $15,000 in package sales. |
 | Design builds trust | Branded aesthetics on your booking page reinforce premium positioning and increase client confidence before the visit. |
-| BKRDY for independent studios | BKRDY combines a boutique-designed booking website with Stripe deposits, client profiles, and automated reminders on one domain. |
+| BKRDY for independent studios | BKRDY combines a boutique-designed booking website with Stripe deposits, client profiles, and automated reminders in one place, at yourname.bkrdy.me. |
 
 ## Recommended
 

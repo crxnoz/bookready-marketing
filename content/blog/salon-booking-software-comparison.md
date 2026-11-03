@@ -24,11 +24,11 @@ Here is how BKRDY, Fresha, Vagaro, GlossGenius, Square Appointments, and Booksy 
 
 **Best for design-led owners:** BKRDY. A real designed website of your own with 0% transaction markup.
 
-**Best free tier:** Fresha, with a caveat. The subscription is free, but the new-client fee and processing recover the cost.
+**Best for high-volume salons:** Fresha, with a caveat. The subscription starts low, but the new-client fee and processing add to the cost.
 
 **Best for retail and POS:** Vagaro. Deep inventory, classes, and hardware, with a dated booking page.
 
-**Best solo POS:** GlossGenius. Strong in-person checkout and tipping, with a 2.6% fee.
+**Best solo POS:** GlossGenius. Strong in-person checkout and tipping, with card readers at 2.4% plus 15 cents.
 
 **Best for Square loyalists:** Square Appointments, if you already run Square hardware.
 
@@ -46,19 +46,19 @@ Skip the feature checklist. For a salon, five things decide whether software hel
 
 **4. Multi-staff and booth renters.** Each chair with its own calendar, services, and payout, without a mess.
 
-**5. How hard it is to leave.** Do you own your client list and domain, or are they locked inside someone else's platform? See how BKRDY handles [payments](/platform/tools/payments/) and ownership.
+**5. How hard it is to leave.** Do you own your client list, or is it locked inside someone else's platform? See how BKRDY handles [payments](/platform/tools/payments/) and ownership.
 
 ## Six platforms, one honest read each.
 
-**BKRDY.** A designed booking website (fifteen named editorial templates) with booking, deposits, and reminders built in, 0% transaction markup, and free same-day migration. $0 to $47 a month billed annually, flat, with Salon quoted. Best for owners who treat their brand as the product. Weak spots: no barcode retail inventory and no POS hardware. It is the only option here that puts the booking experience on a designed site of your own by default, which matters for SEO and for reading as an established business rather than a marketplace listing. Browse the [templates](/templates/).
+**BKRDY.** A designed booking website (fifteen named editorial templates) with booking, deposits, and reminders built in, 0% transaction markup, and free migration, usually the same day. $0 to $47 a month billed annually, flat, with Salon quoted. Best for owners who treat their brand as the product. Weak spots: no barcode retail inventory, no POS hardware, and no per-artist payouts, since all payments land in one Stripe account. It is the only option here that puts the booking experience on a designed site of your own by default, which matters for SEO and for reading as an established business rather than a marketplace listing. Browse the [templates](/templates/).
 
-**Fresha.** Free to subscribe, with a large marketplace and multi-location support. The revenue model is the catch: a new-client fee (a cut of first visits) plus processing markup, and your data lives in their marketplace. Best for high-volume salons that prize zero monthly cost over owning the funnel. See the [Fresha comparison](/compare/fresha-alternative/).
+**Fresha.** From $19.95 a month, or $14.95 per team member on a team plan, with a large marketplace and multi-location support. The revenue model is the catch: a new-client fee (a cut of first visits from its marketplace) plus processing, and your data lives in their marketplace. Best for high-volume salons that prize marketplace traffic over owning the funnel. See the [Fresha comparison](/compare/fresha-alternative/).
 
 **Vagaro.** Deep on retail, memberships, classes, and Pay Desk hardware. The public booking page looks dated and the interface is modal-heavy, and there is a transaction markup. Best for inventory-heavy spas and salons. See the [Vagaro comparison](/compare/vagaro-alternative/).
 
-**GlossGenius.** Beauty-native, with solid POS, tipping, and a few designed templates. The 2.6% transaction fee on top of processing adds up, and the template look is getting tired. Best for solo pros who do a lot of in-person checkout.
+**GlossGenius.** Beauty-native, with solid POS, tipping, and a few designed templates. Card processing runs 2.4% plus 15 cents in person and 3.4% plus 15 cents online, and the template look is getting tired. Best for solo pros who do a lot of in-person checkout.
 
-**Square Appointments.** Free for solo on Square and tightly integrated with Square POS hardware. Design is utilitarian and branding controls are limited, and the processing fee runs higher than direct Stripe. Best for owners already committed to Square.
+**Square Appointments.** A free plan, tightly integrated with Square POS hardware. Design is utilitarian and branding controls are limited, and online processing on the free plan runs higher than direct Stripe. Best for owners already committed to Square.
 
 **Booksy.** A large marketplace, strongest for barbers in dense urban markets, with per-staff fees and a paid Boost promotion. The marketplace branding overshadows yours. Best for shops that genuinely need discovery to fill a chair. Once your regulars know your name, though, the per-staff fees and Boost spend start buying you traffic you already own.
 
@@ -66,22 +66,22 @@ Skip the feature checklist. For a salon, five things decide whether software hel
 
 |  | Monthly | Transaction fee | Designed site | Marketplace | POS | Best for |
 |---|---|---|---|---|---|---|
-| **BKRDY** | $0-$55 | **0%** | **Yes (15 named)** | No | None | Brand-first salons |
-| Fresha | $0 | New-client fee | Template-thin | Yes | Yes | High-volume, free |
+| **BKRDY** | $0-$55 | **0%** + Stripe | **Yes (15 named)** | No | None | Brand-first salons |
+| Fresha | $19.95+ | New-client fee | Template-thin | Yes | Yes | High-volume |
 | Vagaro | $30+ | Markup | Dated | Yes | **Full** | Retail-heavy spas |
-| GlossGenius | $24-$48 | 2.6% | Generic | No | **Full** | Solo POS |
-| Square | $0-$69 | ~2.6%+ | Utilitarian | No | **Full** | Square loyalists |
+| GlossGenius | $28+ | 2.4%-3.4% + 15¢ | Generic | No | **Full** | Solo POS |
+| Square | $0-$49+ | ~2.6%+ | Utilitarian | No | **Full** | Square loyalists |
 | Booksy | $29.99+ | Per-staff + Boost | Marketplace | Yes | No | Marketplace discovery |
 
 ## What each one costs once fees are counted.
 
 Take a two-chair salon doing $10,000 a month in bookings. The headline price is rarely the real one.
 
-**The free options are not free at volume.** Fresha and Square cost nothing to start, but a new-client fee or a processing markup quietly scales with your revenue. On $10,000 a month, a 1 to 3 percent markup is $100 to $300 every month, forever.
+**The low-cost options are not low-cost at volume.** Fresha starts low and Square has a free plan, but a new-client fee or a processing markup quietly scales with your revenue. On $10,000 a month, a 1 to 3 percent markup is $100 to $300 every month, forever.
 
-**The flat options get cheaper as you grow.** BKRDY Studio is $34 a month, or $29 billed annually, with 0% markup, so your software cost stays flat while your revenue climbs. GlossGenius at 2.6% on $10,000 is about $260 a month in fees alone, on top of the subscription.
+**The flat options get cheaper as you grow.** BKRDY Studio is $34 a month, or $29 billed annually, with 0% markup, so your software cost stays flat while your revenue climbs. Card payments still carry Stripe's standard fee of about 2.9% plus 30 cents, the way every platform here charges some card rate, so compare the rates as well as the subscriptions.
 
-Stretch that to two years. A 2.6% markup on $10,000 a month is roughly $6,200 in transaction fees alone over 24 months. A flat $29 plan is about $696 total for the same period. That gap is a new chair, a season of ads, or a stylist signing bonus, sitting in fees you did not have to pay.
+Stretch that to two years. A 1 to 3 percent markup on $10,000 a month is $2,400 to $7,200 over 24 months, on top of card processing. A flat $29 plan is about $696 total for the same period. That gap is a new chair, a season of ads, or a stylist signing bonus, sitting in fees you did not have to pay.
 
 Over a year, the gap between a flat 0% plan and a 2 to 3 percent markup runs into the thousands. Run your own numbers on the [pricing page](/pricing/), then decide which model fits where you are headed.
 
@@ -101,13 +101,13 @@ This is the gap BKRDY is built to close, with fifteen editorial templates (The F
 
 **3. Do you run heavy retail or in-person POS?** If a real share of revenue is products or walk-in checkout, weight the hardware. Vagaro or Square.
 
-For most salons open more than a year, the honest answer is to own your site. The [migration](/migration/) is free and usually same-day, so the switch is lighter than it sounds.
+For most salons open more than a year, the honest answer is to have a site of your own. The [migration](/migration/) is free and usually same-day, so the switch is lighter than it sounds.
 
 ## When BKRDY is the wrong pick.
 
 A comparison you can trust says where it loses. Choose something else if you need barcode retail inventory and POS hardware (Vagaro), if you depend on marketplace discovery to fill a brand-new chair (Fresha or Booksy), or if you run group-class memberships as a core revenue line.
 
-For the large middle (salons that live or die on their brand and their regulars) a designed site you own is the pick that keeps paying off. That is the case BKRDY is built for.
+For the large middle (salons that live or die on their brand and their regulars) a designed site of your own is the pick that keeps paying off. That is the case BKRDY is built for.
 
 ## What moving platforms actually involves.
 
@@ -121,11 +121,11 @@ BKRDY runs the heaviest lifts (clients, services, upcoming appointments) for fre
 
 ### What is the best salon booking software in 2026?
 
-It depends on whether you sell design, need a marketplace, or run heavy retail. BKRDY wins on storefront design and 0% markup, Vagaro on retail, Fresha on a free marketplace.
+It depends on whether you sell design, need a marketplace, or run heavy retail. BKRDY wins on storefront design and 0% markup, Vagaro on retail, Fresha on a high-volume marketplace.
 
 ### What is the cheapest salon booking software?
 
-Fresha and Square have free tiers, but both make money on transaction or new-client fees that scale with revenue. A flat plan like BKRDY Solo at $18 a month billed annually is often cheaper once fees are counted.
+Square has a free plan and Fresha's subscription starts low, but both make money on transaction or new-client fees that scale with revenue. BKRDY's Free plan is $0 with 0% markup, and a flat plan like BKRDY Solo at $18 a month billed annually is often cheaper once fees are counted.
 
 ### Which salon software has the lowest transaction fees?
 

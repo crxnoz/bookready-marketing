@@ -107,11 +107,11 @@ The packages that build real client loyalty are the ones where the salon knows y
 
 > *, Luis*
 
-## How BKRDY helps you find and book nail service packages
+## How BKRDY helps you book nail service packages
 
-Browsing nail service options online should feel as good as the appointment itself. BKRDY builds [booking websites for nail technicians](/for-nail-techs) that display full service menus, package details, and pricing in one clean, branded page. No generic links. No guessing what is included.
+Browsing nail service options online should feel as good as the appointment itself. BKRDY builds [booking websites for nail technicians](/for-nail-techs) that display full service menus, pricing, and, on paid plans, package details in one clean, branded page. No generic links. No guessing what is included.
 
-When a salon runs on BKRDY, you can see every package tier, book your preferred service, and pay a deposit in one flow. Automatic reminders mean you never miss an appointment, and client profiles store your service history so your technician knows exactly what you liked last time. If your schedule changes, [self-serve rescheduling](/platform/booking/online/) lets you move your appointment without a phone call. For clients who want a booking experience that matches the quality of the salon itself, BKRDY delivers that from the first click.
+When a salon runs on BKRDY, you can see its services and any packages it offers (bundles booked as one item, not prepaid series), book your preferred one, and pay a deposit in one flow. Automatic reminders help you remember the appointment, and client profiles store your service history so your technician can see what you had last time. If your schedule changes, [self-serve rescheduling](/platform/booking/online/) lets you move your appointment without a phone call. For clients who want a booking experience that matches the quality of the salon itself, BKRDY delivers that from the first click.
 
 ## FAQ
 

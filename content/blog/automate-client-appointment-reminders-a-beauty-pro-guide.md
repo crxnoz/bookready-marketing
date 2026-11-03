@@ -40,7 +40,7 @@ Three core components make appointment reminder automation work: a digital calen
 | Waitlist management | Auto-outreach on cancellation | Fills gaps immediately rather than leaving slots empty |
 | Personalization tokens | Client name, service, time | Makes messages feel personal, not robotic |
 
-BKRDY builds reminders, adjustable timing, personalization and, on paid plans, a waitlist into its booking platform for beauty studios, so you are not stitching together separate tools for those. Its calendar sync is a one-way feed and it does not parse replies, so weigh those two against how you work.
+BKRDY builds one reminder per appointment, at the timing you set and with the client’s details filled in, plus a waitlist on paid plans, into its booking platform for beauty studios, so you are not stitching together separate tools for those. Its calendar feed is read-only and nobody reads replies to its texts, so weigh those two against how you work.
 
 ## How to set up a reminder sequence that maximizes attendance
 
@@ -123,7 +123,7 @@ The professionals who get the most out of automated scheduling reminders are the
 
 ## BKRDY’s booking sites come with reminders built in
 
-Independent beauty professionals spend too much time chasing confirmations. BKRDY was built to fix that. Every [BKRDY booking website](/platform/) includes automated email reminders and a calendar feed, and paid plans add text reminders and a waitlist that offers a freed time to a client who is waiting.
+Independent beauty professionals spend too much time sending reminders by hand. BKRDY was built to fix that. Every [BKRDY booking website](/platform/) includes automated email reminders and a calendar feed, and paid plans add text reminders and a waitlist that offers a freed time to a client who is waiting.
 
 Whether you are a [lash artist](/for-lash-artists), a [nail tech](/for-nail-techs), or running a [full-service salon](/for-salons), BKRDY gives you a branded booking page that handles the booking messages: the confirmation, the reminder, any changes, and on paid plans the review request. Setup takes minutes, not weeks. No design experience needed. The reminders run from day one.
 

@@ -72,19 +72,19 @@ Here is the same shop, two ways. Booksy scales its bill with your team and keeps
 
 |  | Booksy (3 chairs) | Your own site |
 |---|---|---|
-| Monthly base | ~$29.99 + 2 staff add-ons | **$29 flat** |
+| Monthly base | ~$29.99 + 2 staff add-ons | **$29 billed annually, $34 monthly** |
 | Per extra staff | ~$20 each | **Included** |
 | Transaction markup | Processing, plus a Boost cut | **0% on Stripe** |
 | Promotion to get seen | Booksy Boost (ongoing) | Your SEO and bio link |
 | Who owns the client | The marketplace | **You** |
 
-Over a year, a three-chair shop on Booksy is paying the base plus two add-ons, around $840 before processing and Boost. A flat $29 plan is $348 a year, total. The dollars matter, but the bigger line is the last row: on your own site, the next time you want to email your whole client list or change platforms, nothing is holding your audience hostage.
+Over a year, a three-chair shop on Booksy is paying the base plus two add-ons, around $840 before processing and Boost. A flat $29 plan billed annually is $348 a year, before Stripe's processing. The dollars matter, but the bigger line is the last row: on your own site, the next time you want to export your client list for your own email tool or change platforms, nothing is holding your audience hostage.
 
 ## What to use once you own your clients.
 
 If most of your bookings already come from people who know you, the math changes. A designed website of your own, with booking and deposits built in, costs less than a stacked marketplace bill and keeps every client as yours.
 
-That is what BKRDY does: a real site (not a marketplace listing), 0% transaction markup on top of Stripe, and free same-day migration of your client list. Plans run from $0 to $47 a month billed annually, or $21 to $55 month, flat, with no per-staff surprise. Barbers tend to start with The Fade Room or Blackline because they look like a real shop, not a generic widget. Browse the full set on the [templates page](/templates/).
+That is what BKRDY does: a real site (not a marketplace listing), 0% transaction markup on top of Stripe, and free migration of your client list, usually the same day. Plans run from $0 to $47 a month billed annually, or $21 to $55 a month billed monthly, flat, with no per-staff surprise. For barbers, The Fade Room and Blackline look like a real shop, not a generic widget. Browse the full set on the [templates page](/templates/).
 
 If you want the head-to-head with the marketplace specifically, read our [Booksy alternative comparison](/compare/booksy-alternative/), which runs the fee math in detail.
 

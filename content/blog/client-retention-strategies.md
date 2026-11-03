@@ -26,7 +26,7 @@ Start with the money, because the money is not close. A new client costs 5 to 7 
 
 Work a plain example. A client who books a $60 service eight times a year is worth $480 in that year alone. Compare that to a single $60 first visit you paid $40 in ad spend to win. One is a relationship. The other is a transaction you barely broke even on. And the returning client does not just come back: they say yes to add-ons more readily, they trust your upsell, and they send you friends who cost you nothing to acquire.
 
-Most owners over-index on the top of the funnel: more reels, more ads, more reach. Far fewer invest in the back half, where the real profit lives. If you want to see what your revenue is actually made of, your [numbers](/platform/tools/analytics/) will tell you a story your follower count never will. Fix the leak before you pour in more water.
+Most owners over-index on the top of the funnel: more reels, more ads, more reach. Far fewer invest in the back half, where the real profit lives. If you want to see where your revenue actually comes from, your [analytics](/platform/tools/analytics/) will tell you a story your follower count never will. Fix the leak before you pour in more water.
 
 ## Book the next appointment before they leave the chair.
 
@@ -42,7 +42,7 @@ Forget the gimmicky punch card. Real loyalty is not a stamp collection, it is pr
 
 The second is a monthly membership for high-frequency services like lash fills or blowouts. It smooths your cash flow into something you can actually plan around, and it gives the client a reason to keep the standing appointment rather than shop around. The third is a referral reward that turns your happiest regulars into an acquisition channel, which is the cheapest marketing there is.
 
-Be honest about the tradeoff, though. Memberships only work if the client genuinely visits often enough to use them. Sell a monthly plan to someone who comes every ten weeks and you have manufactured resentment, not loyalty. Match the model to the real visit rate. BKRDY has no memberships or prepaid credits. It does have packages, which bundle services at a set price, and on paid plans a visit-based [punch card](/platform/tools/loyalty/).
+Be honest about the tradeoff, though. Memberships only work if the client genuinely visits often enough to use them. Sell a monthly plan to someone who comes every ten weeks and you have manufactured resentment, not loyalty. Match the model to the real visit rate. BKRDY has no memberships or prepaid credits. On paid plans it does have packages, which bundle services at a set price, and a visit-based [punch card](/platform/tools/loyalty/).
 
 ## The 6-week touch cadence that keeps you top of mind.
 
@@ -58,7 +58,7 @@ Here is the one number most owners never look at: repeat-visit rate. It is the s
 
 Read it like this. Under 30 percent means a leaky funnel, and you should fix retention before spending another dollar on ads. Between 40 and 50 percent is healthy for most studios. Above 60 percent is excellent and usually means your rebook-at-checkout habit is working. Contrast that with a vanity metric like follower count, which can look great while the chair sits empty.
 
-BKRDY does not calculate these for you. Your client book sorts everyone into [new, returning and regulars](/platform/tools/customers/), which is a quick read, and the exact numbers take a simple monthly sheet. What you measure, you improve. Watch this number monthly and let it point you at the leak.
+Your BKRDY client book sorts everyone into [new, returning and regulars](/platform/tools/customers/) and shows a quick retention read beside them, with visits per returning client and spend per client. It does not calculate the six-to-eight-week rate itself, so that number takes a simple monthly sheet. What you measure, you improve. Watch this number monthly and let it point you at the leak.
 
 ## Personal touches that scale without burning you out.
 
@@ -66,7 +66,7 @@ This is where most retention advice falls apart. "Just be more personal" is usel
 
 Keep a saved note on each client: the kids' names, the exact color formula, how they take their coffee, the vacation they mentioned last time. Surface it right before the appointment so you walk in already knowing. Add a happy-birthday message and a simple "we saved your formula, want to rebook?" text. None of it is fake. It is the same attentiveness you would give if you could remember everything, made reliable.
 
-Use [customer tags and notes](/platform/tools/customers/) so the relationship is not trapped in your head. When any team member can open the [client record](/platform/tools/customers/) and pick up exactly where you left off, the studio feels personal even on your day off. Do not fake intimacy. Let the record do the remembering, and spend your real attention on the person in front of you.
+Use [customer tags and notes](/platform/tools/customers/) so the relationship is not trapped in your head. When you can open the [client record](/platform/tools/customers/) and pick up exactly where you left off, every visit feels personal, even months after the last one. Do not fake intimacy. Let the record do the remembering, and spend your real attention on the person in front of you.
 
 ## Catch clients before they fully lapse.
 
@@ -80,7 +80,7 @@ BKRDY does not send that message for you. Its [Inactive segment](/platform/tools
 
 None of this is complicated. It just has to be consistent, which is exactly what a system buys you. Here is the whole thing as a runnable checklist:
 
-One, rebook at checkout, every single time, while the client is still in the chair. Two, send a six-week touch so no one goes cold. Three, offer a package or membership to the clients who visit often enough to use it. Four, tag and note every client so attention scales across the team. Five, watch repeat-visit rate monthly and adjust where it is leaking. Six, check your Inactive list monthly and reach out to the ones who slip through anyway.
+One, rebook at checkout, every single time, while the client is still in the chair. Two, send a six-week touch so no one goes cold. Three, offer a package or membership to the clients who visit often enough to use it. Four, tag and note every client so attention scales as your book grows. Five, watch repeat-visit rate monthly and adjust where it is leaking. Six, check your Inactive list monthly and reach out to the ones who slip through anyway.
 
 Not all of this runs on its own, and that is the honest part of treating retention as a system instead of a hope: some of it is a habit you keep. BKRDY holds the reminders, the notes and the client list in one place, so you are not stitching together a reminder app, a notes app, and a spreadsheet. See what fits your studio on the [pricing page](/pricing/) and turn the leak into a habit that quietly compounds.
 
@@ -108,7 +108,7 @@ Prepaid packages and memberships work when the client genuinely visits often eno
 
 ### How do I keep things personal when I have hundreds of clients?
 
-Automate the memory, not the relationship. Use client tags and saved notes so the formula, preferences, and small details surface before each visit, and any team member can pick up the relationship without missing a beat.
+Automate the memory, not the relationship. Use client tags and saved notes so the formula, preferences, and small details surface before each visit, and you can pick up the relationship without missing a beat.
 
 ### Which retention metric should I watch first?
 

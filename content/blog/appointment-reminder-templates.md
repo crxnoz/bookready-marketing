@@ -94,7 +94,7 @@ Copy-pasting templates by hand works until you get busy, which is exactly when n
 
 In BKRDY that is two messages, set in your [notification settings](/platform/tools/notifications/): a confirmation by email at booking, and one reminder at the time you choose, from 1 hour to 30 days before, by email and on paid plans by text for clients who tick the box. The name, service, date and time fill in on their own, and you can edit the email's subject, intro and sign-off. It fires on every booking, for every client.
 
-Pair it with a deposit at booking through [payments](/platform/tools/payments/) and the no-show problem mostly takes care of itself: the deposit gives the client skin in the game, and the reminder gives them every chance to show up or speak up.
+Pair it with a deposit at booking through [payments](/platform/tools/payments/) and you have the two strongest protections against a no-show: the deposit gives the client skin in the game, and the reminder gives them every chance to show up or speak up.
 
 Two small habits matter once it is running. If you add a day-of text, send it from your own phone in the morning, not the night before, so it lands while the client is planning their day. And keep the reply-requested version for the appointments you most need to confirm, because BKRDY does not track replies. Every reminder email carries a link to change the booking, so a client who needs to reschedule can do it themselves.
 

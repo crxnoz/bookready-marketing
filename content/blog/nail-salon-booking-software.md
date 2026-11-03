@@ -22,7 +22,7 @@ Most platforms can take an appointment. The differences that matter for a nail t
 
 For most nail techs and studios that get their clients from Instagram and word of mouth, BKRDY is the pick. You get a designed booking page that shows your work, a deposit that scales with the price, art and add-ons priced as real line items, and 0% platform markup on top of Stripe. Each tech gets their own calendar and login on the Studio plan.
 
-There are two honest exceptions. If retail is a real part of your revenue and you want inventory and POS in one place, Vagaro is built for that and the extra weight earns its keep. If almost all of your payments happen in person at the chair, GlossGenius gives you polished card readers and a smooth checkout for its 2.6% fee. The rest of this piece is the reasoning behind that verdict, so you can check it against your own shop.
+There are two honest exceptions. If retail is a real part of your revenue and you want inventory and POS in one place, Vagaro is built for that and the extra weight earns its keep. If almost all of your payments happen in person at the chair, GlossGenius gives you polished card readers and a smooth checkout for its 2.4% + 15¢ fee. The rest of this piece is the reasoning behind that verdict, so you can check it against your own shop.
 
 ## What nail techs actually need.
 
@@ -42,9 +42,9 @@ Five criteria do almost all the work when you are choosing. Score any platform a
 
 Four honest one-liners, then a table. None of these is bad. They are built for different shops.
 
-**BKRDY.** A designed website with booking built in, 0% platform markup, a deposit at booking, and per-tech calendars on Studio. Best if you want the booking page to look like your portfolio and you would rather not pay a percentage on every set.
+**BKRDY.** A designed website with booking built in, 0% platform markup, a deposit at booking, and per-tech calendars on Studio. Best if you want the booking page to look like your portfolio and you would rather not pay the platform a percentage on every set.
 
-**GlossGenius.** Strong in-person checkout, polished card readers, solid CRM. The 2.6% per-payment fee is the cost of entry, and the booking page is a color scheme, not a designed look. Best if most of your payments happen at the chair.
+**GlossGenius.** Strong in-person checkout, polished card readers, solid CRM. The 2.4% + 15¢ in-person fee is the cost of entry, and the booking page is a color scheme, not a designed look. Best if most of your payments happen at the chair.
 
 **Vagaro.** Deep on retail, inventory, and marketplace exposure. Heavier to set up and busier to look at. Best if you sell a lot of product and want POS and stock in one place.
 
@@ -52,8 +52,8 @@ Four honest one-liners, then a table. None of these is bad. They are built for d
 
 |  | Monthly | Transaction fee | Designed page | Per-tech | Best for |
 |---|---|---|---|---|---|
-| **BKRDY** | $0-$55 | **0%** | **Yes (15 named)** | Yes (Studio) | Design-led nail brands |
-| GlossGenius | $24-$48 | 2.6% | Generic | Add-on | In-person checkout |
+| **BKRDY** | $0-$55 | **0%**, plus Stripe's 2.9% + 30¢ | **Yes (15 named)** | Calendars (Studio) | Design-led nail brands |
+| GlossGenius | $28+ | 2.4% + 15¢ in person, 3.4% + 15¢ online | Generic | Add-on | In-person checkout |
 | Vagaro | $30+ | varies | No | Per add-on | Retail-heavy shops |
 | Free tier | $0 | per-txn | No | Limited | Just starting out |
 
@@ -71,7 +71,7 @@ Browse the [template library](/templates/) and notice which ones lead with image
 
 The difference between a busy nail business and a profitable one usually comes down to two things the booking software either supports or fights: deposits and per-line upcharges. Get both right and your calendar protects your time and your prices on its own.
 
-**Deposits protect the time.** A two-hour full set with intricate art is one of the most expensive slots you can lose to a no-show. A deposit charged at booking changes the client's incentive: they show up, or they reschedule, because they have money in the appointment. You decide which services require one, so a quick fifteen-minute fix can stay deposit-free while the long bookings are covered.
+**Deposits protect the time.** A two-hour full set with intricate art is one of the most expensive slots you can lose to a no-show. A deposit charged at booking changes the client's incentive: they show up, or they reschedule, because they have money in the appointment. A percent deposit scales with the price, so a quick fifteen-minute fix asks for little while the long bookings are covered.
 
 **Upcharges lift the revenue.** When art, added length, chrome, and gel removal are priced add-ons, the booking ticket reflects the real work before the client ever sits down. No awkward renegotiation, no doing extras for free because it felt rude to charge. Every line is visible up front, the client opts in, and your average ticket climbs without you having to push. That is margin you were already earning, finally captured at the point of booking.
 
@@ -83,9 +83,9 @@ Short framework. Match the platform to how your business actually makes money.
 
 **Heavy retail or a POS-first shop?** Vagaro. If you sell a lot of product and want inventory, stock, and checkout deeply integrated, the extra weight earns its keep.
 
-**Most payments happen in person?** GlossGenius. If clients pay at the chair and you want polished card readers and a strong owner app, the 2.6% fee buys a smooth in-person experience.
+**Most payments happen in person?** GlossGenius. If clients pay at the chair and you want polished card readers and a strong owner app, the 2.4% + 15¢ fee buys a smooth in-person experience.
 
-When you are ready to compare plans and pick a tier, the [pricing page](/pricing/) lays out where per-tech calendars and payouts come in.
+When you are ready to compare plans and pick a tier, the [pricing page](/pricing/) lays out where per-tech calendars come in.
 
 ## Questions
 
@@ -95,7 +95,7 @@ It depends on whether you lead with design, retail, or in-person checkout. BKRDY
 
 ### Can booking software charge a deposit for nail appointments?
 
-Good software can. BKRDY charges a deposit through Stripe at the moment of booking, which cuts no-shows on full sets and long appointments. It is one rule for your whole menu, a flat amount or a percent, so a percent keeps the deposit small on quick fills.
+Good software can. BKRDY charges a deposit through Stripe at the moment of booking, so full sets and long appointments have money behind them. It is one rule for your whole menu, a flat amount or a percent, so a percent keeps the deposit small on quick fills.
 
 ### How do I charge for nail art in my booking software?
 
@@ -107,7 +107,7 @@ Some platforms offer a free tier, but they usually recover the cost through per-
 
 ### Do I need a separate website and booking tool?
 
-No. BKRDY is a designed website with booking built in, so clients book on your own branded site instead of a generic widget on a shared domain. One product, one bill, and the booking page looks like your work rather than a form.
+No. BKRDY is a designed website with booking built in, so clients book on your own branded site at yourname.bkrdy.me instead of a generic widget. One product, one bill, and the booking page looks like your work rather than a form.
 
 ### Which is best for a multi-tech nail salon?
 

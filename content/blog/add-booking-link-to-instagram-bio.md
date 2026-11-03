@@ -34,7 +34,7 @@ Here is the math that settles it. Every extra tap between the profile and the bo
 
 If the goal is bookings, one direct link to your booking site beats a menu every time. The visitor lands where the action is, and the action is right there.
 
-The usual objection is fair: "But I have a portfolio, a services list, my story, my hours, my location. A menu lets me show all of it." True, and you should show all of it. The point is that a real homepage already does. Your BKRDY site stacks those as [sections](/platform/website/sections/) on a single page, so the visitor is one scroll away from your gallery, one scroll from services, one scroll from the Book button. A menu makes them choose before they see anything. A well-built page shows them everything and keeps booking in reach the whole way down. Same content, far less friction, and it lives on your domain instead of a third party's.
+The usual objection is fair: "But I have a portfolio, a services list, my story, my hours, my location. A menu lets me show all of it." True, and you should show all of it. The point is that a real homepage already does. Your BKRDY site keeps those as [sections](/platform/website/sections/) on a single page, so the visitor is one tap or scroll away from your gallery, your services and the Book button. A menu makes them choose before they see anything. A well-built page shows them everything and keeps booking in reach the whole way down. Same content, far less friction, and it lives at your own bkrdy.me address instead of on a link menu.
 
 ## Get your BKRDY link ready.
 
@@ -68,7 +68,7 @@ Whichever you pick, put the booking prompt on its own line so the eye lands on i
 
 Your bio link is the always-on door, but Stories are where the daily traffic spikes, so put a booking link there too. When you create a Story, tap the sticker icon at the top of the screen, choose the Link sticker, and paste your booking address. Instagram lets you rename the visible sticker text, so replace the raw URL with something that reads as a button: "BOOK", "TAP TO BOOK", or "BOOK NOW" all work. Place it near your thumb-friendly zone, usually the lower third, where people already tap.
 
-Here is the useful nuance. Stories usually outperform the bio link on raw volume, because you post them often and they sit at the top of the app. But the bio link tends to convert better per tap, because the people who seek it out are further along in deciding. Use both. Run a Story link sticker on your best work, your openings this week, and any promo, and keep the bio link as the reliable path for anyone who lands on your profile cold. One nice bonus: a Story sticker can point to a specific service page or offer rather than your homepage, which the bio link cannot do as cleanly.
+Here is the useful nuance. Stories usually outperform the bio link on raw volume, because you post them often and they sit at the top of the app. But the bio link tends to convert better per tap, because the people who seek it out are further along in deciding. Use both. Run a Story link sticker on your best work, your openings this week, and any promo, and keep the bio link as the reliable path for anyone who lands on your profile cold. One nice bonus: a Story can name a specific service or offer right above the sticker, which the bio link cannot do as cleanly.
 
 ## Set up your Professional Dashboard and track the taps.
 
@@ -82,7 +82,7 @@ Then close the loop on the other side. Instagram counts the taps, and your booki
 
 To be fair, a link menu is not always wrong. There are real cases where equal-weight links serve you better than a single booking link. If you sell digital products alongside services, like a preset pack or an online course, those may deserve their own top-level slot. If you run a podcast or a YouTube channel that needs the same visibility as booking, a menu balances them. And if you are a multi-stylist salon where each artist has a separate booking link, a menu can route clients to the right calendar.
 
-Even in those cases, though, you rarely need a third-party redirect. A BKRDY homepage with section anchors handles most of it: you can point people to a specific part of your page without sending them through another domain first. For the multi-artist case, clients pick the artist inside the same booking flow, so a lash-focused studio can keep one link. The [lash artists page](/for-lash-artists/) shows that setup. The rule of thumb stays the same. Reach for a menu only when you genuinely have two or more equally important destinations. If booking is the main event, keep it one tap away.
+Even in those cases, though, you rarely need a third-party redirect. A BKRDY site handles most of it: your gallery, services, story and booking sit behind one address, so people reach them without going through another domain first. For the multi-artist case, clients pick the artist inside the same booking flow, so a lash-focused studio can keep one link. The [lash artists page](/for-lash-artists/) shows that setup. The rule of thumb stays the same. Reach for a menu only when you genuinely have two or more equally important destinations. If booking is the main event, keep it one tap away.
 
 ## Questions
 
@@ -92,7 +92,7 @@ Use your BKRDY link directly. A Linktree adds one extra tap between the profile 
 
 ### Can I use my own domain instead of a bkrdy.me address?
 
-Not yet. Every BKRDY site lives at yourstudio.bkrdy.me today, and it works well in a bio: short, secure and clearly yours. Your own domain is on the roadmap.
+No. Every BKRDY site lives at yourstudio.bkrdy.me, and it works well in a bio: short, secure and clearly yours.
 
 ### How do I track how many people tap my bio link?
 
@@ -104,7 +104,7 @@ Yes, Instagram allows up to five links stacked under your bio. For a beauty busi
 
 ### What if Instagram says my link is suspicious?
 
-This is rare with a bkrdy.me address, since it is clean and consistent. If it does happen, contact our support so we can flag the link for review.
+This is rare with a bkrdy.me address, since it is clean and consistent. If it does happen, contact our support and we will help you sort it out.
 
 ### How often should I update the bio link?
 
@@ -112,7 +112,7 @@ Once, when you set it up. After that, a quick quarterly check is enough: confirm
 
 ### Can I add a different link per Story?
 
-Yes. Story link stickers can point to any specific page on your site, like a single service or a limited-time promo, rather than your homepage. That makes Stories a good place to run offers that you would not want living in your bio permanently.
+Yes. Instagram gives each Story its own link sticker. A BKRDY site has one address rather than a page per service, so point the sticker at your booking link and name the service or promo in the Story itself. That makes Stories a good place to run offers that you would not want living in your bio permanently.
 
 ### What if my booking link is too long?
 

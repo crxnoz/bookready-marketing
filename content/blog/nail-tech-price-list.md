@@ -85,15 +85,15 @@ A common structure: a flat $20 to $30 deposit, or 25 percent of the service, tak
 
 The key is that the deposit is collected when the appointment is booked, not requested by text afterward, which rarely works. A booking page that charges it automatically through Stripe makes this effortless. See how that works on [payments](/platform/tools/payments/).
 
-Keep the rule simple and consistent. Returning clients who have never missed can be exempt, while new clients and any full set always pay. Written into your policy and shown at booking, a deposit also gives you clean documentation if a no-show charge is ever disputed.
+Keep the rule simple and consistent. Returning clients who have never missed can be exempt, while new clients and any full set always pay. Written into your policy and shown at booking, a deposit also gives you clean documentation if a no-show charge is ever disputed. In BKRDY the online deposit is one rule for every priced service, so exempting a regular means booking her in yourself from your calendar.
 
 ## Turn your price list into a booking page.
 
-A price list in a phone note cannot take a booking or hold a deposit. The version that actually protects your time is one where each service carries its price and deposit, on a page clients can book from directly.
+A price list in a phone note cannot take a booking or hold a deposit. The version that actually protects your time is one where each service carries its price and the deposit is taken at booking, on a page clients can book from directly.
 
 That is what BKRDY does. You add each service with its price, set one deposit rule for the menu, and it becomes a designed booking page on your own site, not a generic widget. Clients pick a service, see the price, pay the deposit, and book. Your [client list](/platform/tools/customers/) builds itself as they do.
 
-Browse the templates that fit a nail studio on the [templates page](/templates/), or see the full picture on the [nail techs](/for-nail-techs/) page. Most techs are live in about 20 minutes.
+Browse the templates that fit a nail studio on the [templates page](/templates/), or see the full picture on the [nail techs](/for-nail-techs/) page.
 
 From there the menu does the quiet work for you: it sets expectations before the appointment, collects deposits without an awkward text, and gives every new client the same professional first impression. The price list stops being a note on your phone and becomes the front door to your business.
 

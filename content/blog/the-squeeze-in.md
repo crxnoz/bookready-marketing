@@ -65,7 +65,7 @@ Listen to what is actually being asked. Almost nobody wants 7pm Thursday specifi
 
 So answer the real one. Put them on the cancellation list, and when somebody drops out of Wednesday at 11, the slot is theirs. Same client, same week, and now they are delighted rather than squeezed, because a freed slot is a lucky break instead of a favour you quietly pay for. More on running one well in [how waitlists keep clients](/blog/how-smart-waitlists-retain-nail-clients-that-stay/).
 
-BKRDY handles both halves: clients can send a squeeze-in request that you approve or decline, with its own fee folded into the appointment total, and a cancellation waitlist offers freed slots to the people waiting. Nothing is charged until you approve it.
+On paid plans, BKRDY handles both halves: clients can send a squeeze-in request that you approve or decline, with its own fee folded into the appointment total, and a cancellation waitlist offers freed slots to the people waiting. Nothing is charged until you approve it.
 
 ## Say the no in one sentence
 

@@ -110,9 +110,9 @@ My honest advice: do not let perfect be the enemy of functional. A booking page 
 
 ## How BKRDY helps beauty pros build personalized booking sites
 
-BKRDY builds booking websites specifically for independent beauty studios, including lash artists, nail techs, hairstylists, and estheticians. Every site includes built-in client profiles, automated appointment reminders, and deposit handling through Stripe, so the personalization infrastructure is already in place when you launch.
+BKRDY builds booking websites specifically for independent beauty studios, including lash artists, nail techs, hairstylists, and estheticians. Every site includes built-in client profiles, automated appointment reminders, and deposit handling through Stripe, so the client records personalization starts from are in place when you launch.
 
-You do not need a designer or a developer to get started. BKRDY’s platform is built around beauty workflows, not generic scheduling logic. Whether you run a [spa](/for-spas), a [hair salon](/for-salons), or an [esthetician practice](/for-estheticians), the booking site reflects your brand and captures the client data that makes every future appointment feel personal. The [client profiles feature](/platform/tools/customers) stores preferences, history, and notes so your clients never have to start from scratch.
+You do not need a designer or a developer to get started. BKRDY’s platform is built around beauty workflows, not generic scheduling logic. Whether you run a [spa](/for-spas), a [hair salon](/for-salons), or an [esthetician practice](/for-estheticians), the booking site reflects your brand and captures the client data that makes every future appointment feel personal. The [client profiles feature](/platform/tools/customers) stores preferences, history, and notes so you have them in front of you before each visit. The personal part stays with you: BKRDY does not suggest add-ons or change the menu or deposit by client, so you read the profile and use it yourself. The one tier-based rule is after-hours slots, which on paid plans you can offer to VIPs only.
 
 ## FAQ
 

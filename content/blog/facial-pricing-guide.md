@@ -18,7 +18,7 @@ Most facial menus get built by looking sideways. You check what the spa two bloc
 
 Price from your cost, your time, and your skill. Not from a competitor's sign. That is the whole argument of this guide, and everything below is the arithmetic that backs it up. The spa down the street pays different rent, buys a different product line, and serves a different client, so their menu tells you very little about what yours should say. It is a sanity check, not an answer.
 
-What follows is a working toolkit for [estheticians](/for-estheticians/) and new spa owners: real 2026 ranges by facial type so you know which neighborhood you are in, the cost-plus math that sets your own number inside it, the add-ons and upcharges that carry the margin a base facial cannot, a deposit structure that protects a ninety-minute room, and the short path from a finished menu to a live booking page. The ranges are useful on any platform you happen to run. At the end, we show how each line of your menu becomes a bookable service carrying its own price and deposit.
+What follows is a working toolkit for [estheticians](/for-estheticians/) and new spa owners: real 2026 ranges by facial type so you know which neighborhood you are in, the cost-plus math that sets your own number inside it, the add-ons and upcharges that carry the margin a base facial cannot, a deposit structure that protects a ninety-minute room, and the short path from a finished menu to a live booking page. The ranges are useful on any platform you happen to run. At the end, we show how each line of your menu becomes a bookable service with its own price and duration.
 
 ## What facials actually cost in 2026, by type.
 
@@ -65,7 +65,7 @@ Price the series. A six-treatment peel or acne course at 10 to 15 percent off th
 
 Memberships smooth the rest. One facial a month at a modest discount, plus a retail credit of $10 or $15 to use in the studio, gives you a predictable base of bookings and a reason for members to buy their home care from you instead of a drugstore. Members also rebook without being chased, which is worth more than the discount costs.
 
-Both models need the money to actually move. Take prepayment at booking through [Stripe-backed payments](/platform/tools/payments/) so a series is paid for when it is scheduled, not collected appointment by appointment while you hope nobody drifts off after visit three.
+Both models need the money to actually move, so a series should be paid for when it is scheduled, not collected appointment by appointment while you hope nobody drifts off after visit three. BKRDY does not run memberships or prepaid series today: its [Stripe-backed payments](/platform/tools/payments/) take a deposit or full payment on one booking at a time, so you would sell the series yourself and book each visit.
 
 ## Put a deposit on the long ones.
 
@@ -95,7 +95,7 @@ You can do all of this arithmetic correctly and still lose the booking, if the f
 
 Every step between "what does a peel cost" and a confirmed appointment leaks clients. A price list that requires a DM adds a step and a wait. A PDF adds a download and pinch-zooming on a phone. Meanwhile the studio across town has the number, the duration, and the deposit sitting right next to a Book button.
 
-The menu should live where the booking happens, with the price and deposit attached to the exact service being selected. Intake questions belong there too, since a first-time peel client and a monthly member need different questions before they arrive. That is what [per-service booking forms](/platform/booking/booking-forms/) are for. If you have not built the page yet, the [booking website how-to](/guides/how-to-make-a-booking-website/) walks the whole build start to finish.
+The menu should live where the booking happens, with the price and deposit attached to the exact service being selected. Intake questions belong there too, since a chemical peel and a classic facial need different questions before the client arrives. That is what [per-service booking forms](/platform/booking/booking-forms/) are for. If you have not built the page yet, the [booking website how-to](/guides/how-to-make-a-booking-website/) walks the whole build start to finish.
 
 ## Turn your facial menu into a booking page.
 

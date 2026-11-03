@@ -16,7 +16,7 @@ migrated: true
 
 Most salon growth advice online is either marketing fluff ("post on TikTok every day!") or corporate strategy written for a chain of forty locations. Neither one fits the business you actually run: one to five chairs, tight margins, and a schedule that lives or dies on whether people show up. So here is the honest version. Real salon growth is boring. It is better systems, better hiring, better pricing, and better retention. That is the whole game.
 
-The fancy stuff (a beautiful brand, a marketing engine, a second location) only works when it sits on top of those four foundations. Build the foundations first and everything else compounds. Skip them and you are building on sand: you can pour marketing money in the top and watch most of it leak out the bottom. This is the pattern behind almost every salon that quietly grows without drama, and it is what [BKRDY](/for-salons/) is built around.
+The fancy stuff (a beautiful brand, a marketing engine, a second location) only works when it sits on top of those four foundations. Build the foundations first and everything else compounds. Skip them and you are building on sand: you can pour marketing money in the top and watch most of it leak out the bottom. This is the pattern behind almost every salon that quietly grows without drama, and the booking side of it is what [BKRDY](/for-salons/) is built for.
 
 This guide goes in order on purpose. Systems, then pricing, then retention, then hiring, then brand, then expansion, then marketing. Read it top to bottom, and do not skip ahead to the exciting parts. The exciting parts do not work until the boring parts are running.
 
@@ -116,4 +116,4 @@ Pay above your local market, give them visibility on the salon website, and help
 
 ### What is the single biggest growth lever for a 1-chair salon?
 
-Retention systems. Auto-rebook at checkout plus a 4-week reminder is worth more than any Instagram campaign for a small salon. Keeping the clients you already have is nearly free, and it compounds every month you keep it running.
+Retention systems. Rebooking at checkout plus a 4-week reminder is worth more than any Instagram campaign for a small salon. Keeping the clients you already have is nearly free, and it compounds every month you keep it running.

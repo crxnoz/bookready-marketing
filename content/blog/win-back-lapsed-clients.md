@@ -48,7 +48,7 @@ Three touches, spaced out, escalating gently. Each one gives the client a differ
 
 **3. The optional incentive, only where it makes sense.** "Would love to see you back. Here is 15% off your next visit if you book by Friday." Send this to the segments that earn it and skip it for the rest. Read the next section before you decide who those are.
 
-BKRDY does not send any of this for you. It has no automatic win-back messages and no email campaigns, so each touch goes from your own phone or email account, with your [booking link](/platform/booking/online/) in it.
+BKRDY does not send any of this for you. It has no automatic win-back messages and no email campaigns, so each touch goes from your own phone or email account, with your booking link in it.
 
 ## When a discount is worth it, and when it trains bad behavior.
 
@@ -74,11 +74,11 @@ If you want the long tail sent automatically, that takes a separate email tool a
 
 The channel changes how a winback message lands, so match it to the touch rather than sending everything the same way.
 
-Email carries the longer touches well. The what-is-new note with a photo of the new treatment room, the seasonal gift-style offer, the message that needs two sentences of context all read naturally in an inbox and cost nothing to send at any scale. Email is the right default for the broad list and for anyone in the one-and-done group. BKRDY does not send email campaigns, so these go from your own email account or a separate email tool.
+Email carries the longer touches well. The what-is-new note with a photo of the new treatment room, the seasonal gift-style offer, the message that needs two sentences of context all read naturally in an inbox and cost nothing to send at any scale. Email is the right default for the broad list and for anyone in the one-and-done group. These go from your own email account or a separate email tool.
 
 A short personal text from the owner is the heaviest thing you can send, and its weight comes entirely from scarcity. It works because it is obviously not a campaign. Send fifty of them and it becomes one, and the effect is gone. Reserve texts for the high-value lapsed regulars you would genuinely be sorry to lose, and write each one yourself.
 
-BKRDY does not send marketing texts or text blasts. The strongest combination is email for the volume, plus one-to-one texts from your own phone for your top names.
+The strongest combination is email for the volume, plus one-to-one texts from your own phone for your top names. The Text button on a client's BKRDY profile opens your phone with their number ready.
 
 ## Measuring your win-back rate.
 
@@ -86,7 +86,7 @@ Win-back rate is the share of messaged lapsed clients who book again within a de
 
 Rough benchmarks to judge yourself against: a well-segmented sequence reactivating 10 to 20 percent of soft-lapse clients is a strong result. Single-digit recovery on hard-lapse clients is normal and not a failure, since those habits broke months ago. If soft lapse is coming in under 5 percent, the problem is almost always the segmentation or the timing, not the wording.
 
-Track it on a simple sheet, since BKRDY does not report a win-back rate, and compare across segments and touches, so you learn which message does the work and whether the discount touch is earning its cost or just giving away margin to people who would have returned anyway. That second question is the one worth answering.
+Track it on a simple sheet and compare across segments and touches, so you learn which message does the work and whether the discount touch is earning its cost or just giving away margin to people who would have returned anyway. That second question is the one worth answering.
 
 Keep the scale in view. A 10 percent recovery on a list of three hundred lapsed clients is thirty returning appointments, at close to zero cost. That is a real month.
 

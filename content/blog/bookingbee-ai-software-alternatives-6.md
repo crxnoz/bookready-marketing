@@ -32,19 +32,19 @@ Finding salon booking software that fits studio branding, payment handling, and 
 
 ### At a Glance
 
-BKRDY starts at $18 a month billed annually and advertises no transaction fees and free migration from GlossGenius, Acuity, or Fresha. The platform packages a branded website with booking tools so solo beauty pros can replace generic booking links with a studio site. That setup reduces the need for separate hosting and a booking widget.
+BKRDY has a Free plan, with paid plans from $18 a month billed annually, and advertises 0% commission on top of Stripe’s processing fee and free migration from GlossGenius, Acuity, or Fresha. The platform packages a branded website with booking tools so solo beauty pros can replace generic booking links with a studio site. That setup reduces the need for separate hosting and a booking widget.
 
 ### Core Features
 
-BKRDY provides customizable website templates with gallery, policies, and banner content that match studio branding. The booking engine handles online scheduling with deposits, automatic reminders, an auto waitlist and cancellation flows, and **Google Calendar sync** (bookings go to your calendar). The platform includes a **branded client management hub** with client history, multi-staff calendars, and review collection.
+BKRDY provides customizable website templates with gallery, policies, and banner content that match studio branding. The booking engine handles online scheduling with deposits, automatic reminders, a waitlist on paid plans, cancellation flows, and a read-only calendar feed you can subscribe to from Google Calendar. The platform includes a **branded client management hub** with client history, multi-staff calendars, and review collection.
 
 ### Key Differentiator
 
-BKRDY’s standout feature is a fully designed, customizable website built specifically for beauty professionals combined with built-in booking and payment handling. The package removes the common split between a marketing site and a scheduling app by hosting both under the studio’s brand and domain.
+BKRDY’s standout feature is a fully designed, customizable website built specifically for beauty professionals combined with built-in booking and payment handling. The package removes the common split between a marketing site and a scheduling app by hosting both under the studio’s brand at yourname.bkrdy.me.
 
 ### Pros
 
-BKRDY gives beauty studios a visually focused site and booking experience that reflects their brand. The templates support galleries and service pages so portfolios and policies look intentional rather than tacked on. Payment handling uses **Stripe**, which lets studios collect deposits and avoid in-platform transaction fees claimed by the vendor. Built-in client history and automated reminders reduce no-shows and keep notes on client preferences. Free migration support from common platforms shortens the setup window for studios moving from GlossGenius, Acuity, or Fresha.
+BKRDY gives beauty studios a visually focused site and booking experience that reflects their brand. The templates support galleries and service pages so portfolios and policies look intentional rather than tacked on. Payment handling uses **Stripe**, which lets studios collect deposits and avoid in-platform transaction fees claimed by the vendor. Built-in client history keeps notes on client preferences, and automated reminders go out before each appointment. Free migration support from common platforms shortens the setup window for studios moving from GlossGenius, Acuity, or Fresha.
 
 ### Cons
 
@@ -60,7 +60,7 @@ The most concrete advantage is that BKRDY combines a studio-grade website and bo
 
 ### Real World Use Case
 
-A solo lash artist switches from a marketplace booking link to BKRDY, imports client data during the free migration, sets a deposit rule that scales with the price, and publishes a gallery-driven site. The artist then uses client history and reminders to tailor follow-ups and reduce last-minute cancellations.
+A solo lash artist switches from a marketplace booking link to BKRDY, sends an export so the BKRDY team can move client data in the free migration, sets a deposit rule that scales with the price, and publishes a gallery-driven site. The artist then uses client history to write follow-ups by hand, while automatic reminders go out before each visit.
 
 ### Pricing
 
@@ -304,7 +304,7 @@ BKRDY delivers customizable studio websites designed to reflect professional bra
 
 ### Advanced Commerce Support
 
-Heygoldie distinguishes itself by focusing on integrated retail and inventory features alongside booking services. This includes BNPL options and Reserve with Google integrations, a significant plus for salons emphasizing retail sales at the chair. BKRDY, while extensive in client management and branding, currently lacks BNPL capabilities. Professionals heavily invested in product sales within their service sales pipeline might weigh Heygoldie’s specialized commerce functions as a defining factor.
+Heygoldie distinguishes itself by focusing on integrated retail and inventory features alongside booking services. This includes BNPL options and Reserve with Google integrations, a significant plus for salons emphasizing retail sales at the chair. BKRDY, while extensive in client management and branding, offers BNPL through Stripe but has no card reader, inventory tracking, or Reserve with Google. Professionals heavily invested in product sales within their service sales pipeline might weigh Heygoldie’s specialized commerce functions as a defining factor.
 
 ### Best fit
 
@@ -321,7 +321,7 @@ Choosing the best platform for integrated studio websites and booking systems de
 
 | Product | Core Feature | Key Differentiator | Pricing | Notable Limitation |
 |---|---|---|---|---|
-| BKRDY | Website and booking integration | Studio-focused web design | From $18/month | Limited regional payment options |
+| BKRDY | Website and booking integration | Studio-focused web design | Free, Solo: $18/month billed annually | Limited regional payment options |
 | Heygoldie | AI-assisted scheduling and payments | Combined booking and AI tools | Free, Pro: $19.99/month, Pro Plus: $39.99/month | Reported inconsistent customer support |
 | Salonist | Point of sale and inventory management | All-in-one salon operations | Free, Paid plans: From $79/month | Complex setup for advanced features |
 | IdleBooking | Flat-fee based salon operation tools | Unified subscription model | Price not published | Limited external user reviews |
@@ -329,9 +329,9 @@ Choosing the best platform for integrated studio websites and booking systems de
 
 ## Which booking system fits your beauty studio’s needs?
 
-Handling appointments with generic booking links can weaken your studio’s brand and frustrate clients. BKRDY offers a unique solution designed specifically for solo lash artists, nail technicians, and hairstylists who want a website that merges booking with a showcase of their services. Unlike other [bookingbee.ai](http://bookingbee.ai) alternatives, BKRDY includes deposit handling through Stripe, Google Calendar sync, and a branded client history to improve client retention and reduce no-shows.
+Handling appointments with generic booking links can weaken your studio’s brand and frustrate clients. BKRDY offers a unique solution designed specifically for solo lash artists, nail technicians, and hairstylists who want a website that merges booking with a showcase of their services. Among these [bookingbee.ai](http://bookingbee.ai) alternatives, BKRDY pairs that website with deposit handling through Stripe, automatic reminders, and a client history kept in one place.
 
-If you want a booking page that looks like part of your studio rather than a generic widget, visit [BKRDY](/templates/). Import your client data quickly and publish a customized site with built-in reminders and smart waitlists that help keep your calendar full and your operations smooth.
+If you want a booking page that looks like part of your studio rather than a generic widget, visit [BKRDY](/templates/). Send your export for the free migration and publish a customized site with built-in reminders and, on paid plans, a waitlist that offers freed times to clients waiting.
 
 ## FAQ
 
@@ -341,7 +341,7 @@ BKRDY’s features cater specifically to solo beauty professionals by offering c
 
 ### How does the pricing of BKRDY compare to Heygoldie if I want to minimize costs?
 
-Heygoldie offers a free Starter plan, which may appeal to businesses looking to reduce initial costs. BKRDY, on the other hand, starts at $18 a month billed annually, making it a budget-friendly option for salon owners who want a customizable website and complete booking system. Consider your business needs to decide the right choice for your budget.
+Heygoldie offers a free Starter plan, which may appeal to businesses looking to reduce initial costs. BKRDY also has a Free plan with no card required, and its paid plans start at $18 a month billed annually, making it a budget-friendly option for salon owners who want a customizable website and complete booking system. Consider your business needs to decide the right choice for your budget.
 
 ### Which platform offers better support for multi-stylist scheduling: BKRDY or Salonist?
 

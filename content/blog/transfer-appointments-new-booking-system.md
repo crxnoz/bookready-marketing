@@ -96,19 +96,19 @@ Clear client communication cuts missed appointments during the switch. A short e
 
 Most booking platforms are built for everyone, which means they are optimized for no one in particular. BKRDY takes a different approach: the platform is designed specifically for independent beauty studios, lash artists, nail technicians, and hairstylists, and that specificity shows up in every feature.
 
-When you are moving client data to a new system, the last thing you want is a generic dashboard that treats a lash fill the same as a dentist appointment. BKRDY’s client history management keeps each client’s service record, preferences, and notes in one place, so rebooking continuity survives the platform switch.
+When you are moving client data to a new system, the last thing you want is a generic dashboard that treats a lash fill the same as a dentist appointment. BKRDY’s client history management keeps each client’s service record, preferences, and notes in one place. BKRDY has no import tool of its own: email your export to hello@bkrdy.com and the BKRDY team moves your services, clients and upcoming appointments for free, usually the same day. Card details do not move.
 
 **What BKRDY brings to the transition:**
 
-- **Built-in deposit handling via Stripe**, so your deposit flows carry over without needing a separate payment setup.
-- **[Automated reminders](/platform/booking/online/)** that fire without manual input, reducing no-shows during the adjustment period when clients are still getting used to the new booking link.
-- **A smart waitlist** that fills canceled slots automatically, protecting revenue during the weeks when your calendar is still settling.
+- **Built-in deposit handling via Stripe**, on your own Stripe account, with no separate payment tool to set up.
+- **[Automated reminders](/platform/booking/online/)** that fire without manual input, which helps during the adjustment period when clients are still getting used to the new booking link.
+- **A waitlist** on paid plans that emails the next matching client when a booking is canceled, which helps during the weeks when your calendar is still settling.
 - **Client self-service rescheduling**, which takes the administrative load off you when clients need to adjust appointments mid-transition.
 - **A branded booking website**, not a generic link. Your studio’s name, photos, and services are front and center, so the new booking experience feels intentional rather than like a software upgrade your clients have to tolerate.
 
 For studios that have been sending clients to a plain booking link that looks like a therapist’s intake form, the switch to BKRDY is also a brand upgrade. The [new client booking flow](/blog/new-client-booking-flow-a-guide-for-beauty-pros) is designed to convert browsers into booked appointments, not just hold calendar slots.
 
-If you run a spa or esthetics practice, BKRDY’s [spa booking platform](/for-spas) is built around the same principles: a beautiful front end, deposit protection, and client history that stays with you through any system change.
+If you run a spa or esthetics practice, BKRDY’s [spa booking platform](/for-spas) is built around the same principles: a beautiful front end, deposit protection, and client history you can export as a CSV any time.
 
 ## Key Takeaways
 

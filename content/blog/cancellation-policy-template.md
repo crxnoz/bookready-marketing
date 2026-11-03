@@ -46,7 +46,7 @@ Everything else in the template is fixed language that works as written. These f
 
 A policy is only as strong as its visibility. If a client can later say "I never saw that," you lose the dispute and the goodwill. So it has to appear in all three of these places, every time, automatically.
 
-**1. On the booking page, before they confirm.** This is the one that matters most legally. The client should see the policy and tick a box or read it directly above the Confirm button, so agreement is part of the act of booking. In BKRDY this lives under Settings > Policies, and it renders right inside the booking flow.
+**1. On the booking page, before they confirm.** This is the one that matters most legally. The client should see the policy and tick a box or read it directly above the Confirm button, so agreement is part of the act of booking. In BKRDY you write it under Settings > Policies. It shows in the Policy section of your site, and with the agreement setting on, the last booking step links to it and says that booking means agreeing to it.
 
 **2. In the confirmation email and SMS.** The moment the booking lands, the confirmation should restate the policy in one line with a link to the full text. This creates a timestamped record that the client received it. In BKRDY the confirmation goes by email and its intro and sign-off are editable, so you paste the policy line once and it goes out on every booking through [automated notifications](/platform/tools/notifications/).
 
@@ -72,7 +72,7 @@ This is the part everyone dreads, so here are the exact words. Kind, firm, brief
 
 **Email follow-up, same day:** a slightly longer version that restates the appointment details, the policy line they agreed to at booking, and the charge. Keep it factual. Attach or link nothing combative. This email is also your paper trail if the charge is ever disputed, so the calm, documented tone works in your favor twice.
 
-**The rare "we'll waive this one" message:** "Hi [NAME], we've gone ahead and waived today's fee. Things happen. We've held your spot preferences on file, so just reply when you'd like to rebook." Use this sparingly. It is a gift, and gifts stop meaning anything if everyone gets one. On Studio and Salon plans the card on file is charged automatically, so enforcement is the default and waiving is the deliberate exception, which is exactly the posture you want.
+**The rare "we'll waive this one" message:** "Hi [NAME], we've gone ahead and waived today's fee. Things happen. We've held your spot preferences on file, so just reply when you'd like to rebook." Use this sparingly. It is a gift, and gifts stop meaning anything if everyone gets one. On Solo, Studio and Studio+ a no-show fee only goes on the saved card when you click to charge it, so each charge and each waiver is a deliberate decision.
 
 ## What to do if a client disputes the charge.
 
@@ -82,7 +82,7 @@ Occasionally a client will file a chargeback with their bank instead of talking 
 
 **2. Respond inside the window.** Stripe gives you a set number of days to respond to a dispute, usually around 7. Do not let it lapse. A missed deadline is an automatic loss regardless of how clean your case is.
 
-**3. Upload the evidence and let it stand.** Attach the screenshots and the email trail, write two plain sentences explaining the no-show and the agreed policy, and submit. Because your [Stripe-backed payments](/platform/tools/payments/) keep the booking record together, the documentation is usually clean enough to win without a fight. The lesson clients teach you here is the same one this whole guide is built on: documentation is everything.
+**3. Upload the evidence and let it stand.** Attach the screenshots and the email trail, write two plain sentences explaining the no-show and the agreed policy, and submit. Because your [Stripe-backed payments](/platform/tools/payments/) sit on the appointment in BKRDY, the documentation is quick to pull together. The lesson clients teach you here is the same one this whole guide is built on: documentation is everything.
 
 ## When to waive a no-show fee (and how).
 
@@ -98,11 +98,11 @@ For the waive, use the warm message from the enforcement section. For the hold, 
 
 You have the policy. Here is how it goes live across all three placements without touching code, in about five minutes.
 
-**Step 1 (2 min).** Open Settings > Policies > Cancellation Policy. Paste the template, edit your five variables (deposit, window, grace, no-show charge, business name and contact), and save. It now renders on the booking page before clients confirm.
+**Step 1 (2 min).** Open Settings > Policies > Cancellation Policy. Paste the template, edit your five variables (deposit, window, grace, no-show charge, business name and contact), and save. It now shows in the Policy section of your site. Turn on "Require customers to agree to your policies" under Settings > Booking, and the last booking step links to it before clients confirm.
 
 **Step 2 (2 min).** Go to Settings > Notifications, open the confirmation email template, and drop a one-line policy summary plus a link into the intro or sign-off. Repeat for the reminder email, and set the reminder to go out 48 hours before. These run on their own through [automated notifications](/platform/tools/notifications/) from then on.
 
-**Step 3 (1 min).** Turn on deposit collection under [payments](/platform/tools/payments/) and set the deposit to match the percentage in your policy. That is the whole job. Five minutes, and the policy is now visible at booking, in the confirmation, and in the reminder, which is the only configuration that actually holds up. If you want fewer missed appointments overall, pair this with the tactics in our guide on [reducing no-shows](/guides/reducing-no-shows/).
+**Step 3 (1 min).** Turn on deposit collection under [payments](/platform/tools/payments/) and set the deposit to match the percentage in your policy. The deposit is one rule for the whole studio, so a firmer one from the specialty variants above is something you arrange by hand. That is the whole job. Five minutes, and the policy is now visible at booking, in the confirmation, and in the reminder, which is the only configuration that actually holds up. If you want fewer missed appointments overall, pair this with the tactics in our guide on [reducing no-shows](/guides/reducing-no-shows/).
 
 ## Questions
 
@@ -136,4 +136,4 @@ A 10-minute grace period, after which the appointment may be shortened or resche
 
 ### Does BKRDY auto-charge no-show fees?
 
-No. On Solo, Studio and Studio+, clients can save a card at booking with their consent, and you charge the no-show or late cancellation fee to that card from the appointment when you decide to. Nothing is charged on its own. On the Free plan, the deposit is your protection.
+No. On Solo, Studio and Studio+, clients can save a card at booking with their consent. You mark the no-show and click to charge the fee you set, one amount for the studio, from the appointment. The one automatic charge is a late cancel: if a client with a saved card cancels through their link inside your window, your late-cancel fee goes on the card and they get an email. On the Free plan, the deposit is your protection.

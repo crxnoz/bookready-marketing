@@ -120,7 +120,7 @@ My honest advice: treat your appointment frequency as a commitment to yourself, 
 
 Keeping up with a regular beauty schedule is much simpler when the booking experience does not get in the way. BKRDY builds [spa booking websites](/for-spas) designed specifically for independent beauty studios, with confirmations and reminders built into every booking.
 
-Clients can lock in their preferred time slots without back-and-forth messages, and studios can send automatic reminders that reduce no-shows. BKRDY also stores your service history so your beauty professional always has context before you walk in. For [esthetician clients](/for-estheticians) especially, that history makes every visit more effective. If your studio uses BKRDY, booking your next visit in advance is the simplest way to keep your frequency plan on track.
+Clients can book their preferred open time slots without back-and-forth messages, and automatic reminders go out before each visit. BKRDY also stores your service history so your beauty professional always has context before you walk in. For [esthetician clients](/for-estheticians) especially, that history makes every visit more effective. Each visit on BKRDY is its own booking, with no recurring series, so if your studio uses BKRDY, booking your next visit in advance is the simplest way to keep your frequency plan on track.
 
 ## FAQ
 

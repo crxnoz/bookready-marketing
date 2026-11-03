@@ -18,7 +18,7 @@ If you are a barber researching booking software, you have probably noticed most
 
 We tested six platforms with that lens. Some are full booking software (GlossGenius, Booksy). Some are website builders with booking bolted on (Squarespace + Acuity). Some are barber-specific marketplaces (Squire, TheCut). And one is built specifically as a designed booking website for beauty businesses, including barbershops (BKRDY).
 
-Here is how they actually compare for a barber in 2026.
+Here is how they actually compare for a barber in 2026. Competitor prices change often, so treat ours as a guide and check each vendor's own page before you decide.
 
 ## What makes a great booking website for a barbershop.
 
@@ -26,13 +26,13 @@ Six criteria we used to evaluate each platform. Each matters for a different rea
 
 ## BKRDY. A real designed website, 0% markup.
 
-**Price.** The Free plan is $0, Solo $18/mo and Studio $29/mo billed annually ($21 and $34 monthly), 0% platform markup. The Free plan needs no card. **Best for.** Barbers who want their site to look like a brand and do not want to pay 1-3% per booking.
+**Price.** The Free plan is $0, Solo $18/mo and Studio $29/mo billed annually ($21 and $34 monthly), 0% platform markup. The Free plan needs no card. **Best for.** Barbers who want their site to look like a brand and do not want a platform cut on top of card processing.
 
-BKRDY gives you a designed booking website (templates are named, not generic, with The Fade Room as the most popular for barbershops) and all the booking, deposit, and reminder features built in. Same booking engine you would find on GlossGenius or Booksy, but the surface your clients touch is a designed website, not a booking widget.
+BKRDY gives you a designed booking website (templates are named, not generic, with The Fade Room as the natural fit for barbershops) and all the booking, deposit, and reminder features built in. You get online booking, deposits and reminders as you would on GlossGenius or Booksy, but the surface your clients touch is a designed website, not a booking widget.
 
-**What stood out.** Per-chair calendars work cleanly, each barber gets their own login and Stripe payouts on the Studio plan. Deposits at booking are Stripe-backed and the cancellation rules are enforced in the booking flow, not on a paper sign. The Fade Room template is genuinely well-designed (dark, neon, after-hours) and clients said it looks like a real shop. 0% platform markup versus the 1-3% other platforms charge stacks up over a year. Free migration from Booksy, Square, Squire, or Acuity. Usually same day.
+**What stood out.** Per-chair calendars work cleanly, each barber gets their own login and schedule on the Studio plan, and all payments land in the one shop Stripe account. Deposits at booking are Stripe-backed and the cancellation rules are enforced in the booking flow, not on a paper sign. The Fade Room template is genuinely well-designed (dark, neon, after-hours) and looks like a real shop. 0% platform markup means the only card cost is Stripe's own rate, roughly 2.9% plus 30 cents. Free migration from Booksy, Square, or Acuity. Usually same day. On Squire or anything else, ask first what can come over.
 
-**What is missing.** No native mobile app for owners (web-only, though mobile-optimized). No POS hardware (Stripe tap-to-pay only). Multi-location is on the roadmap for Q1 2027.
+**What is missing.** No native mobile app for owners (web-only, though mobile-optimized). No POS hardware or tap to pay (payment links, saved cards, or Mark paid for cash). No multi-location management.
 
 **Verdict.** Strongest pick for the majority of barbershops, especially shops that care about brand. Try the [The Fade Room template demo](https://thefaderoom.bkrdy.me/) for the cleanest sense of what a BKRDY barbershop site feels like. Or read the dedicated [For barbers](/for-barbers/) page.
 
@@ -100,7 +100,7 @@ Setmore is the budget pick. Their free tier handles basic online booking for one
 
 |  | Monthly | Transaction fee | Designed templates | Marketplace | POS | Best for |
 |---|---|---|---|---|---|---|
-| **BKRDY** | $0-$55 | **0%** | **Yes (15 named)** | No | None | Brand-first shops |
+| **BKRDY** | $0-$55 | **0% markup**, Stripe's fee applies | **Yes (15 named)** | No | None | Brand-first shops |
 | Squire | $200+ | varies | No (Squire-branded) | No | **Full** | High-volume tech shops |
 | TheCut | $30 | 1.5% | No (TheCut-branded) | Yes | No | Urban marketplace |
 | Booksy | $29.99 | 1.65% | No (Booksy-branded) | Yes | No | Marketplace + loyalty |
@@ -117,13 +117,13 @@ If you are trying to decide between these six platforms, the answer usually come
 
 **High volume, multi-location, retail-heavy?** Squire (if budget allows) or GlossGenius (if retail is a meaningful revenue line).
 
-**Brand new, no clients yet, need to start at $0?** Setmore for the first 90 days. Move to BKRDY or another paid option as soon as you start booking real volume.
+**Brand new, no clients yet, need to start at $0?** Setmore or the BKRDY Free plan for the first 90 days. Move to a paid plan as soon as you start booking real volume.
 
-## For 80% of barbers, the answer is BKRDY.
+## For most barbers, the answer is BKRDY.
 
-The transaction fee math alone (saving 1-3% of every booking) covers the subscription cost at any meaningful volume, and the designed template gives you a website that converts Instagram traffic at a higher rate than a generic booking form.
+The 0% markup means BKRDY adds nothing on top of Stripe's rate, and the designed template gives you a website instead of a generic booking form.
 
-The other 20% have a specific need (marketplace exposure, full POS, multi-location) that one of the other platforms handles better. For those shops, pick the platform that matches the specific need.
+The rest have a specific need (marketplace exposure, full POS, multi-location) that one of the other platforms handles better. For those shops, pick the platform that matches the specific need.
 
 ## Questions
 
@@ -137,19 +137,19 @@ Yes. Some shops do this to keep marketplace exposure on Booksy while running the
 
 ### What are the actual savings from 0% vs 2.6% fees?
 
-On $5,000 per month in bookings: $130 per month saved. On $10,000: $260. Across a year on $7,500 monthly average: $2,340. That is several years of BKRDY Studio covered by the fee difference alone.
+The 0% is BKRDY's own markup; Stripe's processing fee, roughly 2.9% plus 30 cents, still applies. So there is only a saving where a platform's percentage comes on top of card processing. Where it does, 2.6% is $130 a month on $5,000 in bookings and $260 on $10,000. Where the percentage is the card processing itself, card costs come out about the same, and the real comparison is the monthly fee and the website.
 
 ### I have booth renters. Does BKRDY support that?
 
-Yes, on the Studio plan. Each booth renter can run their own services and Stripe payouts inside the shop site. Each renter sees only their own calendar, services, and clients.
+Partly, on the Studio plan. Each booth renter gets their own login, hours and services inside the shop site, and sees their own schedule rather than the whole shop's. All payments land in the one shop Stripe account, though, so BKRDY does not split payouts or collect booth rent.
 
 ### How long does migration actually take?
 
-From Booksy, Squire, GlossGenius, Acuity, or anywhere else, BKRDY handles the migration for you, free, usually the same day. Services, hours, staff, and client list all import.
+From Booksy, GlossGenius, Acuity and the other common platforms, BKRDY handles the migration for you, free, usually the same day. Services, clients and upcoming appointments all come over. On anything else, like Squire, ask first what can come across.
 
 ### Can clients still book by phone if they do not use the website?
 
-Yes. You can manually add bookings from your dashboard. Most shops find that 80 to 90 percent of bookings move to online within the first month after switching, but the phone option stays there for the rest.
+Yes. You can manually add bookings from your calendar, so the phone option stays there for clients who prefer it.
 
 ### What if I want a fully custom website (not just a template)?
 
@@ -157,4 +157,4 @@ BKRDY templates are customizable (your photos, your services, your colors), but 
 
 ### Which BKRDY template should a barbershop pick?
 
-The Fade Room is the most popular for barbershops (dark, neon, late-hours). Blackline is the architectural option (brushed brass, clean lines). Bottega is the warm, handcrafted option. Most shops start by trying The Fade Room demo at thefaderoom.bkrdy.me.
+The Fade Room is the natural fit for barbershops (dark, neon, late-hours). Blackline is the architectural option (brushed brass, clean lines). Bottega is the warm, handcrafted option. A good start is trying The Fade Room demo at thefaderoom.bkrdy.me.

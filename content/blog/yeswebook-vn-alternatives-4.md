@@ -34,7 +34,7 @@ Free migration from GlossGenius, Acuity, Square, and Fresha makes moving your bo
 
 ### Core Features
 
-BKRDY combines a visual website builder with an embedded booking engine that gives clients 24/7 online booking and lets you collect deposits. The platform supports **Stripe-backed deposits**, automatic email reminders, and planned SMS reminders to reduce no shows. It also includes **customer management** tools such as booking history, notes, and VIP tagging for repeat client care.
+BKRDY combines a visual website builder with an embedded booking engine that gives clients 24/7 online booking and lets you collect deposits. The platform supports **Stripe-backed deposits**, automatic email reminders, and text reminders on paid plans to reduce no shows. It also includes **customer management** tools such as booking history, notes, and VIP tagging for repeat client care.
 
 ### Key Differentiator
 
@@ -46,13 +46,13 @@ Designed templates give studios a cohesive online presence so the booking page m
 
 ### Cons
 
-- Currently limited to US-based businesses; features for multiple location operations and SMS marketing are on the roadmap.
+- Currently limited to US-based businesses; there is no multiple location management and no SMS marketing.
 
 ### Notable Integrations
 
 - Stripe
-- Google Calendar
-- Apple Calendar
+- Google Calendar (a read-only feed you subscribe to)
+- Apple Calendar (the same read-only feed)
 
 ### Who It’s For
 
@@ -220,7 +220,7 @@ Of particular note is BKRDY, which introduces branded website templates specific
 
 ### Multi-location and operational scope
 
-Salonist excels in supporting large salon chains operationally, combining tools for intricate payroll and real-time inventory management. Rosy Salon’s targeted design supports single-location salons with simplified usability suitable for smaller teams. BKRDY serves solo professionals with integrated calendars and clean migrations away from other tools for a focused niche.
+Salonist excels in supporting large salon chains operationally, combining tools for intricate payroll and real-time inventory management. Rosy Salon’s targeted design supports single-location salons with simplified usability suitable for smaller teams. BKRDY serves solo professionals with a built-in calendar and clean migrations away from other tools for a focused niche.
 
 ### Best fit
 
@@ -230,13 +230,13 @@ Salonist excels in supporting large salon chains operationally, combining tools 
 
 ### Our pick
 
-BKRDY distinguishes itself uniquely by fusing aesthetic-specific design and no-transaction fee integrations focused on beauty professionals. However, for multi-location operations or geographical flexibility, alternatives may guide choices.
+BKRDY distinguishes itself uniquely by fusing aesthetic-specific design and no-markup Stripe payments focused on beauty professionals. However, for multi-location operations or geographical flexibility, alternatives may guide choices.
 
 Here is a comparison of salon booking software solutions with standout features, pricing, and usability detailed to aid in your decision-making process.
 
 | **Product** | **Core Feature** | **Key Differentiator** | **Best For** | **Pricing** | **Notable Limitation** |
 |---|---|---|---|---|---|
-| BKRDY | Website builder, booking, deposits | Brand-first booking site | Solo pros, small studios | From $18/month | Limited to US-based businesses |
+| BKRDY | Website builder, booking, deposits | Brand-first booking site | Solo pros, small studios | Free, or from $18/month billed annually | Limited to US-based businesses |
 | Rosy Salon Software | Booking and POS system | Built by salon staff | Small salons, booth renters | From $44/month | Limited customization for enterprises |
 | Salonist | All-in-one booking and marketing system | Centralized management tools | Multi-location salons | Free/$79+/month | Free plan details not transparent |
 | Book in Beautiful | Booking and staff scheduling | No commission on bookings | UK salons, practitioners | Pricing not published | Industry compliance detail lacking |
@@ -248,10 +248,10 @@ Many beauty professionals face challenges when their booking tools do not reflec
 **BKRDY’s built-in features include:**
 
 - Brand-led booking pages crafted with designed templates matching beauty trades
-- Automatic email and SMS reminders to reduce no-shows
-- Client management tools that improve retention
+- Automatic email reminders, plus text reminders on paid plans, to reduce no-shows
+- Client management tools that keep each regular's history and notes in one place
 
-[See the templates](/templates/) and see why independent beauty studios choose it over generic booking platforms. Start by importing your client data for quick setup and gain full control over your appointments in a single place.
+[See the templates](/templates/) and see how it differs from generic booking platforms. Start by sending the BKRDY team your client export, which they move for free, and gain full control over your appointments in a single place.
 
 ## FAQ
 
@@ -273,7 +273,7 @@ BKRDY allows users to collect deposits through its integration with Stripe, whic
 
 ### What is the pricing structure for BKRDY?
 
-BKRDY offers a pricing plan starting at $18 a month when billed annually, making it accessible for solo beauty professionals and small studios. This competitive pricing enables users to invest in quality salon booking software without a significant financial burden.
+BKRDY has a Free plan at $0, and paid plans start at $18 a month when billed annually, making it accessible for solo beauty professionals and small studios. This competitive pricing enables users to invest in quality salon booking software without a significant financial burden.
 
 ## Recommended
 

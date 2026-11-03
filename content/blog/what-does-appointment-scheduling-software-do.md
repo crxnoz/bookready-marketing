@@ -176,15 +176,15 @@ Most general scheduling platforms were designed for meeting rooms and sales call
 
 BKRDY takes a different approach. It builds [complete booking websites](/templates/) for independent beauty studios, lash artists, nail technicians, and hairstylists, not just a scheduling widget dropped onto a blank page. The design is warm, editorial, and brand-led, the kind of first impression that makes a new client feel confident before they have even walked through the door.
 
-The platform includes built-in scheduling, deposit handling through Stripe, automatic reminders, and a smart waitlist that fills canceled slots without you lifting a finger. Client history is tracked per profile, so you always know what a returning client had last time. For beauty professionals who want their [online booking](/blog/the-role-of-instant-booking-for-new-clients-in-beauty) to reflect the quality of their work, BKRDY is worth a close look.
+The platform includes built-in scheduling, deposit handling through Stripe, automatic reminders, and, on paid plans, a waitlist that emails a canceled slot to the next matching client without you lifting a finger. Client history is tracked per profile, so you always know what a returning client had last time. It does not cover everything on the list above: there is no two-way calendar sync, no recurring booking series, and no mobile app yet. For beauty professionals who want their [online booking](/blog/the-role-of-instant-booking-for-new-clients-in-beauty) to reflect the quality of their work, BKRDY is worth a close look.
 
 Key advantages for beauty studios:
 
-- Boutique-designed booking pages that showcase your brand, not a generic template
+- Boutique-designed booking pages that showcase your brand, not a generic booking form
 - Built-in deposit collection via Stripe at the time of booking
-- Automatic SMS and email reminders to reduce no-shows
-- Smart waitlist to recover revenue from last-minute cancellations
-- Client history and appointment frequency tracking for better retention
+- Automatic email reminders on every plan, and text reminders on paid plans, to reduce no-shows
+- A waitlist on paid plans that emails a freed time to the next matching client after a cancellation
+- Client history, notes, and an Inactive list that shows who has gone quiet
 - No complex setup or design work required
 
 If you run a spa, BKRDY’s [spa booking websites](/for-spas) are worth exploring specifically. The platform is built around the reality of how beauty businesses actually operate, which is a different starting point than most scheduling tools on this list.

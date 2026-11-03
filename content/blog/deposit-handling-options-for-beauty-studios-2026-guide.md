@@ -73,7 +73,7 @@ Not every studio needs the same deposit structure. A high-volume nail bar operat
 | New client, first visit | Non-refundable flat fee minimum | Establishes trust and filters uncommitted bookings |
 | Loyal, repeat clients | Card on file or flexible transfer policy | Rewards reliability without adding friction |
 
-[Online booking platforms](/for-spas) that allow customizable deposit settings per service category give you the flexibility to apply different rules to different treatments without managing it manually. A color correction and a brow wax do not carry the same risk, so they should not carry the same deposit requirement.
+Online booking platforms that allow customizable deposit settings per service category give you the flexibility to apply different rules to different treatments without managing it manually. A color correction and a brow wax do not carry the same risk, so they should not carry the same deposit requirement. [BKRDY](/for-spas) has one studio-wide deposit rule instead, and a percent deposit naturally scales with the price of the service.
 
 Studios that serve a high proportion of new clients benefit most from stricter upfront deposits. Studios with a loyal, repeat client base can afford more flexibility, such as deposit transfers or card-on-file policies, without increasing no-show risk.
 
@@ -103,7 +103,7 @@ One nuance worth noting: deposit transfers are a genuinely useful middle ground.
 
 ## How BKRDY handles deposits so you do not have to think about it
 
-Running deposit collection manually is one of those tasks that sounds simple until you are chasing a payment link at 9 PM the night before a full day of appointments. BKRDY builds deposit handling directly into your booking website so the entire process runs without you touching it.
+Running deposit collection manually is one of those tasks that sounds simple until you are chasing a payment link at 9 PM the night before a full day of appointments. BKRDY builds deposit handling directly into your booking website, so collecting the deposit runs without you touching it, and a refund goes out only when you click Refund.
 
 BKRDY processes deposits through Stripe at the moment of booking, which means clients pay before the appointment is confirmed. You set one deposit rule for your whole menu, a flat amount or a percent, configure your cancellation window, and let the platform enforce the rules automatically. Studios using BKRDY also get [client self-serve rescheduling](/platform/booking/online/) built in, so clients can move appointments within your policy terms without calling you. Whether you run a [hair salon](/for-salons) or a lash studio, BKRDY gives you a booking site that looks professional and handles the financial details correctly from day one.
 
@@ -123,7 +123,7 @@ Use an online booking platform with integrated payment processing. Clients pay t
 
 ### Can I charge different deposits for different services?
 
-Yes. Customizable deposit settings per service category let you apply higher deposits to long or specialist treatments and lower amounts to quick services, which reflects the actual risk each appointment carries.
+It depends on the platform. Customizable deposit settings per service category let you apply higher deposits to long or specialist treatments and lower amounts to quick services, which reflects the actual risk each appointment carries. BKRDY has one rule for the whole menu, so a percent deposit is how the amount moves with the service price.
 
 ### What happens to a deposit if a client is a no-show?
 

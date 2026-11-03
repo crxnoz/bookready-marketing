@@ -38,7 +38,7 @@ Here is a quick orientation before the full profiles:
 | Schedulicity | Small studios, simple needs | Not publicly listed | Not listed | No |
 | Jane App | Allied health and wellness | Not publicly listed | Not listed | No |
 | Cliniko | Clinical and allied health | Not publicly listed | Not listed | No |
-| BKRDY | Boutique independent studios | Not publicly listed | Yes | No |
+| BKRDY | Boutique independent studios | Free plan $0; Solo $18/month billed annually ($21 monthly) | Yes | No |
 
 **Key differentiators to watch:** login-free booking keeps the client relationship with your business rather than a third-party platform. Marketplace exposure can drive new clients but also invites [price-shopping behavior](https://softwarefinder.com/emr-software/vagaro) within the portal itself. Multi-location support varies widely, from Mangomint’s clean single-account view to Zenoti’s enterprise-grade centralized reporting.
 
@@ -198,7 +198,7 @@ BKRDY is a different kind of option. Where most platforms on this list are gener
 | Zenoti | Custom | Custom | Yes | Not listed | Enterprise chains |
 | Pabau | $69/month | Standard rates | Yes | Not listed | Medical aesthetics |
 | Schedulicity | Not publicly listed | Standard rates | Not listed | Not listed | Small studios |
-| BKRDY | Not publicly listed | Stripe (0% platform fee) | Not listed | No | Boutique independents |
+| BKRDY | Free plan $0; Solo $18/month billed annually ($21 monthly) | Stripe (0% platform fee) | No | No | Boutique independents |
 
 ## How do you choose the right Vagaro alternative for your salon?
 
@@ -246,15 +246,15 @@ For [beauty industry trends](https://blog.theultimatebeauty-you.com/blog/beauty-
 
 BKRDY is not trying to compete with Mangomint on payroll reporting or with Mindbody on class scheduling. It is built for a specific kind of beauty professional: the independent lash artist, nail tech, hairstylist, or esthetician who wants a booking website that looks and feels like their brand, not like a generic scheduling portal.
 
-The aesthetic is intentional. Soft cream surfaces, near-black type, and quiet blush and lavender accents give BKRDY’s booking pages a boutique editorial quality that most scheduling tools simply do not attempt. The feeling is calm and premium, the kind of polish that shows up in the negative space rather than in loud feature announcements.
+The aesthetic is intentional. Fifteen templates give BKRDY’s booking pages a boutique editorial quality that most scheduling tools simply do not attempt. Each has its own look, from warm and earthy to dark and electric, with the kind of polish that shows up in the negative space rather than in loud feature announcements.
 
 Beyond the visual design, BKRDY includes the operational tools an independent studio actually needs:
 
 - **Built-in scheduling** with a booking flow that lives on your own branded website, not a third-party portal
 - **Stripe-powered deposits** with no platform fee, so you collect deposits at booking without losing a cut to the software
 - **Personalized client history** so you know what every client had done, when, and what they preferred
-- **Automatic appointment reminders** that reduce no-shows without requiring manual follow-up
-- **Smart waitlist** that fills canceled slots automatically, keeping the calendar full
+- **Automatic appointment reminders** sent before each visit, by email on every plan and by text on paid plans, without manual follow-up
+- **Waitlist** on paid plans that emails the next matching client when a booking is canceled, with two hours to claim the spot
 - **[Self-serve rescheduling](/platform/booking/online/)** so clients can move appointments without calling or texting
 
 The client experience on a BKRDY booking page is genuinely different from what most scheduling software produces. There is no redirect to a marketplace. There is no account creation requirement. The client lands on a page that looks like your studio, books in a few taps, and receives a confirmation that carries your brand throughout.
@@ -263,10 +263,10 @@ The client experience on a BKRDY booking page is genuinely different from what m
 
 BKRDY’s standout advantages for independent studios:
 
-- Booking website that reflects your brand, not a software company’s template
+- Booking website that reflects your brand, not a generic scheduling portal
 - Stripe deposits with 0% platform fee, keeping more revenue in your business
 - Client history and profile management built for long-term retention
-- Automatic reminders and smart waitlist without manual setup
+- Automatic reminders, plus a waitlist on paid plans that emails the next match when a spot opens
 - No complex design process or lengthy onboarding required
 - Login-free booking that keeps the client relationship with you
 
@@ -282,7 +282,7 @@ The best Vagaro alternative depends on your business size, service type, and how
 | Total cost over headline price | Add payment processing fees, per-staff charges, and add-ons before comparing platforms. |
 | Login-free booking matters | Platforms that skip client account creation reduce friction and keep the client relationship with your studio. |
 | Migration requires planning | Confirm what Vagaro lets you export before committing to a new platform; most alternatives offer data import support. |
-| BKRDY for boutique studios | BKRDY offers a brand-led booking website with Stripe deposits, client history, and smart waitlist tools built for independent beauty professionals. |
+| BKRDY for boutique studios | BKRDY offers a brand-led booking website with Stripe deposits, client history, and a waitlist on paid plans, built for independent beauty professionals. |
 
 ## The software switch most salon owners get wrong
 
@@ -300,7 +300,7 @@ The right move is to pick software that matches where your business is now and w
 
 Most of the platforms compared here are built for scale: multi-location management, enterprise reporting, marketplace reach. BKRDY takes a different position. It is built for the independent beauty professional who wants a booking website that looks as good as their work, without hiring a designer or spending weeks on setup.
 
-The concrete difference is this: where generic scheduling tools give you a booking link that looks like software, BKRDY gives you a [full booking website for your spa](/for-spas) or studio that carries your brand from the first click through the confirmation email. Stripe-powered deposits with no platform fee mean you collect payment at booking without losing a percentage to the software. Automatic reminders and a smart waitlist handle the operational side without manual follow-up. And because there is no client account creation required, the booking process stays clean and fast for every new client who finds you.
+The concrete difference is this: where generic scheduling tools give you a booking link that looks like software, BKRDY gives you a [full booking website for your spa](/for-spas) or studio that carries your brand from the first click through the confirmation email. Stripe-powered deposits with no platform fee mean you collect payment at booking without losing a percentage to the software. Automatic reminders, and on paid plans a waitlist that emails the next match when a spot opens, take care of the routine follow-up. And because there is no client account creation required, the booking process stays clean and fast for every new client who finds you.
 
 Setup does not require a design background or a technical team. BKRDY is built to get an independent studio live quickly, with a booking page that reflects the quality of the work happening inside the studio. If you are a lash artist, nail tech, hairstylist, or esthetician who has been making do with a generic booking link, it is worth seeing what a [purpose-built booking website](/for-nail-techs) actually looks like for your business. Visit bkrdy.com to see the platform and start building your booking website today.
 

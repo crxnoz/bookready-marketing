@@ -18,7 +18,7 @@ Here is the truth most solo beauty pros will not say out loud: you do not have a
 
 The BKRDY position is simple: you do not need to be creative on demand, you need a bank of ideas and a repeatable plan so posting becomes a habit instead of a scramble. When the next idea is already decided, the only thing left is to shoot it and write two lines. That is a task, not a creative crisis, and tasks get done. This is aimed squarely at the [solo pro](/for-solo-pros/) running the whole show alone.
 
-This guide is a practical toolkit, not inspiration fluff. You will get six categories of post ideas with concrete examples, a one-page weekly plan a solo pro can actually keep, how to batch a full week of content in a single shoot, and how to repurpose one session across five formats. BKRDY's content maker helps plan and caption along the way, so the ideas turn into posts that are actually live.
+This guide is a practical toolkit, not inspiration fluff. You will get six categories of post ideas with concrete examples, a one-page weekly plan a solo pro can actually keep, how to batch a full week of content in a single shoot, and how to repurpose one session across five formats. On paid plans, BKRDY's content maker turns an idea into a finished post card with a caption ready to copy, so the ideas become posts that actually go up.
 
 ## Six categories that cover everything you'll ever post.
 
@@ -26,7 +26,7 @@ The reason you run out of ideas is that you are starting from infinity. Anything
 
 Here they are, with the job each one does. One, before-and-after: proof, the single strongest format in beauty. Two, education: authority, the posts that make you the expert. Three, behind-the-scenes: relationship, the human texture that earns loyalty. Four, client features: social proof, other people vouching for you. Five, promos and offers: revenue, the direct ask. Six, FAQs: objection-handling, quietly removing reasons to hesitate.
 
-Rotate these six and your feed stays varied without forcing a shred of creativity. You are not inventing, you are filling slots. The sections below hand you concrete prompts for each category, so the bank is stocked before you ever open the camera. Keep the rotation on a simple list and make the posts in the BKRDY [content maker](/platform/tools/marketing/), so you can see at a glance which bucket is due next and never post three promos in a row by accident.
+Rotate these six and your feed stays varied without forcing a shred of creativity. You are not inventing, you are filling slots. The sections below hand you concrete prompts for each category, so the bank is stocked before you ever open the camera. Keep the rotation on a simple list, so you can see at a glance which bucket is due next and never post three promos in a row by accident, and make the posts themselves in the BKRDY [content maker](/platform/tools/marketing/).
 
 ## Before-and-after ideas that do the heavy lifting.
 
@@ -48,15 +48,15 @@ There is a bonus built in: every education post that answers a common client que
 
 These two categories share a job: they make people feel like they know you before they have met you. Behind-the-scenes prompts humanize the brand and earn quiet loyalty. Your morning setup, restocking the shelf, a day-in-the-life reel, the candle or the playlist you always have going, a genuine blooper. None of it is polished, and that is exactly why it works. People book people, and this is where they meet the person.
 
-Client features do the other half: they let other people vouch for you. A happy regular photographed with permission, a first-timer's reaction, a quote-style testimonial laid over a result photo, a milestone like your hundredth client of the year. The strongest version of a client feature is a real review, because it reads as honest in a way a caption never can. Collect reviews through BKRDY so you always have fresh, consented material to pull from instead of scrambling.
+Client features do the other half: they let other people vouch for you. A happy regular photographed with permission, a first-timer's reaction, a quote-style testimonial laid over a result photo, a milestone like your hundredth client of the year. The strongest version of a client feature is a real review, because it reads as honest in a way a caption never can. Collect reviews through BKRDY so you have fresh material to pull from instead of scrambling.
 
-One firm rule sits over all of it: always get permission before posting a face. Ask at checkout, keep it casual, and note who said yes. It protects the relationship you are trying to build, and it keeps the well of proof stocked. See how the review flow works on the [reviews](/platform/tools/reviews/) page, so feature material arrives with consent already handled.
+One firm rule sits over all of it: always get permission before posting a face. Ask at checkout, keep it casual, and note who said yes. It protects the relationship you are trying to build, and it keeps the well of proof stocked. See how the review flow works on the [reviews](/platform/tools/reviews/) page, and ask before you feature anyone, because a review is not permission to post a face.
 
 ## Promo and FAQ posts that drive the booking action.
 
 These are your two most direct categories: one asks for the sale, the other clears the path to it. Promo prompts to keep on hand: a slow-day offer to fill a predictable gap, a first-visit deal for new faces, a seasonal package, a referral reward, a last-minute opening. The one discipline that matters here is restraint. Promos should be occasional, because a discount that runs every week stops being a treat and starts being your price. Keep them rare and they keep their punch.
 
-When you do run one, make it easy to act on. BKRDY [coupons](/platform/tools/coupons/) handle the code and the redemption, and an [announcement banner](/platform/website/announcement/) puts the offer right on your booking site so the post and the destination say the same thing. The gap between "I want that deal" and "it is booked" should be two taps, not a DM exchange that dies overnight.
+When you do run one, make it easy to act on. On paid plans, BKRDY [coupons](/platform/tools/coupons/) handle the code and the redemption, and an [announcement banner](/platform/website/announcement/) puts the offer right on your booking site so the post and the destination say the same thing. The gap between "I want that deal" and "it is booked" should be two taps, not a DM exchange that dies overnight.
 
 FAQ prompts work the opposite way, by removing reasons to hesitate before anyone has to ask. Do you take walk-ins. How far ahead should I book. What should I do before my appointment. What is your cancellation policy. How do deposits work. Each answer quietly deletes a small worry that was keeping someone from tapping book. They are not glamorous posts, but they convert the fence-sitters, and there are always more fence-sitters than you think.
 
@@ -66,7 +66,7 @@ A bank of ideas does nothing without a rhythm, so here is one small enough to su
 
 Notice what this plan is not. It is not seven posts a week. It is not a content calendar with forty color-coded cells. It is deliberately, almost stubbornly small, because the plan you keep beats the plan you admire. Three posts done every week for a year will do far more for your books than an ambitious schedule you abandon in three weeks. Consistency is the whole game, and consistency likes small.
 
-Pick fixed posting days and stick to them, so posting becomes a routine rather than a nightly decision. Decisions are what drain you at 9pm. A routine just runs. Write the captions ahead of time, in the BKRDY content maker or anywhere you like, so the week is essentially done before it starts, and Monday morning is a post you publish, not a blank box. For the funnel around these posts, revisit the [Instagram marketing guide](/guides/instagram-marketing-for-salons/).
+Pick fixed posting days and stick to them, so posting becomes a routine rather than a nightly decision. Decisions are what drain you at 9pm. A routine just runs. Write the captions ahead of time, in your phone's notes or anywhere you like, so the week is essentially done before it starts, and Monday morning is a post you publish, not a blank box. For the funnel around these posts, revisit the [Instagram marketing guide](/guides/instagram-marketing-for-salons/).
 
 ## Batch one shoot into a whole week of content.
 
@@ -74,7 +74,7 @@ Here is the move that makes the plan sustainable, because posting daily and shoo
 
 That single session is your whole week. The before-and-after becomes Monday's post. The process reel becomes Wednesday's Reel. The talking-to-camera clip and the detail shots carry Friday and your Stories. You shot once and you are covered for seven days, which is the difference between a pro who posts for a year and one who quits in three weeks with a camera roll full of good intentions.
 
-A few practical notes. Shoot in consistent light, ideally the same spot each time, so your feed looks like one brand instead of five. Keep a small phone tripod parked at your station so filming costs zero setup. And always capture more than you think you need, because the extra clip is free now and priceless on a busy Thursday. Organize the batch and draft the captions in the BKRDY [content maker](/platform/tools/marketing/) while it is all fresh.
+A few practical notes. Shoot in consistent light, ideally the same spot each time, so your feed looks like one brand instead of five. Keep a small phone tripod parked at your station so filming costs zero setup. And always capture more than you think you need, because the extra clip is free now and priceless on a busy Thursday. Draft the captions while it is all fresh, and on a paid plan, frame your best shots as ready-made post cards in the BKRDY [content maker](/platform/tools/marketing/).
 
 ## Repurpose one piece of content five ways.
 
@@ -96,7 +96,7 @@ Three feed posts a week is a realistic, effective floor for a solo pro, plus Sto
 
 ### How do I come up with captions every time?
 
-Match each post to one of six categories and write to that category's purpose, so you never start from a blank page. The BKRDY content maker helps plan and draft captions so the idea and the words arrive together.
+Match each post to one of six categories and write to that category's purpose, so you never start from a blank page. On paid plans, the BKRDY content maker gives each post card a caption ready to copy, so the idea and the words arrive together.
 
 ### Is it okay to repost the same client transformation?
 
@@ -108,7 +108,7 @@ No. A phone, consistent lighting, and a small tripod at your station are enough.
 
 ### How do I get client photos to post?
 
-Ask at checkout, and always get permission before posting a face. Reviews collected through BKRDY give you a steady stream of feature material with consent built in, so you are never short on proof to share.
+Ask at checkout, and always get permission before posting a face. Reviews collected through BKRDY also give you quotes to feature, so you have proof to share even without a new photo.
 
 ### How far ahead should I plan content?
 
@@ -116,4 +116,4 @@ A week at a time is plenty for a solo pro. Batch one shoot, schedule three posts
 
 ### How do I promote an offer without looking spammy?
 
-Keep promos occasional so they keep their punch, and tie each one to a real reason: a slow day, a seasonal package, a first-visit deal. Run them with BKRDY coupons and announcements so the offer is easy to redeem.
+Keep promos occasional so they keep their punch, and tie each one to a real reason: a slow day, a seasonal package, a first-visit deal. On paid plans, run them with BKRDY coupons and announcements so the offer is easy to redeem.

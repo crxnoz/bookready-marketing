@@ -114,7 +114,7 @@ One more thing: personalized follow-ups matter more than most people expect. A m
 
 Beauty professionals who want to keep these strategies running need a booking platform that makes the habit easy. BKRDY is designed specifically for independent studios, lash artists, nail technicians, hairstylists, and estheticians who need more than a generic booking link.
 
-BKRDY’s platform includes automated appointment reminders, client history tracking, and on paid plans a waitlist that offers freed times to clients waiting. The rebooking ask itself stays with you. The booking experience is brand-led, so clients land on a page that looks and feels like your studio, not a third-party directory. Whether you run a [hair salon](/for-salons), a [lash studio](/for-lash-artists), or a solo practice, BKRDY gives you the tools to turn first-time clients into regulars. See the full range of [booking built for beauty pros](/templates/) and find the setup that fits your business.
+BKRDY’s platform includes automated appointment reminders, client history tracking, and on paid plans a waitlist that offers freed times to clients waiting. The rebooking ask itself stays with you. The booking experience is brand-led, so clients land on a page that looks and feels like your studio, not a third-party directory. Whether you run a [hair salon](/for-salons), a [lash studio](/for-lash-artists), or a solo practice, BKRDY gives you the booking page, the client history, and a Book again button to add the next visit while the client is still with you. See the full range of [booking built for beauty pros](/templates/) and find the setup that fits your business.
 
 ## FAQ
 

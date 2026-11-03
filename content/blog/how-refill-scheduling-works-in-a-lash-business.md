@@ -106,7 +106,7 @@ The biggest mistake I see is relying on clients to self-manage their timing. The
 
 Educating clients on the natural lash growth cycle genuinely changes their behavior. When a client understands that her extensions shed because her natural lashes shed, not because of poor application, she stops blaming the artist and starts respecting the refill window. That shift in understanding is worth more than any loyalty program.
 
-Investing in a purpose-built booking platform like BKRDY is not a luxury for studios at a certain size. It is the infrastructure that makes growth possible without burning out. The studios I have seen scale past three artists without chaos all have one thing in common: they stopped managing fills manually before they needed to.
+Investing in a purpose-built booking platform like BKRDY is not a luxury for studios at a certain size. It is the infrastructure that keeps your calendar, client history, and deposits in one place as you grow. The studios I have seen scale past three artists without chaos all have one thing in common: they stopped managing fills on paper and in DMs before they needed to.
 
 > *, Luis*
 

@@ -127,7 +127,7 @@ One thing I would push back on: do not wait until your salon is “big enough”
 
 Nail technicians who want a booking site that actually works for their business, not against it, should look at what BKRDY offers. BKRDY builds [booking websites for nail techs](/for-nail-techs) that include built-in client profiles, appointment scheduling, deposit handling through Stripe, and automated reminders, all without requiring any design or technical setup.
 
-Every client who books through your BKRDY site gets a profile automatically. Their history, preferences, and appointment notes live in one place your whole team can access. Reminders go out without you lifting a finger. If you are ready to stop managing clients manually and start building the kind of retention that grows a real business, BKRDY is worth a serious look.
+Every client who books through your BKRDY site gets a profile automatically. Their history, preferences, and notes live in one place for you, and each staff member sees the appointments on their own schedule. Reminders go out without you lifting a finger. If you are ready to stop managing clients manually and start building the kind of retention that grows a real business, BKRDY is worth a serious look.
 
 ## FAQ
 

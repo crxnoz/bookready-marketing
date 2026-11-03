@@ -79,7 +79,7 @@ Growing your base of regular nail clients through online booking requires more t
 
 **1. Enable pre-booking at every checkout.** When a client is in your chair and happy with her nails, that is the highest-intent moment you will ever have with her. Ask her to book the next appointment before she leaves. If your booking system is on your phone or tablet, this takes 60 seconds.
 
-**2. Set up automated reminder sequences.** Configure your nail salon booking system to send confirmation messages, pre-appointment reminders, and post-visit rebooking prompts. The sequence should run without your involvement once it is set up. BKRDY’s platform sends the confirmation and reminder automatically, including deposit flows through Stripe. The rebooking prompt is yours to send, by hand or from a separate tool.
+**2. Set up automated reminder sequences.** Configure your nail salon booking system to send confirmation messages, pre-appointment reminders, and post-visit rebooking prompts. The sequence should run without your involvement once it is set up. BKRDY’s platform sends the confirmation and reminder automatically and handles deposits through Stripe. The rebooking prompt is yours to send, by hand or from a separate tool.
 
 **3. Add a digital loyalty program to your booking flow.** Digital loyalty passes are preferred 3-5 times more than paper punch cards, and they increase visit frequency by 15-25%. A loyalty reward tied to booking, such as a discount on the fifth visit, gives clients a concrete reason to rebook rather than try someone new.
 
@@ -119,7 +119,7 @@ What I find most overlooked is the “forgotten middle.” Nail techs focus on t
 
 Building a retention system from scratch takes time you probably do not have between appointments. BKRDY was built specifically for nail techs and independent beauty studios who want a professional booking presence without spending weeks on setup.
 
-The platform combines a branded [nail tech booking website](/for-nail-techs) with built-in scheduling, deposit handling through Stripe, automated reminders, and client history management. Everything that drives retention sits in one place. You get a booking page that looks like your brand, not a generic platform, and automatic confirmations and reminders so you can focus on the work. Explore the full [BKRDY features](/platform/) to see how each tool supports client retention from the first booking onward.
+The platform combines a branded [nail tech booking website](/for-nail-techs) with built-in scheduling, deposit handling through Stripe, automated reminders, and client history management. Your bookings, payments, and client records sit in one place. You get a booking page that looks like your brand, not a generic platform, and automatic confirmations and reminders so you can focus on the work. Explore the full [BKRDY features](/platform/) to see how each tool supports client retention from the first booking onward.
 
 ## FAQ
 

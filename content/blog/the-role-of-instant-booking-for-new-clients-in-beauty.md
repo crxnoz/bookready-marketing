@@ -104,7 +104,7 @@ The professionals I see growing fastest in 2026 are not the ones with the most f
 
 Beauty professionals who want instant booking without the technical setup headache have a direct path forward with BKRDY. The platform builds branded booking websites specifically for lash artists, nail technicians, estheticians, and spa owners, with instant booking, deposit collection through Stripe, and automated reminders built in from day one.
 
-BKRDY’s [spa booking websites](/for-spas) and [esthetician booking pages](/for-estheticians) are designed to convert new visitors into confirmed clients without requiring any design work or complex configuration from you. The calendar syncs automatically, the waitlist runs in the background, and client history is tracked so every follow-up feels personal. If you are ready to stop losing clients to approval delays, [BKRDY’s booking features](/platform/) are worth a close look.
+BKRDY’s [spa booking websites](/for-spas) and [esthetician booking pages](/for-estheticians) are designed to convert new visitors into confirmed clients without requiring any design work or complex configuration from you. Online bookings land on your calendar on their own, the waitlist on paid plans offers a canceled slot by email, and client history is tracked so any follow-up you write can feel personal. If you are ready to stop losing clients to approval delays, [BKRDY’s booking features](/platform/) are worth a close look.
 
 ## FAQ
 

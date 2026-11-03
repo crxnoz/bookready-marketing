@@ -30,59 +30,59 @@ The part most owners do not see coming is the brand cost. You spend two years bu
 
 ## BKRDY. Best for design-led salons.
 
-**Price.** The Free plan is $0. Paid plans run $18 to $47 a month billed annually, or $21 to $55 monthly, depending on team size, with Salon quoted, and 0% platform markup. The free plan needs no card; the trial does. **Best for.** Owners who treat their brand like the product and do not want to lose a percentage of every booking.
+**Price.** The Free plan is $0. Paid plans run $18 to $47 a month billed annually, or $21 to $55 monthly, depending on team size, with Salon quoted, and 0% platform markup. The Free plan needs no card; the trial does. **Best for.** Owners who treat their brand like the product and do not want to lose a percentage of every booking.
 
-BKRDY is built around one idea: your booking page should be a real website, not a widget. You get fifteen editorial templates that are named and designed rather than generic color swaps, plus all the booking, deposit, and reminder features built in. Free same-day migration from Acuity is included, and you pay 0% on top of Stripe's standard processing rate.
+BKRDY is built around one idea: your booking page should be a real website, not a widget. You get fifteen editorial templates on paid plans, four on the Free plan, named and designed rather than generic color swaps, plus all the booking, deposit, and reminder features built in. The BKRDY team moves you over from Acuity for free, usually the same day, and you pay 0% on top of Stripe's standard processing rate.
 
-**What stood out.** The templates are genuinely designed. Pick Petale and you get a romantic, soft layout that suits a color-focused salon, with photography that carries the page instead of a form that fights it. Per-stylist calendars work cleanly, each stylist gets their own login and Stripe payout on the team plans, and deposits are enforced in the booking flow rather than on a sign at the desk. Browse the full set on the [templates page](/templates/) to see the range.
+**What stood out.** The templates are genuinely designed. Pick Petale and you get a romantic, soft layout that suits a color-focused salon, with photography that carries the page instead of a form that fights it. Per-stylist calendars work cleanly, each stylist gets their own login and schedule on the team plans, with payments landing in the studio's one Stripe account, and deposits are enforced in the booking flow rather than on a sign at the desk. Browse the full set on the [templates page](/templates/) to see the range.
 
-**What is missing.** No card reader or POS, and no marketplace, so brand-new salons with no client list will not get discovery traffic on day one.
+**What is missing.** No card reader or POS, no room or shared-resource scheduling, and no marketplace, so brand-new salons with no client list will not get discovery traffic on day one.
 
-**Verdict.** The strongest pick for any salon that competes on how it looks and feels. The fee math alone usually covers the subscription. Check the [pricing page](/pricing/) to see where your shop lands.
+**Verdict.** The strongest pick for any salon that competes on how it looks and feels. Check the [pricing page](/pricing/) to see where your shop lands.
 
 ## GlossGenius. Best for solo stylists who want POS.
 
-**Price.** $24 to $48 per month, plus a 2.6% transaction fee on top of processing. **Best for.** Solo pros who do a lot of in-person checkout and tipping.
+**Price.** $28 to $56 per month, or from $24 billed yearly, with its own card rates of 2.4% + 15 cents in person and 3.4% + 15 cents online. **Best for.** Solo pros who do a lot of in-person checkout and tipping.
 
 GlossGenius comes from the beauty world, and it shows in the right places. The point-of-sale is solid, the tipping flow is clean, and the designed templates are a real step up from a bare booking form. For a solo stylist who rings people up at a chairside reader and wants tips handled smoothly, it is a comfortable fit.
 
 **What stood out.** Tap-to-pay and tipping are first-class, and the whole experience is built mobile-first for an owner running the business from a phone. It feels beauty-native in a way Acuity never will.
 
-**What is missing.** The 2.6% fee stacks on top of card processing, which adds up fast at volume. On $8,000 a month in bookings that is roughly $208 a month in platform fees alone. The design templates are starting to look tired as more salons use them, and the mobile app is the primary surface, so desktop management is secondary.
+**What is missing.** Online and card-on-file payments run 3.4% + 15 cents, above Stripe's standard 2.9% + 30 cents on any ticket over $30. The design templates are starting to look tired as more salons use them, and the mobile app is the primary surface, so desktop management is secondary.
 
-**Verdict.** A reasonable pick for a solo stylist whose day revolves around in-person checkout. If the fee bothers you, run the numbers on our [GlossGenius alternative comparison](/compare/glossgenius-alternative/) first.
+**Verdict.** A reasonable pick for a solo stylist whose day revolves around in-person checkout. If the card rate bothers you, run the numbers on our [GlossGenius alternative comparison](/compare/glossgenius-alternative/) first.
 
-## Fresha. Best for high-volume salons that want free.
+## Fresha. Best for high-volume salons.
 
-**Price.** Free subscription, with revenue coming from optional fees and card processing. **Best for.** High-volume salons that prioritize zero monthly cost over owning the funnel.
+**Price.** From $19.95 per month for one team member, plus a one-time 20% fee on new marketplace clients and card processing. **Best for.** High-volume salons that prioritize marketplace exposure over owning the funnel.
 
-Fresha is the obvious pick if a $0 subscription is the deciding factor. There is no monthly fee, there is marketplace traffic, and multi-location support is built in. For a busy salon that wants software without a recurring bill, it is hard to ignore.
+Fresha is the obvious pick if marketplace traffic is the deciding factor. There is a modest monthly fee per team member, there is marketplace traffic, and multi-location support is built in. For a busy salon that wants new clients from the app itself, it is hard to ignore.
 
-**What stood out.** No subscription cost, real marketplace exposure for discovery, and solid handling of multiple locations under one account. The day-to-day calendar is capable.
+**What stood out.** Real marketplace exposure for discovery, no fee on returning clients, and solid handling of multiple locations under one account. The day-to-day calendar is capable.
 
-**What is missing.** Free is the headline, not the whole story. The revenue model leans on an optional New Client Fee of 20% of the first visit plus a card processing markup, so the cost shows up per transaction instead of per month. The website side is template-thin, and your client data effectively lives inside their marketplace, which is the opposite of owning your funnel.
+**What is missing.** The subscription is not the whole story. The revenue model also leans on a New Client Fee of 20% of a marketplace client's first visit plus card processing, so part of the cost shows up per transaction instead of per month. The website side is template-thin, and your client data effectively lives inside their marketplace, which is the opposite of owning your funnel.
 
-**Verdict.** Good for a high-volume shop that genuinely values zero monthly cost more than brand control. If you would rather own the client relationship, read the [Fresha alternative comparison](/compare/fresha-alternative/) for the trade-offs.
+**Verdict.** Good for a high-volume shop that genuinely values marketplace exposure more than brand control. If you would rather own the client relationship, read the [Fresha alternative comparison](/compare/fresha-alternative/) for the trade-offs.
 
 ## Vagaro. Best for inventory-heavy spas.
 
-**Price.** Roughly $30 per month per user, scaling with team size. **Best for.** Spas and salons with serious retail and class operations.
+**Price.** $30 per month for one calendar, plus $10 for each added calendar. **Best for.** Spas and salons with serious retail and class operations.
 
 Vagaro is the feature-depth option. If you run real retail, sell memberships, and schedule classes alongside one-on-one services, it has tools for all of it, plus Pay Desk hardware if you want a physical checkout. For an operationally complex spa, that depth is the draw.
 
 **What stood out.** Deep retail and inventory features, native support for classes and memberships, and dedicated hardware. Few platforms at this price match the breadth.
 
-**What is missing.** The public booking page looks dated, which matters more than owners expect for a brand-led salon. There is a transaction markup, and the interface leans heavily on modals and nested menus, so it feels busy. Per-user pricing also climbs quickly as your team grows.
+**What is missing.** The public booking page looks dated, which matters more than owners expect for a brand-led salon. There is a transaction markup, and the interface leans heavily on modals and nested menus, so it feels busy. Per-calendar pricing also climbs as your team grows.
 
 **Verdict.** Worth it for a spa or salon where retail and classes are a meaningful share of revenue and you need the operational depth. If the dated client-facing page is the dealbreaker, compare it against a designed site on our [Vagaro alternative comparison](/compare/vagaro-alternative/).
 
 ## Square Appointments. Best for Square-loyal owners.
 
-**Price.** Free for a solo user on Square, with paid tiers for teams. **Best for.** Owners already running Square POS hardware in the salon.
+**Price.** A Free plan, with Plus at $49 per month per location. **Best for.** Owners already running Square POS hardware in the salon.
 
-If your salon already lives on Square for in-person payments, Square Appointments is the path of least resistance. It plugs straight into the Square POS and hardware you already use, and the solo tier is free, which keeps the stack simple.
+If your salon already lives on Square for in-person payments, Square Appointments is the path of least resistance. It plugs straight into the Square POS and hardware you already use, and there is a Free plan, which keeps the stack simple.
 
-**What stood out.** Tight integration with Square POS, a free solo plan, and a familiar payments experience if Square is already your register. There is nothing new to learn on the checkout side.
+**What stood out.** Tight integration with Square POS, a Free plan, and a familiar payments experience if Square is already your register. There is nothing new to learn on the checkout side.
 
 **What is missing.** The design is utilitarian, branding controls are limited, and the processing fee runs higher than going direct to Stripe yourself. It is built to be functional, not to make your salon look like a brand, so the booking page reads as generic.
 
@@ -105,10 +105,10 @@ Booksy runs one of the largest beauty marketplaces, with especially strong adopt
 |  | Monthly | Transaction fee | Designed templates | Marketplace | POS | Best for |
 |---|---|---|---|---|---|---|
 | **BKRDY** | $0-$55 | **0%** | **Yes (15 named)** | No | None | Design-led salons |
-| GlossGenius | $24-$48 | 2.6% | Generic | No | **Full** | Solo POS + tipping |
-| Fresha | $0 | Per-transaction | Thin | Yes | Yes | High-volume, free |
-| Vagaro | $30+/user | Markup | Dated | No | **Full** | Retail-heavy spas |
-| Square | $0-$50 | Higher than Stripe | Utilitarian | No | **Full** | Square loyalists |
+| GlossGenius | $24-$56 | 2.4-3.4% + 15¢ | Generic | No | **Full** | Solo POS + tipping |
+| Fresha | $19.95+ | New-client fee | Thin | Yes | Yes | High-volume |
+| Vagaro | $30 + $10/calendar | Markup | Dated | No | **Full** | Retail-heavy spas |
+| Square | $0-$49 | Higher than Stripe | Utilitarian | No | **Full** | Square loyalists |
 | Booksy | ~$30 | Compounding | Generic | Yes | Yes | Marketplace reach |
 
 ## How to actually pick the right alternative.
@@ -135,7 +135,7 @@ Yes. Acuity exports your clients as a CSV from the Clients tab. BKRDY runs the i
 
 ### Which alternative has the lowest fees?
 
-BKRDY has 0% platform markup on top of Stripe's standard processing rate. Most others stack their own markup per booking. Fresha looks free but charges a new-client fee and a processing markup that add up fast at volume, so the real cost is rarely zero.
+BKRDY has 0% platform markup on top of Stripe's standard processing rate. Most others set their own card rates or charge a fee on new clients. Fresha charges per team member plus a new-client fee on marketplace bookings, which adds up fast at volume.
 
 ### Does any alternative have a marketplace like Acuity does not?
 
@@ -147,12 +147,12 @@ BKRDY Solo at $18 a month billed annually, or GlossGenius if in-person tap-to-pa
 
 ### Which is best for a 5-chair salon?
 
-BKRDY Salon if you want a designed multi-stylist site with per-chair calendars and zero markup, or Vagaro if you run heavy retail and classes and need that feature depth. The choice comes down to whether brand or operational complexity is your bigger constraint.
+BKRDY Studio, at $29 a month billed annually or $34 monthly for up to 6 staff, if you want a designed multi-stylist site with a calendar per stylist and zero markup, or Vagaro if you run heavy retail and classes and need that feature depth. The choice comes down to whether brand or operational complexity is your bigger constraint.
 
 ### Will I lose SEO if I switch from Acuity?
 
-Almost certainly not. Your Acuity scheduling subdomain carries near-zero SEO equity for salon searches because it lives on a shared scheduling domain. A designed BKRDY site with your name, services and location on the page gives search engines far more to work with, so the move is usually a gain for local search, not a loss.
+Almost certainly not. Your Acuity scheduling subdomain carries near-zero SEO equity for salon searches because it lives on a shared scheduling domain. A designed BKRDY site with your name, services and location on the page gives search engines far more to work with, so there is little to lose, though no site can promise a ranking.
 
 ### How fast can I switch?
 
-Most setups finish within 24 to 48 hours, and solo pros are often same-day. We handle services, hours, staff, and the client import for you, so the move is mostly a matter of choosing a template and reviewing the details.
+Usually the same day, once we have your export. We move your services, clients and upcoming appointments for you, and you set your hours, policies and Stripe connection yourself, so the move is mostly a matter of choosing a template and reviewing the details.

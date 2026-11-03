@@ -22,7 +22,7 @@ The trick is to never flip a single switch. You run Vagaro and BKRDY side by sid
 
 Spend twenty minutes this week and the actual move becomes trivial. The goal is simple: capture everything Vagaro will stop showing you the moment your subscription lapses, because that access does not come back.
 
-Work through five quick tasks. First, screenshot your full Vagaro service menu, your hours, and your pricing, so you have a clean reference to rebuild from. Second, note any custom forms or intake questions you use, the health histories, patch-test confirmations, or preference fields that make your booking flow yours. Third, screenshot your Vagaro reports for the last 90 days: revenue, top clients, and appointment counts. You cannot pull these after you cancel, and they are genuinely useful for planning. Fourth, make a list of every integration you will need to reconnect, which usually means Stripe, Google Calendar, and Zoom if you run video consults. Fifth, tell your team what is coming so nobody is surprised by a new calendar next week.
+Work through five quick tasks. First, screenshot your full Vagaro service menu, your hours, and your pricing, so you have a clean reference to rebuild from. Second, note any custom forms or intake questions you use, the health histories, patch-test confirmations, or preference fields that make your booking flow yours. Third, screenshot your Vagaro reports for the last 90 days: revenue, top clients, and appointment counts. You cannot pull these after you cancel, and they are genuinely useful for planning. Fourth, make a list of every integration you rely on, which usually means Stripe, Google Calendar, and Zoom if you run video consults. On BKRDY, Stripe connects directly, Google Calendar gets a read-only feed you subscribe to, and there is no Zoom connection. Fifth, tell your team what is coming so nobody is surprised by a new calendar next week.
 
 Then block ninety minutes on your calendar for the actual build. One focused evening, not a nagging half-done project. If you sell bundles, note which packages are active so nothing prepaid slips through the cracks.
 
@@ -38,7 +38,7 @@ One honest caveat. Vagaro does not export appointment history as cleanly as it e
 
 Head to bkrdy.com and sign up. The Free plan needs no card, so there is zero risk in setting things up before you commit, and a paid plan starts with 7 days free. Once you have an account, you are ready for the free lift.
 
-Email your Vagaro export to hello@bkrdy.com. For most accounts, the team runs the import the same day. We do not just dump a spreadsheet in either. Using the screenshots you took last week, we rebuild your service menu so the structure matches what your clients already know, right down to service names and durations. Your hours, policies and Stripe connection stay with you, since those are your calls.
+Email your Vagaro export and those screenshots to hello@bkrdy.com. For most accounts, the team runs the import the same day. We do not just dump a spreadsheet in either. Using the screenshots you took last week, we rebuild your service menu so the structure matches what your clients already know, right down to service names and durations. Your hours, policies and Stripe connection stay with you, since those are your calls.
 
 This is the part owners dread and it is the part we take off your plate entirely. You are not re-typing three hundred clients at midnight. You send one file, we do the tedious reconstruction, and you get a working account back. If anything looks off, we fix it before you go live. See exactly how the handoff works on our [migration](/migration/) page.
 
@@ -52,7 +52,7 @@ Once you choose, budget 45 to 60 minutes on copy and gallery photos. Write your 
 
 ## Connect Stripe for payments and tipping.
 
-Payments take about five minutes to wire up. Inside BKRDY, go to Settings, then Payment rules, and connect Stripe. Sign in to an existing Stripe account or create one on the spot if you do not have it. From there, set your deposit rule on the same page. Payouts follow Stripe's normal schedule, and balances and tips can be collected after the visit.
+Payments take about five minutes to wire up. Inside BKRDY, go to Settings, then Integrations, and connect Stripe, which walks you through setting up your payment account on the spot. Then set your deposit rule under Settings, then Payment rules. Payouts follow Stripe's normal schedule, and balances and tips can be collected after the visit.
 
 Here is the part worth understanding clearly. Stripe charges a standard processing fee, roughly 2.9% plus 30 cents per transaction, the same way it does for any business that uses it. That fee goes to Stripe, not to us. What BKRDY adds on top is a 0% platform markup. We do not take a slice of your bookings the way marketplace platforms do, so the only card cost you carry is Stripe's own rate.
 
@@ -86,7 +86,7 @@ Expect a retention offer. Vagaro will very likely pitch you a discount to stay, 
 
 ### How long does the full migration actually take?
 
-Most shops are functionally migrated in 24 to 48 hours. We import your client list the same day, you build your site that evening, and you soft launch to a handful of regulars the next morning. The unglamorous parts, like updating every link, trail off over a week or two.
+Plan on 24 to 48 hours to be functionally migrated. We usually import your client list the same day, you build your site that evening, and you soft launch to a handful of regulars the next morning. The unglamorous parts, like updating every link, trail off over a week or two.
 
 ### Will I lose bookings during the switch?
 
@@ -102,7 +102,7 @@ Your existing reviews stay on Vagaro, since no platform can lift another platfor
 
 ### Can I keep my custom domain?
 
-You can keep it, and it can forward to your BKRDY site, but BKRDY does not host sites on a studio's own domain yet. Every site lives at yourstudio.bkrdy.me, on every plan, Free included.
+You can keep it, and it can forward to your BKRDY site, but BKRDY does not host sites on a studio's own domain. Every site lives at yourstudio.bkrdy.me, on every plan, Free included.
 
 ### Do I need to cancel Vagaro before I start BKRDY?
 
