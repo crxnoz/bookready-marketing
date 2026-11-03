@@ -82,9 +82,9 @@ A few situations need their own rule, because the standard tiers do not quite fi
 
 A deposit policy is not set-and-forget. Watch three numbers for the first 60 days, on a simple sheet if your software does not report them, and adjust if any drift out of range.
 
-**Booking conversion rate.** Compare the weeks before and after you introduced deposits. A small dip is normal and healthy, since you are filtering out the flakiest bookers. But if conversion drops 10 to 15 percent or more, your deposit is too high or your refund rules read as scary, so dial it back. **No-show rate.** This should fall within 30 days. If it has not moved, your deposit is probably too small to change behavior, so raise it a tier.
+**Booking conversion rate.** Compare the weeks before and after you introduced deposits. A small dip is normal and healthy, since you are filtering out the flakiest bookers. But if conversion drops sharply, your deposit is too high or your refund rules read as scary, so dial it back. **No-show rate.** This should fall within 30 days. If it has not moved, your deposit is probably too small to change behavior, so raise it a tier.
 
-**Refund rate.** If more than 5 percent of deposits are being refunded, your cancellation window may be too tight, pushing genuine late changes into the forfeit zone and generating friction. Loosen the window or widen the credit option. Read these three together, not in isolation: the goal is fewer no-shows without a meaningful hit to conversion. When deposits, refunds, and conversion all sit in their healthy ranges, your policy is doing its job quietly in the background, which is exactly where it belongs.
+**Refund rate.** If you are refunding a lot of deposits, your cancellation window may be too tight, pushing genuine late changes into the forfeit zone and generating friction. Loosen the window or widen the credit option. Read these three together, not in isolation: the goal is fewer no-shows without a meaningful hit to conversion. When deposits, refunds, and conversion all sit in their healthy ranges, your policy is doing its job quietly in the background, which is exactly where it belongs.
 
 ## Set it once, then forget about it.
 

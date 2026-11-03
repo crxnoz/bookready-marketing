@@ -55,7 +55,7 @@ Set clear rules for how new clients get assigned. Some studios route new booking
 
 ### Automate reminders and follow-up messages
 
-[Automated reminders](/blog/automate-client-appointment-reminders-a-beauty-pro-guide) sent via SMS or email reduce no-shows by up to 30%. That is not a small number when a single missed 90-minute appointment represents real lost revenue. Set reminders at 48 hours and again at 24 hours before the appointment, and keep the tone warm, not robotic.
+[Automated reminders](/blog/automate-client-appointment-reminders-a-beauty-pro-guide) sent via SMS or email reduce no-shows. That matters when a single missed 90-minute appointment represents real lost revenue. Set reminders at 48 hours and again at 24 hours before the appointment, and keep the tone warm, not robotic.
 
 Follow-up messages the day after an appointment serve a different purpose. They signal that you noticed the client, not just the booking. A short “How are you loving your lashes?” text opens the door for feedback and makes the next rebooking feel natural.
 
@@ -192,7 +192,7 @@ Beauty-specific platforms are built around the reality of how lash studios opera
 
 The most effective rebooking language focuses on the client’s lashes, not on your calendar. Lash education experts consistently recommend framing the refill appointment as a natural part of maintaining the look the client just invested in, rather than as a request for another purchase.
 
-This shift in framing changes the client’s experience of the moment. Instead of feeling like they are being upsold, they feel like they are being taken care of. That distinction drives the 40% higher retention rate seen among clients who rebook on the spot.
+This shift in framing changes the client’s experience of the moment. Instead of feeling like they are being upsold, they feel like they are being taken care of. That distinction is why clients who rebook on the spot tend to keep coming back.
 
 A few approaches that work well in practice:
 
@@ -245,8 +245,8 @@ Consistent lash artist scheduling best practices, from automated reminders and f
 
 | Point | Details |
 |---|---|
-| Automate reminders early | SMS and email reminders reduce no-shows by up to 30% when sent at 48 and 24 hours out. |
-| Rebook on the spot | Clients who rebook immediately are 40% more likely to maintain regular appointments. |
+| Automate reminders early | SMS and email reminders reduce no-shows when sent at 48 and 24 hours out. |
+| Rebook on the spot | Clients who rebook immediately are more likely to maintain regular appointments. |
 | Match fill timing to the client | Most clients fill roughly every 2-4 weeks, with a 3-week interval being most common. |
 | Build buffer time in | A short buffer between appointments prevents cascading lateness and helps maintain on-time starts. |
 | Use a beauty-specific platform | Branded booking pages, deposit flows, and client history tools improve both client experience and retention. |

@@ -120,7 +120,7 @@ Yes, as long as the client agreed to it by booking through a flow that clearly s
 
 ### Should I charge 50% or 100% for a no-show?
 
-100% is standard and what we recommend. When a client no-shows, the chair sat empty and your loss is the full service. Charging 50% reads like a discount on bad behavior and quietly trains people that missing an appointment is half price.
+100% is what we recommend. When a client no-shows, the chair sat empty and your loss is the full service. Charging 50% reads like a discount on bad behavior and quietly trains people that missing an appointment is half price.
 
 ### Can I exempt regulars from the policy?
 

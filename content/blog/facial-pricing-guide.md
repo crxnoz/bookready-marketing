@@ -55,7 +55,7 @@ The part most menus get wrong is time. Because your cost is dominated by the slo
 
 Here is the uncomfortable truth about a base facial: after product, room, and your hourly target, it often clears very little. The add-ons are where the real money is, which is exactly why they belong on the menu as priced line items and not as generous extras you throw in because the client was nice.
 
-Give away extractions and LED all year and you have effectively cut your own prices by 20 to 30 percent without ever changing the menu. Post them, price them, and let clients choose. Most say yes when the option is presented as part of the plan for their skin.
+Give away extractions and LED all year and you have effectively cut your own prices without ever changing the menu. Post them, price them, and let clients choose. Most say yes when the option is presented as part of the plan for their skin.
 
 ## Series and memberships: pricing repeat skin work.
 

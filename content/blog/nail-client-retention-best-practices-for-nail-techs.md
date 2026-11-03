@@ -52,7 +52,7 @@ The friction points that cause clients to drift away include:
 - No confirmation message or reminder before the appointment
 - No rebooking prompt at checkout or in a follow-up message
 
-Fixing each of these removes a reason for a client to book elsewhere. [Automated rebooking reminders](/blog/rebooking-prompts-and-client-retention-2026-guide) and personalized follow-up messages after appointments improve rebooking rates substantially, according to industry data. The reminder does the asking so you do not have to.
+Fixing each of these removes a reason for a client to book elsewhere. [Automated rebooking reminders](/blog/rebooking-prompts-and-client-retention-2026-guide) and personalized follow-up messages after appointments help more clients rebook. The reminder does the asking so you do not have to.
 
 A [Google Business Profile](https://adviita.com/guides/get-nail-salon-clients) with a clear booking link, accurate hours, and updated service prices also serves retention. Instagram drives discovery. Google drives return visits. Both need to point to the same frictionless booking page.
 

@@ -22,7 +22,7 @@ At the end, we show what BKRDY sends on its own and what stays with you.
 
 ## Reminders are your cheapest no-show insurance.
 
-The numbers are clear. A single reminder helps a little. A two-touch sequence cuts no-shows by roughly 20 percent. A three-touch sequence that asks the client to confirm cuts them 40 to 60 percent. The act of typing back yes creates a small commitment that makes the appointment real.
+A single reminder helps a little. A two-touch sequence catches more of the people who forget. A three-touch sequence that asks the client to confirm catches more still. The act of typing back yes creates a small commitment that makes the appointment real.
 
 Reminders are not nagging. They are respect for both calendars, yours and your client's. A warm, well-timed message tells a client you are expecting them and makes it easy to speak up if plans changed. In BKRDY, the confirmation and one reminder run from your [notification settings](/platform/tools/notifications/) without you.
 
@@ -114,7 +114,7 @@ Name the client and the stylist, the date and time, and make it one tap to confi
 
 ### Do reminder messages actually reduce no-shows?
 
-Yes. A two-touch sequence cuts no-shows by roughly 20 percent, and a three-touch sequence that asks the client to confirm cuts them 40 to 60 percent.
+Yes. A two-touch sequence catches more of the people who forget than one reminder does, and a three-touch sequence that asks the client to confirm catches more still.
 
 ### Can I personalize reminders for each client?
 

@@ -114,7 +114,7 @@ Every template above uses the same five fields. Fill them properly and a templat
 
 **[Salon name].** Mostly for email, where it grounds the message.
 
-The gap between a 2 percent and a 15 percent response rate is often nothing more than the name and the service. The catch is that filling five fields by hand for every client is exactly the chore that makes you stop sending. When BKRDY sends the request, it pulls the first name, the service, and the studio name straight from the appointment and the [client record](/platform/tools/customers/), so personalization costs you nothing. See [how the reviews tool](/platform/tools/reviews/) handles it.
+A request that carries the client's name and the service usually gets a better response than a generic one. The catch is that filling five fields by hand for every client is exactly the chore that makes you stop sending. When BKRDY sends the request, it pulls the first name, the service, and the studio name straight from the appointment and the [client record](/platform/tools/customers/), so personalization costs you nothing. See [how the reviews tool](/platform/tools/reviews/) handles it.
 
 ## Stop copy-pasting: automate the email ask.
 

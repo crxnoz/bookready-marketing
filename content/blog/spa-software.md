@@ -44,7 +44,7 @@ The functional case for a tailored booking website goes beyond aesthetics. When 
 
 Key benefits of a custom spa booking website:
 
-- **24/7 self-serve scheduling** that captures appointments even when you are mid-service. Online booking systems can capture up to 40% of appointments after business hours.
+- **24/7 self-serve scheduling** that captures appointments even when you are mid-service. Online booking systems capture appointments after business hours, when no one is there to answer the phone.
 - **Automated SMS and email reminders** sent immediately upon booking, reducing no-shows without any manual follow-up
 - **Deposit collection at booking** to protect your time and filter out low-commitment clients
 - **Smart waitlists** that fill last-minute cancellations automatically

@@ -111,7 +111,7 @@ BKRDY processes deposits through Stripe at the moment of booking, which means cl
 
 ### What is the standard deposit amount for beauty studios?
 
-Most beauty studios charge a flat fee between $20 and $50 or a percentage of 25%-50% of the total service price. The right amount depends on service length and the cost of materials involved.
+A flat fee between $20 and $50, or a percentage of 25%-50% of the total service price, is a common range. The right amount depends on service length and the cost of materials involved.
 
 ### Are beauty studio deposits refundable?
 

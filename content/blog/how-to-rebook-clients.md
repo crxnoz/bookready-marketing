@@ -16,7 +16,7 @@ migrated: true
 
 Most beauty businesses do not lose money to bad work. They lose it to open-ended goodbyes. The single highest-leverage move in a service business is booking the client's next appointment before they walk out the door, because the moment they leave with no future slot, you stop competing with yourself and start competing with their busy life, their budget, and every other studio's promo in their feed. That is a much harder race to win, and you run it every single time a client leaves without a next date on the calendar.
 
-The numbers are not subtle. Studios that rebook at checkout routinely see return rates 20 to 40 points higher than those that let clients rebook later on their own. For a [lash artist](/for-lash-artists/), a stylist, or a studio owner, that gap is the difference between a chair that stays full and one you are constantly refilling. The BKRDY position is simple: rebooking should be a habit, not a hope. The mechanics, the calendar, the next slot held before they leave, the reminder before each visit, should make it effortless so you do not have to rely on willpower at 6pm on a Friday.
+The case is simple. Studios that rebook at checkout see more clients come back than those that let clients rebook later on their own. For a [lash artist](/for-lash-artists/), a stylist, or a studio owner, that gap is the difference between a chair that stays full and one you are constantly refilling. The BKRDY position is simple: rebooking should be a habit, not a hope. The mechanics, the calendar, the next slot held before they leave, the reminder before each visit, should make it effortless so you do not have to rely on willpower at 6pm on a Friday.
 
 Some pros feel a knot in their stomach asking. It can feel pushy. So reframe it: you are not selling anything, you are doing a service for the client who actually wants their spot held. This guide covers why the chair is the moment, the exact scripts, standing slots for fixed-schedule clients, the right rebook interval per service, how to follow up with the ones who leave open, and how to measure your rebooking rate so you can lift it.
 
@@ -24,7 +24,7 @@ Some pros feel a knot in their stomach asking. It can feel pushy. So reframe it:
 
 Timing is everything, and there is exactly one window where rebooking is easy. It is the moment right after the service, when the client is looking at the result, feeling great about it, and trusting you more than they will at any other point. Commitment is cheap in that window. They can see the value in the mirror, so agreeing to come back for more of it barely registers as a decision.
 
-The instant they walk out, friction takes over. They get busy. The calendar fades. The next time they think about you may be when the lashes have already thinned or the color has already grown out, which is to say, too late to protect the look and often too late to get their preferred slot. On-the-spot rebooking lifts return rates 20 to 40 points versus an open-ended goodbye, and that gap is almost entirely about timing, not persuasion.
+The instant they walk out, friction takes over. They get busy. The calendar fades. The next time they think about you may be when the lashes have already thinned or the color has already grown out, which is to say, too late to protect the look and often too late to get their preferred slot. On-the-spot rebooking brings more clients back than an open-ended goodbye, and that gap is almost entirely about timing, not persuasion.
 
 A polished checkout is part of the experience, not a hard sell. Ringing them up, thanking them, and offering the next slot in one smooth motion feels like good service, because it is. Make it a fixed part of how every appointment ends, and lean on a [calendar](/platform/booking/calendar/) that shows your open time at a glance so you are never fumbling for a date while the client waits.
 
@@ -94,7 +94,7 @@ Here is a confidence script for the nervous moment: "I would love to keep you lo
 
 You cannot improve what you do not measure, and rebooking rate is one of the most telling numbers in the business. It is the share of completed appointments that leave with a next appointment already booked. Track it and you know instantly whether the checkout habit is actually happening or whether it is quietly slipping.
 
-Read it against these benchmarks. Under 30 percent means you are mostly not asking, and fixing that is the fastest revenue you will find all year. Between 50 and 70 percent is strong. Above 70 percent is elite for a busy studio and usually means the rebook-at-checkout habit is fully baked into how every appointment ends. Count it monthly on a simple sheet, since BKRDY does not report it, and you will see it move as the team adopts the habit.
+Read it against yourself, not against a benchmark. If it is low, you are mostly not asking, and fixing that is a fast way to add revenue. If it is rising, the rebook-at-checkout habit is taking hold. Count it monthly on a simple sheet, since BKRDY does not report it, and you will see it move as the team adopts the habit.
 
 The revenue math is why this matters. A 10-point lift in rebooking compounds fast, because every retained client books again and again across the year, not just once. That is a far cheaper path to growth than chasing new clients through ads. If you want the full picture of how rebooking fits into keeping a chair full, read our guide on [client retention strategies](/guides/client-retention-strategies/), and when you are ready to put the system in place, compare plans on [pricing](/pricing/).
 
@@ -114,7 +114,7 @@ Match the interval to the service: lash fills every 2 to 3 weeks, root color eve
 
 ### What is a good rebooking rate?
 
-Under 30 percent means you are rarely asking, 50 to 70 percent is strong, and above 70 percent is elite for a busy studio. Track the share of completed visits that leave with a next appointment already booked.
+There is no number to chase. If few of your clients leave with a next appointment booked, you are rarely asking, and that is the first thing to fix. Track the share of completed visits that leave with a next appointment already booked.
 
 ### How do recurring appointments help with rebooking?
 

@@ -14,7 +14,7 @@ status: published
 migrated: true
 ---
 
-You can pour real money into ads and hours into Instagram and still watch clients drift away after one or two visits. It is a quiet leak, and it is the most expensive one in the business. Here is the truth most owners never sit with: acquiring a new client costs roughly 5 to 7 times what it costs to keep one you already have, and a returning client books more often, spends more on add-ons, and refers more friends. The person in your chair today is worth far more than the stranger you are paying to reach.
+You can pour real money into ads and hours into Instagram and still watch clients drift away after one or two visits. It is a quiet leak, and it is the most expensive one in the business. Here is the truth most owners never sit with: acquiring a new client costs more than keeping one you already have, and a returning client books more often, spends more on add-ons, and refers more friends. The person in your chair today is worth far more than the stranger you are paying to reach.
 
 The BKRDY position is simple. Retention is not a vibe or a personality trait. It is a system you run every week, built on three pillars: rebook the client before they leave, touch them on a cadence so they never go cold, and track the repeat-visit rate so you actually know what is working. If you run a [hair salon](/for-salons/) or studio, this is the highest-return work you can do this quarter.
 
@@ -22,7 +22,7 @@ There is an honest tension here. Personal touches feel impossible to scale when 
 
 ## Why retention beats acquisition (the real numbers).
 
-Start with the money, because the money is not close. A new client costs 5 to 7 times more to acquire than an existing one costs to keep. Depending on the study, lifting retention by just 5 percent can raise profit anywhere from 25 to 95 percent, because the gains compound across every future visit.
+Start with the money. A new client costs more to acquire than an existing one costs to keep, and every client who keeps coming back pays off again across every future visit.
 
 Work a plain example. A client who books a $60 service eight times a year is worth $480 in that year alone. Compare that to a single $60 first visit you paid $40 in ad spend to win. One is a relationship. The other is a transaction you barely broke even on. And the returning client does not just come back: they say yes to add-ons more readily, they trust your upsell, and they send you friends who cost you nothing to acquire.
 
@@ -56,7 +56,7 @@ The one rule: match the interval to the service, not to a generic monthly blast.
 
 Here is the one number most owners never look at: repeat-visit rate. It is the share of clients who book a second appointment within a defined window, say six to eight weeks. It is the closest thing you have to a health reading for the whole business, because it measures whether the people you already served are choosing to come back.
 
-Read it like this. Under 30 percent means a leaky funnel, and you should fix retention before spending another dollar on ads. Between 40 and 50 percent is healthy for most studios. Above 60 percent is excellent and usually means your rebook-at-checkout habit is working. Contrast that with a vanity metric like follower count, which can look great while the chair sits empty.
+Read it against yourself, not against a benchmark. Work it out this month, then again next month. If it is falling, fix retention before spending another dollar on ads. If it is rising, your rebook-at-checkout habit is probably working. Contrast that with a vanity metric like follower count, which can look great while the chair sits empty.
 
 Your BKRDY client book sorts everyone into [new, returning and regulars](/platform/tools/customers/) and shows a quick retention read beside them, with visits per returning client and spend per client. It does not calculate the six-to-eight-week rate itself, so that number takes a simple monthly sheet. What you measure, you improve. Watch this number monthly and let it point you at the leak.
 
@@ -88,11 +88,11 @@ Not all of this runs on its own, and that is the honest part of treating retenti
 
 ### What is a good client retention rate for a salon?
 
-A repeat-visit rate of 40 to 50 percent within 6 to 8 weeks is healthy for most studios, above 60 percent is excellent, and under 30 percent signals a leaky funnel worth fixing before you spend another dollar on ads.
+There is no number to chase. Work out your own repeat-visit rate, the share of clients who book a second appointment within six to eight weeks, and watch whether it rises or falls from month to month. A falling rate signals a leak worth fixing before you spend another dollar on ads.
 
 ### Why is retaining a client cheaper than getting a new one?
 
-Acquiring a new client costs roughly 5 to 7 times more than keeping one you already have. On top of that, returning clients book more often, spend more on add-ons, and refer friends, so the same person is worth far more in year two than in visit one.
+Acquiring a new client costs more than keeping one you already have. On top of that, returning clients book more often, spend more on add-ons, and refer friends, so the same person is worth far more in year two than in visit one.
 
 ### What is the single most effective retention tactic?
 

@@ -81,7 +81,7 @@ Send me a day that works and I will send you my booking link.
 
 ## Fills pay the bills, full sets build the book
 
-Your first weeks are slow, and nothing is wrong. A full set takes you roughly twice as long as it will once you have speed, so a day that should hold three sets holds one and a half. That is temporary, and it is why you price off where you are heading, not off your first month.
+Your first weeks are slow, and nothing is wrong. A full set takes you longer than it will once you have speed, so a day that should hold three sets holds fewer. That is temporary, and it is why you price off where you are heading, not off your first month.
 
 Full sets bring new people in and fill your portfolio. Fills are shorter, repeat on a rhythm, and pay the rent, so a full set is only worth what it looks like if the client comes back. [Lash scheduling practices](/blog/lash-artist-scheduling-best-practices/) covers the day around that.
 

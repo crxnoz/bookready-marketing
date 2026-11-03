@@ -80,7 +80,7 @@ Appointment frequency is the foundation of a productive client-studio relationsh
 
 Transparency in scheduling communication works both ways. Studios that explain their frequency recommendations build trust faster than those that simply hand over a booking link. Clients who understand the reasoning behind their schedule feel like partners in their own care rather than passive recipients of a service.
 
-About 39% of missed appointments result from forgetfulness, which increases when sessions lack regularity. A predictable schedule, paired with [automated reminders](/blog/automate-client-appointment-reminders-a-beauty-pro-guide), cuts that number significantly. Regularity itself becomes a reminder. When you know you always go in on the second Tuesday of the month, you stop forgetting.
+Forgetfulness is a common reason for missed appointments, and it grows when sessions lack regularity. A predictable schedule, paired with [automated reminders](/blog/automate-client-appointment-reminders-a-beauty-pro-guide), cuts down on it. Regularity itself becomes a reminder. When you know you always go in on the second Tuesday of the month, you stop forgetting.
 
 | Client behavior | Consistent frequency | Irregular frequency |
 |---|---|---|
@@ -138,7 +138,7 @@ Recurring scheduling removes repeated rebooking conversations and secures your p
 
 ### What happens if I skip appointments regularly?
 
-Irregular frequency breaks the cumulative effect of beauty treatments and often requires corrective sessions that take longer and cost more. Forgetfulness accounts for about 39% of missed appointments, so a predictable schedule paired with reminders is the most effective solution.
+Irregular frequency breaks the cumulative effect of beauty treatments and often requires corrective sessions that take longer and cost more. Forgetfulness is a common reason for missed appointments, so a predictable schedule paired with reminders is an effective solution.
 
 ### Can my appointment frequency change over time?
 

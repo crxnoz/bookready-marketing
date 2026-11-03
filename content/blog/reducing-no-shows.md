@@ -4,7 +4,7 @@ section: guides
 slug: reducing-no-shows
 title: How to reduce no-shows in your salon. Deposits, reminders, and policies that actually hold.
 metaTitle: How to Reduce No-Shows in Your Salon | BKRDY
-description: How to bring your no-show rate down in 30 days: deposits, reminders, cancellation rules, and the policies that actually hold. From BKRDY.
+description: A plan to bring your no-show rate down: deposits, reminders, cancellation rules, and the policies that actually hold, with a 30-day check. From BKRDY.
 date: 2026-06-19
 pillar: money
 keywords: reducing no shows, how to stop no shows
@@ -24,7 +24,7 @@ We will walk through seven moves in order: measure your current rate, require de
 
 You cannot fix what you do not measure, and most owners are guessing. The formula is simple: divide your no-shows by your total bookings, then multiply by 100. Twelve no-shows out of 80 booked appointments is a 15 percent rate. Track it weekly, not yearly, so you can see a policy change working in real time instead of waiting for a vague feeling that things got better.
 
-For context on where you sit, realistic baselines run about 8 to 15 percent for booked salons, 15 to 25 percent for solo barbers in cold markets, and 20 to 30 percent for lash studios carrying a heavy new-client mix. If you are above those numbers, the system below will move you fast. If you are below 5 percent already, you are doing something right and the goal is to hold it.
+There is no reliable industry number to compare yourself to, because rates differ by trade and by how many of your bookings are new clients. Measure your own, and judge each change below by whether it moves.
 
 Pull the number from your platform if it tracks it, or keep a simple weekly tally in a spreadsheet, which is how to do it on BKRDY, since its [analytics](/platform/tools/analytics/) cover revenue rather than a no-show rate. Either works. What matters is that you write it down before you change anything, because that baseline is the only way to know whether deposits and reminders are actually paying off 30 days from now.
 
@@ -40,7 +40,7 @@ You do not have to deposit everyone. Exempt your reliable regulars: clients who 
 
 Deposits change the stakes. Reminders change the odds. A single reminder helps a little. A structured sequence is what moves the needle. The cadence that works: a confirmation the moment they book, an SMS reminder 48 hours out, and a day-of text about 4 hours before the appointment with your address attached.
 
-The numbers back this up. A two-touch reminder setup tends to cut no-shows by around 20 percent. A three-touch sequence pushes that to 40 to 60 percent, because each touch catches a different kind of forgetting: the booking made three weeks ago, the busy week that buried it, and the morning-of scramble where they lost the address. You are not nagging. You are removing every excuse a well-meaning client has to miss.
+Each touch catches a different kind of forgetting: the booking made three weeks ago, the busy week that buried it, and the morning-of scramble where they lost the address. Two touches catch some of them and three catch more. You are not nagging. You are removing every excuse a well-meaning client has to miss.
 
 Tone matters more than frequency. Keep each message warm, brief, and easy to reply to. The 48-hour text should read like a person, not a system: "Hi Mara, still good for your color appointment Thursday at 2? Reply YES to confirm." In BKRDY, the confirmation goes by email and one [reminder](/platform/tools/notifications/) goes out at the time you set, from 1 hour to 30 days before, by email and on paid plans by text, so you never send that one by hand. Any extra touch, like the morning-of text, comes from your own phone.
 
@@ -94,7 +94,7 @@ A small share of new clients will drop off at the deposit screen. The math still
 
 ### What is a "normal" no-show rate for salons?
 
-Roughly 8 to 15 percent for booked salons, 15 to 25 percent for solo barbers in cold markets, and 20 to 30 percent for lash studios with a high new-client mix. Anything under 5 percent is excellent, and it is a realistic target with deposits and reminders in place.
+It varies too much to give one number: it depends on your trade and on how many of your bookings are new clients. Count your own for a month, then judge each change you make by whether it brings that number down.
 
 ### Should I charge a no-show fee even for first-time offenders?
 

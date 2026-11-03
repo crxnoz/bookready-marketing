@@ -22,7 +22,7 @@ This guide goes in order on purpose. Systems, then pricing, then retention, then
 
 ## Why systems beat strategy at every stage.
 
-Here is a claim we will stand behind. A salon owner with a 95% confirmed booking rate, a 5% no-show rate, and a 70% rebook rate will out-grow an owner with twice the marketing budget and none of those numbers. Every time. Systems compound. Marketing does not, at least not until the systems underneath it are solid.
+Here is a claim we will stand behind. A salon owner with a high confirmed booking rate, a low no-show rate, and a strong rebook rate will usually out-grow an owner with twice the marketing budget and none of those numbers. Systems compound. Marketing does not, at least not until the systems underneath it are solid.
 
 Think of it as a bucket. Marketing is the water you pour in. Your systems are the bucket. If the bucket is full of holes (no-shows, clients who never rebook, calendar chaos, pricing that leaves money on the table), pouring in more water just means more waste. You feel busy, you feel broke, and you cannot figure out why the harder you work the less you keep. The fix is almost never more water. It is patching the bucket.
 
@@ -38,7 +38,7 @@ The reminders and confirmations alone are worth the switch. Automated [notificat
 
 ## Pricing the salon (and raising prices without losing clients).
 
-Most salons underprice by 15 to 30 percent. Not because owners are bad at math, but because raising prices feels scary and staying still feels safe. Staying still is not safe. It is a slow pay cut every year that inflation and rising product costs quietly hand you. Pricing is a system, and like any system it needs a schedule and a set of rules so you are not making an emotional decision every time.
+Many salons underprice. Not because owners are bad at math, but because raising prices feels scary and staying still feels safe. Staying still is not safe. It is a slow pay cut every year that inflation and rising product costs quietly hand you. Pricing is a system, and like any system it needs a schedule and a set of rules so you are not making an emotional decision every time.
 
 Four rules keep it clean. First, audit your pricing against your local market every 12 months. Know what comparable salons charge, then decide where you want to sit relative to them. Second, raise in 8 to 12 percent increments, never a 20 percent jump. Small, regular increases feel routine. Big, sudden ones feel like a betrayal and send clients shopping. Third, raise on new clients first. New clients have no anchor price, so they simply accept the new rate as your rate. Fourth, when you raise on existing clients, give them 60 days of notice. Respect buys loyalty.
 
@@ -46,7 +46,7 @@ One more move that quietly grows revenue: tier your services by skill level. A j
 
 ## Retention math: keep more clients before chasing new ones.
 
-Here is the hard truth almost nobody wants to sit with. Acquiring a new salon client costs somewhere between $30 and $80 in marketing once you count ads, time, and discounts. Keeping an existing client costs roughly nothing. And yet most salons pour their energy into acquisition while quietly losing about 30 percent of their clients every 12 months. You are filling a leaky bucket at $50 a pour while the water runs out the bottom for free.
+Here is the hard truth almost nobody wants to sit with. Acquiring a new salon client costs real money once you count ads, time, and discounts. Keeping an existing client costs far less. And yet many salons pour their energy into acquisition while quietly losing clients every year. You are filling a leaky bucket while the water runs out the bottom for free.
 
 Fix the leak first. There are three retention levers, and none of them cost much. The first is rebooking at checkout. Before a client leaves the chair, they book their next visit. This is the single highest-return habit in the entire salon industry, and most salons simply forget to ask. The second is an automated re-engagement message at the four-week mark for anyone who did not rebook, a gentle nudge while you are still fresh in their mind. The third is a personal text from the stylist at eight weeks if the client still has not returned. Personal beats automated at the point where a relationship is genuinely at risk.
 
@@ -100,7 +100,7 @@ Booth rental is lower risk and easier to start: the renter carries their own cos
 
 ### What is a healthy retention rate for a hair salon?
 
-Annual client retention of 70 to 80 percent is solid. Above 85 percent is exceptional and usually means your rebooking system is working. Below 60 percent means you have a leak somewhere, and fixing it will do more for growth than any new marketing campaign.
+There is no number to chase. Work out your own annual retention, the share of last year's clients who came back this year, and watch whether it rises or falls. A falling rate means you have a leak somewhere, and fixing it will do more for growth than any new marketing campaign.
 
 ### How long until a second location is profitable?
 

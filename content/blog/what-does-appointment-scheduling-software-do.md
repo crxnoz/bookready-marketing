@@ -44,7 +44,7 @@ Most scheduling software connects to external calendars, at one of two depths. A
 
 ### Automated notifications
 
-The software sends booking confirmations, reminders, and follow-up messages automatically via SMS or email. This is one of the most measurable benefits of scheduling software: [automated reminders reduce no-show rates](https://pmc.ncbi.nlm.nih.gov/articles/PMC3188816/) by up to 30-50%, which translates directly to fewer empty slots and more predictable revenue.
+The software sends booking confirmations, reminders, and follow-up messages automatically via SMS or email. This is one of the most measurable benefits of scheduling software. A [systematic review of 29 studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC3188816/) of phone and text reminders for hospital appointments found they cut missed appointments by about a third on average. A clinic is not a salon, but fewer missed appointments mean fewer empty slots and more predictable revenue.
 
 ### Payment processing and deposits
 
@@ -83,13 +83,13 @@ The business case for scheduling software is clearest when you look at what it r
 ### What it does for your business
 
 - **24/7 booking availability.** Clients book while you sleep. [Self-service scheduling](https://engageware.com/blog/appointment-scheduling-software/) removes the dependency on business hours entirely.
-- **Fewer no-shows.** Automated reminders reduce no-show rates by up to 30-50%, as research in healthcare and service industries has shown.
+- **Fewer no-shows.** Automated reminders reduce no-show rates, as research in healthcare has shown.
 - **Better resource use.** When your calendar fills predictably and gaps are minimized, staff hours align with actual demand rather than guesswork.
 - **Revenue at booking.** Deposit collection at the time of booking reduces last-minute cancellations and protects your revenue on high-demand slots.
 - **Labor cost alignment.** [Effective scheduling tools](https://www.marketman.com/blog/restaurant-employee-scheduling-software-how-it-impacts-costs) match staffing levels to real demand, preventing overstaffing during slow periods and understaffing during busy ones.
 - **Compliance tracking.** In regulated industries, scheduling software can [automatically enforce labor rules](https://tcpsoftware.com/articles/labor-law-compliance-and-employee-scheduling/) like rest breaks and overtime limits, reducing the risk of violations that are nearly impossible to track manually across multiple locations.
 
-> **Up to 30-50% fewer no-shows.** Automated SMS and email reminders are the single most documented benefit of scheduling software, with research from the National Institutes of Health and industry studies confirming significant reductions in missed appointments.
+> **Fewer no-shows.** Reminders are one of the best documented benefits of scheduling software. A systematic review of phone and text reminders for hospital appointments found missed appointments fell by about a third on average.
 
 ### Common challenges the software addresses
 
@@ -196,7 +196,7 @@ Appointment scheduling software replaces manual booking processes with automated
 | Point | Details |
 |---|---|
 | Core function | Scheduling software automates booking, reminders, and calendar management so businesses stop managing appointments manually. |
-| No-show reduction | Automated reminders can reduce no-show rates by up to 30-50%, protecting revenue and keeping your calendar full. |
+| No-show reduction | Automated reminders can reduce no-show rates, protecting revenue and keeping your calendar full. |
 | Choosing the right tool | Match the platform to your appointment type, staff size, payment needs, and client experience expectations before committing. |
 | Integration matters | A calendar connection, client records, and payment processing are the integrations that create real operational value. |
 | BKRDY for beauty pros | BKRDY offers boutique-designed booking websites built specifically for beauty studios, with built-in deposits, reminders, and client history tracking. |

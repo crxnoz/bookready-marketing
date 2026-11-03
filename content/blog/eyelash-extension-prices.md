@@ -54,7 +54,7 @@ Natural lashes shed on their own cycle. Every day you lose a few, and the extens
 
 A fill tops the set back up. The artist removes any grown-out or twisted extensions and adds new ones to the natural lashes that have come in. Because most of the set is still there, a fill takes less time than a full set, often 45 minutes to 90 minutes instead of two hours plus. Less chair time means a lower price, which is why a fill runs about half of the full set.
 
-Timing matters. Most people book a fill every 2 to 3 weeks. Wait much longer and too few extensions remain for a fill to make sense. Many studios set a cutoff, often around 40 to 50 percent retention, below which they charge for a new full set instead. That is not a money grab. A near-empty set takes nearly as long to rebuild as a fresh one. Booking on a steady cycle keeps your lashes looking full and keeps your spend predictable. If you want lashes for a one-time event, ask about a strip or a single set with no fill plan.
+Timing matters. Most people book a fill every 2 to 3 weeks. Wait much longer and too few extensions remain for a fill to make sense. Many studios set a cutoff on how many extensions must remain, below which they charge for a new full set instead. That is not a money grab. A near-empty set takes nearly as long to rebuild as a fresh one. Booking on a steady cycle keeps your lashes looking full and keeps your spend predictable. If you want lashes for a one-time event, ask about a strip or a single set with no fill plan.
 
 ## How lash artists actually set prices.
 

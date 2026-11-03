@@ -14,7 +14,7 @@ status: published
 migrated: true
 ---
 
-You already know reviews matter. What nobody tells you is that a chair full of loyal regulars can still show a thin, stale review profile, because only about 5 to 10 percent of happy clients ever leave one on their own. They love you. They just never think to say so in public. Meanwhile the one client who had an off day is far more motivated to post. So the picture Google shows a stranger can look nothing like the room you actually run.
+You already know reviews matter. What nobody tells you is that a chair full of loyal regulars can still show a thin, stale review profile, because only a small share of happy clients ever leave one on their own. They love you. They just never think to say so in public. Meanwhile the one client who had an off day is far more motivated to post. So the picture Google shows a stranger can look nothing like the room you actually run.
 
 Here is the BKRDY position: reviews are not luck, they are a system. The salons winning on Google are not better at color or cutting than you are. They ask at the right moment, and they automate the follow-through so it happens every single time without anyone remembering. That is the whole game, and it is completely learnable.
 
@@ -22,7 +22,7 @@ This guide walks through the exact moment to ask (right after a great service, a
 
 ## Why your happiest clients never leave a review.
 
-Start with the number that explains everything: roughly 5 to 10 percent of satisfied clients leave a review without being asked. Unhappy clients, by contrast, are far more motivated to sit down and type. That imbalance means an unprompted review profile skews negative and thin, relative to how good your work actually is. The math is quietly working against you.
+Start with the imbalance that explains everything: only a small share of satisfied clients leave a review without being asked. Unhappy clients, by contrast, are far more motivated to sit down and type. That imbalance means an unprompted review profile skews negative and thin, relative to how good your work actually is. The balance is quietly working against you.
 
 This is the silent-majority problem. Your regulars adore you. They rebook, they refer their friends, they tip well. But leaving a public review is not something that occurs to a happy person mid-life. They walk out feeling great and the thought never crosses their mind. There is no signal, so there is no post.
 
@@ -90,9 +90,9 @@ This is also where the tooling starts to matter as you grow. Automatic review re
 
 Ask at the moment they are happiest, right after the service at checkout, and make it one tap on their phone. An automated request sent after every completed visit beats relying on your memory, because on a busy day you will forget to ask nine clients out of ten.
 
-### What percentage of happy clients leave a review on their own?
+### Do happy clients leave a review on their own?
 
-Only about 5 to 10 percent leave one unprompted. A direct, well-timed ask lifts that several times over, which is exactly why automating the request after every visit matters so much.
+Rarely. Only a small share leave one unprompted. A direct, well-timed ask gets far more of them to do it, which is exactly why automating the request after every visit matters so much.
 
 ### Should I ask for Google reviews or reviews on my own site?
 

@@ -46,17 +46,17 @@ Client engagement through bookings is not just about filling slots. It is about 
 
 ## Why does mobile optimization matter for booking pages in 2026?
 
-Mobile is where your clients are booking. [Over 60% of appointment bookings](https://trustmedia.io/mobile-ux-secrets-that-turn-website-visitors-into-booked-appointments/) start on mobile devices, and abandonment rises sharply when booking flows take longer than three seconds or require more than three steps. That single fact should reshape how you think about your booking page design.
+Mobile is where your clients are booking. Many appointment bookings start on mobile devices, and clients give up when a booking flow is slow or takes too many steps. That should reshape how you think about your booking page design.
 
 A mobile-friendly booking page is not simply a desktop page that shrinks to fit a phone screen. It is a purpose-built experience that accounts for thumb navigation, small text input, and interrupted browsing sessions. Here is what mobile optimization looks like in practice:
 
 1. **Fast load times.** Pages that load in under three seconds retain significantly more visitors than slower pages. Compress images and avoid heavy scripts on your booking page.
 2. **Simplified forms.** Reduce every form field to the minimum needed to confirm the appointment. Collect richer preference data after the booking is confirmed.
-3. **One-tap payment options.** [Integrating Apple Pay and Google Pay](https://thebooking.us/optimizing-mobile-booking-pages-2026) within booking flows can increase conversion rates by up to 35% by removing manual card entry on small screens.
+3. **One-tap payment options.** Apple Pay and Google Pay within the booking flow remove manual card entry on small screens, which makes paying easier.
 4. **Sticky call-to-action buttons.** Persistent CTA placement keeps the “Book Now” button visible as clients scroll, reducing the chance they lose their place and abandon the page.
 5. **Progressive form saving.** If a client gets interrupted mid-booking, saving their progress means they can return and complete it without starting over.
 
-> **Stat to know:** Mobile bookings account for 60-75% of all online bookings as of 2026. If your booking page is not built for mobile first, you are losing the majority of your potential appointments.
+> **Worth knowing:** Many of your clients will open your booking page on a phone. If it is not built for mobile first, you are losing appointments.
 
 **Pro Tip:** *Test your booking page on three different phone models every quarter. What looks fine on your own phone may break on an older Android device your clients are using.*
 
@@ -104,7 +104,7 @@ A well-designed client-facing booking page is the single most direct tool a beau
 | Point | Details |
 |---|---|
 | Booking pages are sales tools | They exist to remove friction and convert high-intent visitors, not to re-explain your services. |
-| Mobile-first design is non-negotiable | Over 60% of bookings start on mobile; slow or complex pages lose the majority of potential clients. |
+| Mobile-first design is non-negotiable | Many bookings start on mobile; slow or complex pages lose clients. |
 | Brand consistency builds trust | Matching your booking page to your website and social presence reduces abandonment and builds client confidence. |
 | Integrations multiply effectiveness | Automated reminders, CRM profiles, and self-serve rescheduling turn a booking page into a full client management system. |
 | Simplicity drives conversions | Fewer form fields, plain language, and a visible call to action consistently outperform complex, feature-heavy pages. |
@@ -135,7 +135,7 @@ A client-facing booking page is the web page where clients directly schedule the
 
 ### Why does mobile optimization matter for beauty booking pages?
 
-Over 60% of appointment bookings start on mobile devices, and abandonment rises sharply when booking flows take longer than three seconds or require more than three steps. A mobile-optimized page loads fast, uses simple forms, and offers one-tap payment options.
+Many appointment bookings start on mobile devices, and clients give up when a booking flow is slow or takes too many steps. A mobile-optimized page loads fast, uses simple forms, and offers one-tap payment options.
 
 ### How do automated reminders reduce no-shows?
 

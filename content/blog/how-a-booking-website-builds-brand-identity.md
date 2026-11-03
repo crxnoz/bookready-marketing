@@ -16,7 +16,7 @@ migrated: true
 
 Discover how a booking website builds brand identity to enhance client trust and boost revenue. Learn the key strategies for success.
 
-A booking website builds brand identity by consistently applying your studio’s visual style, tone, and personality across every client interaction point, from the first page view to the confirmation email. Brand identity, in the industry sense, is the cohesive system of visual and verbal signals that tells clients who you are before you say a word. For beauty professionals, that system lives or dies at the booking stage. [Consistent brand presentation](https://gethostai.com/blog/brand-guidelines-airbnb) across channels can increase revenue by up to 33%. That number reflects something real: when clients feel confident in your brand, they book without hesitation.
+A booking website builds brand identity by consistently applying your studio’s visual style, tone, and personality across every client interaction point, from the first page view to the confirmation email. Brand identity, in the industry sense, is the cohesive system of visual and verbal signals that tells clients who you are before you say a word. For beauty professionals, that system lives or dies at the booking stage. Consistency across channels matters because when clients feel confident in your brand, they book without hesitation.
 
 ## How a booking website builds brand identity through visual design
 
@@ -25,7 +25,7 @@ Visual branding is the deliberate use of logo, color, typography, imagery, and l
 The five core visual elements work together as a system:
 
 - **Logo placement:** Your logo belongs at the top of every booking page, sized consistently and never stretched or recolored. A logo that shifts in size or color between pages signals carelessness.
-- **Color palette:** Pick two to four colors and use them everywhere. Color creates emotional associations. A soft blush and warm cream palette communicates something very different from a bold black and gold one. [Consistent visual branding](https://musemind.agency/blog/art-of-visual-branding) across all touchpoints generates up to 23% more revenue, and color consistency is a primary driver.
+- **Color palette:** Pick two to four colors and use them everywhere. Color creates emotional associations. A soft blush and warm cream palette communicates something very different from a bold black and gold one. Using the same colors at every touchpoint makes your studio easier to recognize.
 - **Typography:** Choose two typefaces maximum, one for headings and one for body text, and apply them without exception. A booking page that mixes three fonts looks like it was assembled by different people on different days.
 - **Imagery:** Studio photography carries the page. Candid shots of your workspace, your tools, and your finished work tell a story that stock photos never can. Imagery style should match the mood of your brand, not just fill space.
 - **Layout and whitespace:** [Design rhythm](https://www.brandvm.com/post/from-click-to-stay-comparing-the-design-dna-of-booking-and-airbnb) keeps clients focused on the experience rather than the transaction. Generous whitespace, consistent spacing, and a calm visual flow reduce friction and build confidence.
@@ -55,7 +55,7 @@ The pitfall most studios fall into is letting their booking platform write the c
 
 The booking engine is the highest-stakes brand touchpoint in your entire digital presence. It is the moment a client moves from browsing to committing. [Brand inconsistency at the booking stage](https://www.reservationstrategy.com/the-booking-engine-as-brand-touchpoint-why-your-transaction-page-is-the-highest-stakes-design-brief) reduces trust and increases price sensitivity. That means clients who hit a generic booking interface start questioning whether the price is worth it, even if they were ready to book a minute earlier.
 
-The financial case for a branded booking experience is straightforward. Direct bookings through your own website eliminate third-party commission fees. [Commission fees on third-party platforms](https://www.hostaway.com/glossary/direct-booking-website/) range from 3% to 15% per booking. For a studio doing $8,000 a month in services, that is $240 to $1,200 walking out the door every month.
+The financial case for a branded booking experience is straightforward. Direct bookings through your own website eliminate third-party commission fees. A third-party platform takes a cut of each booking. If one took 10%, a studio doing $8,000 a month in services would lose $800 every month.
 
 Here is what branding continuity does at the booking stage:
 
@@ -102,10 +102,10 @@ A booking website builds brand identity by applying consistent visual and verbal
 
 | Point | Details |
 |---|---|
-| Visual consistency drives revenue | Consistent branding across booking touchpoints can increase revenue by up to 33%. |
+| Consistency builds confidence | Consistent branding across booking touchpoints helps clients book without hesitation. |
 | Voice matters as much as visuals | Branded microcopy and confirmation emails reduce client anxiety and build loyalty. |
 | Booking engine is highest-stakes | Brand inconsistency at the payment stage increases price sensitivity and drops conversions. |
-| Direct bookings save real money | Eliminating third-party platforms removes commission fees ranging from 3% to 15% per booking. |
+| Direct bookings save real money | Eliminating third-party platforms removes the commission they take on each booking. |
 | Audits reveal trust leaks | Quarterly booking flow audits catch visual and tonal inconsistencies before they cost you clients. |
 
 ## The booking page is your brand’s most honest moment
@@ -130,7 +130,7 @@ BKRDY builds fully designed booking websites for [lash artists](/for-lash-artist
 
 ### What does visual branding mean for a booking site?
 
-Visual branding on a booking site is the consistent use of your logo, color palette, typography, and imagery across every page of the booking flow. Consistent visual branding across all touchpoints can increase revenue by up to 23%.
+Visual branding on a booking site is the consistent use of your logo, color palette, typography, and imagery across every page of the booking flow. Consistent visual branding across all touchpoints makes your studio easier to recognize and trust.
 
 ### How do booking pages communicate brand style?
 
@@ -146,7 +146,7 @@ Start with a brand kit that documents your logo files, hex color codes, typeface
 
 ### Does a branded booking page actually increase direct bookings?
 
-A branded booking page removes the visual cues that make clients feel they are on a third-party platform, which reduces hesitation and increases direct bookings. Direct bookings also eliminate commission fees ranging from 3% to 15% per transaction.
+A branded booking page removes the visual cues that make clients feel they are on a third-party platform, which reduces hesitation and increases direct bookings. Direct bookings also eliminate the commission a third-party platform takes on each transaction.
 
 ## Recommended
 

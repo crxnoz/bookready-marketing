@@ -14,15 +14,15 @@ status: published
 migrated: true
 ---
 
-Instagram is where most beauty discovery happens. Somewhere between 60 and 80 percent of the people who find a new studio find it while scrolling, tapping through a friend's tagged post, or landing on a reel that got shared. Your bio link is the one place on the whole platform where that discovery turns into a booking. It is the door. And most beauty pros treat the door like an afterthought.
+Instagram is where most beauty discovery happens. A lot of the people who find a new studio find it while scrolling, tapping through a friend's tagged post, or landing on a reel that got shared. Your bio link is the one place on the whole platform where that discovery turns into a booking. It is the door. And most beauty pros treat the door like an afterthought.
 
-There are three common mistakes. Some leave the field blank, which sends every interested new client to a DM you may not answer for hours. Some link to a Linktree, which adds a tap and quietly loses 30 to 40 percent of the people who clicked. And some paste a clumsy Booksy or Vagaro URL that loads slow and looks nothing like their brand. All three cost bookings you already earned with your content.
+There are three common mistakes. Some leave the field blank, which sends every interested new client to a DM you may not answer for hours. Some link to a Linktree, which adds a tap and quietly loses some of the people who clicked. And some paste a clumsy Booksy or Vagaro URL that loads slow and looks nothing like their brand. All three cost bookings you already earned with your content.
 
 The BKRDY position is simple: one tap, one clean link, a page that looks like you. This guide walks through exactly how to set that up, what to write next to the link, how to use Story stickers, and which numbers to watch after. If you run a one-chair operation, the [solo pros page](/for-solo-pros/) shows the same setup end to end.
 
 ## Why your bio link is the single most important link you own.
 
-For most beauty businesses, the Instagram bio link drives 40 to 60 percent of all new bookings. Think about the shape of your funnel. Every post, every story, every reel, every time someone taps your name from a tagged photo, they land on your profile. From the profile, there is exactly one clickable path forward: the link under your bio. That single link carries the weight of all your content.
+For many beauty businesses, the Instagram bio link is where new bookings start. Think about the shape of your funnel. Every post, every story, every reel, every time someone taps your name from a tagged photo, they land on your profile. From the profile, there is exactly one clickable path forward: the link under your bio. That single link carries the weight of all your content.
 
 Now picture what most of those links actually go to. A Linktree with eight buttons of equal size, so the new client has to read a menu and decide. Or a generic platform URL like booksy.com/en-us/12345_your-studio that looks like a spreadsheet row and loads a page branded for someone else. Neither says "this is a real studio worth booking." Both add friction at the exact moment a stranger decided to give you a chance.
 
@@ -30,7 +30,7 @@ The fix is to make the link go straight to a fast, branded booking site on your 
 
 ## Why one direct link beats a Linktree page.
 
-Here is the math that settles it. Every extra tap between the profile and the booking flow loses roughly 30 to 40 percent of the people who started. A Linktree is, by design, an extra tap. The visitor taps your bio link, lands on a menu, reads it, then taps again to reach your booking page. You paid for two taps to get one result, and a third of your interested visitors fell off the ledge in between.
+Here is the logic that settles it. Every extra tap between the profile and the booking flow loses some of the people who started. A Linktree is, by design, an extra tap. The visitor taps your bio link, lands on a menu, reads it, then taps again to reach your booking page. You paid for two taps to get one result, and some of your interested visitors fell off the ledge in between.
 
 If the goal is bookings, one direct link to your booking site beats a menu every time. The visitor lands where the action is, and the action is right there.
 
@@ -88,7 +88,7 @@ Even in those cases, though, you rarely need a third-party redirect. A BKRDY sit
 
 ### Should I use my BKRDY link directly or a Linktree?
 
-Use your BKRDY link directly. A Linktree adds one extra tap between the profile and the booking flow, and every extra tap loses roughly 30 to 40 percent of the people who started. One direct link to a site that already has sections converts higher.
+Use your BKRDY link directly. A Linktree adds one extra tap between the profile and the booking flow, and every extra tap loses some of the people who started. One direct link to a site that already has sections converts higher.
 
 ### Can I use my own domain instead of a bkrdy.me address?
 

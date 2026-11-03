@@ -56,7 +56,7 @@ Lash full sets, usually $150 to $300, carry high cancellation risk because of wh
 
 Fills are different. A fill at $75 to $150 is usually a returning regular on a known rhythm, so the risk is far lower. Charge 20 percent, or drop the deposit entirely for proven regulars after a few clean visits. In BKRDY, where the deposit is one rule for the menu, that means booking them in yourself from your calendar. Reserving the lighter touch for proven regulars rewards loyalty without exposing you on the riskier first appointment.
 
-Lash has one quirk worth naming: the "lash bomb." Clients sometimes book the same slot with several artists at once, then pick whoever fits best and silently drop the rest. Deposits are the cure. A client will not pay three 30 percent deposits to hedge, so the deposit forces the choice up front and the no-shows evaporate. For more on lash-specific booking flow and client management, see our [page for lash artists](/for-lash-artists/).
+Lash has one quirk worth naming: the "lash bomb." Clients sometimes book the same slot with several artists at once, then pick whoever fits best and silently drop the rest. Deposits are the cure. A client will not pay three 30 percent deposits to hedge, so the deposit forces the choice up front and the no-shows drop. For more on lash-specific booking flow and client management, see our [page for lash artists](/for-lash-artists/).
 
 ## Nail services: 20% standard, flat $15 for quick services.
 
@@ -84,9 +84,9 @@ Handle date changes with a clear default: transfer the deposit to the new date i
 
 ## How to test whether your deposit amount is right.
 
-You do not have to guess. A deposit amount is a number you can test like any other pricing decision. Set your deposit, run it for 30 days, and watch three metrics. First, booking conversion: the share of people who start a booking and finish it. It should not drop more than about 10 percent. Second, no-show rate: it should fall by half or more. Third, deposit forfeit rate: the share of bookings where the client loses the deposit, which should stay under 3 percent.
+You do not have to guess. A deposit amount is a number you can test like any other pricing decision. Set your deposit, run it for 30 days, and watch three metrics. First, booking conversion: the share of people who start a booking and finish it. A small dip is normal, a big drop is not. Second, no-show rate: it should fall. Third, deposit forfeit rate: the share of bookings where the client loses the deposit, which should stay low.
 
-Those three numbers tell you everything. If conversion dropped hard, your deposit is too high and you are scaring off real bookings at the door. If your no-show rate barely moved, the deposit is too low to function as a commitment device and you should raise it. If forfeits are climbing past 3 percent, something else is wrong, usually unclear policy communication rather than the amount itself.
+Those three numbers tell you everything. If conversion dropped hard, your deposit is too high and you are scaring off real bookings at the door. If your no-show rate barely moved, the deposit is too low to function as a commitment device and you should raise it. If forfeits keep climbing, something else is wrong, usually unclear policy communication rather than the amount itself.
 
 The point is to let the data correct you rather than defending a number you picked on instinct. Run the test, read the three signals, and adjust once. Your BKRDY calendar and [payments overview](/platform/tools/analytics/) hold the bookings and deposits. BKRDY does not report conversion or no-show rates, so count your weekly bookings and keep a simple tally of no-shows, and the next adjustment is informed instead of a hunch.
 
@@ -108,7 +108,7 @@ Make it refundable inside your cancellation window and non-refundable outside it
 
 ### How much do most salons actually charge?
 
-Most charge 20 to 30 percent across standard services. Bridal and full color correction trend toward 50 percent. Quick barber services trend toward a flat $15 to $25. The 20 to 30 percent band is the safe default if you only pick one number.
+There is no survey behind these numbers, so treat them as starting points rather than averages: 20 to 30 percent across standard services, closer to 50 percent for bridal and full color correction, and a flat $15 to $25 for quick barber services. The 20 to 30 percent band is a safe default if you only pick one number.
 
 ### Can deposits be applied to product purchases?
 

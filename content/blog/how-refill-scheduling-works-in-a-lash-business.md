@@ -16,7 +16,7 @@ migrated: true
 
 Learn how refill scheduling works in a lash business to boost retention. Discover tips for maintaining lash fullness and keeping clients happy.
 
-Refill scheduling in a lash business is the structured practice of booking lash maintenance appointments every 2-3 weeks to sustain lash fullness and protect client retention. The industry term for this process is “retention-based scheduling,” and it governs everything from appointment timing to eligibility criteria. [Clients typically maintain a 60-80% retention rate](https://lashaffair.com) at the two-week mark, which is the ideal window to rebook before natural shedding pushes them below the refill threshold. Waiting past four weeks usually drops retention below 40%, which means a full set rather than a fill. Understanding how refill scheduling works in a lash business is the difference between a calendar that fills itself and one that leaks revenue every week.
+Refill scheduling in a lash business is the structured practice of booking lash maintenance appointments every 2-3 weeks to sustain lash fullness and protect client retention. The industry term for this process is “retention-based scheduling,” and it governs everything from appointment timing to eligibility criteria. The two-week mark is the ideal window to rebook, before natural shedding pushes the set below the refill threshold. Waiting past four weeks usually means a full set rather than a fill. Understanding how refill scheduling works in a lash business is the difference between a calendar that fills itself and one that leaks revenue every week.
 
 ## How does a professional lash refill appointment work?
 
@@ -37,9 +37,9 @@ After the appointment, the artist delivers aftercare instructions verbally and i
 
 Eligibility for a refill appointment depends on two factors: how many natural lashes still carry an extension, and how much time has passed since the last appointment. Both matter equally.
 
-The standard thresholds lash studios use are:
+Thresholds worth setting are:
 
-- **40% retention minimum.** [Clients with 40% or more lashes remaining](https://rationalgo.ai/resources/app-builder/lash-extension-appointment-waitlist-fill-vs-full) qualify for a fill. Below that, the appointment takes as long as a full set, so studios charge accordingly.
+- **40% retention minimum.** Clients with 40% or more of their lashes remaining qualify for a fill. Below that, the appointment takes as long as a full set, so studios charge accordingly.
 - **2-3 week refill window.** This is the sweet spot for most clients. Natural lash shedding cycles run 60-90 days, and extensions shed with them. Booking within this window keeps the look full without requiring a rebuild.
 - **4-week cutoff.** Waiting longer than 4 weeks generally requires a new full set, as retention drops below the fill threshold for most clients.
 - **Aftercare impact.** [Daily lash cleaning reduces the number of fills needed](https://mobilebeautyco.com.au/how-often-should-you-really-get-a-lash-refill-and-what-happens-if-you-leave-it-too-long/) by 2-3 appointments per year. Clients who skip cleansing experience faster bond failure and need more frequent appointments.
@@ -132,7 +132,7 @@ Automated reminders sent at the 14-day and 18-day marks prompt clients to rebook
 
 ### What happens if a client waits too long between refills?
 
-Clients who wait more than four weeks typically fall below 40% retention and need a full set rebuild. Studios should communicate this policy clearly on their booking page to avoid pricing disputes at the appointment.
+Clients who wait more than four weeks usually need a full set rebuild, because too few extensions remain for a fill. Studios should communicate this policy clearly on their booking page to avoid pricing disputes at the appointment.
 
 ### Why should lash studios use booking software for refill management?
 

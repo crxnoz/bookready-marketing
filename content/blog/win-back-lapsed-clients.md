@@ -84,7 +84,7 @@ The strongest combination is email for the volume, plus one-to-one texts from yo
 
 Win-back rate is the share of messaged lapsed clients who book again within a defined window, usually 30 to 45 days from the first touch. Pick the window and hold it steady, otherwise every campaign looks better than the last one purely because you waited longer to count.
 
-Rough benchmarks to judge yourself against: a well-segmented sequence reactivating 10 to 20 percent of soft-lapse clients is a strong result. Single-digit recovery on hard-lapse clients is normal and not a failure, since those habits broke months ago. If soft lapse is coming in under 5 percent, the problem is almost always the segmentation or the timing, not the wording.
+There is no reliable benchmark, so judge yourself against your own last campaign. Low recovery on hard-lapse clients is normal and not a failure, since those habits broke months ago. If soft-lapse recovery is poor, the problem is more often the segmentation or the timing than the wording.
 
 Track it on a simple sheet and compare across segments and touches, so you learn which message does the work and whether the discount touch is earning its cost or just giving away margin to people who would have returned anyway. That second question is the one worth answering.
 
@@ -118,7 +118,7 @@ Three touches works well: a friendly check-in, a what-is-new or value touch, the
 
 ### What is a good win-back rate?
 
-Reactivating 10 to 20 percent of soft-lapse clients with a well-segmented sequence is a strong result. Single-digit recovery on clients who have been gone for six months is normal, and still worth running because the cost is close to zero.
+There is no reliable benchmark, so compare each campaign with your last one, using the same window. Recovery is usually lower on clients who have been gone for six months, and still worth running because the cost is close to zero.
 
 ### Should I email or text a lapsed client?
 

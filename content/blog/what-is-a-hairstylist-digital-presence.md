@@ -46,7 +46,7 @@ Clients no longer find stylists the way they did ten years ago. Word of mouth st
 
 Think of your digital presence as a 24/7 concierge. It answers questions about your pricing, your style, and your availability before a client ever sends a message. When that information is clear and consistent, booking friction drops and confidence goes up.
 
-The business case is concrete. One salon that built out a structured digital presence, including an optimized website, a complete Google Business Profile, and a review system, saw [23,000+ monthly Google impressions](https://www.imaginesocial.ai/salon-marketing/hairstylists/ultimate-guide) and 157% more calls from their Google listing within 30 days. That is not a fluke. It is what happens when all the signals point in the same direction.
+The business case is concrete. An optimized website, a complete Google Business Profile, and a review system all point in the same direction, and a stranger searching for a stylist sees the same story everywhere.
 
 The competitive angle matters too. Most stylists in your area have a social account. Far fewer have a complete, well-maintained digital presence. That gap is your opening.
 
@@ -102,7 +102,7 @@ A hairstylist’s digital presence works when every platform, from Google to Ins
 | Referrals are now digitally verified | Clients research you online after a personal recommendation, so your online proof must hold up. |
 | Your website is your only owned asset | Social platforms can reduce your visibility overnight; a website you control stays with you. |
 | Consistency converts browsers into clients | Mismatched branding across platforms causes confusion and lost bookings. |
-| A complete presence drives measurable results | One salon saw 23,000+ monthly Google impressions and 157% more calls after building a full digital system. |
+| A complete presence works together | A website, a complete Google Business Profile, and a review system all point the same way. |
 
 ## Recommended
 

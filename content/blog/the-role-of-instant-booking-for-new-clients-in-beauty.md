@@ -16,7 +16,7 @@ migrated: true
 
 Discover the role of instant booking for new clients in beauty. Boost your bookings instantly and keep your calendar full with immediate confirmations!
 
-Instant booking is defined as a system that confirms appointments immediately, without waiting for manual approval from the professional. The role of instant booking for new clients is direct: it removes the single biggest barrier between a potential client and a confirmed appointment. [Booking volume increases 20-35%](https://greenmoov.app/articles/en/instant-booking-vs-request-to-book-key-tradeoffs-for-hosts-in-2026) when professionals switch from request-based systems to instant confirmation. That gap exists because clients who cannot book immediately often do not come back. For beauty professionals competing in crowded local markets, that drop-off is the difference between a full calendar and a half-empty one.
+Instant booking is defined as a system that confirms appointments immediately, without waiting for manual approval from the professional. The role of instant booking for new clients is direct: it removes the single biggest barrier between a potential client and a confirmed appointment. Request-based systems make clients wait, and clients who cannot book immediately often do not come back. For beauty professionals competing in crowded local markets, that drop-off is the difference between a full calendar and a half-empty one.
 
 ## How does instant booking increase new client bookings?
 
@@ -24,7 +24,7 @@ The core problem with manual approval is timing. A client searches for a lash ap
 
 Instant booking captures last-minute traffic that manual systems structurally cannot. Last-minute and same-day bookings represent a meaningful share of total revenue for independent beauty studios. These clients are not browsing. They are ready to pay. A 24-hour approval window does not serve them. It sends them elsewhere.
 
-Platform visibility compounds this effect. [Major service platforms prioritize instant booking listings](https://staystrat.com/blog/airbnb-instant-book-vs-request-to-book) in search results as of Q2 2026. Professionals without instant booking are effectively invisible to clients who filter by immediate availability. In competitive urban markets, that search visibility gap correlates with occupancy shifts of 15-25%. That is not a minor ranking tweak. It is a structural disadvantage.
+Platform visibility compounds this effect. [Major service platforms prioritize instant booking listings](https://staystrat.com/blog/airbnb-instant-book-vs-request-to-book) in search results as of Q2 2026. Professionals without instant booking are effectively invisible to clients who filter by immediate availability. That is not a minor ranking tweak. It is a structural disadvantage.
 
 **Pro Tip:** *Set your instant booking window to cover your next 30 days of availability. Clients searching for appointments within that window convert at a much higher rate than those browsing open-ended calendars.*
 
@@ -82,8 +82,8 @@ Instant booking increases new client acquisition by removing approval friction, 
 
 | Point | Details |
 |---|---|
-| Booking volume impact | Instant booking increases total bookings by 20-35% by eliminating approval wait times. |
-| Platform visibility | Listings with instant booking rank higher in search results, capturing 15-25% more clients in competitive markets. |
+| Booking volume impact | Instant booking removes the approval wait, so fewer clients give up. |
+| Platform visibility | Listings with instant booking rank higher in search results on platforms that favor them. |
 | Client quality filters | Deposits, ID verification, and advance notice requirements screen clients automatically without manual approval. |
 | Waitlist as a tool | Showing a waitlist instead of “unavailable” signals demand and keeps potential clients engaged. |
 | Operational efficiency | Removing manual approvals recovers hours of administrative time each month for beauty professionals. |
@@ -118,7 +118,7 @@ No. Modern instant booking systems let you require deposits, ID verification, an
 
 ### How much can instant booking increase my bookings?
 
-Switching to instant booking increases total booking volume by 20-35% compared to request-based systems. The gain comes from capturing last-minute clients and from improved visibility in platform search results.
+There is no reliable number, and it depends on how many of your clients book at the last minute. The gain comes from capturing last-minute clients and from improved visibility in platform search results.
 
 ### What is a waitlist strategy and why does it matter?
 

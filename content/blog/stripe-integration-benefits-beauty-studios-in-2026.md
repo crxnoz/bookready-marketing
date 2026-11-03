@@ -20,11 +20,11 @@ Stripe integration is defined as connecting Stripe’s payment infrastructure di
 
 ## 1. Stripe integration benefits beauty studios by increasing revenue
 
-Automated billing is the clearest path to a higher average ticket. [Integrated software raises](https://blog.lokaci.com/solution-awareness/salon-management-software-guide-2026/) average ticket size by 25% through smart add-on suggestions at checkout, and cuts inventory costs by up to 30%. That means a studio averaging $80 per appointment could realistically push that figure past $100 without changing its service menu.
+Automated billing is the clearest path to a higher average ticket. Integrated software can suggest add-ons at checkout, which raises what each appointment brings in without changing your service menu.
 
 The mechanism is straightforward. When a client books a gel manicure, the system surfaces a cuticle treatment or nail art upgrade at the payment step. The suggestion appears at exactly the right moment, when the client is already committed and card in hand. Manual upselling at the front desk is inconsistent; automated prompts are not.
 
-Revenue leakage from manual errors is the other side of this equation. Fragmented systems produce a [23% data entry error rate](https://resources.rework.com), which means missed charges, duplicate refunds, and inaccurate commission tracking. Integrated Stripe setups eliminate most of those errors by pulling booking data and payment data from the same source.
+Revenue leakage from manual errors is the other side of this equation. Fragmented systems produce data entry errors, which means missed charges, duplicate refunds, and inaccurate commission tracking. Integrated Stripe setups eliminate most of those errors by pulling booking data and payment data from the same source.
 
 - Automated add-on prompts at checkout increase ticket size without extra staff effort
 - Inventory linked to services reduces over-ordering and product waste
@@ -37,7 +37,7 @@ Revenue leakage from manual errors is the other side of this equation. Fragmente
 
 Client experience at checkout is where studios win or lose repeat business. Stripe enables cardless checkout through card-on-file tokenization, meaning a returning client’s payment processes in the background without them pulling out their wallet. That frictionless exit feels like a luxury service, not a transaction.
 
-Mobile payment support is equally important. Over 70% of bookings happen on mobile devices, and Stripe’s native support for Apple Pay and Google Pay meets clients where they already are. A client who books on her phone and pays on her phone without switching apps or entering card details is a client who books again.
+Mobile payment support is equally important. Many bookings happen on mobile devices, and Stripe’s native support for Apple Pay and Google Pay meets clients where they already are. A client who books on her phone and pays on her phone without switching apps or entering card details is a client who books again.
 
 - Card-on-file tokenization removes checkout friction for returning clients
 - Apple Pay and Google Pay support speeds up in-person and online payment
@@ -60,7 +60,7 @@ A unified dashboard that combines bookings, payments, and staff schedules gives 
 4. **Faster staff onboarding** because one system is easier to learn than four
 5. **Automatic reminders** tied to confirmed payments reduce no-shows
 
-The 23% error rate from fragmented data entry is not just an accounting problem. It affects client history, service notes, and loyalty tracking. When a client’s record shows the wrong service or missing payment, your staff cannot personalize the next visit. Integration fixes the data at the source.
+Data entry errors from fragmented systems are not just an accounting problem. They affect client history, service notes, and loyalty tracking. When a client’s record shows the wrong service or missing payment, your staff cannot personalize the next visit. Integration fixes the data at the source.
 
 **Pro Tip:** *Before switching platforms, audit your current error rate by comparing your booking records against your payment records for one month. The gap you find will justify the migration cost immediately.*
 
@@ -88,8 +88,8 @@ Stripe integration is the single most effective payment upgrade an independent b
 
 | Point | Details |
 |---|---|
-| Revenue impact | Automated add-on prompts at checkout can raise average ticket size by 25%. |
-| Data accuracy | Integrated systems cut data entry errors from 23% down to near zero. |
+| Revenue impact | Automated add-on prompts at checkout can raise average ticket size. |
+| Data accuracy | Integrated systems cut data entry errors by pulling booking and payment data from one source. |
 | Client retention | Card-on-file tokenization and mobile payments reduce checkout friction and encourage repeat bookings. |
 | Operational clarity | A unified dashboard replaces tab-hopping across disconnected apps. |
 | Scalability | Stripe handles growing transaction volumes without requiring a platform change. |
@@ -120,7 +120,7 @@ Stripe integration connects Stripe’s payment infrastructure directly to your b
 
 ### Does Stripe support mobile payments for beauty studios?
 
-Yes. Stripe natively supports Apple Pay and Google Pay, and over 70% of bookings happen on mobile devices, making mobile payment support a practical necessity rather than a nice-to-have.
+Yes. Stripe natively supports Apple Pay and Google Pay, and many bookings happen on mobile devices, making mobile payment support a practical necessity rather than a nice-to-have.
 
 ### How does Stripe integration reduce no-shows?
 

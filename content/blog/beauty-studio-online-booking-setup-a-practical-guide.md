@@ -54,7 +54,7 @@ Connecting your booking platform to a payment processor is where most studio own
 
 1. Create a Stripe account and complete identity verification before connecting it to your booking platform.
 2. In your booking platform settings, navigate to the payments section and enter your Stripe API keys or use the OAuth connection if available.
-3. Set your deposit policy: a fixed amount (for example, $25) or a percentage of the service total. Most studios use 20-50% of the service price.
+3. Set your deposit policy: a fixed amount (for example, $25) or a percentage of the service total. A common range is 20-50% of the service price.
 4. Configure refund rules. Decide whether deposits are refundable if a client cancels more than 48 hours out, and set that in both Stripe and your booking platform.
 5. Test the full flow with a real card before going live. Book a test appointment, pay the deposit, then cancel and confirm the refund processes correctly.
 
