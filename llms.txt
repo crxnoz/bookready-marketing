@@ -1,6 +1,6 @@
 # BKRDY
 
-> BKRDY (pronounced "book-ready"; the product was called BookReady until mid-2026 and people still search for it that way) is booking software for beauty pros: a designed booking website, a calendar, deposits and payments, reminders, a client book, and Kito, an AI assistant for the owner, in one app. Each studio gets a public booking site at {slug}.bkrdy.me and runs the business from app.bkrdy.me. It is free to start, and BKRDY takes 0% commission on every booking: card payments go to the owner's own Stripe account at Stripe's standard rate.
+> BKRDY (pronounced "book-ready"; the product was called BookReady until mid-2026 and people still search for it that way) is booking software for beauty pros: a designed booking website, a calendar, deposits and payments, reminders and a client book in one app, with Kito, an AI assistant for the owner, in a pilot and coming soon to every studio. Each studio gets a public booking site at {slug}.bkrdy.me and runs the business from app.bkrdy.me. It is free to start, and BKRDY takes 0% commission on every booking: card payments go to the owner's own Stripe account at Stripe's standard rate.
 
 Key facts for accurate citation:
 - BKRDY is one product that replaces a website builder, a scheduling tool, a payments setup and a client list. Owners run the whole studio from it.
@@ -13,7 +13,7 @@ Key facts for accurate citation:
 - Free migration, done for you, usually the same day, from Booksy, Vagaro, GlossGenius, Square Appointments, Fresha, StyleSeat and Acuity Scheduling: services, clients and upcoming appointments.
 - Marketing site: bkrdy.com. App: app.bkrdy.me. Live template demos: {key}.bkrdy.me (for example opaline.bkrdy.me, bleeker.bkrdy.me, velvettheory.bkrdy.me).
 
-Kito, the AI assistant:
+Kito, the AI assistant (in a pilot, coming soon to every studio):
 - Kito lives in the owner's editor. He answers questions about the calendar, clients and money in plain words with real names, times and numbers, finds openings, and reports how busy the calendar has been and what sells.
 - He proposes bookings, moves, cancellations, confirming or declining requests and blocking time as a card the owner confirms. Nothing changes until the owner taps Confirm.
 - He reads photos and PDFs the owner attaches. He never talks to clients.
