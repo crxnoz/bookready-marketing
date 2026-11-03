@@ -84,7 +84,7 @@ The best setup for most people is not one or the other. It is a booking page cli
 
 The direction is what matters. One-way sync pushes new bookings into your calendar, which looks fine until your own life double books you: the dentist at 2pm on Thursday sits in your calendar, your booking page never hears about it, and someone takes 2pm on Thursday.
 
-So the question to ask a platform is not "do you sync with Google Calendar". It is "does a busy event in my own calendar block a bookable slot on my page". BKRDY does not sync with Google Calendar in either direction. It has a read-only feed that shows your BKRDY appointments in the calendar you already use, and a busy event there does not block a slot, so block personal time in BKRDY by hand. Some platforms do read it back. Ask before you pay anyone.
+So the question to ask a platform is not "do you sync with Google Calendar". It is "does a busy event in my own calendar block a bookable slot on my page". BKRDY does not sync with Google Calendar in either direction. It has a read-only feed that shows your appointments in the calendar you already use, and a busy event there does not block a slot, so block personal time on the booking side by hand. Some platforms do read it back. Ask before you pay anyone.
 
 ## For three appointments a week, a careful hand is enough
 
@@ -100,8 +100,8 @@ Not as a deposit against a service in the way a beauty appointment needs. Some v
 
 ### Will a booking page double book me against my own calendar?
 
-It can, unless the page reads your calendar or you block the time on the page too. One-way sync never reads back, and BKRDY does not read your calendar at all, so a personal appointment you add there stays invisible to the page and someone can book over it. Two-way sync treats a busy event in your own calendar as unavailable time. Ask specifically before you sign up.
+It can, unless the page reads your calendar or you block the time on the page too. One-way sync never reads back, so a personal appointment you add yourself stays invisible to the page and someone can book over it. Two-way sync treats a busy event in your own calendar as unavailable time. Ask specifically before you sign up.
 
 ### Do I have to stop using Google Calendar if I get a booking page?
 
-No, and you probably should not. The arrangement that works for most owners is a booking page for clients plus the calendar they already check. Where a platform has two-way sync, the page stops offering time your own life has taken. On BKRDY you subscribe your calendar to its read-only feed to see your appointments there, and you block your own time in BKRDY by hand. [How to make a booking website](/guides/how-to-make-a-booking-website/) covers the setup side.
+No, and you probably should not. The arrangement that works for most owners is a booking page for clients plus the calendar they already check. Where a platform has two-way sync, the page stops offering time your own life has taken. Where it does not, as on BKRDY, you block that time on the page yourself. [How to make a booking website](/guides/how-to-make-a-booking-website/) covers the setup side.

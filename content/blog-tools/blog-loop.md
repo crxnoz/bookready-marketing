@@ -46,7 +46,7 @@ Every article belongs to one, set in `pillar`. They are the shape of the blog, n
 - `switching`: Competitor fees, honest math, what transfers and what does not. The lowest-difficulty, highest-intent searches we have.
 - `money`: Deposits, no-show fees, cancellation windows, card on file, tips, pricing your own services.
 - `coming-back`: Rebooking, reminders, waitlists, reviews, client records.
-- `your-site`: The booking page, the link in bio, the domain that is yours rather than a marketplace listing.
+- `your-site`: The booking page, the link in bio, the site that is yours rather than a marketplace listing.
 - `the-week`: Calendars, capacity, drops, after-hours, how the week is shaped. Little search volume, but it is what BKRDY does that nobody else writes about.
 - `going-solo`: Booth rent, going independent, the first ninety days.
 
@@ -79,7 +79,7 @@ Let M be the batch name (`YYYY-MM`, the month most of the batch falls in). Every
 
 **Check, commit, review page, email**
 
-11. Check every draft: front matter complete and in order; title 60 characters or fewer (65 at the very most); description 120 to 155; every internal link points at a page that exists after a build; outside links open and are official sources; no em dashes; no invented numbers; only BKRDY's real plans and prices; every graphic line points at a file that exists. `node content/blog-tools/build.mjs` then `node content/blog-tools/seo-check.mjs` must show no errors.
+11. Check every draft: every claim about BKRDY is true today (see "What BKRDY does and does not do"); front matter complete and in order; title 60 characters or fewer (65 at the very most); description 120 to 155; every internal link points at a page that exists after a build; outside links open and are official sources; no em dashes; no invented numbers; only BKRDY's real plans and prices; every graphic line points at a file that exists. `node content/blog-tools/draft-check.mjs` catches the claims that have shipped false before, and it must show no errors. `node content/blog-tools/build.mjs` then `node content/blog-tools/seo-check.mjs` must show no errors.
 12. Commit the drafts, their share images, graphics and the `graphics.mjs` entries to `main` ("Blog drafts for <Month YYYY>") and push. Drafts do not build, so no live page changes.
 13. Re-run `keyword-metrics.mjs` so the new drafts show as covered (cached, free). Then `node content/blog-tools/blog-seed.mjs M <scratch>/seed <scratch>/seo.json <scratch>/keywords.json <scratch>/notes.json --keys <the new keys, comma separated>`. `notes.json` is `{"findings": ["plain sentences about the site check"], "gsc": {...}}`. Drop obvious noise from `report.rows` in `<scratch>/seed/months/M.json` before writing.
 14. Upload the new share images and the graphics' `-720.webp` copies to the review page as assets (copy them into a temporary folder inside the repo first, then delete it), and write everything with ArtifactData `batch` (`set`, at most 50 writes per call): the posts, the month, the covers and the graphics.
@@ -90,7 +90,7 @@ Let M be the batch name (`YYYY-MM`, the month most of the batch falls in). Every
 1. `git checkout main`, `git pull`. Stop and email Luis if `git diff --stat` shows uncommitted changes you did not make.
 2. Read the review page: ArtifactData `query` on `posts` where `status` is `approved` or `changes`.
 3. For each `changes`: revise the article as the note asks, same rules, keep `status: draft`, and update the document with the new title, description and body, `status: "pending"`, `note: ""`, `revisedFor: <the note>`, `revisedAt: <now>` (pin `if_version`). If the title changed, re-run `covers.mjs <key>`. If the revision changed something a graphic shows, update its entry, re-run `graphics.mjs <key>` and upload the new 720px copy.
-4. For each `approved` whose date has arrived: set `status: published` in the Markdown file (keep `date`).
+4. For each `approved` whose date has arrived: run `node content/blog-tools/draft-check.mjs --claims <key>`. If it flags anything, do not publish that article; leave it as it is and put it in the email. Otherwise set `status: published` in the Markdown file (keep `date`).
 5. Photos. For every article without a `photo:` line, live ones included, run `node content/blog-tools/photos.mjs --find <key>`. When it prints a file, look at the image, check it matches the art direction, and run `SHARP=… node content/blog-tools/photos.mjs <key> <file> "<alt text>"` with a plain description of what the photo shows. When nothing is found, publish without it; the next run adds it once the file is there, even if the article is already live. Adding Luis's photo to its own article is allowed in this run.
 6. `node content/blog-tools/build.mjs` and `node content/blog-tools/seo-check.mjs`. Stop and email Luis if there are errors.
 7. If the build changed any page, commit "Blog: publish <titles>" and push `main`. Wait for the deploy, polling the new URLs until they answer 200, up to five minutes.
@@ -109,12 +109,35 @@ Never publish an article that is not `approved` on the review page. Never change
 - **Markdown only**, and only what `md.mjs` supports: `##` and `###`, paragraphs, `- ` and `1. ` lists, `[text](url)`, `**bold**`, `*italic*`, `> ` for a pull quote, a pipe table, `:::answer`, `:::copy Label`, and at most one graphic line. No HTML, no code blocks, no images of your own.
 - **`:::copy`** is for anything a reader would otherwise retype: a policy, a reminder message, a rebooking script. Use it when it applies; it is the most useful thing on the page.
 - **A `## Questions` section** at the end is optional. When it is there, each `###` under it is a question and the generator emits the FAQ structured data from those exact words, so never write a question the page does not answer in full.
-- **Accuracy.** No invented statistics, percentages, studies, quotes, testimonials or customer stories. No numeric claim you cannot verify. Describe a competitor's pricing only in approximate terms, say prices change, and never state a competitor's number as current fact. Describe BKRDY features only where you are sure they exist; when unsure of a button's name, describe it generically.
+- **Accuracy.** No invented statistics, percentages, studies, quotes, testimonials or customer stories. No numeric claim you cannot verify. Describe a competitor's pricing only in approximate terms, say prices change, and never state a competitor's number as current fact. **The founder's rule: an article only claims what BKRDY really does today.** Check every claim about the product against the app in `C:\Users\carre\bookready` (read only: `CLAUDE.md`, `api/config/plans.php`, the controllers, the editor pages), starting from "What BKRDY does and does not do" below, never from another article, the marketing pages or memory. If you cannot confirm it, leave it out. General advice can stay general, and it is fine to tell the reader to do something by hand. When unsure of a button's name, describe it generically.
 - **Google's review rules**, in articles and in graphics: ask every customer, never only the happy ones, never offer an incentive, never write or buy reviews, never gate a review behind a rating question.
 - **Prices.** Only BKRDY's real plans, from `api/config/plans.php` in `C:\Users\carre\bookready`. **Lead with the annual rate**, which is the number the rest of the site leads with, and always say "billed annually" beside it: the Free plan $0, Solo $18 a month billed annually ($21 monthly), Studio $29 ($34 monthly, up to six staff), Studio+ $47 ($55 monthly, up to twelve), Salon quoted. A bare annual figure next to a competitor's monthly price is an apples-to-oranges comparison, so in any head-to-head give both. The $0 plan is called **the Free plan**, never "Starter", in anything a reader sees. Seven day trial, card required; the Free plan needs no card. Unlimited texts on every paid plan. Customer payments run through the owner's own Stripe account with no BKRDY markup. If a price in an article would contradict that file, the file wins: check it, do not remember it.
 - **Links.** Internal links only to pages that exist (check after a build). Outside links only to official sources, at most two per article, and never to a competitor's pricing page as evidence of a number.
 - **No em dashes**, anywhere, in articles or graphics.
 - **Stay out of** legal advice, employment classification, tax, and anything about a client's medical or private information beyond "do not share it".
+
+## What BKRDY does and does not do
+
+Checked against the app's code on 2026-11-03. The code wins if this has drifted. When a feature ships, update this list and the `CLAIMS` list in `draft-check.mjs` together.
+
+**Never claim these. They do not exist today.**
+
+- **Google Calendar sync**, one way or both. The editor shows it as coming soon. Personal events never block booking times. What is true: a read-only calendar feed the owner subscribes to from Google Calendar, Apple Calendar or Outlook, so BKRDY appointments show there. Personal time gets blocked in BKRDY by hand. Never call the feed a sync.
+- **Email or text campaigns**, list sends, newsletters, promo blasts.
+- **Automatic win-back, rebooking reminders, birthday messages, aftercare or follow-up messages.** What is true: Customers has an Inactive list (no visit in 90 days or more) and Text and Email buttons on the client profile that open the owner's own apps. The owner writes to people by hand.
+- **Custom domains.** Every site lives at `yourname.bkrdy.me`. Do not sell a domain or promise one.
+- **Per-service, per-client or per-tag deposits, or clients who skip the deposit.** The deposit is one studio-wide rule, flat or percent, on every priced service. A percent scales with the price. To spare a regular, the owner books them in by hand from the calendar, where no deposit is asked.
+- **Recurring or standing bookings.** Each appointment is its own booking. The owner can use Book again to add the next one.
+- **More than one automatic reminder, confirm by reply, two-way texting, custom text wording, texts from the studio's number.** One reminder per appointment at the hours the owner sets: email on every plan, text on paid plans to clients who consented. Clients get no confirmation text; the confirmation is an email.
+- **Automatic no-show charges or automatic refunds.** A no-show fee goes on a saved card when the owner clicks. A refund is a button. The one automatic charge is a late-cancel fee, when a client with a saved card cancels through their link inside the window (paid plans).
+- **Sending clients to Google for reviews, or any Google Business, Instagram, Reserve with Google, Zapier, Mailchimp or QuickBooks connection.** Review requests go by email on paid plans, at most once per client every 90 days. 4 and 5 stars publish on the studio's own site, 1 to 3 stay private. Nothing goes to Google.
+- **A POS, card reader or tap to pay.** Payment links, saved cards, Mark paid for cash.
+- **Per-artist payouts, commission tracking, payroll, per-artist booking links.** All money lands in one Stripe account.
+- **A client import tool.** The BKRDY team moves services, clients and upcoming appointments for free when the owner emails an export. It is a person, not a button.
+- **A mobile app in the stores, Kito for readers, AI features, memberships, prepaid series, group bookings, classes, multi-location, inventory, e-signatures, standalone intake forms, traffic or conversion analytics, a marketplace.** Kito is a limited pilot today.
+- **Results.** Never say BKRDY cuts no-shows by a number, fills a book or brings new clients.
+
+**Plan limits.** The Free plan has no texts, waitlist, automatic review requests, card on file, gift cards, coupons, packages, Content studio, after-hours or squeeze-in slots, loyalty, client tags, announcement bar or FAQ section. It has four templates and six gallery photos. Say "on paid plans" when a feature needs one.
 
 ## Photo art direction
 

@@ -37,7 +37,7 @@ export const PILLARS = [
   { id: 'switching', label: 'Switching', blurb: 'Leaving a platform, and what it really costs to stay.' },
   { id: 'money', label: 'Money on the table', blurb: 'Deposits, no-show fees, pricing, and the cash you are not collecting.' },
   { id: 'coming-back', label: 'Getting them back', blurb: 'Rebooking, reminders, waitlists, reviews, client records.' },
-  { id: 'your-site', label: 'Your own site', blurb: 'The booking page, the link in bio, the domain that is yours.' },
+  { id: 'your-site', label: 'Your own site', blurb: 'The booking page, the link in bio, the site that is yours.' },
   { id: 'the-week', label: 'Running the week', blurb: 'Calendars, capacity, drops, after-hours, the shape of your days.' },
   { id: 'going-solo', label: 'Going solo', blurb: 'Booth rent, going independent, the first ninety days.' },
 ];

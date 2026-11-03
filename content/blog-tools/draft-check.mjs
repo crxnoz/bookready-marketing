@@ -2,6 +2,9 @@
 // page. Run it on every draft in a batch; it is the step that catches the
 // things a reader would notice and a scheduled run would not.
 //   node content/blog-tools/draft-check.mjs [key ...]
+//   node content/blog-tools/draft-check.mjs --claims [key ...]
+//     Only the claims check below, on the keys given or on every article, live
+//     ones included. The publish run calls this before an article goes out.
 //
 // Errors are things that must be fixed. Warnings are things to look at.
 // Exit code is 1 if there is any error.
@@ -12,7 +15,8 @@ import { frontMatter, markdown } from './md.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const SRC = join(ROOT, 'content', 'blog');
-const only = new Set(process.argv.slice(2));
+const CLAIMS_ONLY = process.argv.includes('--claims');
+const only = new Set(process.argv.slice(2).filter(a => a !== '--claims'));
 
 const ORDER = ['key', 'section', 'slug', 'title', 'metaTitle', 'description', 'date', 'pillar',
   'keywords', 'photoTerms', 'photo', 'photoAlt', 'status'];
@@ -25,7 +29,56 @@ const BANNED = /\b(game.?changer|elevate your \w+|seamless(ly)?|leverage (your|t
 const FAKE_EVIDENCE = /\b(studies show|research shows|according to (a )?(study|survey|research)|statistics show|\d+% of (clients|owners|salons|people|businesses)|on average,? \w+ (lose|gain|save))/i;
 const REAL_PRICES = { 'starter': 0, 'solo': 21, 'studio': 34, 'studio+': 55 };
 
+// Things BKRDY does not do today, checked against the app on 2026-11-03. The
+// list and what to say instead are in blog-loop.md, "What BKRDY does and does
+// not do". This looks only at sentences that name BKRDY or link to a product
+// page, and skips sentences that say BKRDY does not do it, so general advice
+// and honest trade-offs pass. It is a lint, not proof: it catches the claims
+// that have shipped before, not every possible one. When a feature ships, take
+// its line out here and in the playbook.
+const PRODUCT = /\bBKRDY\b|\]\(\/(platform|pricing|free|migration|templates|for-)/;
+const NEGATED = /\b(does not|doesn't|do not|don't|did not|has no|have no|no|not|never|without|isn't|cannot|can't|instead of|rather than|nor)\b/i;
+const CLAIMS = [
+  [/\bsync(s|ed|ing)?\b|two-way|sends? .{0,40}google calendar|google calendar .{0,30}(connect|integrat)/i, 'Google Calendar sync is not live. There is only a read-only feed'],
+  [/\bcampaigns?\b|\bblasts?\b|\bnewsletters?\b|\bbroadcasts?\b|\bdrip (campaign|sequence|email)|email your (whole )?(list|clients)|text your (whole )?(list|clients)/i, 'BKRDY sends no campaigns or messages to a list'],
+  [/win-?back (message|email|text|campaign|sequence|automation)|automatic win-?back|re-?engage|we miss you|rebook(ing)? (reminder|nudge|prompt|message)|birthday (message|email|text)|aftercare (email|message|text)|follow-?up (email|message|text|sequence)|thank-?you (email|message|text)/i, 'BKRDY sends no win-back, rebooking, birthday, aftercare or follow-up messages'],
+  [/custom domain|own domain|your domain|connect(ing)? (a|your) domain/i, 'custom domains are not deliverable'],
+  [/per[- ]service deposit|deposit (per|for each|on each|by) service|deposits? (per|by|for each) (client|tag)|different deposit|(skip|waive|exempt)(s|ing)? .{0,30}deposit|deposit.{0,40}(new|returning|trusted|vip) clients/i, 'the deposit is one studio-wide rule, flat or percent'],
+  [/recurring|standing appointment|book(s|ing)? (a|the) series/i, 'there are no recurring bookings'],
+  [/two reminders|second reminder|reminder sequence|multi-?touch|confirm by (text|reply)|reply to confirm|two-way text|text(ing)? inbox|confirmation texts?|texts? .{0,20}confirmation/i, 'one reminder per appointment; clients get no confirmation text and replies are not read'],
+  [/reserve with google|zapier|mailchimp|quickbooks|tap to pay|card reader|\bPOS\b|commission tracking|payroll|per-artist payout|group booking|memberships?\b|prepaid|mobile app|app store|google play|in the app\b/, 'not a BKRDY feature'],
+  [/\bkito\b/i, 'Kito is a limited pilot, not something a reader can get today'],
+  [/\b(cut|cuts|reduce|reduces|slash|slashes|lower|lowers)\b.{0,30}no-shows? by \d|\d+% (fewer|less|more)/i, 'no invented results'],
+  [/\bStarter\b/, 'the $0 plan is called the Free plan'],
+];
+function claimIssues(body) {
+  const out = [];
+  for (const line of body.split('\n')) {
+    for (const s of line.match(/[^.!?]+(?:[.!?]+["')\]]*\s*|$)/g) || []) {
+      // A question, or a list of links to other articles, claims nothing.
+      if (!PRODUCT.test(s) || NEGATED.test(s) || /\?\s*$/.test(s) || /^\s*- \[/.test(line)) continue;
+      for (const [re, why] of CLAIMS) {
+        if (re.test(s)) out.push(`${why}: "${s.trim().slice(0, 140)}"`);
+      }
+    }
+  }
+  return out;
+}
+
 const files = readdirSync(SRC).filter(n => n.endsWith('.md'));
+if (CLAIMS_ONLY) {
+  let hits = 0;
+  for (const n of files) {
+    const [m, body] = frontMatter(readFileSync(join(SRC, n), 'utf8'));
+    if (only.size && !only.has(m.key)) continue;
+    for (const c of [...claimIssues(m.description || ''), ...claimIssues(body)]) {
+      console.log(`${m.key}: ${c}`);
+      hits++;
+    }
+  }
+  console.log(hits ? `${hits} claims to check against blog-loop.md` : 'no flagged claims');
+  process.exit(hits ? 1 : 0);
+}
 const live = new Set();           // every url the site will have
 for (const n of files) {
   const [m] = frontMatter(readFileSync(join(SRC, n), 'utf8'));
@@ -88,6 +141,9 @@ for (const n of files) {
   if (/\b(start (your )?free trial|sign up today|get started today|book a demo|try BKRDY)\b/i.test(tail)) {
     E.push('the article ends on a call to action; the template adds its own');
   }
+
+  // Claims about the product that have shipped false before.
+  for (const c of claimIssues(body)) E.push(c);
 
   // BKRDY mentions
   const mentions = (body.match(/\bBKRDY\b/g) || []).length;

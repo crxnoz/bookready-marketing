@@ -1,5 +1,7 @@
 # BookReady Article Style Guide
 
+**RETIRED 2026-10-20. Do not write from this file.** The blog runs on `content/blog-tools/blog-loop.md`, which has the current rules and the list of what BKRDY really does. The old pipeline this guide served is off. Nothing here is a source for what the product does.
+
 This guide governs every article in the content queue. Articles are written by automated daily agents — these rules keep voice and quality consistent.
 
 ## Voice
@@ -19,12 +21,11 @@ This guide governs every article in the content queue. Articles are written by a
    - `/for-{barbers,lash-artists,nail-techs,estheticians,spas,solo-pros,salons}/`
    - `/templates/{thefaderoom,lushstudio,velvettheory,blackline,opaline,petale,bottega}/`
    - `/compare/{glossgenius,acuity,square-appointments,fresha,booksy}-alternative/`
-   - `/platform/booking/{online,calendar,sync,recurring,waitlist}/`
+   - `/platform/booking/{online,calendar,waitlist}/`
    - `/platform/tools/{payments,customers,notifications,marketing,analytics,reviews}/`
    - `/platform/website/{templates,domain,mobile,sections,announcement}/`
    - `/features/client/{booking,dashboard,payments,reschedule,reminders}/`
    - `/features/manage/{dashboard,reschedule,staff,hours,customers}/`
-   - `/features/growth/{email,sms,reviews,winback,analytics}/`
    - `/pricing/`, `/migration/`, `/blog/`, `/customers/`
 
 ## Article structure (use this skeleton)
