@@ -34,7 +34,7 @@ Three core components make appointment reminder automation work: a digital calen
 
 | Feature category | What to look for | Why it matters |
 |---|---|---|
-| Calendar sync | Live, two-directional sync | Keeps reminders accurate when bookings change |
+| Calendar | Bookings and reminders in one system | Keeps reminders accurate when bookings change |
 | Two-way SMS/email | Reply parsing and auto-response | Handles confirmations and cancellations without staff |
 | Scheduling rules | Customizable trigger timing | Lets you set the exact sequence that fits your workflow |
 | Waitlist management | Auto-outreach on cancellation | Fills gaps immediately rather than leaving slots empty |
@@ -99,12 +99,12 @@ Defining clear workflows for late cancellation handling and waitlist management 
 
 ## Key Takeaways
 
-Automated appointment reminders reduce no-shows by 30%-50% when built on live calendar sync, two-way messaging, and rule-based triggers that handle every client response without staff involvement.
+Automated appointment reminders reduce no-shows by 30%-50% when built on a live booking calendar and rule-based triggers, and two-way messaging can handle client responses without staff involvement.
 
 | Point | Details |
 |---|---|
 | Two-touch reminder sequence | Send the first message 3 days out and the second 24 hours before for maximum attendance. |
-| Two-way messaging is non-negotiable | Clients must be able to confirm, cancel, or reschedule via reply for full automation to work. |
+| Two-way messaging saves a step | When clients can confirm, cancel, or reschedule by reply, nobody has to handle it by hand. |
 | Avoid manual steps | Any step requiring staff action breaks the automation and limits efficiency gains. |
 | Personalization improves results | Including the client’s name, service, and time makes automated messages feel attentive, not robotic. |
 | Waitlist rules fill gaps fast | Separate cancellation workflows for early and late cancellations keep your schedule as full as possible. |

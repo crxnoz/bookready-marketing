@@ -30,7 +30,7 @@ Booking and the calendar:
 - Calendar feed: a private, read-only feed link the owner subscribes to in Google Calendar, Apple Calendar or Outlook, so bookings show up there. Direct Google Calendar sync is not live yet.
 
 Payments (Stripe Connect, on the owner's own account):
-- A deposit or the full price up front per service, balances after the visit, tips, refunds.
+- A deposit or the full price up front, set once for the whole studio, balances after the visit, tips, refunds.
 - Card on file with the client's consent and late cancellation fees on paid plans.
 - A payments overview: revenue for the last 3, 6 or 12 months, by service, staff and day of week, top clients, and an export.
 
@@ -131,7 +131,7 @@ What BKRDY does not have today:
 - [What Does Studio Branding Mean Online for Beauty Pros](https://bkrdy.com/blog/what-does-studio-branding-mean-online-for-beauty-pros/): Discover what studio branding means online for beauty pros. Learn how to attract clients and enhance your brand's identity today!
 - [The Real Role of Client-Facing Booking Pages](https://bkrdy.com/blog/the-real-role-of-client-facing-booking-pages/): Discover the crucial role of client-facing booking pages in beauty businesses. Optimize yours to convert visitors into confirmed appointments!
 - [Stripe Integration Benefits Beauty Studios in 2026](https://bkrdy.com/blog/stripe-integration-benefits-beauty-studios-in-2026/): Discover how stripe integration benefits beauty studios by enhancing revenue, security, and client satisfaction. Streamline payments today!
-- [How to migrate from Vagaro without losing a single booking. Seven steps, one weekend, zero downtime.](https://bkrdy.com/guides/migrate-from-vagaro/): A practical, step-by-step guide to migrating your salon, spa, or barbershop off Vagaro without losing bookings, clients, or sleep. Free same-day import.
+- [How to migrate from Vagaro in seven steps, with a free import.](https://bkrdy.com/guides/migrate-from-vagaro/): A practical, step-by-step guide to migrating your salon, spa, or barbershop off Vagaro, with a free same-day import.
 - [Professional Branding and Client Loyalty for Beauty Pros](https://bkrdy.com/blog/professional-branding-and-client-loyalty-for-beauty-pros/): Discover the role of professional branding in client loyalty for beauty pros. Build a distinctive identity that boosts repeat bookings today!
 - [Lash Appointment Intake Forms Online: A Pro's Guide](https://bkrdy.com/blog/lash-appointment-intake-forms-online-a-pros-guide/): Discover how lash appointment intake forms online enhance client safety and streamline your lash service. Elevate your studio's professionalism today!
 <!-- blog:end -->

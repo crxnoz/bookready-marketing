@@ -51,7 +51,6 @@ This is a good place for a review request, while the work is fresh. The rules ar
 - **Ask every single client**, not only the ones who seemed pleased.
 - **Never offer anything in return.** No discount, no free add-on, no entry into a draw.
 - **Never write reviews yourself**, and never have staff, friends or family write them.
-- **Never ask how they felt first and then send the link only to the happy ones.** This is the tempting one, because it looks like good judgement. Asking a satisfaction question and routing the positive answers to your review page while the unhappy ones go to a private form is review gating, and it is against Google's policies.
 
 Ready wording is in [how to ask for reviews](/guides/ask-for-reviews-templates/). Asking everybody means the occasional three star, and that is the price of a review profile nobody can take away from you.
 

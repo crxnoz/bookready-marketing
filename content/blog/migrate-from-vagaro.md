@@ -2,19 +2,20 @@
 key: migrate-from-vagaro
 section: guides
 slug: migrate-from-vagaro
-title: How to migrate from Vagaro without losing a single booking. Seven steps, one weekend, zero downtime.
+title: How to migrate from Vagaro in seven steps, with a free import.
 metaTitle: How to Migrate From Vagaro to BKRDY | BKRDY
-description: A practical, step-by-step guide to migrating your salon, spa, or barbershop off Vagaro without losing bookings, clients, or sleep. Free same-day import.
+description: A practical, step-by-step guide to migrating your salon, spa, or barbershop off Vagaro, with a free same-day import.
 date: 2026-07-04
 pillar: switching
 keywords: migrate from vagaro, switch from vagaro
 photo: migrate-from-vagaro
 photoAlt: Hair salon interior
+shareCard: migrate-from-vagaro-share-2.jpg
 status: published
 migrated: true
 ---
 
-Most owners do not leave Vagaro because they are convinced switching will break their business. Years of clients, calendars, and forms live inside one login, and the fear is that pulling the plug means a week of chaos and a pile of missed appointments. Let us settle that up front: done right, migration is invisible to your clients and takes a single weekend. Nobody shows up to a locked door, nobody gets a dead booking link, and you do not lose a name.
+Most owners do not leave Vagaro because they are convinced switching will break their business. Years of clients, calendars, and forms live inside one login, and the fear is that pulling the plug means a week of chaos and a pile of missed appointments. Let us settle that up front: keep Vagaro live while you move and clients can still book the whole time, and the work itself fits in a weekend.
 
 The trick is to never flip a single switch. You run Vagaro and BKRDY side by side, move people over gently, and only cancel the old account once the new one is quietly doing all the work. This guide lays out a seven-step playbook: export your data, import it, build your site, connect payments, soft launch to a few regulars, hard switch your public links, and cancel Vagaro on your own timing. BKRDY handles the heaviest lifts, your services, clients, and upcoming appointments, for free, usually the same day you send the file. If you want the fuller comparison first, our [Vagaro alternative](/compare/vagaro-alternative/) page has the side-by-side. Otherwise, start here.
 

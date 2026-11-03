@@ -4,7 +4,7 @@ section: blog
 slug: best-acuity-alternatives-for-salons
 title: The best Acuity alternatives for salons in 2026. Honest picks.
 metaTitle: Best Acuity Alternatives for Salons in 2026 | BKRDY
-description: We tested 6 Acuity alternatives built for salons. BKRDY, GlossGenius, Fresha, Vagaro, Square, and Booksy. Honest comparison, real prices.
+description: Six Acuity alternatives built for salons, compared: BKRDY, GlossGenius, Fresha, Vagaro, Square, and Booksy. Honest comparison, real prices.
 date: 2026-06-18
 pillar: switching
 keywords: acuity alternatives salons, acuity scheduling alternatives

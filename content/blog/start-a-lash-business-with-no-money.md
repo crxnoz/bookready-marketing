@@ -64,7 +64,7 @@ What can wait: branded packaging, a logo from a designer, a sign, a second bed, 
 
 Charge a reduced rate and be straight about why. Not a vague "model call", which clients read as free luxury work. Say it plainly: this is practice work, the price is lower because you are still building speed, and it will take longer than it will in six months. What they do not forgive is finding out afterwards.
 
-Then do three things with every model. **Take the photos**, both eyes, same setup. **Rebook them at the chair before they stand up**: "you are due back in about two and a half weeks, shall we put you in on the Thursday?" And **ask for a review** from every single client, including the one who went quiet at the end and the one whose set you were not happy with. Never ask only the ones who seemed pleased, never offer a discount in return, and never route unhappy ones somewhere private. Google can remove a business's reviews for any of that. [Review request templates](/guides/ask-for-reviews-templates/) has the wording.
+Then do three things with every model. **Take the photos**, both eyes, same setup. **Rebook them at the chair before they stand up**: "you are due back in about two and a half weeks, shall we put you in on the Thursday?" And **ask for a review** from every single client, including the one who went quiet at the end and the one whose set you were not happy with. Never ask only the ones who seemed pleased, and never offer a discount in return. Google can remove a business's reviews for either. [Review request templates](/guides/ask-for-reviews-templates/) has the wording.
 
 The message to send, with your own price and timing:
 

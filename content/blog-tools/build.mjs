@@ -112,7 +112,7 @@ const withGraphicSrcset = html => html.replace(/<img src="\/images\/blog\/([a-z0
     : all);
 
 function ogImage(p) {
-  const f = `/images/blog/${p.key}-share.jpg`;
+  const f = `/images/blog/${p.shareCard || `${p.key}-share.jpg`}`;
   return existsSync(join(ROOT, f.slice(1))) ? ORIGIN + f : `${ORIGIN}/images/og/v2/${p.section === 'guides' ? 'guides' : 'blog'}.jpg`;
 }
 

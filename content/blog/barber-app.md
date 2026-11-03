@@ -36,7 +36,7 @@ The term “barber app” covers two very different tools. One is a consumer dis
 
 A booking platform is only as good as the problems it solves on a Tuesday afternoon when you’re mid-service. Here’s the non-negotiable feature list:
 
-- **24/7 self-service booking with calendar sync.** Clients book when it suits them, not when you’re free to answer a DM. Google and Apple calendar sync keeps your personal schedule and your booking calendar from colliding.
+- **24/7 self-service booking.** Clients book when it suits them, not when you’re free to answer a DM. A calendar feed shows your bookings in Google or Apple Calendar, next to the rest of your life.
 - **Automated confirmations and SMS/email reminders.** [Automated reminders](/blog/why-nail-appointment-reminders-reduce-gaps) reduce no-shows and improve on-time arrivals when used consistently. Automated reminders, such as one at 48 hours and another at 2 hours before an appointment, are a reliable cadence for reducing no-shows and improving on-time arrivals.
 - **Stripe deposits and card-on-file.** Deposit enforcement is the single highest-leverage move for cutting no-shows while staying client-friendly. Platforms that support [Stripe deposits](/platform/tools/payments) with a 0% platform fee let you collect deposits without eating into your margins.
 - **Client profiles with service history and saved payment methods.** Knowing that a client always books a balayage touch-up every six weeks, and having their card already on file, speeds checkout and makes rebooking frictionless. BKRDY’s [client profile tools](/platform/tools/customers) keep that history, and on paid plans the client’s saved card.
@@ -73,14 +73,14 @@ Work through this list before you commit to any platform.
 1. **Payments and deposits.** Does it support Stripe? Can you require a deposit at booking? Is there a platform fee on those deposits, or is it 0%?
 2. **Booking UX.** Can a client book in under 60 seconds from your Instagram bio without creating an account?
 3. **Branding options.** Does the platform give you a fully branded booking page, or does their logo appear alongside yours?
-4. **Calendar sync.** Does it sync two-way with Google Calendar and Apple Calendar?
+4. **Your calendar.** Do your bookings show up in Google Calendar or Apple Calendar, and do you need personal events to block time on their own?
 5. **Client profiles.** Are service history and saved payment methods stored per client?
 6. **Reminders.** Can you configure SMS and email reminders independently, with custom timing?
 7. **Waitlists.** Does the platform auto-fill cancellations from a waitlist, or is that manual?
 8. **Reporting.** Can you export client data and booking history? You need to own that data.
 9. **Scalability.** If you add a second stylist or a second location, does the pricing stay predictable?
 
-**Red flags to walk away from:** no deposit support, forced marketplace listing alongside your branded page, opaque or percentage-based fees, onboarding that takes weeks, and no calendar sync.
+**Red flags to walk away from:** no deposit support, forced marketplace listing alongside your branded page, opaque or percentage-based fees, and onboarding that takes weeks.
 
 On timeline and cost: a templated branded site can go live in under a day when you have your service list, prices, and photos ready. The bottleneck is almost never the booking tech. It’s the photography and service descriptions. A custom-built site from a developer takes weeks and costs significantly more. Marketplace onboarding is fast but trades setup speed for long-term control.
 
@@ -127,7 +127,7 @@ A branded booking site with Stripe deposits and automated reminders is the most 
 | Deposits are non-negotiable | Stripe deposit enforcement, ideally at 0% platform fee, is the most effective no-show deterrent. |
 | Reminders need configuration | SMS and email reminders at 48 hours and 2 hours before an appointment consistently reduce gaps and improve attendance. |
 | Launch speed depends on assets | A templated site goes live in under a day; the bottleneck is photography and service copy, not the tech. |
-| BKRDY covers the core of the checklist | BKRDY provides branded templates, Stripe deposits, client profiles, reminders, and, on paid plans, waitlists in one platform. It does not sync with Google or Apple Calendar or send promos. |
+| BKRDY covers the core of the checklist | BKRDY provides branded templates, Stripe deposits, client profiles, reminders, and, on paid plans, waitlists in one platform. It shows bookings in Google or Apple Calendar through a read-only feed, does not read those calendars back, and does not send promos. |
 
 ## Why we built BKRDY
 

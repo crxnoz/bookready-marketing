@@ -43,6 +43,6 @@ for (const m of posts) {
     title: m.title,
     url: `bkrdy.com/${m.section === 'guides' ? 'guides' : 'blog'}`,
     art,
-  }, join(ROOT, 'images', 'blog', `${m.key}-share.jpg`));
-  console.log(`images/blog/${m.key}-share.jpg`);
+  }, join(ROOT, 'images', 'blog', m.shareCard || `${m.key}-share.jpg`));
+  console.log(`images/blog/${m.shareCard || `${m.key}-share.jpg`}`);
 }

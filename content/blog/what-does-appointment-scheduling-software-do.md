@@ -22,7 +22,7 @@ Here is what the software actually does, at a glance:
 
 - Lets clients self-book through a branded booking page, 24 hours a day
 - Shows only genuinely open slots by calculating availability dynamically
-- Syncs with calendars like Google Calendar and Outlook to prevent double bookings
+- Connects to calendars like Google Calendar and Outlook, so bookings show up where you already look
 - Sends automated SMS and email reminders before appointments
 - Collects deposits or full payments at the time of booking
 - Manages staff schedules, permissions, and resource allocation
@@ -40,7 +40,7 @@ Clients visit your booking page, see your real-time availability, and pick a slo
 
 ### Calendar integration
 
-Good scheduling software syncs bidirectionally with external calendars. Google Calendar integration, for example, pulls in personal events as unavailable blocks and pushes new bookings out as calendar entries. This means your availability stays accurate even when you block off a personal appointment or a staff member calls in sick.
+Most scheduling software connects to external calendars, at one of two depths. A feed pushes new bookings out so they show up in Google Calendar or Apple Calendar, and you block personal time in the booking tool itself. Two-way sync also pulls personal events in as unavailable blocks, so you only enter them once. A feed is enough if your personal calendar stays light. Two-way saves a step if it does not.
 
 ### Automated notifications
 
@@ -150,7 +150,7 @@ The right platform depends on what your business actually needs, not on which to
 
 ### Evaluate integrations and automation
 
-Check whether the platform connects to the tools you already use: your calendar, your CRM, your email marketing platform, and your payment processor. A scheduling tool that sits in isolation creates more data entry work, not less. Calendar integration architecture matters here: bidirectional sync is the standard you should expect, not a premium add-on.
+Check whether the platform connects to the tools you already use: your calendar, your CRM, your email marketing platform, and your payment processor. A scheduling tool that sits in isolation creates more data entry work, not less. On calendars, decide whether a feed of your bookings is enough or you want personal events to block time on their own, and check which one you are getting.
 
 Automation depth varies significantly between platforms. Some send a single reminder; others support multi-step sequences with follow-ups, rebooking prompts, and review requests. For businesses where client retention is the main revenue driver, that difference in automation capability compounds over time.
 
@@ -198,7 +198,7 @@ Appointment scheduling software replaces manual booking processes with automated
 | Core function | Scheduling software automates booking, reminders, and calendar management so businesses stop managing appointments manually. |
 | No-show reduction | Automated reminders can reduce no-show rates by up to 30-50%, protecting revenue and keeping your calendar full. |
 | Choosing the right tool | Match the platform to your appointment type, staff size, payment needs, and client experience expectations before committing. |
-| Integration matters | Bidirectional calendar sync, CRM connectivity, and payment processing are the integrations that create real operational value. |
+| Integration matters | A calendar connection, client records, and payment processing are the integrations that create real operational value. |
 | BKRDY for beauty pros | BKRDY offers boutique-designed booking websites built specifically for beauty studios, with built-in deposits, reminders, and client history tracking. |
 
 ## Recommended

@@ -62,7 +62,7 @@ If this sounds tedious, it is, and you do not have to do it alone. When you migr
 
 Once your file is clean, there are two paths, and they are not mutually exclusive.
 
-**Path A: import into a new platform.** If you are moving to BKRDY, you do not need to format anything special. Send us the CSV during migration and we run the import for free, usually the same day, bringing over names, emails and phones, and we flag anything that looks off so you can confirm it. The full process is laid out on the [migration page](/migration/), and you can see plan options on the [pricing page](/pricing/) if you are still deciding.
+**Path A: import into a new platform.** If you are moving to BKRDY, you do not need to format anything special. Send us the CSV during migration and we run the import for free, usually the same day, bringing over names, emails and phones. The full process is laid out on the [migration page](/migration/), and you can see plan options on the [pricing page](/pricing/) if you are still deciding.
 
 **Path B: keep it as a backup.** If you are staying on Acuity for now, still hold onto the file properly. Save it to two places, a cloud drive plus a local copy, so a single lost laptop does not erase it. Tag the file name with the export date so you always know how fresh it is. Then set a calendar reminder to re-export every 90 days. A backup you took once and forgot is barely a backup at all.
 
