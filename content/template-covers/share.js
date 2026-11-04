@@ -1,7 +1,7 @@
 // Share card for each template page (1200x630): the template's name and line on
 // the left, its two phones on the right in its own colour, on the night ground.
 // Uses the screenshots shoot.js leaves in shots/; name and line come from the
-// cards on templates/index.html. Writes images/og/v2/template-<key>.jpg; then run
+// cards on templates/index.html. Writes images/og/v3/template-<key>.jpg; then run
 // content/blog-tools/share.mjs to point the template pages at them.
 //   node content/template-covers/share.js ["key key"]
 // New cards need new file names (Hostinger caches images for a year).
@@ -12,7 +12,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..', '..');
 const SHOTS = path.join(__dirname, 'shots');
-const OUT = path.join(ROOT, 'images', 'og', 'v2');
+const OUT = path.join(ROOT, 'images', 'og', 'v3');
 const GLOW = {
   arcanum: ['#C9A24A', '#3B2E8C'], blackline: ['#C59A5B', '#6B5A44'], bleeker: ['#F5D000', '#8A7A1A'],
   blushgallery: ['#E8A9B4', '#8C5A66'], bottega: ['#D0773A', '#8A5A3C'], chroma: ['#FF4FA0', '#7C5CFF'],
@@ -87,7 +87,7 @@ ${phone(`${k}-hero.png`, top.hero, 'front')}
     const png = await p.screenshot({ type: 'png' });
     const out = path.join(OUT, `template-${k}.jpg`);
     await sharp(png).jpeg({ quality: 86, progressive: true, mozjpeg: true }).toFile(out);
-    console.log(`images/og/v2/template-${k}.jpg`, (fs.statSync(out).size / 1024 | 0) + 'KB');
+    console.log(`images/og/v3/template-${k}.jpg`, (fs.statSync(out).size / 1024 | 0) + 'KB');
   }
   await b.close();
 })();

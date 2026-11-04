@@ -3,7 +3,7 @@
 // headline (card.mjs). Then points the page's og:image and twitter:image at it.
 //   SHARP=<path to sharp> node content/blog-tools/share.mjs [page ...]
 // A page is its path without slashes: home, pricing, platform-booking-calendar.
-// Template pages point at images/og/v2/template-<key>.jpg when that file exists
+// Template pages point at images/og/v3/template-<key>.jpg when that file exists
 // (content/template-covers/share.js makes those).
 //
 // Hostinger serves images with a one-year immutable cache: a changed card needs a
@@ -55,8 +55,8 @@ for (const rel of pages.sort()) {
   const tpl = rel.match(/^templates\/([^/]+)\/index\.html$/);
   let img;
   if (tpl) {
-    if (!existsSync(join(OUT, `template-${tpl[1]}.jpg`))) continue;
-    img = `${ORIGIN}/images/og/v2/template-${tpl[1]}.jpg`;
+    if (!existsSync(join(ROOT, 'images', 'og', 'v3', `template-${tpl[1]}.jpg`))) continue;
+    img = `${ORIGIN}/images/og/v3/template-${tpl[1]}.jpg`;
   } else {
     img = `${ORIGIN}/images/og/v2/${name}.jpg`;
     if (!only.size || only.has(name)) {
