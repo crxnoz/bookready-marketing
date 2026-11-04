@@ -9,7 +9,7 @@ date: 2026-11-04
 pillar: switching
 keywords: glossgenius vs vagaro
 photoTerms: lash artist working on client salon natural light | salon owner at reception desk with staff | barber shop busy several chairs clients
-status: draft
+status: published
 ---
 
 The choice between GlossGenius and Vagaro is mostly a question about your business, not about software. One is built to stay simple for a solo pro or a small team. The other is built to run a salon with staff, retail, classes and memberships.
