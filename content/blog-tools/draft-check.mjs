@@ -47,7 +47,6 @@ const CLAIMS = [
   [/recurring|standing appointment|book(s|ing)? (a|the) series/i, 'there are no recurring bookings'],
   [/two reminders|second reminder|reminder sequence|multi-?touch|confirm by (text|reply)|reply to confirm|two-way text|text(ing)? inbox|confirmation texts?|texts? .{0,20}confirmation/i, 'one reminder per appointment; clients get no confirmation text and replies are not read'],
   [/reserve with google|zapier|mailchimp|quickbooks|tap to pay|card reader|\bPOS\b|commission tracking|payroll|per-artist payout|group booking|memberships?\b|prepaid|mobile app|app store|google play|in the app\b/, 'not a BKRDY feature'],
-  [/\bkito\b/i, 'Kito is a limited pilot, not something a reader can get today'],
   [/\b(cut|cuts|reduce|reduces|slash|slashes|lower|lowers)\b.{0,30}no-shows? by \d|\d+% (fewer|less|more)/i, 'no invented results'],
   [/\bStarter\b/, 'the $0 plan is called the Free plan'],
 ];

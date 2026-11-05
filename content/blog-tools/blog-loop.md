@@ -134,7 +134,7 @@ Checked against the app's code on 2026-11-03. The code wins if this has drifted.
 - **A POS, card reader or tap to pay.** Payment links, saved cards, Mark paid for cash.
 - **Per-artist payouts, commission tracking, payroll, per-artist booking links.** All money lands in one Stripe account.
 - **A client import tool.** The BKRDY team moves services, clients and upcoming appointments for free when the owner emails an export. It is a person, not a button.
-- **A mobile app in the stores, Kito for readers, AI features, memberships, prepaid series, group bookings, classes, multi-location, inventory, e-signatures, standalone intake forms, traffic or conversion analytics, a marketplace.** Kito is a limited pilot today.
+- **A mobile app in the stores, AI features other than Kito, memberships, prepaid series, group bookings, classes, multi-location, inventory, e-signatures, standalone intake forms, traffic or conversion analytics, a marketplace.** Kito is on for every studio since 2026-11-05: he works for the owner in the editor (25 messages a month on Free, 100 on paid), proposes changes the owner confirms, and never talks to clients.
 - **Results.** Never say BKRDY cuts no-shows by a number, fills a book or brings new clients.
 
 **Plan limits.** The Free plan has no texts, waitlist, automatic review requests, card on file, gift cards, coupons, packages, Content studio, after-hours or squeeze-in slots, loyalty, client tags, announcement bar or FAQ section. It has four templates and six gallery photos. Say "on paid plans" when a feature needs one.
