@@ -9,7 +9,7 @@ date: 2026-11-05
 pillar: going-solo
 keywords: how to start a lash business with no money, how to start a lash business step by step
 photoTerms: lash artist applying extensions to client eyes | esthetician working in small rented salon room | black lash technician with client natural light
-status: draft
+status: published
 ---
 
 You cannot start a lash business with no money at all. Training and a kit are not optional, and lash extensions are a service where bad work hurts people's eyes.
