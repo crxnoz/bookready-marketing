@@ -9,7 +9,7 @@ date: 2026-11-06
 pillar: the-week
 keywords: what is a double booking, double booking clients
 photoTerms: hair colourist applying colour while client waits | lash artist working on client eyes closed studio | nail technician checking appointment book salon
-status: draft
+status: published
 ---
 
 Double booking means two completely different things, and one of them is a mistake while the other is a skill. If you have just found two clients in the same 2pm, go to the one calendar section below. If someone told you to start double booking to earn more, the answer is yes for a few services and no for most.
