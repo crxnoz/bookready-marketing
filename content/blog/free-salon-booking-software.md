@@ -9,7 +9,7 @@ date: 2026-11-09
 pillar: switching
 keywords: salon booking software free, free booking software for salons
 photoTerms: nail technician talking with client salon table | barber trimming beard client mirror | salon owner reception desk paperwork natural light
-status: draft
+status: published
 ---
 
 Free salon booking software is real, and some of it is good. What matters before you move your client list onto it is where the money comes from, because it comes from somewhere. Four arrangements all get called free, and each charges you somewhere different.
