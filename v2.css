@@ -377,6 +377,8 @@ img { max-width: 100%; display: block; }
   .m-app { grid-template-columns: minmax(0, 1fr); height: auto; }
   .m-main { display: none; }
   .m-pane { border-left: 0; }
+  /* The chat is as tall as its words here, so leave Kito his own room above the box. */
+  .m-composer { margin-top: 36px; }
   .v-trades { font-size: 18px; gap: 8px 20px; }
   .v-bento, .v-prices { grid-template-columns: minmax(0, 1fr); }
   .v-span-2, .v-span-4, .v-span-6 { grid-column: auto; }
