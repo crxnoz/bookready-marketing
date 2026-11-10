@@ -145,7 +145,12 @@
           {
             "@type": "Question",
             "name": "What is Kito?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Kito is the AI assistant inside BKRDY. He answers questions about your calendar, clients and money, finds openings, and lines up bookings, moves and time off for you. Nothing changes until you tap Confirm." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Kito is the AI assistant inside BKRDY. He answers questions about your calendar, clients and money, and lines up changes for you: bookings, prices, your website, your hours, a pay link for what a client owes. Nothing changes until you tap Confirm." }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Kito refund or charge a client?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. He never refunds and never charges a card. He tells you what was paid and what is owed, and he can email a client a link to pay. The decision and the money stay with you." }
           },
           {
             "@type": "Question",
@@ -212,7 +217,7 @@
         <div class="v-wrap v-hero__copy">
           <a class="v-pill" href="#kito">
             <span class="v-pill__tag">New</span>
-            <span>Meet Kito, the AI assistant<span class="v-hide-sm"> inside BKRDY</span></span>
+            <span>Kito now edits your site, your menu<span class="v-hide-sm"> and your prices</span></span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </a>
           <h1 class="v-h1">The calm way to run a busy book.</h1>
@@ -232,6 +237,15 @@
             <div class="v-art">
               <img class="v-art__sky" src="/images/art/dusk-kito.webp" alt="" width="2400" height="1030" />
             </div>
+          </div>
+
+          <!-- Things to ask Kito: each one swaps the conversation in the product shot below. -->
+          <div class="v-asks" data-kito-asks>
+            <span class="v-mono v-asks__label">Try asking Kito</span>
+            <button type="button" class="v-ask" aria-pressed="true" data-kito-ask="book">Fit Aaliyah in this week</button>
+            <button type="button" class="v-ask" aria-pressed="false" data-kito-ask="owed">Who still owes me?</button>
+            <button type="button" class="v-ask" aria-pressed="false" data-kito-ask="site">Make my gallery a filmstrip</button>
+            <button type="button" class="v-ask" aria-pressed="false" data-kito-ask="menu">Raise lash fills by $5</button>
           </div>
 
           <!-- The product, drawn in HTML so it stays crisp. Every element is a real feature. -->
@@ -259,7 +273,7 @@
                 </div>
                 <div class="m-head">
                   <div>
-                    <div class="m-eyebrow">Thursday, Nov 5</div>
+                    <div class="m-eyebrow">Thursday, Nov 12</div>
                     <div class="m-title">Today<span>.</span></div>
                   </div>
                   <div class="m-seg"><span class="is-on">Day</span><span>Week</span><span>List</span></div>
@@ -301,7 +315,8 @@
                   <img class="m-kav" src="/images/kito/avatar-v2-128.webp" alt="" width="30" height="30" />
                   <div style="line-height: 1.2"><div style="font-weight: 800; font-size: 14px">Kito</div><div style="font-size: 11px; color: var(--app-muted)">Ask about your studio</div></div>
                 </div>
-                <div class="m-msgs">
+                <!-- Four things to ask him. The chips above the frame switch between them (v2.js). Each card is one Kito really makes. -->
+                <div class="m-msgs" data-kito-demo="book">
                   <div class="m-me">Can you fit Aaliyah in for a lash fill this week?</div>
                   <div class="m-steps">
                     <span class="m-step"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Found Aaliyah R.</span>
@@ -320,6 +335,62 @@
                     <div class="m-row"><span>With</span><span>Mia</span></div>
                     <div class="m-card__note">Aaliyah gets a confirmation email.</div>
                     <div class="m-btns"><span class="m-btn m-btn--ink">Book it</span><span class="m-btn m-btn--chip">Never mind</span></div>
+                  </div>
+                </div>
+
+                <div class="m-msgs" data-kito-demo="owed" hidden>
+                  <div class="m-me">Who still owes me money?</div>
+                  <div class="m-steps">
+                    <span class="m-step"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Checked your payments</span>
+                  </div>
+                  <div class="m-kline">
+                    <img class="m-kav" src="/images/kito/avatar-v2-128.webp" alt="" width="30" height="30" />
+                    <div><b>3 clients</b> owe <b>$433.75</b> from visits in the last 90 days. All three have an email on file. Want me to send each a pay link?</div>
+                  </div>
+                  <div class="m-card">
+                    <div class="m-card__label">Email 3 pay links</div>
+                    <div class="m-row"><span>Naomi P. · Balayage</span><span>$213.75</span></div>
+                    <div class="m-row"><span>Tess W. · Color refresh</span><span>$175.00</span></div>
+                    <div class="m-row"><span>Luis C. · Blowout</span><span>$45.00</span></div>
+                    <div class="m-card__note">Nothing is charged. They pay on the link with their own card.</div>
+                    <div class="m-btns"><span class="m-btn m-btn--ink">Email 3 links</span><span class="m-btn m-btn--chip">Not now</span></div>
+                  </div>
+                </div>
+
+                <div class="m-msgs" data-kito-demo="site" hidden>
+                  <div class="m-me">Make my gallery a row people can swipe through.</div>
+                  <div class="m-steps">
+                    <span class="m-step"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Read your website</span>
+                  </div>
+                  <div class="m-kline">
+                    <img class="m-kav" src="/images/kito/avatar-v2-128.webp" alt="" width="30" height="30" />
+                    <div>Your gallery is a <b>Grid</b> today. Here it is as a <b>Filmstrip</b>. You see it on your site first, and clients see it once you keep it.</div>
+                  </div>
+                  <div class="m-card">
+                    <div class="m-card__label">Layout of your gallery</div>
+                    <div class="m-swap"><span>Grid</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg><b>Filmstrip</b></div>
+                    <div class="m-film"><span class="is-blush"></span><span class="is-mist"></span><span class="is-butter"></span><span class="is-sage"></span><span class="is-blush"></span></div>
+                    <div class="m-card__note">Your photos, words and colors stay exactly as they are.</div>
+                    <div class="m-btns"><span class="m-btn m-btn--ink">Use Filmstrip</span><span class="m-btn m-btn--chip">Never mind</span></div>
+                  </div>
+                </div>
+
+                <div class="m-msgs" data-kito-demo="menu" hidden>
+                  <div class="m-me">Raise my lash fills by $5.</div>
+                  <div class="m-steps">
+                    <span class="m-step"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Read your menu</span>
+                    <span class="m-step"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>2 lash fills</span>
+                  </div>
+                  <div class="m-kline">
+                    <img class="m-kav" src="/images/kito/avatar-v2-128.webp" alt="" width="30" height="30" />
+                    <div>You have <b>two</b> lash fills. New bookings pay the new price, and bookings already made keep theirs.</div>
+                  </div>
+                  <div class="m-card">
+                    <div class="m-card__label">Change 2 prices</div>
+                    <div class="m-row"><span>Lash fill</span><span><s>$65</s> $70</span></div>
+                    <div class="m-row"><span>Mega volume fill</span><span><s>$80</s> $85</span></div>
+                    <div class="m-card__note">Nobody is emailed.</div>
+                    <div class="m-btns"><span class="m-btn m-btn--ink">Change 2 prices</span><span class="m-btn m-btn--chip">Never mind</span></div>
                   </div>
                 </div>
                 <div class="m-composer">
@@ -364,45 +435,140 @@
             </div>
             <p class="v-body">Kito knows your calendar, your clients and your money. Ask in plain words. He does the lookups, lines up the change and waits for your tap.</p>
           </div>
-          <div class="v-trio">
+          <!-- What he does, by the part of the business it helps. Each visual is a card Kito really makes. -->
+          <div class="v-trio v-does">
             <article class="v-card v-feature">
               <div class="v-feature__vis" aria-hidden="true">
-                <div class="v-bubble">How was October?</div>
-                <div class="v-reply"><img src="/images/kito/avatar-v2-128.webp" alt="" width="28" height="28" /><div><b>$8,420</b> collected, up 12% on September. Saturdays did the heavy lifting.</div></div>
-                <div class="v-bars"><span style="height: 46%"></span><span style="height: 58%"></span><span style="height: 40%"></span><span style="height: 64%"></span><span style="height: 72%"></span><span class="is-now" style="height: 100%"></span></div>
-              </div>
-              <div class="v-feature__txt">
-                <h3 class="v-h3">Ask in plain words.</h3>
-                <p class="v-body">Answers come with real names, times and numbers from your studio, not a help article.</p>
-              </div>
-            </article>
-            <article class="v-card v-feature">
-              <div class="v-feature__vis" aria-hidden="true">
+                <div class="v-bubble">Move Dana to 5:00.</div>
                 <div class="v-mini">
-                  <span class="v-mono v-mini__label">Block time</span>
-                  <span class="v-mini__title">Friday, 12:00 to 1:00 PM</span>
-                  <span class="v-mini__sub">Lunch. No appointments move.</span>
-                  <div class="v-mini__btns"><span class="v-btn v-btn--sm">Confirm</span><span class="v-btn v-btn--sm v-btn--ghost">Never mind</span></div>
+                  <span class="v-mono v-mini__label">Move appointment</span>
+                  <span class="v-mini__title">Dana K. · Gel-X set</span>
+                  <span class="v-mini__chg"><s>4:00 PM</s><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg><b>5:00 PM</b></span>
+                  <span class="v-mini__sub">Dana gets an email with the new time.</span>
+                  <div class="v-mini__btns"><span class="v-btn v-btn--sm">Move it</span><span class="v-btn v-btn--sm v-btn--ghost">Never mind</span></div>
                 </div>
               </div>
               <div class="v-feature__txt">
-                <h3 class="v-h3">He proposes. You tap.</h3>
-                <p class="v-body">Booking, moving, blocking time or cancelling always arrives as a card. Nothing changes until you confirm.</p>
+                <h3 class="v-h3">Runs your day.</h3>
+                <p class="v-body">Books, moves and cancels. Blocks time, marks visits done and offers an opening to your waitlist.</p>
               </div>
             </article>
+
             <article class="v-card v-feature">
               <div class="v-feature__vis" aria-hidden="true">
-                <div class="v-mini v-file">
-                  <span class="v-file__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8"/></svg></span>
-                  <div style="display: flex; flex-direction: column; gap: 2px"><span class="v-mini__title" style="font-size: 14px">old-price-list.pdf</span><span class="v-mini__sub" style="font-size: 13px">PDF · 2 pages</span></div>
+                <div class="v-bubble">Who still owes me?</div>
+                <div class="v-mini">
+                  <span class="v-mono v-mini__label">Email 3 pay links</span>
+                  <span class="v-mini__row"><span>Naomi P. · Balayage</span><b>$213.75</b></span>
+                  <span class="v-mini__row"><span>Tess W. · Color refresh</span><b>$175.00</b></span>
+                  <span class="v-mini__row"><span>Luis C. · Blowout</span><b>$45.00</b></span>
+                  <span class="v-mini__sub">Nothing is charged. They pay on the link.</span>
+                  <div class="v-mini__btns"><span class="v-btn v-btn--sm">Email 3 links</span><span class="v-btn v-btn--sm v-btn--ghost">Not now</span></div>
                 </div>
-                <div class="v-bubble">Which of these am I not offering on my site yet?</div>
               </div>
               <div class="v-feature__txt">
-                <h3 class="v-h3">Show him a photo.</h3>
-                <p class="v-body">Drop in a price list, a schedule or a screenshot and ask about it. Photos and PDFs both work.</p>
+                <h3 class="v-h3">Chases what you’re owed.</h3>
+                <p class="v-body">Says who still owes, emails the pay link, and sets your deposit and late fees. He never charges a card himself.</p>
               </div>
             </article>
+
+            <article class="v-card v-feature">
+              <div class="v-feature__vis" aria-hidden="true">
+                <div class="v-bubble">Make my gallery a filmstrip.</div>
+                <div class="v-mini">
+                  <span class="v-mono v-mini__label">Layout of your gallery</span>
+                  <span class="v-mini__chg"><s>Grid</s><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg><b>Filmstrip</b></span>
+                  <span class="v-film"><i class="is-blush"></i><i class="is-mist"></i><i class="is-butter"></i><i class="is-sage"></i><i class="is-blush"></i></span>
+                  <span class="v-mini__sub">On your site first. Clients see it once you keep it.</span>
+                  <div class="v-mini__btns"><span class="v-btn v-btn--sm">Use Filmstrip</span><span class="v-btn v-btn--sm v-btn--ghost">Never mind</span></div>
+                </div>
+              </div>
+              <div class="v-feature__txt">
+                <h3 class="v-h3">Edits your website.</h3>
+                <p class="v-body">Rewrites your words, adds your photos, and changes the color, the layout and the order of your sections. With Undo.</p>
+              </div>
+            </article>
+
+            <article class="v-card v-feature">
+              <div class="v-feature__vis" aria-hidden="true">
+                <div class="v-bubble">Raise my lash fills by $5.</div>
+                <div class="v-mini">
+                  <span class="v-mono v-mini__label">Change 2 prices</span>
+                  <span class="v-mini__row"><span>Lash fill</span><b><s>$65</s> $70</b></span>
+                  <span class="v-mini__row"><span>Mega volume fill</span><b><s>$80</s> $85</b></span>
+                  <span class="v-mini__sub">New bookings pay the new price. Nobody is emailed.</span>
+                  <div class="v-mini__btns"><span class="v-btn v-btn--sm">Change 2 prices</span><span class="v-btn v-btn--sm v-btn--ghost">Never mind</span></div>
+                </div>
+              </div>
+              <div class="v-feature__txt">
+                <h3 class="v-h3">Keeps your menu current.</h3>
+                <p class="v-body">Prices, services, add-ons and packages. Coupons, sales, gift cards and the products in your shop.</p>
+              </div>
+            </article>
+
+            <article class="v-card v-feature">
+              <div class="v-feature__vis" aria-hidden="true">
+                <div class="v-bubble">Who hasn’t been back in a while?</div>
+                <div class="v-reply"><img src="/images/kito/avatar-v2-128.webp" alt="" width="28" height="28" /><div><b>12 clients</b> are past their usual gap with nothing booked. Start with these three.</div></div>
+                <div class="v-mini v-mini--list">
+                  <span class="v-mini__row"><span>Priya S.</span><b>Last visit Sep 2</b></span>
+                  <span class="v-mini__row"><span>Jo M.</span><b>Last visit Aug 28</b></span>
+                  <span class="v-mini__row"><span>Kim A.</span><b>Last visit Aug 19</b></span>
+                </div>
+              </div>
+              <div class="v-feature__txt">
+                <h3 class="v-h3">Knows your clients.</h3>
+                <p class="v-body">Who is due back, who went quiet and who asked about a refund. Adds a note or a VIP mark when you say so.</p>
+              </div>
+            </article>
+
+            <article class="v-card v-feature">
+              <div class="v-feature__vis" aria-hidden="true">
+                <div class="v-bubble">I’m off next Friday.</div>
+                <div class="v-mini">
+                  <span class="v-mono v-mini__label">Time off</span>
+                  <span class="v-mini__title">Close Friday, Nov 20</span>
+                  <span class="v-mini__sub">2 bookings are on that day. They stay booked until you move them, and I listed both.</span>
+                  <div class="v-mini__btns"><span class="v-btn v-btn--sm">Close that day</span><span class="v-btn v-btn--sm v-btn--ghost">Never mind</span></div>
+                </div>
+              </div>
+              <div class="v-feature__txt">
+                <h3 class="v-h3">Handles the back office.</h3>
+                <p class="v-body">Hours and time off, booking rules, policies, the emails you send, your team and their logins.</p>
+              </div>
+            </article>
+          </div>
+
+          <!-- How he works, and what he never does. -->
+          <div class="v-how">
+            <div>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              <h3 class="v-h3">Ask in plain words.</h3>
+              <p class="v-body">Answers come with real names, times and numbers from your studio, not a help article.</p>
+            </div>
+            <div>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+              <h3 class="v-h3">He proposes. You tap.</h3>
+              <p class="v-body">Every change arrives as a card that says who gets emailed and what happens to money.</p>
+            </div>
+            <div>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+              <h3 class="v-h3">Show him a photo.</h3>
+              <p class="v-body">Drop in a price list, a schedule or your work. He reads it, or puts it on your site.</p>
+            </div>
+          </div>
+
+          <div class="v-card v-never">
+            <div class="v-never__head">
+              <h3 class="v-h3">What Kito never does.</h3>
+              <p class="v-body">He works for you, and the money and the last word stay yours.</p>
+            </div>
+            <ul class="v-never__list">
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>Refund a client</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>Charge a card</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>Change anything before you tap</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>Talk to your clients</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -430,40 +596,99 @@
                 <img src="/images/templates/v3/thefaderoom.jpg" alt="The Fade Room template" width="1280" height="1600" loading="lazy" />
               </div>
             </article>
+
             <article class="v-card v-tile v-tile--tall v-span-2">
               <h3 class="v-h3">Every artist, one view.</h3>
               <p class="v-body">Day, week or list, with requests and openings right on the grid.</p>
-              <div class="v-minical" aria-hidden="true">
-                <div><span class="is-blush" style="height: 64px"></span><span class="is-butter" style="height: 40px"></span><span class="is-open" style="height: 52px"></span></div>
-                <div style="padding-top: 22px"><span class="is-mist" style="height: 58px"></span><span class="is-break" style="height: 36px"></span><span class="is-blush" style="height: 58px"></span></div>
-                <div style="padding-top: 44px"><span class="is-sage" style="height: 40px"></span><span class="is-mist" style="height: 40px"></span><span class="is-butter" style="height: 64px"></span></div>
+              <div class="v-day" aria-hidden="true">
+                <div class="v-day__who"><span><i class="is-blush">M</i>Mia</span><span><i class="is-mist">J</i>Jess</span><span><i class="is-sage">A</i>Ana</span></div>
+                <div class="v-day__grid">
+                  <div>
+                    <span class="is-blush" style="height: 74px"><b>Tasha B.</b>Full set · 9:00</span>
+                    <span class="is-butter" style="height: 50px"><b>Sam T.</b>Lash lift</span>
+                    <span class="is-open" style="height: 56px"><b>Request</b>2:30 · for you</span>
+                  </div>
+                  <div style="padding-top: 22px">
+                    <span class="is-mist" style="height: 70px"><b>Dana K.</b>Gel-X · 9:30</span>
+                    <span class="is-break" style="height: 40px"><b>Lunch</b></span>
+                    <span class="is-blush" style="height: 68px"><b>Priya S.</b>Nail art</span>
+                  </div>
+                  <div style="padding-top: 44px">
+                    <span class="is-sage" style="height: 50px"><b>Jo M.</b>Brows</span>
+                    <span class="is-mist" style="height: 50px"><b>Kim A.</b>Tint</span>
+                    <span class="is-butter" style="height: 74px"><b>Rosa V.</b>Facial · 2:00</span>
+                  </div>
+                </div>
               </div>
             </article>
-            <article class="v-card v-tile v-span-2">
-              <h3 class="v-h3">Deposits that stick.</h3>
-              <p class="v-body">Take a deposit at booking or let clients pay in full, keep a card on file and charge a late cancel fee in one tap.</p>
-              <div class="v-paid" aria-hidden="true">
-                <div style="display: flex; flex-direction: column; gap: 2px"><span style="font-weight: 700; font-size: 14px">Deposit paid</span><span style="font-size: 13px; color: var(--text-3)">Aaliyah R. · Lash fill</span></div>
-                <strong>$30</strong>
+
+            <article class="v-card v-tile v-span-3">
+              <h3 class="v-h3">Open the days you want.</h3>
+              <p class="v-body">Set your week, your breaks and your time off, then see exactly what a client can book.</p>
+              <div class="v-open" aria-hidden="true">
+                <span class="v-mono v-open__label">What clients see · Lash fill</span>
+                <div class="v-open__row"><b>Thu, Nov 12</b><span>10:00</span><span>11:30</span><span>2:30</span></div>
+                <div class="v-open__row"><b>Fri, Nov 13</b><span>9:00</span><span>1:00</span><span>3:15</span><span>4:30</span></div>
+                <div class="v-open__row is-off"><b>Sat, Nov 14</b><em>Fully booked</em></div>
+                <div class="v-open__row is-off"><b>Sun, Nov 15</b><em>Closed</em></div>
               </div>
             </article>
+
+            <article class="v-card v-tile v-span-3">
+              <h3 class="v-h3">Paid before, during and after.</h3>
+              <p class="v-body">A deposit at booking or the full price, a card on file, a pay link for what’s left, and a late cancel fee in one tap.</p>
+              <div class="v-flow" aria-hidden="true">
+                <div class="v-flow__row"><i></i><div><b>Deposit paid</b><span>When she booked</span></div><strong>$30</strong></div>
+                <div class="v-flow__row"><i></i><div><b>Pay link sent</b><span>After the visit, by email</span></div><strong>$90</strong></div>
+                <div class="v-flow__row is-done"><i></i><div><b>Paid in full</b><span>Aaliyah R. · Classic full set</span></div><strong>$120</strong></div>
+              </div>
+            </article>
+
             <article class="v-card v-tile v-span-2">
               <h3 class="v-h3">Remembers every client.</h3>
               <p class="v-body">Visits, notes, a photo of the last service and who has gone quiet.</p>
-              <div class="v-segs" aria-hidden="true">
-                <span class="v-chip">New <b>12</b></span><span class="v-chip">Regulars <b>48</b></span><span class="v-chip">VIP <b>9</b></span><span class="v-chip">Inactive <b>21</b></span>
+              <div class="v-client" aria-hidden="true">
+                <div class="v-client__top"><span class="v-client__av">AR</span><div><b>Aaliyah R.</b><span>14 visits · about every 3 weeks</span></div><span class="v-client__vip">VIP</span></div>
+                <div class="v-client__note">Prefers Mia. Likes a natural curl.</div>
+                <div class="v-client__last"><span class="v-client__photo"></span><div><b>Last service</b><span>Classic full set · Oct 22</span></div></div>
               </div>
             </article>
+
             <article class="v-card v-tile v-span-2">
               <h3 class="v-h3">Reminders that cut no-shows.</h3>
               <p class="v-body">Texts and emails go out on their own. Texts are unlimited on every paid plan.</p>
-              <div class="v-sms" aria-hidden="true">See you tomorrow at 2:30 PM, Aaliyah. Need to move it? Tap your booking link.</div>
-            </article>
-            <article class="v-card v-tile v-rest v-span-6">
-              <h3 class="v-h3">And the rest is in there too.</h3>
-              <div class="v-rest__chips">
-                <span class="v-chip">Waitlist</span><span class="v-chip">Reviews</span><span class="v-chip">Gift cards</span><span class="v-chip">Coupons</span><span class="v-chip">Loyalty cards</span><span class="v-chip">Packages</span><span class="v-chip">Intake forms</span><span class="v-chip">Calendar feed</span><span class="v-chip">Shop</span><span class="v-chip">Social posts</span><span class="v-chip">Staff accounts</span>
+              <div class="v-remind" aria-hidden="true">
+                <div class="v-sms">See you tomorrow at 2:30 PM, Aaliyah. Need to move it? Tap your booking link.</div>
+                <span class="v-remind__meta">Text and email · a day before</span>
               </div>
+            </article>
+
+            <article class="v-card v-tile v-span-2">
+              <h3 class="v-h3">Room for your team.</h3>
+              <p class="v-body">Up to twelve artists, each with their own hours, services and login.</p>
+              <div class="v-team" aria-hidden="true">
+                <div class="v-team__row"><i class="is-blush">M</i><div><b>Mia</b><span>Tue to Sat · Lashes</span></div><em>Signs in</em></div>
+                <div class="v-team__row"><i class="is-mist">J</i><div><b>Jess</b><span>Mon to Fri · Nails</span></div><em>Signs in</em></div>
+                <div class="v-team__row"><i class="is-sage">A</i><div><b>Ana</b><span>Wed to Sun · Brows</span></div><em>Invited</em></div>
+              </div>
+            </article>
+
+            <article class="v-card v-tile v-extras v-span-6">
+              <h3 class="v-h3">And the rest is in there too.</h3>
+              <ul class="v-extras__grid">
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><b>Waitlist</b><span>A cancelled slot is offered to the next person.</span></div></li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg><div><b>Reviews</b><span>Asked for after the visit, shown on your site.</span></div></li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M5 12v9h14v-9"/><path d="M12 8S10.5 3 8 3a2.5 2.5 0 0 0 0 5zM12 8s1.5-5 4-5a2.5 2.5 0 0 1 0 5z"/></svg><div><b>Gift cards</b><span>Sold on your site, spent at the chair.</span></div></li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1"/></svg><div><b>Coupons and sales</b><span>A code, or a sale price with an end date.</span></div></li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 5.6a5.5 5.5 0 0 0-7.8 0L12 6.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-6.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg><div><b>Loyalty cards</b><span>A punch card for your regulars.</span></div></li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 2 9 5-9 5-9-5z"/><path d="m3 12 9 5 9-5M3 17l9 5 9-5"/></svg><div><b>Packages</b><span>Several services at one price.</span></div></li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1M9 10h6M9 14h6"/></svg><div><b>Forms</b><span>Ask what you need before they arrive.</span></div></li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 7h12l1 14H5z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><div><b>Shop</b><span>Sell products alongside a visit.</span></div></li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg><div><b>Social posts</b><span>Ready-made cards for your openings.</span></div></li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><div><b>After-hours slots</b><span>Charge more for early, late or squeeze-in times.</span></div></li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><div><b>Calendar feed</b><span>Your bookings in your phone’s calendar.</span></div></li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.2 9a3 3 0 0 1 5.6 1c0 2-3 2.5-3 4.5M12 17.5v.5"/></svg><div><b>Help Center</b><span>42 guides, and Kito when you’d rather ask.</span></div></li>
+              </ul>
             </article>
           </div>
         </div>
@@ -473,9 +698,19 @@
       <section class="v-sec">
         <div class="v-wrap">
           <div class="v-zero">
-            <div class="v-moon" aria-hidden="true">
-              <span class="v-moon__disc"></span>
-              <span class="v-moon__num">0%</span>
+            <div class="v-moon v-moon--receipt" aria-hidden="true">
+              <div class="v-receipt">
+                <span class="v-receipt__head">Booking paid</span>
+                <span class="v-receipt__when">Sat, Nov 14 · 10:00 AM</span>
+                <b class="v-receipt__what">Classic full set</b>
+                <span class="v-receipt__who">Aaliyah R. with Mia</span>
+                <div class="v-receipt__rule"></div>
+                <div class="v-receipt__row"><span>Service</span><span>$120.00</span></div>
+                <div class="v-receipt__row is-zero"><span>BKRDY commission</span><span>$0.00</span></div>
+                <div class="v-receipt__rule"></div>
+                <div class="v-receipt__row is-total"><span>To your Stripe</span><span>$120.00</span></div>
+                <span class="v-receipt__fine">Stripe’s standard card fee applies, as it does everywhere.</span>
+              </div>
             </div>
             <div class="v-zero__copy">
               <p class="v-mono v-eyebrow">Commission</p>
@@ -509,52 +744,65 @@
               <button type="button" aria-pressed="false" data-v-cycle="monthly">Monthly</button>
             </div>
           </div>
+          <!-- The offer every new studio gets (decided 2026-11-10; not built yet, so this strip waits for it). -->
+          <div class="v-card v-offer">
+            <span class="v-offer__tag">New studios</span>
+            <p><strong>Your first 30 days are Solo, free.</strong> No card. Then keep it for $1 the first month, or stay on Free for good.</p>
+          </div>
           <div class="v-prices">
             <article class="v-card v-plan">
+              <p class="v-mono v-plan__stage">Get booked</p>
               <h3 class="v-h3">Free</h3>
               <div><span class="v-plan__amt">$0</span><span class="v-plan__per"> forever</span></div>
-              <p class="v-body">A real booking site, live at no cost. Upgrade when the bookings do.</p>
+              <p class="v-body">A real booking site, live at no cost. Everything you need for your first clients.</p>
               <a class="v-btn v-btn--ghost" href="https://app.bkrdy.me/register?ref=home-pricing-free">Start free</a>
               <ul>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Booking site and calendar</li>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Online booking with deposits</li>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Email reminders</li>
-                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Kito, your AI assistant</li>
-                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>4 templates, 1 calendar</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>One welcome offer for new clients</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Kito, 25 messages a month</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>4 templates, 6 gallery photos</li>
               </ul>
             </article>
             <article class="v-card v-plan v-plan--pick">
+              <p class="v-mono v-plan__stage">Stay booked</p>
               <h3 class="v-h3">Solo</h3>
               <div><span class="v-plan__amt" data-yearly="$18" data-monthly="$21">$18</span><span class="v-plan__per"> /mo</span></div>
-              <p class="v-body"><span data-yearly="Billed yearly, $216." data-monthly="Billed monthly.">Billed yearly, $216.</span> For barbers, lash artists, nail techs and facialists.</p>
-              <a class="v-btn" href="https://app.bkrdy.me/register?ref=home-pricing-solo">Start 7-day trial</a>
+              <p class="v-body"><span data-yearly="Billed yearly, $216." data-monthly="Billed monthly.">Billed yearly, $216.</span> For a full book and one chair: fewer no-shows, more regulars.</p>
+              <a class="v-btn" href="https://app.bkrdy.me/register?ref=home-pricing-solo">Try Solo free for 30 days</a>
               <ul>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Everything in Free</li>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Unlimited text reminders</li>
-                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Card on file and late cancel fees</li>
-                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Waitlist, reviews, loyalty and gift cards</li>
-                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Every template</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Card on file and late fees</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Waitlist, review requests and loyalty</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Gift cards, coupons and packages</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Kito, 100 messages a month</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Every template, no BKRDY badge</li>
               </ul>
             </article>
             <article class="v-card v-plan">
+              <p class="v-mono v-plan__stage">Run a team</p>
               <h3 class="v-h3">Studio</h3>
               <div><span class="v-plan__amt" data-yearly="$29" data-monthly="$34">$29</span><span class="v-plan__per"> /mo</span></div>
-              <p class="v-body"><span data-yearly="Billed yearly, $348." data-monthly="Billed monthly.">Billed yearly, $348.</span> For studios with two to six staff.</p>
+              <p class="v-body"><span data-yearly="Billed yearly, $348." data-monthly="Billed monthly.">Billed yearly, $348.</span> For studios with two to six artists.</p>
               <a class="v-btn v-btn--ghost" href="https://app.bkrdy.me/register?ref=home-pricing-studio">Start 7-day trial</a>
               <ul>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Everything in Solo</li>
-                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Up to 6 staff calendars</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Up to 6 artists, a calendar each</li>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>A login for each artist</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Their own hours, services and time off</li>
               </ul>
             </article>
             <article class="v-card v-plan">
+              <p class="v-mono v-plan__stage">Run a team</p>
               <h3 class="v-h3">Studio+</h3>
               <div><span class="v-plan__amt" data-yearly="$47" data-monthly="$55">$47</span><span class="v-plan__per"> /mo</span></div>
-              <p class="v-body"><span data-yearly="Billed yearly, $564." data-monthly="Billed monthly.">Billed yearly, $564.</span> For bigger teams, up to twelve staff.</p>
+              <p class="v-body"><span data-yearly="Billed yearly, $564." data-monthly="Billed monthly.">Billed yearly, $564.</span> For bigger teams, up to twelve artists.</p>
               <a class="v-btn v-btn--ghost" href="https://app.bkrdy.me/register?ref=home-pricing-studioplus">Start 7-day trial</a>
               <ul>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Everything in Studio</li>
-                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Up to 12 staff calendars</li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Up to 12 artists, a calendar each</li>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>A login for each artist</li>
               </ul>
             </article>
@@ -581,7 +829,11 @@
             </details>
             <details>
               <summary>What is Kito?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
-              <p>Kito is the AI assistant inside BKRDY. He answers questions about your calendar, clients and money, finds openings, and lines up bookings, moves and time off for you. Nothing changes until you tap Confirm.</p>
+              <p>Kito is the AI assistant inside BKRDY. He answers questions about your calendar, clients and money, and lines up changes for you: bookings, prices, your website, your hours, a pay link for what a client owes. Nothing changes until you tap Confirm.</p>
+            </details>
+            <details>
+              <summary>Can Kito refund or charge a client?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+              <p>No. He never refunds and never charges a card. He tells you what was paid and what is owed, and he can email a client a link to pay. The decision and the money stay with you.</p>
             </details>
             <details>
               <summary>Does Kito talk to my clients?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>

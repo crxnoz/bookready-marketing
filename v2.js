@@ -99,3 +99,33 @@
     });
   });
 })();
+
+/* Homepage: things to ask Kito. Each chip shows its conversation in the
+   product shot. They take turns on their own until someone picks one. */
+(function () {
+  var asks = document.querySelectorAll('[data-kito-ask]');
+  if (!asks.length) return;
+  var demos = document.querySelectorAll('[data-kito-demo]');
+  var order = Array.prototype.map.call(asks, function (b) { return b.getAttribute('data-kito-ask'); });
+  var at = 0;
+  var timer = null;
+
+  function show(key) {
+    asks.forEach(function (b) {
+      b.setAttribute('aria-pressed', b.getAttribute('data-kito-ask') === key ? 'true' : 'false');
+    });
+    demos.forEach(function (d) {
+      if (d.getAttribute('data-kito-demo') === key) d.removeAttribute('hidden');
+      else d.setAttribute('hidden', '');
+    });
+    at = order.indexOf(key);
+  }
+  function stop() { if (timer) { clearInterval(timer); timer = null; } }
+
+  asks.forEach(function (b) {
+    b.addEventListener('click', function () { stop(); show(b.getAttribute('data-kito-ask')); });
+  });
+
+  var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!calm) timer = setInterval(function () { show(order[(at + 1) % order.length]); }, 6000);
+})();
