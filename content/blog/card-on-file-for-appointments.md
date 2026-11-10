@@ -9,7 +9,7 @@ date: 2026-11-10
 pillar: money
 keywords: card on file for appointments
 photoTerms: nail technician with client at salon front desk | barber talking with client in his chair | lash artist greeting client in studio
-status: draft
+status: published
 ---
 
 Most owners who put off charging a no-show fee are not nervous about the fee. They are nervous about the conversation. Asking a client for $45 after they missed their Tuesday is a message you have to write, send and then live with, so the policy sits on the booking page unenforced.

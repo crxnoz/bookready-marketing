@@ -94,6 +94,7 @@ What BKRDY does not have today:
 ## Articles
 
 <!-- blog:start -->
+- [Keeping a card on file, without the awkward part](https://bkrdy.com/blog/card-on-file-for-appointments/): What a card on file actually means, how it differs from a deposit, the four lines to put on your booking page, and when to waive the fee anyway.
 - [Free salon booking software, and what free costs](https://bkrdy.com/blog/free-salon-booking-software/): Free salon booking software comes in four shapes, and each one charges you somewhere else. How to read the word free before you move your client list.
 - [Double booking: the mistake and the technique](https://bkrdy.com/blog/what-is-double-booking/): Two clients in one slot is either a scheduling accident or a deliberate overlap. How to tell which, when overlapping pays, and what to say.
 - [Starting a lash business with almost no money](https://bkrdy.com/blog/start-a-lash-business-with-no-money/): You cannot start a lash business for free, but you can start small. Here is the order to spend in, what can wait, and how to get your first clients.
@@ -133,5 +134,4 @@ What BKRDY does not have today:
 - [Why Nail Appointment Reminders Reduce Gaps](https://bkrdy.com/blog/why-nail-appointment-reminders-reduce-gaps/): Discover why nail appointment reminders reduce gaps and boost revenue. Learn how automated notifications can transform your salon's schedule.
 - [How to get more salon reviews (without feeling pushy).](https://bkrdy.com/guides/how-to-get-more-salon-reviews/): Get more salon reviews without begging. The right moment to ask, how to automate it, where reviews matter most, and why volume and recency beat a perfect 5.0.
 - [What Does Studio Branding Mean Online for Beauty Pros](https://bkrdy.com/blog/what-does-studio-branding-mean-online-for-beauty-pros/): Discover what studio branding means online for beauty pros. Learn how to attract clients and enhance your brand's identity today!
-- [The Real Role of Client-Facing Booking Pages](https://bkrdy.com/blog/the-real-role-of-client-facing-booking-pages/): Discover the crucial role of client-facing booking pages in beauty businesses. Optimize yours to convert visitors into confirmed appointments!
 <!-- blog:end -->
