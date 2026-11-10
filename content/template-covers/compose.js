@@ -1,7 +1,7 @@
 // Template covers, step 2 of 2: two phones on the night ground, lit in each template's colour, 1280x1600.
 //   node content/template-covers/compose.js ["slug slug"] [out dir]
 // Hostinger serves images with a one-year immutable cache, so a new set of covers needs NEW file names:
-// write them to the next folder and repoint the pages, never overwrite one in place. Today's set is v3, so the next is v4.
+// write them to the next folder and repoint the pages, never overwrite one in place. Today's set is v4 (2026-11-10, shot from the live demo sites), so the next is v5.
 // Template covers for bkrdy.com: two phones (booking behind, opening screen in front) on the
 // site's night ground, lit by each template's own colour. 1280x1600 (4:5), like the old ones.
 const { chromium } = require('C:/Users/carre/bookready/web/node_modules/playwright');
@@ -17,7 +17,7 @@ const GLOW = {
   savilerow: ['#C9A45C', '#5C4A2A'], thefaderoom: ['#E21ED6', '#6B1AF0'], velvettheory: ['#A33A55', '#5A1A2A'],
 };
 const slugs = process.argv[2] ? process.argv[2].split(' ') : Object.keys(GLOW);
-const OUT = process.argv[3] || path.join(__dirname, '..', '..', 'images', 'templates', 'v3');
+const OUT = process.argv[3] || path.join(__dirname, '..', '..', 'images', 'templates', 'v4');
 fs.mkdirSync(OUT, { recursive: true });
 
 const html = (s, [a, b], top) => `<!doctype html><html><head><meta charset="utf-8"><style>

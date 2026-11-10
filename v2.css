@@ -227,7 +227,8 @@ img { max-width: 100%; display: block; }
 .m-btn--ink { background: var(--app-ink); color: #F8F3EA; }
 .m-btn--chip { background: var(--app-chip); color: var(--app-ink); }
 .m-composer { position: relative; margin: 0 14px 6px; padding: 12px 12px 10px 16px; border-radius: 20px; background: var(--app-ink); color: #9AA6B6; }
-.m-composer__peek { position: absolute; right: 22px; top: -34px; width: 64px; height: auto; }
+/* His paws rest on the top edge of the box: the image's bottom sits on it, so his eyes are clear of it. */
+.m-composer__peek { position: absolute; right: 22px; top: -48px; width: 72px; height: auto; }
 .m-composer__bar { display: flex; align-items: center; gap: 8px; }
 .m-send { margin-left: auto; width: 30px; height: 30px; border-radius: 999px; display: flex; align-items: center; justify-content: center; background: #E7B9A6; color: var(--app-ink); }
 .m-fine { padding: 0 0 10px; text-align: center; font-size: 10px; color: var(--app-muted); }
@@ -835,11 +836,6 @@ img { max-width: 100%; display: block; }
 .v-how { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; margin-top: 64px; }
 .v-how > div { display: flex; flex-direction: column; gap: 10px; }
 .v-how svg { color: var(--accent); }
-.v-never { margin-top: 64px; padding: 32px; display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 32px; align-items: center; }
-.v-never__head { display: flex; flex-direction: column; gap: 8px; }
-.v-never__list { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-.v-never__list li { display: flex; align-items: center; gap: 10px; min-height: 50px; padding: 8px 16px; border-radius: 16px; background: var(--surface-3); font-size: 15px; font-weight: 600; }
-.v-never__list svg { flex: none; color: var(--accent); }
 
 /* Platform: each tile shows a piece of the product. */
 .v-span-3 { grid-column: span 3; }
@@ -933,7 +929,6 @@ img { max-width: 100%; display: block; }
   .v-does { grid-template-columns: minmax(0, 1fr); }
   .v-does .v-feature__vis { height: auto; }
   .v-how { grid-template-columns: minmax(0, 1fr); gap: 28px; margin-top: 48px; }
-  .v-never { grid-template-columns: minmax(0, 1fr); gap: 20px; margin-top: 48px; padding: 24px; }
   .v-extras__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 760px) {
@@ -943,7 +938,6 @@ img { max-width: 100%; display: block; }
   .v-asks__label { display: none; }
   .v-ask { flex: none; }
   .v-asks + .v-frame { margin-top: 12px; }
-  .v-never__list { grid-template-columns: minmax(0, 1fr); }
   /* Twelve tiles would be a long scroll on a phone: two columns of names. */
   .v-extras__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
   .v-extras__grid li { align-items: center; gap: 10px; padding: 12px 14px; }
