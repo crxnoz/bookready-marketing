@@ -69,7 +69,7 @@
             "name": "Do I need a card to sign up?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No. Sign up with Google or email, pick a template and your site is live. A card only comes in if you choose a paid plan later, which starts with 7 days free."
+              "text": "No. Sign up with Google or email, tell us your trade and your site is live. Your first 30 days include everything in Solo, with no card. A card only comes in if you choose a paid plan."
             }
           },
           {
@@ -93,7 +93,15 @@
             "name": "What's the catch?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Free has 4 templates, keeps a small BKRDY badge on your site, and leaves out text reminders, card on file and extras such as the waitlist, gift cards and loyalty. The booking engine is the same on every plan."
+              "text": "Free has 4 templates and 6 gallery photos, keeps a small BKRDY badge on your site, and leaves out text reminders, card on file and extras such as the waitlist, gift cards and loyalty. You get one discount code, for a welcome offer. The booking engine is the same on every plan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens after my first 30 days?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nothing is charged and nothing is deleted. If you don’t pick a plan, your studio is on Free: your site, your calendar and your bookings keep working. Text reminders stop and email reminders keep going, and your site shows your first 6 gallery photos. Pick Solo any time and the rest comes back."
             }
           },
           {
@@ -101,7 +109,7 @@
             "name": "What happens if I upgrade, or come back to Free?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Upgrading starts with 7 days free, and everything unlocks right away. Your site, services and clients stay as they are. If you cancel later, your site stays live on Free."
+              "text": "Solo is $1 for your first month, then $21 a month. Studio and Studio+ start with 7 days free. Everything unlocks right away, and your site, services and clients stay as they are. If you cancel later, your site stays live on Free."
             }
           }
         ]
@@ -157,9 +165,22 @@
             </div>
             <p class="v-mono v-hero__fine">No card · No time limit · 0% commission</p>
           </div>
-          <div class="v-moon" aria-hidden="true">
-            <span class="v-moon__disc"></span>
-            <span class="v-moon__num">$0</span>
+          <div class="v-moon v-moon--receipt" aria-hidden="true">
+            <div class="v-receipt">
+              <span class="v-receipt__head">Your plan</span>
+              <span class="v-receipt__when">Free, every month</span>
+              <b class="v-receipt__what">Your booking site</b>
+              <span class="v-receipt__who">yourname.bkrdy.me</span>
+              <div class="v-receipt__rule"></div>
+              <div class="v-receipt__row"><span>Site and calendar</span><span>$0.00</span></div>
+              <div class="v-receipt__row"><span>Online booking and deposits</span><span>$0.00</span></div>
+              <div class="v-receipt__row"><span>Email reminders</span><span>$0.00</span></div>
+              <div class="v-receipt__row"><span>Kito, 25 messages</span><span>$0.00</span></div>
+              <div class="v-receipt__row is-zero"><span>BKRDY commission</span><span>$0.00</span></div>
+              <div class="v-receipt__rule"></div>
+              <div class="v-receipt__row is-total"><span>Due</span><span>$0.00</span></div>
+              <span class="v-receipt__fine">No card on file. Stripe’s standard card fee applies to payments your clients make.</span>
+            </div>
           </div>
         </div>
       </section>
@@ -174,6 +195,10 @@
             </div>
             <p class="v-body">Free and paid run the same booking engine. Paid plans add the extras that matter once the bookings are flowing.</p>
           </div>
+          <div class="v-card v-offer">
+            <span class="v-offer__tag">New studios</span>
+            <p><strong>Your first 30 days are Solo, free.</strong> No card. Then keep it for $1 the first month, or stay on Free for good.</p>
+          </div>
           <div class="v-have">
             <article class="v-card v-have__card">
               <div><p class="v-mono v-eyebrow">On Free</p><div style="margin-top: 8px"><span class="v-plan__amt">$0</span><span class="v-plan__per"> forever</span></div></div>
@@ -185,6 +210,7 @@
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Email confirmations and reminders</span></li>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Client book, policies and verified reviews</span></li>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>A gallery of six photos</span></li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>One welcome offer: a first-visit discount on your site</span></li>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Kito, your AI assistant, 25 messages a month</span></li>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>4 templates: Opaline, Blackline, The Fade Room and Lush Studio</span></li>
               </ul>
@@ -197,7 +223,8 @@
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Unlimited text reminders</span></li>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Card on file and late cancellation fees</span></li>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Waitlist, after-hours and squeeze-in slots</span></li>
-                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Gift cards, coupons, packages and loyalty cards</span></li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Gift cards, more discount codes, packages and loyalty cards</span></li>
+                <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Kito, 100 messages a month</span></li>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Automatic review requests, client tags, a bigger gallery</span></li>
                 <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Staff calendars and logins on Studio and Studio+</span></li>
               </ul>
@@ -219,9 +246,9 @@
           </div>
           <div class="v-duo">
             <article class="v-card v-point">
-              <p class="v-mono">No trial clock</p>
+              <p class="v-mono">No card on file</p>
               <h3 class="v-h3">Free stays free.</h3>
-              <p class="v-body">There is no countdown and no card on file. Your site stays live for as long as you want it.</p>
+              <p class="v-body">Your first 30 days include everything in Solo. When they end, nothing is charged and nothing is deleted: your site stays live on Free for as long as you want it.</p>
             </article>
             <article class="v-card v-point">
               <p class="v-mono">No booking cap</p>
@@ -262,7 +289,7 @@
             </details>
             <details>
               <summary>Do I need a card to sign up?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
-              <p>No. Sign up with Google or email, pick a template and your site is live. A card only comes in if you choose a paid plan later, which starts with 7 days free.</p>
+              <p>No. Sign up with Google or email, tell us your trade and your site is live. Your first 30 days include everything in Solo, with no card. A card only comes in if you choose a paid plan.</p>
             </details>
             <details>
               <summary>Can I take deposits on Free?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
@@ -274,11 +301,15 @@
             </details>
             <details>
               <summary>What's the catch?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
-              <p>Free has 4 templates, keeps a small BKRDY badge on your site, and leaves out text reminders, card on file and extras such as the waitlist, gift cards and loyalty. The booking engine is the same on every plan.</p>
+              <p>Free has 4 templates and 6 gallery photos, keeps a small BKRDY badge on your site, and leaves out text reminders, card on file and extras such as the waitlist, gift cards and loyalty. You get one discount code, for a welcome offer. The booking engine is the same on every plan.</p>
+            </details>
+            <details>
+              <summary>What happens after my first 30 days?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+              <p>Nothing is charged and nothing is deleted. If you don’t pick a plan, your studio is on Free: your site, your calendar and your bookings keep working. Text reminders stop and email reminders keep going, and your site shows your first 6 gallery photos. Pick Solo any time and the rest comes back.</p>
             </details>
             <details>
               <summary>What happens if I upgrade, or come back to Free?<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
-              <p>Upgrading starts with 7 days free, and everything unlocks right away. Your site, services and clients stay as they are. If you cancel later, your site stays live on Free.</p>
+              <p>Solo is $1 for your first month, then $21 a month. Studio and Studio+ start with 7 days free. Everything unlocks right away, and your site, services and clients stay as they are. If you cancel later, your site stays live on Free.</p>
             </details>
           </div>
         </div>
