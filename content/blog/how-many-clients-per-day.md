@@ -9,7 +9,7 @@ date: 2026-11-11
 pillar: the-week
 keywords: how many clients per day, daily capacity salon
 photoTerms: lash artist working on client eyes salon | barber cleaning station end of day | massage therapist working on client back
-status: draft
+status: published
 ---
 
 The number of clients you can do in a day is not the number of appointments that fit between opening and closing. It is lower, and the space between those two numbers is where most owners quietly wear themselves out.
