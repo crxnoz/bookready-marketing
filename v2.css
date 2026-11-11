@@ -227,8 +227,10 @@ img { max-width: 100%; display: block; }
 .m-btn--ink { background: var(--app-ink); color: #F8F3EA; }
 .m-btn--chip { background: var(--app-chip); color: var(--app-ink); }
 .m-composer { position: relative; margin: 0 14px 6px; padding: 12px 12px 10px 16px; border-radius: 20px; background: var(--app-ink); color: #9AA6B6; }
-/* His paws rest on the top edge of the box: the image's bottom sits on it, so his eyes are clear of it. */
-.m-composer__peek { position: absolute; right: 22px; top: -48px; width: 72px; height: auto; }
+/* His paws hang over the top edge of the box. The picture is 50.4px tall at this width and has
+   3.8px of empty space under the paws, so -42 puts the paws about 5px over the edge with no gap
+   (at -48 they floated a pixel above it). His eyes stay clear of the box. */
+.m-composer__peek { position: absolute; right: 22px; top: -42px; width: 72px; height: auto; }
 .m-composer__bar { display: flex; align-items: center; gap: 8px; }
 .m-send { margin-left: auto; width: 30px; height: 30px; border-radius: 999px; display: flex; align-items: center; justify-content: center; background: #E7B9A6; color: var(--app-ink); }
 .m-fine { padding: 0 0 10px; text-align: center; font-size: 10px; color: var(--app-muted); }
