@@ -37,7 +37,7 @@ One honest caveat. Vagaro does not export appointment history as cleanly as it e
 
 ## Start your BKRDY trial and send us the file.
 
-Head to bkrdy.com and sign up. The Free plan needs no card, so there is zero risk in setting things up before you commit, and a paid plan starts with 7 days free. Once you have an account, you are ready for the free lift.
+Head to bkrdy.com and sign up. The Free plan needs no card, so there is zero risk in setting things up before you commit, and every new studio gets 30 days of Solo free. Once you have an account, you are ready for the free lift.
 
 Email your Vagaro export and those screenshots to hello@bkrdy.com. For most accounts, the team runs the import the same day. We do not just dump a spreadsheet in either. Using the screenshots you took last week, we rebuild your service menu so the structure matches what your clients already know, right down to service names and durations. Your hours, policies and Stripe connection stay with you, since those are your calls.
 
@@ -111,7 +111,7 @@ No, and you should not. Run both in parallel during your trial. Cancel Vagaro on
 
 ### Will I be billed twice during the switch?
 
-Barely, if at all. The Free plan has no card and no clock, so you can overlap with Vagaro at no extra cost for as long as you need, and a paid plan starts with 7 days free. Most owners finish the move in a day or two.
+Barely, if at all. The Free plan has no card and no clock, so you can overlap with Vagaro at no extra cost for as long as you need, and every new studio gets 30 days of Solo free. Most owners finish the move in a day or two.
 
 ### What about my Vagaro memberships and packages?
 

@@ -24,6 +24,7 @@
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, rmSync } from 'node:fs';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
 import { frontMatter, markdown, stripTags, slugify } from './md.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
@@ -281,6 +282,26 @@ ${sh.footer}
 }
 
 // ── sitemap + llms.txt ───────────────────────────────────────────────────────
+// When each page of the site last really changed: the date of the newest commit
+// that touched its file, or today when the file has changes not committed yet.
+// Null when git cannot answer (no git, not a checkout), and then no date moves.
+function pageDates() {
+  try {
+    const git = args => execFileSync('git', args, { cwd: ROOT, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'] });
+    const dates = new Map();
+    let day = null;
+    for (const line of git(['log', '--format=@%cs', '--name-only', '--', '*.html']).split(/\r?\n/)) {
+      if (line.startsWith('@')) day = line.slice(1);
+      else if (line && day && !dates.has(line)) dates.set(line, day);
+    }
+    for (const line of git(['status', '--porcelain', '--', '*.html']).split(/\r?\n/)) {
+      const file = line.slice(3).trim().replace(/^"|"$/g, '');
+      if (file) dates.set(file, TODAY);
+    }
+    return dates;
+  } catch { return null; }
+}
+
 function updateSitemap(posts) {
   const f = join(ROOT, 'sitemap.xml');
   let xml = readFileSync(f, 'utf8');
@@ -288,6 +309,19 @@ function updateSitemap(posts) {
   // Drop every /blog/ and /guides/ url, then write the live ones back in one
   // block before </urlset>. A draft therefore cannot leave a stale entry behind.
   xml = xml.replace(/^[ \t]*<url>(?:(?!<\/url>)[\s\S])*?<loc>https:\/\/bkrdy\.com\/(?:blog|guides)\/[^<]*<\/loc>[\s\S]*?<\/url>[ \t]*\r?\n/gm, '');
+  // What is left is every other page, and its date was typed by hand. Those
+  // went stale: on 2026-11-11 the homepage still said June 8, a day after a
+  // relaunch changed nearly every page, and a sitemap whose dates are wrong
+  // teaches Google to ignore all of them. So each date follows its file. It
+  // only ever moves forward, so a shallow checkout cannot push one back.
+  const dates = pageDates();
+  if (dates) {
+    xml = xml.replace(/(<loc>https:\/\/bkrdy\.com\/([^<]*)<\/loc>\s*<lastmod>)([^<]+)(<\/lastmod>)/g,
+      (row, head, path, was, tail) => {
+        const day = dates.get(`${path}index.html`);
+        return day && day > was ? head + day + tail : row;
+      });
+  }
   const rows = [];
   for (const s of Object.keys(SECTIONS)) {
     const list = posts.filter(p => p.section === s).sort(byDate);

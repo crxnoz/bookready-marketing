@@ -43,11 +43,23 @@ export function frontMatter(src) {
 export const slugify = t => String(t).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
   .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
+// A link to one of our own pages without its final slash works, but only
+// through a redirect (/for-nail-techs answers 301 to /for-nail-techs/), and
+// about a third of the links in the articles were written that way. Every page
+// on the site is a folder, so the slash is added here instead of being asked of
+// every writer. A file (.png, .pdf), another site and the app are left alone.
+export function pageUrl(url) {
+  const m = url.match(/^((?:https?:\/\/(?:www\.)?bkrdy\.com)?\/[^?#]*)([?#].*)?$/);
+  if (!m || url.startsWith('//')) return url;
+  if (m[1].endsWith('/') || /\.[a-z0-9]{2,5}$/i.test(m[1])) return url;
+  return m[1] + '/' + (m[2] || '');
+}
+
 function inline(s) {
   return esc(s)
     .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, text, url) => {
       const external = /^https?:\/\//.test(url) && !/^https?:\/\/(www\.)?bkrdy\.(com|me)/.test(url);
-      return `<a href="${url}"${external ? ' target="_blank" rel="noopener"' : ''}>${text}</a>`;
+      return `<a href="${pageUrl(url)}"${external ? ' target="_blank" rel="noopener"' : ''}>${text}</a>`;
     })
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     .replace(/(^|[^*])\*([^*\s][^*]*)\*/g, '$1<em>$2</em>');

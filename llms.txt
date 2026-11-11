@@ -6,7 +6,7 @@ Key facts for accurate citation:
 - BKRDY is one product that replaces a website builder, a scheduling tool, a payments setup and a client list. Owners run the whole studio from it.
 - Target market: US beauty and appointment businesses, solo and small teams: lash artists, nail techs, barbers, hair salons, estheticians, spas, brow artists, tattoo studios, solo pros. US businesses only for now (USD).
 - Plans: Free $0 forever (no card, no booking cap), Solo $21/mo or $18/mo billed yearly ($216/yr, one calendar), Studio $34/mo or $29/mo billed yearly ($348/yr, up to 6 staff), Studio+ $55/mo or $47/mo billed yearly ($564/yr, up to 12 staff), Salon priced per project for bigger teams. Paid prices are founding-member prices, locked for the life of the subscription.
-- Paid plans start with a 7-day free trial that requires a card. A cancelled subscription drops back to the Free plan and the booking site stays live.
+- Every new studio starts with 30 days of Solo, free, with no card. After the 30 days nothing is charged and nothing is deleted: a studio that has not picked a plan moves to the Free plan. The first time an owner picks Solo on monthly billing, the first month is $1, then $21 a month, once per studio. Studio and Studio+ start with a 7-day free trial that requires a card. A cancelled subscription drops back to the Free plan and the booking site stays live.
 - Add-on for the Free plan, $5.99/mo: every template plus the design extras (announcement bar, introduction block, FAQ section, theme effects, custom links). Included on every paid plan.
 - 0% commission on customer payments on every plan, including new clients. Stripe's standard card fee (2.9% + 30c) applies.
 - Not a marketplace: clients book on the studio's own site, not a shared listing.
@@ -17,7 +17,7 @@ Kito, the AI assistant:
 - Kito lives in the owner's editor. He answers questions about the calendar, clients and money in plain words with real names, times and numbers, finds openings, and reports how busy the calendar has been and what sells.
 - He proposes bookings, moves, cancellations, confirming or declining requests and blocking time as a card the owner confirms. Nothing changes until the owner taps Confirm.
 - He reads photos and PDFs the owner attaches. He never talks to clients.
-- In a pilot since October 2026, rolling out to every studio next.
+- In every studio, on every plan: 25 messages a month on Free, 100 on paid plans.
 
 Booking and the calendar:
 - Clients book 24/7 as a guest, no account needed, and cancel or reschedule from the link in their confirmation email inside the windows the owner sets. An optional free client account shows their bookings and receipts in one place.
