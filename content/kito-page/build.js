@@ -75,13 +75,13 @@ const head = `<!doctype html>
     <meta property="og:site_name" content="BKRDY" />
     <meta property="og:title" content="${OG_TITLE}" />
     <meta property="og:description" content="${OG_DESC}" />
-    <meta property="og:image" content="https://bkrdy.com/images/og/v2/home.jpg" />
+    <meta property="og:image" content="https://bkrdy.com/images/og/v2/kito.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${OG_TITLE}" />
     <meta name="twitter:description" content="${OG_DESC}" />
-    <meta name="twitter:image" content="https://bkrdy.com/images/og/v2/home.jpg" />
+    <meta name="twitter:image" content="https://bkrdy.com/images/og/v2/kito.jpg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
