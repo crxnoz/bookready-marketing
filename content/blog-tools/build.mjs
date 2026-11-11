@@ -84,7 +84,7 @@ export function loadPosts() {
     const rest = cut < 0 ? '' : body.slice(cut);
     const L = markdown(lede), R = markdown(rest);
     return {
-      ...meta, key, section, body,
+      ...meta, key, section, body, file: n,
       slug: meta.slug || key,
       pillar: PILLAR(meta.pillar).id,
       status: meta.status || 'published',
@@ -124,7 +124,7 @@ function articlePage(p, all, sh) {
   const og = ogImage(p);
   const ld = [
     { '@context': 'https://schema.org', '@type': 'BlogPosting', headline: p.title, description: p.description,
-      datePublished: p.date, dateModified: p.updated || p.date, url: ORIGIN + p.url, image: og,
+      datePublished: p.date, dateModified: p.modified || p.updated || p.date, url: ORIGIN + p.url, image: og,
       author: { '@type': 'Organization', name: 'BKRDY', url: ORIGIN },
       publisher: { '@type': 'Organization', name: 'BKRDY', url: ORIGIN },
       mainEntityOfPage: { '@type': 'WebPage', '@id': ORIGIN + p.url }, articleSection: pil.label },
@@ -282,24 +282,41 @@ ${sh.footer}
 }
 
 // ── sitemap + llms.txt ───────────────────────────────────────────────────────
-// When each page of the site last really changed: the date of the newest commit
-// that touched its file, or today when the file has changes not committed yet.
-// Null when git cannot answer (no git, not a checkout), and then no date moves.
-function pageDates() {
+// When each file last really changed: the date of the newest commit that
+// touched it, or today when it has changes not committed yet. Null when git
+// cannot answer (no git, not a checkout), and then no date moves.
+function fileDates(glob) {
   try {
     const git = args => execFileSync('git', args, { cwd: ROOT, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'] });
     const dates = new Map();
     let day = null;
-    for (const line of git(['log', '--format=@%cs', '--name-only', '--', '*.html']).split(/\r?\n/)) {
+    for (const line of git(['log', '--format=@%cs', '--name-only', '--', glob]).split(/\r?\n/)) {
       if (line.startsWith('@')) day = line.slice(1);
       else if (line && day && !dates.has(line)) dates.set(line, day);
     }
-    for (const line of git(['status', '--porcelain', '--', '*.html']).split(/\r?\n/)) {
+    for (const line of git(['status', '--porcelain', '--', glob]).split(/\r?\n/)) {
       const file = line.slice(3).trim().replace(/^"|"$/g, '');
       if (file) dates.set(file, TODAY);
     }
     return dates;
   } catch { return null; }
+}
+const pageDates = () => fileDates('*.html');
+
+// An article's date is the day it went live, and it stayed the only date the
+// sitemap and the page gave, whatever happened to the words after. On
+// 2026-11-11 the sitemap dated 36 articles June or July that had been
+// corrected on November 3, while Google was leaving them out of its index.
+// So each article also carries the day its source last changed, never earlier
+// than the date it gives itself, and both the sitemap and the page's
+// dateModified read that one value, so the two can never disagree.
+function stampModified(posts) {
+  const edited = fileDates('content/blog/*.md');
+  for (const p of posts) {
+    const own = String(p.updated || p.date || '');
+    const day = edited ? edited.get(`content/blog/${p.file}`) : null;
+    p.modified = day && day > own ? day : own;
+  }
 }
 
 function updateSitemap(posts) {
@@ -327,7 +344,7 @@ function updateSitemap(posts) {
     const list = posts.filter(p => p.section === s).sort(byDate);
     if (!list.length) continue;
     rows.push(`  <url><loc>${ORIGIN}/${SECTIONS[s].path}/</loc><lastmod>${list[0].date}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`);
-    for (const p of list) rows.push(`  <url><loc>${ORIGIN}${p.url}</loc><lastmod>${p.updated || p.date}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>`);
+    for (const p of list) rows.push(`  <url><loc>${ORIGIN}${p.url}</loc><lastmod>${p.modified || p.updated || p.date}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>`);
   }
   xml = xml.replace(/[ \t]*<\/urlset>/, rows.join(eol) + eol + '</urlset>');
   writeFileSync(f, xml);
@@ -356,6 +373,7 @@ function updateLlms(posts) {
 export function build() {
   const sh = shell();
   const all = loadPosts();
+  stampModified(all);
   const posts = all.filter(live);
   const held = all.filter(p => !live(p));
 
