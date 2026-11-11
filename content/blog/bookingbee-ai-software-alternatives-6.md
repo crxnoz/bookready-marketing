@@ -359,5 +359,5 @@ BKRDY includes automatic reminders to help reduce no-shows and keep clients info
 
 - [Top 4 Yeswebook.vn Alternatives 2026 | BKRDY](/blog/yeswebook-vn-alternatives-4)
 - [Salon Booking Software Compared (2026) | BKRDY](/blog/salon-booking-software-comparison)
-- [Best Acuity Alternatives for Salons in 2026 | BKRDY](/blog/best-acuity-alternatives-for-salons)
+- [Acuity alternatives for salons, side by side | BKRDY](/compare/acuity-alternative/)
 - [Best Booking Websites for Barbers in 2026 | BKRDY](/blog/best-booking-websites-for-barbers-in-2026)

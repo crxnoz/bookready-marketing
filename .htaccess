@@ -55,6 +55,14 @@ RewriteRule ^platform/booking/recurring/?$ /platform/booking/calendar/ [R=301,L]
 # Redirect to /templates/ — closest intent match for a visitor who clicked an old link.
 RewriteRule ^customers/?$ /templates/ [R=301,L]
 
+# Folded 2026-11-11: two "best X alternatives" articles competed with our own
+# comparison pages for the same searches (Search Console showed Google splitting
+# each search between the two). The comparison page is now the one page per
+# competitor and carries the article's list of other options, so the article's
+# address forwards to it. See docs/search-visibility.md in the app repo.
+RewriteRule ^blog/vagarocom-alternatives/?$ /compare/vagaro-alternative/ [R=301,L]
+RewriteRule ^blog/best-acuity-alternatives-for-salons/?$ /compare/acuity-alternative/ [R=301,L]
+
 # Force trailing slash on directory URLs (consolidates link equity to one canonical form)
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_URI} !(.*)/$

@@ -277,7 +277,7 @@ BKRDY has a Free plan at $0, and paid plans start at $18 a month when billed ann
 
 ## Recommended
 
-- [Best Acuity Alternatives for Salons in 2026 | BKRDY](/blog/best-acuity-alternatives-for-salons)
+- [Acuity alternatives for salons, side by side | BKRDY](/compare/acuity-alternative/)
 - [Best Booking Websites for Barbers in 2026 | BKRDY](/blog/best-booking-websites-for-barbers-in-2026)
 - [Salon Booking Software Compared (2026) | BKRDY](/blog/salon-booking-software-comparison)
 - [Booksy Pricing 2026: Fees, Add-ons, Verdict | BKRDY](/blog/booksy-pricing)

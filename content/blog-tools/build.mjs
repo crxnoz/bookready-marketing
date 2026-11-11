@@ -371,7 +371,7 @@ export function build() {
     if (owned.has(rel) && existsSync(join(ROOT, rel, 'index.html'))) {
       rmSync(join(ROOT, rel), { recursive: true, force: true });
       owned.delete(rel);
-      log(`removed /${rel}/ (${p.status === 'draft' ? 'draft' : 'dated ' + p.date})`);
+      log(`removed /${rel}/ (${p.status === 'published' ? 'dated ' + p.date : p.status})`);
     }
   }
 

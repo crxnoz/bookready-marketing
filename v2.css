@@ -438,6 +438,9 @@ img { max-width: 100%; display: block; }
 .v-point { padding: 32px; display: flex; flex-direction: column; gap: 12px; }
 .v-point .v-mono { margin: 0; color: var(--text-3); }
 .v-point .v-h3 { font-size: 22px; }
+/* A card that ends in a link (the comparison pages' other options) keeps the
+   link on its last line, so a row of cards lines up whatever the text length. */
+.v-point .v-link { margin-top: auto; padding-top: 4px; font-size: 15px; }
 
 /* Template covers with their names. */
 .v-tpls { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }

@@ -10,7 +10,8 @@ pillar: switching
 keywords: acuity alternatives salons, acuity scheduling alternatives
 photo: best-acuity-alternatives-for-salons
 photoAlt: Hair salon interior
-status: published
+status: folded
+foldedInto: /compare/acuity-alternative/
 migrated: true
 ---
 

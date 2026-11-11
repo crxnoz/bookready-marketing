@@ -82,7 +82,7 @@ Five things, all easier to ask before you sign than after:
 
 If you do move later, the [step by step for leaving Vagaro](/guides/migrate-from-vagaro/) covers the order.
 
-If you run a team with retail, classes or memberships and somebody keeps the system tidy, Vagaro earns its complexity. If you are one person who wanted a booking page that looks like your business and takes a deposit, a lighter product fits better, and the [roundup of Vagaro alternatives](/blog/vagarocom-alternatives/) names the usual options. That is not a mark against Vagaro. It is built for a bigger business than yours.
+If you run a team with retail, classes or memberships and somebody keeps the system tidy, Vagaro earns its complexity. If you are one person who wanted a booking page that looks like your business and takes a deposit, a lighter product fits better, and the [list of Vagaro alternatives](/compare/vagaro-alternative/#alternatives) names the usual options. That is not a mark against Vagaro. It is built for a bigger business than yours.
 
 ## Questions
 

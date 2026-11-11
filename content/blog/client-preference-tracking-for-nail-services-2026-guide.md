@@ -140,4 +140,4 @@ Records should be updated after every single appointment, ideally before the cli
 - [How Smart Waitlists Retain Nail Clients That Stay | BKRDY](/blog/how-smart-waitlists-retain-nail-clients-that-stay)
 - [Nail Tech Booking Websites | BKRDY](/for-nail-techs)
 - [Nail Salon Booking Software, Compared 2026 | BKRDY](/blog/nail-salon-booking-software)
-- [Best Acuity Alternatives for Salons in 2026 | BKRDY](/blog/best-acuity-alternatives-for-salons)
+- [Acuity alternatives for salons, side by side | BKRDY](/compare/acuity-alternative/)

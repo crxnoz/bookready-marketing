@@ -206,4 +206,4 @@ Appointment scheduling software replaces manual booking processes with automated
 - [What Does Appointment Frequency Mean for Clients? | BKRDY](/blog/what-does-appointment-frequency-mean-for-clients)
 - [Automate Client Appointment Reminders: A Beauty Pro Guide | BKRDY](/blog/automate-client-appointment-reminders-a-beauty-pro-guide)
 - [Why Nail Appointment Reminders Reduce Gaps | BKRDY](/blog/why-nail-appointment-reminders-reduce-gaps)
-- [Best Acuity Alternatives for Salons in 2026 | BKRDY](/blog/best-acuity-alternatives-for-salons)
+- [Acuity alternatives for salons, side by side | BKRDY](/compare/acuity-alternative/)

@@ -10,7 +10,8 @@ pillar: switching
 keywords: vagarocom alternatives, vagaro alternatives
 photo: vagarocom-alternatives
 photoAlt: Best Vagaro.com Alternatives for Salons and Spas in 2026
-status: published
+status: folded
+foldedInto: /compare/vagaro-alternative/
 migrated: true
 ---
 
