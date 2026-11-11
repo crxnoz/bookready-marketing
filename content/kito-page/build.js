@@ -1,8 +1,9 @@
 // Run from anywhere: node content/kito-page/build.js. Rebuild after the homepage's Kito demo,
-// six cards or "how it works" block changes, so the two pages stay the same.
+// cards or "how it works" block changes, so the two pages stay the same.
 //
 // Builds /kito/index.html for the marketing site, in the live look, from pieces the founder
-// approved on the homepage: the "Try asking Kito" demo, the six cards and "how a change works".
+// approved on the homepage: the "Try asking Kito" demo, the three cards (the founder cut the
+// six to three on 2026-11-10: off next Friday, move Dana, who still owes) and "how a change works".
 // The page's own parts are the head, the list of everything he can change, and its questions.
 // Every claim is something a tool in api/app/Kito/Tools really does (docs/kito-plan.md).
 const fs = require('fs');
@@ -160,7 +161,7 @@ ${demo}
           <div class="v-head">
             <div class="v-head__title">
               <p class="v-mono v-eyebrow">What he does</p>
-              <h2 class="v-h2">Six jobs you can<br />hand off.</h2>
+              <h2 class="v-h2">Hand off<br />the busywork.</h2>
             </div>
             <p class="v-body">Each picture is a card Kito really makes. He does the lookups and writes it up, and the button is yours.</p>
           </div>
