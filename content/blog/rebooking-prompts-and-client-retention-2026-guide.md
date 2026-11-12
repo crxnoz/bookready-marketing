@@ -10,7 +10,8 @@ pillar: coming-back
 keywords: rebooking prompts client retention
 photo: rebooking-prompts-and-client-retention-2026-guide
 photoAlt: Rebooking Prompts and Client Retention: 2026 Guide
-status: published
+status: folded
+foldedInto: /guides/how-to-rebook-clients/
 migrated: true
 ---
 

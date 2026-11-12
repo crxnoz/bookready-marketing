@@ -63,7 +63,7 @@ Say the fee before you confirm, never after, because a charge explained at the c
 
 Listen to what is actually being asked. Almost nobody wants 7pm Thursday specifically. They want to come sooner than the appointment they have, and only one of those requests costs you your day.
 
-So answer the real one. Put them on the cancellation list, and when somebody drops out of Wednesday at 11, the slot is theirs. Same client, same week, and now they are delighted rather than squeezed, because a freed slot is a lucky break instead of a favour you quietly pay for. More on running one well in [how waitlists keep clients](/blog/how-smart-waitlists-retain-nail-clients-that-stay/).
+So answer the real one. Put them on the cancellation list, and when somebody drops out of Wednesday at 11, the slot is theirs. Same client, same week, and now they are delighted rather than squeezed, because a freed slot is a lucky break instead of a favour you quietly pay for. More on running one well in [how waitlists keep clients](/blog/nail-client-retention-best-practices-for-nail-techs/).
 
 On paid plans, BKRDY handles both halves: clients can send a squeeze-in request that you approve or decline, with its own fee folded into the appointment total, and a cancellation waitlist offers freed slots to the people waiting. Nothing is charged until you approve it.
 

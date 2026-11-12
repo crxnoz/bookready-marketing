@@ -80,7 +80,7 @@ Appointment frequency is the foundation of a productive client-studio relationsh
 
 Transparency in scheduling communication works both ways. Studios that explain their frequency recommendations build trust faster than those that simply hand over a booking link. Clients who understand the reasoning behind their schedule feel like partners in their own care rather than passive recipients of a service.
 
-Forgetfulness is a common reason for missed appointments, and it grows when sessions lack regularity. A predictable schedule, paired with [automated reminders](/blog/automate-client-appointment-reminders-a-beauty-pro-guide), cuts down on it. Regularity itself becomes a reminder. When you know you always go in on the second Tuesday of the month, you stop forgetting.
+Forgetfulness is a common reason for missed appointments, and it grows when sessions lack regularity. A predictable schedule, paired with [automated reminders](/guides/appointment-reminder-templates/), cuts down on it. Regularity itself becomes a reminder. When you know you always go in on the second Tuesday of the month, you stop forgetting.
 
 | Client behavior | Consistent frequency | Irregular frequency |
 |---|---|---|
@@ -90,7 +90,7 @@ Forgetfulness is a common reason for missed appointments, and it grows when sess
 | Cost over time | Stable and predictable | Higher due to corrective sessions |
 | Accountability | High; schedule creates habit | Low; easy to skip or delay |
 
-The [professional rapport](/blog/professional-branding-and-client-loyalty-for-beauty-pros) built through consistent appointments is genuinely hard to replicate. Your beauty professional remembers what you like, anticipates what you need, and delivers a better result because they know your history. That knowledge only accumulates when you show up on schedule.
+The [professional rapport](/blog/what-does-studio-branding-mean-online-for-beauty-pros/) built through consistent appointments is genuinely hard to replicate. Your beauty professional remembers what you like, anticipates what you need, and delivers a better result because they know your history. That knowledge only accumulates when you show up on schedule.
 
 ## Key Takeaways
 

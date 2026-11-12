@@ -66,6 +66,18 @@ These two steps turn a template into a real business asset, and both are simpler
 
 **Deposits.** Connect Stripe and set one deposit rule for your menu, a flat amount or a percent, that is charged at the moment of booking. The money posts straight to your own Stripe account, not held by a middleman. Deposits are the most effective no-show tool there is, because a client who has put money down shows up or reschedules instead of ghosting. A percent scales with each price, so a long appointment puts more down, and a service with no price takes no deposit, so a free consult stays free. See how [deposits and payments](/platform/tools/payments/) work end to end.
 
+## Add the link to your Google Business Profile.
+
+Your Google Business Profile is often the first place a new client encounters your studio, and it can carry a booking button on both Google Search and Google Maps.
+
+1. Sign in to your Google Business Profile at business.google.com.
+2. Select your business location and choose "Edit profile".
+3. Under "Contact", find the "Booking" or "Appointment links" field.
+4. Paste the direct address of your booking page, not your Instagram or a general contact page.
+5. Save, then check the link on your live profile in both Search and Maps.
+
+Each extra click after arriving from Google loses bookings, so the link should land the client one step from confirming an appointment.
+
 ## Common mistakes to avoid.
 
 Most booking-website regret comes from a handful of avoidable traps. Watch for these.
@@ -75,6 +87,8 @@ Most booking-website regret comes from a handful of avoidable traps. Watch for t
 **Skipping deposits.** If your booking flow takes no money up front, you are absorbing every no-show yourself. Turn deposits on from day one, even a small one.
 
 **Being slow on mobile.** Most of your traffic taps through from a phone. A heavy, slow page loses the booking before the form even loads. Test it on your own phone on cellular, not just on your laptop.
+
+**Asking too much on the form.** Clients abandon booking forms that ask too much of them. Asking for 15 fields when you only need 5 signals that the process will be complicated, and a question with no defined options forces the client to stop and think. Reduce required fields to the absolute minimum needed to prepare for the appointment.
 
 **Hiding your prices.** A booking page with no prices invites the wrong inquiries and wastes your time. List them. The clients who book are the ones you want.
 

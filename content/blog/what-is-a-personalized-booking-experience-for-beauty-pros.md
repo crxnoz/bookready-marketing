@@ -10,7 +10,8 @@ pillar: your-site
 keywords: personalized booking experience beauty
 photo: what-is-a-personalized-booking-experience-for-beauty-pros
 photoAlt: What Is a Personalized Booking Experience for Beauty Pros
-status: published
+status: folded
+foldedInto: /guides/how-to-make-a-booking-website/
 migrated: true
 ---
 
@@ -58,7 +59,7 @@ That quote captures the shift precisely. The bar is no longer “did you remembe
 Creating a personalized booking journey requires a deliberate setup process. The good news is that you do not need to do everything at once. A phased approach works well for independent studios.
 
 1. **Collect client data ethically and consistently.** Use intake forms at the first appointment to capture preferences, allergies, and service goals. Ask for consent to store and use this data. Clients are usually willing to share it when you explain the benefit clearly.
-2. **Build a branded booking page that reflects your studio.** A generic booking link with no branding signals to clients that the experience will be generic too. Your booking page should show your services, your photos, and your personality. BKRDY’s [beauty studio booking setup](/blog/beauty-studio-online-booking-setup-a-practical-guide) covers the practical steps for getting this right without a design background.
+2. **Build a branded booking page that reflects your studio.** A generic booking link with no branding signals to clients that the experience will be generic too. Your booking page should show your services, your photos, and your personality. BKRDY’s [beauty studio booking setup](/guides/how-to-make-a-booking-website/) covers the practical steps for getting this right without a design background.
 3. **Set up automated, service-specific reminders.** [Automation in appointment reminders](https://www.guestara.com/post/personalization-across-the-hotel-guest-journey) enhances client engagement and supports personalized journeys. A reminder for a balayage appointment should include prep instructions specific to that service, not a generic “see you soon” message.
 4. **Segment clients by preference or loyalty tier.** Group your regulars separately from first-time clients. Offer your regulars early access to new services or priority booking windows. This kind of segmentation makes clients feel valued without requiring manual effort every time.
 5. **Track booking drop-offs and refine your flow.** Implementing personalized booking requires evolving the system post-launch with client feedback and analytics on where clients abandon the process. If clients consistently drop off at the deposit step, that is a signal to adjust your deposit flow or messaging.
@@ -104,7 +105,7 @@ What I find most telling is the data around client willingness to share personal
 
 The setup challenge is real. Connecting your CRM, calendar, and payment system takes more than an afternoon. But the studios I have seen struggle most are the ones who tried to build this on a generic platform that was never designed for beauty workflows. The tool matters. A system built around how a lash artist or nail tech actually operates will always outperform a general-purpose scheduler with a logo slapped on it.
 
-My honest advice: do not let perfect be the enemy of functional. A booking page with solid client profiles and one automated reminder sequence is already ahead of most independent studios. Build from there. The [branding and client loyalty](/blog/professional-branding-and-client-loyalty-for-beauty-pros) piece will follow naturally once the operational foundation is solid.
+My honest advice: do not let perfect be the enemy of functional. A booking page with solid client profiles and one automated reminder sequence is already ahead of most independent studios. Build from there. The [branding and client loyalty](/blog/what-does-studio-branding-mean-online-for-beauty-pros/) piece will follow naturally once the operational foundation is solid.
 
 > *, Luis*
 
@@ -134,11 +135,11 @@ Generic platforms are built for broad scheduling needs and miss beauty-specific 
 
 ### How do automated reminders fit into a personalized booking strategy?
 
-Automated reminders become personal when they reference the specific service, stylist, and any prep instructions relevant to that appointment. A reminder for a keratin treatment should read differently than one for a brow wax. [Automation in appointment reminders](/blog/automate-client-appointment-reminders-a-beauty-pro-guide) is one of the fastest ways to improve the client experience without adding to your workload.
+Automated reminders become personal when they reference the specific service, stylist, and any prep instructions relevant to that appointment. A reminder for a keratin treatment should read differently than one for a brow wax. [Automation in appointment reminders](/guides/appointment-reminder-templates/) is one of the fastest ways to improve the client experience without adding to your workload.
 
 ## Recommended
 
 - [The Real Role of Client-Facing Booking Pages | BKRDY](/blog/the-real-role-of-client-facing-booking-pages)
-- [Personalized Nail Client Experience: Your 2026 Guide | BKRDY](/blog/personalized-nail-client-experience-your-2026-guide)
+- [Client Preference Tracking for Nail Services: 2026 Guide | BKRDY](/blog/client-preference-tracking-for-nail-services-2026-guide/)
 - [The Role of Instant Booking for New Clients in Beauty | BKRDY](/blog/the-role-of-instant-booking-for-new-clients-in-beauty)
-- [New Client Booking Flow: A Guide for Beauty Pros | BKRDY](/blog/new-client-booking-flow-a-guide-for-beauty-pros)
+- [How to Make a Booking Website (No Code) | BKRDY](/guides/how-to-make-a-booking-website/)

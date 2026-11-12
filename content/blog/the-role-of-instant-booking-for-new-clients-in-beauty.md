@@ -28,7 +28,7 @@ Platform visibility compounds this effect. [Major service platforms prioritize i
 
 **Pro Tip:** *Set your instant booking window to cover your next 30 days of availability. Clients searching for appointments within that window convert at a much higher rate than those browsing open-ended calendars.*
 
-The [new client booking flow](/blog/new-client-booking-flow-a-guide-for-beauty-pros) you create shapes first impressions. A frictionless path from “I found you” to “I’m booked” is the most effective conversion tool you have.
+The [new client booking flow](/guides/how-to-make-a-booking-website/) you create shapes first impressions. A frictionless path from “I found you” to “I’m booked” is the most effective conversion tool you have.
 
 ## What client quality controls can you use with instant booking?
 
@@ -59,7 +59,7 @@ Getting instant booking right takes more than flipping a switch. The setup decis
 4. **Activate automated reminders.** A confirmation message sent immediately after booking, followed by a reminder 24 hours before the appointment, reduces no-shows without any manual effort from you. BKRDY includes automatic reminders built into its booking system, so this runs without you touching it.
 5. **Follow up after the first appointment.** A short message asking for a review or offering a rebooking link turns a one-time new client into a repeat client. Pair this with client history tracking so your follow-ups feel personal, not generic.
 
-The [online booking setup process](/blog/beauty-studio-online-booking-setup-a-practical-guide) matters as much as the booking system itself. A well-structured setup prevents the operational headaches that make professionals abandon instant booking prematurely.
+The [online booking setup process](/guides/how-to-make-a-booking-website/) matters as much as the booking system itself. A well-structured setup prevents the operational headaches that make professionals abandon instant booking prematurely.
 
 ## How does instant booking improve the client experience?
 
@@ -130,7 +130,6 @@ Clients who experience a fast, frictionless first booking are more likely to reb
 
 ## Recommended
 
-- [New Client Booking Flow: A Guide for Beauty Pros | BKRDY](/blog/new-client-booking-flow-a-guide-for-beauty-pros)
-- [Automate Client Appointment Reminders: A Beauty Pro Guide | BKRDY](/blog/automate-client-appointment-reminders-a-beauty-pro-guide)
-- [Beauty Studio Online Booking Setup: A Practical Guide | BKRDY](/blog/beauty-studio-online-booking-setup-a-practical-guide)
-- [Rebooking Prompts and Client Retention: 2026 Guide | BKRDY](/blog/rebooking-prompts-and-client-retention-2026-guide)
+- [How to Make a Booking Website (No Code) | BKRDY](/guides/how-to-make-a-booking-website/)
+- [Salon Appointment Reminder Templates | BKRDY](/guides/appointment-reminder-templates/)
+- [How to Rebook Clients: Scripts and Intervals | BKRDY](/guides/how-to-rebook-clients/)

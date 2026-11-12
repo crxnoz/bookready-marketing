@@ -10,7 +10,8 @@ pillar: your-site
 keywords: new client booking flow beauty
 photo: new-client-booking-flow-a-guide-for-beauty-pros
 photoAlt: New Client Booking Flow: A Guide for Beauty Pros
-status: published
+status: folded
+foldedInto: /guides/how-to-make-a-booking-website/
 migrated: true
 ---
 
@@ -82,7 +83,7 @@ The most effective approach combines all of these steps into a single link or pa
 
 **Pro Tip:** *Your welcome email is not just a receipt. Use it to share a preparation checklist, a photo of your studio, and a short note about what makes your service different. Clients who feel informed before they arrive cancel far less often.*
 
-The [beauty studio booking setup](/blog/beauty-studio-online-booking-setup-a-practical-guide) that works best is one where the client feels guided at every step, not left to figure out the process on their own. Continuity in the flow means clients never have to re-explain their information, and that creates a noticeably better experience from the very first interaction.
+The [beauty studio booking setup](/guides/how-to-make-a-booking-website/) that works best is one where the client feels guided at every step, not left to figure out the process on their own. Continuity in the flow means clients never have to re-explain their information, and that creates a noticeably better experience from the very first interaction.
 
 ## Key Takeaways
 
@@ -138,7 +139,7 @@ The booking flow covers the steps to confirm an appointment. The onboarding flow
 
 ## Recommended
 
-- [Beauty Studio Online Booking Setup: A Practical Guide | BKRDY](/blog/beauty-studio-online-booking-setup-a-practical-guide)
+- [How to Make a Booking Website (No Code) | BKRDY](/guides/how-to-make-a-booking-website/)
 - [Esthetician Booking Websites, Designed | BKRDY](/for-estheticians)
 - [Lash Artist Booking Websites | BKRDY](/for-lash-artists)
 - [Booking Websites for Solo Beauty Pros | BKRDY](/for-solo-pros)

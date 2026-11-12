@@ -10,7 +10,8 @@ pillar: your-site
 keywords: barber app, appointment app for barbers, best booking app for barbers
 photo: barber-app
 photoAlt: Barber App for Beauty Studios: Branded Booking Websites
-status: published
+status: folded
+foldedInto: /blog/best-booking-websites-for-barbers-in-2026/
 migrated: true
 ---
 
@@ -37,7 +38,7 @@ The term “barber app” covers two very different tools. One is a consumer dis
 A booking platform is only as good as the problems it solves on a Tuesday afternoon when you’re mid-service. Here’s the non-negotiable feature list:
 
 - **24/7 self-service booking.** Clients book when it suits them, not when you’re free to answer a DM. A calendar feed shows your bookings in Google or Apple Calendar, next to the rest of your life.
-- **Automated confirmations and SMS/email reminders.** [Automated reminders](/blog/why-nail-appointment-reminders-reduce-gaps) reduce no-shows and improve on-time arrivals when used consistently. Automated reminders, such as one at 48 hours and another at 2 hours before an appointment, are a reliable cadence for reducing no-shows and improving on-time arrivals.
+- **Automated confirmations and SMS/email reminders.** [Automated reminders](/blog/nail-client-retention-best-practices-for-nail-techs/) reduce no-shows and improve on-time arrivals when used consistently. Automated reminders, such as one at 48 hours and another at 2 hours before an appointment, are a reliable cadence for reducing no-shows and improving on-time arrivals.
 - **Stripe deposits and card-on-file.** Deposit enforcement is the single highest-leverage move for cutting no-shows while staying client-friendly. Platforms that support [Stripe deposits](/platform/tools/payments) with a 0% platform fee let you collect deposits without eating into your margins.
 - **Client profiles with service history and saved payment methods.** Knowing that a client always books a balayage touch-up every six weeks, and having their card already on file, speeds checkout and makes rebooking frictionless. BKRDY’s [client profile tools](/platform/tools/customers) keep that history, and on paid plans the client’s saved card.
 - **Waitlists and smart booking logic.** Cancellations happen. A waitlist that automatically fills the gap is the difference between a lost hour and a full day.
@@ -102,7 +103,7 @@ Gather your service menu with durations and prices, your cancellation policy, an
 
 **First 30 days:** track your no-show rate weekly. Adjust your reminder timing if attendance doesn’t improve. Text your existing clients the new booking link from your own phone. Collect at least five reviews through your feedback tool.
 
-For a detailed walkthrough, BKRDY’s [online booking setup guide](/blog/beauty-studio-online-booking-setup-a-practical-guide) covers each step with studio-specific examples.
+For a detailed walkthrough, BKRDY’s [online booking setup guide](/guides/how-to-make-a-booking-website/) covers each step with studio-specific examples.
 
 ## What BKRDY provides for barbers and beauty studios
 
@@ -161,5 +162,5 @@ Whether you run a solo nail studio, a lash suite, or a multi-stylist salon, the 
 
 - [Barber Booking Websites | BKRDY](/for-barbers)
 - [Best Booking Websites for Barbers in 2026 | BKRDY](/blog/best-booking-websites-for-barbers-in-2026)
-- [Beauty Studio Online Booking Setup: A Practical Guide | BKRDY](/blog/beauty-studio-online-booking-setup-a-practical-guide)
+- [How to Make a Booking Website (No Code) | BKRDY](/guides/how-to-make-a-booking-website/)
 - [Hair Salon Booking Websites | BKRDY](/for-salons)

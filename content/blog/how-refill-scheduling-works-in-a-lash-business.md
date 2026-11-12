@@ -84,7 +84,7 @@ Operational discipline separates studios that grow from those that plateau. The 
 
 **Pro Tip:** *Frame refill appointments as maintenance, not an upsell. Language like “your scheduled maintenance fill” signals to clients that this is a routine care step, not an optional expense. That framing alone improves rebook rates.*
 
-Setting up a reliable [online booking system](/blog/beauty-studio-online-booking-setup-a-practical-guide) from the start prevents the scheduling mismatches that drain revenue as your studio grows.
+Setting up a reliable [online booking system](/guides/how-to-make-a-booking-website/) from the start prevents the scheduling mismatches that drain revenue as your studio grows.
 
 ## Key Takeaways
 
@@ -142,5 +142,5 @@ Manual outreach for refill scheduling becomes unworkable as a studio grows. Auto
 
 - [Lash Artist Booking Websites | BKRDY](/for-lash-artists)
 - [Eyelash Extension Prices: 2026 Guide | BKRDY](/blog/eyelash-extension-prices)
-- [Beauty Studio Online Booking Setup: A Practical Guide | BKRDY](/blog/beauty-studio-online-booking-setup-a-practical-guide)
-- [How Smart Waitlists Retain Nail Clients That Stay | BKRDY](/blog/how-smart-waitlists-retain-nail-clients-that-stay)
+- [How to Make a Booking Website (No Code) | BKRDY](/guides/how-to-make-a-booking-website/)
+- [Nail Client Retention Best Practices for Nail Techs | BKRDY](/blog/nail-client-retention-best-practices-for-nail-techs/)

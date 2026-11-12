@@ -50,7 +50,7 @@ Position yourself as the authority on your client’s nail health. Phrases like 
 
 **Pro Tip:** *If a client hesitates, say “I can hold that spot for you and send a reminder closer to the date.” This removes the pressure of committing while still moving them toward a booking.*
 
-[Rebooking prompts and client retention](/blog/rebooking-prompts-and-client-retention-2026-guide) work best when they feel like a natural extension of the service conversation. Practice the phrasing until it sounds like you, not a script.
+[Rebooking prompts and client retention](/guides/how-to-rebook-clients/) work best when they feel like a natural extension of the service conversation. Practice the phrasing until it sounds like you, not a script.
 
 ## How do automated reminders and loyalty programs boost rebooking?
 
@@ -74,13 +74,13 @@ Referral incentives work as an accelerant on top of any of these models. Offer a
 
 **Pro Tip:** *Digital wallet passes (Apple Wallet or Google Wallet) let clients carry their loyalty card on their phone. They also allow you to send push notifications directly to that card, making them far more effective than paper stamp cards.*
 
-Pair your reminder system with [appointment reminder tools](/blog/why-nail-appointment-reminders-reduce-gaps) that trigger automatically based on each client’s last visit date. Manual follow-up does not scale.
+Pair your reminder system with [appointment reminder tools](/blog/nail-client-retention-best-practices-for-nail-techs/) that trigger automatically based on each client’s last visit date. Manual follow-up does not scale.
 
 ## How does booking history improve your rebooking rate?
 
 Your booking history is one of the most underused tools in a nail tech’s business. Every completed appointment is a data point that tells you when that client is likely to need their next service, what they prefer, and how they have responded to reminders in the past. Using that data turns rebooking from guesswork into a repeatable process.
 
-Start by reviewing your [digital client records](/blog/digital-client-records-for-your-nail-business-2026-guide) to identify patterns. Which clients consistently return every three weeks? Which ones stretch to five or six? Knowing this lets you time your outreach precisely rather than sending the same reminder to everyone on the same schedule.
+Start by reviewing your [digital client records](/blog/client-preference-tracking-for-nail-services-2026-guide/) to identify patterns. Which clients consistently return every three weeks? Which ones stretch to five or six? Knowing this lets you time your outreach precisely rather than sending the same reminder to everyone on the same schedule.
 
 Tracking rebooking rates by stylist and service type reveals where the gaps are. Showing each technician their own rebooking rate keeps the habit in front of them. It is a small change in how you present data.
 
@@ -156,7 +156,5 @@ It depends on your menu and your clients. Every client who rebooks is revenue yo
 
 ## Recommended
 
-- [Personalized Nail Client Experience: Your 2026 Guide | BKRDY](/blog/personalized-nail-client-experience-your-2026-guide)
 - [Client Preference Tracking for Nail Services: 2026 Guide | BKRDY](/blog/client-preference-tracking-for-nail-services-2026-guide)
-- [Digital Client Records for Your Nail Business: 2026 Guide | BKRDY](/blog/digital-client-records-for-your-nail-business-2026-guide)
-- [Why Nail Appointment Reminders Reduce Gaps | BKRDY](/blog/why-nail-appointment-reminders-reduce-gaps)
+- [Nail Client Retention Best Practices for Nail Techs | BKRDY](/blog/nail-client-retention-best-practices-for-nail-techs/)

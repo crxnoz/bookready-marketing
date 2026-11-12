@@ -42,7 +42,7 @@ The right platform for your online lash intake forms depends on three things: ho
 
 ### Generic form builders vs. booking-integrated solutions
 
-Generic form builders like Google Forms or Typeform give you flexibility, but they create a disconnected experience. A client books through one system, then receives a separate link to a form on a different platform. That friction reduces completion rates. Booking-integrated solutions embed the intake form directly into the appointment confirmation flow, so the client completes it as part of booking. [Embedding intake forms on booking sites](/blog/new-client-booking-flow-a-guide-for-beauty-pros) with data synchronization improves both accuracy and appointment readiness.
+Generic form builders like Google Forms or Typeform give you flexibility, but they create a disconnected experience. A client books through one system, then receives a separate link to a form on a different platform. That friction reduces completion rates. Booking-integrated solutions embed the intake form directly into the appointment confirmation flow, so the client completes it as part of booking. [Embedding intake forms on booking sites](/guides/how-to-make-a-booking-website/) with data synchronization improves both accuracy and appointment readiness.
 
 ### What to look for in a form platform
 
@@ -73,7 +73,7 @@ A well-designed form that clients never complete is useless. The implementation 
 
 Even a well-built digital form system runs into friction. Knowing the common failure points lets you fix them before they cost you time or create legal exposure.
 
-- **Clients worry about data privacy.** Many clients hesitate to enter health information into an online form because they are unsure who sees it or how it is stored. [Addressing client privacy concerns proactively](/blog/beauty-studio-online-booking-setup-a-practical-guide) with a clear, plain-language privacy statement on the form page reduces drop-off significantly. A one-sentence explanation of how you store and use their data goes a long way.
+- **Clients worry about data privacy.** Many clients hesitate to enter health information into an online form because they are unsure who sees it or how it is stored. [Addressing client privacy concerns proactively](/guides/how-to-make-a-booking-website/) with a clear, plain-language privacy statement on the form page reduces drop-off significantly. A one-sentence explanation of how you store and use their data goes a long way.
 - **Incomplete or vague responses.** Clients skip fields or write “N/A” without reading the question. Required fields solve part of this problem, but they also frustrate clients who genuinely have nothing to report. The better fix is clear field labels with brief explanations. Instead of “Medications,” write “List any medications you currently take, including eye drops or thyroid medication.”
 - **Device and access issues.** Some clients, particularly older ones, struggle with forms that require account creation or app downloads. Keep your form accessible via a direct link with no login required. Test it on both iOS and Android before you launch.
 - **Missing guardian consent for minor clients.** This is the most legally serious gap in most lash intake systems. If you serve clients under 18, your form must include a dedicated guardian consent section, and you must verify that the signature belongs to an adult.
@@ -136,5 +136,4 @@ Most beauty clients book and complete forms on smartphones. A form that does not
 
 - [How Refill Scheduling Works in a Lash Business | BKRDY](/blog/how-refill-scheduling-works-in-a-lash-business)
 - [Lash Artist Booking Websites | BKRDY](/for-lash-artists)
-- [New Client Booking Flow: A Guide for Beauty Pros | BKRDY](/blog/new-client-booking-flow-a-guide-for-beauty-pros)
-- [Beauty Studio Online Booking Setup: A Practical Guide | BKRDY](/blog/beauty-studio-online-booking-setup-a-practical-guide)
+- [How to Make a Booking Website (No Code) | BKRDY](/guides/how-to-make-a-booking-website/)

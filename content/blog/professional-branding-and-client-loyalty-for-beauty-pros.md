@@ -10,7 +10,8 @@ pillar: coming-back
 keywords: professional branding client loyalty beauty
 photo: professional-branding-and-client-loyalty-for-beauty-pros
 photoAlt: Professional Branding and Client Loyalty for Beauty Pros
-status: published
+status: folded
+foldedInto: /blog/what-does-studio-branding-mean-online-for-beauty-pros/
 migrated: true
 ---
 
@@ -70,7 +71,7 @@ These four metrics give you a clear picture of whether your brand is building lo
 
 The most common mistake that erodes loyalty is over-discounting. [Lazy discounting trains clients to wait for sales](https://cxm.world/customer-experience/customer-loyalty-strategy-2026/) instead of booking at full price. Once a client expects a deal, your full price feels like a penalty. Value-based retention, such as personalized service and genuine attention, builds loyalty that does not depend on your margin shrinking.
 
-**Pro Tip:** *Review your [rebooking prompts](/blog/rebooking-prompts-and-client-retention-2026-guide) every quarter. If your rebooking rate drops after a specific service type, that is a signal to adjust either the experience or the follow-up communication.*
+**Pro Tip:** *Review your [rebooking prompts](/guides/how-to-rebook-clients/) every quarter. If your rebooking rate drops after a specific service type, that is a signal to adjust either the experience or the follow-up communication.*
 
 ## What tools and technologies support branding that drives client retention?
 
@@ -143,7 +144,7 @@ Online reviews work like a personal recommendation for people who have never met
 
 ## Recommended
 
-- [New Client Booking Flow: A Guide for Beauty Pros | BKRDY](/blog/new-client-booking-flow-a-guide-for-beauty-pros)
-- [Personalized Nail Client Experience: Your 2026 Guide | BKRDY](/blog/personalized-nail-client-experience-your-2026-guide)
+- [How to Make a Booking Website (No Code) | BKRDY](/guides/how-to-make-a-booking-website/)
+- [Client Preference Tracking for Nail Services: 2026 Guide | BKRDY](/blog/client-preference-tracking-for-nail-services-2026-guide/)
 - [The Role of Instant Booking for New Clients in Beauty | BKRDY](/blog/the-role-of-instant-booking-for-new-clients-in-beauty)
 - [Blog | BKRDY](/blog)

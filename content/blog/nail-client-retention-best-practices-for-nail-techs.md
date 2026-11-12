@@ -52,7 +52,7 @@ The friction points that cause clients to drift away include:
 - No confirmation message or reminder before the appointment
 - No rebooking prompt at checkout or in a follow-up message
 
-Fixing each of these removes a reason for a client to book elsewhere. [Automated rebooking reminders](/blog/rebooking-prompts-and-client-retention-2026-guide) and personalized follow-up messages after appointments help more clients rebook. The reminder does the asking so you do not have to.
+Fixing each of these removes a reason for a client to book elsewhere. [Automated rebooking reminders](/guides/how-to-rebook-clients/) and personalized follow-up messages after appointments help more clients rebook. The reminder does the asking so you do not have to.
 
 A [Google Business Profile](https://adviita.com/guides/get-nail-salon-clients) with a clear booking link, accurate hours, and updated service prices also serves retention. Instagram drives discovery. Google drives return visits. Both need to point to the same frictionless booking page.
 
@@ -85,7 +85,7 @@ Effective follow-up communication habits include:
 - A response to every piece of feedback, positive or negative, within 24 hours
 - Seasonal messages that reference the client’s actual preferences (“New fall shades just in, including that burgundy you loved last year”)
 
-[Professional branding and client loyalty](/blog/professional-branding-and-client-loyalty-for-beauty-pros) are directly linked. Clients who see a consistent, polished presence across your booking page, social profiles, and messages feel more confident returning and referring others.
+[Professional branding and client loyalty](/blog/what-does-studio-branding-mean-online-for-beauty-pros/) are directly linked. Clients who see a consistent, polished presence across your booking page, social profiles, and messages feel more confident returning and referring others.
 
 ## 6. Which metrics help nail businesses track and improve retention?
 
@@ -98,7 +98,13 @@ You cannot improve what you do not measure. [Tracking key retention metrics](htt
 | No-show rate | Percentage of appointments missed without notice | High rate points to a reminder or deposit gap |
 | Lapsed client count | Clients not seen in 90-plus days | Triggers a re-engagement campaign |
 
-Digital [client records](/blog/digital-client-records-for-your-nail-business-2026-guide) make this tracking practical without spreadsheets. When you can see at a glance which clients have not returned in two months, you can send a targeted message before they book somewhere else. Review these numbers monthly, not quarterly. Retention problems are easier to fix early.
+Digital [client records](/blog/client-preference-tracking-for-nail-services-2026-guide/) make this tracking practical without spreadsheets. When you can see at a glance which clients have not returned in two months, you can send a targeted message before they book somewhere else. Review these numbers monthly, not quarterly. Retention problems are easier to fix early.
+
+## 7. How reminders and a waitlist close the gaps in your calendar
+
+Reminders work because they remove the conditions that cause no-shows. A client who booked three weeks ago may genuinely forget. A client who wants to cancel but dreads a phone call will often just not show up instead. A reminder that names the service and the time, and carries a link to reschedule, covers both: without a rescheduling option, clients are forced into a phone call they may avoid, and that avoidance becomes a no-show. Reminders that feel like warnings push clients away. Reminders that feel like helpful service touchpoints build loyalty.
+
+A waitlist fills the gaps reminders cannot prevent. Clients join for a service and a date range, and when someone cancels, the freed time is offered to a client who is waiting, without you managing it manually.
 
 ## Key takeaways
 
@@ -155,6 +161,3 @@ Send a direct, personal message to any client who has not booked in 90 or more d
 ## Recommended
 
 - [Client Preference Tracking for Nail Services: 2026 Guide | BKRDY](/blog/client-preference-tracking-for-nail-services-2026-guide)
-- [Digital Client Records for Your Nail Business: 2026 Guide | BKRDY](/blog/digital-client-records-for-your-nail-business-2026-guide)
-- [How Smart Waitlists Retain Nail Clients That Stay | BKRDY](/blog/how-smart-waitlists-retain-nail-clients-that-stay)
-- [Personalized Nail Client Experience: Your 2026 Guide | BKRDY](/blog/personalized-nail-client-experience-your-2026-guide)

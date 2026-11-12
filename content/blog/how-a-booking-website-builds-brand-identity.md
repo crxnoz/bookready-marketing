@@ -76,7 +76,7 @@ Consistent visual language across the live booking flow, payment interface, and 
 Most studios treat their booking page as a back-office tool rather than a brand asset. That single assumption causes most of the branding problems we see in beauty businesses.
 
 1. **Treating the booking page as separate from your website.** Your booking page is not a utility attached to your brand. It is your brand. Unified branding across all touchpoints from social to email strengthens your professional promise. A booking page that looks like a different business breaks that promise at the worst moment.
-2. **Using default templates without customization.** Generic booking templates are designed to work for everyone, which means they work perfectly for no one. A nail tech in Brooklyn and a med spa in Scottsdale should not have the same booking page. Customizing your [booking page design](/blog/beauty-studio-online-booking-setup-a-practical-guide) is not optional if brand identity matters to you.
+2. **Using default templates without customization.** Generic booking templates are designed to work for everyone, which means they work perfectly for no one. A nail tech in Brooklyn and a med spa in Scottsdale should not have the same booking page. Customizing your [booking page design](/guides/how-to-make-a-booking-website/) is not optional if brand identity matters to you.
 3. **Inconsistent fonts, colors, or logos across the booking flow.** This is the most common and most fixable mistake. It usually happens when different tools are stitched together without a brand reference document. The fix is simple: document your brand standards and apply them to every tool.
 4. **Ignoring the confirmation email.** The confirmation email has one of the highest open rates of any message you send. Most studios waste it with a plain-text system default. A branded, warm confirmation email is a free loyalty tool.
 5. **Fragmented client experience.** When a client moves from your Instagram to your website to your booking page and each step feels slightly different, the cumulative effect is doubt. Doubt kills bookings.
@@ -152,4 +152,4 @@ A branded booking page removes the visual cues that make clients feel they are o
 
 - [BKRDY booking sites](/templates/)
 - [Pricing Transparency in Hair Bookings: Build Client Trust | BKRDY](/blog/pricing-transparency-in-hair-bookings-build-client-trust)
-- [Beauty Studio Online Booking Setup: A Practical Guide | BKRDY](/blog/beauty-studio-online-booking-setup-a-practical-guide)
+- [How to Make a Booking Website (No Code) | BKRDY](/guides/how-to-make-a-booking-website/)

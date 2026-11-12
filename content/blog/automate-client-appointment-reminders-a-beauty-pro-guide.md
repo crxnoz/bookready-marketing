@@ -10,7 +10,8 @@ pillar: coming-back
 keywords: automate client appointment reminders beauty
 photo: automate-client-appointment-reminders-a-beauty-pro-guide
 photoAlt: Automate Client Appointment Reminders: A Beauty Pro Guide
-status: published
+status: folded
+foldedInto: /guides/appointment-reminder-templates/
 migrated: true
 ---
 
@@ -93,7 +94,7 @@ Common pitfalls and how to address them:
 - **Reminders fire at the wrong time.** Review your attendance data monthly. If clients are canceling after the 24-hour reminder, your timing may be off. Shift the second message to 48 hours and test for four weeks.
 - **Messages feel generic.** Add personalization tokens for the client’s name, service type, and stylist name. Clients respond positively to personalized automated messages, which increases their sense that your business is attentive.
 - **Waitlist outreach is slow.** Your waitlist message should fire within five minutes of a cancellation. If it takes longer, check whether your calendar sync is live or polling on a delay.
-- **No rebooking prompt after the appointment.** Automation should not stop at the appointment itself. A message sent 24-48 hours after the visit asking the client to rebook is one of the highest-return touchpoints in the [client retention cycle](/blog/rebooking-prompts-and-client-retention-2026-guide).
+- **No rebooking prompt after the appointment.** Automation should not stop at the appointment itself. A message sent 24-48 hours after the visit asking the client to rebook is one of the highest-return touchpoints in the [client retention cycle](/guides/how-to-rebook-clients/).
 
 Defining clear workflows for late cancellation handling and waitlist management is what separates a functional system from a great one. Write out every scenario before you configure your rules. What happens if a client cancels at 2 AM? What happens if two waitlist clients confirm at the same time? Answer those questions in your workflow before they happen in real life.
 
@@ -151,7 +152,6 @@ Use personalization tokens in every message template. Including the client’s n
 
 ## Recommended
 
-- [New Client Booking Flow: A Guide for Beauty Pros | BKRDY](/blog/new-client-booking-flow-a-guide-for-beauty-pros)
-- [Beauty Studio Online Booking Setup: A Practical Guide | BKRDY](/blog/beauty-studio-online-booking-setup-a-practical-guide)
-- [Rebooking Prompts and Client Retention: 2026 Guide | BKRDY](/blog/rebooking-prompts-and-client-retention-2026-guide)
-- [Personalized Nail Client Experience: Your 2026 Guide | BKRDY](/blog/personalized-nail-client-experience-your-2026-guide)
+- [How to Make a Booking Website (No Code) | BKRDY](/guides/how-to-make-a-booking-website/)
+- [How to Rebook Clients: Scripts and Intervals | BKRDY](/guides/how-to-rebook-clients/)
+- [Client Preference Tracking for Nail Services: 2026 Guide | BKRDY](/blog/client-preference-tracking-for-nail-services-2026-guide/)

@@ -63,6 +63,23 @@ RewriteRule ^customers/?$ /templates/ [R=301,L]
 RewriteRule ^blog/vagarocom-alternatives/?$ /compare/vagaro-alternative/ [R=301,L]
 RewriteRule ^blog/best-acuity-alternatives-for-salons/?$ /compare/acuity-alternative/ [R=301,L]
 
+# Twelve articles from the June and July batch folded into the stronger page on
+# the same subject (2026-11-11). None of the twelve was in Google's index, and
+# each said again what a page we keep already says. The keeper took the part
+# worth keeping; the old address forwards to it.
+RewriteRule ^blog/automate-client-appointment-reminders-a-beauty-pro-guide/?$ /guides/appointment-reminder-templates/ [R=301,L]
+RewriteRule ^blog/rebooking-prompts-and-client-retention-2026-guide/?$ /guides/how-to-rebook-clients/ [R=301,L]
+RewriteRule ^blog/how-smart-waitlists-retain-nail-clients-that-stay/?$ /blog/nail-client-retention-best-practices-for-nail-techs/ [R=301,L]
+RewriteRule ^blog/why-nail-appointment-reminders-reduce-gaps/?$ /blog/nail-client-retention-best-practices-for-nail-techs/ [R=301,L]
+RewriteRule ^blog/digital-client-records-for-your-nail-business-2026-guide/?$ /blog/client-preference-tracking-for-nail-services-2026-guide/ [R=301,L]
+RewriteRule ^blog/personalized-nail-client-experience-your-2026-guide/?$ /blog/client-preference-tracking-for-nail-services-2026-guide/ [R=301,L]
+RewriteRule ^blog/beauty-studio-online-booking-setup-a-practical-guide/?$ /guides/how-to-make-a-booking-website/ [R=301,L]
+RewriteRule ^blog/new-client-booking-flow-a-guide-for-beauty-pros/?$ /guides/how-to-make-a-booking-website/ [R=301,L]
+RewriteRule ^blog/what-is-a-personalized-booking-experience-for-beauty-pros/?$ /guides/how-to-make-a-booking-website/ [R=301,L]
+RewriteRule ^blog/professional-branding-and-client-loyalty-for-beauty-pros/?$ /blog/what-does-studio-branding-mean-online-for-beauty-pros/ [R=301,L]
+RewriteRule ^blog/barber-app/?$ /blog/best-booking-websites-for-barbers-in-2026/ [R=301,L]
+RewriteRule ^blog/what-does-appointment-scheduling-software-do/?$ /blog/salon-booking-software-comparison/ [R=301,L]
+
 # Force trailing slash on directory URLs (consolidates link equity to one canonical form)
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_URI} !(.*)/$

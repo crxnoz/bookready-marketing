@@ -10,7 +10,8 @@ pillar: coming-back
 keywords: smart waitlists retain nail clients stay
 photo: how-smart-waitlists-retain-nail-clients-that-stay
 photoAlt: How Smart Waitlists Retain Nail Clients That Stay
-status: published
+status: folded
+foldedInto: /blog/nail-client-retention-best-practices-for-nail-techs/
 migrated: true
 ---
 

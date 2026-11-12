@@ -10,7 +10,8 @@ pillar: coming-back
 keywords: nail appointment reminders reduce gaps
 photo: why-nail-appointment-reminders-reduce-gaps
 photoAlt: Why Nail Appointment Reminders Reduce Gaps
-status: published
+status: folded
+foldedInto: /blog/nail-client-retention-best-practices-for-nail-techs/
 migrated: true
 ---
 
@@ -79,7 +80,7 @@ The flow works like this:
 | First client to respond books | Slot fills without any manual outreach |
 | Remaining waitlist clients receive a “slot filled” update | No double-booking confusion |
 
-The [smart waitlist feature](/blog/how-smart-waitlists-retain-nail-clients-that-stay) on platforms built for beauty professionals automates this entire sequence. You do not need to scroll through a list of names and make calls. The system handles it, and you see a booked appointment where there was a gap. BKRDY’s waitlist, on paid plans, works by email: when a time frees up, the first matching client gets a claim link that lasts two hours.
+The [smart waitlist feature](/blog/nail-client-retention-best-practices-for-nail-techs/) on platforms built for beauty professionals automates this entire sequence. You do not need to scroll through a list of names and make calls. The system handles it, and you see a booked appointment where there was a gap. BKRDY’s waitlist, on paid plans, works by email: when a time frees up, the first matching client gets a claim link that lasts two hours.
 
 ## Common mistakes that make reminder systems fail
 
@@ -93,7 +94,7 @@ The most common mistakes nail techs make when setting up reminders:
 - **Launching everything at once.** A [phased 30-day rollout](https://bookingbee.ai/reduce-salon-no-shows/) works better than flipping every switch on day one. Start with confirmations, add the 48-hour reminder in week two, introduce deposits in week three, and review your no-show data in week four.
 - **Never reviewing the data.** Open rates, response rates, and no-show percentages tell you what is working. If your 2-hour nudge gets ignored, test a different message. If your 48-hour reminder drives most of your reschedules, lean into it.
 
-**Pro Tip:** *Treat your first 30 days as a test, not a final setup. Adjust message timing and copy based on actual client behavior, not assumptions. The [beauty studio booking setup](/blog/beauty-studio-online-booking-setup-a-practical-guide) process works the same way: configure, observe, refine.*
+**Pro Tip:** *Treat your first 30 days as a test, not a final setup. Adjust message timing and copy based on actual client behavior, not assumptions. The [beauty studio booking setup](/guides/how-to-make-a-booking-website/) process works the same way: configure, observe, refine.*
 
 The biggest mistake of all is treating reminders as a policing tool. Reminders that feel like warnings push clients away. Reminders that feel like helpful service touchpoints build loyalty. The [value added to a reminder](https://www.cambridge.org/core/journals/behavioural-public-policy/article/replicating-behavioural-insights-in-health-a-quasiexperimental-phase-2-trial-of-integrating-descriptive-social-norms-and-institutional-cost-in-sms-reminders-to-reduce-missed-hospital-appointments/10770DAE0A45CFB426783CF96729A598), whether prep instructions, a rescheduling link, or a warm tone, directly affects whether clients show up and whether they come back.
 
@@ -117,7 +118,7 @@ What I have found is that the biggest shift is psychological, on both sides. Whe
 
 The mistake I see most often is treating reminders as a last resort for problem clients. The techs who get the best results build reminders into every booking from day one. They do not wait for a no-show pattern to appear. They set the expectation before the first appointment and maintain it consistently.
 
-My honest advice: do not guess at what works. Look at your no-show rate before and after each change. If your 48-hour reminder is driving most of your reschedules, that is your most valuable message. Protect it. If your 2-hour nudge is getting ignored, test a different format. The [client retention data](/blog/rebooking-prompts-and-client-retention-2026-guide) will tell you what to keep and what to cut.
+My honest advice: do not guess at what works. Look at your no-show rate before and after each change. If your 48-hour reminder is driving most of your reschedules, that is your most valuable message. Protect it. If your 2-hour nudge is getting ignored, test a different format. The [client retention data](/guides/how-to-rebook-clients/) will tell you what to keep and what to cut.
 
 Reminders done right do not just fill gaps. They build the kind of client relationship where gaps become rare.
 
@@ -155,4 +156,4 @@ Three reminders per appointment is the effective ceiling. Sending more than thre
 
 - [How Online Booking Increases Nail Regulars Fast | BKRDY](/blog/how-online-booking-increases-nail-regulars-fast)
 - [Client Preference Tracking for Nail Services: 2026 Guide | BKRDY](/blog/client-preference-tracking-for-nail-services-2026-guide)
-- [Automate Client Appointment Reminders: A Beauty Pro Guide | BKRDY](/blog/automate-client-appointment-reminders-a-beauty-pro-guide)
+- [Salon Appointment Reminder Templates | BKRDY](/guides/appointment-reminder-templates/)

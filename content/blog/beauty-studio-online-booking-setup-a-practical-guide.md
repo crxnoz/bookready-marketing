@@ -10,7 +10,8 @@ pillar: your-site
 keywords: beauty studio online booking setup
 photo: beauty-studio-online-booking-setup-a-practical-guide
 photoAlt: Beauty Studio Online Booking Setup: A Practical Guide
-status: published
+status: folded
+foldedInto: /guides/how-to-make-a-booking-website/
 migrated: true
 ---
 

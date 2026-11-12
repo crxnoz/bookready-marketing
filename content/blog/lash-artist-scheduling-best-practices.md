@@ -55,7 +55,7 @@ Set clear rules for how new clients get assigned. Some studios route new booking
 
 ### Automate reminders and follow-up messages
 
-[Automated reminders](/blog/automate-client-appointment-reminders-a-beauty-pro-guide) sent via SMS or email reduce no-shows. That matters when a single missed 90-minute appointment represents real lost revenue. Set reminders at 48 hours and again at 24 hours before the appointment, and keep the tone warm, not robotic.
+[Automated reminders](/guides/appointment-reminder-templates/) sent via SMS or email reduce no-shows. That matters when a single missed 90-minute appointment represents real lost revenue. Set reminders at 48 hours and again at 24 hours before the appointment, and keep the tone warm, not robotic.
 
 Follow-up messages the day after an appointment serve a different purpose. They signal that you noticed the client, not just the booking. A short “How are you loving your lashes?” text opens the door for feedback and makes the next rebooking feel natural.
 
@@ -121,7 +121,7 @@ Personalized follow-up messages after appointments improve client satisfaction a
 
 Keep notes on what each client mentioned during their appointment. If she told you she has a wedding in six weeks, note it and bring it up at her next visit. That level of attention is what separates a lash artist clients recommend from one they simply return to out of habit.
 
-**Pro Tip:** *Use your [rebooking prompts guide](/blog/rebooking-prompts-and-client-retention-2026-guide) to build a short script library you can rotate through, so the conversation never feels scripted even when it is.*
+**Pro Tip:** *Use your [rebooking prompts guide](/guides/how-to-rebook-clients/) to build a short script library you can rotate through, so the conversation never feels scripted even when it is.*
 
 ## Scheduling lash fills: timing, signs, and aftercare
 

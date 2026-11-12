@@ -127,6 +127,10 @@ The rest have a specific need (marketplace exposure, full POS, multi-location) t
 
 ## Questions
 
+### Is a barber app better than a booking website of your own?
+
+They do different jobs. A marketplace app is a discovery platform where clients search by location, style or price and book from a directory of providers. A booking website of your own is your site with scheduling built in, where every touchpoint carries your brand. Marketplaces drive discovery, and for a shop that just opened or moved to a new city that exposure has real value. The trade-off is that they limit customization and your control over settings, pricing and client relationships.
+
 ### Do I have to leave my current platform to test BKRDY?
 
 No. BKRDY is free to start, so you can run both while you switch. You can build your BKRDY site, get it ready, then switch your Instagram bio link when you are ready. Your current platform stays running until you cancel.

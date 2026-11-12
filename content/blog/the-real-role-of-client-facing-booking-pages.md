@@ -26,7 +26,7 @@ The industry standard for effective booking pages rests on three pillars: speed,
 
 Beauty appointments are personal and often high-value. A client booking a lash set or a balayage is not making an impulse purchase. They are choosing someone to trust with their appearance. Your booking page either reinforces that trust or erodes it. A page that looks generic, loads slowly, or asks confusing questions tells the client your studio does not pay attention to details.
 
-The [new client booking flow](/blog/new-client-booking-flow-a-guide-for-beauty-pros) for beauty professionals is especially critical because first-time clients have no prior relationship with you. The booking page is their first real interaction with your brand, and it sets the tone for everything that follows.
+The [new client booking flow](/guides/how-to-make-a-booking-website/) for beauty professionals is especially critical because first-time clients have no prior relationship with you. The booking page is their first real interaction with your brand, and it sets the tone for everything that follows.
 
 ## How do booking pages improve client engagement and appointment quality?
 
@@ -37,7 +37,7 @@ Here is what a high-performing booking page does for client engagement:
 - **Reinforces brand identity.** Brand consistency on booking pages increases trust and reduces abandonment. Matching colors, logos, and tone with your main website tells clients they are in the right place.
 - **Sets clear expectations.** Listing service duration, pricing, and preparation instructions reduces no-shows because clients arrive knowing exactly what to expect.
 - **Displays real-time availability.** Live calendar syncing prevents double-booking and removes the frustration of requesting a time slot only to hear it is taken.
-- **Automates confirmation and reminders.** [Automated appointment reminders](/blog/automate-client-appointment-reminders-a-beauty-pro-guide) significantly reduce no-shows and improve revenue predictability for beauty professionals.
+- **Automates confirmation and reminders.** [Automated appointment reminders](/guides/appointment-reminder-templates/) significantly reduce no-shows and improve revenue predictability for beauty professionals.
 - **Offers self-serve rescheduling.** Clients who can reschedule on their own are far less likely to simply not show up.
 
 **Pro Tip:** *Add a short “what to expect” note directly on your booking confirmation page. Clients who know how to prepare arrive on time and ready, which keeps your schedule tight.*
@@ -95,7 +95,7 @@ The most effective design choices for beauty booking pages follow a consistent p
 
 For beauty professionals running multiple service types, segmenting booking pages by traffic source adds another layer of relevance. A client clicking from your lash extension Instagram post should land on a page focused entirely on lash services, not a general menu. Relevance at the point of arrival increases completion rates.
 
-The [online booking setup guide](/blog/beauty-studio-online-booking-setup-a-practical-guide) from BKRDY walks through these design decisions in detail, with examples built specifically for beauty studios.
+The [online booking setup guide](/guides/how-to-make-a-booking-website/) from BKRDY walks through these design decisions in detail, with examples built specifically for beauty studios.
 
 ## Key Takeaways
 
@@ -151,5 +151,5 @@ Matching your booking page colors, logo, and tone with your main website reduces
 
 ## Recommended
 
-- [New Client Booking Flow: A Guide for Beauty Pros | BKRDY](/blog/new-client-booking-flow-a-guide-for-beauty-pros)
+- [How to Make a Booking Website (No Code) | BKRDY](/guides/how-to-make-a-booking-website/)
 - [The Role of Instant Booking for New Clients in Beauty | BKRDY](/blog/the-role-of-instant-booking-for-new-clients-in-beauty)

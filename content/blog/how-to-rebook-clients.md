@@ -104,6 +104,10 @@ The revenue math is why this matters. A 10-point lift in rebooking compounds fas
 
 At checkout, while the client is still with you and happiest with the result. Rebooking on the spot converts far better than hoping they book later from home, where friction and every competing promo work against you.
 
+### Why do clients not rebook after their appointment?
+
+Mostly because no one asked them directly. A client who leaves without booking the next visit may never return, typically because they forget or find a more convenient option. The fix is structure, not motivation: build the ask into checkout, so every client hears it at every visit.
+
 ### What should I say to get a client to rebook?
 
 Use an assumptive close: name when they are due, offer a specific slot, and ask to lock it in. For regulars, offer a standing appointment so they never have to think about it, and give hesitant clients an easy out backed by a follow-up from you.

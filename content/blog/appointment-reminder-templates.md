@@ -88,6 +88,14 @@ The three-touch sequence covers most people. A few situations call for a tweak.
 
 **Bridal and group bookings.** Higher stakes and a longer lead time. Confirm at booking, again a week out, and again the day before, and tie it to a larger deposit.
 
+## What goes wrong, and how to fix it.
+
+Most reminder setups underperform for one of three reasons.
+
+- **Reminders fire at the wrong time.** Review your attendance monthly. If clients are canceling after the 24-hour reminder, your timing may be off. Shift that message to 48 hours and test for four weeks.
+- **Messages feel generic.** Use the client's name, the service and who they are seeing. Clients respond to a message that reads as if it was written for them.
+- **Nothing after the visit.** Do not stop at the appointment itself. A message a day or two after the visit asking the client to [book the next one](/guides/how-to-rebook-clients/) is one of the highest-return touchpoints you have.
+
 ## What BKRDY sends for you.
 
 Copy-pasting templates by hand works until you get busy, which is exactly when no-shows hurt most. The fix is to let software send what it can, and keep the rest short.

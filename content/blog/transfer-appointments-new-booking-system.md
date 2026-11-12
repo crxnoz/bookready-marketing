@@ -106,7 +106,7 @@ When you are moving client data to a new system, the last thing you want is a ge
 - **Client self-service rescheduling**, which takes the administrative load off you when clients need to adjust appointments mid-transition.
 - **A branded booking website**, not a generic link. Your studio’s name, photos, and services are front and center, so the new booking experience feels intentional rather than like a software upgrade your clients have to tolerate.
 
-For studios that have been sending clients to a plain booking link that looks like a therapist’s intake form, the switch to BKRDY is also a brand upgrade. The [new client booking flow](/blog/new-client-booking-flow-a-guide-for-beauty-pros) is designed to convert browsers into booked appointments, not just hold calendar slots.
+For studios that have been sending clients to a plain booking link that looks like a therapist’s intake form, the switch to BKRDY is also a brand upgrade. The [new client booking flow](/guides/how-to-make-a-booking-website/) is designed to convert browsers into booked appointments, not just hold calendar slots.
 
 If you run a spa or esthetics practice, BKRDY’s [spa booking platform](/for-spas) is built around the same principles: a beautiful front end, deposit protection, and client history you can export as a CSV any time.
 
@@ -125,4 +125,4 @@ Transferring appointments to a new booking system goes smoothly when you standar
 ## Recommended
 
 - [Self-serve reschedule for clients | BKRDY](/platform/booking/online/)
-- [Automate Client Appointment Reminders: A Beauty Pro Guide | BKRDY](/blog/automate-client-appointment-reminders-a-beauty-pro-guide)
+- [Salon Appointment Reminder Templates | BKRDY](/guides/appointment-reminder-templates/)

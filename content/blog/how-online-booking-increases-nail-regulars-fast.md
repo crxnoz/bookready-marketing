@@ -44,9 +44,9 @@ The most effective reminder sequences include three touchpoints:
 
 **Pro Tip:** *Set your rebooking reminder to fire at the exact interval that matches your most popular service. If most clients book gel fills every three weeks, schedule the follow-up message for day 18. That timing feels personal, not automated.*
 
-Post-appointment follow-ups also serve a second purpose. A message that thanks the client and invites a review builds social proof while keeping your studio top of mind. Clients who receive a follow-up message are more likely to leave a Google review, which then attracts new clients who can become the next wave of regulars. You can find a detailed breakdown of timing and message structure in this [appointment reminders guide](/blog/automate-client-appointment-reminders-a-beauty-pro-guide) from BKRDY.
+Post-appointment follow-ups also serve a second purpose. A message that thanks the client and invites a review builds social proof while keeping your studio top of mind. Clients who receive a follow-up message are more likely to leave a Google review, which then attracts new clients who can become the next wave of regulars. You can find a detailed breakdown of timing and message structure in this [appointment reminders guide](/guides/appointment-reminder-templates/) from BKRDY.
 
-The “forgotten middle” between visits two and three is where most nail techs lose clients they could have kept. Proactive, automated reminders timed to this window are the single most effective way to prevent that loss. Pair them with a [rebooking prompts strategy](/blog/rebooking-prompts-and-client-retention-2026-guide) and the drop-off rate shrinks significantly.
+The “forgotten middle” between visits two and three is where most nail techs lose clients they could have kept. Proactive, automated reminders timed to this window are the single most effective way to prevent that loss. Pair them with a [rebooking prompts strategy](/guides/how-to-rebook-clients/) and the drop-off rate shrinks significantly.
 
 ## Why does your booking page need to live on your own website?
 
@@ -79,7 +79,7 @@ Growing your base of regular nail clients through online booking requires more t
 
 **5. Use your booking page as a marketing asset.** A well-designed booking site with photos of your work, clear service descriptions, and client reviews does more than take appointments. It builds confidence for first-time clients who found you through search or social media. That confidence is what gets them to book, and the pre-booking system is what keeps them coming back.
 
-[Successful nail salons move away from Instagram-dependent client acquisition](https://www.typza.com/insights/nail-salon-website-design-loyal-local-client-base) toward self-sustaining regulars through automated systems. The goal is a booking infrastructure that works even when you are not actively marketing. You can walk through the full setup process in BKRDY’s [online booking setup guide](/blog/beauty-studio-online-booking-setup-a-practical-guide).
+[Successful nail salons move away from Instagram-dependent client acquisition](https://www.typza.com/insights/nail-salon-website-design-loyal-local-client-base) toward self-sustaining regulars through automated systems. The goal is a booking infrastructure that works even when you are not actively marketing. You can walk through the full setup process in BKRDY’s [online booking setup guide](/guides/how-to-make-a-booking-website/).
 
 **Pro Tip:** *Combine your rebooking prompt with a limited-time offer, such as “Book your next fill this week and get a free nail art accent.” Urgency and value together produce a higher response rate than either one alone.*
 
@@ -103,7 +103,7 @@ The techs who build genuinely full books share one habit: they treat the booking
 
 The uncomfortable truth is that most client loss is not about the service. The nails were great. The client just forgot to rebook, got busy, or found it easier to try someone closer. A well-timed automated message at the right moment would have kept her. The technology to send that message costs less per month than a single no-show costs in lost revenue.
 
-What I find most overlooked is the “forgotten middle.” Nail techs focus on the first visit experience and the loyalty program for long-term clients. But visits two and three are where the real retention work happens. That window is where [smart waitlists and automated nudges](/blog/how-smart-waitlists-retain-nail-clients-that-stay) do their best work. Get a client through visit three and you have likely kept her for years.
+What I find most overlooked is the “forgotten middle.” Nail techs focus on the first visit experience and the loyalty program for long-term clients. But visits two and three are where the real retention work happens. That window is where [smart waitlists and automated nudges](/blog/nail-client-retention-best-practices-for-nail-techs/) do their best work. Get a client through visit three and you have likely kept her for years.
 
 > *, Luis*
 
@@ -139,5 +139,5 @@ They can. A loyalty reward gives clients a reason to come back. Tying loyalty re
 
 - [Nail Salon Booking Software, Compared 2026 | BKRDY](/blog/nail-salon-booking-software)
 - [Nail Tech Booking Websites | BKRDY](/for-nail-techs)
-- [How Smart Waitlists Retain Nail Clients That Stay | BKRDY](/blog/how-smart-waitlists-retain-nail-clients-that-stay)
+- [Nail Client Retention Best Practices for Nail Techs | BKRDY](/blog/nail-client-retention-best-practices-for-nail-techs/)
 - [Client Preference Tracking for Nail Services: 2026 Guide | BKRDY](/blog/client-preference-tracking-for-nail-services-2026-guide)

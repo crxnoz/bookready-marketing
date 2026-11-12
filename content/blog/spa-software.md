@@ -123,7 +123,7 @@ The market for spa booking software covers a wide range of use cases, from free 
 
 **Clinical and medical spa platforms** like Pabau (priced by location and team size) add healthcare-grade documentation, injection mapping, and HIPAA-compliant records. For studios offering medical aesthetics, standard salon software rarely meets clinical workflow needs out of the box.
 
-**BKRDY** sits in a distinct category: a designed booking website built specifically for independent beauty studios, where the brand presentation and the booking flow are the same product. It is not trying to be an enterprise operations platform. It is built for the studio owner who wants a beautiful, functional online presence without stitching together a website builder, a booking tool, and a payment processor separately. The [online booking setup guide](/blog/beauty-studio-online-booking-setup-a-practical-guide) walks through exactly how that comes together in practice.
+**BKRDY** sits in a distinct category: a designed booking website built specifically for independent beauty studios, where the brand presentation and the booking flow are the same product. It is not trying to be an enterprise operations platform. It is built for the studio owner who wants a beautiful, functional online presence without stitching together a website builder, a booking tool, and a payment processor separately. The [online booking setup guide](/guides/how-to-make-a-booking-website/) walks through exactly how that comes together in practice.
 
 ## BKRDY gives your studio a booking website worth sending clients to
 
@@ -146,6 +146,6 @@ Integrated spa software that combines a branded website with on-domain booking c
 ## Recommended
 
 - [Spa Booking Websites, Designed | BKRDY](/for-spas)
-- [Beauty Studio Online Booking Setup: A Practical Guide | BKRDY](/blog/beauty-studio-online-booking-setup-a-practical-guide)
+- [How to Make a Booking Website (No Code) | BKRDY](/guides/how-to-make-a-booking-website/)
 - [Esthetician Booking Websites, Designed | BKRDY](/for-estheticians)
 - [Vagaro alternatives for salons and spas, side by side | BKRDY](/compare/vagaro-alternative/)

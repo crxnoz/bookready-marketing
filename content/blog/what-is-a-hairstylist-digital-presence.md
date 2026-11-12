@@ -106,7 +106,6 @@ A hairstylist’s digital presence works when every platform, from Google to Ins
 
 ## Recommended
 
-- [Digital Client Records for Your Nail Business: 2026 Guide | BKRDY](/blog/digital-client-records-for-your-nail-business-2026-guide)
+- [Client Preference Tracking for Nail Services: 2026 Guide | BKRDY](/blog/client-preference-tracking-for-nail-services-2026-guide/)
 - [What Does Studio Branding Mean Online for Beauty Pros | BKRDY](/blog/what-does-studio-branding-mean-online-for-beauty-pros)
-- [Personalized Nail Client Experience: Your 2026 Guide | BKRDY](/blog/personalized-nail-client-experience-your-2026-guide)
 - [Hair Salon Booking Websites | BKRDY](/for-salons)

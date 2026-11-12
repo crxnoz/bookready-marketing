@@ -131,7 +131,7 @@ A no-show forfeits the deposit in full under standard beauty studio deposit poli
 
 ## Recommended
 
-- [Beauty Studio Online Booking Setup: A Practical Guide | BKRDY](/blog/beauty-studio-online-booking-setup-a-practical-guide)
+- [How to Make a Booking Website (No Code) | BKRDY](/guides/how-to-make-a-booking-website/)
 - [Esthetician Booking Websites, Designed | BKRDY](/for-estheticians)
 - [Nail Tech Booking Websites | BKRDY](/for-nail-techs)
 - [Nail Salon Booking Software, Compared 2026 | BKRDY](/blog/nail-salon-booking-software)

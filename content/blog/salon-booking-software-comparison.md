@@ -34,6 +34,10 @@ Here is how BKRDY, Fresha, Vagaro, GlossGenius, Square Appointments, and Booksy 
 
 **Best marketplace:** Booksy, when you genuinely need discovery to fill a chair. See the full [pricing](/pricing/) picture before you commit.
 
+## What booking software does, in one paragraph.
+
+Appointment scheduling software replaces phone calls, back-and-forth emails and spreadsheet calendars with a self-service system clients can use any time. It shows real-time availability, lets clients book or reschedule on their own, and handles confirmations automatically. Most platforms also send reminders before appointments, collect deposits or full payments at the time of booking, manage staff schedules, and track client history. That list is mostly the same on every platform here, which is why this comparison turns on what differs.
+
 ## The five criteria that actually matter.
 
 Skip the feature checklist. For a salon, five things decide whether software helps you grow or just keeps the lights on.

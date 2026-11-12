@@ -80,7 +80,7 @@ Not all Stripe integrations are equal. Native integration, where Stripe is built
 
 Stripe scales without requiring a platform overhaul as transaction volume increases. A solo nail technician and a five-chair salon use the same infrastructure. That matters when you plan to add staff or open a second location, because you will not need to migrate your payment system mid-growth.
 
-BKRDY builds native Stripe, optional sales tax through Stripe, and Apple Pay and Google Pay into its [booking websites for estheticians](/for-estheticians) and other beauty professionals, with Stripe deposit handling included from day one. It does not split a bill across cards, and a refund on a cancellation is a button you click, not automatic. The [online booking setup](/blog/beauty-studio-online-booking-setup-a-practical-guide) requires no technical background, just your own Stripe account to connect.
+BKRDY builds native Stripe, optional sales tax through Stripe, and Apple Pay and Google Pay into its [booking websites for estheticians](/for-estheticians) and other beauty professionals, with Stripe deposit handling included from day one. It does not split a bill across cards, and a refund on a cancellation is a button you click, not automatic. The [online booking setup](/guides/how-to-make-a-booking-website/) requires no technical background, just your own Stripe account to connect.
 
 ## Key Takeaways
 
@@ -124,7 +124,7 @@ Yes. Stripe natively supports Apple Pay and Google Pay, and many bookings happen
 
 ### How does Stripe integration reduce no-shows?
 
-Requiring a deposit at booking through Stripe creates a financial commitment that reduces cancellations. Studios that combine deposits with [automated appointment reminders](/blog/automate-client-appointment-reminders-a-beauty-pro-guide) see the strongest reduction in no-shows.
+Requiring a deposit at booking through Stripe creates a financial commitment that reduces cancellations. Studios that combine deposits with [automated appointment reminders](/guides/appointment-reminder-templates/) see the strongest reduction in no-shows.
 
 ### Is Stripe secure enough for storing client card details?
 
@@ -136,7 +136,7 @@ Native integration builds Stripe directly into the platform, producing faster pr
 
 ## Recommended
 
-- [Beauty Studio Online Booking Setup: A Practical Guide | BKRDY](/blog/beauty-studio-online-booking-setup-a-practical-guide)
+- [How to Make a Booking Website (No Code) | BKRDY](/guides/how-to-make-a-booking-website/)
 - [BKRDY booking sites](/templates/)
 - [Esthetician Booking Websites, Designed | BKRDY](/for-estheticians)
 - [Lush Studio, Nail & Skincare Booking Template | BKRDY](/templates/lushstudio)

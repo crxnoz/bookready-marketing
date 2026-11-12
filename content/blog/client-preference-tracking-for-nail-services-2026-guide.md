@@ -16,7 +16,7 @@ migrated: true
 
 Discover how client preference tracking nail services can enhance loyalty and reduce errors. Build stronger customer relationships today!
 
-Client preference tracking in nail services is the practice of systematically recording each client’s service details, product choices, and personal preferences to deliver a consistent, personalized experience at every appointment. Done well, it moves your studio from reactive to proactive. You stop guessing what a client liked last time and start building a relationship that keeps them coming back. The industry standard for this practice centers on detailed client record cards and CRM-integrated booking systems, both of which capture everything from gel color codes to allergy notes. Nail technicians who [track nail client preferences](/blog/how-smart-waitlists-retain-nail-clients-that-stay) consistently report stronger client loyalty and fewer service errors.
+Client preference tracking in nail services is the practice of systematically recording each client’s service details, product choices, and personal preferences to deliver a consistent, personalized experience at every appointment. Done well, it moves your studio from reactive to proactive. You stop guessing what a client liked last time and start building a relationship that keeps them coming back. The industry standard for this practice centers on detailed client record cards and CRM-integrated booking systems, both of which capture everything from gel color codes to allergy notes. Nail technicians who [track nail client preferences](/blog/nail-client-retention-best-practices-for-nail-techs/) consistently report stronger client loyalty and fewer service errors.
 
 ## 1. What details to capture in client preference records
 
@@ -131,13 +131,17 @@ The best option is a platform that connects booking, client history, and communi
 
 Clients who feel remembered and understood return more often and refer others. Detailed records that include specific product details and application techniques show clients they are valued, which builds loyalty beyond the quality of the service itself.
 
+### What should clients know about the records I keep?
+
+Collect only what you need and tell clients what you are storing. Limit who on your team can view sensitive information like allergy history or payment details. Once a month, check your records for duplicate entries, missing allergy notes and outdated contact details: outdated records are almost as harmful as no records.
+
 ### How often should client records be updated?
 
 Records should be updated after every single appointment, ideally before the client leaves. Inconsistent updates create false confidence and leave gaps that lead to service errors at future visits.
 
 ## Recommended
 
-- [How Smart Waitlists Retain Nail Clients That Stay | BKRDY](/blog/how-smart-waitlists-retain-nail-clients-that-stay)
+- [Nail Client Retention Best Practices for Nail Techs | BKRDY](/blog/nail-client-retention-best-practices-for-nail-techs/)
 - [Nail Tech Booking Websites | BKRDY](/for-nail-techs)
 - [Nail Salon Booking Software, Compared 2026 | BKRDY](/blog/nail-salon-booking-software)
 - [Acuity alternatives for salons, side by side | BKRDY](/compare/acuity-alternative/)

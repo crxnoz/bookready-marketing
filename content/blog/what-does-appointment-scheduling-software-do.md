@@ -10,7 +10,8 @@ pillar: switching
 keywords: appointment scheduling software
 photo: what-does-appointment-scheduling-software-do
 photoAlt: What Does Appointment Scheduling Software Do in 2026?
-status: published
+status: folded
+foldedInto: /blog/salon-booking-software-comparison/
 migrated: true
 ---
 
@@ -204,6 +205,6 @@ Appointment scheduling software replaces manual booking processes with automated
 ## Recommended
 
 - [What Does Appointment Frequency Mean for Clients? | BKRDY](/blog/what-does-appointment-frequency-mean-for-clients)
-- [Automate Client Appointment Reminders: A Beauty Pro Guide | BKRDY](/blog/automate-client-appointment-reminders-a-beauty-pro-guide)
-- [Why Nail Appointment Reminders Reduce Gaps | BKRDY](/blog/why-nail-appointment-reminders-reduce-gaps)
+- [Salon Appointment Reminder Templates | BKRDY](/guides/appointment-reminder-templates/)
+- [Nail Client Retention Best Practices for Nail Techs | BKRDY](/blog/nail-client-retention-best-practices-for-nail-techs/)
 - [Acuity alternatives for salons, side by side | BKRDY](/compare/acuity-alternative/)

@@ -10,7 +10,8 @@ pillar: coming-back
 keywords: digital client records nail business
 photo: digital-client-records-for-your-nail-business-2026-guide
 photoAlt: Digital Client Records for Your Nail Business: 2026 Guide
-status: published
+status: folded
+foldedInto: /blog/client-preference-tracking-for-nail-services-2026-guide/
 migrated: true
 ---
 
@@ -58,7 +59,7 @@ The most effective reminder setups use:
 - A same-day message for clients with a history of late cancellations
 - SMS or WhatsApp delivery, since open rates for text messages far exceed email
 
-Manual reminder systems, meaning a staff member calling or texting each client individually, create inconsistency and eat into productive time. They also depend on whoever is working that day remembering to do it. Automation removes that dependency entirely. You can read more about setting this up in BKRDY’s guide on [automating appointment reminders](/blog/automate-client-appointment-reminders-a-beauty-pro-guide).
+Manual reminder systems, meaning a staff member calling or texting each client individually, create inconsistency and eat into productive time. They also depend on whoever is working that day remembering to do it. Automation removes that dependency entirely. You can read more about setting this up in BKRDY’s guide on [automating appointment reminders](/guides/appointment-reminder-templates/).
 
 ## How can client data drive marketing and boost retention?
 
@@ -73,7 +74,7 @@ Winning back even a few dormant clients who have been inactive for 60 to 90 days
 
 **Pro Tip:** *Set a digital trigger at day 60 of inactivity, not day 90. The longer a client goes without contact, the harder and more expensive it is to win them back. Early is always better.*
 
-Personalized [rebooking prompts](/blog/rebooking-prompts-and-client-retention-2026-guide) tied to service history are another underused tool. If a client’s last gel set was four weeks ago, a message saying “Your nails are probably ready for a refresh” lands far better than a generic discount blast.
+Personalized [rebooking prompts](/guides/how-to-rebook-clients/) tied to service history are another underused tool. If a client’s last gel set was four weeks ago, a message saying “Your nails are probably ready for a refresh” lands far better than a generic discount blast.
 
 ## Best practices for implementing digital client records in your salon
 
@@ -154,6 +155,5 @@ Reputable salon management platforms use encryption and role-based access contro
 ## Recommended
 
 - [Client Preference Tracking for Nail Services: 2026 Guide | BKRDY](/blog/client-preference-tracking-for-nail-services-2026-guide)
-- [Personalized Nail Client Experience: Your 2026 Guide | BKRDY](/blog/personalized-nail-client-experience-your-2026-guide)
 - [Nail Tech Booking Websites | BKRDY](/for-nail-techs)
 - [How Online Booking Increases Nail Regulars Fast | BKRDY](/blog/how-online-booking-increases-nail-regulars-fast)

@@ -10,7 +10,8 @@ pillar: your-site
 keywords: personalized nail client experience
 photo: personalized-nail-client-experience-your-2026-guide
 photoAlt: Personalized Nail Client Experience: Your 2026 Guide
-status: published
+status: folded
+foldedInto: /blog/client-preference-tracking-for-nail-services-2026-guide/
 migrated: true
 ---
 
@@ -136,6 +137,6 @@ Share your preferences clearly during the consultation, bring reference photos, 
 ## Recommended
 
 - [Nail Tech Booking Websites | BKRDY](/for-nail-techs)
-- [How Smart Waitlists Retain Nail Clients That Stay | BKRDY](/blog/how-smart-waitlists-retain-nail-clients-that-stay)
+- [Nail Client Retention Best Practices for Nail Techs | BKRDY](/blog/nail-client-retention-best-practices-for-nail-techs/)
 - [Nail Salon Booking Software, Compared 2026 | BKRDY](/blog/nail-salon-booking-software)
 - [Lush Studio, Nail & Skincare Booking Template | BKRDY](/templates/lushstudio)
