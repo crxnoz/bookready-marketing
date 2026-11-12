@@ -9,7 +9,7 @@ date: 2026-11-12
 pillar: going-solo
 keywords: how to start a nail business at home
 photoTerms: nail technician home studio client manicure | manicurist filing client nails natural light | nail tech small table lamp client hands
-status: draft
+status: published
 ---
 
 Two things decide whether this is possible, and you can check both before buying a lamp. Nail services are licensed by your state board, and what you need varies by state. Whether you may see clients at home at all can come down to your lease or your building.

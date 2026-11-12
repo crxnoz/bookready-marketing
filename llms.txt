@@ -94,6 +94,7 @@ What BKRDY does not have today:
 ## Articles
 
 <!-- blog:start -->
+- [How to start a nail business at home](https://bkrdy.com/blog/start-a-nail-business-at-home/): What to sort before your first client at home: licensing and lease checks, ventilation, a room that works, pricing, and a deposit from day one.
 - [How many clients a day is too many?](https://bkrdy.com/blog/how-many-clients-per-day/): Your real ceiling is not the number of slots that fit in your opening hours. How to find your own number, and why the last slot of a full day rarely pays.
 - [Keeping a card on file, without the awkward part](https://bkrdy.com/blog/card-on-file-for-appointments/): What a card on file actually means, how it differs from a deposit, the four lines to put on your booking page, and when to waive the fee anyway.
 - [Free salon booking software, and what free costs](https://bkrdy.com/blog/free-salon-booking-software/): Free salon booking software comes in four shapes, and each one charges you somewhere else. How to read the word free before you move your client list.
@@ -133,5 +134,4 @@ What BKRDY does not have today:
 - [Stripe Integration Benefits Beauty Studios in 2026](https://bkrdy.com/blog/stripe-integration-benefits-beauty-studios-in-2026/): Discover how stripe integration benefits beauty studios by enhancing revenue, security, and client satisfaction. Streamline payments today!
 - [How to migrate from Vagaro in seven steps, with a free import.](https://bkrdy.com/guides/migrate-from-vagaro/): A practical, step-by-step guide to migrating your salon, spa, or barbershop off Vagaro, with a free same-day import.
 - [Lash Appointment Intake Forms Online: A Pro's Guide](https://bkrdy.com/blog/lash-appointment-intake-forms-online-a-pros-guide/): Discover how lash appointment intake forms online enhance client safety and streamline your lash service. Elevate your studio's professionalism today!
-- [How to grow a hair salon, from one chair to five. Systems first.](https://bkrdy.com/guides/growing-a-salon/): A practical, no-fluff guide to growing a hair salon. Hiring, pricing, retention, brand, and the operational systems that scale from one chair to five.
 <!-- blog:end -->
