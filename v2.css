@@ -953,3 +953,55 @@ img { max-width: 100%; display: block; }
   .v-receipt { width: 290px; }
   .v-offer { padding: 18px; }
 }
+
+/* ── The iPhone app (2026-11-13) ──────────────────────────────
+   "App" in the menu with a New tag, and its own band on the homepage
+   between Kito and the platform: Kito at dusk behind the real app, the
+   QR code on a computer (TestFlight only opens on the iPhone), one button
+   straight to the invite on a phone. */
+.v-new {
+  display: inline-flex; align-items: center; height: 18px; margin-left: 7px; padding: 0 7px;
+  border-radius: 9px; background: rgba(229, 154, 120, 0.16); color: var(--accent);
+  font-size: 11px; font-weight: 700; letter-spacing: 0.02em; vertical-align: 1px;
+}
+.v-app { position: relative; overflow: hidden; }
+.v-app__art { position: absolute; inset: 0; pointer-events: none; }
+.v-app__art img {
+  position: absolute; right: -8%; top: 0; height: 100%; width: auto; max-width: none; opacity: 0.85;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 40%), linear-gradient(to bottom, transparent 0%, #000 18%, #000 80%, transparent 100%);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to right, transparent 0%, #000 40%), linear-gradient(to bottom, transparent 0%, #000 18%, #000 80%, transparent 100%);
+  mask-composite: intersect;
+}
+.v-app__grid { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 0.75fr); gap: 64px; align-items: center; }
+.v-app__copy { display: flex; flex-direction: column; gap: 22px; align-items: flex-start; }
+.v-app__pts { list-style: none; margin: 2px 0 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.v-app__pts li { display: flex; gap: 12px; align-items: flex-start; font-size: 16px; line-height: 1.45; }
+.v-app__pts svg { flex: none; width: 22px; height: 22px; padding: 5px; margin-top: 1px; border-radius: 11px; background: rgba(229, 154, 120, 0.16); color: var(--accent); }
+.v-app__scan {
+  display: flex; align-items: center; gap: 22px; max-width: 100%; margin-top: 8px; padding: 18px;
+  border-radius: 24px; background: rgba(15, 17, 23, 0.82); box-shadow: inset 0 0 0 1px var(--line);
+}
+.v-app__scan img { flex: none; width: 132px; height: 132px; border-radius: 14px; }
+.v-app__scan div { display: flex; flex-direction: column; gap: 8px; max-width: 300px; }
+.v-app__scan strong { font-size: 17px; }
+.v-app__scan p { margin: 0; font-size: 14px; line-height: 1.5; color: var(--text-2); }
+.v-app__scan .v-link { font-size: 14px; color: var(--accent); }
+.v-app__btn { display: none; }
+.v-app__note { margin: 0; font-size: 13.5px; color: var(--text-3); }
+.v-app__phone {
+  justify-self: center; width: 344px; padding: 12px; border-radius: 56px; background: #0B0C10;
+  box-shadow: 0 50px 110px rgba(0, 0, 0, 0.6), inset 0 0 0 1px rgba(242, 239, 232, 0.16);
+}
+.v-app__phone img { width: 100%; height: auto; border-radius: 45px; }
+@media (max-width: 860px) {
+  .v-app__grid { grid-template-columns: minmax(0, 1fr); gap: 48px; }
+  .v-app__art img { right: -40%; height: 70%; top: auto; bottom: 0; }
+}
+@media (max-width: 760px) {
+  .v-app__scan { display: none; }
+  .v-app__btn { display: inline-flex; width: 100%; height: 54px; font-size: 16px; }
+  .v-app__note { text-align: center; align-self: stretch; }
+  .v-app__phone { width: 250px; padding: 9px; border-radius: 42px; }
+  .v-app__phone img { border-radius: 34px; }
+}
