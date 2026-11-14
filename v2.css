@@ -994,17 +994,29 @@ img { max-width: 100%; display: block; }
 .v-app__pts { list-style: none; margin: 2px 0 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
 .v-app__pts li { display: flex; gap: 12px; align-items: flex-start; font-size: 16px; line-height: 1.45; }
 .v-app__pts svg { flex: none; width: 22px; height: 22px; padding: 5px; margin-top: 1px; border-radius: 11px; background: rgba(229, 154, 120, 0.16); color: var(--accent); }
-.v-app__scan {
-  display: flex; align-items: center; gap: 22px; max-width: 100%; margin-top: 8px; padding: 18px;
-  border-radius: 24px; background: rgba(15, 17, 23, 0.82); box-shadow: inset 0 0 0 1px var(--line);
+/* Getting the app, all three steps in the open (2026-11-14). The hero's app
+   button lands here (#app-steps). Step 2 is a QR code on a computer and a
+   button on a phone, where the QR code would be useless. */
+.v-app__steps {
+  list-style: none; margin: 8px 0 0; padding: 6px 22px; align-self: stretch; max-width: 540px;
+  border-radius: 24px; background: rgba(15, 17, 23, 0.86); box-shadow: inset 0 0 0 1px var(--line);
+  scroll-margin-top: 16px;
 }
-.v-app__scan img { flex: none; width: 132px; height: 132px; border-radius: 14px; }
-.v-app__scan div { display: flex; flex-direction: column; gap: 8px; max-width: 300px; }
-.v-app__scan strong { font-size: 17px; }
-.v-app__scan p { margin: 0; font-size: 14px; line-height: 1.5; color: var(--text-2); }
-.v-app__scan .v-link { font-size: 14px; color: var(--accent); }
-.v-app__btn { display: none; }
-.v-app__note { margin: 0; font-size: 13.5px; color: var(--text-3); }
+.v-app__steps > li { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 16px; padding: 18px 0; border-top: 1px solid var(--line); }
+.v-app__steps > li:first-child { border-top: 0; }
+.v-app__num {
+  width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center;
+  background: rgba(229, 154, 120, 0.16); color: var(--accent); font-family: var(--mono); font-size: 14px; font-weight: 500;
+}
+.v-app__steps strong { display: block; margin: 4px 0 4px; font-size: 17px; }
+.v-app__steps p { margin: 0; font-size: 14.5px; line-height: 1.5; color: var(--text-2); text-wrap: pretty; }
+.v-app__act { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; font-size: 14.5px; font-weight: 600; color: var(--accent); }
+.v-app__act:hover { color: var(--text); }
+.v-app__qr { display: flex; align-items: center; gap: 16px; margin-top: 14px; }
+.v-app__qr img { flex: none; width: 112px; height: 112px; border-radius: 12px; }
+.v-app__qr a { font-size: 13.5px; line-height: 1.45; color: var(--accent); overflow-wrap: anywhere; }
+.v-app__invite, .v-app__on-phone { display: none; }
+.v-app__note { margin: 0; max-width: 540px; font-size: 13.5px; line-height: 1.5; color: var(--text-3); }
 .v-app__phone {
   justify-self: center; width: 344px; padding: 12px; border-radius: 56px; background: #0B0C10;
   box-shadow: 0 50px 110px rgba(0, 0, 0, 0.6), inset 0 0 0 1px rgba(242, 239, 232, 0.16);
@@ -1015,8 +1027,14 @@ img { max-width: 100%; display: block; }
   .v-app__art img { right: -40%; height: 70%; top: auto; bottom: 0; }
 }
 @media (max-width: 760px) {
-  .v-app__scan { display: none; }
-  .v-app__btn { display: inline-flex; width: 100%; height: 54px; font-size: 16px; }
+  .v-app__steps { padding: 4px 18px; }
+  .v-app__qr, .v-app__on-computer { display: none; }
+  .v-app__on-phone { display: block; }
+  .v-app__act {
+    display: flex; justify-content: center; height: 48px; margin-top: 12px; border-radius: 999px;
+    background: var(--ghost); box-shadow: inset 0 0 0 1px var(--line-2); color: var(--text);
+  }
+  .v-app__invite { display: flex; width: 100%; height: 52px; margin-top: 12px; font-size: 16px; }
   .v-app__note { text-align: center; align-self: stretch; }
   .v-app__phone { width: 250px; padding: 9px; border-radius: 42px; }
   .v-app__phone img { border-radius: 34px; }
