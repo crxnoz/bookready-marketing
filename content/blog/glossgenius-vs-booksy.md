@@ -9,7 +9,7 @@ date: 2026-11-13
 pillar: switching
 keywords: glossgenius vs booksy
 photoTerms: barber cutting hair client conversation | lash artist working on client natural light studio | nail technician salon reception phone booking
-status: draft
+status: published
 ---
 
 These two are not competing for the same job, which is why a feature list tells you almost nothing. Booksy is a marketplace: clients search for a beard trim near them and find you listed beside every other pro in your zip code. GlossGenius has no marketplace. It gives you a booking page and card payments in one subscription, and the people using it already know your name.
