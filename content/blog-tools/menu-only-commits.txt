@@ -1,0 +1,5 @@
+# Commits that changed only the menu or the footer every page shares.
+# build.mjs skips them when it dates pages for the sitemap, so a menu link
+# never makes every page look new to Google. One commit per line: its subject
+# exactly, then " | ", then the pages it really changed (they keep the date).
+The iPhone app: its own band on the homepage, App in the menu, the roadmap on the beta | index.html roadmap/index.html

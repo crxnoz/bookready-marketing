@@ -285,14 +285,36 @@ ${sh.footer}
 // When each file last really changed: the date of the newest commit that
 // touched it, or today when it has changes not committed yet. Null when git
 // cannot answer (no git, not a checkout), and then no date moves.
+// A commit that only changed the menu or footer every page shares does not make
+// a page newer: adding "App" to the menu (2026-11-13) would otherwise have dated
+// some 130 pages "today" for Google. menu-only-commits.txt names those commits
+// by subject (a subject survives a rebase, a hash does not) and the pages each
+// one really changed; for every other page the commit is skipped.
+function menuOnlyCommits() {
+  const f = join(ROOT, 'content', 'blog-tools', 'menu-only-commits.txt');
+  const map = new Map();
+  if (!existsSync(f)) return map;
+  for (const raw of readFileSync(f, 'utf8').split(/\r?\n/)) {
+    const line = raw.trim();
+    if (!line || line.startsWith('#')) continue;
+    const [subject, pages = ''] = line.split(' | ');
+    map.set(subject.trim(), new Set(pages.split(/\s+/).filter(Boolean)));
+  }
+  return map;
+}
+
 function fileDates(glob) {
   try {
     const git = args => execFileSync('git', args, { cwd: ROOT, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'] });
     const dates = new Map();
+    const menuOnly = menuOnlyCommits();
     let day = null;
-    for (const line of git(['log', '--format=@%cs', '--name-only', '--', glob]).split(/\r?\n/)) {
-      if (line.startsWith('@')) day = line.slice(1);
-      else if (line && day && !dates.has(line)) dates.set(line, day);
+    let keep = null;
+    for (const line of git(['log', '--format=@%cs %s', '--name-only', '--', glob]).split(/\r?\n/)) {
+      if (line.startsWith('@')) {
+        day = line.slice(1, 11);
+        keep = menuOnly.get(line.slice(12)) ?? null;
+      } else if (line && day && !dates.has(line) && (!keep || keep.has(line))) dates.set(line, day);
     }
     for (const line of git(['status', '--porcelain', '--', glob]).split(/\r?\n/)) {
       const file = line.slice(3).trim().replace(/^"|"$/g, '');
