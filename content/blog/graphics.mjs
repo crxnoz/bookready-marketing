@@ -149,4 +149,193 @@ export const GRAPHICS = [
     ],
     note: 'These are capacity readings, not character flaws.',
   },
+  {
+      key: 'vagaro-vs-fresha', name: 'fit-night', type: 'compare', label: 'Switching',
+      title: 'Who each one genuinely suits',
+      alt: 'A comparison of who Vagaro and Fresha each suit: the kind of business, what you want from it, how you pay, and how deep the setup goes.',
+      cols: ['Vagaro', 'Fresha'],
+      rows: [
+        ['Your business', 'A multi-chair salon or spa', 'A pro or team still building your book'],
+        ['You want', 'Payroll, retail and classes in one place', 'A low fixed monthly cost'],
+        ['You pay', 'A subscription that grows with staff calendars', 'When the money moves, and a fee on new marketplace clients'],
+        ['Feature depth', 'Deep, with a real learning curve', 'Lighter, quicker to set up'],
+      ],
+      note: 'If your book is mostly regulars, you are paying marketplace prices for clients you already have.',
+    },
+  {
+    key: 'set-up-deposit-payments', name: 'setup-night', type: 'steps', label: 'Money on the table',
+    title: 'Setting up deposits, in order',
+    alt: 'Six steps for setting up deposits, from picking flat or percent and the amount to booking yourself as a test.',
+    steps: [
+      ['Pick flat or percent, and the amount', 'At 25%, a $60 manicure takes $15 and a $160 full set takes $40.'],
+      ['Write the deposit policy in one paragraph', 'How much, that it comes off the total, cancel early, cancel late or do not turn up.'],
+      ['Decide what happens when they cancel', 'Outside your window, refund it or carry it. Inside it, or a no-show, you keep it.'],
+      ['Connect a payment processor in your own name', 'Ask the question directly: whose account does the money go into?'],
+      ['Make the client see it and agree before paying', 'Where they pay, in the same words, with a box they tick.'],
+      ['Test it by booking yourself', 'On your own phone, as a client would, with a real card.'],
+    ],
+    note: 'The rule comes first and the software second.'
+  },
+  {
+    key: 'holiday-schedule-for-salons', name: 'plan-night', type: 'checklist', label: 'Running the week',
+    title: 'Plan your holiday schedule',
+    alt: 'A checklist for planning a holiday schedule: close the days first, add a few long days with a limit, give regulars first pick, set the hours on the calendar, post the holiday hours everywhere, and protect the week after.',
+    items: [
+      ['Close the days first', 'Mark them closed on your booking calendar, today.'],
+      ['Then add the long days, and only a few', 'Set a limit before you open them.'],
+      ['Give your regulars first pick', 'Send them the dates a week before you post them publicly.'],
+      ['Set the hours on your calendar, not in your head', 'Decide once, and let the calendar say no.'],
+      ['Post the holiday hours everywhere, once', 'Keep it to dates and times.'],
+      ['Protect the week after', 'Block a few days of it now, at the same time as your closed days.'],
+    ],
+    note: 'Every extra hour you work in December comes out of you in January.'
+  },
+  {
+      key: 'appointment-reminder-card-template', name: 'card-night', type: 'policy', label: 'Getting them back',
+      title: 'What goes on the card',
+      alt: 'The wording for an appointment reminder card: the date and time, the service, how to change it, the policy in one line, and your booking link.',
+      lines: [
+        'Your next appointment: [Day], [Date] at [Time]',
+        '[Service] with [Your name], about [length]',
+        'To change it: [your booking link or number], at least [24] hours ahead',
+        'Inside [24] hours, or a no-show, is [50%] of the service price',
+        'Book anything else: [your booking link], or scan the code',
+      ],
+      note: 'Print the fixed parts, write the rest by hand.'
+    },
+  {
+    key: 'refund-policy-for-salon', name: 'policy-night', type: 'policy', label: 'Money on the table',
+    title: 'A salon refund policy, in six lines',
+    alt: 'A six line salon refund policy: a window to tell you, a free fix, a refund when it cannot be fixed, deposits, products and gift cards.',
+    lines: [
+      'Not happy with your service? Message me within 7 days of your appointment.',
+      'Come back and I will fix it at no charge.',
+      'If it cannot be fixed, I will refund part or all of the service.',
+      'Deposits follow my cancellation policy.',
+      'Unopened products can be returned within 14 days.',
+      'Gift cards are not exchanged for cash, unless the law requires it.',
+    ],
+    note: 'The wording that works is short and starts with the promise, not the restriction.'
+  },
+  {
+    key: 'first-90-days-going-independent', name: 'months-night', type: 'steps', label: 'Going solo',
+    title: 'Your first 90 days, month by month',
+    alt: 'The first ninety days of going independent in four steps: before day one, sort out what is yours; month one, book the clients you have; month two, fill the gaps; month three, look at the numbers and fix one thing.',
+    steps: [
+      ['Before day one: sort out what is yours', 'Read your current agreement. Talk to an accountant once, early.'],
+      ['Month one: book the clients you have', 'Message every client on your list personally.'],
+      ['Month two: fill the gaps', 'The single strongest move is rebooking in the chair.'],
+      ['Month three: look at the numbers and fix one thing', 'Pick the worst one and fix only that.'],
+    ],
+    note: 'You cannot tell what worked if you changed five things at once.'
+  },
+  {
+    key: 'taking-time-off', name: 'week-off-night', type: 'checklist', label: 'Running the week',
+    title: 'How to take a week off without losing clients',
+    alt: 'A checklist for taking a week off without losing clients: pick the week early, close the dates before anyone books them, move anyone already booked, tell your regulars with a date they can book, set the out-of-office, and book your return week before you go.',
+    items: [
+      ['Pick the week early', 'Six to eight weeks ahead is a comfortable lead for most books.'],
+      ['Close the dates before anyone books them', 'Include the edges.'],
+      ['Move anyone already booked, personally', 'By name, with two specific alternatives.'],
+      ['Tell your regulars, with a date they can book', 'Give them somewhere to land.'],
+      ['Set the out-of-office', 'When you are back, and how to book in the meantime.'],
+      ['Book your return week before you go', 'Fill it before you leave.'],
+    ],
+    note: 'A week away now costs less than the month you lose to an injury later.'
+  },
+  {
+      key: 'client-notes-after-appointment', name: 'five-night', type: 'checklist', label: 'Getting them back',
+      title: 'The five lines every note needs',
+      alt: 'A checklist of the five lines in a client note: what you did, how it turned out, what they said, what to suggest next time, and the rebooking gap.',
+      items: [
+        ['What you did, so you could do it again', 'Write it as a recipe, not a description.'],
+        ['How it turned out', 'One honest line.'],
+        ['What they said about their week', 'So the first thing you say next time is a question about their life.'],
+        ['What to suggest next time', 'If you write it down, you will actually say it.'],
+        ['The rebooking gap', 'How many weeks until they should be back, and whether they booked it.'],
+      ],
+      note: 'Keep health information to what changes the service, and never share it.'
+    },
+  {
+    key: 'how-to-price-nails-as-a-beginner', name: 'sum-night', type: 'steps', label: 'Money on the table',
+    title: 'The pricing sum, worked through',
+    alt: 'The pricing sum in six steps: product, fixed costs per hour, what you need to earn, your real time, the sum itself, and when to raise.',
+    steps: [
+      ['Add up the product for one service', 'Say $4 for a gel manicure.'],
+      ['Turn your fixed costs into an hour', 'Say $800 a month. If you do 100 client hours a month, that is $8 an hour.'],
+      ['Pick what you need to earn an hour', 'Not what you hope for, what you need. Say $30 an hour.'],
+      ['Time yourself honestly', 'Say a gel manicure takes you 90 minutes right now.'],
+      ['Do the sum', '$30 plus $8 is $38 an hour. For 1.5 hours that is $57, plus $4 of product, so $61.'],
+      ['Raise it as you get faster and your book fills'],
+    ],
+    note: 'A worked example with round numbers. Put your own in.'
+  },
+  {
+    key: 'booking-time-slot-intervals', name: 'interval-night', type: 'compare', label: 'Running the week',
+    title: 'Where a booking is allowed to begin',
+    alt: 'A comparison of a 15 minute interval and a 30 minute interval: what each suits, what it does to the day, the gaps it leaves, and what it costs.',
+    cols: ['15 minute interval', '30 minute interval'],
+    rows: [
+      ['Suits', 'Menus with uneven lengths', 'Services that divide into the step'],
+      ['A 45 minute cut', 'The next client can start at 9:45', 'Fifteen minutes sit empty after every cut'],
+      ['The day', 'The day packs tight', 'Keeps the calendar readable'],
+      ['The gaps', 'Twenty minutes here and thirty there', 'At least the same size'],
+      ['The cost', 'Clients can start in places you would not have chosen', 'Strands time when a service does not divide evenly'],
+    ],
+    note: 'Pick the step that your most common service length divides into cleanly.'
+  },
+  {
+      key: 'google-reviews-for-hair-salon', name: 'rules-night', type: 'dodont', label: 'Getting them back',
+      title: 'Google reviews, done by the rules',
+      alt: 'Two lists of Google’s rules for reviews: what to do, such as asking every client the same way and answering every review, and what never to do, such as offering incentives or asking how they felt first.',
+      doLabel: 'What to do',
+      do: [
+        'Get your own review link from your Google Business Profile',
+        'Ask every client, the same way',
+        'Send the link while they are still standing there',
+        'Answer every review, the good ones too',
+      ],
+      noLabel: 'What not to do',
+      no: [
+        'No incentives, not even for an honest one',
+        'No filtering by asking how they felt first',
+        'No writing reviews for anyone',
+        'No buying them, from anyone, in any form',
+      ]
+    },
+  {
+    key: 'tell-clients-you-are-moving', name: 'announce-night', type: 'dodont', label: 'Going solo',
+    title: 'How to tell clients you are leaving a salon',
+    alt: 'Two panels: what to do when you tell clients you are leaving a salon, from reading your agreement first to finishing your last appointments well, and what not to do, from posting months ahead to complaining about the old salon.',
+    doLabel: 'Do',
+    do: [
+      'Read your agreement before you message anyone',
+      'Tell the owner before any client',
+      'Message clients personally, with a date and a link',
+      'Speak well of the place you are leaving',
+      'Finish your last appointments as well as your first',
+    ],
+    noLabel: 'Do not',
+    no: [
+      'Post the news publicly months ahead',
+      'Take a client list you are not clearly entitled to',
+      'Contact clients in a way your agreement rules out',
+      'Cut your prices to pull people across',
+      'Complain about the old salon, to clients or online',
+    ]
+  },
+  {
+      key: 'square-appointments-pricing', name: 'addup-night', type: 'checklist', label: 'Switching',
+      title: 'What to add up before you pick a plan',
+      alt: 'A checklist of what to add up before you pick a Square Appointments plan: the plan, the processing on every payment, your staff count, hardware, deposits and the cost of leaving.',
+      items: [
+        ['The monthly plan, per location', 'Price it for the team you expect a year from now, not today’s.'],
+        ['Processing on every payment', 'Take last month’s card takings and apply the processing rate to it.'],
+        ['Staff count', 'The free plan has limits on staff and on what it covers.'],
+        ['Hardware', 'If you want clients to tap a card at the counter, you buy a reader.'],
+        ['Deposits and no-show fees', 'Each one is a card payment, so each one carries processing too.'],
+        ['The cost of leaving', 'Saved cards stay with Square, and so does your sales history.'],
+      ],
+      note: 'The cheapest plan name is rarely the cheapest month.',
+    },
 ];
