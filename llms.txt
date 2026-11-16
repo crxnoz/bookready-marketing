@@ -94,6 +94,7 @@ What BKRDY does not have today:
 ## Articles
 
 <!-- blog:start -->
+- [Should you take after-hours appointments?](https://bkrdy.com/blog/after-hours-appointments/): Almost everyone takes the odd evening appointment and almost nobody has decided how. Three honest ways to run after hours slots, or to stop.
 - [GlossGenius vs Booksy, and which one you need](https://bkrdy.com/blog/glossgenius-vs-booksy/): Booksy sells discovery, GlossGenius sells your own tidy setup. The test that tells you which one your business actually needs right now.
 - [How to start a nail business at home](https://bkrdy.com/blog/start-a-nail-business-at-home/): What to sort before your first client at home: licensing and lease checks, ventilation, a room that works, pricing, and a deposit from day one.
 - [How many clients a day is too many?](https://bkrdy.com/blog/how-many-clients-per-day/): Your real ceiling is not the number of slots that fit in your opening hours. How to find your own number, and why the last slot of a full day rarely pays.
@@ -133,5 +134,4 @@ What BKRDY does not have today:
 - [What Does Studio Branding Mean Online for Beauty Pros](https://bkrdy.com/blog/what-does-studio-branding-mean-online-for-beauty-pros/): Discover what studio branding means online for beauty pros. Learn how to attract clients and enhance your brand's identity today!
 - [The Real Role of Client-Facing Booking Pages](https://bkrdy.com/blog/the-real-role-of-client-facing-booking-pages/): Discover the crucial role of client-facing booking pages in beauty businesses. Optimize yours to convert visitors into confirmed appointments!
 - [Stripe Integration Benefits Beauty Studios in 2026](https://bkrdy.com/blog/stripe-integration-benefits-beauty-studios-in-2026/): Discover how stripe integration benefits beauty studios by enhancing revenue, security, and client satisfaction. Streamline payments today!
-- [How to migrate from Vagaro in seven steps, with a free import.](https://bkrdy.com/guides/migrate-from-vagaro/): A practical, step-by-step guide to migrating your salon, spa, or barbershop off Vagaro, with a free same-day import.
 <!-- blog:end -->

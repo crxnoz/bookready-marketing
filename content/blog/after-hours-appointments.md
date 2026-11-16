@@ -9,7 +9,7 @@ date: 2026-11-16
 pillar: the-week
 keywords: after hours appointments salon
 photoTerms: hair stylist blow drying client evening salon | nail technician finishing client manicure late | barber shop owner closing up end of day
-status: draft
+status: published
 ---
 
 You already take appointments outside your hours. Almost everyone in this trade does. The question is whether you ever actually decided to, or whether it happened to you one yes at a time.
