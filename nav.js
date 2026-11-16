@@ -6,6 +6,12 @@
    Property: G-4PJSQ6MR9F (bkrdy.com). */
 (function () {
   if (window.dataLayer) return; // guard against double-injection on hot reloads
+  /* Only the live site counts. A local preview (localhost, 127.0.0.1, a file)
+     sent real page views into this property: 184 in the 28 days to
+     2026-11-14. Without the tag, window.gtag stays undefined and every
+     event helper below is already a no-op. */
+  var h = location.hostname;
+  if (h !== 'bkrdy.com' && !/\.bkrdy\.com$/.test(h)) return;
   var s = document.createElement('script');
   s.async = true;
   s.src = 'https://www.googletagmanager.com/gtag/js?id=G-4PJSQ6MR9F';
