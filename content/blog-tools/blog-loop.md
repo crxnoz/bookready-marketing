@@ -48,7 +48,7 @@ Every article belongs to one, set in `pillar`. They are the shape of the blog, n
 - `coming-back`: Rebooking, reminders, waitlists, reviews, client records.
 - `your-site`: The booking page, the link in bio, the site that is yours rather than a marketplace listing.
 - `the-week`: Calendars, capacity, drops, after-hours, how the week is shaped. Little search volume, but it is what BKRDY does that nobody else writes about.
-- `going-solo`: Booth rent, going independent, the first ninety days.
+- `going-solo`: Booth rent, going independent, the first ninety days, and building your first book as a newer tech.
 
 ## Monthly run (the 15th)
 
@@ -101,7 +101,7 @@ Never publish an article that is not `approved` on the review page. Never change
 
 ## Writing rules
 
-- **Audience.** The owner-operator who already has clients: barbers, lash artists, nail techs, estheticians, brow and wax specialists, hair stylists, small salons and spas, solo pros and small teams across the United States. Not beginners researching how to start a business, and not multi-location chains.
+- **Audience.** The owner-operator who already has clients: barbers, lash artists, nail techs, estheticians, brow and wax specialists, hair stylists, small salons and spas, solo pros and small teams across the United States. Since 2026-11-16 (Luis) that includes newer techs in their first year: how-to pieces on building a first clientele, models, portfolios, photos, supply lists and booking times. Not craft-technique tutorials (lash mapping, fades, chemical work), which text does badly and where a wrong step hurts someone; not licensing requirements, which vary by state; and not multi-location chains.
 - **Voice.** Write to the reader as "you". BKRDY is named only where it is genuinely the answer, and never more than twice in an article. No "we" marketing voice, no author persona, no hype, no stacked adjectives. Short sentences. Open with the answer rather than a warm-up paragraph.
 - **The two rules that make this blog different from every other booking-software blog**: every article names the trade-off honestly, including when BKRDY is not the right answer, and every article contains something the reader can do this week.
 - **Shape.** An opening paragraph or two, then a `:::answer` block of two or three sentences that answers the question outright, then `##` sections. End on the point, not on a summary of itself. The template adds the call to action, so never write one.

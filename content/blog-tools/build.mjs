@@ -40,7 +40,7 @@ export const PILLARS = [
   { id: 'coming-back', label: 'Getting them back', blurb: 'Rebooking, reminders, waitlists, reviews, client records.' },
   { id: 'your-site', label: 'Your own site', blurb: 'The booking page, the link in bio, the site that is yours.' },
   { id: 'the-week', label: 'Running the week', blurb: 'Calendars, capacity, drops, after-hours, the shape of your days.' },
-  { id: 'going-solo', label: 'Going solo', blurb: 'Booth rent, going independent, the first ninety days.' },
+  { id: 'going-solo', label: 'Going solo', blurb: 'Booth rent, going independent, the first ninety days, and building your first book.' },
 ];
 const PILLAR = id => PILLARS.find(p => p.id === id) || PILLARS[1];
 
