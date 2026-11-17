@@ -65,6 +65,7 @@ Let M be the batch name (`YYYY-MM`, the month most of the batch falls in). Every
 **Drafts**
 
 6. Pick the topics. One a day, Monday to Friday: count the weekdays the batch has to cover, starting the day after the latest dated article already on the books (live or draft), so there is never a gap between batches. Dates may run past the end of M.
+   Read `content/trends/backlog.md` first: items the biweekly trend research marked ready, with real volume, go ahead of new topics (see `trend-research.md`). Mark any you draft as `drafted` there.
    Favour searches with **no article yet**, real monthly volume and difficulty under 40, Search Console opportunities first. Skip anything an existing article already covers (the report marks it) and anything already pending on the review page. Spread the batch across the pillars rather than filling it with one; three or four switching pieces a month is plenty.
 7. Write each one following the writing rules below, `status: draft`. Put the searches it targets on the `keywords:` line exactly as they appear in keywords.md, so the report can mark them covered. You may draft in parallel with subagents, but read every file yourself before going on.
 
