@@ -46,6 +46,8 @@ Nothing clever happens on the day. The deposit is money already paid toward the 
 
 Say it at booking and again in the confirmation. The most common deposit complaint is a client who thought it was a fee on top, and one line fixes that: your $20 deposit comes off your total.
 
+That difference matters for another reason too. A deposit comes off the total, so the price on your menu is still the price the client pays. A booking fee or service fee that every client has to pay on top is a different thing, and several states now require the advertised price to include every mandatory fee, among them California, Colorado, Connecticut, Massachusetts, Minnesota, Oregon and Virginia. If you charge a fee like that, build it into the price you show, or drop it. The rules differ from state to state, so check your own.
+
 ## Cancellations and no-shows depend on the window you set
 
 Here the mechanics stop deciding for you. The money is already in your account, so what happens next is whatever your policy says. Three cases need an answer first.

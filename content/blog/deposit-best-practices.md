@@ -36,6 +36,8 @@ The right deposit is proportional to what you lose if the slot goes empty. A fla
 
 Why proportional beats flat: a $20 hold protects a $40 haircut just fine, but it is meaningless against a $600 color correction that ties up your whole afternoon. The deposit should track the size of the hole a no-show leaves. BKRDY uses one rule for your whole menu, a flat amount or a percentage, so a percentage is the way to make the deposit scale with each price. Set it once under [payments](/platform/tools/payments/) and the booking flow handles the math for every client automatically.
 
+Keep the deposit inside the price, not on top of it. A deposit that comes off the total is part of what the service costs, so the price on your menu stays the price the client pays. A booking fee or service fee charged to every client on top of that is different: several states now require the advertised price to include every mandatory fee, among them California, Colorado, Connecticut, Massachusetts, Minnesota, Oregon and Virginia, and others are considering the same. If you charge a fee like that, build it into the service price you show, or drop it. The rules differ from state to state, so check your own.
+
 ## Refund rules that are clear in plain English.
 
 Confusing refund rules cost you bookings before they ever cost you a no-show. Clients who cannot tell whether they will get their money back simply do not book. The fix is a three-rule structure anyone can understand in ten seconds, written the way you would say it out loud.
