@@ -8,6 +8,10 @@ description: Booksy sells discovery, GlossGenius sells your own tidy setup. The 
 date: 2026-11-13
 pillar: switching
 keywords: glossgenius vs booksy
+photo: glossgenius-vs-booksy
+photoAlt: A barber in a white shirt trims an older client's beard line in a barbershop.
+photoCredit: RDNE Stock project
+photoCreditUrl: https://www.pexels.com/photo/a-barber-at-work-7697445/
 photoTerms: barber cutting hair client conversation | lash artist working on client natural light studio | nail technician salon reception phone booking
 status: published
 ---

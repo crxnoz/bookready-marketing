@@ -8,8 +8,12 @@ description: A free calendar appointment link shows your free time. It cannot ta
 date: 2026-11-17
 pillar: your-site
 keywords: booking page for google calendar
+photo: booking-link-vs-google-calendar
+photoAlt: A salon receptionist smiles from behind the front desk, with a tablet and an appointment book in front of her.
+photoCredit: RDNE Stock project
+photoCreditUrl: https://www.pexels.com/photo/a-female-front-desk-receptionist-smiling-to-a-client-7755676/
 photoTerms: lash artist checking phone between clients in salon | nail technician talking with client at reception desk | barber shaking hands with client at the chair
-status: draft
+status: published
 ---
 
 A free appointment link from your calendar does one job well. It shows people when you are free. If you are running on one right now you have not made a mistake. For a consultation, a patch test or a ten minute call about a color correction, it is the right tool.

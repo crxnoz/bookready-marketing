@@ -8,6 +8,10 @@ description: Your real ceiling is not the number of slots that fit in your openi
 date: 2026-11-11
 pillar: the-week
 keywords: how many clients per day, daily capacity salon
+photo: how-many-clients-per-day
+photoAlt: Close-up of a lash artist's hands applying eyelash extensions with two pairs of tweezers.
+photoCredit: Екатерина Мясоед
+photoCreditUrl: https://www.pexels.com/photo/close-up-of-woman-at-beautician-8554941/
 photoTerms: lash artist working on client eyes salon | barber cleaning station end of day | massage therapist working on client back
 status: published
 ---

@@ -8,6 +8,10 @@ description: Almost everyone takes the odd evening appointment and almost nobody
 date: 2026-11-16
 pillar: the-week
 keywords: after hours appointments salon
+photo: after-hours-appointments
+photoAlt: A client laughs in the salon chair while her hair stylist works beside her.
+photoCredit: cottonbro studio
+photoCreditUrl: https://www.pexels.com/photo/photo-of-a-man-using-a-hair-dryer-on-a-woman-7440129/
 photoTerms: hair stylist blow drying client evening salon | nail technician finishing client manicure late | barber shop owner closing up end of day
 status: published
 ---

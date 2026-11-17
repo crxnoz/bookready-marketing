@@ -8,6 +8,10 @@ description: What a card on file actually means, how it differs from a deposit, 
 date: 2026-11-10
 pillar: money
 keywords: card on file for appointments
+photo: card-on-file-for-appointments
+photoAlt: A salon owner reaches across the reception desk to greet a client, with a tablet and card reader on the counter.
+photoCredit: RDNE Stock project
+photoCreditUrl: https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-holding-pink-and-green-floral-textile-7755659/
 photoTerms: nail technician with client at salon front desk | barber talking with client in his chair | lash artist greeting client in studio
 status: published
 ---
