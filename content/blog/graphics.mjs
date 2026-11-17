@@ -394,4 +394,17 @@ export const GRAPHICS = [
       ],
       note: 'Buy one system, learn it well, and add to it once clients are paying.',
     },
+    {
+      key: 'builder-gel-vs-gel-x', name: 'fit-night', type: 'compare', label: 'Money on the table',
+      title: 'Builder gel or Gel-X',
+      alt: 'A comparison of builder gel and Gel-X: what each does, how much length it gives, who it suits best, and what happens at the next appointment.',
+      cols: ['Builder gel', 'Gel-X'],
+      rows: [
+        ['What it does', 'Strengthens and shapes the natural nail', 'Adds a full-cover soft gel tip'],
+        ['Length', 'The client’s own, or a little with forms', 'Full length in one visit'],
+        ['Best for', 'Weak or bendy nails, growing nails out', 'Clients who want length now'],
+        ['Next appointment', 'Often rebalanced, depending on the product', 'Usually removed and replaced'],
+      ],
+      note: 'List each under the name clients search, with its own time and price.',
+    },
 ];

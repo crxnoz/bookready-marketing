@@ -38,7 +38,7 @@ h1{font-weight:800;font-size:68px;line-height:1.02;letter-spacing:-.04em;margin:
 <div class="fade"></div>
 <div class="in">
   <div class="wm">BKRDY</div>
-  <div>${eyebrow ? `<p class="eb">${esc(eyebrow)}</p>` : ''}<h1 id="t">${esc(title)}</h1></div>
+  <div>${eyebrow ? `<p class="eb">${esc(eyebrow)}</p>` : ''}<h1 id="t">${esc(title).replace(/(\S+-\S+)/g, '<span style="white-space:nowrap">$1</span>')}</h1></div>
   <div class="u">${esc(url)}</div>
 </div>
 <script>
