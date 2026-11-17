@@ -5,7 +5,7 @@ slug: booking-qr-code
 title: A booking QR code: where to put it and what it should open
 metaTitle: A booking QR code: where to put it and what it should open | BKRDY
 description: Put a QR code for your booking page where clients already stand: the mirror, the counter, the card. What it should open, how to test it, and the catch.
-date: 2026-12-24
+date: 2026-12-28
 pillar: your-site
 keywords: booking qr code, qr code for booking appointments
 photoTerms: barber showing client finished cut in station mirror | hair stylist styling client hair salon mirror reflection | braider handing business card to client after appointment

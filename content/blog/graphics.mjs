@@ -338,4 +338,17 @@ export const GRAPHICS = [
       ],
       note: 'The cheapest plan name is rarely the cheapest month.',
     },
+    {
+      key: 'salon-gift-cards', name: 'setup-night', type: 'steps', label: 'Money on the table',
+      title: 'Gift cards before December fills',
+      alt: 'Five steps to set up gift cards before the holidays: turn them on early, offer three amounts that match real services, decide on expiry first, put the link where gift buyers look, and tell regulars in person.',
+      steps: [
+        ['Turn on online gift cards', 'Before December, not the week before Christmas.'],
+        ['Offer three amounts', 'Each one should match something real on your menu.'],
+        ['Decide on expiry before you sell one', 'No expiry is the simplest choice.'],
+        ['Put the link where gift buyers already are', 'The top of your booking site and your Instagram bio.'],
+        ['Tell your regulars in person', 'Mention it at every December appointment.'],
+      ],
+      note: 'The money arrives now and the appointments land in January.',
+    },
 ];

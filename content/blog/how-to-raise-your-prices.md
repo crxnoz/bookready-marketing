@@ -2,12 +2,12 @@
 key: how-to-raise-your-prices
 section: blog
 slug: how-to-raise-your-prices
-title: How to raise your prices when your book is full
-metaTitle: How to raise your prices when your book is full | BKRDY
-description: How to tell it is time to raise your prices, how much, who goes first, how much notice to give, what to do with regulars, and the message to send.
+title: Raising your prices in January, and the notice to send
+metaTitle: Raising your prices in January, and the notice to send | BKRDY
+description: When to raise your prices, how much, who goes first, what regulars get, and the price increase notice to send clients before January.
 date: 2026-12-18
 pillar: money
-keywords: how to charge for my services, how to price your services as a freelancer
+keywords: price increase notice salon, salon price increase letter, how to charge for my services, how to price your services as a freelancer
 photoTerms: esthetician performing facial on client in spa room | lash artist applying extensions to client in studio | barber finishing fade on client in barbershop
 status: draft
 ---
@@ -19,6 +19,12 @@ That is the whole case. The hard part is the message, the regulars, and the week
 :::answer
 Raise your prices when your book is full or nearly full most weeks and you are turning people away. Pick an increase you can say in one line, give two to four weeks' notice with a date, keep already booked appointments at the old price, and decide in advance what your longest-standing regulars get. Expect a few clients to leave. If your book is thin, do not raise yet.
 :::
+
+## Why January is the easy moment
+
+A new year is when clients expect prices to move, so a change in January reads as routine rather than personal. And December is usually your busiest month, which means most of your regulars are in your chair in the weeks before it, where you can tell them face to face.
+
+So the timing that works: decide in early December, tell people at their December appointments and in one message, and start the new prices in the first or second week of January. Your December bookings keep the old price, which takes the sting out of it.
 
 ## How to tell it is time
 
@@ -74,7 +80,7 @@ What not to do is promise a permanent old price. In a year or two your most loya
 
 Short, warm, and without an apology. Say what changes, when, and that their booked appointments are safe. Do not explain your rent.
 
-:::copy Price increase message
+:::copy Price increase notice
 Hi Renee, a quick note: from Monday, January 11, my prices are changing. A gel set will be $70 and a fill $55. Anything you have already booked stays at the current price. Thank you for being a regular. It means a lot. My booking page has the full new list.
 :::
 

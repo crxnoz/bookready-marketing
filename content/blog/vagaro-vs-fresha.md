@@ -5,7 +5,7 @@ slug: vagaro-vs-fresha
 title: Vagaro vs Fresha: fees, the marketplace and who each suits
 metaTitle: Vagaro vs Fresha: fees, the marketplace and who each suits | BKRDY
 description: Vagaro or Fresha: how each one makes its money, what the marketplace gives and takes, how deep each goes, and when neither is the right answer.
-date: 2026-11-25
+date: 2026-12-24
 pillar: switching
 keywords: vagaro vs fresha, compare vagaro and fresha on fees marketplace and feature depth
 photoTerms: hair stylist cutting client hair salon natural light | braider braiding client hair home studio | barber shop front desk client paying
