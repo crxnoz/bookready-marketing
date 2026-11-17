@@ -104,7 +104,17 @@ function photoFigure(p) {
   if (!p.photo || !existsSync(join(ROOT, big.slice(1)))) return '';
   return `<figure class="bq-photo"><img src="${big}" srcset="/images/blog/${p.photo}-photo-800.webp 800w, ${big} 1600w"` +
     ` sizes="(max-width: 760px) calc(100vw - 32px), 680px" width="1600" height="900" alt="${esc(p.photoAlt || '')}" fetchpriority="high">` +
-    (p.photoCaption ? `<figcaption>${esc(p.photoCaption)}</figcaption>` : '') + '</figure>';
+    photoCaptionHtml(p) + '</figure>';
+}
+
+// A caption, a photo credit, or both. Pexels photos carry their credit
+// (photos-pexels.mjs); Pexels asks for a visible link back, which this is.
+function photoCaptionHtml(p) {
+  const credit = p.photoCredit && p.photoCreditUrl
+    ? `Photo: <a href="${esc(p.photoCreditUrl)}" rel="noopener">${esc(p.photoCredit)}</a> on <a href="https://www.pexels.com" rel="noopener">Pexels</a>`
+    : '';
+  const parts = [p.photoCaption ? esc(p.photoCaption) : '', credit].filter(Boolean);
+  return parts.length ? `<figcaption>${parts.join(' ')}</figcaption>` : '';
 }
 // The 720px copy of a graphic is served to phones when it exists.
 const withGraphicSrcset = html => html.replace(/<img src="\/images\/blog\/([a-z0-9-]+)\.webp"/g, (all, f) =>

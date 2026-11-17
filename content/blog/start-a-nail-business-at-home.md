@@ -8,6 +8,10 @@ description: What to sort before your first client at home: licensing and lease 
 date: 2026-11-12
 pillar: going-solo
 keywords: how to start a nail business at home
+photo: start-a-nail-business-at-home
+photoAlt: Close-up of a nail technician painting a client's nails at a white table, with a bottle of nude polish beside them
+photoCredit: kaboompics.com
+photoCreditUrl: https://www.pexels.com/photo/doing-manicure-with-nail-polish-6954964/
 photoTerms: nail technician home studio client manicure | manicurist filing client nails natural light | nail tech small table lamp client hands
 status: published
 ---

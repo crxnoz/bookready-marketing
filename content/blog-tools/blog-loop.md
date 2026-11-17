@@ -4,14 +4,14 @@ The routine for the bkrdy.com blog: research, drafts, images, Luis's approval, p
 Two scheduled tasks run it on Luis's computer (Claude desktop app):
 
 - **bkrdy-blog-drafts**: the 15th of each month, 2 PM. Research, the next batch of drafts with their graphics and share images, review page updated, email to Luis.
-- **bkrdy-blog-publish**: every weekday, 11 AM. Publishes what Luis approved, on its date. Revises what he flagged. Adds a photo he has licensed. Emails only when something happened.
+- **bkrdy-blog-publish**: every weekday, 11 AM. Publishes what Luis approved, on its date. Revises what he flagged. Adds photos: Luis's licensed file when he saved one, otherwise one from Pexels. Emails only when something happened.
 
 Nothing is ever published without Luis's approval on the review page.
 
 ## Where things are
 
 - Repo: `C:\Users\carre\bookready-marketing`. Pushing `main` deploys the live site (Hostinger auto-pulls, live in about a minute). Pages are generated: `node content/blog-tools/build.mjs`.
-- Articles: `content/blog/<key>.md`. Front matter, in this order: `key, section, slug, title, metaTitle, description, date, pillar, keywords, photoTerms, photo, photoAlt, status`. `section` is `blog` or `guides` and decides the URL. `status: draft` never builds; `status: published` builds once `date` has arrived. A post that stops being live has its directory removed on the next build.
+- Articles: `content/blog/<key>.md`. Front matter, in this order: `key, section, slug, title, metaTitle, description, date, pillar, keywords, photoTerms, photo, photoAlt, photoCredit, photoCreditUrl, status` (the two credit lines only on a Pexels photo; build.mjs prints them under the photo as "Photo: name on Pexels"). `section` is `blog` or `guides` and decides the URL. `status: draft` never builds; `status: published` builds once `date` has arrived. A post that stops being live has its directory removed on the next build.
 - **Drafts are not reachable, by design.** `/content/` is 403 in `.htaccess` and disallowed in robots.txt, and every `.md` is 403 as well. A draft also produces no directory, no sitemap entry and no llms.txt line. Three separate things would have to fail for a draft to leak.
 - Review page (private to Luis): https://claude.ai/artifact/QygrGWwPQYo2f5vz5Scmpe . Its database (ArtifactData tool, same URL):
   - `months/<YYYY-MM>`: `{ id, seo: {date, pages, indexable, errors, warnings, items[]}, report: {date, provider, rows: [{term, volume, difficulty, cpc, covered: {key, status, title} | null}]}, gsc: {connected, clicks, impressions, opportunities[]} }`
@@ -30,7 +30,7 @@ Nothing is ever published without Luis's approval on the review page.
   - `keyword-metrics.mjs <terms.md> <out.json>` DataForSEO volume, difficulty and click cost.
   - `blog-seed.mjs <YYYY-MM> <out-dir> [seo.json] [keywords.json] [notes.json] --keys a,b,c` review page documents.
   - `covers.mjs [key ...]` share images. `graphics.mjs [key ...]` in-article graphics.
-  - `photos.mjs` adds a licensed photo. `blog-email.mjs <payload.json>` sends the email.
+  - `photos.mjs` adds a licensed photo. `photos-pexels.mjs` finds one on Pexels (`--find <key> <dir>`, a lettered contact sheet) and adds it (`--use <key> <id> "<alt>"`, which runs photos.mjs and writes the credit); `photo-credits.json` records every Pexels photo used, so none is used twice. `PEXELS_API_KEY` is in `.env`. `blog-email.mjs <payload.json>` sends the email.
   - `migrate.mjs` was the one-time import of the hand-written pages. Do not run it again; it reads the public HTML, which the generator now owns.
   - The image scripts need sharp and Chrome: prefix them with `SHARP=C:/Users/carre/bookready-marketing/node_modules/sharp`.
 - **Search Console** needs a service account added as a Restricted user on the bkrdy.com property. Until that is done `gsc.mjs` prints exactly what to do and exits 2. Say so in the email each month until it is connected; do not let it stop the run.
@@ -76,7 +76,7 @@ Let M be the batch name (`YYYY-MM`, the month most of the batch falls in). Every
    - `SHARP=… node content/blog-tools/graphics.mjs <keys>`, then look at every new image: nothing cut off, nothing overlapping, readable at phone size. Graphics are on the night look since 2026-11-01. One that changes after going live gets a new `name` and a new Markdown line, never a render over the old file, because the host caches images for a year.
    - Put `![<alt>](/images/blog/<key>-<name>.webp)` on its own line where it summarises the section it sits in, with a blank line before and after. Write alt text that says what the graphic shows, in full sentences.
 9. Share images: `SHARP=… node content/blog-tools/covers.mjs <the batch keys>`, then look at every new `images/blog/<key>-share.jpg` (the night card, since 2026-11-01): the headline must stay on the dark left side and never run into Kito or the painting on the right. Never regenerate a published card under the same name; the host caches images for a year. An article retitled after going live gets a new card: add `shareCard: <key>-share-2.jpg` to its front matter and run covers.mjs on it.
-10. Photos. **Luis licenses photos himself.** His Shutterstock plan excludes some collections, so never pre-pick one for him. For each article put three search terms on the `photoTerms:` line, separated by `|`, following the art direction below. He saves the licensed file as `<key>.jpg` in `C:\Users\carre\bkrdy-blog-photos` and the publish run finds it there.
+10. Photos. For each article put three search terms on the `photoTerms:` line, separated by `|`, following the art direction below. The publish run uses them to add a Pexels photo on its own (since 2026-11-16). Luis can still license a Shutterstock photo and save it as `<key>.jpg` in `C:\Users\carre\bkrdy-blog-photos` before the article's date; a file of his always wins.
 
 **Check, commit, review page, email**
 
@@ -92,7 +92,11 @@ Let M be the batch name (`YYYY-MM`, the month most of the batch falls in). Every
 2. Read the review page: ArtifactData `query` on `posts` where `status` is `approved` or `changes`.
 3. For each `changes`: revise the article as the note asks, same rules, keep `status: draft`, and update the document with the new title, description and body, `status: "pending"`, `note: ""`, `revisedFor: <the note>`, `revisedAt: <now>` (pin `if_version`). If the title changed, re-run `covers.mjs <key>`. If the revision changed something a graphic shows, update its entry, re-run `graphics.mjs <key>` and upload the new 720px copy.
 4. For each `approved` whose date has arrived: run `node content/blog-tools/draft-check.mjs --claims <key>`. If it flags anything, do not publish that article; leave it as it is and put it in the email. Otherwise set `status: published` in the Markdown file (keep `date`).
-5. Photos. For every article without a `photo:` line, live ones included, run `node content/blog-tools/photos.mjs --find <key>`. When it prints a file, look at the image, check it matches the art direction, and run `SHARP=… node content/blog-tools/photos.mjs <key> <file> "<alt text>"` with a plain description of what the photo shows. When nothing is found, publish without it; the next run adds it once the file is there, even if the article is already live. Adding Luis's photo to its own article is allowed in this run.
+5. Photos. Take the articles without a `photo:` line in this order: today's article, then live ones, then the next approved drafts by date, and do at most five per run.
+   - First `node content/blog-tools/photos.mjs --find <key>`. When it prints a file, Luis saved it: look at it, check it against the art direction, and run `SHARP=… node content/blog-tools/photos.mjs <key> <file> "<alt text>"`.
+   - Otherwise `SHARP=… node content/blog-tools/photos-pexels.mjs --find <key> <scratch>/px`, then look at the contact sheet yourself. Choose the candidate that best fits both the article's trade and the art direction below; you may run `--find` again with `--terms "a | b"` of your own when nothing fits. Then `SHARP=… node content/blog-tools/photos-pexels.mjs --use <key> <id> "<alt text>"` and look at the 16:9 crop it made (`images/blog/<key>-photo-1600.webp`). If the crop cuts off what mattered or the photo turns out wrong, undo it (restore the article file, delete the two webp files, the downloaded `<key>.jpg` and its `photo-credits.json` entry) and pick another.
+   - If nothing fits after a second search, leave that article without a photo and say so in the email. Never use a photo just to fill the slot.
+   - Adding a photo to an article that is already live is allowed in this run. Never replace a photo an article already has: the host caches images for a year.
 6. `node content/blog-tools/build.mjs` and `node content/blog-tools/seo-check.mjs`. Stop and email Luis if there are errors.
 7. If the build changed any page, commit "Blog: publish <titles>" and push `main`. Wait for the deploy, polling the new URLs until they answer 200, up to five minutes.
 8. For every article now live, update its document: `status: "published"`, `publishedAt`, `url`.
@@ -144,6 +148,6 @@ Checked against the app's code on 2026-11-03. The code wins if this has drifted.
 
 Beauty professionals at work with their clients: barbers, lash artists, nail techs, estheticians, hair stylists, brow and wax specialists. Real, warm, natural light, a genuine mix of Black, Latina, Asian and white professionals and clients, a mix of ages and body types, salons that look like real workplaces rather than showrooms.
 
-Never: floating stars, sparkles, holograms or glowing interfaces; fake phone or app screens; illustrations, vectors or anything that looks generated; visible brand logos; anything marked editorial use only; stock-smile group shots around a laptop.
+Never: floating stars, sparkles, holograms or glowing interfaces; fake phone or app screens; illustrations, vectors or anything that looks generated; visible brand logos; anything marked editorial use only; stock-smile group shots around a laptop; anyone who could pass for under eighteen doing or receiving the work; anything that suggests the person endorses BKRDY. Pexels photos come without model releases, so they illustrate and never speak for anyone. Prefer photos without face masks, which date a photo to 2020 and 2021; a hands-only close-up is often the best choice.
 
-Three search terms per article, written the way you would type them into Shutterstock. Vary them across the batch so the blog does not end up with twenty versions of the same photo.
+Three search terms per article, written the way you would type them into a stock photo search. Vary them across the batch so the blog does not end up with twenty versions of the same photo.

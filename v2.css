@@ -591,6 +591,7 @@ img { max-width: 100%; display: block; }
 .bq-photo { margin: 32px 0 0; }
 .bq-photo img, .bq-fig img { width: 100%; height: auto; border-radius: 20px; }
 .bq-photo figcaption, .bq-fig figcaption { margin: 12px 0 0; font-size: 14px; line-height: 1.5; color: var(--text-3); }
+.bq-photo figcaption a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 
 .bq-body { font-size: 17.5px; line-height: 1.75; color: var(--read); }
 .bq-body > p { margin: 22px 0 0; }
