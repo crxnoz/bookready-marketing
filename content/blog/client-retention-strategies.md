@@ -68,6 +68,22 @@ Keep a saved note on each client: the kids' names, the exact color formula, how 
 
 Use [customer tags and notes](/platform/tools/customers/) so the relationship is not trapped in your head. When you can open the [client record](/platform/tools/customers/) and pick up exactly where you left off, every visit feels personal, even months after the last one. Do not fake intimacy. Let the record do the remembering, and spend your real attention on the person in front of you.
 
+## When clients start coming in less often.
+
+Many studios are seeing the same pattern: regulars still come, but further apart, and fewer new clients find their way in. When the gap between visits stretches, the answer is in how you rebook, not in a discount.
+
+**Rebook at the interval they actually keep.** If a color client used to come every six weeks and now comes every nine, offer nine. A booked visit at nine weeks beats an unbooked one at six.
+
+**Offer something shorter in between.** A gloss, a fringe trim, a brow tint, a polish change. A short visit keeps you in their routine in a month when a full service is not in the budget. Put each one on your menu as a real service with its own time and price, so clients can book it without asking.
+
+**Keep the price visible before they ask.** Clients watching their money book more readily when the full price is on the page and nothing is added at the end.
+
+**Do not cut the price of the main service to close the gap.** It teaches clients to wait for the next cut.
+
+:::copy Rebooking line for a client who is stretching visits
+It's been about [weeks] weeks since your last visit, which seems to suit you. Want me to book you in at [weeks] weeks again? And if you want a quick refresh before then, a [short service] takes [time].
+:::
+
 ## Catch clients before they fully lapse.
 
 Even a great cadence loses some people. Winback is the safety net, and the cheapest re-acquisition there is: reactivating someone who already knows you, likes your work, and has your address in their phone. You are not starting from zero. You are just reminding them to come home.
