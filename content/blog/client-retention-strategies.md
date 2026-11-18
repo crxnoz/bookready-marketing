@@ -34,7 +34,7 @@ If you do one thing from this guide, do this. Booking the next visit while the c
 
 So make it a habit at checkout. While you are ringing them up, say the line out loud: "You are due again in about six weeks, want me to lock in the same time?" Open the calendar right there. Book the slot. Clients who rebook on the spot return at dramatically higher rates than those who leave with an open-ended "I'll text you." You are not being pushy. You are making it easy.
 
-For clients who come on a fixed rhythm (the every-four-weeks color client, the standing blowout), book the next two or three visits while they are still there, straight into your [calendar](/platform/booking/calendar/). BKRDY has no recurring bookings, so each visit is its own appointment, but the slot is held and the client gets a reminder before each one. The habit does the heavy lifting.
+For clients who come on a fixed rhythm (the every-four-weeks color client, the standing blowout), book the next two or three visits while they are still there, straight into your [calendar](/platform/booking/calendar/). In BKRDY you can book them as a repeat from your calendar, every one to eight weeks for up to twelve visits; a date that clashes or falls on a closed day is skipped rather than forced, and the client gets a reminder before each visit. The habit does the heavy lifting.
 
 ## Loyalty and membership thinking (without a points app).
 

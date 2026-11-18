@@ -44,9 +44,12 @@ const CLAIMS = [
   [/win-?back (message|email|text|campaign|sequence|automation)|automatic win-?back|re-?engage|we miss you|rebook(ing)? (reminder|nudge|prompt|message)|birthday (message|email|text)|aftercare (email|message|text)|follow-?up (email|message|text|sequence)|thank-?you (email|message|text)/i, 'BKRDY sends no win-back, rebooking, birthday, aftercare or follow-up messages'],
   [/custom domain|own domain|your domain|connect(ing)? (a|your) domain/i, 'custom domains are not deliverable'],
   [/per[- ]service deposit|deposit (per|for each|on each|by) service|deposits? (per|by|for each) (client|tag)|different deposit|(skip|waive|exempt)(s|ing)? .{0,30}deposit|deposit.{0,40}(new|returning|trusted|vip) clients/i, 'the deposit is one studio-wide rule, flat or percent'],
-  [/recurring|standing appointment|book(s|ing)? (a|the) series/i, 'there are no recurring bookings'],
+  // Since 2026-11-16 the owner books repeats and groups from the calendar; clients
+  // and Kito still can't, so only those claims are flagged.
+  [/clients? (can |could |will )?(set up|book|choose|pick|schedule) (their own |a |an )?(recurring|repeat|standing|series|group)|(recurring|repeat|group) (bookings?|appointments?) .{0,30}(online|booking (site|page)|on (the|your) site)/i, 'clients book one visit at a time; the owner books repeats and groups from the calendar'],
+  [/kito .{0,50}(repeat|recurring|series|group)/i, 'Kito cannot book repeats or groups yet'],
   [/two reminders|second reminder|reminder sequence|multi-?touch|confirm by (text|reply)|reply to confirm|two-way text|text(ing)? inbox|confirmation texts?|texts? .{0,20}confirmation/i, 'one reminder per appointment; clients get no confirmation text and replies are not read'],
-  [/reserve with google|zapier|mailchimp|quickbooks|tap to pay|card reader|\bPOS\b|commission tracking|payroll|per-artist payout|group booking|memberships?\b|prepaid|mobile app|app store|google play|in the app\b/, 'not a BKRDY feature'],
+  [/reserve with google|zapier|mailchimp|quickbooks|tap to pay|card reader|\bPOS\b|commission tracking|payroll|per-artist payout|memberships?\b|prepaid|mobile app|app store|google play|in the app\b/, 'not a BKRDY feature'],
   [/\b(cut|cuts|reduce|reduces|slash|slashes|lower|lowers)\b.{0,30}no-shows? by \d|\d+% (fewer|less|more)/i, 'no invented results'],
   [/\bStarter\b/, 'the $0 plan is called the Free plan'],
 ];

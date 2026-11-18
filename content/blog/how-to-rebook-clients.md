@@ -46,7 +46,7 @@ You do not need a sales pitch. You need one natural line you can say without thi
 
 For clients on a fixed rhythm, the ultimate rebooking tool is not a script at all. It is a standing appointment. Lash fills every two to three weeks, blowouts weekly, color every four to six weeks: these clients live on a predictable clock, and a recurring slot removes the decision entirely. They never have to remember to rebook, and you never have to ask.
 
-A standing appointment also protects your best hours for your most loyal clients. The Saturday-morning regular who has held the same 10am for a year is worth far more than a stranger, and locking in that slot means it is never accidentally given away. BKRDY has no recurring bookings, so hold the slot by booking the next two or three visits into your [calendar](/platform/booking/calendar/) before the client leaves. Each one is its own appointment, with a reminder before the visit so the client is never surprised.
+A standing appointment also protects your best hours for your most loyal clients. The Saturday-morning regular who has held the same 10am for a year is worth far more than a stranger, and locking in that slot means it is never accidentally given away. In BKRDY you can hold it by booking a repeat from your [calendar](/platform/booking/calendar/) before the client leaves: every one to eight weeks, up to twelve visits, skipping any date that clashes or falls on a closed day. Each visit gets its own reminder, so the client is never surprised.
 
 Be honest about who this fits. Recurring works for habitual clients, not occasional ones. Put someone who genuinely comes every ten weeks on a rigid four-week standing slot and you have manufactured cancellations, not loyalty. Offer it selectively, to the clients whose rhythm is already reliable, and let everyone else rebook visit by visit.
 
@@ -122,7 +122,7 @@ There is no number to chase. If few of your clients leave with a next appointmen
 
 ### How do recurring appointments help with rebooking?
 
-A standing slot removes the decision for habitual clients. BKRDY has no recurring bookings, so hold the slot by booking the next few visits into your calendar yourself. Each one gets its own reminder, so the loyal regular never has to think about it.
+A standing slot removes the decision for habitual clients. In BKRDY you book a repeat from your calendar, every one to eight weeks for up to twelve visits. Each visit gets its own reminder, so the loyal regular never has to think about it.
 
 ### What if a client will not commit at checkout?
 
