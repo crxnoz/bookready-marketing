@@ -137,22 +137,15 @@ img { max-width: 100%; display: block; }
 .v-hero__copy .v-lede { max-width: 640px; }
 .v-hero__ctas { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
 .v-hero__fine { margin: 0; color: var(--text-3); }
-/* The iPhone app in the hero (2026-11-14). A computer gets one line down to
-   the QR code in #app; an iPhone (html.v-iphone, set in the page head) gets
-   the app as the main button and web signup as the second; Android is as
-   before. Without the script it is the computer version. */
-.v-hero__get, .v-hero__web-alt, .v-hero__tf { display: none; }
+/* The iPhone app in the hero: a computer gets one line down to the QR code in
+   #app; a phone doesn't (html.v-iphone / v-android, set in the page head).
+   The hero's main button is web signup on every device: the iPhone app button
+   that led it on an iPhone (2026-11-14) came out on 2026-11-18 (founder). */
 .v-hero__app { display: inline-flex; align-items: center; gap: 9px; margin-top: -6px; font-size: 14.5px; line-height: 1.4; color: var(--text-2); text-align: left; }
 .v-hero__app strong { color: var(--text); font-weight: 600; }
 .v-hero__app svg { flex: none; color: var(--accent); }
 .v-hero__app:hover { color: var(--text); }
-.v-android .v-hero__app, .v-iphone .v-hero__app, .v-iphone .v-hero__kito, .v-iphone .v-hero__web { display: none; }
-.v-iphone .v-hero__ctas { flex-direction: column; align-items: center; align-self: stretch; }
-.v-iphone .v-hero__ctas .v-btn { width: 100%; max-width: 340px; height: 52px; }
-.v-iphone .v-hero__get { display: inline-flex; font-size: 16px; }
-.v-iphone .v-hero__start { background: var(--ghost); color: var(--text); box-shadow: inset 0 0 0 1px var(--line-2); }
-.v-iphone .v-hero__web-alt { display: inline; }
-.v-iphone .v-hero__tf { display: block; margin: -14px 0 0; max-width: 34ch; font-size: 13.5px; line-height: 1.5; color: var(--text-3); text-wrap: pretty; }
+.v-android .v-hero__app, .v-iphone .v-hero__app { display: none; }
 .v-pill {
   display: inline-flex; align-items: center; gap: 10px;
   padding: 5px 14px 5px 5px; border-radius: 999px;
