@@ -8,6 +8,10 @@ description: Two clients in one slot is either a scheduling accident or a delibe
 date: 2026-11-06
 pillar: the-week
 keywords: what is a double booking, double booking clients
+photo: what-is-double-booking
+photoAlt: A colorist's hands painting lightener onto a section of hair held on a board, with foils already in place.
+photoCredit: Ionela Mat
+photoCreditUrl: https://www.pexels.com/photo/hair-coloring-in-beauty-salon-20894394/
 photoTerms: hair colourist applying colour while client waits | lash artist working on client eyes closed studio | nail technician checking appointment book salon
 status: published
 ---

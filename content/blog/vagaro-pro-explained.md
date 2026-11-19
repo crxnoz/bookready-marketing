@@ -8,8 +8,12 @@ description: Vagaro Pro is the business side of Vagaro: the calendar, payments a
 date: 2026-11-18
 pillar: switching
 keywords: vagaro pro
+photo: vagaro-pro-explained
+photoAlt: A stylist standing behind the front desk of a bright salon, beside the computer where bookings are checked in.
+photoCredit: Kampus Production
+photoCreditUrl: https://www.pexels.com/photo/a-woman-standing-on-the-front-desk-with-computer-monitor-while-smiling-at-the-camera-8834029/
 photoTerms: salon front desk receptionist checking in client | barber cutting hair client conversation | lash artist studio natural light client
-status: draft
+status: published
 ---
 
 Vagaro Pro is the professional side of Vagaro: the part owners and staff work in to run the calendar, take payments and keep client records. The other side is the consumer one, where clients browse businesses and book a time. If you came here looking for the business half of Vagaro, that is it.

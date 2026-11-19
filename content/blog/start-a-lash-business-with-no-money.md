@@ -8,6 +8,10 @@ description: You cannot start a lash business for free, but you can start small.
 date: 2026-11-05
 pillar: going-solo
 keywords: how to start a lash business with no money, how to start a lash business step by step
+photo: start-a-lash-business-with-no-money
+photoAlt: A client lying back on a lash bed with her eyes closed while the lash artist peels an under-eye pad from its sheet.
+photoCredit: RDNE Stock project
+photoCreditUrl: https://www.pexels.com/photo/a-woman-lying-on-the-bed-7755496/
 photoTerms: lash artist applying extensions to client eyes | esthetician working in small rented salon room | black lash technician with client natural light
 status: published
 ---

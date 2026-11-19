@@ -46,5 +46,45 @@
   "photographerUrl": "https://www.pexels.com/@rdne",
   "url": "https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-holding-pink-and-green-floral-textile-7755659/",
   "added": "2026-11-17"
+ },
+ "blocking-time-that-is-not-clients": {
+  "source": "pexels",
+  "id": "3993123",
+  "photographer": "cottonbro studio",
+  "photographerUrl": "https://www.pexels.com/@cottonbro",
+  "url": "https://www.pexels.com/photo/woman-in-brown-jacket-standing-in-front-of-kitchen-counter-3993123/",
+  "added": "2026-11-19"
+ },
+ "vagaro-pro-explained": {
+  "source": "pexels",
+  "id": "8834029",
+  "photographer": "Kampus Production",
+  "photographerUrl": "https://www.pexels.com/@kampus",
+  "url": "https://www.pexels.com/photo/a-woman-standing-on-the-front-desk-with-computer-monitor-while-smiling-at-the-camera-8834029/",
+  "added": "2026-11-19"
+ },
+ "free-salon-booking-software": {
+  "source": "pexels",
+  "id": "7755219",
+  "photographer": "RDNE Stock project",
+  "photographerUrl": "https://www.pexels.com/@rdne",
+  "url": "https://www.pexels.com/photo/a-man-in-a-nail-salon-7755219/",
+  "added": "2026-11-19"
+ },
+ "what-is-double-booking": {
+  "source": "pexels",
+  "id": "20894394",
+  "photographer": "Ionela Mat",
+  "photographerUrl": "https://www.pexels.com/@ionela-mat-268382825",
+  "url": "https://www.pexels.com/photo/hair-coloring-in-beauty-salon-20894394/",
+  "added": "2026-11-19"
+ },
+ "start-a-lash-business-with-no-money": {
+  "source": "pexels",
+  "id": "7755496",
+  "photographer": "RDNE Stock project",
+  "photographerUrl": "https://www.pexels.com/@rdne",
+  "url": "https://www.pexels.com/photo/a-woman-lying-on-the-bed-7755496/",
+  "added": "2026-11-19"
  }
 }

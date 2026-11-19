@@ -8,8 +8,12 @@ description: Ordering, laundry, admin, photos: real work that is nowhere in your
 date: 2026-11-19
 pillar: the-week
 keywords: time blocking for salon owners, salon schedule
+photo: blocking-time-that-is-not-clients
+photoAlt: A hairdresser in an apron sorting tubes of hair color on the salon's product shelves, with no client in the chair.
+photoCredit: cottonbro studio
+photoCreditUrl: https://www.pexels.com/photo/woman-in-brown-jacket-standing-in-front-of-kitchen-counter-3993123/
 photoTerms: salon owner doing paperwork at reception desk | nail technician restocking product shelves salon | barber cleaning station end of day empty shop
-status: draft
+status: published
 ---
 
 Open this week in your calendar. Appointments, other people's names, in other people's chosen hours. Everything else you do to keep the business running is in your head, and your head is not a calendar.

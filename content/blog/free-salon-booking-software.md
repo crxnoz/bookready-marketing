@@ -8,6 +8,10 @@ description: Free salon booking software comes in four shapes, and each one char
 date: 2026-11-09
 pillar: switching
 keywords: salon booking software free, free booking software for salons
+photo: free-salon-booking-software
+photoAlt: A nail technician doing a manicure for a client at her table in a bright salon full of plants.
+photoCredit: RDNE Stock project
+photoCreditUrl: https://www.pexels.com/photo/a-man-in-a-nail-salon-7755219/
 photoTerms: nail technician talking with client salon table | barber trimming beard client mirror | salon owner reception desk paperwork natural light
 status: published
 ---
