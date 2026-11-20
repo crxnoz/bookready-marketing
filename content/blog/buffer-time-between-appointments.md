@@ -8,6 +8,10 @@ description: A day that runs thirty minutes late by 3pm is a calendar problem, n
 date: 2026-11-02
 pillar: the-week
 keywords: buffer time between appointments
+photo: buffer-time-between-appointments
+photoAlt: A nail technician in gloves works on a client's nails at a bright salon table.
+photoCredit: RDNE Stock project
+photoCreditUrl: https://www.pexels.com/photo/woman-in-white-long-sleeves-cleaning-man-s-nails-7755247/
 photoTerms: nail technician finishing client manicure salon | barber sweeping station between clients | esthetician wiping down treatment room
 status: published
 ---

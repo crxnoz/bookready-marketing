@@ -8,6 +8,10 @@ description: A barbershop site is a booking machine, not a brochure. Here are th
 date: 2026-11-03
 pillar: your-site
 keywords: website for barbershop, website for barbers
+photo: website-for-a-barbershop
+photoAlt: Two barbers work together on a client's haircut in a busy barbershop.
+photoCredit: Kevin Bidwell
+photoCreditUrl: https://www.pexels.com/photo/men-trimming-hair-9971241/
 photoTerms: barber cutting hair client conversation | barbershop interior two barbers working | barber showing phone screen to client in chair
 status: published
 ---

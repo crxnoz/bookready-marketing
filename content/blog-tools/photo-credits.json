@@ -86,5 +86,45 @@
   "photographerUrl": "https://www.pexels.com/@rdne",
   "url": "https://www.pexels.com/photo/a-woman-lying-on-the-bed-7755496/",
   "added": "2026-11-19"
+ },
+ "open-a-barber-shop-with-no-money": {
+  "source": "pexels",
+  "id": "7697443",
+  "photographer": "RDNE Stock project",
+  "photographerUrl": "https://www.pexels.com/@rdne",
+  "url": "https://www.pexels.com/photo/barber-grooming-beard-of-a-client-7697443/",
+  "added": "2026-11-20"
+ },
+ "website-for-a-barbershop": {
+  "source": "pexels",
+  "id": "9971241",
+  "photographer": "Kevin Bidwell",
+  "photographerUrl": "https://www.pexels.com/@kevinbidwell",
+  "url": "https://www.pexels.com/photo/men-trimming-hair-9971241/",
+  "added": "2026-11-20"
+ },
+ "glossgenius-vs-vagaro": {
+  "source": "pexels",
+  "id": "7755650",
+  "photographer": "RDNE Stock project",
+  "photographerUrl": "https://www.pexels.com/@rdne",
+  "url": "https://www.pexels.com/photo/close-up-shot-of-a-person-holding-a-tweezer-and-false-eyelashes-7755650/",
+  "added": "2026-11-20"
+ },
+ "buffer-time-between-appointments": {
+  "source": "pexels",
+  "id": "7755247",
+  "photographer": "RDNE Stock project",
+  "photographerUrl": "https://www.pexels.com/@rdne",
+  "url": "https://www.pexels.com/photo/woman-in-white-long-sleeves-cleaning-man-s-nails-7755247/",
+  "added": "2026-11-20"
+ },
+ "is-booksy-worth-it": {
+  "source": "pexels",
+  "id": "7755218",
+  "photographer": "RDNE Stock project",
+  "photographerUrl": "https://www.pexels.com/@rdne",
+  "url": "https://www.pexels.com/photo/a-woman-using-a-nail-file-while-polishing-nails-of-her-client-7755218/",
+  "added": "2026-11-20"
  }
 }

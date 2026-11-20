@@ -8,6 +8,10 @@ description: Booksy is legit and safe. Worth it is a stage question, and countin
 date: 2026-10-30
 pillar: switching
 keywords: is booksy legit, is booksy safe, is booksy worth it
+photo: is-booksy-worth-it
+photoAlt: "Close-up of a nail technician in purple gloves filing a client's nails at the salon table."
+photoCredit: RDNE Stock project
+photoCreditUrl: https://www.pexels.com/photo/a-woman-using-a-nail-file-while-polishing-nails-of-her-client-7755218/
 photoTerms: nail technician working with client salon | barber cutting hair client conversation | lash artist studio natural light client
 status: published
 ---

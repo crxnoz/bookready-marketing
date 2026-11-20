@@ -94,6 +94,7 @@ What BKRDY does not have today:
 ## Articles
 
 <!-- blog:start -->
+- [How to open a barber shop with no money](https://bkrdy.com/blog/open-a-barber-shop-with-no-money/): You probably should not sign a lease yet. The four rungs from a commission chair to your own shop, and the number that says you are ready to climb.
 - [The hours in your week that are not appointments](https://bkrdy.com/blog/blocking-time-that-is-not-clients/): Ordering, laundry, admin, photos: real work that is nowhere in your calendar, so it happens after the last client or not at all. How to block it.
 - [Vagaro Pro: what it is, and who it is actually for](https://bkrdy.com/blog/vagaro-pro-explained/): Vagaro Pro is the business side of Vagaro: the calendar, payments and client records owners run. What it does, and who it actually suits.
 - [A Google Calendar link is not a booking page](https://bkrdy.com/blog/booking-link-vs-google-calendar/): A free calendar appointment link shows your free time. It cannot take a deposit, handle turnaround or send a reminder a client sees. Where that costs you.
@@ -133,5 +134,4 @@ What BKRDY does not have today:
 - [Instagram marketing that actually books salon clients](https://bkrdy.com/guides/instagram-marketing-for-salons/): How to turn your salon Instagram into a real booking channel: the bio link flow, the content that converts, and a posting cadence you can keep.
 - [What Does Appointment Frequency Mean for Clients?](https://bkrdy.com/blog/what-does-appointment-frequency-mean-for-clients/): Discover what appointment frequency means for clients and how it affects your beauty results. Learn to optimize your scheduling today!
 - [Client retention strategies that keep your chair full. On purpose.](https://bkrdy.com/guides/client-retention-strategies/): Why keeping a client beats finding one, the rebook-at-checkout habit, the 6-week touch cadence, and the retention metrics that actually predict revenue.
-- [How to get more salon reviews (without feeling pushy).](https://bkrdy.com/guides/how-to-get-more-salon-reviews/): Get more salon reviews without begging. The right moment to ask, how to automate it, where reviews matter most, and why volume and recency beat a perfect 5.0.
 <!-- blog:end -->

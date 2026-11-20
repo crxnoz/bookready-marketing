@@ -8,8 +8,12 @@ description: You probably should not sign a lease yet. The four rungs from a com
 date: 2026-11-20
 pillar: going-solo
 keywords: how to open a barber shop with no money
+photo: open-a-barber-shop-with-no-money
+photoAlt: A barber in a white T-shirt trims an older client's beard in a barbershop chair.
+photoCredit: RDNE Stock project
+photoCreditUrl: https://www.pexels.com/photo/barber-grooming-beard-of-a-client-7697443/
 photoTerms: barber cutting hair client conversation | barber shop interior two chairs barbers working | barber trimming beard smiling client natural light
-status: draft
+status: published
 ---
 
 You should probably not open a shop yet, and that is the most useful thing on this page. A shop is a lease, a fit-out, insurance, a sign, chairs, and rent that arrives on the first whether anyone sat in those chairs or not. The shop is not the hard part. The quiet months after it opens are.

@@ -8,6 +8,10 @@ description: GlossGenius or Vagaro: the choice is mostly about how big your busi
 date: 2026-11-04
 pillar: switching
 keywords: glossgenius vs vagaro
+photo: glossgenius-vs-vagaro
+photoAlt: Close-up of a lash artist's hands holding a strip of lashes and tweezers over a client's closed eye.
+photoCredit: RDNE Stock project
+photoCreditUrl: https://www.pexels.com/photo/close-up-shot-of-a-person-holding-a-tweezer-and-false-eyelashes-7755650/
 photoTerms: lash artist working on client salon natural light | salon owner at reception desk with staff | barber shop busy several chairs clients
 status: published
 ---
