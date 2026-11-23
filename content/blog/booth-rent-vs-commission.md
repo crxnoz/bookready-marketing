@@ -8,6 +8,10 @@ description: Booth rent or commission: the exact break-even calculation to run o
 date: 2026-10-29
 pillar: going-solo
 keywords: booth rent vs commission salon
+photo: booth-rent-vs-commission
+photoAlt: A hair stylist in an apron applies color to a client's hair at her station in a salon lined with mirrors.
+photoCredit: cottonbro studio
+photoCreditUrl: https://www.pexels.com/photo/woman-getting-a-haircut-3993320/
 photoTerms: hair stylist own chair salon client | barber shop two barbers working clients | nail tech talking with client at desk
 status: published
 ---

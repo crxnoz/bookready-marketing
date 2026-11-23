@@ -8,8 +8,12 @@ description: When to send the follow up after visit one, what belongs in it, how
 date: 2026-11-23
 pillar: coming-back
 keywords: client follow up message after appointment
+photo: first-visit-follow-up
+photoAlt: A barber trims an older client's hair in a small barbershop while the client sits in a cape facing forward.
+photoCredit: RDNE Stock project
+photoCreditUrl: https://www.pexels.com/photo/a-man-at-a-barber-7697222/
 photoTerms: lash artist checking client lashes in studio | barber on phone between clients in shop | nail technician talking with client at salon desk
-status: draft
+status: published
 ---
 
 The cheapest thing you can do this week is message everybody who came in for the first time last week. One each, the day after, checking the work is sitting right and saying the one thing that keeps it looking good.

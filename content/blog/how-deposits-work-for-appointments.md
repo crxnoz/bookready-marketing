@@ -8,6 +8,10 @@ description: What actually happens to the money when a client pays a deposit: wh
 date: 2026-10-28
 pillar: money
 keywords: how do deposits work for appointments, deposits for hair appointments
+photo: how-deposits-work-for-appointments
+photoAlt: Close-up of a client holding a card over a payment terminal that a professional holds out across a counter.
+photoCredit: Kampus Production
+photoCreditUrl: https://www.pexels.com/photo/person-paying-using-card-8834114/
 photoTerms: nail technician taking card payment from client | hair stylist front desk client paying | lash artist studio consultation with client
 status: published
 ---

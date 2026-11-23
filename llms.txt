@@ -94,6 +94,7 @@ What BKRDY does not have today:
 ## Articles
 
 <!-- blog:start -->
+- [The message to send after a first appointment](https://bkrdy.com/blog/first-visit-follow-up/): When to send the follow up after visit one, what belongs in it, how to ask for a review without breaking Google's rules, and two messages to paste.
 - [How to open a barber shop with no money](https://bkrdy.com/blog/open-a-barber-shop-with-no-money/): You probably should not sign a lease yet. The four rungs from a commission chair to your own shop, and the number that says you are ready to climb.
 - [The hours in your week that are not appointments](https://bkrdy.com/blog/blocking-time-that-is-not-clients/): Ordering, laundry, admin, photos: real work that is nowhere in your calendar, so it happens after the last client or not at all. How to block it.
 - [Vagaro Pro: what it is, and who it is actually for](https://bkrdy.com/blog/vagaro-pro-explained/): Vagaro Pro is the business side of Vagaro: the calendar, payments and client records owners run. What it does, and who it actually suits.
@@ -133,5 +134,4 @@ What BKRDY does not have today:
 - [How to choose a booking app as a solo beauty pro. When it is just you, most of what these apps sell is for somebody else.](https://bkrdy.com/guides/booking-app-for-solo-beauty-pros/): How to pick a booking app as a solo beauty pro: the features that matter when it is just you, an honest look at the options, and what to skip paying for.
 - [Instagram marketing that actually books salon clients](https://bkrdy.com/guides/instagram-marketing-for-salons/): How to turn your salon Instagram into a real booking channel: the bio link flow, the content that converts, and a posting cadence you can keep.
 - [What Does Appointment Frequency Mean for Clients?](https://bkrdy.com/blog/what-does-appointment-frequency-mean-for-clients/): Discover what appointment frequency means for clients and how it affects your beauty results. Learn to optimize your scheduling today!
-- [Client retention strategies that keep your chair full. On purpose.](https://bkrdy.com/guides/client-retention-strategies/): Why keeping a client beats finding one, the rebook-at-checkout habit, the 6-week touch cadence, and the retention metrics that actually predict revenue.
 <!-- blog:end -->

@@ -126,5 +126,45 @@
   "photographerUrl": "https://www.pexels.com/@rdne",
   "url": "https://www.pexels.com/photo/a-woman-using-a-nail-file-while-polishing-nails-of-her-client-7755218/",
   "added": "2026-11-20"
+ },
+ "first-visit-follow-up": {
+  "source": "pexels",
+  "id": "7697222",
+  "photographer": "RDNE Stock project",
+  "photographerUrl": "https://www.pexels.com/@rdne",
+  "url": "https://www.pexels.com/photo/a-man-at-a-barber-7697222/",
+  "added": "2026-11-23"
+ },
+ "glossgenius-vs-square": {
+  "source": "pexels",
+  "id": "7755248",
+  "photographer": "RDNE Stock project",
+  "photographerUrl": "https://www.pexels.com/@rdne",
+  "url": "https://www.pexels.com/photo/woman-in-beige-mesh-top-blouse-smiling-7755248/",
+  "added": "2026-11-23"
+ },
+ "how-far-ahead-to-open-your-books": {
+  "source": "pexels",
+  "id": "4266932",
+  "photographer": "Cedric Fauntleroy",
+  "photographerUrl": "https://www.pexels.com/@cedric-fauntleroy",
+  "url": "https://www.pexels.com/photo/a-woman-talking-to-a-receptionist-4266932/",
+  "added": "2026-11-23"
+ },
+ "how-deposits-work-for-appointments": {
+  "source": "pexels",
+  "id": "8834114",
+  "photographer": "Kampus Production",
+  "photographerUrl": "https://www.pexels.com/@kampus",
+  "url": "https://www.pexels.com/photo/person-paying-using-card-8834114/",
+  "added": "2026-11-23"
+ },
+ "booth-rent-vs-commission": {
+  "source": "pexels",
+  "id": "3993320",
+  "photographer": "cottonbro studio",
+  "photographerUrl": "https://www.pexels.com/@cottonbro",
+  "url": "https://www.pexels.com/photo/woman-getting-a-haircut-3993320/",
+  "added": "2026-11-23"
  }
 }

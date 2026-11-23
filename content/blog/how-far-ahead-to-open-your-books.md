@@ -8,6 +8,10 @@ description: A booking made eight weeks out is a guess. Here is how far ahead to
 date: 2026-10-27
 pillar: the-week
 keywords: salon schedule, how far in advance to book clients
+photo: how-far-ahead-to-open-your-books
+photoAlt: A receptionist holding a tablet talks with a client across a front desk.
+photoCredit: Cedric Fauntleroy
+photoCreditUrl: https://www.pexels.com/photo/a-woman-talking-to-a-receptionist-4266932/
 photoTerms: hair stylist booking next appointment front desk | nail technician talking with client at table | barber shop reception desk client conversation
 status: published
 ---

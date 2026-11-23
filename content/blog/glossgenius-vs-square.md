@@ -8,6 +8,10 @@ description: Which one suits a beauty pro: GlossGenius or Square Appointments. W
 date: 2026-10-26
 pillar: switching
 keywords: glossgenius vs square, glossgenius vs square appointments
+photo: glossgenius-vs-square
+photoAlt: A client smiles across the table at her nail technician during a manicure in a bright nail salon.
+photoCredit: RDNE Stock project
+photoCreditUrl: https://www.pexels.com/photo/woman-in-beige-mesh-top-blouse-smiling-7755248/
 photoTerms: nail technician client manicure salon conversation | barber shop owner taking card payment counter | hair stylist salon reception checking tablet
 status: published
 ---
