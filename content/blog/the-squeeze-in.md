@@ -8,8 +8,12 @@ description: Everybody fits in the odd last minute client and nobody has a rule 
 date: 2026-11-24
 pillar: the-week
 keywords: squeeze in appointment, fitting in a client last minute
+photo: the-squeeze-in
+photoAlt: A salon professional in a white coat talks with a client standing at the front of a bright salon.
+photoCredit: RDNE Stock project
+photoCreditUrl: https://www.pexels.com/photo/woman-in-white-button-up-shirt-standing-beside-white-table-7755658/
 photoTerms: nail technician checking phone between clients salon | barber looking at appointment book shop counter | lash artist talking with client reception desk
-status: draft
+status: published
 ---
 
 Decide this now, while nobody is asking. The squeeze-in is the one appointment you always answer under pressure, with a brush in your other hand, and the answer usually turns on how nicely the person asked rather than what it costs you.
