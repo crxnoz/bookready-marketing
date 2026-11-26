@@ -11,7 +11,7 @@ Nothing is ever published without Luis's approval on the review page.
 ## Where things are
 
 - Repo: `C:\Users\carre\bookready-marketing`. Pushing `main` deploys the live site (Hostinger auto-pulls, live in about a minute). Pages are generated: `node content/blog-tools/build.mjs`.
-- Articles: `content/blog/<key>.md`. Front matter, in this order: `key, section, slug, title, metaTitle, description, date, pillar, keywords, photoTerms, photo, photoAlt, photoCredit, photoCreditUrl, status` (the two credit lines only on a Pexels photo; build.mjs prints them under the photo as "Photo: name on Pexels"). `section` is `blog` or `guides` and decides the URL. `status: draft` never builds; `status: published` builds once `date` has arrived. A post that stops being live has its directory removed on the next build.
+- Articles: `content/blog/<key>.md`. Front matter, in this order: `key, section, slug, title, metaTitle, description, date, pillar, keywords, photoTerms, photo, photoAlt, photoCredit, photoCreditUrl, status, source, sourceId` (the two credit lines only on a Pexels photo; build.mjs prints them under the photo as "Photo: name on Pexels"; `source: blg` and `sourceId` only on an article BabyLoveGrowth wrote, see "BabyLoveGrowth articles"). `section` is `blog` or `guides` and decides the URL. `status: draft` never builds; `status: published` builds once `date` has arrived. A post that stops being live has its directory removed on the next build.
 - **Drafts are not reachable, by design.** `/content/` is 403 in `.htaccess` and disallowed in robots.txt, and every `.md` is 403 as well. A draft also produces no directory, no sitemap entry and no llms.txt line. Three separate things would have to fail for a draft to leak.
 - Review page (private to Luis): https://claude.ai/artifact/QygrGWwPQYo2f5vz5Scmpe . Its database (ArtifactData tool, same URL):
   - `months/<YYYY-MM>`: `{ id, seo: {date, pages, indexable, errors, warnings, items[]}, report: {date, provider, rows: [{term, volume, difficulty, cpc, covered: {key, status, title} | null}]}, gsc: {connected, clicks, impressions, opportunities[]} }`
@@ -31,6 +31,7 @@ Nothing is ever published without Luis's approval on the review page.
   - `blog-seed.mjs <YYYY-MM> <out-dir> [seo.json] [keywords.json] [notes.json] --keys a,b,c` review page documents.
   - `covers.mjs [key ...]` share images. `graphics.mjs [key ...]` in-article graphics.
   - `photos.mjs` adds a licensed photo. `photos-pexels.mjs` finds one on Pexels (`--find <key> <dir>`, a lettered contact sheet) and adds it (`--use <key> <id> "<alt>"`, which runs photos.mjs and writes the credit); `photo-credits.json` records every Pexels photo used, so none is used twice. `PEXELS_API_KEY` is in `.env`. `blog-email.mjs <payload.json>` sends the email.
+  - `blg-intake.mjs` brings BabyLoveGrowth's articles in as drafts (`--list`, `--limit 2`, `--skip <id> "<reason>"`); `blg-skipped.json` is what it was told to leave out. See "BabyLoveGrowth articles".
   - `migrate.mjs` was the one-time import of the hand-written pages. Do not run it again; it reads the public HTML, which the generator now owns.
   - The image scripts need sharp and Chrome: prefix them with `SHARP=C:/Users/carre/bookready-marketing/node_modules/sharp`.
 - **Search Console** needs a service account added as a Restricted user on the bkrdy.com property. Until that is done `gsc.mjs` prints exactly what to do and exits 2. Say so in the email each month until it is connected; do not let it stop the run.
@@ -91,6 +92,8 @@ Let M be the batch name (`YYYY-MM`, the month most of the batch falls in). Every
 1. `git checkout main`, `git pull`. Stop and email Luis if `git diff --stat` shows uncommitted changes you did not make.
 2. Read the review page: ArtifactData `query` on `posts` where `status` is `approved` or `changes`.
 3. For each `changes`: revise the article as the note asks, same rules, keep `status: draft`, and update the document with the new title, description and body, `status: "pending"`, `note: ""`, `revisedFor: <the note>`, `revisedAt: <now>` (pin `if_version`). If the title changed, re-run `covers.mjs <key>`. If the revision changed something a graphic shows, update its entry, re-run `graphics.mjs <key>` and upload the new 720px copy.
+
+   3b. BabyLoveGrowth intake: `node content/blog-tools/blg-intake.mjs --list`. If it names anything new, follow "BabyLoveGrowth articles" below, at most two articles a run. If it names nothing, go on.
 4. For each `approved` whose date has arrived: run `node content/blog-tools/draft-check.mjs --claims <key>`. If it flags anything, do not publish that article; leave it as it is and put it in the email. Otherwise set `status: published` in the Markdown file (keep `date`).
 5. Photos. Take the articles without a `photo:` line in this order: today's article, then live ones, then the next approved drafts by date, and do at most five per run.
    - First `node content/blog-tools/photos.mjs --find <key>`. When it prints a file, Luis saved it: look at it, check it against the art direction, and run `SHARP=… node content/blog-tools/photos.mjs <key> <file> "<alt text>"`.
@@ -100,9 +103,47 @@ Let M be the batch name (`YYYY-MM`, the month most of the batch falls in). Every
 6. `node content/blog-tools/build.mjs` and `node content/blog-tools/seo-check.mjs`. Stop and email Luis if there are errors.
 7. If the build changed any page, commit "Blog: publish <titles>" and push `main`. Wait for the deploy, polling the new URLs until they answer 200, up to five minutes.
 8. For every article now live, update its document: `status: "published"`, `publishedAt`, `url`.
-9. Email Luis only if something was published, revised or got its photo: `blog-email.mjs` with `kind: "published"`. Otherwise send nothing.
+9. Email Luis only if something was published, revised or got its photo: `blog-email.mjs` with `kind: "published"`. Otherwise send nothing. (A BabyLoveGrowth article that was added or skipped has its own email, described below.)
 
 Never publish an article that is not `approved` on the review page. Never change any other site content in these runs. If anything fails, do not push; email Luis what happened and stop.
+
+## BabyLoveGrowth articles (since 2026-11-26)
+
+BabyLoveGrowth (BLG) is a service Luis pays for. It writes an article a day for bkrdy.com from its own content plan, and it runs a backlink exchange: its articles link out to other member sites, and theirs link to bkrdy.com. The exchange only counts an article once it is live on bkrdy.com.
+
+**Luis's decision, 2026-11-26: its articles reach the site only through the review page.** The June and July batch went straight to /blog unread, with the wrong name, wrong prices and features BKRDY does not have, and 13 of those 34 were later folded. So a BLG article is a draft like any other, it is edited to the rules below, and it goes live when Luis approves it.
+
+**Never run `content/babylovegrowth-sync.mjs`.** It is the old publisher. It is retired and now refuses to write, and the daily workflow that called it stays off.
+
+**Intake, step 3b of the publish run.** At most two articles a run, oldest first.
+
+1. `node content/blog-tools/blg-intake.mjs --list` names what BLG holds that is not in `content/blog` yet. The key is `BABYLOVEGROWTH_API_KEY` in `.env`; never print it. With no key the script says so and exits 0: put that in the email and go on.
+2. Before bringing one in, decide whether it should come in at all. Leave it out with `node content/blog-tools/blg-intake.mjs --skip <id> "<the reason, in a sentence>"` when:
+   - an article of ours, live or drafted, already answers the same search (read the `keywords:` lines; two pages competing for one search is why 13 were folded);
+   - the topic can only be written with things BKRDY does not do, or with numbers nobody can verify (what an owner earns, what a salon costs to open with no source);
+   - a link in it points somewhere that has no place on a beauty business's blog (adult, gambling, a competing booking app, a page that does not open). Say which link in the reason.
+   A skipped article never comes back. Luis is told in the email, so he can take the topic out of BLG's plan.
+3. `node content/blog-tools/blg-intake.mjs --limit 2` writes the drafts and prints, for each, the links to other sites it carries. The script only tidies: it takes out BLG's title line, pictures, contents list and "Recommended" list, turns links to bkrdy.com into site paths, writes the name BKRDY and replaces dashes. It checks no claim.
+4. Edit each draft. Every writing rule below applies, with these differences:
+   - **Keep its links to other sites, all of them, exactly as they are.** They are the exchange. Do not remove one, change its address or add another. When a link sits only in BLG's reading list, keep it in a closing `## Further reading` list that holds nothing else.
+   - **Keep its slug and key.** BLG looks for the article at that address to count it as live.
+   - **Take out what the blog does not print**: "Key takeaways", "Why we built BKRDY", the closing pitch, the reading list's plain-text entries, the disclaimer line. The template adds the call to action.
+   - **Check every sentence about BKRDY** against "What BKRDY does and does not do", and every price against `api/config/plans.php`. BLG writes from our marketing pages and from its own guesses: calendar sync, two reminders, confirmation texts, email or text promos and "automated" anything are its usual mistakes. Rewrite the sentence to what is true, or cut it. General advice that names no product can stay general, but do not let "a good booking app does X" stand next to BKRDY when BKRDY does not do X.
+   - **No statistics, percentages, studies or quotes** unless the article links the official source. Cut the number or the sentence.
+   - **No "we", "our" or "us"**, BKRDY named at most twice and never in a heading.
+   - **Add** a `:::answer` block of two or three sentences taken from the article's own answer, a `photoTerms:` line, and a `:::copy` block when the article has something a reader would retype. Check the `pillar:` the script guessed.
+   - **Title** 60 characters or fewer, **description** 120 to 155 with no hype. BLG's descriptions usually need rewriting.
+   - **Length**: cut toward 900 to 1,300 words. Taking out its pitch sections usually gets most of the way.
+   - A list of questions becomes a `## Questions` section, keeping only the ones the page answers in full.
+   - **The date** the script gave stands (the next weekday at least two days out with no other BLG article). It sits beside the day's own article. Never a weekend, and never earlier.
+   - If, once the false and unsourced parts are out, there is no article left, skip it (step 2) and delete the file.
+5. `node content/blog-tools/draft-check.mjs <key>` must show no errors. For a BLG article it also names the sites it links out to and flags any BLG section still in.
+6. Share image: `SHARP=… node content/blog-tools/covers.mjs <key>`, and look at it. BLG's pictures are never used; the article gets its photo the way every other one does (step 5).
+7. Commit the drafts, their share images and `content/blog-tools/blg-skipped.json` when it changed ("Blog drafts from BabyLoveGrowth: <titles>") and push. Drafts do not build, so no live page changes.
+8. Review page: `node content/blog-tools/blog-seed.mjs M <scratch>/seed --keys <keys>`, where M is the batch that already exists on the review page for the article's date (the newest batch when there is none for that month). **Write only the `posts/` documents it made, never the `months/` one**, which would wipe that batch's research. Each post document carries `source: "blg"` and `outside` (the links to other sites), which the review page shows as "From BabyLoveGrowth" and "Links out to". Upload the share image and write `covers/<key>` as in the monthly run.
+9. Email Luis whenever a BLG article was added or skipped: `blog-email.mjs` with `kind: "drafts"`, `subject: "BabyLoveGrowth: N to review"`, the review link, each title with its date, and in `findings` one plain sentence per article naming the sites it links out to and what was changed, plus one per skipped article with its reason and "take this topic out of BabyLoveGrowth's plan".
+
+After Luis approves, it publishes on its date like any other article (step 4, including the claims check). Nothing is sent back to BLG: it finds the live page by itself.
 
 ## Writing rules
 

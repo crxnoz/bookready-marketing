@@ -526,6 +526,16 @@ button.day { cursor: pointer; color: var(--ink); }
     return p.keywords ? '<p class="term">Searches it answers: <b>' + esc(p.keywords) + '</b></p>' : '';
   }
 
+  // A BabyLoveGrowth article links out to other sites in its backlink exchange.
+  // They are named here, as text and not as links, so they are read before the
+  // article is approved.
+  function outsideLine(p) {
+    if (p.source !== 'blg') return '';
+    var hosts = (p.outside || []).map(function (u) { return String(u).replace(/^https?:\/\/(www\.)?/, '').split('/')[0]; })
+      .filter(function (h, i, a) { return h && a.indexOf(h) === i; });
+    return '<p class="term">Links out to: ' + (hosts.length ? hosts.map(function (h) { return '<b>' + esc(h) + '</b>'; }).join(', ') : 'no other site') + '</p>';
+  }
+
   function renderList() {
     var list = $('list'), posts = current();
     list.textContent = '';
@@ -540,10 +550,12 @@ button.day { cursor: pointer; color: var(--ink); }
       card.innerHTML =
         '<div class="cmeta"><span class="pill pill--' + esc(p.status) + '">' + esc(STATUS[p.status] || p.status) + '</span>' +
           '<span>' + esc(dayName(p.date)) + '</span><span>' + esc(PILLARS[p.pillar] || p.pillar || '') + '</span>' +
-          '<span>' + esc((p.words || '?') + ' words') + '</span>' + (p.graphic ? '<span>Graphic</span>' : '') + '</div>' +
+          '<span>' + esc((p.words || '?') + ' words') + '</span>' + (p.graphic ? '<span>Graphic</span>' : '') +
+          (p.source === 'blg' ? '<span>From BabyLoveGrowth</span>' : '') + '</div>' +
         '<h2>' + esc(p.title) + '</h2>' +
         '<p class="cdesc">' + esc(p.desc) + '</p>' +
         keywordLine(p) +
+        outsideLine(p) +
         (p.status === 'changes' && p.note ? '<p class="note">' + esc(p.note) + '</p>' : '') +
         mediaBlock(p) +
         '<div class="actions">' +

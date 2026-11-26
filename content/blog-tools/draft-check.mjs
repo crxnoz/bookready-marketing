@@ -18,8 +18,13 @@ const SRC = join(ROOT, 'content', 'blog');
 const CLAIMS_ONLY = process.argv.includes('--claims');
 const only = new Set(process.argv.slice(2).filter(a => a !== '--claims'));
 
+// `source` and `sourceId` mark an article that BabyLoveGrowth wrote and
+// blg-intake.mjs brought in (blog-loop.md, "BabyLoveGrowth articles").
 const ORDER = ['key', 'section', 'slug', 'title', 'metaTitle', 'description', 'date', 'pillar',
-  'keywords', 'photoTerms', 'photo', 'photoAlt', 'status'];
+  'keywords', 'photoTerms', 'photo', 'photoAlt', 'photoCredit', 'photoCreditUrl', 'status', 'source', 'sourceId'];
+// What a BabyLoveGrowth article arrives with and the blog does not print: its
+// own contents list, its pitch for the product and its reading list.
+const BLG_FURNITURE = /^## (table of contents|key takeaways|why we built .*|recommended|further reading and .*|your .* starts here)\s*$/im;
 const PILLARS = new Set(['switching', 'money', 'coming-back', 'your-site', 'the-week', 'going-solo']);
 // Words that mark the voice the blog does not use.
 // Matched narrowly on purpose: "unlock the door" is a door, and a "robust
@@ -171,7 +176,16 @@ for (const n of files) {
     if (!live.has(href)) E.push(`link to ${href} has no page`);
   }
   const ext = [...body.matchAll(/\]\((https?:\/\/[^)\s]+)\)/g)].map(x => x[1]);
-  if (ext.length > 2) W.push(`${ext.length} external links (two is the limit)`);
+  if (m.source === 'blg') {
+    // Its links to other sites are the backlink exchange: they stay, and Luis
+    // sees them on the review page. What must go is everything it arrived with
+    // that the blog does not print.
+    if (ext.length) W.push(`links out to ${ext.length} other site${ext.length > 1 ? 's' : ''}, kept for the exchange: ${ext.map(u => u.replace(/^https?:\/\/(www\.)?/, '').split('/')[0]).join(', ')}`);
+    const furn = body.match(BLG_FURNITURE);
+    if (furn) E.push(`a BabyLoveGrowth section is still in: "${furn[0].trim()}"`);
+    if (/\b(we|our|us)\b/i.test(body.replace(/^:::copy[\s\S]*?^:::\s*$/gm, '').replace(/"[^"\n]*"/g, ''))) W.push('"we", "our" or "us" is in the copy; the blog has no "we" voice');
+  } else if (ext.length > 2) W.push(`${ext.length} external links (two is the limit)`);
+  if (/\bBkrdy\b|\bBook ?Ready\b/.test(body + m.title + m.description)) E.push('the name is written "Bkrdy" or "BookReady"; it is BKRDY');
   for (const u of ext) {
     if (/booksy|vagaro|glossgenius|styleseat|fresha|squareup|acuityscheduling/i.test(u)) W.push(`external link to a competitor: ${u}`);
   }

@@ -47,6 +47,17 @@ const RENDER_LIMIT = limitArg ? parseInt(limitArg.split('=')[1], 10) : Infinity;
 const DRY = has('--dry-run');
 const FORCE = has('--force');
 
+// RETIRED 2026-11-26. This script put BabyLoveGrowth articles straight onto
+// /blog, unread. Since that day they come in as drafts through
+// content/blog-tools/blg-intake.mjs and go live only when Luis approves them on
+// the review page. It also only looked for blog/<slug>/index.html, so a real
+// run would have put back the 13 articles folded on 2026-11-11. It now refuses
+// to write anything; --dry-run still lists what it would have done.
+if (!DRY) {
+  console.log('BabyLoveGrowth: this script is retired and writes nothing. Use node content/blog-tools/blg-intake.mjs (see content/blog-tools/blog-loop.md, "BabyLoveGrowth articles").');
+  process.exit(0);
+}
+
 if (!API_KEY) {
   // Skip gracefully (exit 0) like the other optional content integrations
   // (Pexels, GSC, Resend) so a missing key never breaks the daily publish

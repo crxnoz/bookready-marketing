@@ -43,6 +43,12 @@ for (const n of readdirSync(SRC).filter(f => f.endsWith('.md'))) {
     photoTerms: (m.photoTerms || '').split('|').map(s => s.trim()).filter(Boolean),
     photoFile: `${m.key}.jpg`,
     graphic: /^!\[/m.test(body),
+    // An article BabyLoveGrowth wrote: the review page says so and lists the
+    // other sites it links to, so Luis sees them before he approves.
+    ...(m.source ? {
+      source: m.source,
+      outside: [...new Set([...body.matchAll(/\]\((https?:\/\/[^)\s]+)\)/g)].map(x => x[1]))],
+    } : {}),
     createdAt: new Date().toISOString(),
   }));
   written.push(id);
